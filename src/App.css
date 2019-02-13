@@ -1,32 +1,211 @@
-.App {
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+main {
+  padding-top: 3rem;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+
+h1 {
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+body{
+  background-size: 21px 21px;
+  background-position: 0 0, 10px 10px;
+  background-color: '#fcfcfc';
+  background-image: linear-gradient(45deg,#efefef 25%,transparent 25%,transparent 75%,#efefef 75%,#efefef),linear-gradient(45deg,#efefef 25%,transparent 25%,transparent 75%,#efefef 75%,#efefef)
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  justify-content: space-around;
+}
+
+/* entire container, keeps perspective */
+.flip-container {
+	perspective: 1000px;
+}
+	/* flip the pane when hovered */
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 220px;
+	height: 220px;
+}
+
+.front figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  text-align: center;
+  margin: auto;
 }
 
-.App-link {
-  color: #61dafb;
+/* flip speed goes here */
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* hide back of pane during swap */
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* front pane, placed above back */
+.front {
+  display:flex;
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+}
+
+/* back, initially hidden pane */
+.back {
+	transform: rotateY(180deg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.back > div {
+  width: 100%;
+  text-align: center;
+  background-color: rgba(255,255,255,0.85);
+  background-size: cover;
+  background-blend-mode: color;
+  padding-bottom: 1rem;
+  background-position: 50% 50%;
+  min-height: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.back ul li {
+  margin-bottom : 7px;
+}
+
+.back small {
+  margin-top: -1.2rem;
+  margin-left: 2.5rem;
+  margin-bottom: 1.2rem;
+}
+
+footer {
+  padding: 7rem 0;
+  text-align: center;
+  font-size: 85%;
+  font-style: italic;
+}
+
+a, a:hover, a:visited, a:active {
+  color: #000;
+}
+
+.colors {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 80%;
+  margin: .5rem 15% 0;
+}
+
+.colors > div {
+  text-align:left;
+}
+
+.color {
+  display: inline-block;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #ccc;
+  vertical-align: midde;
+}
+
+nav {
+  text-align: center;
+  max-width: 90%;
+  margin: 2rem auto 1rem;
+}
+
+button {
+  padding: 10px 20px;
+  border: 0 none;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 3px;
+  border: 2px solid #aaa;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  cursor: pointer;
+  background: rgba(255, 255, 255, .6);
+}
+
+button::before {
+  content: '';
+  display: inline-block;
+  border: 1px solid #aaa;
+  height: 10px;
+  width: 10px;
+  margin-right: 3px;
+  vertical-align: bottom;
+  background: currentColor
+}
+
+button.selected, button:hover {
+  background: white;
+  border-color:#666
+}
+
+button.no-square::before {
+  display: none;
+}
+
+button span {
+  color: black
+}
+
+button:first-of-type {
+  margin-left: 0
+}
+
+button:focus, button:active:focus, button.active:focus {
+  outline: 0 none;
+}
+
+button-primary:active, button-primary.active {
+  box-shadow: none;
 }
