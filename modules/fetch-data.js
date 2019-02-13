@@ -3,7 +3,8 @@ const fetchAdoption = require("./fetch-adoption");
 const fetchRatio = require("./fetch-ratio");
 const fetchName = require("./fetch-name");
 const analyseColours = require("./analyse-colours");
-const tagFlags = require("./tag-flags");
+const tagColours = require("./tag-colours");
+const tagContinents = require("./fetch-continents");
 
 const { consolidate } = require("./helpers");
 
@@ -12,5 +13,6 @@ fetchFlags()
   .then(fetchRatio)
   .then(fetchName)
   .then(analyseColours)
-  .then(tagFlags)
+  .then(tagColours)
+  .then(tagContinents)
   .then(consolidate);
