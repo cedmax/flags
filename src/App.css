@@ -157,7 +157,14 @@ a, a:hover, a:visited, a:active {
 nav {
   text-align: center;
   max-width: 90%;
-  margin: 2rem auto 3rem;
+  margin: 2rem auto 0;
+}
+
+nav hr {border-top: 1px solid #bbb;}
+
+nav + nav { 
+  margin-top: 0;
+  margin-bottom: 3rem
 }
 
 button {
@@ -190,14 +197,14 @@ button.selected, button:hover {
   border-color:#666
 }
 
-button.no-square {
+button.flat {
   border-color: transparent;
   background: transparent;
   display: block;
   margin: auto
 }
 
-button.no-square:hover {
+button.flat:hover {
   text-decoration: underline
 }
 

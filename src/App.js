@@ -13,15 +13,23 @@ class App extends Component {
         return [...new Set(acc)];
       }, [])
       .sort();
+
+    this.state.availableContinents = this.state.allFlags
+      .reduce((acc, flag) => {
+        acc = acc.concat(flag.continents);
+
+        return [...new Set(acc)];
+      }, [])
+      .sort();
   }
   state = {
     allFlags: data,
     filtered: data,
     filters: [],
+    continent: "",
   };
 
-  filterByTag = tag => {
-    const { allFlags } = this.state;
+  filterByColor = tag => {
     let { filters } = this.state;
 
     if (tag) {
@@ -33,6 +41,16 @@ class App extends Component {
     } else {
       filters = [];
     }
+
+    this.setState({ filters }, this.applyFilters);
+  };
+
+  filterByContinent = continent => {
+    this.setState({ continent }, this.applyFilters);
+  };
+
+  applyFilters = () => {
+    const { filters, continent, allFlags } = this.state;
 
     let filtered = !filters.length
       ? allFlags
@@ -52,13 +70,37 @@ class App extends Component {
       });
     }
 
-    this.setState({ filtered, filter: tag, filters });
+    if (continent) {
+      filtered = filtered.filter(flag => flag.continents.includes(continent));
+    }
+
+    this.setState({ filtered });
   };
 
   render() {
     return (
       <main>
         <h1>Flags of the World</h1>
+        <nav>
+          <button
+            className={`no-square${!this.state.continent ? " selected" : ""}`}
+            onClick={() => this.filterByContinent()}
+          >
+            <span>All</span>
+          </button>
+          {this.state.availableContinents.map(continent => (
+            <button
+              className={`no-square${
+                this.state.continent === continent ? " selected" : ""
+              }`}
+              key={continent}
+              onClick={() => this.filterByContinent(continent)}
+            >
+              <span>{continent}</span>
+            </button>
+          ))}
+          <hr />
+        </nav>
         <nav>
           {this.state.availableFilters.map(filter => (
             <button
@@ -67,20 +109,21 @@ class App extends Component {
               }`}
               style={{ color: filter }}
               key={filter}
-              onClick={() => this.filterByTag(filter)}
+              onClick={() => this.filterByColor(filter)}
             >
               <span>{filter}</span>
             </button>
           ))}
           <button
-            className={`no-square${
+            className={`no-square flat${
               !this.state.filters.length ? " hidden" : ""
             }`}
-            onClick={() => this.filterByTag()}
+            onClick={() => this.filterByColor()}
           >
             <span>reset</span>
           </button>
         </nav>
+
         <ul className="list">
           {this.state.filtered.map(flag => {
             const svgUrl = require(`./data/flags/${flag.id}.svg`);
