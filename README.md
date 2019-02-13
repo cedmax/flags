@@ -11,8 +11,8 @@
 
 ## Color Resources
 
-Hue groups => https://www.december.com/html/spec/colorhsltable.html
-Sort Colors => https://www.alanzucconi.com/2015/09/30/colour-sorting/
+- Hue groups => https://www.december.com/html/spec/colorhsltable.html
+- Sort Colors => https://www.alanzucconi.com/2015/09/30/colour-sorting/
 
 ### Further development
 
