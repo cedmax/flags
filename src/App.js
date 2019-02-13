@@ -34,9 +34,23 @@ class App extends Component {
       filters = [];
     }
 
-    const filtered = !filters.length
+    let filtered = !filters.length
       ? allFlags
       : allFlags.filter(({ tags }) => filters.every(tag => tags.includes(tag)));
+
+    if (filters.length === 1) {
+      const filter = filters[0];
+      filtered = filtered.sort((flagA, flagB) => {
+        const colorAToFilter = flagA.colors.find(({ tag }) => tag === filter);
+        const colorBToFilter = flagB.colors.find(({ tag }) => tag === filter);
+        console.log(colorAToFilter);
+        if (colorAToFilter.percent < colorBToFilter.percent) {
+          return 1;
+        } else {
+          return -1;
+        }
+      });
+    }
 
     this.setState({ filtered, filter: tag, filters });
   };
@@ -46,14 +60,6 @@ class App extends Component {
       <main>
         <h1>Flags of the World</h1>
         <nav>
-          <button
-            className={`no-square${
-              !this.state.filters.length ? " selected" : ""
-            }`}
-            onClick={() => this.filterByTag()}
-          >
-            <span>All</span>
-          </button>
           {this.state.availableFilters.map(filter => (
             <button
               className={`${
@@ -66,6 +72,14 @@ class App extends Component {
               <span>{filter}</span>
             </button>
           ))}
+          <button
+            className={`no-square${
+              !this.state.filters.length ? " hidden" : ""
+            }`}
+            onClick={() => this.filterByTag()}
+          >
+            <span>reset</span>
+          </button>
         </nav>
         <ul className="list">
           {this.state.filtered.map(flag => {
