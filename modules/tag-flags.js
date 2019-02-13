@@ -35,7 +35,7 @@ module.exports = flags =>
       );
 
       const colors = flag.colors.map(color => {
-        if (color.percent >= average) {
+        if (color.percent >= average / 2) {
           const { hue, saturation, lightness } = Color.fromCSS(color.hex);
           const tag = classify({ hue, sat: saturation, lgt: lightness });
           tags.push(tag);
