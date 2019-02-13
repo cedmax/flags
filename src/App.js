@@ -6,7 +6,7 @@ class App extends Component {
   constructor(props) {
     super(props);
 
-    this.state.filters = this.state.allFlags
+    this.state.availableFilters = this.state.allFlags
       .reduce((acc, flag) => {
         acc = acc.concat(flag.tags);
 
@@ -17,16 +17,28 @@ class App extends Component {
   state = {
     allFlags: data,
     filtered: data,
-    filter: "",
+    filters: [],
   };
 
   filterByTag = tag => {
     const { allFlags } = this.state;
-    const filtered = !tag
-      ? allFlags
-      : allFlags.filter(({ tags }) => tags.includes(tag));
+    let { filters } = this.state;
 
-    this.setState({ filtered, filter: tag });
+    if (tag) {
+      if (filters.includes(tag)) {
+        filters = filters.filter(filter => filter !== tag);
+      } else {
+        filters.push(tag);
+      }
+    } else {
+      filters = [];
+    }
+
+    const filtered = !filters.length
+      ? allFlags
+      : allFlags.filter(({ tags }) => filters.every(tag => tags.includes(tag)));
+
+    this.setState({ filtered, filter: tag, filters });
   };
 
   render() {
@@ -35,14 +47,18 @@ class App extends Component {
         <h1>Flags of the World</h1>
         <nav>
           <button
-            className={`no-square${!this.state.filter ? " selected" : ""}`}
+            className={`no-square${
+              !this.state.filters.length ? " selected" : ""
+            }`}
             onClick={() => this.filterByTag()}
           >
             <span>All</span>
           </button>
-          {this.state.filters.map(filter => (
+          {this.state.availableFilters.map(filter => (
             <button
-              className={`${this.state.filter === filter ? "selected" : ""}`}
+              className={`${
+                this.state.filters.includes(filter) ? "selected" : ""
+              }`}
               style={{ color: filter }}
               key={filter}
               onClick={() => this.filterByTag(filter)}
