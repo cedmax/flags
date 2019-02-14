@@ -2,6 +2,7 @@
   "name": "flags",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://flags.dsgn.it",
   "devDependencies": {
     "async": "^2.6.1",
     "axios": "^0.18.0",
