@@ -2,6 +2,12 @@ import React, { Component } from "react";
 import "./App.css";
 import data from "./data/flags.json";
 
+const Link = ({ to, children }) => (
+  <a href={to} target="_blank" rel="noopener noreferrer">
+    {children}
+  </a>
+);
+
 class App extends Component {
   constructor(props) {
     super(props);
@@ -232,10 +238,37 @@ class App extends Component {
           })}
         </ul>
         <footer>
-          All the information are from Wikipedia.
+          All the data is from Wikipedia:
+          <br />
+          <Link to="https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags">
+            flags
+          </Link>
+          ,{" "}
+          <Link to="https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_current_flag_adoption">
+            adoption years
+          </Link>
+          ,{" "}
+          <Link to="https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent">
+            per continent
+          </Link>
+          ,{" "}
+          <Link to="https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags">
+            ratios
+          </Link>
+          ,{" "}
+          <Link to="https://en.wikipedia.org/wiki/List_of_flag_names">
+            names
+          </Link>
+          .
+          <br />
+          Anthems from{" "}
+          <Link to="https://open.spotify.com/user/nfrancestates/playlist/7w2g4N2CWWeyysqaxWyLTU?si=xjSJ4nmORo-DOaxfJxfNiQ">
+            Spotify
+          </Link>
+          <br />
           <br />
           Made with <span style={{ color: "#C33" }}>❤</span> by{" "}
-          <a href="https://cedmax.com">cedmax</a>.
+          <Link to="https://cedmax.com">cedmax</Link>.
         </footer>
       </main>
     );
