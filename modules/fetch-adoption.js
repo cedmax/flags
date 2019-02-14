@@ -42,7 +42,6 @@ module.exports = flags =>
             .replace("people's-republic-of-china", "china")
             .replace("republic-of-china-(taiwan)", "taiwan")
             .replace("cote-d'ivoire", "ivory-coast")
-            .replace("swaziland", "eswatini-(swaziland)")
             .replace("micronesia", "federated-states-of-micronesia");
 
           const index = flags.findIndex(flag => {

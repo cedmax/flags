@@ -51,7 +51,10 @@ module.exports = () =>
           2,
           (flag, cb) => {
             const { country, url } = flag;
-            const id = helpers.generateId(country);
+            const id = helpers
+              .generateId(country)
+              .replace("eswatini-(swaziland)", "swaziland");
+
             const file = `${__dirname}/../src/data/flags/${id}.svg`;
 
             if (!fs.existsSync(file)) {
