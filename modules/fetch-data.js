@@ -5,6 +5,7 @@ const fetchName = require("./fetch-name");
 const analyseColours = require("./analyse-colours");
 const tagColours = require("./tag-colours");
 const tagContinents = require("./fetch-continents");
+const fetchAnthems = require("./fetch-anthems");
 
 const { consolidate } = require("./helpers");
 
@@ -15,4 +16,5 @@ fetchFlags()
   .then(analyseColours)
   .then(tagColours)
   .then(tagContinents)
+  .then(fetchAnthems)
   .then(consolidate);

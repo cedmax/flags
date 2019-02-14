@@ -27,6 +27,7 @@ class App extends Component {
     filtered: data,
     filters: [],
     continent: "",
+    active: "",
   };
 
   filterByColor = tag => {
@@ -125,11 +126,14 @@ class App extends Component {
         </nav>
 
         <ul className="list">
-          {this.state.filtered.map(flag => {
+          {this.state.filtered.map((flag, i) => {
             const svgUrl = require(`./data/flags/${flag.id}.svg`);
             return (
               <li key={flag.id}>
-                <div className="flip-container">
+                <div
+                  className="flip-container"
+                  onMouseOver={() => this.setState({ active: i })}
+                >
                   <div className="flipper">
                     <div className="front">
                       <figure>
@@ -147,6 +151,26 @@ class App extends Component {
                           backgroundImage: `url(${svgUrl})`,
                         }}
                       >
+                        <div className="flag-header">
+                          {flag.anthem && (
+                            <div className="iframe-placeholder">
+                              {i === this.state.active && (
+                                <>
+                                  <iframe
+                                    title={flag.country}
+                                    height="80"
+                                    width="80"
+                                    src={`https://open.spotify.com/embed/track/${flag.anthem.replace(
+                                      "spotify:track:",
+                                      ""
+                                    )}`}
+                                  />
+                                  <span>anthem</span>
+                                </>
+                              )}
+                            </div>
+                          )}
+                          <div className="flag-title">
                         <h3>{flag.country}</h3>
                         <small>
                           <a
@@ -160,6 +184,9 @@ class App extends Component {
                             wiki
                           </a>
                         </small>
+                          </div>
+                        </div>
+
                         <ul>
                           {flag.name && (
                             <li>
