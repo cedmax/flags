@@ -34,6 +34,11 @@ class App extends Component {
     filters: [],
     continent: "",
     active: "",
+    q: "",
+  };
+
+  resetFilters = () => {
+    this.setState({ q: "", filters: [] }, this.applyFilters);
   };
 
   filterByColor = tag => {
@@ -45,8 +50,6 @@ class App extends Component {
       } else {
         filters.push(tag);
       }
-    } else {
-      filters = [];
     }
 
     this.setState({ filters }, this.applyFilters);
@@ -56,8 +59,12 @@ class App extends Component {
     this.setState({ continent }, this.applyFilters);
   };
 
+  filterString = q => {
+    this.setState({ q }, this.applyFilters);
+  };
+
   applyFilters = () => {
-    const { filters, continent, allFlags } = this.state;
+    const { filters, continent, allFlags, q } = this.state;
 
     let filtered = !filters.length
       ? allFlags
@@ -68,7 +75,7 @@ class App extends Component {
       filtered = filtered.sort((flagA, flagB) => {
         const colorAToFilter = flagA.colors.find(({ tag }) => tag === filter);
         const colorBToFilter = flagB.colors.find(({ tag }) => tag === filter);
-        console.log(colorAToFilter);
+
         if (colorAToFilter.percent < colorBToFilter.percent) {
           return 1;
         } else {
@@ -79,6 +86,12 @@ class App extends Component {
 
     if (continent) {
       filtered = filtered.filter(flag => flag.continents.includes(continent));
+    }
+
+    if (q) {
+      filtered = filtered.filter(flag =>
+        flag.country.toLowerCase().startsWith(q.toLowerCase())
+      );
     }
 
     this.setState({ filtered });
@@ -106,7 +119,6 @@ class App extends Component {
               <span>{continent}</span>
             </button>
           ))}
-          <hr />
         </nav>
         <nav>
           {this.state.availableFilters.map(filter => (
@@ -121,11 +133,19 @@ class App extends Component {
               <span>{filter}</span>
             </button>
           ))}
+          <div className="search">
+            <span>Filter: </span>{" "}
+            <input
+              type="text"
+              value={this.state.q}
+              onChange={e => this.filterString(e.target.value)}
+            />
+          </div>
           <button
             className={`no-square flat${
-              !this.state.filters.length ? " hidden" : ""
+              !this.state.filters.length && !this.state.q ? " hidden" : ""
             }`}
-            onClick={() => this.filterByColor()}
+            onClick={() => this.resetFilters()}
           >
             <span>reset</span>
           </button>
@@ -177,19 +197,19 @@ class App extends Component {
                             </div>
                           )}
                           <div className="flag-title">
-                        <h3>{flag.country}</h3>
-                        <small>
-                          <a
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            href={`https://en.wikipedia.org/wiki/${flag.country.replace(
-                              /\s/g,
-                              "_"
-                            )}`}
-                          >
-                            wiki
-                          </a>
-                        </small>
+                            <h3>{flag.country}</h3>
+                            <small>
+                              <a
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                href={`https://en.wikipedia.org/wiki/${flag.country.replace(
+                                  /\s/g,
+                                  "_"
+                                )}`}
+                              >
+                                wiki
+                              </a>
+                            </small>
                           </div>
                         </div>
 
