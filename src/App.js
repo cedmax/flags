@@ -89,9 +89,15 @@ class App extends Component {
     }
 
     if (q) {
-      filtered = filtered.filter(flag =>
-        flag.country.toLowerCase().startsWith(q.toLowerCase())
-      );
+      const qF = q.toLowerCase();
+      const matches = ["(", " "].map(sign => sign + qF);
+      filtered = filtered.filter(flag => {
+        const country = flag.country.toLowerCase();
+        return (
+          country.startsWith(qF) ||
+          matches.some(match => country.includes(match))
+        );
+      });
     }
 
     this.setState({ filtered });
