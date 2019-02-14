@@ -9,7 +9,7 @@ body {
 }
 
 main {
-  padding-top: 3rem;
+  padding: 3rem 1rem 0;
 }
 
 code {
@@ -92,6 +92,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 120%;
+  margin-left: -10%;
 }
 
 .back > div {
