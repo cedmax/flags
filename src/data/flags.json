@@ -11,15 +11,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#009900",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#bf0000",
-                "percent": 26
+                "percent": 26,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -46,7 +49,8 @@
         "colors": [
             {
                 "hex": "#e41e20",
-                "percent": 87
+                "percent": 87,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
@@ -70,11 +74,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 48
+                "percent": 48,
+                "tag": "white"
             },
             {
                 "hex": "#006233",
-                "percent": 46
+                "percent": 46,
+                "tag": "green"
             },
             {
                 "hex": "#d21034",
@@ -99,15 +105,18 @@
         "colors": [
             {
                 "hex": "#0018a8",
-                "percent": 32
+                "percent": 32,
+                "tag": "blue"
             },
             {
                 "hex": "#d0103a",
-                "percent": 32
+                "percent": 32,
+                "tag": "red"
             },
             {
                 "hex": "#fedf00",
-                "percent": 27
+                "percent": 27,
+                "tag": "yellow"
             },
             {
                 "hex": "#c7b37f",
@@ -137,11 +146,13 @@
         "colors": [
             {
                 "hex": "#cc092f",
-                "percent": 48
+                "percent": 48,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 47
+                "percent": 47,
+                "tag": "black"
             },
             {
                 "hex": "#ffcb00",
@@ -166,15 +177,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 26
+                "percent": 26,
+                "tag": "black"
             },
             {
                 "hex": "#0072c6",
-                "percent": 11
+                "percent": 11,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
@@ -205,11 +219,13 @@
         "colors": [
             {
                 "hex": "#74acdf",
-                "percent": 66
+                "percent": 66,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -231,15 +247,18 @@
         "colors": [
             {
                 "hex": "#d90012",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#0033a0",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#f2a800",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -262,7 +281,8 @@
         "colors": [
             {
                 "hex": "#012169",
-                "percent": 79
+                "percent": 79,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -291,11 +311,13 @@
         "colors": [
             {
                 "hex": "#ed2939",
-                "percent": 67
+                "percent": 67,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -317,15 +339,18 @@
         "colors": [
             {
                 "hex": "#00b9e4",
-                "percent": 33
+                "percent": 33,
+                "tag": "cyan"
             },
             {
                 "hex": "#3f9c35",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ed2939",
-                "percent": 32
+                "percent": 32,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -351,15 +376,18 @@
         "colors": [
             {
                 "hex": "#00778b",
-                "percent": 57
+                "percent": 57,
+                "tag": "cyan"
             },
             {
                 "hex": "#000000",
-                "percent": 21
+                "percent": 21,
+                "tag": "black"
             },
             {
                 "hex": "#ffc72c",
-                "percent": 21
+                "percent": 21,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -381,11 +409,13 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 68
+                "percent": 68,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 32
+                "percent": 32,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -407,7 +437,8 @@
         "colors": [
             {
                 "hex": "#006a4e",
-                "percent": 79
+                "percent": 79,
+                "tag": "green"
             },
             {
                 "hex": "#f42a41",
@@ -432,11 +463,13 @@
         "colors": [
             {
                 "hex": "#00267f",
-                "percent": 67
+                "percent": 67,
+                "tag": "blue"
             },
             {
                 "hex": "#ffc726",
-                "percent": 29
+                "percent": 29,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
@@ -462,11 +495,13 @@
         "colors": [
             {
                 "hex": "#c8313e",
-                "percent": 64
+                "percent": 64,
+                "tag": "red"
             },
             {
                 "hex": "#4aa657",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -491,15 +526,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#fae042",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#ed2939",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -521,15 +559,18 @@
         "colors": [
             {
                 "hex": "#003f87",
-                "percent": 53
+                "percent": 53,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 19
+                "percent": 19,
+                "tag": "white"
             },
             {
                 "hex": "#ce1126",
-                "percent": 14
+                "percent": 14,
+                "tag": "red"
             },
             {
                 "hex": "#007f00",
@@ -559,15 +600,18 @@
         "colors": [
             {
                 "hex": "#008751",
-                "percent": 40
+                "percent": 40,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
-                "percent": 30
+                "percent": 30,
+                "tag": "yellow"
             },
             {
                 "hex": "#e8112d",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -589,11 +633,13 @@
         "colors": [
             {
                 "hex": "#ffd520",
-                "percent": 44
+                "percent": 44,
+                "tag": "yellow"
             },
             {
                 "hex": "#ff4e12",
-                "percent": 40
+                "percent": 40,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -619,15 +665,18 @@
         "colors": [
             {
                 "hex": "#d52b1e",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#f9e300",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#007934",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -649,11 +698,13 @@
         "colors": [
             {
                 "hex": "#002395",
-                "percent": 70
+                "percent": 70,
+                "tag": "blue"
             },
             {
                 "hex": "#fecb00",
-                "percent": 25
+                "percent": 25,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
@@ -678,11 +729,13 @@
         "colors": [
             {
                 "hex": "#75aadb",
-                "percent": 75
+                "percent": 75,
+                "tag": "cyan"
             },
             {
                 "hex": "#000000",
-                "percent": 17
+                "percent": 17,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
@@ -708,15 +761,18 @@
         "colors": [
             {
                 "hex": "#009b3a",
-                "percent": 68
+                "percent": 68,
+                "tag": "green"
             },
             {
                 "hex": "#fedf00",
-                "percent": 17
+                "percent": 17,
+                "tag": "yellow"
             },
             {
                 "hex": "#002776",
-                "percent": 12
+                "percent": 12,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -742,15 +798,18 @@
         "colors": [
             {
                 "hex": "#f7e017",
-                "percent": 54
+                "percent": 54,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 21
+                "percent": 21,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 17
+                "percent": 17,
+                "tag": "black"
             },
             {
                 "hex": "#cf1126",
@@ -777,15 +836,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#00966e",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#d62612",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -807,11 +869,13 @@
         "colors": [
             {
                 "hex": "#ef2b2d",
-                "percent": 49
+                "percent": 49,
+                "tag": "red"
             },
             {
                 "hex": "#009e49",
-                "percent": 49
+                "percent": 49,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
@@ -836,15 +900,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 34
+                "percent": 34,
+                "tag": "white"
             },
             {
                 "hex": "#1eb53a",
-                "percent": 34
+                "percent": 34,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -866,11 +933,13 @@
         "colors": [
             {
                 "hex": "#032ea1",
-                "percent": 50
+                "percent": 50,
+                "tag": "blue"
             },
             {
                 "hex": "#e00025",
-                "percent": 40
+                "percent": 40,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -895,15 +964,18 @@
         "colors": [
             {
                 "hex": "#fcd116",
-                "percent": 35
+                "percent": 35,
+                "tag": "yellow"
             },
             {
                 "hex": "#007a5e",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 32
+                "percent": 32,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -926,11 +998,13 @@
         "colors": [
             {
                 "hex": "#d52b1e",
-                "percent": 64
+                "percent": 64,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 36
+                "percent": 36,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -951,11 +1025,13 @@
         "colors": [
             {
                 "hex": "#003893",
-                "percent": 74
+                "percent": 74,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 16
+                "percent": 16,
+                "tag": "white"
             },
             {
                 "hex": "#cf2027",
@@ -984,23 +1060,28 @@
         "colors": [
             {
                 "hex": "#ffce00",
-                "percent": 22
+                "percent": 22,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 21
+                "percent": 21,
+                "tag": "white"
             },
             {
                 "hex": "#289728",
-                "percent": 21
+                "percent": 21,
+                "tag": "green"
             },
             {
                 "hex": "#003082",
-                "percent": 20
+                "percent": 20,
+                "tag": "blue"
             },
             {
                 "hex": "#d21034",
-                "percent": 17
+                "percent": 17,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1024,15 +1105,18 @@
         "colors": [
             {
                 "hex": "#002664",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#fecb00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#c60c30",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1055,11 +1139,13 @@
         "colors": [
             {
                 "hex": "#d52b1e",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 34
+                "percent": 34,
+                "tag": "white"
             },
             {
                 "hex": "#0039a6",
@@ -1084,7 +1170,8 @@
         "colors": [
             {
                 "hex": "#de2910",
-                "percent": 97
+                "percent": 97,
+                "tag": "red"
             },
             {
                 "hex": "#ffde00",
@@ -1109,15 +1196,18 @@
         "colors": [
             {
                 "hex": "#fcd116",
-                "percent": 50
+                "percent": 50,
+                "tag": "yellow"
             },
             {
                 "hex": "#003893",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             },
             {
                 "hex": "#ce1126",
-                "percent": 25
+                "percent": 25,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1139,23 +1229,28 @@
         "colors": [
             {
                 "hex": "#ffc61e",
-                "percent": 22
+                "percent": 22,
+                "tag": "yellow"
             },
             {
                 "hex": "#3d8e33",
-                "percent": 22
+                "percent": 22,
+                "tag": "green"
             },
             {
                 "hex": "#3a75c4",
-                "percent": 22
+                "percent": 22,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 19
+                "percent": 19,
+                "tag": "white"
             },
             {
                 "hex": "#ce1126",
-                "percent": 16
+                "percent": 16,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1179,11 +1274,13 @@
         "colors": [
             {
                 "hex": "#007fff",
-                "percent": 67
+                "percent": 67,
+                "tag": "blue"
             },
             {
                 "hex": "#ce1021",
-                "percent": 20
+                "percent": 20,
+                "tag": "red"
             },
             {
                 "hex": "#f7d618",
@@ -1208,15 +1305,18 @@
         "colors": [
             {
                 "hex": "#009543",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#fbde4a",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#dc241f",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1239,15 +1339,18 @@
         "colors": [
             {
                 "hex": "#002b7f",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1270,15 +1373,18 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 34
+                "percent": 34,
+                "tag": "red"
             },
             {
                 "hex": "#171796",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#0093dd",
@@ -1305,15 +1411,18 @@
         "colors": [
             {
                 "hex": "#002a8f",
-                "percent": 49
+                "percent": 49,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#cf142b",
-                "percent": 20
+                "percent": 20,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1335,7 +1444,8 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 89
+                "percent": 89,
+                "tag": "white"
             },
             {
                 "hex": "#d57800",
@@ -1363,15 +1473,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 37
+                "percent": 37,
+                "tag": "white"
             },
             {
                 "hex": "#d7141a",
-                "percent": 37
+                "percent": 37,
+                "tag": "red"
             },
             {
                 "hex": "#11457e",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -1394,7 +1507,8 @@
         "colors": [
             {
                 "hex": "#c60c30",
-                "percent": 76
+                "percent": 76,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -1418,15 +1532,18 @@
         "colors": [
             {
                 "hex": "#6ab2e7",
-                "percent": 35
+                "percent": 35,
+                "tag": "cyan"
             },
             {
                 "hex": "#12ad2b",
-                "percent": 35
+                "percent": 35,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 27
+                "percent": 27,
+                "tag": "white"
             },
             {
                 "hex": "#d7141a",
@@ -1452,7 +1569,8 @@
         "colors": [
             {
                 "hex": "#006b3f",
-                "percent": 65
+                "percent": 65,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
@@ -1488,15 +1606,18 @@
         "colors": [
             {
                 "hex": "#002d62",
-                "percent": 35
+                "percent": 35,
+                "tag": "blue"
             },
             {
                 "hex": "#ce1126",
-                "percent": 35
+                "percent": 35,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 29
+                "percent": 29,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -1518,11 +1639,13 @@
         "colors": [
             {
                 "hex": "#dc241f",
-                "percent": 75
+                "percent": 75,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 15
+                "percent": 15,
+                "tag": "black"
             },
             {
                 "hex": "#ffc726",
@@ -1552,15 +1675,18 @@
         "colors": [
             {
                 "hex": "#ffdd00",
-                "percent": 47
+                "percent": 47,
+                "tag": "yellow"
             },
             {
                 "hex": "#ed1c24",
-                "percent": 26
+                "percent": 26,
+                "tag": "red"
             },
             {
                 "hex": "#034ea2",
-                "percent": 21
+                "percent": 21,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -1582,15 +1708,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#c09300",
@@ -1616,11 +1745,13 @@
         "colors": [
             {
                 "hex": "#0f47af",
-                "percent": 67
+                "percent": 67,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -1641,19 +1772,23 @@
         "colors": [
             {
                 "hex": "#3e9a00",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#e32118",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 25
+                "percent": 25,
+                "tag": "white"
             },
             {
                 "hex": "#0073ce",
-                "percent": 12
+                "percent": 12,
+                "tag": "cyan"
             }
         ],
         "tags": [
@@ -1676,15 +1811,18 @@
         "colors": [
             {
                 "hex": "#ea0437",
-                "percent": 43
+                "percent": 43,
+                "tag": "red"
             },
             {
                 "hex": "#12ad2b",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             },
             {
                 "hex": "#4189dd",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             },
             {
                 "hex": "#ffc726",
@@ -1711,15 +1849,18 @@
         "colors": [
             {
                 "hex": "#0072ce",
-                "percent": 33
+                "percent": 33,
+                "tag": "cyan"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -1741,15 +1882,18 @@
         "colors": [
             {
                 "hex": "#3e5eb9",
-                "percent": 37
+                "percent": 37,
+                "tag": "blue"
             },
             {
                 "hex": "#b10c0c",
-                "percent": 32
+                "percent": 32,
+                "tag": "red"
             },
             {
                 "hex": "#ffd900",
-                "percent": 13
+                "percent": 13,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
@@ -1783,19 +1927,23 @@
         "colors": [
             {
                 "hex": "#078930",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#da121a",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             },
             {
                 "hex": "#fcdd09",
-                "percent": 25
+                "percent": 25,
+                "tag": "yellow"
             },
             {
                 "hex": "#0f47af",
-                "percent": 14
+                "percent": 14,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -1818,15 +1966,18 @@
         "colors": [
             {
                 "hex": "#68bfe5",
-                "percent": 65
+                "percent": 65,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 11
+                "percent": 11,
+                "tag": "white"
             },
             {
                 "hex": "#ce1126",
-                "percent": 9
+                "percent": 9,
+                "tag": "red"
             },
             {
                 "hex": "#002868",
@@ -1861,11 +2012,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 61
+                "percent": 61,
+                "tag": "white"
             },
             {
                 "hex": "#003580",
-                "percent": 39
+                "percent": 39,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -1887,15 +2040,18 @@
         "colors": [
             {
                 "hex": "#002395",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#ed2939",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -1917,15 +2073,18 @@
         "colors": [
             {
                 "hex": "#009e60",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#3a75c4",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -1947,15 +2106,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#3a7728",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#0c1c8c",
-                "percent": 22
+                "percent": 22,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -1982,11 +2144,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 64
+                "percent": 64,
+                "tag": "white"
             },
             {
                 "hex": "#ff0000",
-                "percent": 35
+                "percent": 35,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -2008,15 +2172,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#dd0000",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffce00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -2038,15 +2205,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#006b3f",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
-                "percent": 31
+                "percent": 31,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
@@ -2073,11 +2243,13 @@
         "colors": [
             {
                 "hex": "#0d5eaf",
-                "percent": 56
+                "percent": 56,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 42
+                "percent": 42,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -2098,15 +2270,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 40
+                "percent": 40,
+                "tag": "red"
             },
             {
                 "hex": "#fcd116",
-                "percent": 30
+                "percent": 30,
+                "tag": "yellow"
             },
             {
                 "hex": "#007a5e",
-                "percent": 28
+                "percent": 28,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -2128,11 +2303,13 @@
         "colors": [
             {
                 "hex": "#4997d0",
-                "percent": 67
+                "percent": 67,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 30
+                "percent": 30,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -2153,15 +2330,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#fcd116",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#009460",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -2183,15 +2363,18 @@
         "colors": [
             {
                 "hex": "#fcd116",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#009e49",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 32
+                "percent": 32,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
@@ -2217,15 +2400,18 @@
         "colors": [
             {
                 "hex": "#009e49",
-                "percent": 50
+                "percent": 50,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 19
+                "percent": 19,
+                "tag": "red"
             },
             {
                 "hex": "#fcd116",
-                "percent": 16
+                "percent": 16,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
@@ -2255,11 +2441,13 @@
         "colors": [
             {
                 "hex": "#00209f",
-                "percent": 48
+                "percent": 48,
+                "tag": "blue"
             },
             {
                 "hex": "#d21034",
-                "percent": 48
+                "percent": 48,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -2284,11 +2472,13 @@
         "colors": [
             {
                 "hex": "#0073cf",
-                "percent": 67
+                "percent": 67,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 32
+                "percent": 32,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -2310,15 +2500,18 @@
         "colors": [
             {
                 "hex": "#cd2a3e",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#436f4d",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -2341,11 +2534,13 @@
         "colors": [
             {
                 "hex": "#02529c",
-                "percent": 65
+                "percent": 65,
+                "tag": "cyan"
             },
             {
                 "hex": "#dc1e35",
-                "percent": 18
+                "percent": 18,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -2371,15 +2566,18 @@
         "colors": [
             {
                 "hex": "#ff9933",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#128807",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#000088",
@@ -2406,11 +2604,13 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 50
+                "percent": 50,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -2432,15 +2632,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 36
+                "percent": 36,
+                "tag": "white"
             },
             {
                 "hex": "#da0000",
-                "percent": 31
+                "percent": 31,
+                "tag": "red"
             },
             {
                 "hex": "#239f40",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -2462,15 +2665,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#007a3d",
@@ -2497,15 +2703,18 @@
         "colors": [
             {
                 "hex": "#169b62",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#ff883e",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -2527,11 +2736,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 64
+                "percent": 64,
+                "tag": "white"
             },
             {
                 "hex": "#0038b8",
-                "percent": 35
+                "percent": 35,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -2553,15 +2764,18 @@
         "colors": [
             {
                 "hex": "#009246",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#ce2b37",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -2583,15 +2797,18 @@
         "colors": [
             {
                 "hex": "#f77f00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#009e60",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -2613,15 +2830,18 @@
         "colors": [
             {
                 "hex": "#fed100",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#009b3a",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             }
         ],
         "tags": [
@@ -2644,7 +2864,8 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 81
+                "percent": 81,
+                "tag": "white"
             },
             {
                 "hex": "#bc002d",
@@ -2668,19 +2889,23 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 28
+                "percent": 28,
+                "tag": "black"
             },
             {
                 "hex": "#007a3d",
-                "percent": 28
+                "percent": 28,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 24
+                "percent": 24,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 20
+                "percent": 20,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -2703,7 +2928,8 @@
         "colors": [
             {
                 "hex": "#00afca",
-                "percent": 90
+                "percent": 90,
+                "tag": "cyan"
             },
             {
                 "hex": "#fec50c",
@@ -2727,15 +2953,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 30
+                "percent": 30,
+                "tag": "black"
             },
             {
                 "hex": "#bb0000",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             },
             {
                 "hex": "#006600",
-                "percent": 29
+                "percent": 29,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -2761,15 +2990,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 46
+                "percent": 46,
+                "tag": "red"
             },
             {
                 "hex": "#003f87",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 20
+                "percent": 20,
+                "tag": "white"
             },
             {
                 "hex": "#fcd116",
@@ -2795,11 +3027,13 @@
         "colors": [
             {
                 "hex": "#ed1c27",
-                "percent": 56
+                "percent": 56,
+                "tag": "red"
             },
             {
                 "hex": "#024fa2",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -2825,7 +3059,8 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 78
+                "percent": 78,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
@@ -2858,19 +3093,23 @@
         "colors": [
             {
                 "hex": "#007a3d",
-                "percent": 29
+                "percent": 29,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 29
+                "percent": 29,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 25
+                "percent": 25,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 17
+                "percent": 17,
+                "tag": "black"
             }
         ],
         "tags": [
@@ -2893,7 +3132,8 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 90
+                "percent": 90,
+                "tag": "red"
             },
             {
                 "hex": "#ffff00",
@@ -2918,11 +3158,13 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#002868",
-                "percent": 42
+                "percent": 42,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -2948,7 +3190,8 @@
         "colors": [
             {
                 "hex": "#9e3039",
-                "percent": 80
+                "percent": 80,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -2972,11 +3215,13 @@
         "colors": [
             {
                 "hex": "#ed1c24",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 43
+                "percent": 43,
+                "tag": "white"
             },
             {
                 "hex": "#00a651",
@@ -3001,15 +3246,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 37
+                "percent": 37,
+                "tag": "white"
             },
             {
                 "hex": "#00209f",
-                "percent": 30
+                "percent": 30,
+                "tag": "blue"
             },
             {
                 "hex": "#009543",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#000000",
@@ -3035,11 +3283,13 @@
         "colors": [
             {
                 "hex": "#bf0a30",
-                "percent": 47
+                "percent": 47,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 42
+                "percent": 42,
+                "tag": "white"
             },
             {
                 "hex": "#002868",
@@ -3065,15 +3315,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 49
+                "percent": 49,
+                "tag": "black"
             },
             {
                 "hex": "#e70013",
-                "percent": 25
+                "percent": 25,
+                "tag": "red"
             },
             {
                 "hex": "#239e46",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -3099,11 +3352,13 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#002b7f",
-                "percent": 46
+                "percent": 46,
+                "tag": "blue"
             },
             {
                 "hex": "#ffd83d",
@@ -3133,15 +3388,18 @@
         "colors": [
             {
                 "hex": "#fdb913",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#006a44",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#c1272d",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -3164,15 +3422,18 @@
         "colors": [
             {
                 "hex": "#ed2939",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#00a1de",
-                "percent": 33
+                "percent": 33,
+                "tag": "cyan"
             }
         ],
         "tags": [
@@ -3194,15 +3455,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#fc3d32",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#007e3a",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -3224,15 +3488,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 38
+                "percent": 38,
+                "tag": "red"
             },
             {
                 "hex": "#339e35",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#000000",
-                "percent": 27
+                "percent": 27,
+                "tag": "black"
             }
         ],
         "tags": [
@@ -3255,15 +3522,18 @@
         "colors": [
             {
                 "hex": "#cc0001",
-                "percent": 36
+                "percent": 36,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 36
+                "percent": 36,
+                "tag": "white"
             },
             {
                 "hex": "#010066",
-                "percent": 24
+                "percent": 24,
+                "tag": "blue"
             },
             {
                 "hex": "#ffcc00",
@@ -3289,11 +3559,13 @@
         "colors": [
             {
                 "hex": "#d21034",
-                "percent": 67
+                "percent": 67,
+                "tag": "red"
             },
             {
                 "hex": "#007e3a",
-                "percent": 32
+                "percent": 32,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -3318,15 +3590,18 @@
         "colors": [
             {
                 "hex": "#14b53a",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#fcd116",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -3348,11 +3623,13 @@
         "colors": [
             {
                 "hex": "#cf142b",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 47
+                "percent": 47,
+                "tag": "white"
             },
             {
                 "hex": "#cccccc",
@@ -3377,7 +3654,8 @@
         "colors": [
             {
                 "hex": "#003893",
-                "percent": 74
+                "percent": 74,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -3405,11 +3683,13 @@
         "colors": [
             {
                 "hex": "#00a95c",
-                "percent": 55
+                "percent": 55,
+                "tag": "green"
             },
             {
                 "hex": "#d01c1f",
-                "percent": 40
+                "percent": 40,
+                "tag": "red"
             },
             {
                 "hex": "#ffd700",
@@ -3434,19 +3714,23 @@
         "colors": [
             {
                 "hex": "#ea2839",
-                "percent": 25
+                "percent": 25,
+                "tag": "red"
             },
             {
                 "hex": "#1a206d",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             },
             {
                 "hex": "#ffd500",
-                "percent": 25
+                "percent": 25,
+                "tag": "yellow"
             },
             {
                 "hex": "#00a551",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -3469,15 +3753,18 @@
         "colors": [
             {
                 "hex": "#006847",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 28
+                "percent": 28,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -3499,7 +3786,8 @@
         "colors": [
             {
                 "hex": "#75b2dd",
-                "percent": 97
+                "percent": 97,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
@@ -3523,15 +3811,18 @@
         "colors": [
             {
                 "hex": "#0046ae",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#cc092f",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffd200",
-                "percent": 27
+                "percent": 27,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
@@ -3561,11 +3852,13 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 50
+                "percent": 50,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -3586,11 +3879,13 @@
         "colors": [
             {
                 "hex": "#da2032",
-                "percent": 60
+                "percent": 60,
+                "tag": "red"
             },
             {
                 "hex": "#0066b3",
-                "percent": 33
+                "percent": 33,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffd900",
@@ -3615,7 +3910,8 @@
         "colors": [
             {
                 "hex": "#c40308",
-                "percent": 76
+                "percent": 76,
+                "tag": "red"
             },
             {
                 "hex": "#d3ae3b",
@@ -3643,7 +3939,8 @@
         "colors": [
             {
                 "hex": "#c1272d",
-                "percent": 98
+                "percent": 98,
+                "tag": "red"
             },
             {
                 "hex": "#006233",
@@ -3667,19 +3964,23 @@
         "colors": [
             {
                 "hex": "#fce100",
-                "percent": 28
+                "percent": 28,
+                "tag": "yellow"
             },
             {
                 "hex": "#007168",
-                "percent": 27
+                "percent": 27,
+                "tag": "green"
             },
             {
                 "hex": "#000000",
-                "percent": 21
+                "percent": 21,
+                "tag": "black"
             },
             {
                 "hex": "#d21034",
-                "percent": 18
+                "percent": 18,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -3706,15 +4007,18 @@
         "colors": [
             {
                 "hex": "#fecb00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#ea2839",
-                "percent": 31
+                "percent": 31,
+                "tag": "red"
             },
             {
                 "hex": "#34b233",
-                "percent": 26
+                "percent": 26,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -3740,15 +4044,18 @@
         "colors": [
             {
                 "hex": "#009543",
-                "percent": 32
+                "percent": 32,
+                "tag": "green"
             },
             {
                 "hex": "#003580",
-                "percent": 29
+                "percent": 29,
+                "tag": "blue"
             },
             {
                 "hex": "#d21034",
-                "percent": 28
+                "percent": 28,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -3778,7 +4085,8 @@
         "colors": [
             {
                 "hex": "#002b7f",
-                "percent": 89
+                "percent": 89,
+                "tag": "blue"
             },
             {
                 "hex": "#ffc61e",
@@ -3807,11 +4115,13 @@
         "colors": [
             {
                 "hex": "#dc143c",
-                "percent": 62
+                "percent": 62,
+                "tag": "red"
             },
             {
                 "hex": "#003893",
-                "percent": 23
+                "percent": 23,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -3836,15 +4146,18 @@
         "colors": [
             {
                 "hex": "#ae1c28",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#21468b",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -3867,7 +4180,8 @@
         "colors": [
             {
                 "hex": "#00247d",
-                "percent": 80
+                "percent": 80,
+                "tag": "blue"
             },
             {
                 "hex": "#cc142b",
@@ -3895,11 +4209,13 @@
         "colors": [
             {
                 "hex": "#0067c6",
-                "percent": 67
+                "percent": 67,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffffff",
-                "percent": 32
+                "percent": 32,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -3920,15 +4236,18 @@
         "colors": [
             {
                 "hex": "#e05206",
-                "percent": 39
+                "percent": 39,
+                "tag": "red"
             },
             {
                 "hex": "#0db02b",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 28
+                "percent": 28,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -3950,11 +4269,13 @@
         "colors": [
             {
                 "hex": "#008751",
-                "percent": 67
+                "percent": 67,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -3975,11 +4296,13 @@
         "colors": [
             {
                 "hex": "#d82126",
-                "percent": 67
+                "percent": 67,
+                "tag": "red"
             },
             {
                 "hex": "#f8e92e",
-                "percent": 32
+                "percent": 32,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -4000,15 +4323,18 @@
         "colors": [
             {
                 "hex": "#ef2b2d",
-                "percent": 61
+                "percent": 61,
+                "tag": "red"
             },
             {
                 "hex": "#002868",
-                "percent": 20
+                "percent": 20,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 18
+                "percent": 18,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4031,15 +4357,18 @@
         "colors": [
             {
                 "hex": "#db161b",
-                "percent": 48
+                "percent": 48,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 25
+                "percent": 25,
+                "tag": "white"
             },
             {
                 "hex": "#008000",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -4062,11 +4391,13 @@
         "colors": [
             {
                 "hex": "#01411c",
-                "percent": 69
+                "percent": 69,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4087,7 +4418,8 @@
         "colors": [
             {
                 "hex": "#0099ff",
-                "percent": 82
+                "percent": 82,
+                "tag": "cyan"
             },
             {
                 "hex": "#ffff00",
@@ -4111,19 +4443,23 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 30
+                "percent": 30,
+                "tag": "black"
             },
             {
                 "hex": "#007a3d",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 24
+                "percent": 24,
+                "tag": "white"
             },
             {
                 "hex": "#ce1126",
-                "percent": 17
+                "percent": 17,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -4146,15 +4482,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 47
+                "percent": 47,
+                "tag": "white"
             },
             {
                 "hex": "#d21034",
-                "percent": 26
+                "percent": 26,
+                "tag": "red"
             },
             {
                 "hex": "#005293",
-                "percent": 26
+                "percent": 26,
+                "tag": "cyan"
             }
         ],
         "tags": [
@@ -4176,11 +4515,13 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 48
+                "percent": 48,
+                "tag": "black"
             },
             {
                 "hex": "#ce1126",
-                "percent": 44
+                "percent": 44,
+                "tag": "red"
             },
             {
                 "hex": "#fcd116",
@@ -4209,15 +4550,18 @@
         "colors": [
             {
                 "hex": "#d52b1e",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#0038a8",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 32
+                "percent": 32,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4239,11 +4583,13 @@
         "colors": [
             {
                 "hex": "#d91023",
-                "percent": 67
+                "percent": 67,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4265,15 +4611,18 @@
         "colors": [
             {
                 "hex": "#0038a8",
-                "percent": 39
+                "percent": 39,
+                "tag": "blue"
             },
             {
                 "hex": "#ce1126",
-                "percent": 39
+                "percent": 39,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 17
+                "percent": 17,
+                "tag": "white"
             },
             {
                 "hex": "#fcd116",
@@ -4300,11 +4649,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 50
+                "percent": 50,
+                "tag": "white"
             },
             {
                 "hex": "#dc143c",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -4326,11 +4677,13 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 57
+                "percent": 57,
+                "tag": "red"
             },
             {
                 "hex": "#006600",
-                "percent": 34
+                "percent": 34,
+                "tag": "green"
             },
             {
                 "hex": "#ffff00",
@@ -4360,11 +4713,13 @@
         "colors": [
             {
                 "hex": "#8d1b3d",
-                "percent": 67
+                "percent": 67,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4386,15 +4741,18 @@
         "colors": [
             {
                 "hex": "#002b7f",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#fcd116",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -4417,15 +4775,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#0039a6",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             },
             {
                 "hex": "#d52b1e",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -4447,15 +4808,18 @@
         "colors": [
             {
                 "hex": "#00a1de",
-                "percent": 48
+                "percent": 48,
+                "tag": "cyan"
             },
             {
                 "hex": "#fad201",
-                "percent": 25
+                "percent": 25,
+                "tag": "yellow"
             },
             {
                 "hex": "#20603d",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             },
             {
                 "hex": "#e5be01",
@@ -4481,19 +4845,23 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 29
+                "percent": 29,
+                "tag": "black"
             },
             {
                 "hex": "#009e49",
-                "percent": 28
+                "percent": 28,
+                "tag": "green"
             },
             {
                 "hex": "#ce1126",
-                "percent": 28
+                "percent": 28,
+                "tag": "red"
             },
             {
                 "hex": "#fcd116",
-                "percent": 11
+                "percent": 11,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
@@ -4520,7 +4888,8 @@
         "colors": [
             {
                 "hex": "#66ccff",
-                "percent": 86
+                "percent": 86,
+                "tag": "cyan"
             },
             {
                 "hex": "#fcd116",
@@ -4552,15 +4921,18 @@
         "colors": [
             {
                 "hex": "#fcd116",
-                "percent": 44
+                "percent": 44,
+                "tag": "yellow"
             },
             {
                 "hex": "#009e60",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#0072c6",
-                "percent": 25
+                "percent": 25,
+                "tag": "cyan"
             }
         ],
         "tags": [
@@ -4582,11 +4954,13 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 75
+                "percent": 75,
+                "tag": "red"
             },
             {
                 "hex": "#002b7f",
-                "percent": 24
+                "percent": 24,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -4611,11 +4985,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 45
+                "percent": 45,
+                "tag": "white"
             },
             {
                 "hex": "#5eb6e4",
-                "percent": 44
+                "percent": 44,
+                "tag": "cyan"
             },
             {
                 "hex": "#658d5c",
@@ -4652,15 +5028,18 @@
         "colors": [
             {
                 "hex": "#12ad2b",
-                "percent": 53
+                "percent": 53,
+                "tag": "green"
             },
             {
                 "hex": "#ffce00",
-                "percent": 32
+                "percent": 32,
+                "tag": "yellow"
             },
             {
                 "hex": "#d21034",
-                "percent": 12
+                "percent": 12,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
@@ -4686,7 +5065,8 @@
         "colors": [
             {
                 "hex": "#006c35",
-                "percent": 92
+                "percent": 92,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
@@ -4710,15 +5090,18 @@
         "colors": [
             {
                 "hex": "#00853f",
-                "percent": 35
+                "percent": 35,
+                "tag": "green"
             },
             {
                 "hex": "#e31b23",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#fdef42",
-                "percent": 31
+                "percent": 31,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -4740,15 +5123,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 35
+                "percent": 35,
+                "tag": "white"
             },
             {
                 "hex": "#c6363c",
-                "percent": 34
+                "percent": 34,
+                "tag": "red"
             },
             {
                 "hex": "#0c4076",
-                "percent": 25
+                "percent": 25,
+                "tag": "blue"
             },
             {
                 "hex": "#edb92e",
@@ -4774,23 +5160,28 @@
         "colors": [
             {
                 "hex": "#d62828",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#003f87",
-                "percent": 17
+                "percent": 17,
+                "tag": "blue"
             },
             {
                 "hex": "#007a3d",
-                "percent": 17
+                "percent": 17,
+                "tag": "green"
             },
             {
                 "hex": "#fcd856",
-                "percent": 16
+                "percent": 16,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 16
+                "percent": 16,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4814,15 +5205,18 @@
         "colors": [
             {
                 "hex": "#1eb53a",
-                "percent": 33
+                "percent": 33,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#0072c6",
-                "percent": 33
+                "percent": 33,
+                "tag": "cyan"
             }
         ],
         "tags": [
@@ -4844,11 +5238,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 53
+                "percent": 53,
+                "tag": "white"
             },
             {
                 "hex": "#ed2939",
-                "percent": 47
+                "percent": 47,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -4869,15 +5265,18 @@
         "colors": [
             {
                 "hex": "#ee1c25",
-                "percent": 39
+                "percent": 39,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 34
+                "percent": 34,
+                "tag": "white"
             },
             {
                 "hex": "#0b4ea2",
-                "percent": 27
+                "percent": 27,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -4899,15 +5298,18 @@
         "colors": [
             {
                 "hex": "#0000bf",
-                "percent": 34
+                "percent": 34,
+                "tag": "blue"
             },
             {
                 "hex": "#d50000",
-                "percent": 34
+                "percent": 34,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 32
+                "percent": 32,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -4929,11 +5331,13 @@
         "colors": [
             {
                 "hex": "#215b33",
-                "percent": 45
+                "percent": 45,
+                "tag": "green"
             },
             {
                 "hex": "#0051ba",
-                "percent": 42
+                "percent": 42,
+                "tag": "blue"
             },
             {
                 "hex": "#fcd116",
@@ -4962,7 +5366,8 @@
         "colors": [
             {
                 "hex": "#4189dd",
-                "percent": 96
+                "percent": 96,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -4987,23 +5392,28 @@
         "colors": [
             {
                 "hex": "#007a4d",
-                "percent": 31
+                "percent": 31,
+                "tag": "green"
             },
             {
                 "hex": "#de3831",
-                "percent": 21
+                "percent": 21,
+                "tag": "red"
             },
             {
                 "hex": "#002395",
-                "percent": 21
+                "percent": 21,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
-                "percent": 12
+                "percent": 12,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 9
+                "percent": 9,
+                "tag": "black"
             },
             {
                 "hex": "#ffb612",
@@ -5031,19 +5441,23 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 26
+                "percent": 26,
+                "tag": "black"
             },
             {
                 "hex": "#078930",
-                "percent": 26
+                "percent": 26,
+                "tag": "green"
             },
             {
                 "hex": "#0f47af",
-                "percent": 20
+                "percent": 20,
+                "tag": "blue"
             },
             {
                 "hex": "#da121a",
-                "percent": 19
+                "percent": 19,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5075,11 +5489,13 @@
         "colors": [
             {
                 "hex": "#c60b1e",
-                "percent": 50
+                "percent": 50,
+                "tag": "red"
             },
             {
                 "hex": "#ffc400",
-                "percent": 44
+                "percent": 44,
+                "tag": "yellow"
             },
             {
                 "hex": "#ad1519",
@@ -5108,19 +5524,23 @@
         "colors": [
             {
                 "hex": "#ffbe29",
-                "percent": 40
+                "percent": 40,
+                "tag": "yellow"
             },
             {
                 "hex": "#8d153a",
-                "percent": 34
+                "percent": 34,
+                "tag": "red"
             },
             {
                 "hex": "#00534e",
-                "percent": 11
+                "percent": 11,
+                "tag": "green"
             },
             {
                 "hex": "#eb7400",
-                "percent": 11
+                "percent": 11,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
@@ -5146,19 +5566,23 @@
         "colors": [
             {
                 "hex": "#d21034",
-                "percent": 30
+                "percent": 30,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 30
+                "percent": 30,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 24
+                "percent": 24,
+                "tag": "white"
             },
             {
                 "hex": "#007229",
-                "percent": 17
+                "percent": 17,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -5181,15 +5605,18 @@
         "colors": [
             {
                 "hex": "#377e3f",
-                "percent": 40
+                "percent": 40,
+                "tag": "green"
             },
             {
                 "hex": "#b40a2d",
-                "percent": 37
+                "percent": 37,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 20
+                "percent": 20,
+                "tag": "white"
             },
             {
                 "hex": "#ecc81d",
@@ -5215,11 +5642,13 @@
         "colors": [
             {
                 "hex": "#006aa7",
-                "percent": 70
+                "percent": 70,
+                "tag": "cyan"
             },
             {
                 "hex": "#fecc00",
-                "percent": 30
+                "percent": 30,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -5240,7 +5669,8 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 80
+                "percent": 80,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5265,15 +5695,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 31
+                "percent": 31,
+                "tag": "white"
             },
             {
                 "hex": "#007a3d",
@@ -5299,15 +5732,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 41
+                "percent": 41,
+                "tag": "white"
             },
             {
                 "hex": "#006600",
-                "percent": 29
+                "percent": 29,
+                "tag": "green"
             },
             {
                 "hex": "#cc0000",
-                "percent": 28
+                "percent": 28,
+                "tag": "red"
             },
             {
                 "hex": "#f8c300",
@@ -5333,15 +5769,18 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 30
+                "percent": 30,
+                "tag": "black"
             },
             {
                 "hex": "#1eb53a",
-                "percent": 29
+                "percent": 29,
+                "tag": "green"
             },
             {
                 "hex": "#00a3dd",
-                "percent": 29
+                "percent": 29,
+                "tag": "cyan"
             },
             {
                 "hex": "#fcd116",
@@ -5368,15 +5807,18 @@
         "colors": [
             {
                 "hex": "#a51931",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#f4f5f8",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#2d2a4a",
-                "percent": 33
+                "percent": 33,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -5398,15 +5840,18 @@
         "colors": [
             {
                 "hex": "#006a4e",
-                "percent": 45
+                "percent": 45,
+                "tag": "green"
             },
             {
                 "hex": "#ffce00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#d21034",
-                "percent": 20
+                "percent": 20,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5432,7 +5877,8 @@
         "colors": [
             {
                 "hex": "#c10000",
-                "percent": 83
+                "percent": 83,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5456,11 +5902,13 @@
         "colors": [
             {
                 "hex": "#da1a35",
-                "percent": 69
+                "percent": 69,
+                "tag": "red"
             },
             {
                 "hex": "#000000",
-                "percent": 20
+                "percent": 20,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
@@ -5485,7 +5933,8 @@
         "colors": [
             {
                 "hex": "#e70013",
-                "percent": 90
+                "percent": 90,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5510,7 +5959,8 @@
         "colors": [
             {
                 "hex": "#e30a17",
-                "percent": 94
+                "percent": 94,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5534,7 +5984,8 @@
         "colors": [
             {
                 "hex": "#00843d",
-                "percent": 83
+                "percent": 83,
+                "tag": "green"
             },
             {
                 "hex": "#d22630",
@@ -5566,7 +6017,8 @@
         "colors": [
             {
                 "hex": "#0096c8",
-                "percent": 71
+                "percent": 71,
+                "tag": "cyan"
             },
             {
                 "hex": "#cf142b",
@@ -5602,15 +6054,18 @@
         "colors": [
             {
                 "hex": "#fcdc04",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
-                "percent": 31
+                "percent": 31,
+                "tag": "black"
             },
             {
                 "hex": "#d90000",
-                "percent": 31
+                "percent": 31,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
@@ -5637,11 +6092,13 @@
         "colors": [
             {
                 "hex": "#005bbb",
-                "percent": 50
+                "percent": 50,
+                "tag": "blue"
             },
             {
                 "hex": "#ffd500",
-                "percent": 50
+                "percent": 50,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -5662,19 +6119,23 @@
         "colors": [
             {
                 "hex": "#ff0000",
-                "percent": 25
+                "percent": 25,
+                "tag": "red"
             },
             {
                 "hex": "#00732f",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 25
+                "percent": 25,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 25
+                "percent": 25,
+                "tag": "black"
             }
         ],
         "tags": [
@@ -5707,15 +6168,18 @@
         "colors": [
             {
                 "hex": "#cf142b",
-                "percent": 37
+                "percent": 37,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 34
+                "percent": 34,
+                "tag": "white"
             },
             {
                 "hex": "#00247d",
-                "percent": 28
+                "percent": 28,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -5737,15 +6201,18 @@
         "colors": [
             {
                 "hex": "#b22234",
-                "percent": 42
+                "percent": 42,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 39
+                "percent": 39,
+                "tag": "white"
             },
             {
                 "hex": "#3c3b6e",
-                "percent": 18
+                "percent": 18,
+                "tag": "blue"
             }
         ],
         "tags": [
@@ -5768,11 +6235,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 58
+                "percent": 58,
+                "tag": "white"
             },
             {
                 "hex": "#0038a8",
-                "percent": 36
+                "percent": 36,
+                "tag": "blue"
             },
             {
                 "hex": "#7b3f00",
@@ -5801,15 +6270,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#1eb53a",
-                "percent": 32
+                "percent": 32,
+                "tag": "green"
             },
             {
                 "hex": "#0099b5",
-                "percent": 31
+                "percent": 31,
+                "tag": "cyan"
             },
             {
                 "hex": "#ce1126",
@@ -5835,15 +6307,18 @@
         "colors": [
             {
                 "hex": "#d21034",
-                "percent": 31
+                "percent": 31,
+                "tag": "red"
             },
             {
                 "hex": "#009543",
-                "percent": 31
+                "percent": 31,
+                "tag": "green"
             },
             {
                 "hex": "#000000",
-                "percent": 26
+                "percent": 26,
+                "tag": "black"
             },
             {
                 "hex": "#fdce12",
@@ -5869,11 +6344,13 @@
         "colors": [
             {
                 "hex": "#ffe000",
-                "percent": 51
+                "percent": 51,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 43
+                "percent": 43,
+                "tag": "white"
             },
             {
                 "hex": "#cccccc",
@@ -5899,15 +6376,18 @@
         "colors": [
             {
                 "hex": "#ffcc00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             },
             {
                 "hex": "#cf142b",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#00247d",
-                "percent": 32
+                "percent": 32,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -5934,7 +6414,8 @@
         "colors": [
             {
                 "hex": "#da251d",
-                "percent": 93
+                "percent": 93,
+                "tag": "red"
             },
             {
                 "hex": "#ffff00",
@@ -5958,15 +6439,18 @@
         "colors": [
             {
                 "hex": "#ce1126",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 33
+                "percent": 33,
+                "tag": "black"
             }
         ],
         "tags": [
@@ -5988,7 +6472,8 @@
         "colors": [
             {
                 "hex": "#198a00",
-                "percent": 75
+                "percent": 75,
+                "tag": "green"
             },
             {
                 "hex": "#ef7d00",
@@ -6020,23 +6505,28 @@
         "colors": [
             {
                 "hex": "#006400",
-                "percent": 26
+                "percent": 26,
+                "tag": "green"
             },
             {
                 "hex": "#ffd200",
-                "percent": 23
+                "percent": 23,
+                "tag": "yellow"
             },
             {
                 "hex": "#d40000",
-                "percent": 23
+                "percent": 23,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 13
+                "percent": 13,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 11
+                "percent": 11,
+                "tag": "black"
             },
             {
                 "hex": "#ffcc00",
@@ -6064,11 +6554,13 @@
         "colors": [
             {
                 "hex": "#00993e",
-                "percent": 45
+                "percent": 45,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 38
+                "percent": 38,
+                "tag": "white"
             },
             {
                 "hex": "#c8312a",
@@ -6093,19 +6585,23 @@
         "colors": [
             {
                 "hex": "#d90012",
-                "percent": 28
+                "percent": 28,
+                "tag": "red"
             },
             {
                 "hex": "#0033a0",
-                "percent": 28
+                "percent": 28,
+                "tag": "blue"
             },
             {
                 "hex": "#f2a800",
-                "percent": 28
+                "percent": 28,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 15
+                "percent": 15,
+                "tag": "white"
             }
         ],
         "tags": [
@@ -6127,7 +6623,8 @@
         "colors": [
             {
                 "hex": "#00247d",
-                "percent": 76
+                "percent": 76,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -6155,7 +6652,8 @@
         "colors": [
             {
                 "hex": "#244aa5",
-                "percent": 88
+                "percent": 88,
+                "tag": "blue"
             },
             {
                 "hex": "#d0a650",
@@ -6183,7 +6681,8 @@
         "colors": [
             {
                 "hex": "#fcd116",
-                "percent": 76
+                "percent": 76,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
@@ -6215,11 +6714,13 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 74
+                "percent": 74,
+                "tag": "white"
             },
             {
                 "hex": "#e30a17",
-                "percent": 25
+                "percent": 25,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -6240,19 +6741,23 @@
         "colors": [
             {
                 "hex": "#000000",
-                "percent": 30
+                "percent": 30,
+                "tag": "black"
             },
             {
                 "hex": "#007a3d",
-                "percent": 30
+                "percent": 30,
+                "tag": "green"
             },
             {
                 "hex": "#ffffff",
-                "percent": 23
+                "percent": 23,
+                "tag": "white"
             },
             {
                 "hex": "#c4111b",
-                "percent": 18
+                "percent": 18,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -6274,15 +6779,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 37
+                "percent": 37,
+                "tag": "white"
             },
             {
                 "hex": "#df0000",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#006d21",
-                "percent": 28
+                "percent": 28,
+                "tag": "green"
             }
         ],
         "tags": [
@@ -6303,15 +6811,18 @@
         "colors": [
             {
                 "hex": "#ffffff",
-                "percent": 33
+                "percent": 33,
+                "tag": "white"
             },
             {
                 "hex": "#ff0000",
-                "percent": 33
+                "percent": 33,
+                "tag": "red"
             },
             {
                 "hex": "#ffdf00",
-                "percent": 33
+                "percent": 33,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -6333,11 +6844,13 @@
         "colors": [
             {
                 "hex": "#fe0000",
-                "percent": 75
+                "percent": 75,
+                "tag": "red"
             },
             {
                 "hex": "#000095",
-                "percent": 21
+                "percent": 21,
+                "tag": "blue"
             },
             {
                 "hex": "#ffffff",
@@ -6362,11 +6875,13 @@
         "colors": [
             {
                 "hex": "#de0000",
-                "percent": 74
+                "percent": 74,
+                "tag": "red"
             },
             {
                 "hex": "#068e6b",
-                "percent": 25
+                "percent": 25,
+                "tag": "green"
             }
         ],
         "tags": [

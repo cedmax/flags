@@ -35,16 +35,23 @@ module.exports = flags =>
         }, 0) / flag.colors.length
       );
 
-      flag.colors.forEach(color => {
+      const colors = flag.colors.map(color => {
         if (color.percent >= average / 2) {
           const { hue, saturation, lightness } = Color.fromCSS(color.hex);
           const tag = classify({ hue, sat: saturation, lgt: lightness });
           tags.push(tag);
+          return {
+            ...color,
+            tag,
+          };
+        } else {
+          return color;
         }
       });
 
       results[flag.id] = {
         tags: [...new Set(tags)],
+        colors,
       };
     });
 
