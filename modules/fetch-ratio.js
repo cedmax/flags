@@ -5,13 +5,14 @@ const manualRatio = require("./manual/ratio.json");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step3";
+    const cacheKey = "ratio";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "fetching ratio from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
 
+    let results = {};
     axios
       .get(
         "https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags"
@@ -33,33 +34,25 @@ module.exports = flags =>
             .trim();
 
           if (!linkText.includes("(")) {
-            const countryIdx = flags.findIndex(flag => flag.url === linkUrl);
-            if (countryIdx !== -1) {
+            const found = flags.find(flag => flag.url === linkUrl);
+            if (found) {
               const ratio = $(tdRatio)
                 .html()
                 .replace(/<span(.)+<\/span>/, "")
                 .replace(/ \((.)+/, "")
                 .trim();
 
-              flags.splice(countryIdx, 1, {
-                ...flags[countryIdx],
-                ratio,
-              });
+              results[found.id] = { ratio };
             }
           }
         });
 
-        const allRatio = flags.map(flag => {
-          return manualRatio[flag.id]
-            ? {
-                ...flag,
-                ratio: manualRatio[flag.id],
-              }
-            : flag;
+        Object.keys(manualRatio).forEach(key => {
+          results[key] = { ratio: manualRatio[key] };
         });
 
-        helpers.saveCache(cacheKey, allRatio);
+        helpers.saveCache(cacheKey, results);
         console.log(cacheKey, "fetching ratio");
-        resolve(allRatio);
+        resolve(helpers.merge(flags, results));
       });
   });

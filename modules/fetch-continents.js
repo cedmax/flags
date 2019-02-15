@@ -14,13 +14,14 @@ const validSections = [
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step7";
+    const cacheKey = "continents";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "fetching continents from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
 
+    const results = {};
     axios
       .get(
         "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent"
@@ -65,12 +66,11 @@ module.exports = flags =>
               const index = flags.findIndex(flag => flag.id === id);
 
               if (index !== -1) {
-                flags.splice(index, 1, {
-                  ...flags[index],
+                results[id] = {
                   continents: (flags[index].continents || []).concat([
                     titleContent,
                   ]),
-                });
+                };
               }
             });
           }
@@ -81,21 +81,8 @@ module.exports = flags =>
           }
         });
 
-        return flags;
-      })
-      .then(flags => {
-        flags = flags.map(flag => {
-          if (flag.adoption) {
-            return flag;
-          }
-          const adoption = manualAdoption[flag.id];
-          return {
-            ...flag,
-            adoption,
-          };
-        });
         console.log(cacheKey, "fetching continents");
-        helpers.saveCache(cacheKey, flags);
-        resolve(flags);
+        helpers.saveCache(cacheKey, results);
+        resolve(helpers.merge(flags, results));
       });
   });

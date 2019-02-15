@@ -7,7 +7,7 @@ let map;
 
 module.exports = () =>
   new Promise(resolve => {
-    const cacheKey = "step1";
+    const cacheKey = "flags";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "fetching flags from cache");
@@ -53,7 +53,8 @@ module.exports = () =>
             const { country, url } = flag;
             const id = helpers
               .generateId(country)
-              .replace("eswatini-(swaziland)", "swaziland");
+              .replace("eswatini-(swaziland)", "swaziland")
+              .replace("north-macedonia", "macedonia");
 
             const file = `${__dirname}/../src/data/flags/${id}.svg`;
 

@@ -1,6 +1,5 @@
 const axios = require("axios");
 const async = require("async");
-const fs = require("fs");
 const helpers = require("./helpers");
 
 const tracks = [];
@@ -8,12 +7,13 @@ let next =
   "https://api.spotify.com/v1/playlists/7w2g4N2CWWeyysqaxWyLTU/tracks?offset=0&limit=100&market=GB";
 
 const associateAnthemsToFlags = (flags, tracks, resolve) => {
-  const cacheKey = "step8.1";
+  const cacheKey = "anthems";
   const content = helpers.resolveCache(cacheKey);
   if (content) {
     console.log(cacheKey, "fetching anthems from cache");
-    return resolve(content);
+    return resolve(helpers.merge(flags, content));
   }
+  const results = {};
   tracks.forEach(track => {
     const name = track.name.match(/^[^:[]+/)[0].trim();
     const id = helpers
@@ -32,25 +32,26 @@ const associateAnthemsToFlags = (flags, tracks, resolve) => {
     const index = flags.findIndex(flag => flag.id === id);
 
     if (flags[index] && !flags[index].anthem) {
-      flags.splice(index, 1, {
-        ...flags[index],
+      results[id] = {
         anthem: track.uri,
-      });
+      };
     }
   });
+
   flags.forEach(flag => {
-    if (!flag.anthem) {
-      console.log(flag.id, "unavailable");
+    if (!results[flag.id]) {
+      console.log(" -" , flag.id, "unavailable");
     }
   });
+
   console.log(cacheKey, "fetching anthems");
-  helpers.saveCache(cacheKey, flags);
-  resolve(flags);
+  helpers.saveCache(cacheKey, results);
+  resolve(helpers.merge(flags, results));
 };
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step8";
+    const cacheKey = "spotify";
     const spotifyTracks = helpers.resolveCache(cacheKey);
 
     if (!spotifyTracks) {

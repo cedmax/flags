@@ -18,15 +18,16 @@ const classify = ({ hue, sat, lgt }) => {
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step6";
+    const cacheKey = "color-tagging";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "retrieve tags from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
-
-    const flagsWithTags = flags.map(flag => {
+    const results = {};
+    flags.forEach(flag => {
       const tags = [];
+
       const average = Math.floor(
         flag.colors.reduce((sum, color) => {
           sum = sum + color.percent;
@@ -34,28 +35,20 @@ module.exports = flags =>
         }, 0) / flag.colors.length
       );
 
-      const colors = flag.colors.map(color => {
+      flag.colors.forEach(color => {
         if (color.percent >= average / 2) {
           const { hue, saturation, lightness } = Color.fromCSS(color.hex);
           const tag = classify({ hue, sat: saturation, lgt: lightness });
           tags.push(tag);
-          return {
-            ...color,
-            tag,
-          };
-        } else {
-          return color;
         }
       });
 
-      return {
-        ...flag,
-        colors: colors,
+      results[flag.id] = {
         tags: [...new Set(tags)],
       };
     });
 
-    helpers.saveCache(cacheKey, flagsWithTags);
+    helpers.saveCache(cacheKey, results);
     console.log(cacheKey, "retrieve tags");
-    resolve(flagsWithTags);
+    resolve(helpers.merge(flags, results));
   });

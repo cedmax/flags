@@ -4,19 +4,20 @@ const helpers = require("./helpers");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step4";
+    const cacheKey = "name";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "fetching flag names from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
 
+    const results = {};
     axios
       .get("https://en.wikipedia.org/wiki/List_of_flag_names")
       .then(({ data }) => {
         const $ = cheerio.load(data);
 
-        const namedFlags = flags.map(flag => {
+        flags.forEach(flag => {
           const items = $(`a i`).toArray();
           const match = items.find(item => {
             const url = $(item)
@@ -26,17 +27,15 @@ module.exports = flags =>
             return helpers.cleanUrl(url) === flag.url;
           });
 
-          return match ? { ...flag, name: $(match).text() } : flag;
+          if (match) {
+            results[flag.id] = { name: $(match).text() };
+          }
         });
 
-        const ukIdx = namedFlags.findIndex(({id}) => id ==='united-kingdom');
-        namedFlags.splice(ukIdx, 1, {
-          ...namedFlags[ukIdx],
-          name: 'Union Jack',
-        });
+        results["united-kingdom"] = "Union Jack";
 
-        helpers.saveCache(cacheKey, namedFlags);
+        helpers.saveCache(cacheKey, results);
         console.log(cacheKey, "fetching flag names");
-        resolve(namedFlags);
+        resolve(helpers.merge(flags, results));
       });
   });

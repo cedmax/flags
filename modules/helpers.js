@@ -1,9 +1,14 @@
 const slugify = require("slugify");
 const fs = require("fs");
 
-const getTempFile = key => `${__dirname}/.cache/${key}.json`;
+const getTempFile = key => `${__dirname}/cache/${key}.json`;
 
 module.exports = {
+  merge: (flags, newInfo) =>
+    flags.map(flag => ({
+      ...flag,
+      ...newInfo[flag.id],
+    })),
   resolveCache: key => {
     const tempFile = getTempFile(key);
     if (fs.existsSync(tempFile)) {
@@ -19,7 +24,7 @@ module.exports = {
     new Promise(resolve => {
       fs.writeFileSync(
         `${__dirname}/../src/data/flags.json`,
-        JSON.stringify(data),
+        JSON.stringify(data, null, 4),
         "UTF-8"
       );
       resolve();

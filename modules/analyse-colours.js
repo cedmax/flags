@@ -2,6 +2,7 @@ const async = require("async");
 const helpers = require("./helpers");
 const parse = require("pixelbank");
 const { createCanvas, loadImage } = require("canvas");
+const fs = require("fs");
 
 const rgbToHex = function(rgb) {
   let hex = Number(rgb).toString(16);
@@ -21,72 +22,83 @@ const convertToHex = function(rgb) {
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step5";
+    const cacheKey = "color-analysis";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "retrieve colors from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
 
     async.mapLimit(
       flags,
       3,
       async flag => {
-        const imageData = {};
+        const cacheFile = `${__dirname}/cache/flags/${flag.id}.json`;
+        if (fs.existsSync(cacheFile)) {
+          return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
+        } else {
+          const imageData = {};
 
-        const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
+          const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
 
-        const image = await loadImage(file);
-        const canvas = createCanvas(image.width, image.height);
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-        const pixels = parse(
-          ctx.getImageData(0, 0, canvas.width, canvas.height)
-        );
-        pixels.forEach(p => {
-          const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
-          imageData[key] = (imageData[key] || 0) + 1;
-        });
-        let totalPx = pixels.length;
-
-        if (flag.id === "nepal") {
-          totalPx = totalPx - imageData[`r0g0b0`];
-          delete imageData[`r0g0b0`];
-        }
-
-        const data = Object.keys(imageData)
-          .map(key => {
-            const percent = (imageData[key] * 100) / totalPx;
-
-            if (percent < 0.74) {
-              return null;
-            } else {
-              const hex = convertToHex(key);
-
-              return {
-                hex,
-                percent: Math.round(percent),
-              };
-            }
-          })
-          .filter(color => !!color)
-          .sort((a, b) => {
-            if (a.percent < b.percent) {
-              return 1;
-            } else {
-              return -1;
-            }
+          const image = await loadImage(file);
+          const canvas = createCanvas(image.width, image.height);
+          const ctx = canvas.getContext("2d");
+          ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+          const pixels = parse(
+            ctx.getImageData(0, 0, canvas.width, canvas.height)
+          );
+          pixels.forEach(p => {
+            const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
+            imageData[key] = (imageData[key] || 0) + 1;
           });
-        console.log(flag.country);
-        return {
-          ...flag,
-          colors: data,
-        };
+          let totalPx = pixels.length;
+
+          if (flag.id === "nepal") {
+            totalPx = totalPx - imageData[`r0g0b0`];
+            delete imageData[`r0g0b0`];
+          }
+
+          const data = Object.keys(imageData)
+            .map(key => {
+              const percent = (imageData[key] * 100) / totalPx;
+
+              if (percent < 0.74) {
+                return null;
+              } else {
+                const hex = convertToHex(key);
+
+                return {
+                  hex,
+                  percent: Math.round(percent),
+                };
+              }
+            })
+            .filter(color => !!color)
+            .sort((a, b) => {
+              if (a.percent < b.percent) {
+                return 1;
+              } else {
+                return -1;
+              }
+            });
+          console.log(flag.country);
+          const result = {
+            id: flag.id,
+            colors: data,
+          };
+          fs.writeFileSync(cacheFile, JSON.stringify(result), "UTF-8");
+          return result;
+        }
       },
       (err, result) => {
-        helpers.saveCache(cacheKey, result);
+        const results = result.reduce((acc, { id, colors }) => {
+          acc[id] = { colors };
+          return acc;
+        }, {});
+        helpers.saveCache(cacheKey, results);
         console.log(cacheKey, "retrieve colors");
-        resolve(result);
+        resolve(helpers.merge(flags, results));
       }
     );
   });

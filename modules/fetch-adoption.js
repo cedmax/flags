@@ -5,13 +5,14 @@ const helpers = require("./helpers");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "step2";
+    const cacheKey = "adoption";
     const content = helpers.resolveCache(cacheKey);
     if (content) {
       console.log(cacheKey, "fetching year of adoption from cache");
-      return resolve(content);
+      return resolve(helpers.merge(flags, content));
     }
 
+    const result = {};
     axios
       .get(
         "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_current_flag_adoption"
@@ -48,27 +49,15 @@ module.exports = flags =>
             return flag.id === id;
           });
 
-          flags.splice(index, 1, {
-            ...flags[index],
-            adoption,
-          });
+          if (index !== -1) {
+            result[id] = { adoption };
+          } else {
+            result[id] = { adoption: manualAdoption[id] };
+          }
         });
 
-        return flags;
-      })
-      .then(flags => {
-        flags = flags.map(flag => {
-          if (flag.adoption) {
-            return flag;
-          }
-          const adoption = manualAdoption[flag.id];
-          return {
-            ...flag,
-            adoption,
-          };
-        });
         console.log(cacheKey, "fetching year of adoption");
-        helpers.saveCache(cacheKey, flags);
-        resolve(flags);
+        helpers.saveCache(cacheKey, result);
+        resolve(helpers.merge(flags, result));
       });
   });
