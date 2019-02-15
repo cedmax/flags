@@ -158,6 +158,7 @@
         "id": "antigua-and-barbuda",
         "country": "Antigua and Barbuda",
         "url": "/wiki/flag_of_antigua_and_barbuda",
+        "adoption": "1967",
         "ratio": "2:3",
         "continents": [
             "North America"
@@ -1734,6 +1735,9 @@
         "url": "/wiki/flag_of_eswatini",
         "adoption": "1968",
         "ratio": "2:3",
+        "continents": [
+            "Africa"
+        ],
         "colors": [
             {
                 "hex": "#3e5eb9",
@@ -2205,6 +2209,7 @@
         "id": "guyana",
         "country": "Guyana",
         "url": "/wiki/flag_of_guyana",
+        "adoption": "1966",
         "ratio": "3:5",
         "continents": [
             "South America"
@@ -3964,6 +3969,9 @@
         "url": "/wiki/flag_of_north_macedonia",
         "adoption": "1995",
         "ratio": "1:2",
+        "continents": [
+            "Europe"
+        ],
         "colors": [
             {
                 "hex": "#d82126",
@@ -4095,6 +4103,7 @@
         "id": "state-of-palestine",
         "country": "State of Palestine",
         "url": "/wiki/palestinian_flag",
+        "adoption": "1988",
         "ratio": "1:2",
         "continents": [
             "Asia"
@@ -6047,6 +6056,7 @@
         "id": "abkhazia",
         "country": "Abkhazia",
         "url": "/wiki/flag_of_abkhazia",
+        "adoption": "1992",
         "ratio": "1:2",
         "continents": [
             "Europe"
@@ -6075,6 +6085,7 @@
         "id": "artsakh",
         "country": "Artsakh",
         "url": "/wiki/flag_of_artsakh",
+        "adoption": "1992",
         "ratio": "1:2",
         "continents": [
             "Europe"
@@ -6108,6 +6119,7 @@
         "id": "cook-islands",
         "country": "Cook Islands",
         "url": "/wiki/flag_of_cook_islands",
+        "adoption": "1979",
         "ratio": "1:2",
         "continents": [
             "Oceania"
@@ -6163,6 +6175,7 @@
         "id": "niue",
         "country": "Niue",
         "url": "/wiki/flag_of_niue",
+        "adoption": "1975",
         "ratio": "1:2",
         "continents": [
             "Oceania"
@@ -6194,6 +6207,7 @@
         "id": "turkish-republic-of-northern-cyprus",
         "country": "Turkish Republic of Northern Cyprus",
         "url": "/wiki/flag_of_turkish_republic_of_northern_cyprus",
+        "adoption": "1984",
         "ratio": "2:3",
         "continents": [
             "Europe"
@@ -6218,6 +6232,7 @@
         "id": "sahrawi-arab-democratic-republic",
         "country": "Sahrawi Arab Democratic Republic",
         "url": "/wiki/flag_of_sahrawi_arab_democratic_republic",
+        "adoption": "1976",
         "ratio": "1:2",
         "continents": [
             "Africa"
@@ -6251,6 +6266,7 @@
         "id": "somaliland",
         "country": "Somaliland",
         "url": "/wiki/flag_of_somaliland",
+        "adoption": "1996",
         "ratio": "1:2",
         "continents": [
             "Africa"
@@ -6279,6 +6295,7 @@
         "id": "south-ossetia",
         "country": "South Ossetia",
         "url": "/wiki/flag_of_south_ossetia",
+        "adoption": "1991",
         "ratio": "1:2",
         "continents": [
             "Europe"
@@ -6337,6 +6354,7 @@
         "id": "transnistria",
         "country": "Transnistria",
         "url": "/wiki/flag_of_transnistria",
+        "adoption": "2000",
         "ratio": "1:2",
         "continents": [
             "Europe"

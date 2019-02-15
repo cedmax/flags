@@ -33,7 +33,7 @@ module.exports = flags =>
       flags,
       3,
       async flag => {
-        const cacheFile = `${__dirname}/cache/flags/${flag.id}.json`;
+        const cacheFile = `${__dirname}/.cache/flags/${flag.id}.json`;
         if (fs.existsSync(cacheFile)) {
           return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
         } else {

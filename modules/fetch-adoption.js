@@ -51,11 +51,11 @@ module.exports = flags =>
 
           if (index !== -1) {
             result[id] = { adoption };
-          } else {
-            result[id] = { adoption: manualAdoption[id] };
           }
         });
-
+        Object.keys(manualAdoption).forEach(id => {
+          result[id] = { adoption: manualAdoption[id] };
+        });
         console.log(cacheKey, "fetching year of adoption");
         helpers.saveCache(cacheKey, result);
         resolve(helpers.merge(flags, result));

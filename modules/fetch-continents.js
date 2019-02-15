@@ -45,6 +45,7 @@ module.exports = flags =>
               const country = $(tdCountry)
                 .find("a[href*='/wiki/']")
                 .text()
+                .replace("North Macedonia", "Macedonia")
                 .replace(
                   "Congo, Democratic Republic of the",
                   "Democratic Republic of the Congo"
@@ -52,7 +53,7 @@ module.exports = flags =>
                 .replace("Congo, Republic of the", "Republic of the Congo")
                 .replace("Gambia, The", "Gambia")
                 .replace("Bahamas, The", "Bahamas")
-                .replace("Eswatini", "Eswatini (Swaziland)")
+                .replace("Eswatini", "Swaziland")
                 .replace("Korea, North", "North Korea")
                 .replace("Korea, South", "South Korea")
                 .replace("Palestine", "State of Palestine")
@@ -73,11 +74,6 @@ module.exports = flags =>
                 };
               }
             });
-          }
-        });
-        flags.forEach(flag => {
-          if (!flag.continents) {
-            console.log(flag);
           }
         });
 
