@@ -50,12 +50,12 @@ module.exports = flags =>
         });
 
         const allRatio = flags.map(flag => {
-          return flag.ratio
-            ? flag
-            : {
+          return manualRatio[flag.id]
+            ? {
                 ...flag,
                 ratio: manualRatio[flag.id],
-              };
+              }
+            : flag;
         });
 
         helpers.saveCache(cacheKey, allRatio);
