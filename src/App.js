@@ -35,10 +35,15 @@ class App extends Component {
     continent: "",
     active: "",
     q: "",
+    sortBy: "",
+    sorters: ["name", "adoption", "ratio"],
   };
 
   resetFilters = () => {
-    this.setState({ q: "", filters: [] }, this.applyFilters);
+    this.setState(
+      { q: "", sortBy: "", filters: [], continent: "" },
+      this.applyFilters
+    );
   };
 
   filterByColor = tag => {
@@ -56,7 +61,10 @@ class App extends Component {
   };
 
   filterByContinent = continent => {
-    this.setState({ continent }, this.applyFilters);
+    this.setState(
+      { continent: this.state.continent === continent ? "" : continent },
+      this.applyFilters
+    );
   };
 
   filterString = q => {
@@ -64,19 +72,27 @@ class App extends Component {
   };
 
   applyFilters = () => {
-    const { filters, continent, allFlags, q } = this.state;
+    const { filters, continent, allFlags, sortBy, q } = this.state;
 
     let filtered = !filters.length
-      ? allFlags
+      ? [...allFlags]
       : allFlags.filter(({ tags }) => filters.every(tag => tags.includes(tag)));
 
-    if (filters.length === 1) {
-      const filter = filters[0];
+    if (filters.length && !sortBy) {
       filtered = filtered.sort((flagA, flagB) => {
-        const colorAToFilter = flagA.colors.find(({ tag }) => tag === filter);
-        const colorBToFilter = flagB.colors.find(({ tag }) => tag === filter);
+        const coverageA = filters.reduce((acc, filter) => {
+          const {percent} = flagA.colors.find(({ tag }) => tag === filter);
+          acc += percent;
+          return acc
+        },0);
 
-        if (colorAToFilter.percent < colorBToFilter.percent) {
+        const coverageB = filters.reduce((acc, filter) => {
+          const {percent} = flagB.colors.find(({ tag }) => tag === filter);
+          acc += percent;
+          return acc
+        },0);
+
+        if (coverageA < coverageB) {
           return 1;
         } else {
           return -1;
@@ -100,7 +116,44 @@ class App extends Component {
       });
     }
 
-    this.setState({ filtered });
+    this.setState({ filtered }, this.sort);
+  };
+
+  sortBy = sortBy => {
+    this.setState(
+      { sortBy: this.state.sortBy === sortBy ? "" : sortBy },
+      this.applyFilters
+    );
+  };
+
+  sort = () => {
+    let { filtered, sortBy } = this.state;
+    switch (sortBy) {
+      case "name":
+        filtered = filtered.sort((a, b) =>
+          a.country.toLowerCase().localeCompare(b.country.toLowerCase())
+        );
+        break;
+      case "adoption":
+        filtered = filtered.sort((a, b) => a.adoption - b.adoption);
+        break;
+      case "ratio":
+        filtered = filtered.sort((a, b) => {
+          const aParts = a.ratio.split(":");
+          const aRatio = parseFloat(aParts[0]) / parseFloat(aParts[1]);
+          const bParts = b.ratio.split(":");
+          const bRatio = parseFloat(bParts[0]) / parseFloat(bParts[1]);
+
+          return bRatio - aRatio;
+        });
+        break;
+      default:
+        break;
+    }
+
+    this.setState({
+      filtered,
+    });
   };
 
   render() {
@@ -108,16 +161,33 @@ class App extends Component {
       <main>
         <h1>Flags of the World</h1>
         <nav>
-          <button
-            className={`no-square${!this.state.continent ? " selected" : ""}`}
-            onClick={() => this.filterByContinent()}
-          >
-            <span>All</span>
-          </button>
+          <span>
+            {this.state.sorters.map(sorter => (
+              <button
+                key={sorter}
+                className={`sorter${
+                  this.state.sortBy === sorter ? " selected" : ""
+                }`}
+                type="button"
+                onClick={() => this.sortBy(sorter)}
+              >
+                <span>{sorter}</span>
+              </button>
+            ))}
+          </span>
+          <div className="filters">
+            <span>Filter: </span>{" "}
+            <input
+              type="text"
+              value={this.state.q}
+              onChange={e => this.filterString(e.target.value)}
+            />
+          </div>
+          <br />
           {this.state.availableContinents.map(continent => (
             <button
-              className={`no-square${
-                this.state.continent === continent ? " selected" : ""
+              className={`${
+                this.state.continent === continent ? "selected" : ""
               }`}
               key={continent}
               onClick={() => this.filterByContinent(continent)}
@@ -125,12 +195,11 @@ class App extends Component {
               <span>{continent}</span>
             </button>
           ))}
-        </nav>
-        <nav>
+          <br />
           {this.state.availableFilters.map(filter => (
             <button
-              className={`${
-                this.state.filters.includes(filter) ? "selected" : ""
+              className={`square${
+                this.state.filters.includes(filter) ? " selected" : ""
               }`}
               style={{ color: filter }}
               key={filter}
@@ -139,17 +208,15 @@ class App extends Component {
               <span>{filter}</span>
             </button>
           ))}
-          <div className="search">
-            <span>Filter: </span>{" "}
-            <input
-              type="text"
-              value={this.state.q}
-              onChange={e => this.filterString(e.target.value)}
-            />
-          </div>
+
           <button
-            className={`no-square flat${
-              !this.state.filters.length && !this.state.q ? " hidden" : ""
+            className={`flat${
+              !this.state.filters.length &&
+              !this.state.q &&
+              !this.state.continent &&
+              !this.state.sortBy
+                ? " hidden"
+                : ""
             }`}
             onClick={() => this.resetFilters()}
           >
@@ -170,7 +237,7 @@ class App extends Component {
                     <div className="front">
                       <figure>
                         <img
-                          width={120}
+                          width={150}
                           src={svgUrl}
                           alt={`Flag of ${flag.country}`}
                         />
@@ -233,7 +300,7 @@ class App extends Component {
                             <em>{flag.adoption}</em>
                           </li>
                           <li>
-                            <b>Ratio</b>
+                            <b>Aspect Ratio</b>
                             <br />
                             <em>{flag.ratio}</em>
                           </li>

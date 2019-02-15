@@ -157,16 +157,9 @@ nav {
   max-width: 90%;
   padding: 1rem 0;
   margin: auto;
-  border-bottom: 1px solid #bbb
 }
 
-nav + nav { 
-  margin-top: 0;
-  margin-bottom: 1.5rem;
-  border: 0;
-}
-
-button, .search {
+button, .filters {
   padding: 10px 20px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -184,7 +177,7 @@ button, .search {
   vertical-align: middle;
 }
 
-button::before {
+button.square::before {
   content: '';
   display: inline-block;
   border: 1px solid #aaa;
@@ -202,7 +195,18 @@ button.selected {
 
 button:hover {
   background:rgba(255, 255, 255, .8);
-  border-color:#aaa
+}
+
+button.sorter {
+  display: inline-flex;
+  flex-direction: column;
+  padding-top: 5px;
+  align-items: center;
+}
+button.sorter::before {
+  content: 'sort by';
+  display: block;
+  font-size: 9px;
 }
 
 button.flat {
@@ -259,7 +263,6 @@ button-primary:active, button-primary.active {
 
 .flag-title {
   margin: auto auto 1.2rem;
-  
 }
 
 .iframe-placeholder + .flag-title {
