@@ -3,7 +3,6 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const helpers = require("./helpers");
 const async = require("async");
-let map;
 
 module.exports = () =>
   new Promise(resolve => {
@@ -12,7 +11,7 @@ module.exports = () =>
       .then(({ data }) => {
         const $ = cheerio.load(data);
         const flagContainers = $("li.gallerybox").toArray();
-        map = flagContainers.map(flagContainer => {
+        const map = flagContainers.map(flagContainer => {
           const $flagContainer = $(flagContainer);
           const $link = $flagContainer.find(".gallerytext a");
           const country = $link

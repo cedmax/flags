@@ -7,8 +7,7 @@ let next =
   "https://api.spotify.com/v1/playlists/7w2g4N2CWWeyysqaxWyLTU/tracks?offset=0&limit=100&market=GB";
 
 const associateAnthemsToFlags = (flags, tracks, resolve) => {
-  const results = {};
-  tracks.forEach(track => {
+  const results = tracks.reduce((results, track) => {
     const name = track.name.match(/^[^:[]+/)[0].trim();
     const id = helpers
       .generateId(name)
@@ -30,7 +29,8 @@ const associateAnthemsToFlags = (flags, tracks, resolve) => {
         anthem: track.uri,
       };
     }
-  });
+    return results;
+  }, {});
 
   resolve(results);
 };

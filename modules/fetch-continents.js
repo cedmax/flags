@@ -13,7 +13,6 @@ const validSections = [
 
 module.exports = flags =>
   new Promise(resolve => {
-    const results = {};
     axios
       .get(
         "https://en.wikipedia.org/wiki/List_of_sovereign_states_and_dependent_territories_by_continent"
@@ -21,7 +20,7 @@ module.exports = flags =>
       .then(({ data }) => {
         const $ = cheerio.load(data);
         const sectionTitles = $("h2").toArray();
-        sectionTitles.forEach(title => {
+        const results = sectionTitles.reduce((results, title) => {
           const $title = $(title);
           const titleContent = $title.find(".mw-headline").text();
           if (validSections.includes(titleContent)) {
@@ -67,7 +66,8 @@ module.exports = flags =>
               }
             });
           }
-        });
+          return results;
+        }, {});
 
         resolve(results);
       });

@@ -17,10 +17,8 @@ const classify = ({ hue, sat, lgt }) => {
 
 module.exports = flags =>
   new Promise(resolve => {
-    const results = {};
-    flags.forEach(flag => {
+    const results = flags.reduce((results, flag) => {
       const tags = [];
-
       const average = Math.floor(
         flag.colors.reduce((sum, color) => {
           sum = sum + color.percent;
@@ -46,7 +44,9 @@ module.exports = flags =>
         tags: [...new Set(tags)],
         colors,
       };
-    });
+
+      return results;
+    }, {});
 
     resolve(results);
   });

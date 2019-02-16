@@ -5,7 +5,6 @@ const manualRatio = require("./manual/ratio.json");
 
 module.exports = flags =>
   new Promise(resolve => {
-    let results = {};
     axios
       .get(
         "https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags"
@@ -14,7 +13,7 @@ module.exports = flags =>
         const $ = cheerio.load(data);
         const rows = $(".wikitable tr[id]").toArray();
 
-        rows.forEach(row => {
+        const results = rows.reduce((results, row) => {
           const tds = $(row)
             .find("td")
             .toArray();
@@ -38,7 +37,8 @@ module.exports = flags =>
               results[found.id] = { ratio };
             }
           }
-        });
+          return results;
+        }, {});
 
         Object.keys(manualRatio).forEach(key => {
           results[key] = { ratio: manualRatio[key] };
