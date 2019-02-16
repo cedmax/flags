@@ -4,13 +4,6 @@ const helpers = require("./helpers");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "name";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "fetching flag names from cache");
-      return resolve(helpers.merge(flags, content));
-    }
-
     const results = {};
     axios
       .get("https://en.wikipedia.org/wiki/List_of_flag_names")
@@ -33,9 +26,6 @@ module.exports = flags =>
         });
 
         results["united-kingdom"] = "Union Jack";
-
-        helpers.saveCache(cacheKey, results);
-        console.log(cacheKey, "fetching flag names");
-        resolve(helpers.merge(flags, results));
+        resolve(results);
       });
   });

@@ -1,4 +1,3 @@
-const helpers = require("./helpers");
 const Color = require("color-converter").default;
 
 const classify = ({ hue, sat, lgt }) => {
@@ -18,12 +17,6 @@ const classify = ({ hue, sat, lgt }) => {
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "color-tagging";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "retrieve tags from cache");
-      return resolve(helpers.merge(flags, content));
-    }
     const results = {};
     flags.forEach(flag => {
       const tags = [];
@@ -55,7 +48,5 @@ module.exports = flags =>
       };
     });
 
-    helpers.saveCache(cacheKey, results);
-    console.log(cacheKey, "retrieve tags");
-    resolve(helpers.merge(flags, results));
+    resolve(results);
   });

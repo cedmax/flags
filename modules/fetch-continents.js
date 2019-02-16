@@ -1,6 +1,5 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const manualAdoption = require("./manual/adoption.json");
 const helpers = require("./helpers");
 
 const validSections = [
@@ -14,13 +13,6 @@ const validSections = [
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "continents";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "fetching continents from cache");
-      return resolve(helpers.merge(flags, content));
-    }
-
     const results = {};
     axios
       .get(
@@ -77,8 +69,6 @@ module.exports = flags =>
           }
         });
 
-        console.log(cacheKey, "fetching continents");
-        helpers.saveCache(cacheKey, results);
-        resolve(helpers.merge(flags, results));
+        resolve(results);
       });
   });

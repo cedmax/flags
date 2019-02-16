@@ -2,22 +2,38 @@ const slugify = require("slugify");
 const fs = require("fs");
 
 const getTempFile = key => `${__dirname}/.cache/${key}.json`;
+const resolveCache = key => {
+  const tempFile = getTempFile(key);
+  if (fs.existsSync(tempFile)) {
+    return JSON.parse(fs.readFileSync(tempFile, "UTF-8"));
+  }
+};
+
+const saveCache = (key, result) => {
+  fs.writeFileSync(getTempFile(key), JSON.stringify(result), "UTF-8");
+};
+const merge = (flags, newInfo) =>
+  !flags
+    ? newInfo
+    : flags.map(flag => ({
+        ...flag,
+        ...newInfo[flag.id],
+      }));
 
 module.exports = {
-  merge: (flags, newInfo) =>
-    flags.map(flag => ({
-      ...flag,
-      ...newInfo[flag.id],
-    })),
-  resolveCache: key => {
-    const tempFile = getTempFile(key);
-    if (fs.existsSync(tempFile)) {
-      return JSON.parse(fs.readFileSync(tempFile, "UTF-8"));
-    }
-  },
-  saveCache: (key, result) => {
-    fs.writeFileSync(getTempFile(key), JSON.stringify(result), "UTF-8");
-  },
+  withCache: (dataFetcher, cacheKey) => flags =>
+    new Promise(async resolve => {
+      const content = resolveCache(cacheKey);
+      if (content) {
+        return resolve(merge(flags, content));
+      }
+      const results = await dataFetcher(flags);
+      saveCache(cacheKey, results);
+      return resolve(merge(flags, results));
+    }),
+  merge,
+  resolveCache,
+  saveCache,
   generateId: string => slugify(string).toLowerCase(),
   cleanUrl: string => string.replace("_the_", "_").toLowerCase(),
   consolidate: data =>

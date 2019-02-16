@@ -7,13 +7,6 @@ let map;
 
 module.exports = () =>
   new Promise(resolve => {
-    const cacheKey = "flags";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "fetching flags from cache");
-      return resolve(content);
-    }
-
     axios
       .get("https://en.wikipedia.org/wiki/Gallery_of_sovereign_state_flags")
       .then(({ data }) => {
@@ -80,8 +73,6 @@ module.exports = () =>
             }
           },
           (e, result) => {
-            console.log(cacheKey, "fetching flags");
-            helpers.saveCache(cacheKey, result);
             resolve(result);
           }
         );

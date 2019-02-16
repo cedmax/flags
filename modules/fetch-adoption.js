@@ -5,13 +5,6 @@ const helpers = require("./helpers");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "adoption";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "fetching year of adoption from cache");
-      return resolve(helpers.merge(flags, content));
-    }
-
     const result = {};
     axios
       .get(
@@ -56,8 +49,6 @@ module.exports = flags =>
         Object.keys(manualAdoption).forEach(id => {
           result[id] = { adoption: manualAdoption[id] };
         });
-        console.log(cacheKey, "fetching year of adoption");
-        helpers.saveCache(cacheKey, result);
-        resolve(helpers.merge(flags, result));
+        resolve(result);
       });
   });

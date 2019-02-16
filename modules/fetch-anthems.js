@@ -7,12 +7,6 @@ let next =
   "https://api.spotify.com/v1/playlists/7w2g4N2CWWeyysqaxWyLTU/tracks?offset=0&limit=100&market=GB";
 
 const associateAnthemsToFlags = (flags, tracks, resolve) => {
-  const cacheKey = "anthems";
-  const content = helpers.resolveCache(cacheKey);
-  if (content) {
-    console.log(cacheKey, "fetching anthems from cache");
-    return resolve(helpers.merge(flags, content));
-  }
   const results = {};
   tracks.forEach(track => {
     const name = track.name.match(/^[^:[]+/)[0].trim();
@@ -38,15 +32,7 @@ const associateAnthemsToFlags = (flags, tracks, resolve) => {
     }
   });
 
-  flags.forEach(flag => {
-    if (!results[flag.id]) {
-      console.log(" -" , flag.id, "unavailable");
-    }
-  });
-
-  console.log(cacheKey, "fetching anthems");
-  helpers.saveCache(cacheKey, results);
-  resolve(helpers.merge(flags, results));
+  resolve(results);
 };
 
 module.exports = flags =>

@@ -1,5 +1,4 @@
 const async = require("async");
-const helpers = require("./helpers");
 const parse = require("pixelbank");
 const { createCanvas, loadImage } = require("canvas");
 const fs = require("fs");
@@ -22,13 +21,6 @@ const convertToHex = function(rgb) {
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "color-analysis";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "retrieve colors from cache");
-      return resolve(helpers.merge(flags, content));
-    }
-
     async.mapLimit(
       flags,
       3,
@@ -96,9 +88,7 @@ module.exports = flags =>
           acc[id] = { colors };
           return acc;
         }, {});
-        helpers.saveCache(cacheKey, results);
-        console.log(cacheKey, "retrieve colors");
-        resolve(helpers.merge(flags, results));
+        resolve(results);
       }
     );
   });

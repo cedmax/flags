@@ -5,13 +5,6 @@ const manualRatio = require("./manual/ratio.json");
 
 module.exports = flags =>
   new Promise(resolve => {
-    const cacheKey = "ratio";
-    const content = helpers.resolveCache(cacheKey);
-    if (content) {
-      console.log(cacheKey, "fetching ratio from cache");
-      return resolve(helpers.merge(flags, content));
-    }
-
     let results = {};
     axios
       .get(
@@ -51,8 +44,6 @@ module.exports = flags =>
           results[key] = { ratio: manualRatio[key] };
         });
 
-        helpers.saveCache(cacheKey, results);
-        console.log(cacheKey, "fetching ratio");
-        resolve(helpers.merge(flags, results));
+        resolve(results);
       });
   });
