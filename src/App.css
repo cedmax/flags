@@ -281,4 +281,13 @@ button-primary:active, button-primary.active {
 .controls button, .controls .count {
   margin: 0;
   padding: 0;
+  flex: 30%;
+}
+
+.controls :first-child {
+  text-align: left;
+}
+
+.controls :last-child {
+  text-align: right;
 }

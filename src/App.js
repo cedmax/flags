@@ -215,8 +215,8 @@ class App extends Component {
             </button>
           ))}
 
-          <div class="controls">
-            <h4 className="count">{this.state.filtered.length} flags</h4>
+          <div className="controls">
+            <h3 className="count">{this.state.filtered.length} flags</h3>
             <button
               className={`flat${
                 !this.state.filters.length &&
