@@ -458,11 +458,11 @@ class App extends Component {
               src={require(`./data/flags/${this.state.detail.id}.svg`)}
               alt={`Flag of ${this.state.detail.country}`}
             />
-            <div class="zoom-controls">
+            <div className="zoom-controls">
               <button onClick={() => this.navigate(-1)}>
                 <span>prev</span>
               </button>
-              <h2>{this.state.detail.country}</h2>
+              <h3>{this.state.detail.country}</h3>
               <button onClick={() => this.navigate(1)}>
                 <span>next</span>
               </button>

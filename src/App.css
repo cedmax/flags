@@ -305,12 +305,16 @@ img {
 .zoom-controls {
   position: absolute;
   bottom: 0;
-  transform: translateY(120%);
+  transform: translate3d(-50%, 120%, 0);
   display: flex;
   justify-content: space-between;
-  width: 100%
+  align-items: center;
+  width: auto;
+  left: 50%;
 }
 
-.zoom-controls h2 {
-  margin: 0
+.zoom-controls h3 {
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
 }
