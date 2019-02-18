@@ -26,13 +26,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "black",
             "green",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:08XkdgPaF2ByiQX8SzRlH1"
     },
@@ -54,11 +56,13 @@
             },
             {
                 "hex": "#000000",
-                "percent": 12
+                "percent": 12,
+                "tag": "black"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "black"
         ],
         "anthem": "spotify:track:0J7T6WhEvtTTqvx4RRjpbq"
     },
@@ -84,12 +88,14 @@
             },
             {
                 "hex": "#d21034",
-                "percent": 6
+                "percent": 6,
+                "tag": "red"
             }
         ],
         "tags": [
             "white",
-            "green"
+            "green",
+            "red"
         ],
         "anthem": "spotify:track:6yrztiut8FZGfeQQ3iqEBI"
     },
@@ -120,11 +126,13 @@
             },
             {
                 "hex": "#c7b37f",
-                "percent": 4
+                "percent": 4,
+                "tag": "yellow"
             },
             {
                 "hex": "#d52b1e",
-                "percent": 1
+                "percent": 1,
+                "tag": "red"
             }
         ],
         "tags": [
@@ -156,12 +164,14 @@
             },
             {
                 "hex": "#ffcb00",
-                "percent": 4
+                "percent": 4,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
-            "black"
+            "black",
+            "yellow"
         ],
         "anthem": "spotify:track:7hrCjUIObTQcDhUe4GzkCI"
     },
@@ -192,17 +202,21 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             },
             {
                 "hex": "#fcd116",
-                "percent": 5
+                "percent": 5,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "black",
-            "cyan"
+            "cyan",
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:2NRcoBALzgXdKm8OeBzJtV"
     },
@@ -286,15 +300,19 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 11
+                "percent": 11,
+                "tag": "white"
             },
             {
                 "hex": "#e4002b",
-                "percent": 9
+                "percent": 9,
+                "tag": "red"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "white",
+            "red"
         ],
         "anthem": "spotify:track:6GuOuwFPKE4ciHXFJK4nN9"
     },
@@ -354,13 +372,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "cyan",
             "green",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:4J4yyHvGWr3EGCf8YN1ttN"
     },
@@ -442,11 +462,13 @@
             },
             {
                 "hex": "#f42a41",
-                "percent": 21
+                "percent": 21,
+                "tag": "red"
             }
         ],
         "tags": [
-            "green"
+            "green",
+            "red"
         ],
         "anthem": "spotify:track:6Wr2A1s7nvzTqANgksgDxt"
     },
@@ -473,12 +495,14 @@
             },
             {
                 "hex": "#000000",
-                "percent": 4
+                "percent": 4,
+                "tag": "black"
             }
         ],
         "tags": [
             "blue",
-            "yellow"
+            "yellow",
+            "black"
         ],
         "anthem": "spotify:track:4byxcbvhmFOdPZ7kb34iUf"
     },
@@ -505,12 +529,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 5
+                "percent": 5,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:6LF0Strh2KeAH9IhTbiZ1J"
     },
@@ -574,17 +600,20 @@
             },
             {
                 "hex": "#007f00",
-                "percent": 2
+                "percent": 2,
+                "tag": "green"
             },
             {
                 "hex": "#289400",
-                "percent": 1
+                "percent": 1,
+                "tag": "green"
             }
         ],
         "tags": [
             "blue",
             "white",
-            "red"
+            "red",
+            "green"
         ],
         "anthem": "spotify:track:2KuAxqFIaj3IUCapI3ZVwe"
     },
@@ -643,12 +672,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 11
+                "percent": 11,
+                "tag": "white"
             }
         ],
         "tags": [
             "yellow",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:6n28Uuqq0oP4Dv4ekTXcBI"
     },
@@ -708,12 +739,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 4
+                "percent": 4,
+                "tag": "white"
             }
         ],
         "tags": [
             "blue",
-            "yellow"
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:22ZfVFQfFCgy5bJcpbZ0qi"
     },
@@ -739,12 +772,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             }
         ],
         "tags": [
             "cyan",
-            "black"
+            "black",
+            "white"
         ],
         "anthem": "spotify:track:7bc84oCI9dwdNb9zMAx1Lk"
     },
@@ -776,13 +811,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
             "green",
             "yellow",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:6ZxDJsahi2npA46QlpA2H4"
     },
@@ -813,13 +850,15 @@
             },
             {
                 "hex": "#cf1126",
-                "percent": 5
+                "percent": 5,
+                "tag": "red"
             }
         ],
         "tags": [
             "yellow",
             "white",
-            "black"
+            "black",
+            "red"
         ],
         "anthem": "spotify:track:5hF1YJIt7VrpAvSifRpMyp"
     },
@@ -879,12 +918,14 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
-            "green"
+            "green",
+            "yellow"
         ],
         "anthem": "spotify:track:3hDVaDXftzD1Fv1y9gXsHT"
     },
@@ -943,12 +984,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 6
+                "percent": 6,
+                "tag": "white"
             }
         ],
         "tags": [
             "blue",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:6Haub5PZcsHgTzhRHG99oZ"
     },
@@ -1035,16 +1078,20 @@
             },
             {
                 "hex": "#cf2027",
-                "percent": 8
+                "percent": 8,
+                "tag": "red"
             },
             {
                 "hex": "#f7d116",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "blue",
-            "white"
+            "white",
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:5NsdsCc04y0ZmBZrrN58fz"
     },
@@ -1149,12 +1196,14 @@
             },
             {
                 "hex": "#0039a6",
-                "percent": 15
+                "percent": 15,
+                "tag": "blue"
             }
         ],
         "tags": [
             "red",
-            "white"
+            "white",
+            "blue"
         ],
         "anthem": "spotify:track:2jAbQRc92My1NhmBpsaYrH"
     },
@@ -1175,11 +1224,13 @@
             },
             {
                 "hex": "#ffde00",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:0Jy4t3XLkajj3JDrmhxqqm"
     },
@@ -1284,12 +1335,14 @@
             },
             {
                 "hex": "#f7d618",
-                "percent": 12
+                "percent": 12,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "blue",
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:6SWvbMv2tZncCOy1Hg4XNQ"
     },
@@ -1388,13 +1441,15 @@
             },
             {
                 "hex": "#0093dd",
-                "percent": 1
+                "percent": 1,
+                "tag": "cyan"
             }
         ],
         "tags": [
             "red",
             "blue",
-            "white"
+            "white",
+            "cyan"
         ],
         "anthem": "spotify:track:29sHwMRXjZWYj2FwA8rYff"
     },
@@ -1449,15 +1504,18 @@
             },
             {
                 "hex": "#d57800",
-                "percent": 9
+                "percent": 9,
+                "tag": "yellow"
             },
             {
                 "hex": "#4e5b31",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "white"
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:7aSIXDUWbYq3EQZjEccnkY"
     },
@@ -1512,11 +1570,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 24
+                "percent": 24,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:3nIddBYCYMOB1Xt6ikJOFp"
     },
@@ -1547,13 +1607,15 @@
             },
             {
                 "hex": "#d7141a",
-                "percent": 1
+                "percent": 1,
+                "tag": "red"
             }
         ],
         "tags": [
             "cyan",
             "green",
-            "white"
+            "white",
+            "red"
         ],
         "anthem": "spotify:track:7oXR139jElOIGgJ3siUD5o"
     },
@@ -1574,23 +1636,31 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 9
+                "percent": 9,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 9
+                "percent": 9,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 8
+                "percent": 8,
+                "tag": "black"
             },
             {
                 "hex": "#d41c30",
-                "percent": 8
+                "percent": 8,
+                "tag": "red"
             }
         ],
         "tags": [
-            "green"
+            "green",
+            "yellow",
+            "white",
+            "black",
+            "red"
         ],
         "anthem": "spotify:track:7M6cIe977NVY2op2Hhe1Mk"
     },
@@ -1649,16 +1719,20 @@
             },
             {
                 "hex": "#ffc726",
-                "percent": 8
+                "percent": 8,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "black"
+            "black",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:2ChEawGRF0D5PP3sorx95p"
     },
@@ -1723,13 +1797,15 @@
             },
             {
                 "hex": "#c09300",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "black",
-            "white"
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:1LSmDgMrjDJRYS3sju3X9Q"
     },
@@ -1826,13 +1902,15 @@
             },
             {
                 "hex": "#ffc726",
-                "percent": 6
+                "percent": 6,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "green",
-            "blue"
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:4c9Kt9NDrVoYkZqEV5kqez"
     },
@@ -1897,21 +1975,26 @@
             },
             {
                 "hex": "#000000",
-                "percent": 6
+                "percent": 6,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 6
+                "percent": 6,
+                "tag": "white"
             },
             {
                 "hex": "#3d5da7",
-                "percent": 1
+                "percent": 1,
+                "tag": "blue"
             }
         ],
         "tags": [
             "blue",
             "red",
-            "yellow"
+            "yellow",
+            "black",
+            "white"
         ],
         "anthem": "spotify:track:7E5rvAqMVBFdliDoChKcFR"
     },
@@ -1981,21 +2064,26 @@
             },
             {
                 "hex": "#002868",
-                "percent": 7
+                "percent": 7,
+                "tag": "blue"
             },
             {
                 "hex": "#d21034",
-                "percent": 3
+                "percent": 3,
+                "tag": "red"
             },
             {
                 "hex": "#ffd100",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "cyan",
             "white",
-            "red"
+            "red",
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:3h5iUCG7xK78XOM5uY9Mr6"
     },
@@ -2121,13 +2209,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 11
+                "percent": 11,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
             "green",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:0Mz1hdObfCn0cJvaGTrmJ4"
     },
@@ -2220,13 +2310,15 @@
             },
             {
                 "hex": "#000000",
-                "percent": 2
+                "percent": 2,
+                "tag": "black"
             }
         ],
         "tags": [
             "red",
             "green",
-            "yellow"
+            "yellow",
+            "black"
         ],
         "anthem": "spotify:track:5QkDamosnSLX03ZC8zX7aq"
     },
@@ -2378,13 +2470,15 @@
             },
             {
                 "hex": "#000000",
-                "percent": 1
+                "percent": 1,
+                "tag": "black"
             }
         ],
         "tags": [
             "yellow",
             "green",
-            "red"
+            "red",
+            "black"
         ],
         "anthem": "spotify:track:1q8StpblRyFqh1EPZgcLZa"
     },
@@ -2415,17 +2509,21 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 7
+                "percent": 7,
+                "tag": "white"
             },
             {
                 "hex": "#000000",
-                "percent": 5
+                "percent": 5,
+                "tag": "black"
             }
         ],
         "tags": [
             "green",
             "red",
-            "yellow"
+            "yellow",
+            "white",
+            "black"
         ],
         "anthem": "spotify:track:1AuqjWS43ZyPhinLacUZlP"
     },
@@ -2451,12 +2549,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "blue",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:5mQBReweg4IL1UzE949eu8"
     },
@@ -2544,12 +2644,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 16
+                "percent": 16,
+                "tag": "white"
             }
         ],
         "tags": [
             "cyan",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:32OORRcSQDB9K9d2lrq4Yr"
     },
@@ -2581,13 +2683,15 @@
             },
             {
                 "hex": "#000088",
-                "percent": 1
+                "percent": 1,
+                "tag": "blue"
             }
         ],
         "tags": [
             "yellow",
             "green",
-            "white"
+            "white",
+            "blue"
         ],
         "anthem": "spotify:track:1OBrv2snr11uCQUZaEx9iU"
     },
@@ -2680,13 +2784,15 @@
             },
             {
                 "hex": "#007a3d",
-                "percent": 2
+                "percent": 2,
+                "tag": "green"
             }
         ],
         "tags": [
             "red",
             "black",
-            "white"
+            "white",
+            "green"
         ],
         "anthem": "spotify:track:7a0B6AVfkLF5LjTMcXZzuu"
     },
@@ -2869,11 +2975,13 @@
             },
             {
                 "hex": "#bc002d",
-                "percent": 19
+                "percent": 19,
+                "tag": "red"
             }
         ],
         "tags": [
-            "white"
+            "white",
+            "red"
         ],
         "anthem": "spotify:track:3MEFObi1Wv23WaBdkZl7s4"
     },
@@ -2933,11 +3041,13 @@
             },
             {
                 "hex": "#fec50c",
-                "percent": 7
+                "percent": 7,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "cyan"
+            "cyan",
+            "yellow"
         ],
         "anthem": "spotify:track:6i4JTvbn0PSUfQ0GjeGdl2"
     },
@@ -2968,13 +3078,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 11
+                "percent": 11,
+                "tag": "white"
             }
         ],
         "tags": [
             "black",
             "red",
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:5b4AFCtBCXQPhv1kZ6n1fA"
     },
@@ -3005,13 +3117,15 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 4
+                "percent": 4,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "blue",
-            "white"
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:441mvx6f1WthCDf9OQQQfW"
     },
@@ -3037,12 +3151,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 10
+                "percent": 10,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:6EpwbhInXRZ1OOMfYPg687"
     },
@@ -3064,19 +3180,25 @@
             },
             {
                 "hex": "#000000",
-                "percent": 7
+                "percent": 7,
+                "tag": "black"
             },
             {
                 "hex": "#cd2e3a",
-                "percent": 6
+                "percent": 6,
+                "tag": "red"
             },
             {
                 "hex": "#0047a0",
-                "percent": 6
+                "percent": 6,
+                "tag": "blue"
             }
         ],
         "tags": [
-            "white"
+            "white",
+            "black",
+            "red",
+            "blue"
         ],
         "anthem": "spotify:track:3mV7S5eI3v8QZHn9vYZktE"
     },
@@ -3137,11 +3259,13 @@
             },
             {
                 "hex": "#ffff00",
-                "percent": 8
+                "percent": 8,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:0MojoACMmhtiH8iqFcy2l2"
     },
@@ -3168,12 +3292,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:6vb3OQNEGDgg6SJQDmzDNK"
     },
@@ -3195,11 +3321,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 20
+                "percent": 20,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:4zgw6IzOyHdYacL1Ru6wex"
     },
@@ -3225,12 +3353,14 @@
             },
             {
                 "hex": "#00a651",
-                "percent": 7
+                "percent": 7,
+                "tag": "green"
             }
         ],
         "tags": [
             "red",
-            "white"
+            "white",
+            "green"
         ],
         "anthem": "spotify:track:5jq9ql1Sj1CQt9jdg99w6s"
     },
@@ -3261,13 +3391,15 @@
             },
             {
                 "hex": "#000000",
-                "percent": 3
+                "percent": 3,
+                "tag": "black"
             }
         ],
         "tags": [
             "white",
             "blue",
-            "green"
+            "green",
+            "black"
         ],
         "anthem": "spotify:track:1SqnpSWvzUZKZUmEpzOoIF"
     },
@@ -3293,12 +3425,14 @@
             },
             {
                 "hex": "#002868",
-                "percent": 10
+                "percent": 10,
+                "tag": "blue"
             }
         ],
         "tags": [
             "red",
-            "white"
+            "white",
+            "blue"
         ],
         "anthem": "spotify:track:04xZgZvFStaI7KOGs8VuMr"
     },
@@ -3330,13 +3464,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
             "black",
             "red",
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:0pRpWIy3ZYH7rRKI8ZNsb9"
     },
@@ -3362,16 +3498,20 @@
             },
             {
                 "hex": "#ffd83d",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
-                "percent": 1
+                "percent": 1,
+                "tag": "black"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "yellow",
+            "black"
         ],
         "anthem": "spotify:track:16NXI15cDBZXNppD2o5WFF"
     },
@@ -3537,13 +3677,15 @@
             },
             {
                 "hex": "#ffcc00",
-                "percent": 4
+                "percent": 4,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "white",
-            "blue"
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:3cCmOupy4944LwUFJK7aH2"
     },
@@ -3569,12 +3711,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:128lMMOo3Vqrz5IsfwevJZ"
     },
@@ -3633,12 +3777,14 @@
             },
             {
                 "hex": "#cccccc",
-                "percent": 1
+                "percent": 1,
+                "tag": "gray"
             }
         ],
         "tags": [
             "red",
-            "white"
+            "white",
+            "gray"
         ],
         "anthem": "spotify:track:0V3GUT1x9hqfeA89IQ2rxj"
     },
@@ -3659,15 +3805,19 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 13
+                "percent": 13,
+                "tag": "white"
             },
             {
                 "hex": "#dd7500",
-                "percent": 10
+                "percent": 10,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:0IWLngLP6E3VpYbX7c2abl"
     },
@@ -3693,12 +3843,14 @@
             },
             {
                 "hex": "#ffd700",
-                "percent": 5
+                "percent": 5,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "green",
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:4YbNsPtwMP2ixR5ZRjDAVd"
     },
@@ -3791,11 +3943,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
-            "cyan"
+            "cyan",
+            "white"
         ],
         "anthem": "spotify:track:2CCOkBlsFcr86twKoray0V"
     },
@@ -3826,17 +3980,20 @@
             },
             {
                 "hex": "#000000",
-                "percent": 2
+                "percent": 2,
+                "tag": "black"
             },
             {
                 "hex": "#b07f55",
-                "percent": 2
+                "percent": 2,
+                "tag": "red"
             }
         ],
         "tags": [
             "blue",
             "red",
-            "yellow"
+            "yellow",
+            "black"
         ],
         "anthem": "spotify:track:4P2WhfExBtmHQvfn1KCPZL"
     },
@@ -3889,12 +4046,14 @@
             },
             {
                 "hex": "#ffd900",
-                "percent": 6
+                "percent": 6,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
-            "cyan"
+            "cyan",
+            "yellow"
         ],
         "anthem": "spotify:track:2S8oh6d7SbCjlPLjKSwM0S"
     },
@@ -3915,15 +4074,18 @@
             },
             {
                 "hex": "#d3ae3b",
-                "percent": 15
+                "percent": 15,
+                "tag": "yellow"
             },
             {
                 "hex": "#d4af3a",
-                "percent": 3
+                "percent": 3,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:5R6fZRPbppSAP0nOpZ1WUX"
     },
@@ -3944,11 +4106,13 @@
             },
             {
                 "hex": "#006233",
-                "percent": 2
+                "percent": 2,
+                "tag": "green"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "green"
         ],
         "anthem": "spotify:track:3GHmScGsa6d6BoKmTkXAKE"
     },
@@ -3984,14 +4148,16 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 5
+                "percent": 5,
+                "tag": "white"
             }
         ],
         "tags": [
             "yellow",
             "green",
             "black",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:0W5ugoNJifQgpf2sVrXzQf"
     },
@@ -4022,13 +4188,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 10
+                "percent": 10,
+                "tag": "white"
             }
         ],
         "tags": [
             "yellow",
             "red",
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:6ZTv7i5QfFh9WwYM3pRJFv"
     },
@@ -4059,17 +4227,21 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             },
             {
                 "hex": "#ffce00",
-                "percent": 3
+                "percent": 3,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "green",
             "blue",
-            "red"
+            "red",
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:20ZDAzApNGx4lZcqWktsyZ"
     },
@@ -4090,15 +4262,19 @@
             },
             {
                 "hex": "#ffc61e",
-                "percent": 8
+                "percent": 8,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:6gVkM3FgxnSW562574z2JL"
     },
@@ -4125,12 +4301,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 13
+                "percent": 13,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:1NGP5EX2HVq6ChBnhZbkGz"
     },
@@ -4185,15 +4363,19 @@
             },
             {
                 "hex": "#cc142b",
-                "percent": 10
+                "percent": 10,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 9
+                "percent": 9,
+                "tag": "white"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:5dZ7Q9joZT6SYJRrWU8FaJ"
     },
@@ -4423,11 +4605,13 @@
             },
             {
                 "hex": "#ffff00",
-                "percent": 18
+                "percent": 18,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "cyan"
+            "cyan",
+            "yellow"
         ],
         "anthem": "spotify:track:0kDAatehe6AV02ay9MhBoW"
     },
@@ -4525,16 +4709,20 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 5
+                "percent": 5,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "black",
-            "red"
+            "red",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:4QAL2eMaoaLmxekK4vMzGk"
     },
@@ -4626,13 +4814,15 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 3
+                "percent": 3,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "blue",
             "red",
-            "white"
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:7cCFJPmm8apwwIoQ13uaNO"
     },
@@ -4687,16 +4877,20 @@
             },
             {
                 "hex": "#ffff00",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "green"
+            "green",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:1b5pZskDLXe00oCLai52zS"
     },
@@ -4823,7 +5017,8 @@
             },
             {
                 "hex": "#e5be01",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -4865,14 +5060,16 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 3
+                "percent": 3,
+                "tag": "white"
             }
         ],
         "tags": [
             "black",
             "green",
             "red",
-            "yellow"
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:6GyvLuk2cR0wqd9h1z4sLI"
     },
@@ -4893,19 +5090,25 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 7
+                "percent": 7,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
-                "percent": 4
+                "percent": 4,
+                "tag": "black"
             },
             {
                 "hex": "#ffffff",
-                "percent": 3
+                "percent": 3,
+                "tag": "white"
             }
         ],
         "tags": [
-            "cyan"
+            "cyan",
+            "yellow",
+            "black",
+            "white"
         ],
         "anthem": "spotify:track:38hD0xwLt9xI0Kr7K7yMGj"
     },
@@ -4964,12 +5167,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:7qI219Hy9eTpmYXISOKTBx"
     },
@@ -4995,24 +5200,30 @@
             },
             {
                 "hex": "#658d5c",
-                "percent": 2
+                "percent": 2,
+                "tag": "green"
             },
             {
                 "hex": "#f1bf31",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             },
             {
                 "hex": "#d99f31",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             },
             {
                 "hex": "#a0cfeb",
-                "percent": 1
+                "percent": 1,
+                "tag": "cyan"
             }
         ],
         "tags": [
             "white",
-            "cyan"
+            "cyan",
+            "green",
+            "yellow"
         ],
         "anthem": "spotify:track:7p29FMiX8aelr4nSkTjJUl"
     },
@@ -5043,13 +5254,15 @@
             },
             {
                 "hex": "#000000",
-                "percent": 2
+                "percent": 2,
+                "tag": "black"
             }
         ],
         "tags": [
             "green",
             "yellow",
-            "red"
+            "red",
+            "black"
         ],
         "anthem": "spotify:track:7tLosJVGBo2KJ5EbCtUp7T"
     },
@@ -5070,11 +5283,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 7
+                "percent": 7,
+                "tag": "white"
             }
         ],
         "tags": [
-            "green"
+            "green",
+            "white"
         ],
         "anthem": "spotify:track:4rzsNO7UkCbJQQhzCymdls"
     },
@@ -5138,13 +5353,15 @@
             },
             {
                 "hex": "#edb92e",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "white",
             "red",
-            "blue"
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:5Jnqq3aJovPtXO3BplykGf"
     },
@@ -5341,16 +5558,20 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 10
+                "percent": 10,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 3
+                "percent": 3,
+                "tag": "white"
             }
         ],
         "tags": [
             "green",
-            "blue"
+            "blue",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:3HeBwLdOyVyArhAqzHdK0i"
     },
@@ -5371,11 +5592,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 4
+                "percent": 4,
+                "tag": "white"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:7pGVLahSOQFqx3XINrzTEL"
     },
@@ -5417,7 +5640,8 @@
             },
             {
                 "hex": "#ffb612",
-                "percent": 5
+                "percent": 5,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -5425,7 +5649,8 @@
             "red",
             "blue",
             "white",
-            "black"
+            "black",
+            "yellow"
         ],
         "anthem": "spotify:track:3mMVq5GaPvq8VmT4LNVno5"
     },
@@ -5461,18 +5686,22 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 7
+                "percent": 7,
+                "tag": "white"
             },
             {
                 "hex": "#fcdd09",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "black",
             "green",
             "blue",
-            "red"
+            "red",
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:2ZXPscoJYANKerMFXPcTyw"
     },
@@ -5499,16 +5728,19 @@
             },
             {
                 "hex": "#ad1519",
-                "percent": 1
+                "percent": 1,
+                "tag": "red"
             },
             {
                 "hex": "#cccccc",
-                "percent": 1
+                "percent": 1,
+                "tag": "gray"
             }
         ],
         "tags": [
             "red",
-            "yellow"
+            "yellow",
+            "gray"
         ],
         "anthem": "spotify:track:1qkdkt8hYypMfcuz12ZyUT"
     },
@@ -5544,13 +5776,15 @@
             },
             {
                 "hex": "#000000",
-                "percent": 1
+                "percent": 1,
+                "tag": "black"
             }
         ],
         "tags": [
             "yellow",
             "red",
-            "green"
+            "green",
+            "black"
         ],
         "anthem": "spotify:track:5vBQia5sBx9MYxsnif5tw4"
     },
@@ -5620,13 +5854,15 @@
             },
             {
                 "hex": "#ecc81d",
-                "percent": 3
+                "percent": 3,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "green",
             "red",
-            "white"
+            "white",
+            "yellow"
         ],
         "anthem": "spotify:track:4qiD9VpU2SuZk6I0bRoi38"
     },
@@ -5674,11 +5910,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 20
+                "percent": 20,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:4rewMkffAMMg386qqVcnO8"
     },
@@ -5710,13 +5948,15 @@
             },
             {
                 "hex": "#007a3d",
-                "percent": 2
+                "percent": 2,
+                "tag": "green"
             }
         ],
         "tags": [
             "red",
             "black",
-            "white"
+            "white",
+            "green"
         ],
         "anthem": "spotify:track:46l6eeaWaJqNYYaBL3H71l"
     },
@@ -5747,13 +5987,15 @@
             },
             {
                 "hex": "#f8c300",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "white",
             "green",
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:6ETsLab3C6KBnjY1iiFLr1"
     },
@@ -5784,13 +6026,15 @@
             },
             {
                 "hex": "#fcd116",
-                "percent": 12
+                "percent": 12,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "black",
             "green",
-            "cyan"
+            "cyan",
+            "yellow"
         ],
         "anthem": "spotify:track:233dHFNOvskBdZQTdvQvQL"
     },
@@ -5855,13 +6099,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
             "green",
             "yellow",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:1X4WWAlGf5vaIO5f08rcqJ"
     },
@@ -5882,11 +6128,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 17
+                "percent": 17,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:7zHkgqqxhkoOdAK2ypIOvr"
     },
@@ -5912,12 +6160,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 10
+                "percent": 10,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "black"
+            "black",
+            "white"
         ],
         "anthem": "spotify:track:0TJqTd2yNyAPZRY1c06XSd"
     },
@@ -5938,11 +6188,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 9
+                "percent": 9,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:6x0UtY6vZnKKYJK2ukM9tR"
     },
@@ -5964,11 +6216,13 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 6
+                "percent": 6,
+                "tag": "white"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:6SDYjXO6WjO0GY3dkzzzvI"
     },
@@ -5989,19 +6243,25 @@
             },
             {
                 "hex": "#d22630",
-                "percent": 8
+                "percent": 8,
+                "tag": "red"
             },
             {
                 "hex": "#ffc72c",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
-            "green"
+            "green",
+            "red",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:5DULHK6HTKnmeDT0OtZUmB"
     },
@@ -6022,23 +6282,31 @@
             },
             {
                 "hex": "#cf142b",
-                "percent": 9
+                "percent": 9,
+                "tag": "red"
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             },
             {
                 "hex": "#00247d",
-                "percent": 7
+                "percent": 7,
+                "tag": "blue"
             },
             {
                 "hex": "#ffce00",
-                "percent": 3
+                "percent": 3,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "cyan"
+            "cyan",
+            "red",
+            "white",
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:25fCQLZ8nUQIjHTpk2snG8"
     },
@@ -6069,13 +6337,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 4
+                "percent": 4,
+                "tag": "white"
             }
         ],
         "tags": [
             "yellow",
             "black",
-            "red"
+            "red",
+            "white"
         ],
         "anthem": "spotify:track:4j3HfMRPjPPwqu2tNqp4tF"
     },
@@ -6245,16 +6515,19 @@
             },
             {
                 "hex": "#7b3f00",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             },
             {
                 "hex": "#fcd116",
-                "percent": 2
+                "percent": 2,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "white",
-            "blue"
+            "blue",
+            "yellow"
         ],
         "anthem": "spotify:track:5wBTY8qaku9Fzriwc4NSMj"
     },
@@ -6285,13 +6558,15 @@
             },
             {
                 "hex": "#ce1126",
-                "percent": 4
+                "percent": 4,
+                "tag": "red"
             }
         ],
         "tags": [
             "white",
             "green",
-            "cyan"
+            "cyan",
+            "red"
         ],
         "anthem": "spotify:track:5l2GxMi3WVuN10H36q5NWn"
     },
@@ -6322,13 +6597,15 @@
             },
             {
                 "hex": "#fdce12",
-                "percent": 10
+                "percent": 10,
+                "tag": "yellow"
             }
         ],
         "tags": [
             "red",
             "green",
-            "black"
+            "black",
+            "yellow"
         ],
         "anthem": "spotify:track:5tYu7tMub6pBUFXWShI5jh"
     },
@@ -6354,12 +6631,14 @@
             },
             {
                 "hex": "#cccccc",
-                "percent": 1
+                "percent": 1,
+                "tag": "gray"
             }
         ],
         "tags": [
             "yellow",
-            "white"
+            "white",
+            "gray"
         ],
         "anthem": "spotify:track:7FTSfI35USj7sNZMC7V3u0"
     },
@@ -6391,13 +6670,15 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 1
+                "percent": 1,
+                "tag": "white"
             }
         ],
         "tags": [
             "yellow",
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:7dKi7UMkV7lpraAshf7Zim"
     },
@@ -6419,11 +6700,13 @@
             },
             {
                 "hex": "#ffff00",
-                "percent": 7
+                "percent": 7,
+                "tag": "yellow"
             }
         ],
         "tags": [
-            "red"
+            "red",
+            "yellow"
         ],
         "anthem": "spotify:track:1n4S6Bm7EJ7kEJO2MBVtS1"
     },
@@ -6477,19 +6760,25 @@
             },
             {
                 "hex": "#ef7d00",
-                "percent": 9
+                "percent": 9,
+                "tag": "yellow"
             },
             {
                 "hex": "#000000",
-                "percent": 8
+                "percent": 8,
+                "tag": "black"
             },
             {
                 "hex": "#de2010",
-                "percent": 8
+                "percent": 8,
+                "tag": "red"
             }
         ],
         "tags": [
-            "green"
+            "green",
+            "yellow",
+            "black",
+            "red"
         ],
         "anthem": "spotify:track:22n9XZJAuh8px5XoUo7vn1"
     },
@@ -6530,7 +6819,8 @@
             },
             {
                 "hex": "#ffcc00",
-                "percent": 1
+                "percent": 1,
+                "tag": "yellow"
             }
         ],
         "tags": [
@@ -6564,12 +6854,14 @@
             },
             {
                 "hex": "#c8312a",
-                "percent": 14
+                "percent": 14,
+                "tag": "red"
             }
         ],
         "tags": [
             "green",
-            "white"
+            "white",
+            "red"
         ],
         "anthem": "spotify:track:0LRI4qewtDbSYxSs32j9Fo"
     },
@@ -6628,15 +6920,19 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 12
+                "percent": 12,
+                "tag": "white"
             },
             {
                 "hex": "#cf142b",
-                "percent": 9
+                "percent": 9,
+                "tag": "red"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "white",
+            "red"
         ],
         "anthem": "spotify:track:2o2Ni2kKXKCnqYzWyJJodK"
     },
@@ -6657,15 +6953,19 @@
             },
             {
                 "hex": "#d0a650",
-                "percent": 10
+                "percent": 10,
+                "tag": "yellow"
             },
             {
                 "hex": "#ffffff",
-                "percent": 2
+                "percent": 2,
+                "tag": "white"
             }
         ],
         "tags": [
-            "blue"
+            "blue",
+            "yellow",
+            "white"
         ],
         "anthem": "spotify:track:61AkfWHn26E1Cx8tAaetJW"
     },
@@ -6686,19 +6986,25 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 8
+                "percent": 8,
+                "tag": "white"
             },
             {
                 "hex": "#002868",
-                "percent": 7
+                "percent": 7,
+                "tag": "blue"
             },
             {
                 "hex": "#cf142b",
-                "percent": 7
+                "percent": 7,
+                "tag": "red"
             }
         ],
         "tags": [
-            "yellow"
+            "yellow",
+            "white",
+            "blue",
+            "red"
         ],
         "anthem": "spotify:track:0EIgnbPTMkSw5fhBUDUZs7"
     },
@@ -6854,12 +7160,14 @@
             },
             {
                 "hex": "#ffffff",
-                "percent": 3
+                "percent": 3,
+                "tag": "white"
             }
         ],
         "tags": [
             "red",
-            "blue"
+            "blue",
+            "white"
         ],
         "anthem": "spotify:track:3EWkjTx2LtdBNLvcBUKxUa"
     },

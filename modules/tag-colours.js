@@ -19,25 +19,15 @@ module.exports = flags =>
   new Promise(resolve => {
     const results = flags.reduce((results, flag) => {
       const tags = [];
-      const average = Math.floor(
-        flag.colors.reduce((sum, color) => {
-          sum = sum + color.percent;
-          return sum;
-        }, 0) / flag.colors.length
-      );
 
       const colors = flag.colors.map(color => {
-        if (color.percent >= average / 2) {
-          const { hue, saturation, lightness } = Color.fromCSS(color.hex);
-          const tag = classify({ hue, sat: saturation, lgt: lightness });
-          tags.push(tag);
-          return {
-            ...color,
-            tag,
-          };
-        } else {
-          return color;
-        }
+        const { hue, saturation, lightness } = Color.fromCSS(color.hex);
+        const tag = classify({ hue, sat: saturation, lgt: lightness });
+        tags.push(tag);
+        return {
+          ...color,
+          tag,
+        };
       });
 
       results[flag.id] = {

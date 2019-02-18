@@ -59,6 +59,12 @@ module.exports = {
         }
         if (!flag.colors) {
           throw new Error(`${flag.id} doesn't have colors`);
+        } else {
+          flag.colors.forEach(color => {
+            if (!color.tag) {
+              throw new Error(`${flag.id} doesn't have color tags`);
+            }
+          });
         }
         if (!flag.tags) {
           throw new Error(`${flag.id} doesn't have tags`);
