@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { Component, Fragment } from "react";
 import "./App.css";
 
 const Link = ({ to, children }) => (
@@ -239,106 +239,111 @@ class App extends Component {
         <ul className="list">
           {this.state.filtered.map((flag, i) => {
             const svgUrl = require(`./data/flags/${flag.id}.svg`);
-            return (
-              <li key={flag.id}>
-                <div
-                  className="flip-container"
-                  onMouseOver={() => this.setState({ active: i })}
-                >
-                  <div className="flipper">
-                    <div className="front">
-                      <figure>
-                        <img
-                          width={150}
-                          src={svgUrl}
-                          alt={`Flag of ${flag.country}`}
-                        />
-                        <figcaption>{flag.country}</figcaption>
-                      </figure>
-                    </div>
-                    <div className="back">
-                      <div
-                        style={{
-                          backgroundImage: `url(${svgUrl})`,
-                        }}
-                      >
-                        <div className="flag-header">
-                          {flag.anthem && (
-                            <div className="iframe-placeholder">
-                              {i === this.state.active && (
-                                <>
-                                  <iframe
-                                    title={flag.country}
-                                    height="80"
-                                    width="80"
-                                    src={`https://open.spotify.com/embed/track/${flag.anthem.replace(
-                                      "spotify:track:",
-                                      ""
-                                    )}`}
-                                  />
-                                  <span>anthem</span>
-                                </>
-                              )}
-                            </div>
-                          )}
-                          <div className="flag-title">
-                            <h3>{flag.country}</h3>
-                            <small>
-                              <a
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                href={`https://en.wikipedia.org/wiki/${flag.country.replace(
-                                  /\s/g,
-                                  "_"
-                                )}`}
-                              >
-                                wiki
-                              </a>
-                            </small>
-                          </div>
-                        </div>
 
-                        <ul>
-                          {flag.name && (
-                            <li>
-                              <b>Flag Name</b>
-                              <br />
-                              <em>{flag.name}</em>
-                            </li>
-                          )}
-                          <li>
-                            <b>Adopted</b>
-                            <br />
-                            <em>{flag.adoption}</em>
-                          </li>
-                          <li>
-                            <b>Aspect Ratio</b>
-                            <br />
-                            <em>{flag.ratio}</em>
-                          </li>
-                          <li>
-                            <b>Colors</b>
-                            <br />
-                            <div className="colors">
-                              {flag.colors.map(({ hex, percent }) => (
-                                <div key={hex}>
-                                  <span
-                                    style={{
-                                      backgroundColor: hex,
-                                    }}
-                                    className="color"
-                                  />{" "}
-                                  <em>~{percent}%</em>
-                                </div>
-                              ))}
+            return (
+              <Fragment key={flag.id}>
+                {flag.id === "abkhazia" && !this.state.sortBy && <hr />}
+
+                <li>
+                  <div
+                    className="flip-container"
+                    onMouseOver={() => this.setState({ active: i })}
+                  >
+                    <div className="flipper">
+                      <div className="front">
+                        <figure>
+                          <img
+                            width={150}
+                            src={svgUrl}
+                            alt={`Flag of ${flag.country}`}
+                          />
+                          <figcaption>{flag.country}</figcaption>
+                        </figure>
+                      </div>
+                      <div className="back">
+                        <div
+                          style={{
+                            backgroundImage: `url(${svgUrl})`,
+                          }}
+                        >
+                          <div className="flag-header">
+                            {flag.anthem && (
+                              <div className="iframe-placeholder">
+                                {i === this.state.active && (
+                                  <>
+                                    <iframe
+                                      title={flag.country}
+                                      height="80"
+                                      width="80"
+                                      src={`https://open.spotify.com/embed/track/${flag.anthem.replace(
+                                        "spotify:track:",
+                                        ""
+                                      )}`}
+                                    />
+                                    <span>anthem</span>
+                                  </>
+                                )}
+                              </div>
+                            )}
+                            <div className="flag-title">
+                              <h3>{flag.country}</h3>
+                              <small>
+                                <a
+                                  target="_blank"
+                                  rel="noopener noreferrer"
+                                  href={`https://en.wikipedia.org/wiki/${flag.country.replace(
+                                    /\s/g,
+                                    "_"
+                                  )}`}
+                                >
+                                  wiki
+                                </a>
+                              </small>
                             </div>
-                          </li>
-                        </ul>
+                          </div>
+
+                          <ul>
+                            {flag.name && (
+                              <li>
+                                <b>Flag Name</b>
+                                <br />
+                                <em>{flag.name}</em>
+                              </li>
+                            )}
+                            <li>
+                              <b>Adopted</b>
+                              <br />
+                              <em>{flag.adoption}</em>
+                            </li>
+                            <li>
+                              <b>Aspect Ratio</b>
+                              <br />
+                              <em>{flag.ratio}</em>
+                            </li>
+                            <li>
+                              <b>Colors</b>
+                              <br />
+                              <div className="colors">
+                                {flag.colors.map(({ hex, percent }) => (
+                                  <div key={hex}>
+                                    <span
+                                      style={{
+                                        backgroundColor: hex,
+                                      }}
+                                      className="color"
+                                    />{" "}
+                                    <em>~{percent}%</em>
+                                  </div>
+                                ))}
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-              </li>
+                </li>
+              </Fragment>
             );
           })}
         </ul>

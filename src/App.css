@@ -38,6 +38,12 @@ body{
   justify-content: space-around;
 }
 
+.list hr {
+  width: 70%;
+  grid-column: 1 / -1;
+  margin: 2rem auto;
+}
+
 /* entire container, keeps perspective */
 .flip-container {
 	perspective: 1000px;
@@ -278,6 +284,7 @@ button-primary:active, button-primary.active {
   justify-content: space-between;
   align-items: center;
 }
+
 .controls button, .controls .count {
   margin: 0;
   padding: 0;
