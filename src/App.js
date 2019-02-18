@@ -81,16 +81,16 @@ class App extends Component {
     if (filters.length && !sortBy) {
       filtered = filtered.sort((flagA, flagB) => {
         const coverageA = filters.reduce((acc, filter) => {
-          const {percent} = flagA.colors.find(({ tag }) => tag === filter);
+          const { percent } = flagA.colors.find(({ tag }) => tag === filter);
           acc += percent;
-          return acc
-        },0);
+          return acc;
+        }, 0);
 
         const coverageB = filters.reduce((acc, filter) => {
-          const {percent} = flagB.colors.find(({ tag }) => tag === filter);
+          const { percent } = flagB.colors.find(({ tag }) => tag === filter);
           acc += percent;
-          return acc
-        },0);
+          return acc;
+        }, 0);
 
         if (coverageA < coverageB) {
           return 1;
@@ -208,7 +208,6 @@ class App extends Component {
               <span>{filter}</span>
             </button>
           ))}
-
           <button
             className={`flat${
               !this.state.filters.length &&
@@ -222,6 +221,7 @@ class App extends Component {
           >
             <span>reset</span>
           </button>
+          <h5 className="count">{this.state.filtered.length} flags</h5>
         </nav>
 
         <ul className="list">

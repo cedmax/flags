@@ -271,3 +271,5 @@ button-primary:active, button-primary.active {
 }
 
 .flag-title h3 {margin-bottom :0}
+
+.count {text-align: right; margin-top: 0}
