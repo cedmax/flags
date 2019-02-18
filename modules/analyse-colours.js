@@ -55,7 +55,7 @@ module.exports = flags =>
             .map(key => {
               const percent = (imageData[key] * 100) / totalPx;
 
-              if (percent < 0.74) {
+              if (!Math.round(percent)) {
                 return null;
               } else {
                 const hex = convertToHex(key);
@@ -79,7 +79,7 @@ module.exports = flags =>
             id: flag.id,
             colors: data,
           };
-          fs.writeFileSync(cacheFile, JSON.stringify(result), "UTF-8");
+          fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
           return result;
         }
       },
