@@ -1,4 +1,5 @@
 const slugify = require("slugify");
+const cheerio = require("cheerio");
 const fs = require("fs");
 
 const getTempFile = key => `${__dirname}/.cache/${key}.json`;
@@ -38,11 +39,16 @@ module.exports = {
   cleanUrl: string => string.replace("_the_", "_").toLowerCase(),
   consolidate: data =>
     new Promise(resolve => {
+      const html = fs.readFileSync(`${__dirname}/../public/index.html`);
+      const $ = cheerio.load(html);
+      $("#data").text(JSON.stringify(data));
+      const newHTML = $.html();
       fs.writeFileSync(
         `${__dirname}/../src/data/flags.json`,
         JSON.stringify(data, null, 4),
         "UTF-8"
       );
+      fs.writeFileSync(`${__dirname}/../public/index.html`, newHTML, "UTF-8");
       resolve();
     }),
   validate: flags =>

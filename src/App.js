@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import "./App.css";
-import data from "./data/flags.json";
 
 const Link = ({ to, children }) => (
   <a href={to} target="_blank" rel="noopener noreferrer">
@@ -11,6 +10,17 @@ const Link = ({ to, children }) => (
 class App extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      allFlags: [...props.data],
+      filtered: [...props.data],
+      filters: [],
+      continent: "",
+      active: "",
+      q: "",
+      sortBy: "",
+      sorters: ["name", "adoption", "ratio"],
+    };
 
     this.state.availableFilters = this.state.allFlags
       .reduce((acc, flag) => {
@@ -28,16 +38,6 @@ class App extends Component {
       }, [])
       .sort();
   }
-  state = {
-    allFlags: data,
-    filtered: data,
-    filters: [],
-    continent: "",
-    active: "",
-    q: "",
-    sortBy: "",
-    sorters: ["name", "adoption", "ratio"],
-  };
 
   resetFilters = () => {
     this.setState(
