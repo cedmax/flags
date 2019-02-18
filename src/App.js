@@ -1,17 +1,40 @@
 import React, { Component, Fragment } from "react";
+import Modal from "react-modal";
 import "./App.css";
 
-const Link = ({ to, children }) => (
-  <a href={to} target="_blank" rel="noopener noreferrer">
+const Link = ({ to, children, onClick }) => (
+  <a href={to} onClick={onClick} target="_blank" rel="noopener noreferrer">
     {children}
   </a>
 );
+
+const getSize = ratioString => {
+  const ratioParts = ratioString.split(":");
+  const ratio = parseFloat(ratioParts[0]) / parseFloat(ratioParts[1]);
+
+  const { clientHeight, clientWidth } = document.documentElement;
+
+  let flagHeight = (clientHeight / 100) * 70;
+  let flagWidth = flagHeight / ratio;
+
+  const maxWidth = (clientWidth / 100) * 70;
+  if (flagWidth > maxWidth) {
+    flagWidth = maxWidth;
+    flagHeight = flagWidth * ratio;
+  }
+
+  return {
+    width: flagWidth,
+    height: flagHeight,
+  };
+};
 
 class App extends Component {
   constructor(props) {
     super(props);
 
     this.state = {
+      detail: null,
       allFlags: [...props.data],
       filtered: [...props.data],
       filters: [],
@@ -162,6 +185,27 @@ class App extends Component {
     });
   };
 
+  navigate = increment => {
+    const {
+      detail: { index },
+      filtered,
+    } = this.state;
+    let newIndex = index + increment;
+
+    if (newIndex < 0) {
+      newIndex = filtered.length - 1;
+    } else if (newIndex > filtered.length - 1) {
+      newIndex = 0;
+    }
+
+    this.setState({
+      detail: {
+        ...filtered[newIndex],
+        index: newIndex,
+      },
+    });
+  };
+
   render() {
     return (
       <main>
@@ -288,16 +332,25 @@ class App extends Component {
                             <div className="flag-title">
                               <h3>{flag.country}</h3>
                               <small>
-                                <a
-                                  target="_blank"
-                                  rel="noopener noreferrer"
-                                  href={`https://en.wikipedia.org/wiki/${flag.country.replace(
+                                <Link
+                                  to={svgUrl}
+                                  onClick={e => {
+                                    e.preventDefault();
+                                    this.setState({
+                                      detail: { ...flag, index: i },
+                                    });
+                                  }}
+                                >
+                                  zoom
+                                </Link>{" "}
+                                <Link
+                                  to={`https://en.wikipedia.org/wiki/${flag.country.replace(
                                     /\s/g,
                                     "_"
                                   )}`}
                                 >
                                   wiki
-                                </a>
+                                </Link>
                               </small>
                             </div>
                           </div>
@@ -380,6 +433,42 @@ class App extends Component {
           Made with <span style={{ color: "#C33" }}>❤</span> by{" "}
           <Link to="https://cedmax.com">cedmax</Link>.
         </footer>
+        {this.state.detail && (
+          <Modal
+            style={{
+              overlay: {
+                background: "rgba(255,255,255,.9)",
+              },
+              content: {
+                ...getSize(this.state.detail.ratio),
+                padding: 0,
+                top: "50%",
+                left: "50%",
+                transform: "translate3d(-50%, -50%, 0)",
+                overflow: "visible",
+              },
+            }}
+            isOpen={!!this.state.detail}
+            onRequestClose={() => this.setState({ detail: null })}
+            contentLabel={this.state.detail && this.state.detail.country}
+          >
+            <img
+              onClick={() => this.setState({ detail: null })}
+              width="100%"
+              src={require(`./data/flags/${this.state.detail.id}.svg`)}
+              alt={`Flag of ${this.state.detail.country}`}
+            />
+            <div class="zoom-controls">
+              <button onClick={() => this.navigate(-1)}>
+                <span>prev</span>
+              </button>
+              <h2>{this.state.detail.country}</h2>
+              <button onClick={() => this.navigate(1)}>
+                <span>next</span>
+              </button>
+            </div>
+          </Modal>
+        )}
       </main>
     );
   }

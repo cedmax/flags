@@ -298,3 +298,19 @@ button-primary:active, button-primary.active {
 .controls :last-child {
   text-align: right;
 }
+img {
+  display: block
+}
+
+.zoom-controls {
+  position: absolute;
+  bottom: 0;
+  transform: translateY(120%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%
+}
+
+.zoom-controls h2 {
+  margin: 0
+}
