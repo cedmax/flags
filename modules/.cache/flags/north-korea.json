@@ -1,1 +1,17 @@
-{"id":"north-korea","country":"North Korea","url":"/wiki/flag_of_north_korea","adoption":"1948","ratio":"1:2","colors":[{"hex":"#ed1c27","percent":56},{"hex":"#024fa2","percent":33},{"hex":"#ffffff","percent":10}]}
+{
+    "id": "north-korea",
+    "colors": [
+        {
+            "hex": "#ed1c27",
+            "percent": 56
+        },
+        {
+            "hex": "#024fa2",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        }
+    ]
+}

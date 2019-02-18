@@ -1,1 +1,21 @@
-{"id":"niue","country":"Niue","url":"/wiki/flag_of_niue","adoption":"1975","ratio":"1:2","colors":[{"hex":"#fcd116","percent":76},{"hex":"#ffffff","percent":8},{"hex":"#002868","percent":7},{"hex":"#cf142b","percent":7}]}
+{
+    "id": "niue",
+    "colors": [
+        {
+            "hex": "#fcd116",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#002868",
+            "percent": 7
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 7
+        }
+    ]
+}

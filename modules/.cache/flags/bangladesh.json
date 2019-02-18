@@ -1,1 +1,13 @@
-{"id":"bangladesh","country":"Bangladesh","url":"/wiki/flag_of_bangladesh","adoption":"1972","ratio":"3:5","name":"Lal-Sobuj","colors":[{"hex":"#006a4e","percent":79},{"hex":"#f42a41","percent":21}]}
+{
+    "id": "bangladesh",
+    "colors": [
+        {
+            "hex": "#006a4e",
+            "percent": 79
+        },
+        {
+            "hex": "#f42a41",
+            "percent": 21
+        }
+    ]
+}

@@ -1,1 +1,13 @@
-{"id":"kazakhstan","country":"Kazakhstan","url":"/wiki/flag_of_kazakhstan","adoption":"1992","ratio":"1:2","colors":[{"hex":"#00afca","percent":90},{"hex":"#fec50c","percent":7}]}
+{
+    "id": "kazakhstan",
+    "colors": [
+        {
+            "hex": "#00afca",
+            "percent": 90
+        },
+        {
+            "hex": "#fec50c",
+            "percent": 7
+        }
+    ]
+}

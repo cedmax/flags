@@ -1,1 +1,13 @@
-{"id":"china","country":"China","url":"/wiki/flag_of_china","adoption":"1949","ratio":"2:3","colors":[{"hex":"#de2910","percent":97},{"hex":"#ffde00","percent":2}]}
+{
+    "id": "china",
+    "colors": [
+        {
+            "hex": "#de2910",
+            "percent": 97
+        },
+        {
+            "hex": "#ffde00",
+            "percent": 2
+        }
+    ]
+}

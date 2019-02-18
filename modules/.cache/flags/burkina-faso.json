@@ -1,1 +1,17 @@
-{"id":"burkina-faso","country":"Burkina Faso","url":"/wiki/flag_of_burkina_faso","adoption":"1984","ratio":"2:3","colors":[{"hex":"#ef2b2d","percent":49},{"hex":"#009e49","percent":49},{"hex":"#fcd116","percent":2}]}
+{
+    "id": "burkina-faso",
+    "colors": [
+        {
+            "hex": "#ef2b2d",
+            "percent": 49
+        },
+        {
+            "hex": "#009e49",
+            "percent": 49
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 2
+        }
+    ]
+}

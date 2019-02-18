@@ -1,1 +1,13 @@
-{"id":"bahrain","country":"Bahrain","url":"/wiki/flag_of_bahrain","adoption":"2002","ratio":"3:5","colors":[{"hex":"#ce1126","percent":68},{"hex":"#ffffff","percent":32}]}
+{
+    "id": "bahrain",
+    "colors": [
+        {
+            "hex": "#ce1126",
+            "percent": 68
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        }
+    ]
+}

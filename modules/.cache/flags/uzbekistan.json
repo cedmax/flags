@@ -1,1 +1,21 @@
-{"id":"uzbekistan","country":"Uzbekistan","url":"/wiki/flag_of_uzbekistan","adoption":"1991","ratio":"1:2","colors":[{"hex":"#ffffff","percent":33},{"hex":"#1eb53a","percent":32},{"hex":"#0099b5","percent":31},{"hex":"#ce1126","percent":4}]}
+{
+    "id": "uzbekistan",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#1eb53a",
+            "percent": 32
+        },
+        {
+            "hex": "#0099b5",
+            "percent": 31
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 4
+        }
+    ]
+}

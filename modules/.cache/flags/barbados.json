@@ -1,1 +1,17 @@
-{"id":"barbados","country":"Barbados","url":"/wiki/flag_of_barbados","adoption":"1966","ratio":"2:3","name":"The Broken Trident","colors":[{"hex":"#00267f","percent":67},{"hex":"#ffc726","percent":29},{"hex":"#000000","percent":4}]}
+{
+    "id": "barbados",
+    "colors": [
+        {
+            "hex": "#00267f",
+            "percent": 67
+        },
+        {
+            "hex": "#ffc726",
+            "percent": 29
+        },
+        {
+            "hex": "#000000",
+            "percent": 4
+        }
+    ]
+}

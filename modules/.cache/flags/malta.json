@@ -1,1 +1,17 @@
-{"id":"malta","country":"Malta","url":"/wiki/flag_of_malta","adoption":"1964","ratio":"2:3","colors":[{"hex":"#cf142b","percent":50},{"hex":"#ffffff","percent":47},{"hex":"#cccccc","percent":1}]}
+{
+    "id": "malta",
+    "colors": [
+        {
+            "hex": "#cf142b",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 47
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        }
+    ]
+}

@@ -1,1 +1,13 @@
-{"id":"federated-states-of-micronesia","country":"Federated States of Micronesia","url":"/wiki/flag_of_federated_states_of_micronesia","adoption":"1979","ratio":"10:19","colors":[{"hex":"#75b2dd","percent":97},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "federated-states-of-micronesia",
+    "colors": [
+        {
+            "hex": "#75b2dd",
+            "percent": 97
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

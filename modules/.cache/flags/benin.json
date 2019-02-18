@@ -1,1 +1,17 @@
-{"id":"benin","country":"Benin","url":"/wiki/flag_of_benin","adoption":"1959","ratio":"2:3","colors":[{"hex":"#008751","percent":40},{"hex":"#fcd116","percent":30},{"hex":"#e8112d","percent":30}]}
+{
+    "id": "benin",
+    "colors": [
+        {
+            "hex": "#008751",
+            "percent": 40
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 30
+        },
+        {
+            "hex": "#e8112d",
+            "percent": 30
+        }
+    ]
+}

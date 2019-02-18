@@ -1,1 +1,17 @@
-{"id":"belarus","country":"Belarus","url":"/wiki/flag_of_belarus","adoption":"1995","ratio":"1:2","name":"Ручнік","colors":[{"hex":"#c8313e","percent":64},{"hex":"#4aa657","percent":30},{"hex":"#ffffff","percent":5}]}
+{
+    "id": "belarus",
+    "colors": [
+        {
+            "hex": "#c8313e",
+            "percent": 64
+        },
+        {
+            "hex": "#4aa657",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

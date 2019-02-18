@@ -1,1 +1,17 @@
-{"id":"lebanon","country":"Lebanon","url":"/wiki/flag_of_lebanon","adoption":"1943","ratio":"2:3","colors":[{"hex":"#ed1c24","percent":50},{"hex":"#ffffff","percent":43},{"hex":"#00a651","percent":7}]}
+{
+    "id": "lebanon",
+    "colors": [
+        {
+            "hex": "#ed1c24",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#00a651",
+            "percent": 7
+        }
+    ]
+}

@@ -1,1 +1,13 @@
-{"id":"canada","country":"Canada","url":"/wiki/flag_of_canada","adoption":"1965","ratio":"1:2","name":"Maple Leaf","colors":[{"hex":"#d52b1e","percent":64},{"hex":"#ffffff","percent":36}]}
+{
+    "id": "canada",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 64
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        }
+    ]
+}

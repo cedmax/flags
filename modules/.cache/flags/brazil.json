@@ -1,1 +1,21 @@
-{"id":"brazil","country":"Brazil","url":"/wiki/flag_of_brazil","adoption":"1992","ratio":"7:10","name":"A Auriverde","colors":[{"hex":"#009b3a","percent":68},{"hex":"#fedf00","percent":17},{"hex":"#002776","percent":12},{"hex":"#ffffff","percent":1}]}
+{
+    "id": "brazil",
+    "colors": [
+        {
+            "hex": "#009b3a",
+            "percent": 68
+        },
+        {
+            "hex": "#fedf00",
+            "percent": 17
+        },
+        {
+            "hex": "#002776",
+            "percent": 12
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

@@ -1,1 +1,33 @@
-{"id":"belize","country":"Belize","url":"/wiki/flag_of_belize","adoption":"1981","ratio":"2:3","colors":[{"hex":"#003f87","percent":53},{"hex":"#ffffff","percent":19},{"hex":"#ce1126","percent":14},{"hex":"#007f00","percent":2},{"hex":"#289400","percent":1}]}
+{
+    "id": "belize",
+    "colors": [
+        {
+            "hex": "#003f87",
+            "percent": 53
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 14
+        },
+        {
+            "hex": "#007f00",
+            "percent": 2
+        },
+        {
+            "hex": "#552300",
+            "percent": 1
+        },
+        {
+            "hex": "#289400",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd83c",
+            "percent": 1
+        }
+    ]
+}

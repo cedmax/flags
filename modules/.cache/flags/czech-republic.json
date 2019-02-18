@@ -1,1 +1,17 @@
-{"id":"czech-republic","country":"Czech Republic","url":"/wiki/flag_of_czech_republic","adoption":"1993","ratio":"2:3","colors":[{"hex":"#ffffff","percent":37},{"hex":"#d7141a","percent":37},{"hex":"#11457e","percent":25}]}
+{
+    "id": "czech-republic",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 37
+        },
+        {
+            "hex": "#d7141a",
+            "percent": 37
+        },
+        {
+            "hex": "#11457e",
+            "percent": 25
+        }
+    ]
+}

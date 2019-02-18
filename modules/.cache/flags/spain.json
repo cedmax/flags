@@ -1,1 +1,25 @@
-{"id":"spain","country":"Spain","url":"/wiki/flag_of_spain","adoption":"1981","ratio":"2:3","name":"Rojigualda","colors":[{"hex":"#c60b1e","percent":50},{"hex":"#ffc400","percent":44},{"hex":"#ad1519","percent":1},{"hex":"#cccccc","percent":1}]}
+{
+    "id": "spain",
+    "colors": [
+        {
+            "hex": "#c60b1e",
+            "percent": 50
+        },
+        {
+            "hex": "#ffc400",
+            "percent": 44
+        },
+        {
+            "hex": "#c8b100",
+            "percent": 1
+        },
+        {
+            "hex": "#ad1519",
+            "percent": 1
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        }
+    ]
+}

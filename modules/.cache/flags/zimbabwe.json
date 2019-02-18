@@ -1,1 +1,29 @@
-{"id":"zimbabwe","country":"Zimbabwe","url":"/wiki/flag_of_zimbabwe","adoption":"1980","ratio":"1:2","colors":[{"hex":"#006400","percent":26},{"hex":"#ffd200","percent":23},{"hex":"#d40000","percent":23},{"hex":"#ffffff","percent":13},{"hex":"#000000","percent":11},{"hex":"#ffcc00","percent":1}]}
+{
+    "id": "zimbabwe",
+    "colors": [
+        {
+            "hex": "#006400",
+            "percent": 26
+        },
+        {
+            "hex": "#ffd200",
+            "percent": 23
+        },
+        {
+            "hex": "#d40000",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#000000",
+            "percent": 11
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 1
+        }
+    ]
+}

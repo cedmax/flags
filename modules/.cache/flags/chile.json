@@ -1,1 +1,17 @@
-{"id":"chile","country":"Chile","url":"/wiki/flag_of_chile","adoption":"1817","ratio":"2:3","name":"La Estrella Solitaria","colors":[{"hex":"#d52b1e","percent":50},{"hex":"#ffffff","percent":34},{"hex":"#0039a6","percent":15}]}
+{
+    "id": "chile",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 15
+        }
+    ]
+}

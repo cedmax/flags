@@ -1,1 +1,21 @@
-{"id":"artsakh","country":"Artsakh","url":"/wiki/flag_of_artsakh","adoption":"1992","ratio":"1:2","colors":[{"hex":"#d90012","percent":28},{"hex":"#0033a0","percent":28},{"hex":"#f2a800","percent":28},{"hex":"#ffffff","percent":15}]}
+{
+    "id": "artsakh",
+    "colors": [
+        {
+            "hex": "#d90012",
+            "percent": 28
+        },
+        {
+            "hex": "#0033a0",
+            "percent": 28
+        },
+        {
+            "hex": "#f2a800",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        }
+    ]
+}

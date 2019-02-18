@@ -1,1 +1,25 @@
-{"id":"tuvalu","country":"Tuvalu","url":"/wiki/flag_of_tuvalu","adoption":"1997","ratio":"1:2","colors":[{"hex":"#0096c8","percent":71},{"hex":"#cf142b","percent":9},{"hex":"#ffffff","percent":8},{"hex":"#00247d","percent":7},{"hex":"#ffce00","percent":3}]}
+{
+    "id": "tuvalu",
+    "colors": [
+        {
+            "hex": "#0096c8",
+            "percent": 71
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#00247d",
+            "percent": 7
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 3
+        }
+    ]
+}

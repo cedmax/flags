@@ -1,1 +1,13 @@
-{"id":"el-salvador","country":"El Salvador","url":"/wiki/flag_of_el_salvador","adoption":"1912","ratio":"189:335","colors":[{"hex":"#0f47af","percent":67},{"hex":"#ffffff","percent":31}]}
+{
+    "id": "el-salvador",
+    "colors": [
+        {
+            "hex": "#0f47af",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        }
+    ]
+}

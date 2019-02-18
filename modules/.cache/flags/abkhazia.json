@@ -1,1 +1,29 @@
-{"id":"abkhazia","country":"Abkhazia","url":"/wiki/flag_of_abkhazia","adoption":"1992","ratio":"1:2","colors":[{"hex":"#00993e","percent":45},{"hex":"#ffffff","percent":38},{"hex":"#c8312a","percent":14}]}
+{
+    "id": "abkhazia",
+    "colors": [
+        {
+            "hex": "#00993e",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 38
+        },
+        {
+            "hex": "#c8312a",
+            "percent": 14
+        },
+        {
+            "hex": "#25a85a",
+            "percent": 1
+        },
+        {
+            "hex": "#b7e2c9",
+            "percent": 1
+        },
+        {
+            "hex": "#6ec591",
+            "percent": 1
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"estonia","country":"Estonia","url":"/wiki/flag_of_estonia","adoption":"1990","ratio":"7:11","name":"Sinimustvalge","colors":[{"hex":"#0072ce","percent":33},{"hex":"#000000","percent":33},{"hex":"#ffffff","percent":33}]}
+{
+    "id": "estonia",
+    "colors": [
+        {
+            "hex": "#0072ce",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

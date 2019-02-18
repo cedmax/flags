@@ -1,1 +1,13 @@
-{"id":"austria","country":"Austria","url":"/wiki/flag_of_austria","adoption":"1918","ratio":"2:3","name":"Bindenschild","colors":[{"hex":"#ed2939","percent":67},{"hex":"#ffffff","percent":33}]}
+{
+    "id": "austria",
+    "colors": [
+        {
+            "hex": "#ed2939",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

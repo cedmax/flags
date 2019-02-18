@@ -1,1 +1,21 @@
-{"id":"kenya","country":"Kenya","url":"/wiki/flag_of_kenya","adoption":"1963","ratio":"2:3","colors":[{"hex":"#000000","percent":30},{"hex":"#bb0000","percent":30},{"hex":"#006600","percent":29},{"hex":"#ffffff","percent":11}]}
+{
+    "id": "kenya",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 30
+        },
+        {
+            "hex": "#bb0000",
+            "percent": 30
+        },
+        {
+            "hex": "#006600",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"sierra-leone","country":"Sierra Leone","url":"/wiki/flag_of_sierra_leone","adoption":"1961","ratio":"2:3","colors":[{"hex":"#1eb53a","percent":33},{"hex":"#ffffff","percent":33},{"hex":"#0072c6","percent":33}]}
+{
+    "id": "sierra-leone",
+    "colors": [
+        {
+            "hex": "#1eb53a",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#0072c6",
+            "percent": 33
+        }
+    ]
+}

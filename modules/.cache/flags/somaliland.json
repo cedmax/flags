@@ -1,1 +1,21 @@
-{"id":"somaliland","country":"Somaliland","url":"/wiki/flag_of_somaliland","adoption":"1996","ratio":"1:2","colors":[{"hex":"#ffffff","percent":37},{"hex":"#df0000","percent":33},{"hex":"#006d21","percent":28}]}
+{
+    "id": "somaliland",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 37
+        },
+        {
+            "hex": "#df0000",
+            "percent": 33
+        },
+        {
+            "hex": "#006d21",
+            "percent": 28
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

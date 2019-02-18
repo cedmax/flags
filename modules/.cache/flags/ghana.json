@@ -1,1 +1,21 @@
-{"id":"ghana","country":"Ghana","url":"/wiki/flag_of_ghana","adoption":"1966","ratio":"2:3","colors":[{"hex":"#ce1126","percent":33},{"hex":"#006b3f","percent":33},{"hex":"#fcd116","percent":31},{"hex":"#000000","percent":2}]}
+{
+    "id": "ghana",
+    "colors": [
+        {
+            "hex": "#ce1126",
+            "percent": 33
+        },
+        {
+            "hex": "#006b3f",
+            "percent": 33
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 31
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

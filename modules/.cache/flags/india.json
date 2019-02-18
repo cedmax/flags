@@ -1,1 +1,21 @@
-{"id":"india","country":"India","url":"/wiki/flag_of_india","adoption":"1947","ratio":"2:3","name":"Tiranga","colors":[{"hex":"#ff9933","percent":33},{"hex":"#128807","percent":33},{"hex":"#ffffff","percent":31},{"hex":"#000088","percent":1}]}
+{
+    "id": "india",
+    "colors": [
+        {
+            "hex": "#ff9933",
+            "percent": 33
+        },
+        {
+            "hex": "#128807",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#000088",
+            "percent": 1
+        }
+    ]
+}

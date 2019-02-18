@@ -1,1 +1,33 @@
-{"id":"moldova","country":"Moldova","url":"/wiki/flag_of_moldova","adoption":"1990","ratio":"1:2","colors":[{"hex":"#0046ae","percent":33},{"hex":"#cc092f","percent":33},{"hex":"#ffd200","percent":27},{"hex":"#000000","percent":2},{"hex":"#b07f55","percent":2}]}
+{
+    "id": "moldova",
+    "colors": [
+        {
+            "hex": "#0046ae",
+            "percent": 33
+        },
+        {
+            "hex": "#cc092f",
+            "percent": 33
+        },
+        {
+            "hex": "#ffd200",
+            "percent": 27
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#b07f55",
+            "percent": 2
+        },
+        {
+            "hex": "#d10429",
+            "percent": 1
+        },
+        {
+            "hex": "#0b45bb",
+            "percent": 1
+        }
+    ]
+}

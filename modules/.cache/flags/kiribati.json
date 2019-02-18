@@ -1,1 +1,21 @@
-{"id":"kiribati","country":"Kiribati","url":"/wiki/flag_of_kiribati","adoption":"1979","ratio":"1:2","colors":[{"hex":"#ce1126","percent":46},{"hex":"#003f87","percent":25},{"hex":"#ffffff","percent":20},{"hex":"#fcd116","percent":4}]}
+{
+    "id": "kiribati",
+    "colors": [
+        {
+            "hex": "#ce1126",
+            "percent": 46
+        },
+        {
+            "hex": "#003f87",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 4
+        }
+    ]
+}

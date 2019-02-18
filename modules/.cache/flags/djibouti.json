@@ -1,1 +1,21 @@
-{"id":"djibouti","country":"Djibouti","url":"/wiki/flag_of_djibouti","adoption":"1977","ratio":"2:3","colors":[{"hex":"#6ab2e7","percent":35},{"hex":"#12ad2b","percent":35},{"hex":"#ffffff","percent":27},{"hex":"#d7141a","percent":1}]}
+{
+    "id": "djibouti",
+    "colors": [
+        {
+            "hex": "#6ab2e7",
+            "percent": 35
+        },
+        {
+            "hex": "#12ad2b",
+            "percent": 35
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#d7141a",
+            "percent": 1
+        }
+    ]
+}

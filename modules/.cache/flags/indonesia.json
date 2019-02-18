@@ -1,1 +1,13 @@
-{"id":"indonesia","country":"Indonesia","url":"/wiki/flag_of_indonesia","adoption":"1945","ratio":"2:3","name":"Sang Saka Merah Putih","colors":[{"hex":"#ff0000","percent":50},{"hex":"#ffffff","percent":50}]}
+{
+    "id": "indonesia",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

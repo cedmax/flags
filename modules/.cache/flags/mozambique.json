@@ -1,1 +1,25 @@
-{"id":"mozambique","country":"Mozambique","url":"/wiki/flag_of_mozambique","adoption":"1983","ratio":"2:3","colors":[{"hex":"#fce100","percent":28},{"hex":"#007168","percent":27},{"hex":"#000000","percent":21},{"hex":"#d21034","percent":18},{"hex":"#ffffff","percent":5}]}
+{
+    "id": "mozambique",
+    "colors": [
+        {
+            "hex": "#fce100",
+            "percent": 28
+        },
+        {
+            "hex": "#007168",
+            "percent": 27
+        },
+        {
+            "hex": "#000000",
+            "percent": 21
+        },
+        {
+            "hex": "#d21034",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

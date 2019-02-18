@@ -1,1 +1,13 @@
-{"id":"nicaragua","country":"Nicaragua","url":"/wiki/flag_of_nicaragua","adoption":"1971","ratio":"3:5","colors":[{"hex":"#0067c6","percent":67},{"hex":"#ffffff","percent":32}]}
+{
+    "id": "nicaragua",
+    "colors": [
+        {
+            "hex": "#0067c6",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        }
+    ]
+}

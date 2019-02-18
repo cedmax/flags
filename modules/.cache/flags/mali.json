@@ -1,1 +1,17 @@
-{"id":"mali","country":"Mali","url":"/wiki/flag_of_mali","adoption":"1961","ratio":"2:3","colors":[{"hex":"#14b53a","percent":33},{"hex":"#fcd116","percent":33},{"hex":"#ce1126","percent":33}]}
+{
+    "id": "mali",
+    "colors": [
+        {
+            "hex": "#14b53a",
+            "percent": 33
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 33
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 33
+        }
+    ]
+}

@@ -1,1 +1,21 @@
-{"id":"philippines","country":"Philippines","url":"/wiki/flag_of_philippines","adoption":"1898","ratio":"1:2","name":"Tatlong Bituin at Isang Araw","colors":[{"hex":"#0038a8","percent":39},{"hex":"#ce1126","percent":39},{"hex":"#ffffff","percent":17},{"hex":"#fcd116","percent":3}]}
+{
+    "id": "philippines",
+    "colors": [
+        {
+            "hex": "#0038a8",
+            "percent": 39
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 3
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"botswana","country":"Botswana","url":"/wiki/flag_of_botswana","adoption":"1966","ratio":"2:3","colors":[{"hex":"#75aadb","percent":75},{"hex":"#000000","percent":17},{"hex":"#ffffff","percent":8}]}
+{
+    "id": "botswana",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 75
+        },
+        {
+            "hex": "#000000",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        }
+    ]
+}

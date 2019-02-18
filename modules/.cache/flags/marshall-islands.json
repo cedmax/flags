@@ -1,1 +1,17 @@
-{"id":"marshall-islands","country":"Marshall Islands","url":"/wiki/flag_of_marshall_islands","adoption":"1979","ratio":"10:19","colors":[{"hex":"#003893","percent":74},{"hex":"#ffffff","percent":13},{"hex":"#dd7500","percent":10}]}
+{
+    "id": "marshall-islands",
+    "colors": [
+        {
+            "hex": "#003893",
+            "percent": 74
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#dd7500",
+            "percent": 10
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"italy","country":"Italy","url":"/wiki/flag_of_italy","adoption":"1948","ratio":"2:3","name":"Il Tricolore","colors":[{"hex":"#009246","percent":33},{"hex":"#ffffff","percent":33},{"hex":"#ce2b37","percent":33}]}
+{
+    "id": "italy",
+    "colors": [
+        {
+            "hex": "#009246",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#ce2b37",
+            "percent": 33
+        }
+    ]
+}

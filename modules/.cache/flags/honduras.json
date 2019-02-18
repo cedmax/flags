@@ -1,1 +1,13 @@
-{"id":"honduras","country":"Honduras","url":"/wiki/flag_of_honduras","adoption":"1866","ratio":"1:2","colors":[{"hex":"#0073cf","percent":67},{"hex":"#ffffff","percent":32}]}
+{
+    "id": "honduras",
+    "colors": [
+        {
+            "hex": "#0073cf",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        }
+    ]
+}

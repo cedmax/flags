@@ -1,1 +1,17 @@
-{"id":"liberia","country":"Liberia","url":"/wiki/flag_of_liberia","adoption":"1847","ratio":"10:19","colors":[{"hex":"#bf0a30","percent":47},{"hex":"#ffffff","percent":42},{"hex":"#002868","percent":10}]}
+{
+    "id": "liberia",
+    "colors": [
+        {
+            "hex": "#bf0a30",
+            "percent": 47
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#002868",
+            "percent": 10
+        }
+    ]
+}

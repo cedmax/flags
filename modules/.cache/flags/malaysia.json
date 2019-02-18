@@ -1,1 +1,21 @@
-{"id":"malaysia","country":"Malaysia","url":"/wiki/flag_of_malaysia","adoption":"1950","ratio":"1:2","name":"Jalur Gemilang","colors":[{"hex":"#cc0001","percent":36},{"hex":"#ffffff","percent":36},{"hex":"#010066","percent":24},{"hex":"#ffcc00","percent":4}]}
+{
+    "id": "malaysia",
+    "colors": [
+        {
+            "hex": "#cc0001",
+            "percent": 36
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#010066",
+            "percent": 24
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        }
+    ]
+}

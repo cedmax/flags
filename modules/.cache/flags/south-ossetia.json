@@ -1,1 +1,17 @@
-{"id":"south-ossetia","country":"South Ossetia","url":"/wiki/flag_of_south_ossetia","adoption":"1991","ratio":"1:2","colors":[{"hex":"#ffffff","percent":33},{"hex":"#ff0000","percent":33},{"hex":"#ffdf00","percent":33}]}
+{
+    "id": "south-ossetia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffdf00",
+            "percent": 33
+        }
+    ]
+}

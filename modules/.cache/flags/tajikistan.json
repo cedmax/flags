@@ -1,1 +1,21 @@
-{"id":"tajikistan","country":"Tajikistan","url":"/wiki/flag_of_tajikistan","adoption":"1992","ratio":"1:2","colors":[{"hex":"#ffffff","percent":41},{"hex":"#006600","percent":29},{"hex":"#cc0000","percent":28},{"hex":"#f8c300","percent":1}]}
+{
+    "id": "tajikistan",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 41
+        },
+        {
+            "hex": "#006600",
+            "percent": 29
+        },
+        {
+            "hex": "#cc0000",
+            "percent": 28
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 1
+        }
+    ]
+}

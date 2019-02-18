@@ -1,1 +1,21 @@
-{"id":"portugal","country":"Portugal","url":"/wiki/flag_of_portugal","adoption":"1911","ratio":"2:3","name":"Bandeira das Quinas","colors":[{"hex":"#ff0000","percent":57},{"hex":"#006600","percent":34},{"hex":"#ffff00","percent":2},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "portugal",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 57
+        },
+        {
+            "hex": "#006600",
+            "percent": 34
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

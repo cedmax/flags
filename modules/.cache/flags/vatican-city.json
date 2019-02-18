@@ -1,1 +1,17 @@
-{"id":"vatican-city","country":"Vatican City","url":"/wiki/flag_of_vatican_city","adoption":"1929","ratio":"1:1","colors":[{"hex":"#ffe000","percent":51},{"hex":"#ffffff","percent":43},{"hex":"#cccccc","percent":1}]}
+{
+    "id": "vatican-city",
+    "colors": [
+        {
+            "hex": "#ffe000",
+            "percent": 51
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        }
+    ]
+}

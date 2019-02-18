@@ -1,1 +1,13 @@
-{"id":"albania","country":"Albania","url":"/wiki/flag_of_albania","adoption":"1912","ratio":"5:7","name":"Shqiponja Dykrenare","colors":[{"hex":"#e41e20","percent":87},{"hex":"#000000","percent":12}]}
+{
+    "id": "albania",
+    "colors": [
+        {
+            "hex": "#e41e20",
+            "percent": 87
+        },
+        {
+            "hex": "#000000",
+            "percent": 12
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"algeria","country":"Algeria","url":"/wiki/flag_of_algeria","adoption":"1962","ratio":"2:3","colors":[{"hex":"#ffffff","percent":48},{"hex":"#006233","percent":46},{"hex":"#d21034","percent":6}]}
+{
+    "id": "algeria",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 48
+        },
+        {
+            "hex": "#006233",
+            "percent": 46
+        },
+        {
+            "hex": "#d21034",
+            "percent": 6
+        }
+    ]
+}

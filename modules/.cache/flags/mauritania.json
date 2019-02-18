@@ -1,1 +1,17 @@
-{"id":"mauritania","country":"Mauritania","url":"/wiki/flag_of_mauritania","adoption":"2017","ratio":"2:3","colors":[{"hex":"#00a95c","percent":55},{"hex":"#d01c1f","percent":40},{"hex":"#ffd700","percent":5}]}
+{
+    "id": "mauritania",
+    "colors": [
+        {
+            "hex": "#00a95c",
+            "percent": 55
+        },
+        {
+            "hex": "#d01c1f",
+            "percent": 40
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 5
+        }
+    ]
+}

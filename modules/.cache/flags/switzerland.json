@@ -1,1 +1,13 @@
-{"id":"switzerland","country":"Switzerland","url":"/wiki/flag_of_switzerland","adoption":"1889","ratio":"1:1","colors":[{"hex":"#ff0000","percent":80},{"hex":"#ffffff","percent":20}]}
+{
+    "id": "switzerland",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 80
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        }
+    ]
+}

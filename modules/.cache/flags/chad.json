@@ -1,1 +1,17 @@
-{"id":"chad","country":"Chad","url":"/wiki/flag_of_chad","adoption":"1959","ratio":"2:3","colors":[{"hex":"#002664","percent":33},{"hex":"#fecb00","percent":33},{"hex":"#c60c30","percent":33}]}
+{
+    "id": "chad",
+    "colors": [
+        {
+            "hex": "#002664",
+            "percent": 33
+        },
+        {
+            "hex": "#fecb00",
+            "percent": 33
+        },
+        {
+            "hex": "#c60c30",
+            "percent": 33
+        }
+    ]
+}

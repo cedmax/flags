@@ -1,1 +1,17 @@
-{"id":"taiwan","country":"Taiwan","url":"/wiki/flag_of_taiwan","adoption":"1921","ratio":"2:3","colors":[{"hex":"#fe0000","percent":75},{"hex":"#000095","percent":21},{"hex":"#ffffff","percent":3}]}
+{
+    "id": "taiwan",
+    "colors": [
+        {
+            "hex": "#fe0000",
+            "percent": 75
+        },
+        {
+            "hex": "#000095",
+            "percent": 21
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

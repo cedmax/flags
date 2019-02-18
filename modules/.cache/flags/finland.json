@@ -1,1 +1,13 @@
-{"id":"finland","country":"Finland","url":"/wiki/flag_of_finland","adoption":"1918","ratio":"11:18","name":"Siniristilippu","colors":[{"hex":"#ffffff","percent":61},{"hex":"#003580","percent":39}]}
+{
+    "id": "finland",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 61
+        },
+        {
+            "hex": "#003580",
+            "percent": 39
+        }
+    ]
+}

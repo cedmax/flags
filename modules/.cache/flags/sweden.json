@@ -1,1 +1,13 @@
-{"id":"sweden","country":"Sweden","url":"/wiki/flag_of_sweden","adoption":"1906","ratio":"5:8","colors":[{"hex":"#006aa7","percent":70},{"hex":"#fecc00","percent":30}]}
+{
+    "id": "sweden",
+    "colors": [
+        {
+            "hex": "#006aa7",
+            "percent": 70
+        },
+        {
+            "hex": "#fecc00",
+            "percent": 30
+        }
+    ]
+}

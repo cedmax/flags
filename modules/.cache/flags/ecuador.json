@@ -1,1 +1,21 @@
-{"id":"ecuador","country":"Ecuador","url":"/wiki/flag_of_ecuador","adoption":"1860","ratio":"2:3","name":"La Tricolor","colors":[{"hex":"#ffdd00","percent":47},{"hex":"#ed1c24","percent":26},{"hex":"#034ea2","percent":21}]}
+{
+    "id": "ecuador",
+    "colors": [
+        {
+            "hex": "#ffdd00",
+            "percent": 47
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 26
+        },
+        {
+            "hex": "#034ea2",
+            "percent": 21
+        },
+        {
+            "hex": "#452c25",
+            "percent": 1
+        }
+    ]
+}

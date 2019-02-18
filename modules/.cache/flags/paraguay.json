@@ -1,1 +1,17 @@
-{"id":"paraguay","country":"Paraguay","url":"/wiki/flag_of_paraguay","adoption":"1842","ratio":"11:20","colors":[{"hex":"#d52b1e","percent":33},{"hex":"#0038a8","percent":33},{"hex":"#ffffff","percent":32}]}
+{
+    "id": "paraguay",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 33
+        },
+        {
+            "hex": "#0038a8",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        }
+    ]
+}

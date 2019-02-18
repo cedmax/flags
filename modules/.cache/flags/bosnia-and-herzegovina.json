@@ -1,1 +1,17 @@
-{"id":"bosnia-and-herzegovina","country":"Bosnia and Herzegovina","url":"/wiki/flag_of_bosnia_and_herzegovina","adoption":"1998","ratio":"1:2","colors":[{"hex":"#002395","percent":70},{"hex":"#fecb00","percent":25},{"hex":"#ffffff","percent":4}]}
+{
+    "id": "bosnia-and-herzegovina",
+    "colors": [
+        {
+            "hex": "#002395",
+            "percent": 70
+        },
+        {
+            "hex": "#fecb00",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

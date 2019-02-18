@@ -1,1 +1,17 @@
-{"id":"malawi","country":"Malawi","url":"/wiki/flag_of_malawi","adoption":"2012","ratio":"2:3","colors":[{"hex":"#ce1126","percent":38},{"hex":"#339e35","percent":33},{"hex":"#000000","percent":27}]}
+{
+    "id": "malawi",
+    "colors": [
+        {
+            "hex": "#ce1126",
+            "percent": 38
+        },
+        {
+            "hex": "#339e35",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 27
+        }
+    ]
+}

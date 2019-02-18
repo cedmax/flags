@@ -1,1 +1,21 @@
-{"id":"togo","country":"Togo","url":"/wiki/flag_of_togo","adoption":"1960","ratio":"1:1.618","colors":[{"hex":"#006a4e","percent":45},{"hex":"#ffce00","percent":33},{"hex":"#d21034","percent":20},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "togo",
+    "colors": [
+        {
+            "hex": "#006a4e",
+            "percent": 45
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 33
+        },
+        {
+            "hex": "#d21034",
+            "percent": 20
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

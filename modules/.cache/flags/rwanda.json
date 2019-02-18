@@ -1,1 +1,21 @@
-{"id":"rwanda","country":"Rwanda","url":"/wiki/flag_of_rwanda","adoption":"2001","ratio":"2:3","colors":[{"hex":"#00a1de","percent":48},{"hex":"#fad201","percent":25},{"hex":"#20603d","percent":25},{"hex":"#e5be01","percent":1}]}
+{
+    "id": "rwanda",
+    "colors": [
+        {
+            "hex": "#00a1de",
+            "percent": 48
+        },
+        {
+            "hex": "#fad201",
+            "percent": 25
+        },
+        {
+            "hex": "#20603d",
+            "percent": 25
+        },
+        {
+            "hex": "#e5be01",
+            "percent": 1
+        }
+    ]
+}

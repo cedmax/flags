@@ -1,1 +1,13 @@
-{"id":"greece","country":"Greece","url":"/wiki/flag_of_greece","adoption":"1978","ratio":"2:3","name":"Galanolefki","colors":[{"hex":"#0d5eaf","percent":56},{"hex":"#ffffff","percent":42}]}
+{
+    "id": "greece",
+    "colors": [
+        {
+            "hex": "#0d5eaf",
+            "percent": 56
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        }
+    ]
+}

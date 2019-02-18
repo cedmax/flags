@@ -1,1 +1,21 @@
-{"id":"syria","country":"Syria","url":"/wiki/flag_of_syria","adoption":"1980","ratio":"2:3","name":"A'najmataynee","colors":[{"hex":"#ce1126","percent":33},{"hex":"#000000","percent":33},{"hex":"#ffffff","percent":31},{"hex":"#007a3d","percent":2}]}
+{
+    "id": "syria",
+    "colors": [
+        {
+            "hex": "#ce1126",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 2
+        }
+    ]
+}

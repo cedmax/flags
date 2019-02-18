@@ -1,1 +1,29 @@
-{"id":"san-marino","country":"San Marino","url":"/wiki/flag_of_san_marino","adoption":"1862","ratio":"3:4","colors":[{"hex":"#ffffff","percent":45},{"hex":"#5eb6e4","percent":44},{"hex":"#658d5c","percent":2},{"hex":"#f1bf31","percent":1},{"hex":"#d99f31","percent":1},{"hex":"#a0cfeb","percent":1}]}
+{
+    "id": "san-marino",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 45
+        },
+        {
+            "hex": "#5eb6e4",
+            "percent": 44
+        },
+        {
+            "hex": "#658d5c",
+            "percent": 2
+        },
+        {
+            "hex": "#f1bf31",
+            "percent": 1
+        },
+        {
+            "hex": "#d99f31",
+            "percent": 1
+        },
+        {
+            "hex": "#a0cfeb",
+            "percent": 1
+        }
+    ]
+}

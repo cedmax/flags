@@ -1,1 +1,17 @@
-{"id":"montenegro","country":"Montenegro","url":"/wiki/flag_of_montenegro","adoption":"2004","ratio":"1:2","colors":[{"hex":"#c40308","percent":76},{"hex":"#d3ae3b","percent":15},{"hex":"#d4af3a","percent":3}]}
+{
+    "id": "montenegro",
+    "colors": [
+        {
+            "hex": "#c40308",
+            "percent": 76
+        },
+        {
+            "hex": "#d3ae3b",
+            "percent": 15
+        },
+        {
+            "hex": "#d4af3a",
+            "percent": 3
+        }
+    ]
+}

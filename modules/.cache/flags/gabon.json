@@ -1,1 +1,17 @@
-{"id":"gabon","country":"Gabon","url":"/wiki/flag_of_gabon","adoption":"1960","ratio":"3:4","colors":[{"hex":"#009e60","percent":33},{"hex":"#fcd116","percent":33},{"hex":"#3a75c4","percent":33}]}
+{
+    "id": "gabon",
+    "colors": [
+        {
+            "hex": "#009e60",
+            "percent": 33
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 33
+        },
+        {
+            "hex": "#3a75c4",
+            "percent": 33
+        }
+    ]
+}

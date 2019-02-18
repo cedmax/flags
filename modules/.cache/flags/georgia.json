@@ -1,1 +1,13 @@
-{"id":"georgia","country":"Georgia","url":"/wiki/flag_of_georgia_(country)","adoption":"2004","ratio":"2:3","name":"Khutjvriani Drosha","colors":[{"hex":"#ffffff","percent":64},{"hex":"#ff0000","percent":35}]}
+{
+    "id": "georgia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 64
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 35
+        }
+    ]
+}

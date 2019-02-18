@@ -1,1 +1,21 @@
-{"id":"cape-verde","country":"Cape Verde","url":"/wiki/flag_of_cape_verde","adoption":"1992","ratio":"3:5","colors":[{"hex":"#003893","percent":74},{"hex":"#ffffff","percent":16},{"hex":"#cf2027","percent":8},{"hex":"#f7d116","percent":1}]}
+{
+    "id": "cape-verde",
+    "colors": [
+        {
+            "hex": "#003893",
+            "percent": 74
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        },
+        {
+            "hex": "#cf2027",
+            "percent": 8
+        },
+        {
+            "hex": "#f7d116",
+            "percent": 1
+        }
+    ]
+}

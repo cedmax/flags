@@ -1,1 +1,21 @@
-{"id":"azerbaijan","country":"Azerbaijan","url":"/wiki/flag_of_azerbaijan","adoption":"1990","ratio":"1:2","name":"Üçrəngli Bayraq","colors":[{"hex":"#00b9e4","percent":33},{"hex":"#3f9c35","percent":33},{"hex":"#ed2939","percent":32},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "azerbaijan",
+    "colors": [
+        {
+            "hex": "#00b9e4",
+            "percent": 33
+        },
+        {
+            "hex": "#3f9c35",
+            "percent": 33
+        },
+        {
+            "hex": "#ed2939",
+            "percent": 32
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

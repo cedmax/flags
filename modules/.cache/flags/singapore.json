@@ -1,1 +1,13 @@
-{"id":"singapore","country":"Singapore","url":"/wiki/flag_of_singapore","adoption":"1959","ratio":"2:3","colors":[{"hex":"#ffffff","percent":53},{"hex":"#ed2939","percent":47}]}
+{
+    "id": "singapore",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 53
+        },
+        {
+            "hex": "#ed2939",
+            "percent": 47
+        }
+    ]
+}

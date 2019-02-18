@@ -1,1 +1,17 @@
-{"id":"mexico","country":"Mexico","url":"/wiki/flag_of_mexico","adoption":"1968","ratio":"4:7","colors":[{"hex":"#006847","percent":33},{"hex":"#ce1126","percent":33},{"hex":"#ffffff","percent":28}]}
+{
+    "id": "mexico",
+    "colors": [
+        {
+            "hex": "#006847",
+            "percent": 33
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        }
+    ]
+}

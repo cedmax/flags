@@ -1,1 +1,13 @@
-{"id":"nigeria","country":"Nigeria","url":"/wiki/flag_of_nigeria","adoption":"1960","ratio":"1:2","colors":[{"hex":"#008751","percent":67},{"hex":"#ffffff","percent":33}]}
+{
+    "id": "nigeria",
+    "colors": [
+        {
+            "hex": "#008751",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

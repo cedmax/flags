@@ -1,1 +1,17 @@
-{"id":"bolivia","country":"Bolivia","url":"/wiki/flag_of_bolivia","adoption":"1851","ratio":"15:22","name":"La Tricolor","colors":[{"hex":"#d52b1e","percent":33},{"hex":"#f9e300","percent":33},{"hex":"#007934","percent":33}]}
+{
+    "id": "bolivia",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 33
+        },
+        {
+            "hex": "#f9e300",
+            "percent": 33
+        },
+        {
+            "hex": "#007934",
+            "percent": 33
+        }
+    ]
+}

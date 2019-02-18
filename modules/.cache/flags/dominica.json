@@ -1,1 +1,25 @@
-{"id":"dominica","country":"Dominica","url":"/wiki/flag_of_dominica","adoption":"1990","ratio":"1:2","colors":[{"hex":"#006b3f","percent":65},{"hex":"#fcd116","percent":9},{"hex":"#ffffff","percent":9},{"hex":"#000000","percent":8},{"hex":"#d41c30","percent":8}]}
+{
+    "id": "dominica",
+    "colors": [
+        {
+            "hex": "#006b3f",
+            "percent": 65
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#000000",
+            "percent": 8
+        },
+        {
+            "hex": "#d41c30",
+            "percent": 8
+        }
+    ]
+}

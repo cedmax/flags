@@ -1,1 +1,17 @@
-{"id":"cook-islands","country":"Cook Islands","url":"/wiki/flag_of_cook_islands","adoption":"1979","ratio":"1:2","colors":[{"hex":"#00247d","percent":76},{"hex":"#ffffff","percent":12},{"hex":"#cf142b","percent":9}]}
+{
+    "id": "cook-islands",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        }
+    ]
+}

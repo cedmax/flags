@@ -1,1 +1,25 @@
-{"id":"seychelles","country":"Seychelles","url":"/wiki/flag_of_seychelles","adoption":"1996","ratio":"1:2","colors":[{"hex":"#d62828","percent":33},{"hex":"#003f87","percent":17},{"hex":"#007a3d","percent":17},{"hex":"#fcd856","percent":16},{"hex":"#ffffff","percent":16}]}
+{
+    "id": "seychelles",
+    "colors": [
+        {
+            "hex": "#d62828",
+            "percent": 33
+        },
+        {
+            "hex": "#003f87",
+            "percent": 17
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 17
+        },
+        {
+            "hex": "#fcd856",
+            "percent": 16
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        }
+    ]
+}

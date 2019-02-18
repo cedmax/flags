@@ -1,1 +1,25 @@
-{"id":"comoros","country":"Comoros","url":"/wiki/flag_of_comoros","adoption":"2002","ratio":"3:5","colors":[{"hex":"#ffc61e","percent":22},{"hex":"#3d8e33","percent":22},{"hex":"#3a75c4","percent":22},{"hex":"#ffffff","percent":19},{"hex":"#ce1126","percent":16}]}
+{
+    "id": "comoros",
+    "colors": [
+        {
+            "hex": "#ffc61e",
+            "percent": 22
+        },
+        {
+            "hex": "#3d8e33",
+            "percent": 22
+        },
+        {
+            "hex": "#3a75c4",
+            "percent": 22
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 16
+        }
+    ]
+}

@@ -1,1 +1,17 @@
-{"id":"ivory-coast","country":"Ivory Coast","url":"/wiki/flag_of_ivory_coast","adoption":"1959","ratio":"2:3","colors":[{"hex":"#f77f00","percent":33},{"hex":"#ffffff","percent":33},{"hex":"#009e60","percent":33}]}
+{
+    "id": "ivory-coast",
+    "colors": [
+        {
+            "hex": "#f77f00",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#009e60",
+            "percent": 33
+        }
+    ]
+}

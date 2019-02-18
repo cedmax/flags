@@ -1,1 +1,17 @@
-{"id":"jamaica","country":"Jamaica","url":"/wiki/flag_of_jamaica","adoption":"1962","ratio":"1:2","colors":[{"hex":"#fed100","percent":33},{"hex":"#009b3a","percent":33},{"hex":"#000000","percent":33}]}
+{
+    "id": "jamaica",
+    "colors": [
+        {
+            "hex": "#fed100",
+            "percent": 33
+        },
+        {
+            "hex": "#009b3a",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        }
+    ]
+}

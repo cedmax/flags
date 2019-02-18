@@ -1,1 +1,21 @@
-{"id":"afghanistan","country":"Afghanistan","url":"/wiki/flag_of_afghanistan","adoption":"2002","ratio":"2:3","colors":[{"hex":"#000000","percent":33},{"hex":"#009900","percent":33},{"hex":"#bf0000","percent":26},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "afghanistan",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#009900",
+            "percent": 33
+        },
+        {
+            "hex": "#bf0000",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

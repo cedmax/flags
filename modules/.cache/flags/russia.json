@@ -1,1 +1,17 @@
-{"id":"russia","country":"Russia","url":"/wiki/flag_of_russia","adoption":"1991","ratio":"2:3","name":"Российский триколор","colors":[{"hex":"#ffffff","percent":33},{"hex":"#0039a6","percent":33},{"hex":"#d52b1e","percent":33}]}
+{
+    "id": "russia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 33
+        },
+        {
+            "hex": "#d52b1e",
+            "percent": 33
+        }
+    ]
+}

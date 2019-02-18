@@ -1,1 +1,21 @@
-{"id":"sudan","country":"Sudan","url":"/wiki/flag_of_sudan","adoption":"1970","ratio":"1:2","colors":[{"hex":"#d21034","percent":30},{"hex":"#000000","percent":30},{"hex":"#ffffff","percent":24},{"hex":"#007229","percent":17}]}
+{
+    "id": "sudan",
+    "colors": [
+        {
+            "hex": "#d21034",
+            "percent": 30
+        },
+        {
+            "hex": "#000000",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 24
+        },
+        {
+            "hex": "#007229",
+            "percent": 17
+        }
+    ]
+}

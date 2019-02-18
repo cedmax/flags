@@ -1,1 +1,17 @@
-{"id":"kosovo","country":"Kosovo","url":"/wiki/flag_of_kosovo","adoption":"2008","ratio":"5:7","colors":[{"hex":"#244aa5","percent":88},{"hex":"#d0a650","percent":10},{"hex":"#ffffff","percent":2}]}
+{
+    "id": "kosovo",
+    "colors": [
+        {
+            "hex": "#244aa5",
+            "percent": 88
+        },
+        {
+            "hex": "#d0a650",
+            "percent": 10
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}
