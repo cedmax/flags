@@ -5,7 +5,7 @@ const classify = ({ hue, sat, lgt }) => {
 
   if (lgt < 0.1) return "black";
   if (lgt > 0.8) return "white";
-  if (sat < 0.25) return "gray";
+  if (sat < 0.2) return "gray";
   if (hue < 30) return "red";
   if (hue < 90) return "yellow";
   if (hue < 180) return "green";
