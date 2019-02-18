@@ -272,4 +272,13 @@ button-primary:active, button-primary.active {
 
 .flag-title h3 {margin-bottom :0}
 
-.count {text-align: right; margin-top: 0}
+.controls {
+  padding-top: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls button, .controls .count {
+  margin: 0;
+  padding: 0;
+}

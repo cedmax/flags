@@ -156,6 +156,12 @@ class App extends Component {
     });
   };
 
+  reverse = () => {
+    this.setState({
+      filtered: this.state.filtered.reverse(),
+    });
+  };
+
   render() {
     return (
       <main>
@@ -208,20 +214,26 @@ class App extends Component {
               <span>{filter}</span>
             </button>
           ))}
-          <button
-            className={`flat${
-              !this.state.filters.length &&
-              !this.state.q &&
-              !this.state.continent &&
-              !this.state.sortBy
-                ? " hidden"
-                : ""
-            }`}
-            onClick={() => this.resetFilters()}
-          >
-            <span>reset</span>
-          </button>
-          <h5 className="count">{this.state.filtered.length} flags</h5>
+
+          <div class="controls">
+            <h4 className="count">{this.state.filtered.length} flags</h4>
+            <button
+              className={`flat${
+                !this.state.filters.length &&
+                !this.state.q &&
+                !this.state.continent &&
+                !this.state.sortBy
+                  ? " hidden"
+                  : ""
+              }`}
+              onClick={() => this.resetFilters()}
+            >
+              <span>reset</span>
+            </button>
+            <button className="flat" onClick={this.reverse}>
+              <span>reverse sorting</span>
+            </button>
+          </div>
         </nav>
 
         <ul className="list">
