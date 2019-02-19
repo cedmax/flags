@@ -315,4 +315,5 @@ img {
   margin: 0;
   padding: 0 1rem;
   text-align: center;
+  flex-grow: 1
 }

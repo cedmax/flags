@@ -464,18 +464,22 @@ class App extends Component {
           >
             <img
               onClick={() => this.setState({ detail: null })}
-              width="100%"
+              height="100%"
               src={require(`./data/flags/${this.state.detail.id}.svg`)}
               alt={`Flag of ${this.state.detail.country}`}
             />
             <div className="zoom-controls">
-              <button onClick={() => this.navigate(-1)}>
-                <span>prev</span>
-              </button>
+              {this.state.filtered.length > 1 && (
+                <button onClick={() => this.navigate(-1)}>
+                  <span>prev</span>
+                </button>
+              )}
               <h3>{this.state.detail.country}</h3>
-              <button onClick={() => this.navigate(1)}>
-                <span>next</span>
-              </button>
+              {this.state.filtered.length > 1 && (
+                <button onClick={() => this.navigate(1)}>
+                  <span>next</span>
+                </button>
+              )}
             </div>
           </Modal>
         )}
