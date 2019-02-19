@@ -3,6 +3,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 
 const getTempFile = key => `${__dirname}/.cache/${key}.json`;
+
 const resolveCache = key => {
   const tempFile = getTempFile(key);
   if (fs.existsSync(tempFile)) {
@@ -13,6 +14,7 @@ const resolveCache = key => {
 const saveCache = (key, result) => {
   fs.writeFileSync(getTempFile(key), JSON.stringify(result), "UTF-8");
 };
+
 const merge = (flags, newInfo) =>
   !flags
     ? newInfo
@@ -22,17 +24,25 @@ const merge = (flags, newInfo) =>
       }));
 
 module.exports = {
-  withCache: (dataFetcher, cacheKey) => flags =>
-    new Promise(async resolve => {
-      const content = resolveCache(cacheKey);
-      if (content) {
-        return resolve(merge(flags, content));
+  mergeData: (dataFetcher, cacheKey) => flags =>
+    new Promise(resolve => {
+      if (cacheKey) {
+        const content = resolveCache(cacheKey);
+        if (content) {
+          console.log(cacheKey, "from cache");
+          return resolve(merge(flags, content));
+        }
       }
-      const results = await dataFetcher(flags);
-      saveCache(cacheKey, results);
-      return resolve(merge(flags, results));
+
+      dataFetcher(flags, results => {
+        if (cacheKey) {
+          saveCache(cacheKey, results);
+          console.log(cacheKey, "done");
+        }
+
+        return resolve(merge(flags, results));
+      });
     }),
-  merge,
   resolveCache,
   saveCache,
   generateId: string => slugify(string).toLowerCase(),

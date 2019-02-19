@@ -19,76 +19,65 @@ const convertToHex = function(rgb) {
   return hex;
 };
 
-module.exports = flags =>
-  new Promise(resolve => {
-    async.mapLimit(
-      flags,
-      3,
-      async flag => {
-        const cacheFile = `${__dirname}/.cache/flags/${flag.id}.json`;
-        if (fs.existsSync(cacheFile)) {
-          return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
-        } else {
-          const imageData = {};
+module.exports = (flags, callback) =>
+  async.mapLimit(
+    flags,
+    3,
+    async flag => {
+      const cacheFile = `${__dirname}/.cache/flags/${flag.id}.json`;
+      if (fs.existsSync(cacheFile)) {
+        return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
+      } else {
+        const imageData = {};
+        const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
+        const image = await loadImage(file);
+        const canvas = createCanvas(image.width, image.height);
 
-          const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
+        const ctx = canvas.getContext("2d");
+        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+        const pixels = parse(
+          ctx.getImageData(0, 0, canvas.width, canvas.height)
+        );
 
-          const image = await loadImage(file);
-          const canvas = createCanvas(image.width, image.height);
-          const ctx = canvas.getContext("2d");
-          ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-          const pixels = parse(
-            ctx.getImageData(0, 0, canvas.width, canvas.height)
-          );
-          pixels.forEach(p => {
-            const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
-            imageData[key] = (imageData[key] || 0) + 1;
-          });
-          let totalPx = pixels.length;
+        pixels.forEach(p => {
+          const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
+          imageData[key] = (imageData[key] || 0) + 1;
+        });
 
-          if (flag.id === "nepal") {
-            totalPx = totalPx - imageData[`r0g0b0`];
-            delete imageData[`r0g0b0`];
-          }
+        let totalPx = pixels.length;
+        if (flag.id === "nepal") {
+          totalPx = totalPx - imageData[`r0g0b0`];
+          delete imageData[`r0g0b0`];
+        }
 
-          const data = Object.keys(imageData)
-            .map(key => {
-              const percent = (imageData[key] * 100) / totalPx;
+        const data = Object.keys(imageData)
+          .map(key => {
+            const percent = (imageData[key] * 100) / totalPx;
 
-              if (!Math.round(percent)) {
-                return null;
-              } else {
-                const hex = convertToHex(key);
-
-                return {
-                  hex,
+            return !Math.round(percent)
+              ? null
+              : {
+                  hex: convertToHex(key),
                   percent: Math.round(percent),
                 };
-              }
-            })
-            .filter(color => !!color)
-            .sort((a, b) => {
-              if (a.percent < b.percent) {
-                return 1;
-              } else {
-                return -1;
-              }
-            });
-          console.log(flag.country);
-          const result = {
-            id: flag.id,
-            colors: data,
-          };
-          fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
-          return result;
-        }
-      },
-      (err, result) => {
-        const results = result.reduce((acc, { id, colors }) => {
-          acc[id] = { colors };
-          return acc;
-        }, {});
-        resolve(results);
+          })
+          .filter(color => !!color)
+          .sort((a, b) => (a.percent < b.percent ? 1 : -1));
+
+        console.log(flag.country);
+        const result = {
+          id: flag.id,
+          colors: data,
+        };
+        fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
+        return result;
       }
-    );
-  });
+    },
+    (err, result) => {
+      const results = result.reduce((acc, { id, colors }) => {
+        acc[id] = { colors };
+        return acc;
+      }, {});
+      callback(results);
+    }
+  );

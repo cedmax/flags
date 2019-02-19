@@ -6,7 +6,7 @@ const tracks = [];
 let next =
   "https://api.spotify.com/v1/playlists/7w2g4N2CWWeyysqaxWyLTU/tracks?offset=0&limit=100&market=GB";
 
-const associateAnthemsToFlags = (flags, tracks, resolve) => {
+const associateAnthemsToFlags = (flags, tracks, callback) => {
   const results = tracks.reduce((results, track) => {
     const name = track.name.match(/^[^:[]+/)[0].trim();
     const id = helpers
@@ -32,42 +32,38 @@ const associateAnthemsToFlags = (flags, tracks, resolve) => {
     return results;
   }, {});
 
-  resolve(results);
+  callback(results);
 };
 
-module.exports = flags =>
-  new Promise(resolve => {
-    const cacheKey = "spotify";
-    const spotifyTracks = helpers.resolveCache(cacheKey);
+module.exports = (flags, callback) => {
+  const cacheKey = "spotify";
+  const spotifyTracks = helpers.resolveCache(cacheKey);
 
-    if (!spotifyTracks) {
-      async.whilst(
-        () => {
-          return !!next;
-        },
-        async () => {
-          const { data } = await axios.get(next, {
-            headers: {
-              Referer:
-                "https://open.spotify.com/playlist/7w2g4N2CWWeyysqaxWyLTU?si=nDXDfJT5SAyCDbrTzxtu3g",
-              origin: "https://open.spotify.com",
-              authorization:
-                "Bearer BQBt3tDmS79WcOCLf96yvnM_osplblF02k4EuSgYAmxY-6dIusU5nrK0D-x6QMpc2r9bPn6ZnLIxJmHAI78",
-              authority: "api.spotify.com",
-            },
-          });
-          next = data.next;
-          data.items.forEach(item => tracks.push(item.track));
-        },
-        () => {
-          console.log(cacheKey, "fetching spotify anthems");
-          helpers.saveCache(cacheKey, tracks);
-          associateAnthemsToFlags(flags, tracks, resolve);
-        }
-      );
-    } else {
-      console.log(cacheKey, "fetching spotify anthems from cache");
-
-      associateAnthemsToFlags(flags, spotifyTracks, resolve);
-    }
-  });
+  if (!spotifyTracks) {
+    async.whilst(
+      () => !!next,
+      async () => {
+        const { data } = await axios.get(next, {
+          headers: {
+            Referer:
+              "https://open.spotify.com/playlist/7w2g4N2CWWeyysqaxWyLTU?si=nDXDfJT5SAyCDbrTzxtu3g",
+            origin: "https://open.spotify.com",
+            authorization:
+              "Bearer BQBt3tDmS79WcOCLf96yvnM_osplblF02k4EuSgYAmxY-6dIusU5nrK0D-x6QMpc2r9bPn6ZnLIxJmHAI78",
+            authority: "api.spotify.com",
+          },
+        });
+        next = data.next;
+        data.items.forEach(item => tracks.push(item.track));
+      },
+      () => {
+        console.log(cacheKey, "fetching spotify anthems");
+        helpers.saveCache(cacheKey, tracks);
+        associateAnthemsToFlags(flags, tracks, callback);
+      }
+    );
+  } else {
+    console.log(cacheKey, "fetching spotify anthems from cache");
+    associateAnthemsToFlags(flags, spotifyTracks, callback);
+  }
+};

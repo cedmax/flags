@@ -15,28 +15,27 @@ const classify = ({ hue, sat, lgt }) => {
   return "red";
 };
 
-module.exports = flags =>
-  new Promise(resolve => {
-    const results = flags.reduce((results, flag) => {
-      const tags = [];
+module.exports = (flags, callback) => {
+  const results = flags.reduce((results, flag) => {
+    const tags = [];
 
-      const colors = flag.colors.map(color => {
-        const { hue, saturation, lightness } = Color.fromCSS(color.hex);
-        const tag = classify({ hue, sat: saturation, lgt: lightness });
-        tags.push(tag);
-        return {
-          ...color,
-          tag,
-        };
-      });
-
-      results[flag.id] = {
-        tags: [...new Set(tags)],
-        colors,
+    const colors = flag.colors.map(color => {
+      const { hue, saturation, lightness } = Color.fromCSS(color.hex);
+      const tag = classify({ hue, sat: saturation, lgt: lightness });
+      tags.push(tag);
+      return {
+        ...color,
+        tag,
       };
+    });
 
-      return results;
-    }, {});
+    results[flag.id] = {
+      tags: [...new Set(tags)],
+      colors,
+    };
 
-    resolve(results);
-  });
+    return results;
+  }, {});
+
+  callback(results);
+};
