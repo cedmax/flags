@@ -1,4 +1,4 @@
-import React, { PureComponent, Fragment } from "react";
+import React, { Component, Fragment } from "react";
 import Modal from "react-modal";
 import keydown, { Keys } from "react-keydown";
 import "./App.css";
@@ -30,7 +30,7 @@ const getSize = ratioString => {
   };
 };
 
-class App extends PureComponent {
+class App extends Component {
   componentWillReceiveProps = ({ keydown }) => {
     if (this.state.detail && keydown.event) {
       const { which } = keydown.event;
