@@ -15,6 +15,7 @@
   "dependencies": {
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
+    "react-keydown": "^1.9.7",
     "react-modal": "^3.8.1",
     "react-scripts": "2.1.5"
   },

@@ -1,5 +1,6 @@
-import React, { Component, Fragment } from "react";
+import React, { PureComponent, Fragment } from "react";
 import Modal from "react-modal";
+import keydown, { Keys } from "react-keydown";
 import "./App.css";
 
 const Link = ({ to, children, onClick }) => (
@@ -29,7 +30,14 @@ const getSize = ratioString => {
   };
 };
 
-class App extends Component {
+class App extends PureComponent {
+  componentWillReceiveProps = ({ keydown }) => {
+    if (this.state.detail && keydown.event) {
+      const { which } = keydown.event;
+      this.navigate(which === Keys.left ? -1 : 1);
+    }
+  };
+
   constructor(props) {
     super(props);
 
@@ -474,4 +482,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default keydown([Keys.left, Keys.right])(App);
