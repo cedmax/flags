@@ -15,7 +15,7 @@ const getSize = ratioString => {
 
   const { clientHeight, clientWidth } = document.documentElement;
 
-  let flagHeight = (clientHeight / 100) * 70;
+  let flagHeight = (clientHeight / 100) * 60;
   let flagWidth = flagHeight / ratio;
 
   const maxWidth = (clientWidth / 100) * 70;

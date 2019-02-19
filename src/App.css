@@ -311,6 +311,7 @@ img {
   align-items: center;
   width: auto;
   left: 50%;
+  min-width: 100%;
 }
 
 .zoom-controls h3 {
