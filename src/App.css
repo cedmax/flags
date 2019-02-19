@@ -49,7 +49,8 @@ body{
 	perspective: 1000px;
 }
 	/* flip the pane when hovered */
-	.flip-container:hover .flipper, .flip-container.hover .flipper {
+  .flip-container:hover .flipper, .flip-container.hover .flipper,
+  .flip-container:focus .flipper, .flip-container:focus-within .flipper {
 		transform: rotateY(180deg);
 	}
 
@@ -240,10 +241,6 @@ button span {
 
 button:first-of-type {
   margin-left: 0
-}
-
-button:focus, button:active:focus, button.active:focus {
-  outline: 0 none;
 }
 
 button-primary:active, button-primary.active {

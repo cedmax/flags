@@ -298,6 +298,7 @@ class App extends Component {
 
                 <li>
                   <div
+                    onFocusCapture={() => this.setState({ active: i })}
                     className="flip-container"
                     onMouseOver={() => this.setState({ active: i })}
                   >
@@ -324,6 +325,7 @@ class App extends Component {
                                 {i === this.state.active && (
                                   <>
                                     <iframe
+                                      scrolling="no"
                                       title={flag.country}
                                       height="80"
                                       width="80"
