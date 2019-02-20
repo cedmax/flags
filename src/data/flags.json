@@ -39,6 +39,9 @@
         "anthem": {
             "title": "سرود ملی‎",
             "videoId": "gPAz_zyqkaA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Afghanistan_on_the_globe_(Afghanistan_centered).svg"
         }
     },
     {
@@ -70,6 +73,9 @@
         "anthem": {
             "title": "Himni i Flamurit",
             "videoId": "PwHNTRmjXdE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Albania_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -106,6 +112,9 @@
         "anthem": {
             "title": "We Pledge (قَسَمًا)",
             "videoId": "FySaX00FNs4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Algeria_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -152,6 +161,9 @@
         "anthem": {
             "title": "El Gran Carlemany",
             "videoId": "zDrGUyVkvuo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Andorra_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -188,6 +200,9 @@
         "anthem": {
             "title": "Angola Avante!",
             "videoId": "gI6jtxii2AA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Angola_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -236,6 +251,9 @@
         "anthem": {
             "title": "Fair Antigua, We Salute Thee",
             "videoId": "BxKQ-zlYai4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Antigua_and_Barbuda_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -273,6 +291,9 @@
         "anthem": {
             "title": "Himno Nacional Argentino",
             "videoId": "SNc98YagX_k"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Argentina_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -283,7 +304,7 @@
         "ratio": "1:2",
         "name": "Եռագույն",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -310,6 +331,9 @@
         "anthem": {
             "title": "Mer Hayrenik",
             "videoId": "hdNggC-wu_0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Armenia_on_the_globe_(Armenia_centered).svg"
         }
     },
     {
@@ -347,6 +371,9 @@
         "anthem": {
             "title": "Advance Australia Fair!",
             "videoId": "9wNagAakaE4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Australia_on_the_globe_(Australia_centered).svg"
         }
     },
     {
@@ -378,6 +405,9 @@
         "anthem": {
             "title": "Land der Berge, Land am Strome",
             "videoId": "I9N06ZTT6sg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Austria_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -388,7 +418,7 @@
         "ratio": "1:2",
         "name": "Üçrəngli Bayraq",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -421,6 +451,9 @@
         "anthem": {
             "title": "Azərbaycan marşı",
             "videoId": "urpiL0uwSDI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Azerbaijan_on_the_globe_(Azerbaijan_centered).svg"
         }
     },
     {
@@ -457,6 +490,9 @@
         "anthem": {
             "title": "March On, Bahamaland",
             "videoId": "K1UM0p_q2zk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Philippines_on_the_globe_(Philippines_centered).svg"
         }
     },
     {
@@ -487,6 +523,9 @@
         "anthem": {
             "title": "Bahrainona (نشيد البحرين الوطني)",
             "videoId": "u6sd8vhCPDc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bahrain_on_the_globe_(Bahrain_centered).svg"
         }
     },
     {
@@ -518,6 +557,9 @@
         "anthem": {
             "title": "Amar Sonar Bangla (আমার সোনার বাংলা)",
             "videoId": "RWF5wWRjiHE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bangladesh_on_the_globe_(Bangladesh_centered).svg"
         }
     },
     {
@@ -555,6 +597,9 @@
         "anthem": {
             "title": "In Plenty and in Time of Need",
             "videoId": "SYfQDpnmyFU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Barbados_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -592,6 +637,9 @@
         "anthem": {
             "title": "Мы, беларусы",
             "videoId": "BaQ1_aoww9A"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Belarus_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -628,6 +676,9 @@
         "anthem": {
             "title": "Limburg mijn Vaderland",
             "videoId": "Bx_i2i1KYo0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Belgium_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -686,6 +737,9 @@
         "anthem": {
             "title": "Land of the Free",
             "videoId": "22vWygOziBI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Belize_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -722,6 +776,9 @@
         "anthem": {
             "title": "L’Aube Nouvelle",
             "videoId": "l1Byhk46EdE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Benin_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -758,6 +815,9 @@
         "anthem": {
             "title": "Druk Tsendhen (འབྲུག་ཙན་དན་)",
             "videoId": "C0Q_nWhyGfo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bhutan_on_the_globe_(Bhutan_centered).svg"
         }
     },
     {
@@ -795,6 +855,9 @@
         "anthem": {
             "title": "Himno Nacional Boliviano",
             "videoId": "KfqQC0eSp-A"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bolivia_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -831,6 +894,9 @@
         "anthem": {
             "title": "Državna himna Bosne i Hercegovine",
             "videoId": "7QoUDVzrENw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bosnia_and_Herzegovina_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -867,6 +933,9 @@
         "anthem": {
             "title": "Fatshe leno la rona",
             "videoId": "mbPxyc3uE0s"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Botswana_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -910,6 +979,9 @@
         "anthem": {
             "title": "Hino Nacional Brasileiro",
             "videoId": "4K3AgOBh2EY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Brazil_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -952,6 +1024,9 @@
         "anthem": {
             "title": "Allah Peliharakan Sultan (لله فليهاراكن سلطن)",
             "videoId": "MYC72WGBanE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Brunei_on_the_globe_(Brunei_centered).svg"
         }
     },
     {
@@ -989,6 +1064,9 @@
         "anthem": {
             "title": "Мила Родино (Mila Rodino)",
             "videoId": "WRCmD11YSu8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Bulgaria_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -1025,6 +1103,9 @@
         "anthem": {
             "title": "Une Seule Nuit",
             "videoId": "YP4L_X1bWVI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Burkina_Faso_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1061,6 +1142,9 @@
         "anthem": {
             "title": "Burundi bwacu",
             "videoId": "bI7weruS2m4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Burundi_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1097,6 +1181,9 @@
         "anthem": {
             "title": "Nokor Reach",
             "videoId": "MxNEtVEBjhw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cambodia_on_the_globe_(Cambodia_centered).svg"
         }
     },
     {
@@ -1133,6 +1220,9 @@
         "anthem": {
             "title": "Chant de Ralliement",
             "videoId": "hH_tUCF6WOw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cameroon_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1164,6 +1254,9 @@
         "anthem": {
             "title": "O Canada!",
             "videoId": "EeEBaYcdwbM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Canada_on_the_globe_(Canada_centered).svg"
         }
     },
     {
@@ -1206,6 +1299,9 @@
         "anthem": {
             "title": "Cântico da Liberdade",
             "videoId": "S8cuLX0VIEw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cape_Verde_on_the_globe_(Cape_Verde_centered).svg"
         }
     },
     {
@@ -1254,6 +1350,9 @@
         "anthem": {
             "title": "La Renaissance",
             "videoId": "5ndGRW4J_cE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Central_African_Republic_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1290,6 +1389,9 @@
         "anthem": {
             "title": "La Tchadienne",
             "videoId": "NLMoWgXWtv8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Chad_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1327,6 +1429,9 @@
         "anthem": {
             "title": "Himno Nacional de Chile",
             "videoId": "2VR_Akwrnw8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Chile_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -1357,6 +1462,9 @@
         "anthem": {
             "title": "March of the Volunteers",
             "videoId": "rh1z3qj45gw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:China_on_the_globe_(Asia_centered)_(alternative).svg"
         }
     },
     {
@@ -1394,6 +1502,9 @@
         "anthem": {
             "title": "¡Oh gloria inmarcesible!",
             "videoId": "OrGgH2CDkk4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Colombia_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -1442,6 +1553,9 @@
         "anthem": {
             "title": "Udzima wa ya Masiwa",
             "videoId": "je_PbnbTj94"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Comoros_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1478,6 +1592,9 @@
         "anthem": {
             "title": "Debout Congolaise",
             "videoId": "ZEBtmndUXj0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Democratic_Republic_of_the_Congo_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1514,6 +1631,9 @@
         "anthem": {
             "title": "La Congolaise",
             "videoId": "p2H7pu3efPY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Republic_of_the_Congo_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1551,6 +1671,9 @@
         "anthem": {
             "title": "Noble Patria, tu hermosa bandera",
             "videoId": "F5ByAWPOcdw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Costa_Rica_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -1594,6 +1717,9 @@
         "anthem": {
             "title": "Lijepa Naša Domovino",
             "videoId": "41OGWjVesUk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Croatia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -1631,6 +1757,9 @@
         "anthem": {
             "title": "La Bayamesa",
             "videoId": "whRmwiNLDp4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cuba_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -1640,6 +1769,7 @@
         "adoption": "1960",
         "ratio": "2:3",
         "continents": [
+            "Asia",
             "Europe"
         ],
         "colors": [
@@ -1666,6 +1796,9 @@
         "anthem": {
             "title": "Ύμνος εις την Ελευθερίαν",
             "videoId": "8aT_OrU3C64"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cyprus_on_the_globe_(de-facto)_(Europe_centered).svg"
         }
     },
     {
@@ -1702,6 +1835,9 @@
         "anthem": {
             "title": "Kde domov můj?",
             "videoId": "-2fjr95Jtiw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Czech_Republic_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -1712,7 +1848,7 @@
         "ratio": "28:37",
         "name": "Dannebrog",
         "continents": [
-            "North America"
+            "Europe"
         ],
         "colors": [
             {
@@ -1733,6 +1869,9 @@
         "anthem": {
             "title": "Der er et Yndigt Land",
             "videoId": "1gkRXKY6ngA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Denmark_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -1775,6 +1914,9 @@
         "anthem": {
             "title": "Jabuuti",
             "videoId": "v12bMDk0Dr0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Djibouti_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -1823,6 +1965,9 @@
         "anthem": {
             "title": "Isle of Beauty, Isle of Splendour",
             "videoId": "ryE_FxlsSHg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Dominica_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -1859,6 +2004,9 @@
         "anthem": {
             "title": "Himno Nacional Dominicano",
             "videoId": "b6vXOv5Wuv4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Dominican_Republic_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -1868,6 +2016,7 @@
         "adoption": "2002",
         "ratio": "1:2",
         "continents": [
+            "Asia",
             "Oceania"
         ],
         "colors": [
@@ -1901,6 +2050,9 @@
         "anthem": {
             "title": "Pátria",
             "videoId": "nOLSajG15Qg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:East_Timor_on_the_globe_(Southeast_Asia_centered).svg"
         }
     },
     {
@@ -1943,6 +2095,9 @@
         "anthem": {
             "title": "HIMNO NACIONAL",
             "videoId": "q4MgFyuc6nQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Ecuador_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -1952,7 +2107,7 @@
         "adoption": "1984",
         "ratio": "2:3",
         "continents": [
-            "Asia"
+            "Africa"
         ],
         "colors": [
             {
@@ -1985,6 +2140,9 @@
         "anthem": {
             "title": "بلادي",
             "videoId": "iGpKR3OOtVs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Egypt_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2015,6 +2173,9 @@
         "anthem": {
             "title": "Himno Nacional Salvadoreño",
             "videoId": "-cp6OLdWcTs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:El_Salvador_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -2057,6 +2218,9 @@
         "anthem": {
             "title": "Caminemos pisando las sendas de nuestra inmensa Felicidad",
             "videoId": "-LMMg1KOSfY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Equatorial_Guinea_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2099,6 +2263,9 @@
         "anthem": {
             "title": "Ertra, Ertra, Ertra (ኤርትራ ኤርትራ ኤርትራ)",
             "videoId": "H2XLx67oTy8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Eritrea_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2136,6 +2303,9 @@
         "anthem": {
             "title": "Mu isamaa, mu õnn ja rõõm",
             "videoId": "NkMiNsLq4nE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Estonia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2194,6 +2364,9 @@
         "anthem": {
             "title": "Nkulunkulu Mnikati wetibusiso temaSwati",
             "videoId": "6Sjna9HwAKM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Swaziland_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2236,6 +2409,9 @@
         "anthem": {
             "title": "Wodefit Gesgeshi, Widd Innat Ityopp'ya",
             "videoId": "dv8SkcRhWlI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Ethiopia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2289,6 +2465,9 @@
         "anthem": {
             "title": "God Bless Fiji",
             "videoId": "xsQWMOUvLv8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Fiji_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -2320,6 +2499,9 @@
         "anthem": {
             "title": "Maamme",
             "videoId": "_kLC0bXNE5I"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Finland_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2357,6 +2539,9 @@
         "anthem": {
             "title": "La Marsellaise",
             "videoId": "XmhpP7rl64g"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:France_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2393,6 +2578,9 @@
         "anthem": {
             "title": "La Concorde",
             "videoId": "RzHO42ukAMc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Gabon_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2440,6 +2628,9 @@
         "anthem": {
             "title": "For The Gambia Our Homeland",
             "videoId": "9lYarXcD014"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:The_Gambia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2450,7 +2641,7 @@
         "ratio": "2:3",
         "name": "Khutjvriani Drosha",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -2471,6 +2662,9 @@
         "anthem": {
             "title": "Tavisupleba (თავისუფლება)",
             "videoId": "l9mP1eAC88g"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Georgia_on_the_globe_(claimed)_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -2508,6 +2702,9 @@
         "anthem": {
             "title": "Deutschlandlied",
             "videoId": "qZuW-kEFYmw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Germany_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2550,6 +2747,9 @@
         "anthem": {
             "title": "God bless our homeland Ghana",
             "videoId": "GZ_E3ZhAm4w"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Ghana_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2581,6 +2781,9 @@
         "anthem": {
             "title": "Ύμνος εις την Ελευθερίαν",
             "videoId": "2JQ48VM6Eik"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Greece_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2617,6 +2820,9 @@
         "anthem": {
             "title": "Hail Grenada",
             "videoId": "BSDaa8ujh1w"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Grenada_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -2647,6 +2853,9 @@
         "anthem": {
             "title": "Himno Nacional Guatemalteco",
             "videoId": "I6uK3vvklRc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Guatemala_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -2683,6 +2892,9 @@
         "anthem": {
             "title": "O Arise, All You Sons",
             "videoId": "P8Vigy6JLuk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Guinea_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2725,6 +2937,9 @@
         "anthem": {
             "title": "Esta É a Nossa Pátria Bem Amada",
             "videoId": "4oSw9ksaeXg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Guinea-Bissau_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -2773,6 +2988,9 @@
         "anthem": {
             "title": "Dear Land of Guyana, of Rivers and Plains",
             "videoId": "YjOXnRTXauM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Guyana_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -2815,6 +3033,9 @@
         "anthem": {
             "title": "Ladesalinyèn",
             "videoId": "mV4lQ0bCSQE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Haiti_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -2845,6 +3066,9 @@
         "anthem": {
             "title": "Himno Nacional Hondureño",
             "videoId": "ewyWW1kEPVk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Honduras_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -2882,6 +3106,9 @@
         "anthem": {
             "title": "Magyarország",
             "videoId": "oThctK5SLwY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Hungary_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2919,6 +3146,9 @@
         "anthem": {
             "title": "Ó Guð vors lands!",
             "videoId": "MVbbaT-KzcA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Iceland_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -2962,6 +3192,9 @@
         "anthem": {
             "title": "Jana Gana Mana",
             "videoId": "4xfpC7TjNqs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:India_on_the_globe_(India_centered).svg"
         }
     },
     {
@@ -2972,6 +3205,7 @@
         "ratio": "2:3",
         "name": "Sang Saka Merah Putih",
         "continents": [
+            "Asia",
             "Oceania"
         ],
         "colors": [
@@ -2993,6 +3227,9 @@
         "anthem": {
             "title": "Indonesia Raya",
             "videoId": "VydMaxQKBIQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Indonesia_on_the_globe_(Indonesia_centered).svg"
         }
     },
     {
@@ -3035,6 +3272,9 @@
         "anthem": {
             "title": "مهر خاوران",
             "videoId": "xk2GYvhwUno"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Iran_on_the_globe_(Iran_centered).svg"
         }
     },
     {
@@ -3077,6 +3317,9 @@
         "anthem": {
             "title": "Mawtini (موطني)",
             "videoId": "GBaI26chcFw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Iraq_on_the_globe_(Iraq_centered).svg"
         }
     },
     {
@@ -3114,6 +3357,9 @@
         "anthem": {
             "title": "Amhrán na bhFiann",
             "videoId": "ph6vf9nxGtA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Ireland_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3144,6 +3390,9 @@
         "anthem": {
             "title": "Hatikva (התקווה)",
             "videoId": "s44hw4xSE90"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Israel_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -3181,6 +3430,9 @@
         "anthem": {
             "title": "Il Canto degli Italiani / Inno di Mameli",
             "videoId": "2jryMTTyVnc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Italy_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3217,6 +3469,9 @@
         "anthem": {
             "title": "L'Abidjanaise",
             "videoId": "I6cS28OPN4A"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cote_d_Ivoire_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -3253,6 +3508,9 @@
         "anthem": {
             "title": "Jamaica, Land We Love",
             "videoId": "xAgQCUBwPoE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Jamaica_on_the_globe_(Caribbean_special)_(Americas_centered).svg"
         }
     },
     {
@@ -3284,6 +3542,9 @@
         "anthem": {
             "title": "君が代 (Kimigayo)",
             "videoId": "SGvMPzu5GSM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Japan_on_the_globe_(Japan_centered).svg"
         }
     },
     {
@@ -3326,6 +3587,9 @@
         "anthem": {
             "title": "‏السلام الملكي الأردني",
             "videoId": "rOhHziU8mU0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Jordan_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -3335,7 +3599,7 @@
         "adoption": "1992",
         "ratio": "1:2",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -3356,6 +3620,9 @@
         "anthem": {
             "title": "Менің Қазақстаным",
             "videoId": "Qc1U5rQAC5M"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kazakhstan_on_the_globe_(Kazakhstan_centered).svg"
         }
     },
     {
@@ -3398,6 +3665,9 @@
         "anthem": {
             "title": "Ee Mungu Nguvu Yetu",
             "videoId": "I8jjKlT3WQg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kenya_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -3440,6 +3710,9 @@
         "anthem": {
             "title": "Teirake Kaini Kiribati",
             "videoId": "0S1oyxQySO8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kiribati_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -3476,6 +3749,9 @@
         "anthem": {
             "title": "애국가",
             "videoId": "P7I790gRjAI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:North_Korea_on_the_globe_(North_Korea_centered).svg"
         }
     },
     {
@@ -3519,6 +3795,9 @@
         "anthem": {
             "title": "애국가",
             "videoId": "rtcLAp3M_-4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:South_Korea_on_the_globe_(South_Korea_centered).svg"
         }
     },
     {
@@ -3562,6 +3841,9 @@
         "anthem": {
             "title": "النشيد الوطني",
             "videoId": "9tijQYeOh2M"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kuwait_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -3592,6 +3874,9 @@
         "anthem": {
             "title": "Кыргыз Республикасынын Мамлекеттик Гимни",
             "videoId": "WMh2G3nuEFU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kyrgyzstan_on_the_globe_(Eurasia_centered).svg"
         }
     },
     {
@@ -3629,6 +3914,9 @@
         "anthem": {
             "title": "Pheng Xat Lao",
             "videoId": "DgaSXmI_Nrg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Laos_on_the_globe_(Asia_centered).svg"
         }
     },
     {
@@ -3660,6 +3948,9 @@
         "anthem": {
             "title": "Dievs, sveti Latviju",
             "videoId": "MXzbNcTJzBg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Latvia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3696,6 +3987,9 @@
         "anthem": {
             "title": "النشيد الوطني اللبناني",
             "videoId": "K0T38Y7PemE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Lebanon_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -3738,6 +4032,9 @@
         "anthem": {
             "title": "Lesotho Fatse La Bontata Rona",
             "videoId": "lFxpn8lkfmw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Lesotho_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -3774,6 +4071,9 @@
         "anthem": {
             "title": "All Hail, Liberia, Hail!",
             "videoId": "AE8yXzcj9Hs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Liberia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -3817,6 +4117,9 @@
         "anthem": {
             "title": "ليبيا ليبيا ليبيا",
             "videoId": "9O00LsWfh1U"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Libya_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -3859,6 +4162,9 @@
         "anthem": {
             "title": "Oben am jungen Rhein",
             "videoId": "60RJEKhDjHM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Liechtenstein_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3896,6 +4202,9 @@
         "anthem": {
             "title": "Tautiška Giesmė",
             "videoId": "YLiHI5f-NMo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Lithuania_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3933,6 +4242,9 @@
         "anthem": {
             "title": "Ons Hémécht",
             "videoId": "4Qu-NWTrMFw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Luxembourg_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -3969,6 +4281,9 @@
         "anthem": {
             "title": "Ry Tanindrazanay malala ô!",
             "videoId": "CrePI4MMMNw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Madagascar_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4005,6 +4320,9 @@
         "anthem": {
             "title": "Mulungu dalitsa Malaŵi",
             "videoId": "n1IFvqZoVik"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Malawi_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4048,6 +4366,9 @@
         "anthem": {
             "title": "Negaraku",
             "videoId": "tqVEM5ynvDc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Malaysia_on_the_globe_(Southeast_Asia_centered).svg"
         }
     },
     {
@@ -4084,6 +4405,9 @@
         "anthem": {
             "title": "Qaumii Salaam (ޤައުމީ ސަލާމް)",
             "videoId": "lxJfHUSvIrc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Maldives_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -4120,6 +4444,9 @@
         "anthem": {
             "title": "Pour l'Afrique et pour toi, Mali",
             "videoId": "v8ER_ujyVI0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mali_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4156,6 +4483,9 @@
         "anthem": {
             "title": "Ave Crux Alba",
             "videoId": "wfTnA5ZU4K0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Malta_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4192,6 +4522,9 @@
         "anthem": {
             "title": "Forever Marshall Islands",
             "videoId": "m8ZtMAlfIRQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Marshall_Islands_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -4228,6 +4561,9 @@
         "anthem": {
             "title": "نشيد وطني موريتاني",
             "videoId": "a7FDqgZVR-o"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mauritania_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4270,6 +4606,9 @@
         "anthem": {
             "title": "Motherland",
             "videoId": "toBsqRgEckI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mauritius_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4306,6 +4645,9 @@
         "anthem": {
             "title": "Himno Nacional Mexicano",
             "videoId": "RzynYqARg6Q"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mexico_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -4336,6 +4678,9 @@
         "anthem": {
             "title": "Patriots of Micronesia",
             "videoId": "lgRtv4lMsjQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Micronesia_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
         }
     },
     {
@@ -4393,6 +4738,9 @@
         "anthem": {
             "title": "Limba noastră",
             "videoId": "OsRKXJh-lYo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Moldova_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4423,6 +4771,9 @@
         "anthem": {
             "title": "Hymne Monégasque",
             "videoId": "-BnxITGGWEU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Monaco_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4459,6 +4810,9 @@
         "anthem": {
             "title": "Монгол улсын төрийн дуулал",
             "videoId": "00Qej_V-a3k"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mongolia_on_the_globe_(Mongolia_centered).svg"
         }
     },
     {
@@ -4494,6 +4848,9 @@
         "anthem": {
             "title": "Oj, Svijetla Majska Zoro",
             "videoId": "xOAqtWREz68"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Montenegro_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4524,6 +4881,9 @@
         "anthem": {
             "title": "النشيد الوطني المغربي",
             "videoId": "5FwiXnzOeXs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Morocco_on_the_globe_(undisputed)_(Africa_centered).svg"
         }
     },
     {
@@ -4572,6 +4932,9 @@
         "anthem": {
             "title": "Pátria Amada",
             "videoId": "KQD3K41Qrbo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Mozambique_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4614,6 +4977,9 @@
         "anthem": {
             "title": "Gba Majay Bma",
             "videoId": "j9CXFLsuEnA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Myanmar_on_the_globe_(Myanmar_centered).svg"
         }
     },
     {
@@ -4662,6 +5028,9 @@
         "anthem": {
             "title": "Namibia, Land of the Brave",
             "videoId": "B2Vqmd1POhk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Namibia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4703,6 +5072,9 @@
         "anthem": {
             "title": "Nauru Bwiema",
             "videoId": "kWscyuYE1CU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Nauru_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -4740,6 +5112,9 @@
         "anthem": {
             "title": "Sayaun Thunga Phool Ka (सयौं थुँगा फूलका)",
             "videoId": "A7TF8Ha3wWg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Nepal_on_the_globe_(Asia_centered).svg"
         }
     },
     {
@@ -4776,6 +5151,9 @@
         "anthem": {
             "title": "Wilhelmus van Nassouwe",
             "videoId": "gAas_7qGXMc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Netherlands_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4813,6 +5191,9 @@
         "anthem": {
             "title": "God Defend New Zealand!",
             "videoId": "GrNNAA6_yAI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:New_Zealand_on_the_globe_(Oceania_centered).svg"
         }
     },
     {
@@ -4843,6 +5224,9 @@
         "anthem": {
             "title": "Himno Nacional Nicaragüense",
             "videoId": "G3Om1C8ymI8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Nicaragua_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -4879,6 +5263,9 @@
         "anthem": {
             "title": "La Nigérienne",
             "videoId": "QilHT-RgviY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Niger_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4909,6 +5296,9 @@
         "anthem": {
             "title": "Arise Oh Compatriots, Nigeria's Call Obey",
             "videoId": "Mg3nhtrztqQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Nigeria_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -4939,6 +5329,9 @@
         "anthem": {
             "title": "Μακεδονία ξακουστή",
             "videoId": "AnIuu0WZ0BY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:North_Macedonia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -4975,6 +5368,9 @@
         "anthem": {
             "title": "Ja, vi elsker dette landet!",
             "videoId": "Al_Hc7c5ARk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Norway_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -5012,6 +5408,9 @@
         "anthem": {
             "title": "As-Salam as-Sultani (نشيد السلام السلطاني‎)",
             "videoId": "S3n0sOVEouE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Oman_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -5043,6 +5442,9 @@
         "anthem": {
             "title": "قومی ترانہ",
             "videoId": "CU3HZMgbmE4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Pakistan_on_the_globe_(undisputed)_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -5073,6 +5475,9 @@
         "anthem": {
             "title": "Belau rekid",
             "videoId": "1Iv5p5OYMys"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Palau_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
         }
     },
     {
@@ -5115,6 +5520,9 @@
         "anthem": {
             "title": "Fida'i",
             "videoId": "p0W9_6N2yLs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Palestine_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -5124,6 +5532,7 @@
         "adoption": "1925",
         "ratio": "2:3",
         "continents": [
+            "North America",
             "South America"
         ],
         "colors": [
@@ -5151,6 +5560,9 @@
         "anthem": {
             "title": "Himno Istmeño",
             "videoId": "QAr6xVaMFTE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Panama_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -5193,6 +5605,9 @@
         "anthem": {
             "title": "O Arise, All You Sons",
             "videoId": "P8Vigy6JLuk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Papua_New_Guinea_on_the_globe_(Oceania_centered).svg"
         }
     },
     {
@@ -5229,6 +5644,9 @@
         "anthem": {
             "title": "Himno Nacional Paraguayo",
             "videoId": "cJ97gyhxkSE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Paraguay_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -5259,6 +5677,9 @@
         "anthem": {
             "title": "Himno Nacional Peruano",
             "videoId": "Em2FvXwrwAQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Peru_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -5302,6 +5723,9 @@
         "anthem": {
             "title": "Patria Adorada",
             "videoId": "2KUiDHlOxEE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Philippines_on_the_globe_(Philippines_centered).svg"
         }
     },
     {
@@ -5333,6 +5757,9 @@
         "anthem": {
             "title": "Mazurek Dąbrowskiego",
             "videoId": "mHXlyHWuw4w"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Poland_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -5376,6 +5803,9 @@
         "anthem": {
             "title": "A Portuguesa",
             "videoId": "HSQx1Za3SpM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Portugal_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -5407,6 +5837,9 @@
         "anthem": {
             "title": "As-Salam al-Amiri (السلام الأميري)",
             "videoId": "cqp7mh-9rT0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Qatar_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -5444,6 +5877,9 @@
         "anthem": {
             "title": "Deșteaptă-te, române!",
             "videoId": "lPkzF7XvJtI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Romania_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -5454,6 +5890,7 @@
         "ratio": "2:3",
         "name": "Российский триколор",
         "continents": [
+            "Asia",
             "Europe"
         ],
         "colors": [
@@ -5481,6 +5918,9 @@
         "anthem": {
             "title": "Гимн России",
             "videoId": "8_1SVSf-Rng"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Russia_on_the_globe_(Eurasia_centered).svg"
         }
     },
     {
@@ -5522,6 +5962,9 @@
         "anthem": {
             "title": "Rwanda Nziza",
             "videoId": "K506Poq2xiM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Rwanda_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -5570,6 +6013,9 @@
         "anthem": {
             "title": "O Land of Beauty!",
             "videoId": "GeeNU0icnEA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Saint_Kitts_and_Nevis_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -5612,6 +6058,9 @@
         "anthem": {
             "title": "Sons and Daughters of Saint Lucia",
             "videoId": "Gbmhhcxy_Qg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Saint_Lucia_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -5648,6 +6097,9 @@
         "anthem": {
             "title": "Saint Vincent Land so Beautiful",
             "videoId": "uTX2sZrCy8w"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Saint_Vincent_and_the_Grenadines_on_the_globe_(Americas_centered).svg"
         }
     },
     {
@@ -5684,6 +6136,9 @@
         "anthem": {
             "title": "Amerika Samoa",
             "videoId": "cE9k_nYEGvQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Samoa_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -5736,6 +6191,9 @@
         "anthem": {
             "title": "Angola Avante!",
             "videoId": "gI6jtxii2AA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:San_Marino_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -5778,6 +6236,9 @@
         "anthem": {
             "title": "Independência total",
             "videoId": "42EsOc6zOTI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sao_Tome_and_Principe_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -5808,6 +6269,9 @@
         "anthem": {
             "title": "النشيد الوطني",
             "videoId": "ZPKbR9BmUU8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Saudi_Arabia_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -5844,6 +6308,9 @@
         "anthem": {
             "title": "Le Lion Rouge",
             "videoId": "27gWEoVmwf8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Senegal_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -5886,6 +6353,9 @@
         "anthem": {
             "title": "Bože Pravde (Боже правде)",
             "videoId": "9sL2w0GU0Ho"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Serbia_on_the_globe_(undisputed)_(Europe_centered).svg"
         }
     },
     {
@@ -5934,6 +6404,9 @@
         "anthem": {
             "title": "Koste Seselwa",
             "videoId": "UYNfrvozeH4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Seychelles_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -5970,6 +6443,9 @@
         "anthem": {
             "title": "High We Exalt Thee, Realm of the Free",
             "videoId": "RgNRKW3YSzo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sierra_Leone_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6000,6 +6476,9 @@
         "anthem": {
             "title": "Majulah Singapura",
             "videoId": "bOEtr6NhG10"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Singapore_on_the_globe_(Southeast_Asia_centered).svg"
         }
     },
     {
@@ -6036,6 +6515,9 @@
         "anthem": {
             "title": "Nad Tatrou sa blýska",
             "videoId": "Q6o0DzWX3fU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Slovakia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -6072,6 +6554,9 @@
         "anthem": {
             "title": "Zdravljica",
             "videoId": "7OINEhKgvFk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Slovenia_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -6114,6 +6599,9 @@
         "anthem": {
             "title": "God Save Our Solomon Islands",
             "videoId": "0HBL5OCP2n4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Solomon_Islands_on_the_globe_(Oceania_centered).svg"
         }
     },
     {
@@ -6144,6 +6632,9 @@
         "anthem": {
             "title": "Qolobaa calankeed",
             "videoId": "7V7X_AQfA50"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Somalia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6199,6 +6690,9 @@
         "anthem": {
             "title": "Nkosi Sikelel' iAfrika / Die Stem van Suid Afrika",
             "videoId": "3vOxw292w8w"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:South_Africa_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6253,6 +6747,9 @@
         "anthem": {
             "title": "South Sudan Oyee!",
             "videoId": "J8zp6JUWOwY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:South_Sudan_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6300,6 +6797,9 @@
         "anthem": {
             "title": "Marcha Real",
             "videoId": "oUDJ_A-QNw0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Spain_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -6347,6 +6847,9 @@
         "anthem": {
             "title": "Sri Lanka Matha",
             "videoId": "f9iVByPbq8E"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sri_Lanka_on_the_globe_(Asia_centered).svg"
         }
     },
     {
@@ -6389,6 +6892,9 @@
         "anthem": {
             "title": "Nahnu Jund Allah Jund Al-watan (السلام الجمهوري)",
             "videoId": "hFrfYuuBZsY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sudan_on_the_globe_(Africa_centered)_(de-facto).svg"
         }
     },
     {
@@ -6431,6 +6937,9 @@
         "anthem": {
             "title": "God zij met ons Suriname",
             "videoId": "jrr7CtKbWdw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Suriname_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -6461,6 +6970,9 @@
         "anthem": {
             "title": " Du gamla, Du fria...",
             "videoId": "fIKJOrgqBKc"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sweden_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -6491,6 +7003,9 @@
         "anthem": {
             "title": "Schweizerpsalm",
             "videoId": "paSj91HjM5k"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Switzerland_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -6534,6 +7049,9 @@
         "anthem": {
             "title": "حماة الديار (Humat ad-Diyar)",
             "videoId": "Ch8LEGllr8c"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Syria_on_the_globe_(Syria_centered).svg"
         }
     },
     {
@@ -6576,6 +7094,9 @@
         "anthem": {
             "title": "Суруди Миллии Тоҷикистон",
             "videoId": "l_BqAc0KcZ0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Tajikistan_on_the_globe_(Eurasia_centered).svg"
         }
     },
     {
@@ -6618,6 +7139,9 @@
         "anthem": {
             "title": "Mungu ibariki Afrika",
             "videoId": "LsZ5YtXn4C8"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Tanzania_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6655,6 +7179,9 @@
         "anthem": {
             "title": "Phleng Chat (เพลงชาติ)",
             "videoId": "x59B6tTPOUA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Thailand_on_the_globe_(Asia_centered).svg"
         }
     },
     {
@@ -6697,6 +7224,9 @@
         "anthem": {
             "title": "Salut à toi, pays de nos aïeux",
             "videoId": "IE2L45MEdfg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Togo_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6727,6 +7257,9 @@
         "anthem": {
             "title": "Koe Fasi Oe Tu'i Oe Otu Tonga",
             "videoId": "tyJrC4qsqv4"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Tonga_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -6736,6 +7269,7 @@
         "adoption": "1962",
         "ratio": "3:5",
         "continents": [
+            "North America",
             "South America"
         ],
         "colors": [
@@ -6763,6 +7297,9 @@
         "anthem": {
             "title": "Forged from the Love of Liberty",
             "videoId": "KL5XPoOHVAw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Trinidad_and_Tobago_on_the_globe_(Caribbean_special)_(Americas_centered).svg"
         }
     },
     {
@@ -6793,6 +7330,9 @@
         "anthem": {
             "title": "Defenders of the Homeland (حماة الحمى)",
             "videoId": "pmGX3EFp9oo"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Tunisia_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6803,6 +7343,7 @@
         "ratio": "2:3",
         "name": "Albayrak",
         "continents": [
+            "Asia",
             "Europe"
         ],
         "colors": [
@@ -6824,6 +7365,9 @@
         "anthem": {
             "title": "İstiklâl Marşı",
             "videoId": "jXBBUBJJpfk"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Turkey_on_the_globe_(Turkey_centered).svg"
         }
     },
     {
@@ -6866,6 +7410,9 @@
         "anthem": {
             "title": "Garaşsyz, Bitarap Türkmenistanyň Döwlet Gimni",
             "videoId": "1X1jf6Ix2yQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Turkmenistan_on_the_globe_(Turkmenistan_centered).svg"
         }
     },
     {
@@ -6914,6 +7461,9 @@
         "anthem": {
             "title": "Tuvalu mo te Atua",
             "videoId": "ux8jTQhdJFg"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Tuvalu_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -6956,6 +7506,9 @@
         "anthem": {
             "title": "Oh Uganda, Land of Beauty",
             "videoId": "tr2QtUNhwLI"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Uganda_on_the_globe_(Africa_centered).svg"
         }
     },
     {
@@ -6987,6 +7540,9 @@
         "anthem": {
             "title": "Ще не вмерла Українa",
             "videoId": "yOQRztFJ3OQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Ukraine_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -7029,6 +7585,9 @@
         "anthem": {
             "title": "عيشي بلادي",
             "videoId": "kZAI4wHs1yQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:United_Arab_Emirates_on_the_globe_(United_Arab_Emirates_centered).svg"
         }
     },
     {
@@ -7075,6 +7634,9 @@
         "anthem": {
             "title": "God save the Queen",
             "videoId": "E0PxtUxpMOs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:United_Kingdom_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -7112,6 +7674,9 @@
         "anthem": {
             "title": "The Star-Spangled Banner",
             "videoId": "i9e7Bmsd_Iw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:United_States_on_the_globe_(United_States_centered).svg"
         }
     },
     {
@@ -7159,6 +7724,9 @@
         "anthem": {
             "title": "Himno Nacional Uruguayo",
             "videoId": "ACFtURwcCvE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Uruguay_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -7201,6 +7769,9 @@
         "anthem": {
             "title": "O'zbekiston Respublikasining Davlat Madhiyasi",
             "videoId": "p5DxEnOtsdM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Uzbekistan_on_the_globe_(Uzbekistan_centered).svg"
         }
     },
     {
@@ -7243,6 +7814,9 @@
         "anthem": {
             "title": "Yumi, Yumi, Yumi",
             "videoId": "GxD9T8Op2bE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Vanuatu_on_the_globe_(Oceania_centered).svg"
         }
     },
     {
@@ -7279,6 +7853,9 @@
         "anthem": {
             "title": "Inno e Marcia Pontificale",
             "videoId": "vGSqgj_GmeA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Vatican_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -7322,6 +7899,9 @@
         "anthem": {
             "title": "¡Gloria al Bravo Pueblo!",
             "videoId": "Uc25Ks_iwoA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Venezuela_on_the_globe_(South_America_centered).svg"
         }
     },
     {
@@ -7353,6 +7933,9 @@
         "anthem": {
             "title": "Tiến Quân Ca",
             "videoId": "n2BeEM3p600"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Vietnam_on_the_globe_(Vietnam_centered).svg"
         }
     },
     {
@@ -7389,6 +7972,9 @@
         "anthem": {
             "title": "Nashīd al-Yaman al-waṭanī (نشيد اليمن الوطني)",
             "videoId": "93DN3voc-Xw"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Yemen_on_the_globe_(Yemen_centered).svg"
         }
     },
     {
@@ -7431,6 +8017,9 @@
         "anthem": {
             "title": "Stand and Sing of Zambia, Proud and Free",
             "videoId": "Rc6VwfggFBA"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Zambia_on_the_globe_(Zambia_centered).svg"
         }
     },
     {
@@ -7484,6 +8073,9 @@
         "anthem": {
             "title": "Blessed be the Land of Zimbabwe",
             "videoId": "8UCNXIaVTiU"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Zimbabwe_on_the_globe_(Zambia_centered).svg"
         }
     },
     {
@@ -7493,7 +8085,7 @@
         "adoption": "1992",
         "ratio": "1:2",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -7535,6 +8127,9 @@
         "anthem": {
             "title": "Республикæ Хуссар Ирыстоны Паддзахадон Гимн",
             "videoId": "sAKNzou7ku0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Abkhazia_on_the_globe_(Eurasia_centered).svg"
         }
     },
     {
@@ -7544,7 +8139,7 @@
         "adoption": "1992",
         "ratio": "1:2",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -7577,6 +8172,9 @@
         "anthem": {
             "title": "Ազատ ու անկախ Արցախ",
             "videoId": "NaAyCsvWOBs"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Artsakh_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -7613,6 +8211,9 @@
         "anthem": {
             "title": "Te Atua Mou'e",
             "videoId": "KcJce000dLY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Cook_Islands_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -7649,6 +8250,9 @@
         "anthem": {
             "title": "Kur ka ra kushtrimi n'Kosovë",
             "videoId": "RXVnbEG2jrE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Kosovo_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -7691,6 +8295,9 @@
         "anthem": {
             "title": "Ko e Iki he Lagi",
             "videoId": "oee1lBs7jT0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Niue_on_the_globe_(Polynesia_centered).svg"
         }
     },
     {
@@ -7700,6 +8307,7 @@
         "adoption": "1984",
         "ratio": "2:3",
         "continents": [
+            "Asia",
             "Europe"
         ],
         "colors": [
@@ -7721,6 +8329,9 @@
         "anthem": {
             "title": "İstiklâl Marşı",
             "videoId": "hwOri1HFzQM"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Northern_Cyprus_on_the_globe_(Europe_centered).svg"
         }
     },
     {
@@ -7763,6 +8374,9 @@
         "anthem": {
             "title": "Yabany As-Sahara! (يا بني الصحراء)",
             "videoId": "KZc_fZne3TE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Sahrawi_Arab_Democratic_Republic_on_the_globe_(de-facto)_(Africa_centered).svg"
         }
     },
     {
@@ -7805,6 +8419,9 @@
         "anthem": {
             "title": "Samo ku waar",
             "videoId": "xErHi3yP7UE"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Somaliland_on_the_globe_(de-facto)_(Africa_centered).svg"
         }
     },
     {
@@ -7814,7 +8431,7 @@
         "adoption": "1991",
         "ratio": "1:2",
         "continents": [
-            "Europe"
+            "Asia"
         ],
         "colors": [
             {
@@ -7841,6 +8458,9 @@
         "anthem": {
             "title": "Республикæ Хуссар Ирыстоны Паддзахадон Гимн",
             "videoId": "sAKNzou7ku0"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:South_Ossetia_on_the_globe_(Afro-Eurasia_centered).svg"
         }
     },
     {
@@ -7877,6 +8497,9 @@
         "anthem": {
             "title": "中華民國國歌",
             "videoId": "AA1H_eTUjtY"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Taiwan_on_the_globe_(Asia_centered).svg"
         }
     },
     {
@@ -7913,6 +8536,9 @@
         "anthem": {
             "title": "Слэвитэ сэ фий, Нистрене",
             "videoId": "AjhsSN3TwPQ"
+        },
+        "map": {
+            "credits": "https://commons.wikimedia.org/wiki/File:Transnistria_on_the_globe_(Europe_centered).svg"
         }
     }
 ]

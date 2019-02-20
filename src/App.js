@@ -43,6 +43,7 @@ class App extends Component {
 
     this.state = {
       detail: null,
+      detailView: "",
       allFlags: [...props.data],
       filtered: [...props.data],
       filters: [],
@@ -302,7 +303,19 @@ class App extends Component {
                 {flag.id === "abkhazia" && !this.state.sortBy && <hr />}
 
                 <li>
-                  <div className="flip-container">
+                  <div
+                    className="flip-container"
+                    onMouseEnter={() =>
+                      this.setState({
+                        active: i,
+                      })
+                    }
+                    onFocusCapture={() =>
+                      this.setState({
+                        active: i,
+                      })
+                    }
+                  >
                     <div className="flipper">
                       <div className="front">
                         <figure>
@@ -321,6 +334,24 @@ class App extends Component {
                           }}
                         >
                           <div className="flag-header">
+                            <div className="flag-map">
+                              <Link
+                                to={svgUrl}
+                                onClick={e => {
+                                  e.preventDefault();
+                                  this.setState({
+                                    detail: { ...flag, index: i },
+                                    detailView: "map",
+                                  });
+                                }}
+                              >
+                                <img
+                                  alt={`${flag.country} on the globe map`}
+                                  width="60"
+                                  src={require(`./data/maps/${flag.id}.png`)}
+                                />
+                              </Link>
+                            </div>
                             <div className="flag-title">
                               <h3>{flag.country}</h3>
                               <small>
@@ -330,6 +361,7 @@ class App extends Component {
                                     e.preventDefault();
                                     this.setState({
                                       detail: { ...flag, index: i },
+                                      detailView: "flag",
                                     });
                                   }}
                                 >
@@ -490,7 +522,11 @@ class App extends Component {
                 background: "rgba(255,255,255,.9)",
               },
               content: {
-                ...getSize(this.state.detail.ratio),
+                ...getSize(
+                  this.state.detailView === "flag"
+                    ? this.state.detail.ratio
+                    : "1:1"
+                ),
                 background: "transparent",
                 border: "0",
                 padding: 0,
@@ -501,13 +537,19 @@ class App extends Component {
               },
             }}
             isOpen={!!this.state.detail}
-            onRequestClose={() => this.setState({ detail: null })}
+            onRequestClose={() =>
+              this.setState({ detail: null, detailView: "" })
+            }
             contentLabel={this.state.detail && this.state.detail.country}
           >
             <img
-              onClick={() => this.setState({ detail: null })}
+              onClick={() => this.setState({ detail: null, detailView: "" })}
               height="100%"
-              src={require(`./data/flags/${this.state.detail.id}.svg`)}
+              src={
+                this.state.detailView === "flag"
+                  ? require(`./data/flags/${this.state.detail.id}.svg`)
+                  : require(`./data/maps/${this.state.detail.id}.png`)
+              }
               alt={`Flag of ${this.state.detail.country}`}
             />
             <div className="zoom-controls">
@@ -516,7 +558,37 @@ class App extends Component {
                   <span>prev</span>
                 </button>
               )}
-              <h3>{this.state.detail.country}</h3>
+              <div>
+                <h3>{this.state.detail.country}</h3>
+                <small>
+                  {this.state.detailView === "map" && (
+                    <Link
+                      to={require(`./data/flags/${this.state.detail.id}.svg`)}
+                      onClick={e => {
+                        e.preventDefault();
+                        this.setState({
+                          detailView: "flag",
+                        });
+                      }}
+                    >
+                      flag
+                    </Link>
+                  )}
+                  {this.state.detailView === "flag" && (
+                    <Link
+                      to={require(`./data/maps/${this.state.detail.id}.png`)}
+                      onClick={e => {
+                        e.preventDefault();
+                        this.setState({
+                          detailView: "map",
+                        });
+                      }}
+                    >
+                      map
+                    </Link>
+                  )}
+                </small>
+              </div>
               {this.state.filtered.length > 1 && (
                 <button onClick={() => this.navigate(1)}>
                   <span>next</span>

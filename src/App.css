@@ -256,11 +256,25 @@ button-primary:active, button-primary.active {
 }
 
 .flag-header {
-  display: flex
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  background: rgba(255,255,255, .4);
+  margin-bottom: 1rem;
+}
+
+.flag-map {
+  margin: 10px;
+  mix-blend-mode: luminosity
+}
+
+.flag-map img {
+  filter: drop-shadow(1px 1px 3px #ccc)
 }
 
 .flag-title {
-  margin: auto auto 1.2rem;
+  margin: auto 0 1.2rem;
+  text-align: left;
 }
 
 .iframe-placeholder + .flag-title {
@@ -291,7 +305,8 @@ button-primary:active, button-primary.active {
   text-align: right;
 }
 img {
-  display: block
+  display: block;
+  margin: auto;
 }
 
 .zoom-controls {
@@ -304,12 +319,12 @@ img {
   width: auto;
   left: 50%;
   min-width: 100%;
+  text-align: center;
 }
 
 .zoom-controls h3 {
-  margin: 0;
   padding: 0 1rem;
-  text-align: center;
+  margin: 0;
   flex-grow: 1
 }
 
