@@ -373,3 +373,11 @@ button.close::before, a.play::before {
 a.play::before {
   content: '►'
 }
+
+.map-credits {
+  position: absolute;
+  right: 20px;
+  bottom: 26px;
+  font-size: 75%;
+  text-align: right;
+}

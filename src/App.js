@@ -3,8 +3,8 @@ import Modal from "react-modal";
 import keydown, { Keys } from "react-keydown";
 import "./App.css";
 
-const Link = ({ to, children, onClick }) => (
-  <a href={to} onClick={onClick} target="_blank" rel="noopener noreferrer">
+const Link = ({ to, children, onClick, className }) => (
+  <a href={to} className={className} onClick={onClick} target="_blank" rel="noopener noreferrer">
     {children}
   </a>
 );
@@ -552,6 +552,11 @@ class App extends Component {
               }
               alt={`Flag of ${this.state.detail.country}`}
             />
+            {this.state.detailView === "map" && (
+              <Link className="map-credits" to={this.state.detail.map.credits} target="_blank">
+                map<br/>credits
+              </Link>
+            )}
             <div className="zoom-controls">
               {this.state.filtered.length > 1 && (
                 <button onClick={() => this.navigate(-1)}>
