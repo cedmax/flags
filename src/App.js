@@ -423,9 +423,9 @@ class App extends Component {
           </Link>
           .
           <br />
-          Anthems from{" "}
-          <Link to="https://open.spotify.com/user/nfrancestates/playlist/7w2g4N2CWWeyysqaxWyLTU?si=xjSJ4nmORo-DOaxfJxfNiQ">
-            Spotify
+          Anthems mostly from{" "}
+          <Link to="https://www.youtube.com/user/DeroVolk">
+            DeroVolk, on YouTube
           </Link>
           <br />
           <br />
