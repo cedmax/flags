@@ -307,7 +307,7 @@ class App extends Component {
                       <div className="front">
                         <figure>
                           <img
-                            width={150}
+                            width={180}
                             src={svgUrl}
                             alt={`Flag of ${flag.country}`}
                           />
@@ -366,17 +366,19 @@ class App extends Component {
                               <em>{flag.ratio}</em>
                             </li>
                             <li>
-                              <b>Anthem</b>
-                              <br />
                               <a
+                                class="play"
                                 href={`#${flag.id}`}
                                 onClick={e => {
                                   e.preventDefault();
                                   this.play(flag.anthem.videoId);
                                 }}
                               >
-                                ► {flag.anthem.title}
+                                <span>play {flag.anthem.title}</span>
                               </a>
+                              <b>Anthem</b>
+                              <br />
+                              <em>{flag.anthem.title}</em>{" "}
                             </li>
                             <li>
                               <b>Colors</b>

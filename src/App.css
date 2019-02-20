@@ -9,8 +9,7 @@ body {
 }
 
 main {
-  padding: 3rem 1.5rem 0;
-  max-width: 100%;
+  padding: 3rem 3% 0;
   overflow: hidden;
 }
 
@@ -36,7 +35,7 @@ body{
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 220px);
+  grid-template-columns: repeat(auto-fill, 240px);
   justify-content: space-around;
 }
 
@@ -62,8 +61,8 @@ body{
 	}
 
 .flip-container, .front, .back {
-	width: 220px;
-	height: 220px;
+	width: 240px;
+	height: 240px;
 }
 
 .front figure {
@@ -107,8 +106,9 @@ body{
   justify-content: center;
   align-items: center;
   line-height: 1.4;
-  width: 140%;
-  margin-left: -20%;
+  width: 130%;
+  margin-left: -15%;
+  position: relative; 
 }
 
 .back > div {
@@ -119,7 +119,7 @@ body{
   background-blend-mode: color;
   padding-bottom: 1rem;
   background-position: 50% 50%;
-  min-height: 220px;
+  min-height: 240px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -135,8 +135,6 @@ body{
   width: 85%;
   margin: 0 auto 7px
 }
-
-
 
 footer {
   padding: 7rem 0;
@@ -170,8 +168,8 @@ a, a:hover, a:visited, a:active {
 
 nav {
   text-align: center;
-  max-width: 90%;
-  padding: 1rem 0;
+  max-width: 100%;
+  padding: 1rem 3%;
   margin: auto;
 }
 
@@ -232,7 +230,7 @@ button.flat {
   margin: auto
 }
 
-button.flat:hover, .back a {
+button.flat:hover {
   text-decoration: underline;
   cursor: pointer;
 }
@@ -315,28 +313,48 @@ img {
   flex-grow: 1
 }
 
-button.close {
+button.close, a.play {
   border: 0;
   background: #222;
   border-radius: 50px;
-  text-indent: 6px;
+  display: inline-block;
   width: 20px;
   height: 20px;
   overflow: hidden;
+  text-decoration: none;
   padding: 0;
   font-size: 10px;
   color: white;
-  position: absolute;
-  right: -10px;
-  top: -10px;
+  line-height: 2;
   box-shadow: 1px 1px 3px #999;
 }
 
-button.close span {
+a.play {
+  vertical-align: bottom;
+  margin: 0 3px;
+  background-color: #666;
+  box-shadow: none;
+}
+
+a.play:hover {
+  background-color: #333;
+}
+
+button.close {
+  position: absolute;
+  right: -10px;
+  top: -10px;
+}
+
+button.close span, a.play span {
   text-indent: 100px;
 }
 
-button.close::before {
-  content: 'x';
+button.close::before, a.play::before {
+  content: '✕';
   display: block;
+}
+
+a.play::before {
+  content: '►'
 }
