@@ -368,7 +368,13 @@ class App extends Component {
                             <li>
                               <b>Anthem</b>
                               <br />
-                              <a onClick={() => this.play(flag.anthem.videoId)}>
+                              <a
+                                href={`#${flag.id}`}
+                                onClick={e => {
+                                  e.preventDefault();
+                                  this.play(flag.anthem.videoId);
+                                }}
+                              >
                                 ► {flag.anthem.title}
                               </a>
                             </li>
@@ -467,7 +473,7 @@ class App extends Component {
                 this.state.playing
               }?autoplay=1`}
               allow="autoplay"
-              frameborder="0"
+              frameBorder="0"
               height="100%"
               width="100%"
               title="anthem"

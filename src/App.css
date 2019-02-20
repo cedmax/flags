@@ -9,7 +9,9 @@ body {
 }
 
 main {
-  padding: 3rem 1rem 0;
+  padding: 3rem 1.5rem 0;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 code {
@@ -38,6 +40,10 @@ body{
   justify-content: space-around;
 }
 
+.list li:focus-within, .list li:hover {
+  z-index: 100;
+}
+
 .list hr {
   width: 70%;
   grid-column: 1 / -1;
@@ -47,10 +53,6 @@ body{
 /* entire container, keeps perspective */
 .flip-container {
 	perspective: 1000px;
-}
-.flip-container:hover, .flip-container:focus-within {
-  z-index: 100;
-  position: absolute;
 }
 
 	/* flip the pane when hovered */
@@ -104,8 +106,9 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 120%;
-  margin-left: -10%;
+  line-height: 1.4;
+  width: 140%;
+  margin-left: -20%;
 }
 
 .back > div {
@@ -129,7 +132,8 @@ body{
 }
 
 .back ul li {
-  margin-bottom : 7px;
+  width: 85%;
+  margin: 0 auto 7px
 }
 
 
