@@ -367,7 +367,7 @@ class App extends Component {
                             </li>
                             <li>
                               <a
-                                class="play"
+                                className="play"
                                 href={`#${flag.id}`}
                                 onClick={e => {
                                   e.preventDefault();
