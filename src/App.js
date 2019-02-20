@@ -486,6 +486,7 @@ class App extends Component {
           <Modal
             style={{
               overlay: {
+                zIndex: 1500,
                 background: "rgba(255,255,255,.9)",
               },
               content: {
