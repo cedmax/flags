@@ -86,7 +86,12 @@ module.exports = {
           throw new Error(`${flag.id} doesn't have tags`);
         }
         if (!flag.anthem) {
-          console.log(`- ${flag.id} doesn't have anthem`);
+          throw new Error(`${flag.id} doesn't have an anthem`);
+        } else {
+          if (flag.anthem.input.match(/[0-9]{4}/)) {
+            throw new Error(`${flag.id} has the wrong anthem anthem`);
+          }
+          delete flag.anthem.input;
         }
       });
       resolve(flags);

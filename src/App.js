@@ -50,6 +50,7 @@ class App extends Component {
       active: "",
       q: "",
       sortBy: "",
+      playing: "",
       sorters: ["name", "adoption", "ratio"],
     };
 
@@ -214,6 +215,10 @@ class App extends Component {
     });
   };
 
+  play = videoId => {
+    this.setState({ playing: videoId });
+  };
+
   render() {
     return (
       <main>
@@ -297,11 +302,7 @@ class App extends Component {
                 {flag.id === "abkhazia" && !this.state.sortBy && <hr />}
 
                 <li>
-                  <div
-                    onFocusCapture={() => this.setState({ active: i })}
-                    className="flip-container"
-                    onMouseOver={() => this.setState({ active: i })}
-                  >
+                  <div className="flip-container">
                     <div className="flipper">
                       <div className="front">
                         <figure>
@@ -320,25 +321,6 @@ class App extends Component {
                           }}
                         >
                           <div className="flag-header">
-                            {flag.anthem && (
-                              <div className="iframe-placeholder">
-                                {i === this.state.active && (
-                                  <>
-                                    <iframe
-                                      scrolling="no"
-                                      title={flag.country}
-                                      height="80"
-                                      width="80"
-                                      src={`https://open.spotify.com/embed/track/${flag.anthem.replace(
-                                        "spotify:track:",
-                                        ""
-                                      )}`}
-                                    />
-                                    <span>anthem</span>
-                                  </>
-                                )}
-                              </div>
-                            )}
                             <div className="flag-title">
                               <h3>{flag.country}</h3>
                               <small>
@@ -382,6 +364,13 @@ class App extends Component {
                               <b>Aspect Ratio</b>
                               <br />
                               <em>{flag.ratio}</em>
+                            </li>
+                            <li>
+                              <b>Anthem</b>
+                              <br />
+                              <a onClick={() => this.play(flag.anthem.videoId)}>
+                                ► {flag.anthem.title}
+                              </a>
                             </li>
                             <li>
                               <b>Colors</b>
@@ -443,6 +432,48 @@ class App extends Component {
           Made with <span style={{ color: "#C33" }}>❤</span> by{" "}
           <Link to="https://cedmax.com">cedmax</Link>.
         </footer>
+        {this.state.playing && (
+          <Modal
+            style={{
+              overlay: {
+                zIndex: 1000,
+                background: "transparent",
+                pointerEvents: "none",
+              },
+              content: {
+                pointerEvents: "all",
+                width: 240,
+                height: 135,
+                border: 0,
+                padding: 0,
+                right: 20,
+                top: "auto",
+                left: "auto",
+                bottom: 20,
+                overflow: "visible",
+              },
+            }}
+            isOpen={!!this.state.playing}
+            onRequestClose={() => this.setState({ playing: null })}
+          >
+            <button
+              onClick={() => this.setState({ playing: null })}
+              className="close"
+            >
+              <span>close</span>
+            </button>
+            <iframe
+              src={`https://www.youtube.com/embed/${
+                this.state.playing
+              }?autoplay=1`}
+              allow="autoplay"
+              frameborder="0"
+              height="100%"
+              width="100%"
+              title="anthem"
+            />
+          </Modal>
+        )}
         {this.state.detail && (
           <Modal
             style={{

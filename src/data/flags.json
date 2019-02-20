@@ -36,7 +36,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:08XkdgPaF2ByiQX8SzRlH1"
+        "anthem": {
+            "title": "سرود ملی‎",
+            "videoId": "gPAz_zyqkaA"
+        }
     },
     {
         "id": "albania",
@@ -64,7 +67,10 @@
             "red",
             "black"
         ],
-        "anthem": "spotify:track:0J7T6WhEvtTTqvx4RRjpbq"
+        "anthem": {
+            "title": "Himni i Flamurit",
+            "videoId": "PwHNTRmjXdE"
+        }
     },
     {
         "id": "algeria",
@@ -97,7 +103,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:6yrztiut8FZGfeQQ3iqEBI"
+        "anthem": {
+            "title": "We Pledge (قَسَمًا)",
+            "videoId": "FySaX00FNs4"
+        }
     },
     {
         "id": "andorra",
@@ -140,7 +149,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:74NggutKEKI9FIMonXgRMi"
+        "anthem": {
+            "title": "El Gran Carlemany",
+            "videoId": "zDrGUyVkvuo"
+        }
     },
     {
         "id": "angola",
@@ -173,7 +185,10 @@
             "black",
             "yellow"
         ],
-        "anthem": "spotify:track:7hrCjUIObTQcDhUe4GzkCI"
+        "anthem": {
+            "title": "Angola Avante!",
+            "videoId": "gI6jtxii2AA"
+        }
     },
     {
         "id": "antigua-and-barbuda",
@@ -218,7 +233,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:2NRcoBALzgXdKm8OeBzJtV"
+        "anthem": {
+            "title": "Fair Antigua, We Salute Thee",
+            "videoId": "BxKQ-zlYai4"
+        }
     },
     {
         "id": "argentina",
@@ -252,7 +270,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:6K9FFoSz2uDkQnkXQ4szfv"
+        "anthem": {
+            "title": "Himno Nacional Argentino",
+            "videoId": "SNc98YagX_k"
+        }
     },
     {
         "id": "armenia",
@@ -286,7 +307,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:3or8Jw8XkNH2w8lYXAh1ja"
+        "anthem": {
+            "title": "Mer Hayrenik",
+            "videoId": "hdNggC-wu_0"
+        }
     },
     {
         "id": "australia",
@@ -320,7 +344,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:6GuOuwFPKE4ciHXFJK4nN9"
+        "anthem": {
+            "title": "Advance Australia Fair!",
+            "videoId": "9wNagAakaE4"
+        }
     },
     {
         "id": "austria",
@@ -348,7 +375,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:4kOmh3ugDGqq5pMU3d8H6W"
+        "anthem": {
+            "title": "Land der Berge, Land am Strome",
+            "videoId": "I9N06ZTT6sg"
+        }
     },
     {
         "id": "azerbaijan",
@@ -388,7 +418,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:4J4yyHvGWr3EGCf8YN1ttN"
+        "anthem": {
+            "title": "Azərbaycan marşı",
+            "videoId": "urpiL0uwSDI"
+        }
     },
     {
         "id": "bahamas",
@@ -421,7 +454,10 @@
             "black",
             "yellow"
         ],
-        "anthem": "spotify:track:41bkUCL3bUPTnM5t9g1QtJ"
+        "anthem": {
+            "title": "March On, Bahamaland",
+            "videoId": "K1UM0p_q2zk"
+        }
     },
     {
         "id": "bahrain",
@@ -448,7 +484,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:1idlLu9FqlFd7PeYmkNIpU"
+        "anthem": {
+            "title": "Bahrainona (نشيد البحرين الوطني)",
+            "videoId": "u6sd8vhCPDc"
+        }
     },
     {
         "id": "bangladesh",
@@ -476,7 +515,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:6Wr2A1s7nvzTqANgksgDxt"
+        "anthem": {
+            "title": "Amar Sonar Bangla (আমার সোনার বাংলা)",
+            "videoId": "RWF5wWRjiHE"
+        }
     },
     {
         "id": "barbados",
@@ -510,7 +552,10 @@
             "yellow",
             "black"
         ],
-        "anthem": "spotify:track:4byxcbvhmFOdPZ7kb34iUf"
+        "anthem": {
+            "title": "In Plenty and in Time of Need",
+            "videoId": "SYfQDpnmyFU"
+        }
     },
     {
         "id": "belarus",
@@ -544,7 +589,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:6LF0Strh2KeAH9IhTbiZ1J"
+        "anthem": {
+            "title": "Мы, беларусы",
+            "videoId": "BaQ1_aoww9A"
+        }
     },
     {
         "id": "belgium",
@@ -577,7 +625,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:7goOE7w5L6R4x8Zx4B2qvu"
+        "anthem": {
+            "title": "Limburg mijn Vaderland",
+            "videoId": "Bx_i2i1KYo0"
+        }
     },
     {
         "id": "belize",
@@ -632,7 +683,10 @@
             "green",
             "yellow"
         ],
-        "anthem": "spotify:track:2KuAxqFIaj3IUCapI3ZVwe"
+        "anthem": {
+            "title": "Land of the Free",
+            "videoId": "22vWygOziBI"
+        }
     },
     {
         "id": "benin",
@@ -665,7 +719,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:3FZAqRf9D0B9yaK6U6kK3m"
+        "anthem": {
+            "title": "L’Aube Nouvelle",
+            "videoId": "l1Byhk46EdE"
+        }
     },
     {
         "id": "bhutan",
@@ -698,7 +755,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:6n28Uuqq0oP4Dv4ekTXcBI"
+        "anthem": {
+            "title": "Druk Tsendhen (འབྲུག་ཙན་དན་)",
+            "videoId": "C0Q_nWhyGfo"
+        }
     },
     {
         "id": "bolivia",
@@ -732,7 +792,10 @@
             "yellow",
             "green"
         ],
-        "anthem": "spotify:track:22wshf60YN1Lg1ClrN93tr"
+        "anthem": {
+            "title": "Himno Nacional Boliviano",
+            "videoId": "KfqQC0eSp-A"
+        }
     },
     {
         "id": "bosnia-and-herzegovina",
@@ -765,7 +828,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:22ZfVFQfFCgy5bJcpbZ0qi"
+        "anthem": {
+            "title": "Državna himna Bosne i Hercegovine",
+            "videoId": "7QoUDVzrENw"
+        }
     },
     {
         "id": "botswana",
@@ -798,7 +864,10 @@
             "black",
             "white"
         ],
-        "anthem": "spotify:track:7bc84oCI9dwdNb9zMAx1Lk"
+        "anthem": {
+            "title": "Fatshe leno la rona",
+            "videoId": "mbPxyc3uE0s"
+        }
     },
     {
         "id": "brazil",
@@ -838,7 +907,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:6ZxDJsahi2npA46QlpA2H4"
+        "anthem": {
+            "title": "Hino Nacional Brasileiro",
+            "videoId": "4K3AgOBh2EY"
+        }
     },
     {
         "id": "brunei",
@@ -877,7 +949,10 @@
             "black",
             "red"
         ],
-        "anthem": "spotify:track:5hF1YJIt7VrpAvSifRpMyp"
+        "anthem": {
+            "title": "Allah Peliharakan Sultan (لله فليهاراكن سلطن)",
+            "videoId": "MYC72WGBanE"
+        }
     },
     {
         "id": "bulgaria",
@@ -911,7 +986,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:1RxHKS9Wm2bQrskxpE8mSq"
+        "anthem": {
+            "title": "Мила Родино (Mila Rodino)",
+            "videoId": "WRCmD11YSu8"
+        }
     },
     {
         "id": "burkina-faso",
@@ -944,7 +1022,10 @@
             "green",
             "yellow"
         ],
-        "anthem": "spotify:track:3hDVaDXftzD1Fv1y9gXsHT"
+        "anthem": {
+            "title": "Une Seule Nuit",
+            "videoId": "YP4L_X1bWVI"
+        }
     },
     {
         "id": "burundi",
@@ -977,7 +1058,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:3VWBChZbiiysTbs8L5i0II"
+        "anthem": {
+            "title": "Burundi bwacu",
+            "videoId": "bI7weruS2m4"
+        }
     },
     {
         "id": "cambodia",
@@ -1010,7 +1094,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:6Haub5PZcsHgTzhRHG99oZ"
+        "anthem": {
+            "title": "Nokor Reach",
+            "videoId": "MxNEtVEBjhw"
+        }
     },
     {
         "id": "cameroon",
@@ -1043,7 +1130,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:4Tem0Yd4m5lcv2eAZEY6t0"
+        "anthem": {
+            "title": "Chant de Ralliement",
+            "videoId": "hH_tUCF6WOw"
+        }
     },
     {
         "id": "canada",
@@ -1071,7 +1161,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:6qUdcYAVxcBrYPfZHl2SJo"
+        "anthem": {
+            "title": "O Canada!",
+            "videoId": "EeEBaYcdwbM"
+        }
     },
     {
         "id": "cape-verde",
@@ -1110,7 +1203,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:5NsdsCc04y0ZmBZrrN58fz"
+        "anthem": {
+            "title": "Cântico da Liberdade",
+            "videoId": "S8cuLX0VIEw"
+        }
     },
     {
         "id": "central-african-republic",
@@ -1155,7 +1251,10 @@
             "blue",
             "red"
         ],
-        "anthem": "spotify:track:6wAgdQ4x74ObJM3kmfVLoJ"
+        "anthem": {
+            "title": "La Renaissance",
+            "videoId": "5ndGRW4J_cE"
+        }
     },
     {
         "id": "chad",
@@ -1188,7 +1287,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:59HrvgIEwqqPy5YJ2hACWK"
+        "anthem": {
+            "title": "La Tchadienne",
+            "videoId": "NLMoWgXWtv8"
+        }
     },
     {
         "id": "chile",
@@ -1222,7 +1324,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:2jAbQRc92My1NhmBpsaYrH"
+        "anthem": {
+            "title": "Himno Nacional de Chile",
+            "videoId": "2VR_Akwrnw8"
+        }
     },
     {
         "id": "china",
@@ -1249,7 +1354,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:0Jy4t3XLkajj3JDrmhxqqm"
+        "anthem": {
+            "title": "March of the Volunteers",
+            "videoId": "rh1z3qj45gw"
+        }
     },
     {
         "id": "colombia",
@@ -1283,7 +1391,10 @@
             "blue",
             "red"
         ],
-        "anthem": "spotify:track:63lR4nMRhf5gXuqxGzmCRV"
+        "anthem": {
+            "title": "¡Oh gloria inmarcesible!",
+            "videoId": "OrGgH2CDkk4"
+        }
     },
     {
         "id": "comoros",
@@ -1328,7 +1439,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:5sRBFtdEyfkoePoBZXrfEo"
+        "anthem": {
+            "title": "Udzima wa ya Masiwa",
+            "videoId": "je_PbnbTj94"
+        }
     },
     {
         "id": "democratic-republic-of-the-congo",
@@ -1361,7 +1475,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:6SWvbMv2tZncCOy1Hg4XNQ"
+        "anthem": {
+            "title": "Debout Congolaise",
+            "videoId": "ZEBtmndUXj0"
+        }
     },
     {
         "id": "republic-of-the-congo",
@@ -1394,7 +1511,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:4KPoxBZBGqRrWbJyPsB7ir"
+        "anthem": {
+            "title": "La Congolaise",
+            "videoId": "p2H7pu3efPY"
+        }
     },
     {
         "id": "costa-rica",
@@ -1428,7 +1548,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:61tCfzIFPISHpCSYPxnWNO"
+        "anthem": {
+            "title": "Noble Patria, tu hermosa bandera",
+            "videoId": "F5ByAWPOcdw"
+        }
     },
     {
         "id": "croatia",
@@ -1468,7 +1591,10 @@
             "white",
             "cyan"
         ],
-        "anthem": "spotify:track:29sHwMRXjZWYj2FwA8rYff"
+        "anthem": {
+            "title": "Lijepa Naša Domovino",
+            "videoId": "41OGWjVesUk"
+        }
     },
     {
         "id": "cuba",
@@ -1502,7 +1628,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:7K3AmXfSglWMK4qv2OG35s"
+        "anthem": {
+            "title": "La Bayamesa",
+            "videoId": "whRmwiNLDp4"
+        }
     },
     {
         "id": "cyprus",
@@ -1534,7 +1663,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:7aSIXDUWbYq3EQZjEccnkY"
+        "anthem": {
+            "title": "Ύμνος εις την Ελευθερίαν",
+            "videoId": "8aT_OrU3C64"
+        }
     },
     {
         "id": "czech-republic",
@@ -1567,7 +1699,10 @@
             "red",
             "blue"
         ],
-        "anthem": "spotify:track:3f2WrrYhwMtFBDOsd9bzgQ"
+        "anthem": {
+            "title": "Kde domov můj?",
+            "videoId": "-2fjr95Jtiw"
+        }
     },
     {
         "id": "denmark",
@@ -1595,7 +1730,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:3nIddBYCYMOB1Xt6ikJOFp"
+        "anthem": {
+            "title": "Der er et Yndigt Land",
+            "videoId": "1gkRXKY6ngA"
+        }
     },
     {
         "id": "djibouti",
@@ -1634,7 +1772,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:7oXR139jElOIGgJ3siUD5o"
+        "anthem": {
+            "title": "Jabuuti",
+            "videoId": "v12bMDk0Dr0"
+        }
     },
     {
         "id": "dominica",
@@ -1679,7 +1820,10 @@
             "black",
             "red"
         ],
-        "anthem": "spotify:track:7M6cIe977NVY2op2Hhe1Mk"
+        "anthem": {
+            "title": "Isle of Beauty, Isle of Splendour",
+            "videoId": "ryE_FxlsSHg"
+        }
     },
     {
         "id": "dominican-republic",
@@ -1712,7 +1856,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:24ksWDgu0M8HcxL288h4Ry"
+        "anthem": {
+            "title": "Himno Nacional Dominicano",
+            "videoId": "b6vXOv5Wuv4"
+        }
     },
     {
         "id": "east-timor",
@@ -1751,7 +1898,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:2ChEawGRF0D5PP3sorx95p"
+        "anthem": {
+            "title": "Pátria",
+            "videoId": "nOLSajG15Qg"
+        }
     },
     {
         "id": "ecuador",
@@ -1790,7 +1940,10 @@
             "red",
             "blue"
         ],
-        "anthem": "spotify:track:2rnJuHrX7WzhMZEJwD36sJ"
+        "anthem": {
+            "title": "HIMNO NACIONAL",
+            "videoId": "q4MgFyuc6nQ"
+        }
     },
     {
         "id": "egypt",
@@ -1829,7 +1982,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:1LSmDgMrjDJRYS3sju3X9Q"
+        "anthem": {
+            "title": "بلادي",
+            "videoId": "iGpKR3OOtVs"
+        }
     },
     {
         "id": "el-salvador",
@@ -1856,7 +2012,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:51K19izhdHZ7K2g5phWZXF"
+        "anthem": {
+            "title": "Himno Nacional Salvadoreño",
+            "videoId": "-cp6OLdWcTs"
+        }
     },
     {
         "id": "equatorial-guinea",
@@ -1895,7 +2054,10 @@
             "white",
             "cyan"
         ],
-        "anthem": "spotify:track:7lf1dLWi8fsxiUiMJT4nkV"
+        "anthem": {
+            "title": "Caminemos pisando las sendas de nuestra inmensa Felicidad",
+            "videoId": "-LMMg1KOSfY"
+        }
     },
     {
         "id": "eritrea",
@@ -1934,7 +2096,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:4c9Kt9NDrVoYkZqEV5kqez"
+        "anthem": {
+            "title": "Ertra, Ertra, Ertra (ኤርትራ ኤርትራ ኤርትራ)",
+            "videoId": "H2XLx67oTy8"
+        }
     },
     {
         "id": "estonia",
@@ -1968,7 +2133,10 @@
             "black",
             "white"
         ],
-        "anthem": "spotify:track:2odDshmc0MMPdEKohU3YX7"
+        "anthem": {
+            "title": "Mu isamaa, mu õnn ja rõõm",
+            "videoId": "NkMiNsLq4nE"
+        }
     },
     {
         "id": "swaziland",
@@ -2023,7 +2191,10 @@
             "black",
             "white"
         ],
-        "anthem": "spotify:track:7E5rvAqMVBFdliDoChKcFR"
+        "anthem": {
+            "title": "Nkulunkulu Mnikati wetibusiso temaSwati",
+            "videoId": "6Sjna9HwAKM"
+        }
     },
     {
         "id": "ethiopia",
@@ -2062,7 +2233,10 @@
             "yellow",
             "blue"
         ],
-        "anthem": "spotify:track:1J0XiyoLP6g8daVKcfGago"
+        "anthem": {
+            "title": "Wodefit Gesgeshi, Widd Innat Ityopp'ya",
+            "videoId": "dv8SkcRhWlI"
+        }
     },
     {
         "id": "fiji",
@@ -2112,7 +2286,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:3h5iUCG7xK78XOM5uY9Mr6"
+        "anthem": {
+            "title": "God Bless Fiji",
+            "videoId": "xsQWMOUvLv8"
+        }
     },
     {
         "id": "finland",
@@ -2140,7 +2317,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:1fEn8NIrGCRILgZLUodoXj"
+        "anthem": {
+            "title": "Maamme",
+            "videoId": "_kLC0bXNE5I"
+        }
     },
     {
         "id": "france",
@@ -2174,7 +2354,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:25sPt9bcAZMFk83ZbeJgua"
+        "anthem": {
+            "title": "La Marsellaise",
+            "videoId": "XmhpP7rl64g"
+        }
     },
     {
         "id": "gabon",
@@ -2207,7 +2390,10 @@
             "yellow",
             "blue"
         ],
-        "anthem": "spotify:track:6H7w2gewCBOeMEAnlaM0Fk"
+        "anthem": {
+            "title": "La Concorde",
+            "videoId": "RzHO42ukAMc"
+        }
     },
     {
         "id": "gambia",
@@ -2251,7 +2437,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:0Mz1hdObfCn0cJvaGTrmJ4"
+        "anthem": {
+            "title": "For The Gambia Our Homeland",
+            "videoId": "9lYarXcD014"
+        }
     },
     {
         "id": "georgia",
@@ -2279,7 +2468,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:2gmjrpZnqMmGzzO5V3zDH3"
+        "anthem": {
+            "title": "Tavisupleba (თავისუფლება)",
+            "videoId": "l9mP1eAC88g"
+        }
     },
     {
         "id": "germany",
@@ -2313,7 +2505,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:2tLf0KVJgOftjR6o1yw2K9"
+        "anthem": {
+            "title": "Deutschlandlied",
+            "videoId": "qZuW-kEFYmw"
+        }
     },
     {
         "id": "ghana",
@@ -2352,7 +2547,10 @@
             "yellow",
             "black"
         ],
-        "anthem": "spotify:track:5QkDamosnSLX03ZC8zX7aq"
+        "anthem": {
+            "title": "God bless our homeland Ghana",
+            "videoId": "GZ_E3ZhAm4w"
+        }
     },
     {
         "id": "greece",
@@ -2380,7 +2578,10 @@
             "cyan",
             "white"
         ],
-        "anthem": "spotify:track:7voEW8rNaK27IVYbb3nh2j"
+        "anthem": {
+            "title": "Ύμνος εις την Ελευθερίαν",
+            "videoId": "2JQ48VM6Eik"
+        }
     },
     {
         "id": "grenada",
@@ -2413,7 +2614,10 @@
             "yellow",
             "green"
         ],
-        "anthem": "spotify:track:2jT54WUuhMO1aTA6soJovF"
+        "anthem": {
+            "title": "Hail Grenada",
+            "videoId": "BSDaa8ujh1w"
+        }
     },
     {
         "id": "guatemala",
@@ -2440,7 +2644,10 @@
             "cyan",
             "white"
         ],
-        "anthem": "spotify:track:2qgTtLzcCy2V6Hnycw8AQH"
+        "anthem": {
+            "title": "Himno Nacional Guatemalteco",
+            "videoId": "I6uK3vvklRc"
+        }
     },
     {
         "id": "guinea",
@@ -2473,7 +2680,10 @@
             "yellow",
             "green"
         ],
-        "anthem": "spotify:track:41XK7TFpKjSBkDwv5syuOa"
+        "anthem": {
+            "title": "O Arise, All You Sons",
+            "videoId": "P8Vigy6JLuk"
+        }
     },
     {
         "id": "guinea-bissau",
@@ -2512,7 +2722,10 @@
             "red",
             "black"
         ],
-        "anthem": "spotify:track:1q8StpblRyFqh1EPZgcLZa"
+        "anthem": {
+            "title": "Esta É a Nossa Pátria Bem Amada",
+            "videoId": "4oSw9ksaeXg"
+        }
     },
     {
         "id": "guyana",
@@ -2557,7 +2770,10 @@
             "white",
             "black"
         ],
-        "anthem": "spotify:track:1AuqjWS43ZyPhinLacUZlP"
+        "anthem": {
+            "title": "Dear Land of Guyana, of Rivers and Plains",
+            "videoId": "YjOXnRTXauM"
+        }
     },
     {
         "id": "haiti",
@@ -2596,7 +2812,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:5mQBReweg4IL1UzE949eu8"
+        "anthem": {
+            "title": "Ladesalinyèn",
+            "videoId": "mV4lQ0bCSQE"
+        }
     },
     {
         "id": "honduras",
@@ -2623,7 +2842,10 @@
             "cyan",
             "white"
         ],
-        "anthem": "spotify:track:73jmlqes89rLnLCPsF91gn"
+        "anthem": {
+            "title": "Himno Nacional Hondureño",
+            "videoId": "ewyWW1kEPVk"
+        }
     },
     {
         "id": "hungary",
@@ -2657,7 +2879,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:42JxK4ESuWFUPzqe1AABpW"
+        "anthem": {
+            "title": "Magyarország",
+            "videoId": "oThctK5SLwY"
+        }
     },
     {
         "id": "iceland",
@@ -2691,7 +2916,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:32OORRcSQDB9K9d2lrq4Yr"
+        "anthem": {
+            "title": "Ó Guð vors lands!",
+            "videoId": "MVbbaT-KzcA"
+        }
     },
     {
         "id": "india",
@@ -2731,7 +2959,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:1OBrv2snr11uCQUZaEx9iU"
+        "anthem": {
+            "title": "Jana Gana Mana",
+            "videoId": "4xfpC7TjNqs"
+        }
     },
     {
         "id": "indonesia",
@@ -2759,7 +2990,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:3D7mvqFKL600zpCVLlwKuG"
+        "anthem": {
+            "title": "Indonesia Raya",
+            "videoId": "VydMaxQKBIQ"
+        }
     },
     {
         "id": "iran",
@@ -2798,7 +3032,10 @@
             "red",
             "green"
         ],
-        "anthem": "spotify:track:3e2KYjwBoAxPvTwWHZ6wED"
+        "anthem": {
+            "title": "مهر خاوران",
+            "videoId": "xk2GYvhwUno"
+        }
     },
     {
         "id": "iraq",
@@ -2837,7 +3074,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:7a0B6AVfkLF5LjTMcXZzuu"
+        "anthem": {
+            "title": "Mawtini (موطني)",
+            "videoId": "GBaI26chcFw"
+        }
     },
     {
         "id": "ireland",
@@ -2871,7 +3111,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:0pl1Gs4FeURl63j55WaVvA"
+        "anthem": {
+            "title": "Amhrán na bhFiann",
+            "videoId": "ph6vf9nxGtA"
+        }
     },
     {
         "id": "israel",
@@ -2898,7 +3141,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:6cuzFOMRGtAMXRIJhwoHjZ"
+        "anthem": {
+            "title": "Hatikva (התקווה)",
+            "videoId": "s44hw4xSE90"
+        }
     },
     {
         "id": "italy",
@@ -2932,7 +3178,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:7JmDyI0SmPYx2YzNrNnu7a"
+        "anthem": {
+            "title": "Il Canto degli Italiani / Inno di Mameli",
+            "videoId": "2jryMTTyVnc"
+        }
     },
     {
         "id": "ivory-coast",
@@ -2965,7 +3214,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:2YdRwCSdJulOC9DZkjUBYu"
+        "anthem": {
+            "title": "L'Abidjanaise",
+            "videoId": "I6cS28OPN4A"
+        }
     },
     {
         "id": "jamaica",
@@ -2998,7 +3250,10 @@
             "green",
             "black"
         ],
-        "anthem": "spotify:track:6EC1RL1bQf9pbTuYVjOxA6"
+        "anthem": {
+            "title": "Jamaica, Land We Love",
+            "videoId": "xAgQCUBwPoE"
+        }
     },
     {
         "id": "japan",
@@ -3026,7 +3281,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:3MEFObi1Wv23WaBdkZl7s4"
+        "anthem": {
+            "title": "君が代 (Kimigayo)",
+            "videoId": "SGvMPzu5GSM"
+        }
     },
     {
         "id": "jordan",
@@ -3065,7 +3323,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:61a4mI6kB0JRsj3vqSrnjF"
+        "anthem": {
+            "title": "‏السلام الملكي الأردني",
+            "videoId": "rOhHziU8mU0"
+        }
     },
     {
         "id": "kazakhstan",
@@ -3092,7 +3353,10 @@
             "cyan",
             "yellow"
         ],
-        "anthem": "spotify:track:6i4JTvbn0PSUfQ0GjeGdl2"
+        "anthem": {
+            "title": "Менің Қазақстаным",
+            "videoId": "Qc1U5rQAC5M"
+        }
     },
     {
         "id": "kenya",
@@ -3131,7 +3395,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:5b4AFCtBCXQPhv1kZ6n1fA"
+        "anthem": {
+            "title": "Ee Mungu Nguvu Yetu",
+            "videoId": "I8jjKlT3WQg"
+        }
     },
     {
         "id": "kiribati",
@@ -3170,7 +3437,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:441mvx6f1WthCDf9OQQQfW"
+        "anthem": {
+            "title": "Teirake Kaini Kiribati",
+            "videoId": "0S1oyxQySO8"
+        }
     },
     {
         "id": "north-korea",
@@ -3203,7 +3473,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:6EpwbhInXRZ1OOMfYPg687"
+        "anthem": {
+            "title": "애국가",
+            "videoId": "P7I790gRjAI"
+        }
     },
     {
         "id": "south-korea",
@@ -3243,7 +3516,10 @@
             "red",
             "blue"
         ],
-        "anthem": "spotify:track:3mV7S5eI3v8QZHn9vYZktE"
+        "anthem": {
+            "title": "애국가",
+            "videoId": "rtcLAp3M_-4"
+        }
     },
     {
         "id": "kuwait",
@@ -3283,7 +3559,10 @@
             "white",
             "black"
         ],
-        "anthem": "spotify:track:4zp6RAeojmKszxq7HE6lmn"
+        "anthem": {
+            "title": "النشيد الوطني",
+            "videoId": "9tijQYeOh2M"
+        }
     },
     {
         "id": "kyrgyzstan",
@@ -3310,7 +3589,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:0MojoACMmhtiH8iqFcy2l2"
+        "anthem": {
+            "title": "Кыргыз Республикасынын Мамлекеттик Гимни",
+            "videoId": "WMh2G3nuEFU"
+        }
     },
     {
         "id": "laos",
@@ -3344,7 +3626,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:6vb3OQNEGDgg6SJQDmzDNK"
+        "anthem": {
+            "title": "Pheng Xat Lao",
+            "videoId": "DgaSXmI_Nrg"
+        }
     },
     {
         "id": "latvia",
@@ -3372,7 +3657,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:4zgw6IzOyHdYacL1Ru6wex"
+        "anthem": {
+            "title": "Dievs, sveti Latviju",
+            "videoId": "MXzbNcTJzBg"
+        }
     },
     {
         "id": "lebanon",
@@ -3405,7 +3693,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:5jq9ql1Sj1CQt9jdg99w6s"
+        "anthem": {
+            "title": "النشيد الوطني اللبناني",
+            "videoId": "K0T38Y7PemE"
+        }
     },
     {
         "id": "lesotho",
@@ -3444,7 +3735,10 @@
             "green",
             "black"
         ],
-        "anthem": "spotify:track:1SqnpSWvzUZKZUmEpzOoIF"
+        "anthem": {
+            "title": "Lesotho Fatse La Bontata Rona",
+            "videoId": "lFxpn8lkfmw"
+        }
     },
     {
         "id": "liberia",
@@ -3477,7 +3771,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:04xZgZvFStaI7KOGs8VuMr"
+        "anthem": {
+            "title": "All Hail, Liberia, Hail!",
+            "videoId": "AE8yXzcj9Hs"
+        }
     },
     {
         "id": "libya",
@@ -3517,7 +3814,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:0pRpWIy3ZYH7rRKI8ZNsb9"
+        "anthem": {
+            "title": "ليبيا ليبيا ليبيا",
+            "videoId": "9O00LsWfh1U"
+        }
     },
     {
         "id": "liechtenstein",
@@ -3556,7 +3856,10 @@
             "yellow",
             "black"
         ],
-        "anthem": "spotify:track:16NXI15cDBZXNppD2o5WFF"
+        "anthem": {
+            "title": "Oben am jungen Rhein",
+            "videoId": "60RJEKhDjHM"
+        }
     },
     {
         "id": "lithuania",
@@ -3590,7 +3893,10 @@
             "green",
             "red"
         ],
-        "anthem": "spotify:track:15CZbiOrN7QwVKnALa3VVj"
+        "anthem": {
+            "title": "Tautiška Giesmė",
+            "videoId": "YLiHI5f-NMo"
+        }
     },
     {
         "id": "luxembourg",
@@ -3624,7 +3930,10 @@
             "white",
             "cyan"
         ],
-        "anthem": "spotify:track:3ZgG3c6GjUh0lpN51DQRoH"
+        "anthem": {
+            "title": "Ons Hémécht",
+            "videoId": "4Qu-NWTrMFw"
+        }
     },
     {
         "id": "madagascar",
@@ -3657,7 +3966,10 @@
             "red",
             "green"
         ],
-        "anthem": "spotify:track:6Dsvf27EjytW21l696hRGP"
+        "anthem": {
+            "title": "Ry Tanindrazanay malala ô!",
+            "videoId": "CrePI4MMMNw"
+        }
     },
     {
         "id": "malawi",
@@ -3690,7 +4002,10 @@
             "green",
             "black"
         ],
-        "anthem": "spotify:track:3hRhoFIkeaoOBoS6Zo35Kg"
+        "anthem": {
+            "title": "Mulungu dalitsa Malaŵi",
+            "videoId": "n1IFvqZoVik"
+        }
     },
     {
         "id": "malaysia",
@@ -3730,7 +4045,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:3cCmOupy4944LwUFJK7aH2"
+        "anthem": {
+            "title": "Negaraku",
+            "videoId": "tqVEM5ynvDc"
+        }
     },
     {
         "id": "maldives",
@@ -3763,7 +4081,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:128lMMOo3Vqrz5IsfwevJZ"
+        "anthem": {
+            "title": "Qaumii Salaam (ޤައުމީ ސަލާމް)",
+            "videoId": "lxJfHUSvIrc"
+        }
     },
     {
         "id": "mali",
@@ -3796,7 +4117,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:4YYszlixFbSDMsYzNZWA8P"
+        "anthem": {
+            "title": "Pour l'Afrique et pour toi, Mali",
+            "videoId": "v8ER_ujyVI0"
+        }
     },
     {
         "id": "malta",
@@ -3829,7 +4153,10 @@
             "white",
             "gray"
         ],
-        "anthem": "spotify:track:0V3GUT1x9hqfeA89IQ2rxj"
+        "anthem": {
+            "title": "Ave Crux Alba",
+            "videoId": "wfTnA5ZU4K0"
+        }
     },
     {
         "id": "marshall-islands",
@@ -3862,7 +4189,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:0IWLngLP6E3VpYbX7c2abl"
+        "anthem": {
+            "title": "Forever Marshall Islands",
+            "videoId": "m8ZtMAlfIRQ"
+        }
     },
     {
         "id": "mauritania",
@@ -3895,7 +4225,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:4YbNsPtwMP2ixR5ZRjDAVd"
+        "anthem": {
+            "title": "نشيد وطني موريتاني",
+            "videoId": "a7FDqgZVR-o"
+        }
     },
     {
         "id": "mauritius",
@@ -3934,7 +4267,10 @@
             "yellow",
             "green"
         ],
-        "anthem": "spotify:track:3Qto2972moNyaP4mBxEZTk"
+        "anthem": {
+            "title": "Motherland",
+            "videoId": "toBsqRgEckI"
+        }
     },
     {
         "id": "mexico",
@@ -3967,7 +4303,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:1XIzOJF49S3d9k7P732nYc"
+        "anthem": {
+            "title": "Himno Nacional Mexicano",
+            "videoId": "RzynYqARg6Q"
+        }
     },
     {
         "id": "federated-states-of-micronesia",
@@ -3994,7 +4333,10 @@
             "cyan",
             "white"
         ],
-        "anthem": "spotify:track:2CCOkBlsFcr86twKoray0V"
+        "anthem": {
+            "title": "Patriots of Micronesia",
+            "videoId": "lgRtv4lMsjQ"
+        }
     },
     {
         "id": "moldova",
@@ -4048,7 +4390,10 @@
             "yellow",
             "black"
         ],
-        "anthem": "spotify:track:4P2WhfExBtmHQvfn1KCPZL"
+        "anthem": {
+            "title": "Limba noastră",
+            "videoId": "OsRKXJh-lYo"
+        }
     },
     {
         "id": "monaco",
@@ -4075,7 +4420,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:3VXMcYT23G9wBnHOEOjNdB"
+        "anthem": {
+            "title": "Hymne Monégasque",
+            "videoId": "-BnxITGGWEU"
+        }
     },
     {
         "id": "mongolia",
@@ -4108,7 +4456,10 @@
             "cyan",
             "yellow"
         ],
-        "anthem": "spotify:track:2S8oh6d7SbCjlPLjKSwM0S"
+        "anthem": {
+            "title": "Монгол улсын төрийн дуулал",
+            "videoId": "00Qej_V-a3k"
+        }
     },
     {
         "id": "montenegro",
@@ -4140,7 +4491,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:5R6fZRPbppSAP0nOpZ1WUX"
+        "anthem": {
+            "title": "Oj, Svijetla Majska Zoro",
+            "videoId": "xOAqtWREz68"
+        }
     },
     {
         "id": "morocco",
@@ -4167,7 +4521,10 @@
             "red",
             "green"
         ],
-        "anthem": "spotify:track:3GHmScGsa6d6BoKmTkXAKE"
+        "anthem": {
+            "title": "النشيد الوطني المغربي",
+            "videoId": "5FwiXnzOeXs"
+        }
     },
     {
         "id": "mozambique",
@@ -4212,7 +4569,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:0W5ugoNJifQgpf2sVrXzQf"
+        "anthem": {
+            "title": "Pátria Amada",
+            "videoId": "KQD3K41Qrbo"
+        }
     },
     {
         "id": "myanmar",
@@ -4251,7 +4611,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:6ZTv7i5QfFh9WwYM3pRJFv"
+        "anthem": {
+            "title": "Gba Majay Bma",
+            "videoId": "j9CXFLsuEnA"
+        }
     },
     {
         "id": "namibia",
@@ -4296,7 +4659,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:20ZDAzApNGx4lZcqWktsyZ"
+        "anthem": {
+            "title": "Namibia, Land of the Brave",
+            "videoId": "B2Vqmd1POhk"
+        }
     },
     {
         "id": "nauru",
@@ -4334,7 +4700,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:6gVkM3FgxnSW562574z2JL"
+        "anthem": {
+            "title": "Nauru Bwiema",
+            "videoId": "kWscyuYE1CU"
+        }
     },
     {
         "id": "nepal",
@@ -4368,7 +4737,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:1NGP5EX2HVq6ChBnhZbkGz"
+        "anthem": {
+            "title": "Sayaun Thunga Phool Ka (सयौं थुँगा फूलका)",
+            "videoId": "A7TF8Ha3wWg"
+        }
     },
     {
         "id": "netherlands",
@@ -4401,7 +4773,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:0eTbo4kLIHiJZhRyJX8fTs"
+        "anthem": {
+            "title": "Wilhelmus van Nassouwe",
+            "videoId": "gAas_7qGXMc"
+        }
     },
     {
         "id": "new-zealand",
@@ -4435,7 +4810,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:5dZ7Q9joZT6SYJRrWU8FaJ"
+        "anthem": {
+            "title": "God Defend New Zealand!",
+            "videoId": "GrNNAA6_yAI"
+        }
     },
     {
         "id": "nicaragua",
@@ -4462,7 +4840,10 @@
             "cyan",
             "white"
         ],
-        "anthem": "spotify:track:1Q90KlFjFdiFJAbb3aWYp4"
+        "anthem": {
+            "title": "Himno Nacional Nicaragüense",
+            "videoId": "G3Om1C8ymI8"
+        }
     },
     {
         "id": "niger",
@@ -4495,7 +4876,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:2pYrONs2zsZB9jvSgKrFfj"
+        "anthem": {
+            "title": "La Nigérienne",
+            "videoId": "QilHT-RgviY"
+        }
     },
     {
         "id": "nigeria",
@@ -4522,7 +4906,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:59hciKc6vZUvo4ZSj7cTu3"
+        "anthem": {
+            "title": "Arise Oh Compatriots, Nigeria's Call Obey",
+            "videoId": "Mg3nhtrztqQ"
+        }
     },
     {
         "id": "macedonia",
@@ -4549,7 +4936,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:3mzcCeXRrezrjJyPZIkmDY"
+        "anthem": {
+            "title": "Μακεδονία ξακουστή",
+            "videoId": "AnIuu0WZ0BY"
+        }
     },
     {
         "id": "norway",
@@ -4582,7 +4972,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:4yhIzDDoW54k8ibtuMQfAC"
+        "anthem": {
+            "title": "Ja, vi elsker dette landet!",
+            "videoId": "Al_Hc7c5ARk"
+        }
     },
     {
         "id": "oman",
@@ -4616,7 +5009,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:7LEAGoqIqzKl3vdID4dvpL"
+        "anthem": {
+            "title": "As-Salam as-Sultani (نشيد السلام السلطاني‎)",
+            "videoId": "S3n0sOVEouE"
+        }
     },
     {
         "id": "pakistan",
@@ -4644,7 +5040,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:2HshZVTAZsAQNBwcRqkEbg"
+        "anthem": {
+            "title": "قومی ترانہ",
+            "videoId": "CU3HZMgbmE4"
+        }
     },
     {
         "id": "palau",
@@ -4671,7 +5070,10 @@
             "cyan",
             "yellow"
         ],
-        "anthem": "spotify:track:0kDAatehe6AV02ay9MhBoW"
+        "anthem": {
+            "title": "Belau rekid",
+            "videoId": "1Iv5p5OYMys"
+        }
     },
     {
         "id": "state-of-palestine",
@@ -4710,7 +5112,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:6j7xMzAUT1mGGcL14jf7jO"
+        "anthem": {
+            "title": "Fida'i",
+            "videoId": "p0W9_6N2yLs"
+        }
     },
     {
         "id": "panama",
@@ -4743,7 +5148,10 @@
             "red",
             "cyan"
         ],
-        "anthem": "spotify:track:0EVhJ5ksgTGhLsC1O94lm8"
+        "anthem": {
+            "title": "Himno Istmeño",
+            "videoId": "QAr6xVaMFTE"
+        }
     },
     {
         "id": "papua-new-guinea",
@@ -4782,7 +5190,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:4QAL2eMaoaLmxekK4vMzGk"
+        "anthem": {
+            "title": "O Arise, All You Sons",
+            "videoId": "P8Vigy6JLuk"
+        }
     },
     {
         "id": "paraguay",
@@ -4815,7 +5226,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:2YgkKbuVz5zJNkRMlUC2wA"
+        "anthem": {
+            "title": "Himno Nacional Paraguayo",
+            "videoId": "cJ97gyhxkSE"
+        }
     },
     {
         "id": "peru",
@@ -4842,7 +5256,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:24cA4O50149TG1in58JRwO"
+        "anthem": {
+            "title": "Himno Nacional Peruano",
+            "videoId": "Em2FvXwrwAQ"
+        }
     },
     {
         "id": "philippines",
@@ -4882,7 +5299,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:7cCFJPmm8apwwIoQ13uaNO"
+        "anthem": {
+            "title": "Patria Adorada",
+            "videoId": "2KUiDHlOxEE"
+        }
     },
     {
         "id": "poland",
@@ -4910,7 +5330,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:4buuniSDD5BmhtpJKlZI4b"
+        "anthem": {
+            "title": "Mazurek Dąbrowskiego",
+            "videoId": "mHXlyHWuw4w"
+        }
     },
     {
         "id": "portugal",
@@ -4950,7 +5373,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:1b5pZskDLXe00oCLai52zS"
+        "anthem": {
+            "title": "A Portuguesa",
+            "videoId": "HSQx1Za3SpM"
+        }
     },
     {
         "id": "qatar",
@@ -4978,7 +5404,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:3f07mzCcKgZXFxNbUThZTa"
+        "anthem": {
+            "title": "As-Salam al-Amiri (السلام الأميري)",
+            "videoId": "cqp7mh-9rT0"
+        }
     },
     {
         "id": "romania",
@@ -5012,7 +5441,10 @@
             "yellow",
             "red"
         ],
-        "anthem": "spotify:track:39HAQBZYuPd8yr9QygMy5c"
+        "anthem": {
+            "title": "Deșteaptă-te, române!",
+            "videoId": "lPkzF7XvJtI"
+        }
     },
     {
         "id": "russia",
@@ -5046,7 +5478,10 @@
             "blue",
             "red"
         ],
-        "anthem": "spotify:track:680UjUELSSUERynrl9fUmD"
+        "anthem": {
+            "title": "Гимн России",
+            "videoId": "8_1SVSf-Rng"
+        }
     },
     {
         "id": "rwanda",
@@ -5084,7 +5519,10 @@
             "yellow",
             "green"
         ],
-        "anthem": "spotify:track:6biVq2aEnyL3r3OdMwolj9"
+        "anthem": {
+            "title": "Rwanda Nziza",
+            "videoId": "K506Poq2xiM"
+        }
     },
     {
         "id": "saint-kitts-and-nevis",
@@ -5129,7 +5567,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:6GyvLuk2cR0wqd9h1z4sLI"
+        "anthem": {
+            "title": "O Land of Beauty!",
+            "videoId": "GeeNU0icnEA"
+        }
     },
     {
         "id": "saint-lucia",
@@ -5168,7 +5609,10 @@
             "black",
             "white"
         ],
-        "anthem": "spotify:track:38hD0xwLt9xI0Kr7K7yMGj"
+        "anthem": {
+            "title": "Sons and Daughters of Saint Lucia",
+            "videoId": "Gbmhhcxy_Qg"
+        }
     },
     {
         "id": "saint-vincent-and-the-grenadines",
@@ -5201,7 +5645,10 @@
             "green",
             "cyan"
         ],
-        "anthem": "spotify:track:2CG6AzQKrdDimsXymfe8Nw"
+        "anthem": {
+            "title": "Saint Vincent Land so Beautiful",
+            "videoId": "uTX2sZrCy8w"
+        }
     },
     {
         "id": "samoa",
@@ -5234,7 +5681,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:7qI219Hy9eTpmYXISOKTBx"
+        "anthem": {
+            "title": "Amerika Samoa",
+            "videoId": "cE9k_nYEGvQ"
+        }
     },
     {
         "id": "san-marino",
@@ -5283,7 +5733,10 @@
             "green",
             "yellow"
         ],
-        "anthem": "spotify:track:7p29FMiX8aelr4nSkTjJUl"
+        "anthem": {
+            "title": "Angola Avante!",
+            "videoId": "gI6jtxii2AA"
+        }
     },
     {
         "id": "sao-tome-and-principe",
@@ -5322,7 +5775,10 @@
             "red",
             "black"
         ],
-        "anthem": "spotify:track:7tLosJVGBo2KJ5EbCtUp7T"
+        "anthem": {
+            "title": "Independência total",
+            "videoId": "42EsOc6zOTI"
+        }
     },
     {
         "id": "saudi-arabia",
@@ -5349,7 +5805,10 @@
             "green",
             "white"
         ],
-        "anthem": "spotify:track:4rzsNO7UkCbJQQhzCymdls"
+        "anthem": {
+            "title": "النشيد الوطني",
+            "videoId": "ZPKbR9BmUU8"
+        }
     },
     {
         "id": "senegal",
@@ -5382,7 +5841,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:7rcCtbIMrVtDtlLSmTPVTm"
+        "anthem": {
+            "title": "Le Lion Rouge",
+            "videoId": "27gWEoVmwf8"
+        }
     },
     {
         "id": "serbia",
@@ -5421,7 +5883,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:5Jnqq3aJovPtXO3BplykGf"
+        "anthem": {
+            "title": "Bože Pravde (Боже правде)",
+            "videoId": "9sL2w0GU0Ho"
+        }
     },
     {
         "id": "seychelles",
@@ -5466,7 +5931,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:1sz1W24WBYiudeDxpJ1sie"
+        "anthem": {
+            "title": "Koste Seselwa",
+            "videoId": "UYNfrvozeH4"
+        }
     },
     {
         "id": "sierra-leone",
@@ -5499,7 +5967,10 @@
             "white",
             "cyan"
         ],
-        "anthem": "spotify:track:0uTy29nFMhSa9C0lmU3I5c"
+        "anthem": {
+            "title": "High We Exalt Thee, Realm of the Free",
+            "videoId": "RgNRKW3YSzo"
+        }
     },
     {
         "id": "singapore",
@@ -5526,7 +5997,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:0HUQenewyLg1eO1tgqMKWr"
+        "anthem": {
+            "title": "Majulah Singapura",
+            "videoId": "bOEtr6NhG10"
+        }
     },
     {
         "id": "slovakia",
@@ -5559,7 +6033,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:5NJHeUmztIcYpDSHH1zrR1"
+        "anthem": {
+            "title": "Nad Tatrou sa blýska",
+            "videoId": "Q6o0DzWX3fU"
+        }
     },
     {
         "id": "slovenia",
@@ -5592,7 +6069,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:55tGfav0K1TwPovqllT5qS"
+        "anthem": {
+            "title": "Zdravljica",
+            "videoId": "7OINEhKgvFk"
+        }
     },
     {
         "id": "solomon-islands",
@@ -5631,7 +6111,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:3HeBwLdOyVyArhAqzHdK0i"
+        "anthem": {
+            "title": "God Save Our Solomon Islands",
+            "videoId": "0HBL5OCP2n4"
+        }
     },
     {
         "id": "somalia",
@@ -5658,7 +6141,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:7pGVLahSOQFqx3XINrzTEL"
+        "anthem": {
+            "title": "Qolobaa calankeed",
+            "videoId": "7V7X_AQfA50"
+        }
     },
     {
         "id": "south-africa",
@@ -5710,7 +6196,10 @@
             "black",
             "yellow"
         ],
-        "anthem": "spotify:track:3mMVq5GaPvq8VmT4LNVno5"
+        "anthem": {
+            "title": "Nkosi Sikelel' iAfrika / Die Stem van Suid Afrika",
+            "videoId": "3vOxw292w8w"
+        }
     },
     {
         "id": "south-sudan",
@@ -5761,7 +6250,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:2ZXPscoJYANKerMFXPcTyw"
+        "anthem": {
+            "title": "South Sudan Oyee!",
+            "videoId": "J8zp6JUWOwY"
+        }
     },
     {
         "id": "spain",
@@ -5805,7 +6297,10 @@
             "yellow",
             "gray"
         ],
-        "anthem": "spotify:track:1qkdkt8hYypMfcuz12ZyUT"
+        "anthem": {
+            "title": "Marcha Real",
+            "videoId": "oUDJ_A-QNw0"
+        }
     },
     {
         "id": "sri-lanka",
@@ -5849,7 +6344,10 @@
             "green",
             "black"
         ],
-        "anthem": "spotify:track:5vBQia5sBx9MYxsnif5tw4"
+        "anthem": {
+            "title": "Sri Lanka Matha",
+            "videoId": "f9iVByPbq8E"
+        }
     },
     {
         "id": "sudan",
@@ -5888,7 +6386,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:6t9Jvyu0V236IPkuJflq8V"
+        "anthem": {
+            "title": "Nahnu Jund Allah Jund Al-watan (السلام الجمهوري)",
+            "videoId": "hFrfYuuBZsY"
+        }
     },
     {
         "id": "suriname",
@@ -5927,7 +6428,10 @@
             "white",
             "yellow"
         ],
-        "anthem": "spotify:track:4qiD9VpU2SuZk6I0bRoi38"
+        "anthem": {
+            "title": "God zij met ons Suriname",
+            "videoId": "jrr7CtKbWdw"
+        }
     },
     {
         "id": "sweden",
@@ -5954,7 +6458,10 @@
             "cyan",
             "yellow"
         ],
-        "anthem": "spotify:track:47O0Knp2kHx2gMkLfwIRKE"
+        "anthem": {
+            "title": " Du gamla, Du fria...",
+            "videoId": "fIKJOrgqBKc"
+        }
     },
     {
         "id": "switzerland",
@@ -5981,7 +6488,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:4rewMkffAMMg386qqVcnO8"
+        "anthem": {
+            "title": "Schweizerpsalm",
+            "videoId": "paSj91HjM5k"
+        }
     },
     {
         "id": "syria",
@@ -6021,7 +6531,10 @@
             "white",
             "green"
         ],
-        "anthem": "spotify:track:46l6eeaWaJqNYYaBL3H71l"
+        "anthem": {
+            "title": "حماة الديار (Humat ad-Diyar)",
+            "videoId": "Ch8LEGllr8c"
+        }
     },
     {
         "id": "tajikistan",
@@ -6060,7 +6573,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:6ETsLab3C6KBnjY1iiFLr1"
+        "anthem": {
+            "title": "Суруди Миллии Тоҷикистон",
+            "videoId": "l_BqAc0KcZ0"
+        }
     },
     {
         "id": "tanzania",
@@ -6099,7 +6615,10 @@
             "cyan",
             "yellow"
         ],
-        "anthem": "spotify:track:233dHFNOvskBdZQTdvQvQL"
+        "anthem": {
+            "title": "Mungu ibariki Afrika",
+            "videoId": "LsZ5YtXn4C8"
+        }
     },
     {
         "id": "thailand",
@@ -6133,7 +6652,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:5GV7Z4cdvyPQ3R03hcSKJa"
+        "anthem": {
+            "title": "Phleng Chat (เพลงชาติ)",
+            "videoId": "x59B6tTPOUA"
+        }
     },
     {
         "id": "togo",
@@ -6172,7 +6694,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:1X4WWAlGf5vaIO5f08rcqJ"
+        "anthem": {
+            "title": "Salut à toi, pays de nos aïeux",
+            "videoId": "IE2L45MEdfg"
+        }
     },
     {
         "id": "tonga",
@@ -6199,7 +6724,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:7zHkgqqxhkoOdAK2ypIOvr"
+        "anthem": {
+            "title": "Koe Fasi Oe Tu'i Oe Otu Tonga",
+            "videoId": "tyJrC4qsqv4"
+        }
     },
     {
         "id": "trinidad-and-tobago",
@@ -6232,7 +6760,10 @@
             "black",
             "white"
         ],
-        "anthem": "spotify:track:0TJqTd2yNyAPZRY1c06XSd"
+        "anthem": {
+            "title": "Forged from the Love of Liberty",
+            "videoId": "KL5XPoOHVAw"
+        }
     },
     {
         "id": "tunisia",
@@ -6259,7 +6790,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:6x0UtY6vZnKKYJK2ukM9tR"
+        "anthem": {
+            "title": "Defenders of the Homeland (حماة الحمى)",
+            "videoId": "pmGX3EFp9oo"
+        }
     },
     {
         "id": "turkey",
@@ -6287,7 +6821,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:6SDYjXO6WjO0GY3dkzzzvI"
+        "anthem": {
+            "title": "İstiklâl Marşı",
+            "videoId": "jXBBUBJJpfk"
+        }
     },
     {
         "id": "turkmenistan",
@@ -6326,7 +6863,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:5DULHK6HTKnmeDT0OtZUmB"
+        "anthem": {
+            "title": "Garaşsyz, Bitarap Türkmenistanyň Döwlet Gimni",
+            "videoId": "1X1jf6Ix2yQ"
+        }
     },
     {
         "id": "tuvalu",
@@ -6371,7 +6911,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:25fCQLZ8nUQIjHTpk2snG8"
+        "anthem": {
+            "title": "Tuvalu mo te Atua",
+            "videoId": "ux8jTQhdJFg"
+        }
     },
     {
         "id": "uganda",
@@ -6410,7 +6953,10 @@
             "red",
             "white"
         ],
-        "anthem": "spotify:track:4j3HfMRPjPPwqu2tNqp4tF"
+        "anthem": {
+            "title": "Oh Uganda, Land of Beauty",
+            "videoId": "tr2QtUNhwLI"
+        }
     },
     {
         "id": "ukraine",
@@ -6438,7 +6984,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:4xIkK3Kxs2obxGvp0el2sT"
+        "anthem": {
+            "title": "Ще не вмерла Українa",
+            "videoId": "yOQRztFJ3OQ"
+        }
     },
     {
         "id": "united-arab-emirates",
@@ -6477,7 +7026,10 @@
             "white",
             "black"
         ],
-        "anthem": "spotify:track:1DqkmIdD4u5oF5MdqpRN3W"
+        "anthem": {
+            "title": "عيشي بلادي",
+            "videoId": "kZAI4wHs1yQ"
+        }
     },
     {
         "0": "U",
@@ -6519,7 +7071,11 @@
             "red",
             "white",
             "blue"
-        ]
+        ],
+        "anthem": {
+            "title": "God save the Queen",
+            "videoId": "E0PxtUxpMOs"
+        }
     },
     {
         "id": "united-states",
@@ -6553,7 +7109,10 @@
             "white",
             "blue"
         ],
-        "anthem": "spotify:track:1YiIVjwfvfdqm7R6RrtSvx"
+        "anthem": {
+            "title": "The Star-Spangled Banner",
+            "videoId": "i9e7Bmsd_Iw"
+        }
     },
     {
         "id": "uruguay",
@@ -6597,7 +7156,10 @@
             "blue",
             "yellow"
         ],
-        "anthem": "spotify:track:5wBTY8qaku9Fzriwc4NSMj"
+        "anthem": {
+            "title": "Himno Nacional Uruguayo",
+            "videoId": "ACFtURwcCvE"
+        }
     },
     {
         "id": "uzbekistan",
@@ -6636,7 +7198,10 @@
             "cyan",
             "red"
         ],
-        "anthem": "spotify:track:5l2GxMi3WVuN10H36q5NWn"
+        "anthem": {
+            "title": "O'zbekiston Respublikasining Davlat Madhiyasi",
+            "videoId": "p5DxEnOtsdM"
+        }
     },
     {
         "id": "vanuatu",
@@ -6675,7 +7240,10 @@
             "black",
             "yellow"
         ],
-        "anthem": "spotify:track:5tYu7tMub6pBUFXWShI5jh"
+        "anthem": {
+            "title": "Yumi, Yumi, Yumi",
+            "videoId": "GxD9T8Op2bE"
+        }
     },
     {
         "id": "vatican-city",
@@ -6708,7 +7276,10 @@
             "white",
             "gray"
         ],
-        "anthem": "spotify:track:7FTSfI35USj7sNZMC7V3u0"
+        "anthem": {
+            "title": "Inno e Marcia Pontificale",
+            "videoId": "vGSqgj_GmeA"
+        }
     },
     {
         "id": "venezuela",
@@ -6748,7 +7319,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:7dKi7UMkV7lpraAshf7Zim"
+        "anthem": {
+            "title": "¡Gloria al Bravo Pueblo!",
+            "videoId": "Uc25Ks_iwoA"
+        }
     },
     {
         "id": "vietnam",
@@ -6776,7 +7350,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:1n4S6Bm7EJ7kEJO2MBVtS1"
+        "anthem": {
+            "title": "Tiến Quân Ca",
+            "videoId": "n2BeEM3p600"
+        }
     },
     {
         "id": "yemen",
@@ -6809,7 +7386,10 @@
             "white",
             "black"
         ],
-        "anthem": "spotify:track:7hGeCeMkGchfV6Y37lCPix"
+        "anthem": {
+            "title": "Nashīd al-Yaman al-waṭanī (نشيد اليمن الوطني)",
+            "videoId": "93DN3voc-Xw"
+        }
     },
     {
         "id": "zambia",
@@ -6848,7 +7428,10 @@
             "black",
             "red"
         ],
-        "anthem": "spotify:track:22n9XZJAuh8px5XoUo7vn1"
+        "anthem": {
+            "title": "Stand and Sing of Zambia, Proud and Free",
+            "videoId": "Rc6VwfggFBA"
+        }
     },
     {
         "id": "zimbabwe",
@@ -6898,7 +7481,10 @@
             "white",
             "black"
         ],
-        "anthem": "spotify:track:4V7hADnXZWrimlEidbh9S8"
+        "anthem": {
+            "title": "Blessed be the Land of Zimbabwe",
+            "videoId": "8UCNXIaVTiU"
+        }
     },
     {
         "id": "abkhazia",
@@ -6946,7 +7532,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:0LRI4qewtDbSYxSs32j9Fo"
+        "anthem": {
+            "title": "Республикæ Хуссар Ирыстоны Паддзахадон Гимн",
+            "videoId": "sAKNzou7ku0"
+        }
     },
     {
         "id": "artsakh",
@@ -6984,7 +7573,11 @@
             "blue",
             "yellow",
             "white"
-        ]
+        ],
+        "anthem": {
+            "title": "Ազատ ու անկախ Արցախ",
+            "videoId": "NaAyCsvWOBs"
+        }
     },
     {
         "id": "cook-islands",
@@ -7017,7 +7610,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:2o2Ni2kKXKCnqYzWyJJodK"
+        "anthem": {
+            "title": "Te Atua Mou'e",
+            "videoId": "KcJce000dLY"
+        }
     },
     {
         "id": "kosovo",
@@ -7050,7 +7646,10 @@
             "yellow",
             "white"
         ],
-        "anthem": "spotify:track:61AkfWHn26E1Cx8tAaetJW"
+        "anthem": {
+            "title": "Kur ka ra kushtrimi n'Kosovë",
+            "videoId": "RXVnbEG2jrE"
+        }
     },
     {
         "id": "niue",
@@ -7089,7 +7688,10 @@
             "blue",
             "red"
         ],
-        "anthem": "spotify:track:0EIgnbPTMkSw5fhBUDUZs7"
+        "anthem": {
+            "title": "Ko e Iki he Lagi",
+            "videoId": "oee1lBs7jT0"
+        }
     },
     {
         "id": "turkish-republic-of-northern-cyprus",
@@ -7116,7 +7718,10 @@
             "white",
             "red"
         ],
-        "anthem": "spotify:track:4FbvvvKg63AQUb12s6Cgha"
+        "anthem": {
+            "title": "İstiklâl Marşı",
+            "videoId": "hwOri1HFzQM"
+        }
     },
     {
         "id": "sahrawi-arab-democratic-republic",
@@ -7154,7 +7759,11 @@
             "green",
             "white",
             "red"
-        ]
+        ],
+        "anthem": {
+            "title": "Yabany As-Sahara! (يا بني الصحراء)",
+            "videoId": "KZc_fZne3TE"
+        }
     },
     {
         "id": "somaliland",
@@ -7192,7 +7801,11 @@
             "red",
             "green",
             "black"
-        ]
+        ],
+        "anthem": {
+            "title": "Samo ku waar",
+            "videoId": "xErHi3yP7UE"
+        }
     },
     {
         "id": "south-ossetia",
@@ -7225,7 +7838,10 @@
             "red",
             "yellow"
         ],
-        "anthem": "spotify:track:7iM9up3Ikexyxv2XvHY2uZ"
+        "anthem": {
+            "title": "Республикæ Хуссар Ирыстоны Паддзахадон Гимн",
+            "videoId": "sAKNzou7ku0"
+        }
     },
     {
         "id": "taiwan",
@@ -7258,7 +7874,10 @@
             "blue",
             "white"
         ],
-        "anthem": "spotify:track:3EWkjTx2LtdBNLvcBUKxUa"
+        "anthem": {
+            "title": "中華民國國歌",
+            "videoId": "AA1H_eTUjtY"
+        }
     },
     {
         "id": "transnistria",
@@ -7291,6 +7910,9 @@
             "green",
             "yellow"
         ],
-        "anthem": "spotify:track:1XKuXgF439QYdgAGbESoOA"
+        "anthem": {
+            "title": "Слэвитэ сэ фий, Нистрене",
+            "videoId": "AjhsSN3TwPQ"
+        }
     }
 ]

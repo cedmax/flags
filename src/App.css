@@ -48,6 +48,11 @@ body{
 .flip-container {
 	perspective: 1000px;
 }
+.flip-container:hover, .flip-container:focus-within {
+  z-index: 100;
+  position: absolute;
+}
+
 	/* flip the pane when hovered */
   .flip-container:hover .flipper, .flip-container.hover .flipper,
   .flip-container:focus .flipper, .flip-container:focus-within .flipper {
@@ -223,8 +228,9 @@ button.flat {
   margin: auto
 }
 
-button.flat:hover {
-  text-decoration: underline
+button.flat:hover, .back a {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
 button.hidden {
@@ -239,7 +245,7 @@ button span {
   color: black
 }
 
-button:first-of-type {
+nav button:first-of-type {
   margin-left: 0
 }
 
@@ -249,19 +255,6 @@ button-primary:active, button-primary.active {
 
 .flag-header {
   display: flex
-}
-
-.iframe-placeholder {
-  transform: scale(.6);
-  width: 80px;
-  height: 80px;
-}
-.iframe-placeholder iframe {
-  border: 0;
-}
-
-.iframe-placeholder span {
-  display: block
 }
 
 .flag-title {
@@ -316,4 +309,30 @@ img {
   padding: 0 1rem;
   text-align: center;
   flex-grow: 1
+}
+
+button.close {
+  border: 0;
+  background: #222;
+  border-radius: 50px;
+  text-indent: 6px;
+  width: 20px;
+  height: 20px;
+  overflow: hidden;
+  padding: 0;
+  font-size: 10px;
+  color: white;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  box-shadow: 1px 1px 3px #999;
+}
+
+button.close span {
+  text-indent: 100px;
+}
+
+button.close::before {
+  content: 'x';
+  display: block;
 }

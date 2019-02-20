@@ -5,7 +5,7 @@ const fetchName = require("./fetch-name");
 const analyseColours = require("./analyse-colours");
 const tagColours = require("./tag-colours");
 const tagContinents = require("./fetch-continents");
-const fetchAnthems = require("./fetch-anthems");
+const fetchYoutubeAnthems = require("./youtube-anthems");
 const { consolidate, validate, mergeData } = require("./helpers");
 
 const fetchFlagsCache = mergeData(fetchFlags, "flags");
@@ -17,6 +17,6 @@ fetchFlagsCache()
   .then(mergeData(tagContinents, "continents"))
   .then(mergeData(analyseColours))
   .then(mergeData(tagColours, "color-tagging"))
-  .then(mergeData(fetchAnthems, "anthems"))
+  .then(mergeData(fetchYoutubeAnthems, "anthems"))
   .then(validate)
   .then(consolidate);
