@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
 const helpers = require("./helpers");
-
+const manualResults = require("./manual/continents.json");
 const validSections = [
   "Africa",
   "Asia",
@@ -53,12 +53,17 @@ module.exports = async (flags, callback) => {
 
         if (index !== -1) {
           results[id] = {
-            continents: (flags[index].continents || []).concat([titleContent]),
+            continents: ((results[id] && results[id].continents) || []).concat([
+              titleContent,
+            ]),
           };
         }
       });
     }
-    return results;
+    return {
+      ...results,
+      ...manualResults,
+    };
   }, {});
 
   callback(results);

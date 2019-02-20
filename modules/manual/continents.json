@@ -1,0 +1,11 @@
+{
+  "abkhazia": { "continents": ["Asia"] },
+  "armenia": { "continents": ["Asia"] },
+  "artsakh": { "continents": ["Asia"] },
+  "azerbaijan": { "continents": ["Asia"] },
+  "denmark": { "continents": ["Europe"] },
+  "egypt": { "continents": ["Africa"] },
+  "georgia": { "continents": ["Asia"] },
+  "kazakhstan": { "continents": ["Asia"] },
+  "south-ossetia": { "continents": ["Asia"] }
+}
