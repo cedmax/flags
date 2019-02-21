@@ -155,7 +155,7 @@ export const reducers = createReducers({
   reverse: state => {
     return {
       ...state,
-      filtered: state.filtered.reverse(),
+      filtered: [...state.filtered].reverse(),
     };
   },
 
