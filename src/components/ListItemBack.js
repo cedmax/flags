@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Link from "./Link";
 import { action } from "../helpers";
 
-export default React.memo(({ svgUrl, flag, dispatch }) => (
+export default React.memo(({ svgUrl, flag, dispatch, active }) => (
   <div className="back">
     <div
       style={{
@@ -11,24 +11,26 @@ export default React.memo(({ svgUrl, flag, dispatch }) => (
     >
       <div className="flag-header">
         <div className="flag-map">
-          <Link
-            to={svgUrl}
-            onClick={e => {
-              e.preventDefault();
-              dispatch(
-                action("showDetails", {
-                  id: flag.id,
-                  detailView: "map",
-                })
-              );
-            }}
-          >
-            <img
-              alt={`${flag.country} on the globe map`}
-              width="60"
-              src={require(`../data/maps/${flag.id}.png`)}
-            />
-          </Link>
+          {active && (
+            <Link
+              to={svgUrl}
+              onClick={e => {
+                e.preventDefault();
+                dispatch(
+                  action("showDetails", {
+                    id: flag.id,
+                    detailView: "map",
+                  })
+                );
+              }}
+            >
+              <img
+                alt={`${flag.country} on the globe map`}
+                width="60"
+                src={require(`../data/maps/${flag.id}.png`)}
+              />
+            </Link>
+          )}
         </div>
         <div className="flag-title">
           <h3>{flag.country}</h3>

@@ -44,6 +44,7 @@ const AppUI = ({ state, dispatch }) => (
       />
     </nav>
     <List
+      active={state.active}
       items={state.filtered}
       isSorted={!!state.sortBy}
       dispatch={dispatch}
