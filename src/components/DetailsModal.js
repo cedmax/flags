@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 const getSize = ratioString => {
   const ratioParts = ratioString.split(":");
@@ -24,8 +24,11 @@ const getSize = ratioString => {
   };
 };
 
-export default React.memo(
-  ({ detail, view, dispatch, isList }) =>
+export default React.memo(({ detail, view, dispatch, isList }) => {
+  const ratio = view === "flag" ? detail.ratio : "1:1";
+  const val = useMemo(() => getSize(ratio), [ratio]);
+
+  return (
     detail && (
       <Modal
         style={{
@@ -34,7 +37,7 @@ export default React.memo(
             background: "rgba(255,255,255,.9)",
           },
           content: {
-            ...getSize(view === "flag" ? detail.ratio : "1:1"),
+            ...val,
             background: "transparent",
             border: "0",
             padding: 0,
@@ -45,11 +48,11 @@ export default React.memo(
           },
         }}
         isOpen={!!detail}
-        onRequestClose={() => dispatch(actionObject("hideDetails"))}
+        onRequestClose={() => dispatch(action("hideDetails"))}
         contentLabel={detail && detail.country}
       >
         <img
-          onClick={() => dispatch(actionObject("hideDetails"))}
+          onClick={() => dispatch(action("hideDetails"))}
           height="100%"
           src={
             view === "flag"
@@ -67,7 +70,7 @@ export default React.memo(
         )}
         <div className="zoom-controls">
           {isList && (
-            <button onClick={() => dispatch(actionObject("navigate", -1))}>
+            <button onClick={() => dispatch(action("navigate", -1))}>
               <span>prev</span>
             </button>
           )}
@@ -79,7 +82,7 @@ export default React.memo(
                   to={require(`../data/flags/${detail.id}.svg`)}
                   onClick={e => {
                     e.preventDefault();
-                    dispatch(actionObject("updateDetailsView", "flag"));
+                    dispatch(action("updateDetailsView", "flag"));
                   }}
                 >
                   flag
@@ -90,7 +93,7 @@ export default React.memo(
                   to={require(`../data/maps/${detail.id}.png`)}
                   onClick={e => {
                     e.preventDefault();
-                    dispatch(actionObject("updateDetailsView", "map"));
+                    dispatch(action("updateDetailsView", "map"));
                   }}
                 >
                   map
@@ -99,11 +102,12 @@ export default React.memo(
             </small>
           </div>
           {isList && (
-            <button onClick={() => dispatch(actionObject("navigate", 1))}>
+            <button onClick={() => dispatch(action("navigate", 1))}>
               <span>next</span>
             </button>
           )}
         </div>
       </Modal>
     )
-);
+  );
+});

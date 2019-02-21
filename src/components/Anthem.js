@@ -1,6 +1,6 @@
 import React from "react";
 import Modal from "react-modal";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 export default React.memo(
   ({ playing, dispatch }) =>
@@ -26,10 +26,10 @@ export default React.memo(
           },
         }}
         isOpen={!!playing}
-        onRequestClose={() => dispatch(actionObject("play", null))}
+        onRequestClose={() => dispatch(action("play", null))}
       >
         <button
-          onClick={() => dispatch(actionObject("play", null))}
+          onClick={() => dispatch(action("play", null))}
           className="close"
         >
           <span>close</span>

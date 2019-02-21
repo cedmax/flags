@@ -1,51 +1,33 @@
 import React, { useReducer, useEffect } from "react";
 import useKey from "@rooks/use-key";
-import querystring from "query-string";
-import AppUi from "./AppUI";
+import { action, qs } from "./helpers";
 import { getInitialState, reducers } from "./store";
-import { actionObject } from "./store/helpers";
+import AppUi from "./AppUI";
 import "./App.css";
-
-const clean = obj =>
-  Object.keys(obj)
-    .filter(key => !!obj[key])
-    .reduce((acc, key) => {
-      acc[key] = obj[key];
-      return acc;
-    }, {});
 
 const App = props => {
   const [state, dispatch] = useReducer(reducers, getInitialState(props.data));
+
   useKey(["ArrowLeft", "ArrowRight"], e => {
-    dispatch(actionObject("navigate", e.key === "ArrowLeft" ? -1 : 1));
+    dispatch(action("navigate", e.key === "ArrowLeft" ? -1 : 1));
   });
 
   useEffect(() => {
-    const searchParams = querystring.parse(window.location.search);
-    dispatch(actionObject("updateFiltersFromUrl", searchParams));
+    const updateStore = () =>
+      dispatch(action("updateFromUrl", qs.getParams(window.location.search)));
 
-    window.onpopstate = e => {
-      if (e.type === "popstate") {
-        const searchParams = querystring.parse(window.location.search);
-        dispatch(actionObject("updateFiltersFromUrl", searchParams));
-      }
-    };
+    window.onpopstate = e => e.type === "popstate" && updateStore();
+    updateStore();
   }, []);
 
   useEffect(() => {
-    const qs = querystring.stringify(
-      clean({
-        filters: state.filters,
-        sortBy: state.sortBy,
-        q: state.q,
-        continent: state.continent,
-        detail: state.detail,
-        detailView: state.detailView,
-      })
-    );
+    const qsFromState = qs.fromState(state);
+    const currentSearch = qs.getCurrent();
 
-    if (qs !== window.location.search && `?${qs}` !== window.location.search)
-      window.history.pushState(null, "", `?${qs}`);
+    if (qsFromState !== currentSearch) {
+      const url = qsFromState ? `?${qsFromState}` : "";
+      window.history.pushState(null, "", url);
+    }
   }, [
     state.filters,
     state.sortBy,

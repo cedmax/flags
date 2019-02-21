@@ -1,5 +1,5 @@
 import React from "react";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 export default React.memo(({ query, dispatch }) => (
   <div className="filters">
@@ -7,7 +7,7 @@ export default React.memo(({ query, dispatch }) => (
     <input
       type="text"
       value={query}
-      onChange={e => dispatch(actionObject("filterString", e.target.value))}
+      onChange={e => dispatch(action("filterString", e.target.value))}
     />
   </div>
 ));

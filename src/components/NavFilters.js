@@ -1,5 +1,5 @@
 import React from "react";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 export default React.memo(({ availableFilters, filters, dispatch }) =>
   availableFilters.map(filter => (
@@ -7,7 +7,7 @@ export default React.memo(({ availableFilters, filters, dispatch }) =>
       className={`square${filters.includes(filter) ? " selected" : ""}`}
       style={{ color: filter }}
       key={filter}
-      onClick={() => dispatch(actionObject("filterByColor", filter))}
+      onClick={() => dispatch(action("filterByColor", filter))}
     >
       <span>{filter}</span>
     </button>

@@ -1,4 +1,4 @@
-import { createReducers } from "./helpers";
+import { createReducers } from "../helpers";
 
 const urlParams = {
   detail: null,
@@ -206,7 +206,7 @@ export const reducers = createReducers({
     detail: null,
     detailView: "",
   }),
-  updateFiltersFromUrl: (state, payload) => {
+  updateFromUrl: (state, payload) => {
     let { filters } = payload;
 
     if (!filters) {

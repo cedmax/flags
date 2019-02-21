@@ -1,5 +1,5 @@
 import React from "react";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 export default React.memo(
   ({ selectedContinent, availableContinents, dispatch }) =>
@@ -7,7 +7,7 @@ export default React.memo(
       <button
         className={`${selectedContinent === continent ? "selected" : ""}`}
         key={continent}
-        onClick={() => dispatch(actionObject("filterByContinent", continent))}
+        onClick={() => dispatch(action("filterByContinent", continent))}
       >
         <span>{continent}</span>
       </button>

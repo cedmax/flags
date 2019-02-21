@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 import Link from "./Link";
-import { actionObject } from "../store/helpers";
+import { action } from "../helpers";
 
 export default React.memo(({ isSorted, items, dispatch }) => (
   <ul className="list">
@@ -14,8 +14,8 @@ export default React.memo(({ isSorted, items, dispatch }) => (
           <li>
             <div
               className="flip-container"
-              onMouseEnter={() => dispatch(actionObject("activate", i))}
-              onFocusCapture={() => dispatch(actionObject("activate", i))}
+              onMouseEnter={() => dispatch(action("activate", i))}
+              onFocusCapture={() => dispatch(action("activate", i))}
             >
               <div className="flipper">
                 <div className="front">
@@ -41,7 +41,7 @@ export default React.memo(({ isSorted, items, dispatch }) => (
                           onClick={e => {
                             e.preventDefault();
                             dispatch(
-                              actionObject("showDetails", {
+                              action("showDetails", {
                                 id: flag.id,
                                 detailView: "map",
                               })
@@ -63,7 +63,7 @@ export default React.memo(({ isSorted, items, dispatch }) => (
                             onClick={e => {
                               e.preventDefault();
                               dispatch(
-                                actionObject("showDetails", {
+                                action("showDetails", {
                                   id: flag.id,
                                   detailView: "flag",
                                 })
@@ -108,7 +108,7 @@ export default React.memo(({ isSorted, items, dispatch }) => (
                           href={`#${flag.id}`}
                           onClick={e => {
                             e.preventDefault();
-                            dispatch(actionObject("play", flag.anthem.videoId));
+                            dispatch(action("play", flag.anthem.videoId));
                           }}
                         >
                           <span>play {flag.anthem.title}</span>
