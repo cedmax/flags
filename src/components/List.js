@@ -42,8 +42,7 @@ export default React.memo(({ isSorted, items, dispatch }) => (
                             e.preventDefault();
                             dispatch(
                               actionObject("showDetails", {
-                                flag,
-                                index: i,
+                                id: flag.id,
                                 detailView: "map",
                               })
                             );
@@ -65,8 +64,7 @@ export default React.memo(({ isSorted, items, dispatch }) => (
                               e.preventDefault();
                               dispatch(
                                 actionObject("showDetails", {
-                                  flag,
-                                  index: i,
+                                  id: flag.id,
                                   detailView: "flag",
                                 })
                               );

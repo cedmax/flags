@@ -1,16 +1,20 @@
 import { createReducers } from "./helpers";
 
-export const getInitialState = data => ({
+const urlParams = {
   detail: null,
   detailView: "",
-  allFlags: [...data],
-  filtered: [...data],
   filters: [],
   continent: "",
-  active: "",
   q: "",
   sortBy: "",
+};
+
+export const getInitialState = data => ({
+  ...urlParams,
+  active: "",
   playing: "",
+  allFlags: [...data],
+  filtered: [...data],
   sorters: ["name", "adoption", "ratio"],
   availableFilters: data
     .reduce((acc, flag) => {
@@ -123,11 +127,10 @@ export const reducers = createReducers({
         filters.push(tag);
       }
     }
-    console.log(state, filters, tag);
 
     return applyFilters({
       ...state,
-      filters,
+      filters: [...filters],
     });
   },
 
@@ -166,7 +169,7 @@ export const reducers = createReducers({
       return state;
     }
 
-    const { index } = detail;
+    const index = filtered.findIndex(flag => flag.id === detail);
     let newIndex = index + increment;
 
     if (newIndex < 0) {
@@ -177,10 +180,7 @@ export const reducers = createReducers({
 
     return {
       ...state,
-      detail: {
-        ...filtered[newIndex],
-        index: newIndex,
-      },
+      detail: filtered[newIndex].id,
     };
   },
 
@@ -194,7 +194,7 @@ export const reducers = createReducers({
   }),
   showDetails: (state, payload) => ({
     ...state,
-    detail: { ...payload.flag, index: payload.index },
+    detail: payload.id,
     detailView: payload.detailView,
   }),
   updateDetailsView: (state, detailView) => ({
@@ -206,4 +206,22 @@ export const reducers = createReducers({
     detail: null,
     detailView: "",
   }),
+  updateFiltersFromUrl: (state, payload) => {
+    let { filters } = payload;
+
+    if (!filters) {
+      filters = [];
+    }
+
+    if (!(filters instanceof Array)) {
+      filters = [filters];
+    }
+
+    return applyFilters({
+      ...state,
+      ...urlParams,
+      ...payload,
+      filters,
+    });
+  },
 });
