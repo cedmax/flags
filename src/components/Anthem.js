@@ -1,30 +1,13 @@
 import React from "react";
 import Modal from "react-modal";
 import { action } from "../helpers";
+import { anthemStyle } from "./modalsStyle";
 
 export default React.memo(
   ({ playing, dispatch }) =>
     playing && (
       <Modal
-        style={{
-          overlay: {
-            zIndex: 1000,
-            background: "transparent",
-            pointerEvents: "none",
-          },
-          content: {
-            pointerEvents: "all",
-            width: 240,
-            height: 135,
-            border: 0,
-            padding: 0,
-            right: 20,
-            top: "auto",
-            left: "auto",
-            bottom: 20,
-            overflow: "visible",
-          },
-        }}
+        style={anthemStyle}
         isOpen={!!playing}
         onRequestClose={() => dispatch(action("play", null))}
       >

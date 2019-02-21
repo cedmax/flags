@@ -151,7 +151,7 @@ a, a:hover, a:visited, a:active {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 80%;
-  margin: .5rem 15% 0;
+  margin: .2rem 15% 0;
 }
 
 .colors > div {
@@ -346,7 +346,6 @@ button.close, a.play {
 
 a.play {
   vertical-align: bottom;
-  margin: 0 3px;
   background-color: #666;
   box-shadow: none;
 }
@@ -371,7 +370,8 @@ button.close::before, a.play::before {
 }
 
 a.play::before {
-  content: '►'
+  content: '►';
+  text-indent: 2px;
 }
 
 .map-credits {
@@ -380,4 +380,18 @@ a.play::before {
   bottom: 26px;
   font-size: 75%;
   text-align: right;
+}
+
+.back dl {
+  width: 85%;
+  margin: 0 auto
+}
+
+.back dt {
+  font-weight: bold;
+}
+
+.back dd {
+  font-style: italic;
+  margin:0 auto 7px; 
 }

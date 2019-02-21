@@ -1,52 +1,17 @@
 import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
-import { action } from "../helpers";
-
-const getSize = ratioString => {
-  const ratioParts = ratioString.split(":");
-  const ratio = parseFloat(ratioParts[0]) / parseFloat(ratioParts[1]);
-
-  const { clientHeight, clientWidth } = document.documentElement;
-
-  let flagHeight = (clientHeight / 100) * 60;
-  let flagWidth = flagHeight / ratio;
-
-  const maxWidth = (clientWidth / 100) * 70;
-  if (flagWidth > maxWidth) {
-    flagWidth = maxWidth;
-    flagHeight = flagWidth * ratio;
-  }
-
-  return {
-    width: flagWidth,
-    height: flagHeight,
-  };
-};
+import { action, getDetailsImageSize } from "../helpers";
+import { getDetailsStyle } from "./modalsStyle";
 
 export default React.memo(({ detail, view, dispatch, isList }) => {
   const ratio = view === "flag" ? detail.ratio : "1:1";
-  const val = useMemo(() => getSize(ratio), [ratio]);
+  const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
 
   return (
     detail && (
       <Modal
-        style={{
-          overlay: {
-            zIndex: 1500,
-            background: "rgba(255,255,255,.9)",
-          },
-          content: {
-            ...val,
-            background: "transparent",
-            border: "0",
-            padding: 0,
-            top: "50%",
-            left: "50%",
-            transform: "translate3d(-50%, -50%, 0)",
-            overflow: "visible",
-          },
-        }}
+        style={getDetailsStyle(size)}
         isOpen={!!detail}
         onRequestClose={() => dispatch(action("hideDetails"))}
         contentLabel={detail && detail.country}

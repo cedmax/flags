@@ -30,3 +30,24 @@ export const createReducers = (reducers = {}) => (
 ) => (reducers[type] ? reducers[type](state, payload) : state);
 
 export const action = (type, payload) => ({ type, payload });
+
+export const getDetailsImageSize = ratioString => {
+  const ratioParts = ratioString.split(":");
+  const ratio = parseFloat(ratioParts[0]) / parseFloat(ratioParts[1]);
+
+  const { clientHeight, clientWidth } = document.documentElement;
+
+  let flagHeight = (clientHeight / 100) * 60;
+  let flagWidth = flagHeight / ratio;
+
+  const maxWidth = (clientWidth / 100) * 70;
+  if (flagWidth > maxWidth) {
+    flagWidth = maxWidth;
+    flagHeight = flagWidth * ratio;
+  }
+
+  return {
+    width: flagWidth,
+    height: flagHeight,
+  };
+};
