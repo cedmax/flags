@@ -23,9 +23,8 @@ const App = props => {
   useEffect(() => {
     const qsFromState = qs.fromState(state);
     const currentSearch = qs.getCurrent();
-
     if (qsFromState !== currentSearch) {
-      const url = qsFromState ? `?${qsFromState}` : "";
+      const url = qsFromState ? `?${qsFromState}` : "/";
       window.history.pushState(null, "", url);
     }
   }, [
