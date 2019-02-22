@@ -376,8 +376,8 @@ a.play::before {
 
 .map-credits {
   position: absolute;
-  right: 20px;
-  bottom: 26px;
+  right: 1%;
+  bottom: 1%;
   font-size: 75%;
   text-align: right;
 }
@@ -394,4 +394,35 @@ a.play::before {
 .back dd {
   font-style: italic;
   margin:0 auto 7px; 
+}
+
+@keyframes rotate {
+  from {transform: rotate(0deg);}
+  to {transform: rotate(360deg);}
+}
+
+.spinner {
+  transform: translate3d(0,0,0);
+  border: 11px solid rgba(180, 220, 240, .6);
+  width: 100px;
+  margin: auto;
+  padding-top: 100px;
+  position: relative;
+  border-radius: 100px;
+  animation-name: rotate; 
+  animation-duration: 1.5s; 
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+.spinner::before {
+  content: '';
+  display: block;
+  width: 9px;
+  height: 9px;
+  background: rgb(130, 180, 200);
+  border-radius: 10px;
+  position: absolute;
+  left: -10px;
+  top: 50%;
 }

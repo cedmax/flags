@@ -1,5 +1,4 @@
 import React, { Fragment } from "react";
-import Link from "./Link";
 import { action } from "../helpers";
 import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";

@@ -3,6 +3,7 @@ import Modal from "react-modal";
 import Link from "./Link";
 import { action, getDetailsImageSize } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
+import ImageLoader from "react-loading-image";
 
 export default React.memo(({ detail, view, dispatch, isList }) => {
   const ratio = view === "flag" ? detail.ratio : "1:1";
@@ -16,15 +17,24 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
         onRequestClose={() => dispatch(action("hideDetails"))}
         contentLabel={detail && detail.country}
       >
-        <img
-          onClick={() => dispatch(action("hideDetails"))}
-          height="100%"
+        <ImageLoader
+          loading={() => <div className="spinner" />}
+          image={props => {
+            delete props.width;
+            return (
+              <img
+                {...props}
+                onClick={() => dispatch(action("hideDetails"))}
+                height="100%"
+                alt={`Flag of ${detail.country}`}
+              />
+            );
+          }}
           src={
             view === "flag"
               ? require(`../data/flags/${detail.id}.svg`)
               : require(`../data/maps/${detail.id}.png`)
           }
-          alt={`Flag of ${detail.country}`}
         />
         {view === "map" && (
           <Link className="map-credits" to={detail.map.credits} target="_blank">

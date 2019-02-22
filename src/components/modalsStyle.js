@@ -7,6 +7,7 @@ export const getDetailsStyle = val => ({
     ...val,
     background: "transparent",
     border: "0",
+    display: "flex",
     padding: 0,
     top: "50%",
     left: "50%",
