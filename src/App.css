@@ -265,6 +265,7 @@ button-primary:active, button-primary.active {
 
 .flag-map {
   margin: 10px;
+  font-size: 70%;
   mix-blend-mode: luminosity
 }
 
