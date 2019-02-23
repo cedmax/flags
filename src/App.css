@@ -262,6 +262,10 @@ button span {
   color: black
 }
 
+button:first-child {
+  margin-left: 0;
+}
+
 nav button:first-of-type {
   margin-left: 0
 }
@@ -336,6 +340,10 @@ img {
   left: 50%;
   min-width: 100%;
   text-align: center;
+}
+
+.zoom-controls > div {
+  margin: auto;
 }
 
 .zoom-controls h3 {
