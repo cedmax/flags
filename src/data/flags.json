@@ -8542,5 +8542,2130 @@
                 "yellow"
             ]
         }
+    ],
+    "US": [
+        {
+            "id": "alabama",
+            "country": "Alabama",
+            "adoption": "February 16, 1895",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5c/Flag_of_Alabama.svg",
+            "url": "/wiki/flag_of_alabama",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 63,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b10021",
+                    "percent": 36,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "alaska",
+            "country": "Alaska",
+            "adoption": "July 6, 1927",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e6/Flag_of_Alaska.svg",
+            "url": "/wiki/flag_of_alaska",
+            "ratio": "125:177",
+            "colors": [
+                {
+                    "hex": "#0f204b",
+                    "percent": 99,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffb612",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "arizona",
+            "country": "Arizona",
+            "adoption": "January 25, 1917",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arizona.svg",
+            "url": "/wiki/flag_of_arizona",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002868",
+                    "percent": 47,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 26,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fed700",
+                    "percent": 20,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ce5c17",
+                    "percent": 6,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "arkansas",
+            "country": "Arkansas",
+            "adoption": "March 16, 1924",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Flag_of_Arkansas.svg",
+            "url": "/wiki/flag_of_arkansas",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#bf0a30",
+                    "percent": 65,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 18,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#002868",
+                    "percent": 13,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "california",
+            "country": "California",
+            "adoption": "February 3, 1911",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_California.svg",
+            "url": "/wiki/flag_of_california",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 67,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b71234",
+                    "percent": 17,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#584528",
+                    "percent": 8,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#bd8a5e",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008542",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "colorado",
+            "country": "Colorado",
+            "adoption": "March 31, 1964",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Colorado_designed_by_Andrew_Carlisle_Carson.svg",
+            "url": "/wiki/flag_of_colorado",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002868",
+                    "percent": 58,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 21,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 15,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 6,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "connecticut",
+            "country": "Connecticut",
+            "adoption": "September 9, 1897",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/96/Flag_of_Connecticut.svg",
+            "url": "/wiki/flag_of_connecticut",
+            "ratio": "3:4",
+            "colors": [
+                {
+                    "hex": "#0c2d83",
+                    "percent": 72,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd300",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffd312",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#129612",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "black",
+                "green"
+            ]
+        },
+        {
+            "id": "delaware",
+            "country": "Delaware",
+            "adoption": "July 24, 1913",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c6/Flag_of_Delaware.svg",
+            "url": "/wiki/flag_of_delaware",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#76a1a0",
+                    "percent": 75,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f0dc82",
+                    "percent": 14,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#a8393a",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#3f863f",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffd93c",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#4f3636",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "florida",
+            "country": "Florida",
+            "adoption": "May 21, 1985",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Florida.svg",
+            "url": "/wiki/flag_of_florida",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#a80534",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffb900",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#015941",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#7d4802",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "georgia",
+            "country": "Georgia",
+            "adoption": "February 19, 2003",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Georgia_%28U.S._state%29.svg",
+            "url": "/wiki/flag_of_georgia_(u.s._state)",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 64,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 35,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "hawaii",
+            "country": "Hawaii",
+            "adoption": "December 29, 1845",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Flag_of_Hawaii.svg",
+            "url": "/wiki/flag_of_hawaii",
+            "ratio": "1:2",
+            "colors": [
+                {
+                    "hex": "#cf142b",
+                    "percent": 40,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 25,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "idaho",
+            "country": "Idaho",
+            "adoption": "November 2, 1957",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_Idaho.svg",
+            "url": "/wiki/flag_of_idaho",
+            "ratio": "26:33",
+            "colors": [
+                {
+                    "hex": "#003776",
+                    "percent": 85,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffb32b",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffe835",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ef1439",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#86e2ff",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "black",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "illinois",
+            "country": "Illinois",
+            "adoption": "June 27, 1969",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/01/Flag_of_Illinois.svg",
+            "url": "/wiki/flag_of_illinois",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#785a3c",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#be0a2f",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#b4b4b4",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffe60f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#002768",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#3f863f",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "red",
+                "gray",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": "indiana",
+            "country": "Indiana",
+            "adoption": "May 31, 1917",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/ac/Flag_of_Indiana.svg",
+            "url": "/wiki/flag_of_indiana",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#000f5d",
+                    "percent": 93,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d59f0f",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "iowa",
+            "country": "Iowa",
+            "adoption": "March 12, 1921",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/aa/Flag_of_Iowa.svg",
+            "url": "/wiki/flag_of_iowa",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0a1f62",
+                    "percent": 28,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d90026",
+                    "percent": 25,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#a54a00",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "kansas",
+            "country": "Kansas",
+            "adoption": "September 22, 1961",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/da/Flag_of_Kansas.svg",
+            "url": "/wiki/flag_of_kansas",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#002569",
+                    "percent": 100,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "blue"
+            ]
+        },
+        {
+            "id": "kentucky",
+            "country": "Kentucky",
+            "adoption": "March 26, 1918",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/8d/Flag_of_Kentucky.svg",
+            "url": "/wiki/flag_of_kentucky",
+            "ratio": "10:19",
+            "colors": [
+                {
+                    "hex": "#000066",
+                    "percent": 89,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e6ad05",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#edb200",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "louisiana",
+            "country": "Louisiana",
+            "adoption": "November 22, 2010",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_Louisiana.svg",
+            "url": "/wiki/flag_of_louisiana",
+            "ratio": "7:11",
+            "colors": [
+                {
+                    "hex": "#00447b",
+                    "percent": 81,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fefefe",
+                    "percent": 9,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "maine",
+            "country": "Maine",
+            "adoption": "June 16, 1909",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/35/Flag_of_Maine.svg",
+            "url": "/wiki/flag_of_maine",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002664",
+                    "percent": 89,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffe84f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#9ed9ff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#6f513e",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "maryland",
+            "country": "Maryland",
+            "adoption": "November 25, 1904",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Flag_of_Maryland.svg",
+            "url": "/wiki/flag_of_maryland",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 25,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#eaab00",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 25,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#981e32",
+                    "percent": 25,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "massachusetts",
+            "country": "Massachusetts",
+            "adoption": "March 21, 1971",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f2/Flag_of_Massachusetts.svg",
+            "url": "/wiki/flag_of_massachusetts",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 91,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#1f2c5c",
+                    "percent": 6,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#e6a300",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "michigan",
+            "country": "Michigan",
+            "adoption": "June 26, 1911",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b5/Flag_of_Michigan.svg",
+            "url": "/wiki/flag_of_michigan",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#00287e",
+                    "percent": 78,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#86473f",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b37535",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#006fff",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ef1439",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#35b336",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffef6f",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "minnesota",
+            "country": "Minnesota",
+            "adoption": "August 2, 1983",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Minnesota.svg",
+            "url": "/wiki/flag_of_minnesota",
+            "ratio": "8:5",
+            "colors": [
+                {
+                    "hex": "#3d68c9",
+                    "percent": 79,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 9,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcb216",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1a3a",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "mississippi",
+            "country": "Mississippi",
+            "adoption": "April 23, 1894, and February 7, 2001",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/42/Flag_of_Mississippi.svg",
+            "url": "/wiki/flag_of_mississippi",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#bf0a30",
+                    "percent": 48,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#002868",
+                    "percent": 28,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "missouri",
+            "country": "Missouri",
+            "adoption": "September 4, 1913",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Flag_of_Missouri.svg",
+            "url": "/wiki/flag_of_missouri",
+            "ratio": "7:12",
+            "colors": [
+                {
+                    "hex": "#004b8d",
+                    "percent": 36,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ab0635",
+                    "percent": 31,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#9a4a23",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0083a9",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#c3a204",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "montana",
+            "country": "Montana",
+            "adoption": "December 17, 1981",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/cb/Flag_of_Montana.svg",
+            "url": "/wiki/flag_of_montana",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 84,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffd90f",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#a2d100",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e8d9a8",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#a81800",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "nebraska",
+            "country": "Nebraska",
+            "adoption": "July 16, 1963",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Flag_of_Nebraska.svg",
+            "url": "/wiki/flag_of_nebraska",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 82,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 7,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#c8c8c8",
+                    "percent": 2,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "gray"
+            ]
+        },
+        {
+            "id": "nevada",
+            "country": "Nevada",
+            "adoption": "July 25, 1991",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f1/Flag_of_Nevada.svg",
+            "url": "/wiki/flag_of_nevada",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#0033a0",
+                    "percent": 95,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffa300",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00843d",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "new-hampshire",
+            "country": "New Hampshire",
+            "adoption": "November 30, 1931",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_New_Hampshire.svg",
+            "url": "/wiki/flag_of_new_hampshire",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 81,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#efae0e",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#3f863f",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#9e4d3c",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#4f9eff",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "new-jersey",
+            "country": "New Jersey",
+            "adoption": "January 15, 1896",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/92/Flag_of_New_Jersey.svg",
+            "url": "/wiki/flag_of_new_jersey",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffca66",
+                    "percent": 87,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#2484c6",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#9ba7b9",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#d0202e",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#dc6026",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "cyan",
+                "gray",
+                "red"
+            ]
+        },
+        {
+            "id": "new-mexico",
+            "country": "New Mexico",
+            "adoption": "September 18, 1920",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Flag_of_New_Mexico.svg",
+            "url": "/wiki/flag_of_new_mexico",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffd700",
+                    "percent": 96,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 4,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "new-york",
+            "country": "New York",
+            "adoption": "April 1, 1901",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_New_York.svg",
+            "url": "/wiki/flag_of_new_york_(state)",
+            "ratio": "1:2",
+            "colors": [
+                {
+                    "hex": "#002d72",
+                    "percent": 79,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0077c8",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#f2a900",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff3515",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#b3875a",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffd9ee",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd100",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#197352",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#2c5234",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "cyan",
+                "yellow",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "north-carolina",
+            "country": "North Carolina",
+            "adoption": "June 24, 1991",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Flag_of_North_Carolina.svg",
+            "url": "/wiki/flag_of_north_carolina",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#002868",
+                    "percent": 28,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffca00",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "north-dakota",
+            "country": "North Dakota",
+            "adoption": "November 9, 1943",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/ee/Flag_of_North_Dakota.svg",
+            "url": "/wiki/flag_of_north_dakota",
+            "ratio": "26:33",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ff163c",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd12b",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#663d3d",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "yellow",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "ohio",
+            "country": "Ohio",
+            "adoption": "May 9, 1902",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4c/Flag_of_Ohio.svg",
+            "url": "/wiki/flag_of_ohio",
+            "ratio": "8:13",
+            "colors": [
+                {
+                    "hex": "#c1133d",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 26,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#001c5a",
+                    "percent": 21,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "oklahoma",
+            "country": "Oklahoma",
+            "adoption": "1941; November 1, 2006",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Flag_of_Oklahoma.svg",
+            "url": "/wiki/flag_of_oklahoma",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#0073cf",
+                    "percent": 86,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#b3995d",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1d5c42",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#efe8c7",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "oregon",
+            "country": "Oregon",
+            "adoption": "April 15, 1925",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Flag_of_Oregon.svg",
+            "url": "/wiki/flag_of_oregon",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 87,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffea0f",
+                    "percent": 8,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "pennsylvania",
+            "country": "Pennsylvania",
+            "adoption": "April 24, 1907",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Pennsylvania.svg",
+            "url": "/wiki/flag_of_pennsylvania",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002a86",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#dca90d",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#414141",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#076a21",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#d10b10",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "black",
+                "gray",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "rhode-island",
+            "country": "Rhode Island",
+            "adoption": "July 27, 1640, formally November 1, 1897",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Rhode_Island.svg",
+            "url": "/wiki/flag_of_rhode_island",
+            "ratio": "29:33",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 78,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fec500",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#003271",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "south-carolina",
+            "country": "South Carolina",
+            "adoption": "September 28, 1861",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Flag_of_South_Carolina.svg",
+            "url": "/wiki/flag_of_south_carolina",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#003366",
+                    "percent": 89,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "south-dakota",
+            "country": "South Dakota",
+            "adoption": "November 9, 1992",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/1/1a/Flag_of_South_Dakota.svg",
+            "url": "/wiki/flag_of_south_dakota",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#0074a8",
+                    "percent": 85,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffc400",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "tennessee",
+            "country": "Tennessee",
+            "adoption": "February 3, 1905",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Flag_of_Tennessee.svg",
+            "url": "/wiki/flag_of_tennessee",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#cc0000",
+                    "percent": 78,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#002d65",
+                    "percent": 15,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "texas",
+            "country": "Texas",
+            "adoption": "January 25, 1839",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Flag_of_Texas.svg",
+            "url": "/wiki/flag_of_texas",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 36,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#002868",
+                    "percent": 31,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "utah",
+            "country": "Utah",
+            "adoption": "February 16, 2011",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Flag_of_Utah_%282011-present%29.svg",
+            "url": "/wiki/flag_of_utah",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#002868",
+                    "percent": 81,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fefefe",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffc324",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0a0905",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#012d6a",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b0906",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#8f4a2d",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fbaf40",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e41837",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "vermont",
+            "country": "Vermont",
+            "adoption": "April 17, 1923",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/49/Flag_of_Vermont.svg",
+            "url": "/wiki/flag_of_vermont",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#003366",
+                    "percent": 86,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffcc33",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#002a22",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "virginia",
+            "country": "Virginia",
+            "adoption": "February 1, 1950",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/47/Flag_of_Virginia.svg",
+            "url": "/wiki/flag_of_virginia",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#00297b",
+                    "percent": 72,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#3f863f",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#8c0000",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ff350f",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#97c8f0",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffd9c5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "green",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "washington",
+            "country": "Washington",
+            "adoption": "March 5, 1923",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/54/Flag_of_Washington.svg",
+            "url": "/wiki/flag_of_washington",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#008457",
+                    "percent": 79,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffd520",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 5,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#34c2de",
+                    "percent": 5,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fdd6c6",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "black",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "west-virginia",
+            "country": "West Virginia",
+            "adoption": "November 6, 1929",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_West_Virginia.svg",
+            "url": "/wiki/flag_of_west_virginia",
+            "ratio": "10:19",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 58,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003776",
+                    "percent": 30,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ff3516",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#06884f",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffb30f",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "green",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "wisconsin",
+            "country": "Wisconsin",
+            "adoption": "May 1, 1981",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/22/Flag_of_Wisconsin.svg",
+            "url": "/wiki/flag_of_wisconsin",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#002986",
+                    "percent": 84,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffcc18",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "wyoming",
+            "country": "Wyoming",
+            "adoption": "March 4, 1917",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Flag_of_Wyoming.svg",
+            "url": "/wiki/flag_of_wyoming",
+            "ratio": "7:10",
+            "colors": [
+                {
+                    "hex": "#002868",
+                    "percent": 56,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#bf0a30",
+                    "percent": 23,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 19,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "american-samoa",
+            "country": "American Samoa",
+            "adoption": "April 17, 1960",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Flag_of_American_Samoa.svg",
+            "url": "/wiki/flag_of_american_samoa",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:American_Samoa_on_the_globe_(Polynesia_centered).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000066",
+                    "percent": 50,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 32,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#bd1021",
+                    "percent": 10,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#5a3719",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#aa5323",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#7b3c20",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc221",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "district-of-columbiafederal-district",
+            "country": "District of Columbiafederal district",
+            "adoption": "October 15, 1938",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d4/Flag_of_the_District_of_Columbia.svg",
+            "url": "/wiki/flag_of_district_of_columbia",
+            "ratio": "1:2",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 58,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e81b39",
+                    "percent": 42,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "guam",
+            "country": "Guam",
+            "adoption": "February 9, 1948",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/0/07/Flag_of_Guam.svg",
+            "url": "/wiki/flag_of_guam",
+            "ratio": "22:41",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Guam_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00297b",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#c62139",
+                    "percent": 15,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#92dbfc",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008ce7",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "northern-mariana-islands",
+            "country": "Northern Mariana Islands",
+            "adoption": "July 1, 1985",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Flag_of_the_Northern_Mariana_Islands.svg",
+            "url": "/wiki/flag_of_northern_mariana_islands",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Northern_Mariana_Islands_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0071bc",
+                    "percent": 76,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#8c8a8c",
+                    "percent": 5,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "gray",
+                "black"
+            ]
+        },
+        {
+            "id": "puerto-rico",
+            "country": "Puerto Rico",
+            "adoption": "July 24, 1952",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/2/28/Flag_of_Puerto_Rico.svg",
+            "url": "/wiki/flag_of_puerto_rico",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_on_the_globe_(Americas_centered).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ee0000",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0050f0",
+                    "percent": 27,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "u.s.-virgin-islands",
+            "country": "U.S. Virgin Islands",
+            "adoption": "May 17, 1921",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/f/f8/Flag_of_the_United_States_Virgin_Islands.svg",
+            "url": "/wiki/flag_of_u.s._virgin_islands",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_on_the_globe_(Americas_centered).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 70,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f4c53d",
+                    "percent": 15,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#010002",
+                    "percent": 3,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#162667",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0081c6",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#a60032",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#369443",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "black",
+                "blue",
+                "cyan",
+                "red",
+                "green"
+            ]
+        }
     ]
 }
