@@ -27,7 +27,7 @@ module.exports = async (flags, callback) => {
         const imgUrl = $(mapContainer)
           .find("img")
           .attr("src")
-          .replace("/120px-", "/480px-");
+          .replace("/120px-", "/640px-");
         try {
           const { data: png } = await axios.get(imgUrl, {
             responseType: "arraybuffer",
