@@ -1,6 +1,7 @@
 const async = require("async");
 const { loadImage } = require("canvas");
 const manualRatio = require("./manual/ratio-us.json");
+const helpers = require("./helpers");
 
 function gcd(a, b) {
   return b === 0 ? a : gcd(b, a % b);
@@ -25,11 +26,8 @@ module.exports = (flags, callback) =>
         ratio: `${height / d}:${width / d}`,
       };
     },
-    (err, result) => {
-      const results = result.reduce((acc, { id, ratio }) => {
-        acc[id] = { ratio };
-        return acc;
-      }, {});
-      callback(results);
+    (err, results) => {
+      const result = helpers.normaliseData(results, "ratio");
+      callback(result);
     }
   );

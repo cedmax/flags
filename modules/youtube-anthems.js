@@ -3,6 +3,7 @@ const async = require("async");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const manualData = require("./manual/anthems.json");
+const helpers = require("./helpers");
 
 module.exports = (flags, callback) => {
   async.mapLimit(
@@ -48,13 +49,8 @@ module.exports = (flags, callback) => {
       }
     },
     (err, results) => {
-      const data = results.reduce((acc, result) => {
-        const { id } = result;
-        delete result.id;
-        acc[id] = { anthem: manualData[id] ? manualData[id] : result };
-        return acc;
-      }, {});
-      callback(data);
+      const result = helpers.normaliseData(results, "anthem", manualData);
+      callback(result);
     }
   );
 };

@@ -7,6 +7,27 @@ const validSections = [
   "Current territory and federal district flags",
 ];
 
+const fixSortAdoption = (id, adoptForSorting) => {
+  switch (id) {
+    case "mississippi":
+      return new Date("November 1, 1897").toJSON();
+    case "rhode-island":
+      return new Date(" February 7, 2001").toJSON();
+    default:
+      return adoptForSorting;
+  }
+};
+
+const getAdoptionText = $flagContainer =>
+  $flagContainer
+    .find(".gallerytext")
+    .text()
+    .replace(/\[(.)+\]/g, "")
+    .trim()
+    .match(/\([^(]+\){1}$/g)[0]
+    .replace(/[()]/g, "")
+    .replace("; see notes", "");
+
 module.exports = async (unused, callback) => {
   const { data } = await axios.get(
     "https://en.wikipedia.org/wiki/Flags_of_the_U.S._states_and_territories"
@@ -30,18 +51,12 @@ module.exports = async (unused, callback) => {
           .replace(/\[(.)+\]/g, "")
           .trim();
 
+        const id = helpers.generateId(country).replace("georgia", "georgia-us");
         const url = helpers.cleanUrl($link.attr("href"));
-        const adoptionText = $flagContainer
-          .find(".gallerytext")
-          .text()
-          .replace(/\[(.)+\]/g, "")
-          .trim()
-          .match(/\([^(]+\){1}$/g)[0]
-          .replace(/[()]/g, "")
-          .replace("; see notes", "");
+        const adoptionText = getAdoptionText($flagContainer);
 
         const adoption = {
-          sort: new Date(adoptionText).toJSON(),
+          sort: fixSortAdoption(id, new Date(adoptionText).toJSON()),
           text: adoptionText,
         };
 
@@ -59,18 +74,6 @@ module.exports = async (unused, callback) => {
           if (!text.includes("obverse")) {
             return;
           }
-        }
-
-        const id = helpers.generateId(country).replace("georgia", "georgia-us");
-        switch (id) {
-          case "mississippi":
-            adoption.sort = new Date("November 1, 1897").toJSON();
-            break;
-          case "rhode-island":
-            adoption.sort = new Date(" February 7, 2001").toJSON();
-            break;
-          default:
-            break;
         }
 
         return {

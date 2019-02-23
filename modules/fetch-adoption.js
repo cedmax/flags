@@ -10,6 +10,13 @@ const adoptionObj = adoption => ({
   },
 });
 
+const cleanId = id =>
+  id
+    .replace("people's-republic-of-china", "china")
+    .replace("republic-of-china-(taiwan)", "taiwan")
+    .replace("cote-d'ivoire", "ivory-coast")
+    .replace("micronesia", "federated-states-of-micronesia");
+
 module.exports = async (flags, callback) => {
   const { data } = await axios.get(
     "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_current_flag_adoption"
@@ -34,12 +41,7 @@ module.exports = async (flags, callback) => {
         .trim()
         .substr(0, 4);
 
-      const id = helpers
-        .generateId(country)
-        .replace("people's-republic-of-china", "china")
-        .replace("republic-of-china-(taiwan)", "taiwan")
-        .replace("cote-d'ivoire", "ivory-coast")
-        .replace("micronesia", "federated-states-of-micronesia");
+      const id = cleanId(helpers.generateId(country));
 
       const index = flags.findIndex(flag => {
         return flag.id === id;

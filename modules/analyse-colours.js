@@ -2,6 +2,7 @@ const async = require("async");
 const parse = require("pixelbank");
 const { createCanvas, loadImage } = require("canvas");
 const fs = require("fs");
+const helpers = require("./helpers");
 
 const rgbToHex = function(rgb) {
   let hex = Number(rgb).toString(16);
@@ -19,65 +20,55 @@ const convertToHex = function(rgb) {
   return hex;
 };
 
+const getPixels = async id => {
+  const file = `${__dirname}/../src/data/flags/${id}.svg`;
+  const image = await loadImage(file);
+  const canvas = createCanvas(image.width, image.height);
+
+  const ctx = canvas.getContext("2d");
+  ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+  return parse(ctx.getImageData(0, 0, canvas.width, canvas.height));
+};
+
 module.exports = (flags, callback) =>
   async.mapLimit(
     flags,
     3,
     async flag => {
-      const cacheFile = `${__dirname}/.cache/flags/${flag.id}.json`;
+      const { id } = flag;
+      const cacheFile = `${__dirname}/.cache/flags/${id}.json`;
       if (fs.existsSync(cacheFile)) {
         return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
       } else {
-        const imageData = {};
-        const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
-        const image = await loadImage(file);
-        const canvas = createCanvas(image.width, image.height);
-
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-        const pixels = parse(
-          ctx.getImageData(0, 0, canvas.width, canvas.height)
-        );
-
-        pixels.forEach(p => {
+        const pixels = getPixels(id);
+        const imageData = pixels.reduce((acc, p) => {
           const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
-          imageData[key] = (imageData[key] || 0) + 1;
-        });
+          acc[key] = (acc[key] || 0) + 1;
+          return acc;
+        }, {});
 
         let totalPx = pixels.length;
-        if (flag.id === "nepal") {
+        if (id === "nepal") {
           totalPx = totalPx - imageData[`r0g0b0`];
           delete imageData[`r0g0b0`];
         }
 
-        const data = Object.keys(imageData)
+        const colors = Object.keys(imageData)
           .map(key => {
-            const percent = (imageData[key] * 100) / totalPx;
-
-            return !Math.round(percent)
-              ? null
-              : {
-                  hex: convertToHex(key),
-                  percent: Math.round(percent),
-                };
+            const percent = Math.round((imageData[key] * 100) / totalPx);
+            const hex = convertToHex(key);
+            return !!percent && { hex, percent };
           })
           .filter(color => !!color)
           .sort((a, b) => (a.percent < b.percent ? 1 : -1));
 
-        console.log(flag.country);
-        const result = {
-          id: flag.id,
-          colors: data,
-        };
+        const result = { id, ...colors };
         fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
         return result;
       }
     },
-    (err, result) => {
-      const results = result.reduce((acc, { id, colors }) => {
-        acc[id] = { colors };
-        return acc;
-      }, {});
-      callback(results);
+    (err, results) => {
+      const result = helpers.normaliseData(results, "colors");
+      callback(result);
     }
   );

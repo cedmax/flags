@@ -3,6 +3,7 @@ const async = require("async");
 const cheerio = require("cheerio");
 const mapEndPoints = require("./manual/maps.json");
 const fs = require("fs");
+const helpers = require("./helpers");
 
 module.exports = (flags, callback) => {
   async.mapLimit(
@@ -36,12 +37,7 @@ module.exports = (flags, callback) => {
       };
     },
     (e, results) => {
-      const result = results.reduce((acc, map) => {
-        const { id } = map;
-        delete map.id;
-        acc[id] = { map };
-        return acc;
-      }, {});
+      const result = helpers.normaliseData(results, "map");
       callback(result);
     }
   );

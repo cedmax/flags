@@ -126,7 +126,6 @@ module.exports = {
       (flag, cb) => {
         const { id } = flag;
         const file = `${__dirname}/../src/data/flags/${id}.svg`;
-
         if (!fs.existsSync(file)) {
           axios
             .get(flag.image)
@@ -145,4 +144,19 @@ module.exports = {
         callback(result);
       }
     ),
+  normaliseData: (arrayOfData, key, manualData) =>
+    arrayOfData.reduce((acc, dataItem) => {
+      const { id } = dataItem;
+      delete dataItem.id;
+
+      const value =
+        manualData && manualData.hasOwnProperty(id)
+          ? manualData[id]
+          : dataItem[key] || dataItem;
+
+      acc[id] = {
+        [key]: value,
+      };
+      return acc;
+    }, {}),
 };
