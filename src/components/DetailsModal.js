@@ -1,6 +1,7 @@
 import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
+import Loader from "./Loader";
 import { action, getDetailsImageSize } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 import ImageLoader from "react-loading-image";
@@ -18,7 +19,7 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
         contentLabel={detail && detail.country}
       >
         <ImageLoader
-          loading={() => <div className="spinner" />}
+          loading={() => <Loader />}
           image={props => {
             let size;
             if (view === "flag") {

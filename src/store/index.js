@@ -22,6 +22,7 @@ const getFilters = (data, key) =>
 
 export const getInitialState = (data, view = "world") => ({
   ...urlParams,
+  loading: true,
   active: "",
   playing: "",
   allFlags: { ...data },
@@ -115,7 +116,7 @@ const applyFilters = state => {
     });
   }
 
-  return sort({ ...state, filtered, sortBy });
+  return sort({ ...state, filtered, sortBy, loading: false });
 };
 
 export const reducers = createReducers({
@@ -130,6 +131,7 @@ export const reducers = createReducers({
 
   filterByColor: (state, tag) => {
     let { filters } = state;
+    filters = [...filters];
     if (tag) {
       if (filters.includes(tag)) {
         filters = filters.filter(filter => filter !== tag);
@@ -140,7 +142,7 @@ export const reducers = createReducers({
 
     return applyFilters({
       ...state,
-      filters: [...filters],
+      filters,
     });
   },
 
@@ -242,9 +244,7 @@ export const reducers = createReducers({
 
   changeDataSource: (state, payload) => {
     const { allFlags } = state;
-
     const newState = getInitialState(allFlags, payload);
-
-    return newState;
+    return applyFilters(newState);
   },
 });

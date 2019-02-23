@@ -3,6 +3,7 @@ import useKey from "@rooks/use-key";
 import { action, qs } from "./helpers";
 import { getInitialState, reducers } from "./store";
 import AppUi from "./AppUI";
+import Loader from "./components/Loader";
 import "./App.css";
 
 const App = props => {
@@ -37,7 +38,11 @@ const App = props => {
     state.view,
   ]);
 
-  return <AppUi state={state} dispatch={dispatch} />;
+  return state.loading ? (
+    <Loader />
+  ) : (
+    <AppUi state={state} dispatch={dispatch} />
+  );
 };
 
 export default App;

@@ -431,6 +431,10 @@ a.play::before {
   top: 50%;
 }
 
+#root > .spinner {
+  margin-top: 150px
+}
+
 .select {
   position: relative;
   display: inline-block;
