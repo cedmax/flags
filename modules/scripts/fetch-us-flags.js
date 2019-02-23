@@ -1,6 +1,7 @@
 const cheerio = require("cheerio");
 const helpers = require("./helpers");
 const axios = require("axios");
+const { cleanUrl, generateId } = require("./utilities");
 
 const validSections = [
   "Current state flags",
@@ -51,8 +52,8 @@ module.exports = async (unused, callback) => {
           .replace(/\[(.)+\]/g, "")
           .trim();
 
-        const id = helpers.generateId(country).replace("georgia", "georgia-us");
-        const url = helpers.cleanUrl($link.attr("href"));
+        const id = generateId(country).replace("georgia", "georgia-us");
+        const url = cleanUrl($link.attr("href"));
         const adoptionText = getAdoptionText($flagContainer);
 
         const adoption = {

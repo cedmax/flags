@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const manualAdoption = require("./manual/adoption.json");
-const helpers = require("./helpers");
+const manualAdoption = require("../manual/adoption.json");
+const { generateId } = require("./utilities");
 
 const adoptionObj = adoption => ({
   adoption: {
@@ -41,7 +41,7 @@ module.exports = async (flags, callback) => {
         .trim()
         .substr(0, 4);
 
-      const id = cleanId(helpers.generateId(country));
+      const id = cleanId(generateId(country));
 
       const index = flags.findIndex(flag => {
         return flag.id === id;

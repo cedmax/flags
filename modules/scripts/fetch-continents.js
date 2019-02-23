@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const helpers = require("./helpers");
-const manualResults = require("./manual/continents.json");
+const { generateId } = require("./utilities");
+const manualResults = require("../manual/continents.json");
 const validSections = [
   "Africa",
   "Asia",
@@ -53,7 +53,7 @@ module.exports = async (flags, callback) => {
             .text()
         );
 
-        const id = helpers.generateId(country);
+        const id = generateId(country);
         const index = flags.findIndex(flag => flag.id === id);
 
         if (index !== -1) {

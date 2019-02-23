@@ -1,11 +1,11 @@
-const slugify = require("slugify");
 const cheerio = require("cheerio");
 const fs = require("fs");
 const axios = require("axios");
 const async = require("async");
 
-const getTempFile = key => `${__dirname}/.cache/${key}.json`;
-const generateId = string => slugify(string).toLowerCase();
+const path = process.cwd();
+
+const getTempFile = key => `${path}/modules/.cache/${key}.json`;
 
 const resolveCache = key => {
   const tempFile = getTempFile(key);
@@ -51,13 +51,11 @@ module.exports = {
     }),
   resolveCache,
   saveCache,
-  generateId,
-  cleanUrl: string => string.replace("_the_", "_").toLowerCase(),
   consolidate: group => flags =>
     new Promise(resolve => {
       const dataKey = group || "world";
       let data = { [dataKey]: flags };
-      const html = fs.readFileSync(`${__dirname}/../public/index.html`);
+      const html = fs.readFileSync(`${path}/public/index.html`);
       const $ = cheerio.load(html);
       const currentDataString = $("#data").html();
 
@@ -71,11 +69,11 @@ module.exports = {
       $("#data").text(JSON.stringify(data));
       const newHTML = $.html();
       fs.writeFileSync(
-        `${__dirname}/../src/data/flags.json`,
+        `${path}/src/data/flags.json`,
         JSON.stringify(data, null, 4),
         "UTF-8"
       );
-      fs.writeFileSync(`${__dirname}/../public/index.html`, newHTML, "UTF-8");
+      fs.writeFileSync(`${path}/public/index.html`, newHTML, "UTF-8");
       resolve();
     }),
   validate: group => flags =>
@@ -125,7 +123,7 @@ module.exports = {
       2,
       (flag, cb) => {
         const { id } = flag;
-        const file = `${__dirname}/../src/data/flags/${id}.svg`;
+        const file = `${path}/src/data/flags/${id}.svg`;
         if (!fs.existsSync(file)) {
           axios
             .get(flag.image)

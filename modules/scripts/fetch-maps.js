@@ -1,9 +1,11 @@
 const axios = require("axios");
 const async = require("async");
 const cheerio = require("cheerio");
-const mapEndPoints = require("./manual/maps.json");
+const mapEndPoints = require("../manual/maps.json");
 const fs = require("fs");
 const helpers = require("./helpers");
+
+const path = `${process.cwd()}/src/data/maps`;
 
 module.exports = (flags, callback) => {
   async.mapLimit(
@@ -12,7 +14,7 @@ module.exports = (flags, callback) => {
     async flag => {
       const { id } = flag;
 
-      const file = `${__dirname}/../src/data/maps/${id}.png`;
+      const file = `${path}/${id}.png`;
       if (!fs.existsSync(file)) {
         try {
           const { data } = await axios.get(mapEndPoints[id]);

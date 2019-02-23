@@ -1,11 +1,11 @@
 const async = require("async");
 const { loadImage } = require("canvas");
-const manualRatio = require("./manual/ratio-us.json");
+const manualRatio = require("../manual/ratio-us.json");
 const helpers = require("./helpers");
+const { gcd } = require("./utilities");
 
-function gcd(a, b) {
-  return b === 0 ? a : gcd(b, a % b);
-}
+const path = `${process.cwd()}/src/data/flags`;
+
 module.exports = (flags, callback) =>
   async.mapLimit(
     flags,
@@ -18,7 +18,7 @@ module.exports = (flags, callback) =>
         };
       }
 
-      const file = `${__dirname}/../src/data/flags/${flag.id}.svg`;
+      const file = `${path}/${flag.id}.svg`;
       const { width, height } = await loadImage(file);
       const d = gcd(width, height);
       return {

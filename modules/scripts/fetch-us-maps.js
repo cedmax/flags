@@ -2,8 +2,10 @@ const axios = require("axios");
 const async = require("async");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const helpers = require("./helpers");
-const manualMaps = require("./manual/maps-us.json");
+const { generateId } = require("./utilities");
+const manualMaps = require("../manual/maps-us.json");
+
+const path = `${process.cwd()}/src/data/maps`;
 
 module.exports = async (flags, callback) => {
   const { data } = await axios.get(
@@ -21,8 +23,8 @@ module.exports = async (flags, callback) => {
         .text()
         .trim();
 
-      const id = helpers.generateId(text).replace("georgia", "georgia-us");
-      const file = `${__dirname}/../src/data/maps/${id}.png`;
+      const id = generateId(text).replace("georgia", "georgia-us");
+      const file = `${path}/${id}.png`;
       if (!fs.existsSync(file)) {
         const imgUrl = $(mapContainer)
           .find("img")

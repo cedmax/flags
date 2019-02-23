@@ -2,24 +2,24 @@ const axios = require("axios");
 const async = require("async");
 const cheerio = require("cheerio");
 const fs = require("fs");
-const manualData = require("./manual/anthems.json");
+const manualData = require("../manual/anthems.json");
 const helpers = require("./helpers");
+
+const path = `${process.cwd()}/modules/.cache/anthems`;
 
 module.exports = (flags, callback) => {
   async.mapLimit(
     flags,
     2,
     async flag => {
-      const cacheFile = `${__dirname}/.cache/anthems/${flag.id}.json`;
+      const cacheFile = `${path}/${flag.id}.json`;
       if (fs.existsSync(cacheFile)) {
         return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
       } else {
         try {
+          const searchString = flag.id.replace(/-/g, " ");
           const { data } = await axios.get(
-            `https://www.youtube.com/user/DeroVolk/search?query=national+anthem+of+${flag.id.replace(
-              /-/g,
-              " "
-            )}&pbj=1`
+            `https://www.youtube.com/user/DeroVolk/search?query=national+anthem+of+${searchString}&pbj=1`
           );
           const $ = cheerio.load(data);
           const fullTitleContainer = $($(`.yt-lockup-title`).get(0));

@@ -1,6 +1,7 @@
 const cheerio = require("cheerio");
 const helpers = require("./helpers");
 const axios = require("axios");
+const { cleanUrl, generateId } = require("./utilities");
 
 module.exports = async (unused, callback) => {
   const { data } = await axios.get(
@@ -18,7 +19,7 @@ module.exports = async (unused, callback) => {
       .replace("Flag of", "")
       .trim();
 
-    const url = helpers.cleanUrl($link.attr("href"));
+    const url = cleanUrl($link.attr("href"));
 
     const image =
       "https:" +
@@ -29,8 +30,7 @@ module.exports = async (unused, callback) => {
         .replace(/\/([0-9]+)px-(.)+/gi, "")
         .trim();
 
-    const id = helpers
-      .generateId(country)
+    const id = generateId(country)
       .replace("eswatini-(swaziland)", "swaziland")
       .replace("north-macedonia", "macedonia");
 

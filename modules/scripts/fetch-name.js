@@ -1,6 +1,6 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const helpers = require("./helpers");
+const { cleanUrl } = require("./utilities");
 
 module.exports = async (flags, callback) => {
   const { data } = await axios.get(
@@ -15,7 +15,7 @@ module.exports = async (flags, callback) => {
         .parent()
         .attr("href");
 
-      return helpers.cleanUrl(url) === flag.url;
+      return cleanUrl(url) === flag.url;
     });
 
     if (match) {

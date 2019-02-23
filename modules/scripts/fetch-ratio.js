@@ -1,7 +1,7 @@
 const axios = require("axios");
 const cheerio = require("cheerio");
-const helpers = require("./helpers");
-const manualRatio = require("./manual/ratio.json");
+const manualRatio = require("../manual/ratio.json");
+const { cleanUrl } = require("./utilities");
 
 module.exports = async (flags, callback) => {
   const { data } = await axios.get(
@@ -14,10 +14,10 @@ module.exports = async (flags, callback) => {
     const tds = $(row)
       .find("td")
       .toArray();
-    const [ignore, tdLink, tdRatio] = tds;
 
+    const [ignore, tdLink, tdRatio] = tds;
     const link = $(tdLink).find("a:first-of-type");
-    const linkUrl = helpers.cleanUrl(link.attr("href"));
+    const linkUrl = cleanUrl(link.attr("href"));
     const linkText = $(tdLink)
       .text()
       .trim();

@@ -1,34 +1,9 @@
 const async = require("async");
-const parse = require("pixelbank");
-const { createCanvas, loadImage } = require("canvas");
 const fs = require("fs");
 const helpers = require("./helpers");
+const { convertToHex, getPixels } = require("./utilities");
 
-const rgbToHex = function(rgb) {
-  let hex = Number(rgb).toString(16);
-  if (hex.length < 2) {
-    hex = "0" + hex;
-  }
-  return hex;
-};
-
-const convertToHex = function(rgb) {
-  const hex = `#${rgb
-    .match(/([0-9]+)+/g)
-    .map(rgbToHex)
-    .join("")}`;
-  return hex;
-};
-
-const getPixels = async id => {
-  const file = `${__dirname}/../src/data/flags/${id}.svg`;
-  const image = await loadImage(file);
-  const canvas = createCanvas(image.width, image.height);
-
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-  return parse(ctx.getImageData(0, 0, canvas.width, canvas.height));
-};
+const path = `${process.cwd()}/modules/.cache/flags`;
 
 module.exports = (flags, callback) =>
   async.mapLimit(
@@ -36,11 +11,11 @@ module.exports = (flags, callback) =>
     3,
     async flag => {
       const { id } = flag;
-      const cacheFile = `${__dirname}/.cache/flags/${id}.json`;
+      const cacheFile = `${path}/${id}.json`;
       if (fs.existsSync(cacheFile)) {
         return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
       } else {
-        const pixels = getPixels(id);
+        const pixels = await getPixels(id);
         const imageData = pixels.reduce((acc, p) => {
           const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
           acc[key] = (acc[key] || 0) + 1;
@@ -56,13 +31,13 @@ module.exports = (flags, callback) =>
         const colors = Object.keys(imageData)
           .map(key => {
             const percent = Math.round((imageData[key] * 100) / totalPx);
-            const hex = convertToHex(key);
+            const hex = convertToHex(key.match(/([0-9]+)+/g));
             return !!percent && { hex, percent };
           })
           .filter(color => !!color)
           .sort((a, b) => (a.percent < b.percent ? 1 : -1));
 
-        const result = { id, ...colors };
+        const result = { id, colors };
         fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
         return result;
       }
