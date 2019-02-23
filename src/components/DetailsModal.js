@@ -5,15 +5,15 @@ import ImageLoader from "./ImageLoader";
 import { action, getDetailsImageSize } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 
-const ChangeView = React.memo(({ url, dispatch, children }) => (
+const ChangeView = React.memo(({ url, dispatch, newView }) => (
   <Link
     to={url}
     onClick={e => {
       e.preventDefault();
-      dispatch(action("updateDetailsView", "flag"));
+      dispatch(action("updateDetailsView", newView));
     }}
   >
-    {children}
+    {newView}
   </Link>
 ));
 
@@ -53,14 +53,10 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
           <h3>{detail.country}</h3>
           <small>
             {view === "map" && (
-              <ChangeView url={flagUrl} dispatch={dispatch}>
-                flag
-              </ChangeView>
+              <ChangeView newView="flag" url={flagUrl} dispatch={dispatch} />
             )}
             {view === "flag" && (
-              <ChangeView url={mapUrl} dispatch={dispatch}>
-                map
-              </ChangeView>
+              <ChangeView newView="map" url={mapUrl} dispatch={dispatch} />
             )}
           </small>
         </div>
