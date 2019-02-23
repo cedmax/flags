@@ -1,8 +1,11 @@
 const slugify = require("slugify");
 const cheerio = require("cheerio");
 const fs = require("fs");
+const axios = require("axios");
+const async = require("async");
 
 const getTempFile = key => `${__dirname}/.cache/${key}.json`;
+const generateId = string => slugify(string).toLowerCase();
 
 const resolveCache = key => {
   const tempFile = getTempFile(key);
@@ -24,8 +27,11 @@ const merge = (flags, newInfo) =>
       }));
 
 module.exports = {
-  mergeData: (dataFetcher, cacheKey) => flags =>
+  mergeData: (dataFetcher, cacheKey, group) => flags =>
     new Promise(resolve => {
+      if (group) {
+        cacheKey = `${cacheKey}-${group}`;
+      }
       if (cacheKey) {
         const content = resolveCache(cacheKey);
         if (content) {
@@ -45,12 +51,23 @@ module.exports = {
     }),
   resolveCache,
   saveCache,
-  generateId: string => slugify(string).toLowerCase(),
+  generateId,
   cleanUrl: string => string.replace("_the_", "_").toLowerCase(),
-  consolidate: data =>
+  consolidate: group => flags =>
     new Promise(resolve => {
+      const dataKey = group || "world";
+      let data = { [dataKey]: flags };
       const html = fs.readFileSync(`${__dirname}/../public/index.html`);
       const $ = cheerio.load(html);
+      const currentDataString = $("#data").html();
+
+      if (currentDataString) {
+        const currentData = JSON.parse(currentDataString);
+        data = {
+          ...currentData,
+          ...data,
+        };
+      }
       $("#data").text(JSON.stringify(data));
       const newHTML = $.html();
       fs.writeFileSync(
@@ -61,18 +78,13 @@ module.exports = {
       fs.writeFileSync(`${__dirname}/../public/index.html`, newHTML, "UTF-8");
       resolve();
     }),
-  validate: flags =>
+  validate: group => flags =>
     new Promise(resolve => {
       flags.forEach(flag => {
-        if (!flag.continents) {
-          throw new Error(`${flag.id} doesn't have continents`);
-        }
         if (!flag.ratio) {
           throw new Error(`${flag.id} doesn't have ratio`);
         }
-        if (!flag.adoption) {
-          throw new Error(`${flag.id} doesn't have adoption`);
-        }
+
         if (!flag.colors) {
           throw new Error(`${flag.id} doesn't have colors`);
         } else {
@@ -82,18 +94,53 @@ module.exports = {
             }
           });
         }
+
         if (!flag.tags) {
           throw new Error(`${flag.id} doesn't have tags`);
         }
-        if (!flag.anthem) {
-          throw new Error(`${flag.id} doesn't have an anthem`);
-        } else {
-          if (flag.anthem.input.match(/[0-9]{4}/)) {
-            throw new Error(`${flag.id} has the wrong anthem anthem`);
+
+        if (!group) {
+          if (!flag.continents) {
+            throw new Error(`${flag.id} doesn't have continents`);
           }
-          delete flag.anthem.input;
+          if (!flag.adoption) {
+            throw new Error(`${flag.id} doesn't have adoption`);
+          }
+          if (!flag.anthem) {
+            throw new Error(`${flag.id} doesn't have an anthem`);
+          } else {
+            if (flag.anthem.input.match(/[0-9]{4}/)) {
+              throw new Error(`${flag.id} has the wrong anthem anthem`);
+            }
+            delete flag.anthem.input;
+          }
         }
       });
       resolve(flags);
     }),
+
+  saveFlagFiles: (flags, callback) =>
+    async.mapLimit(
+      flags,
+      2,
+      (flag, cb) => {
+        const { id } = flag;
+        const file = `${__dirname}/../src/data/flags/${id}.svg`;
+
+        if (!fs.existsSync(file)) {
+          axios
+            .get(flag.image)
+            .then(({ data: svg }) => {
+              fs.writeFileSync(file, svg, "UTF-8");
+              cb(null, flag);
+            })
+            .catch(() => console.log(flag.country, "failed"));
+        } else {
+          cb(null, flag);
+        }
+      },
+      (e, result) => {
+        callback(result);
+      }
+    ),
 };
