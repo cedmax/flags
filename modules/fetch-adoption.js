@@ -3,6 +3,13 @@ const cheerio = require("cheerio");
 const manualAdoption = require("./manual/adoption.json");
 const helpers = require("./helpers");
 
+const adoptionObj = adoption => ({
+  adoption: {
+    sort: parseInt(adoption, 10),
+    text: adoption,
+  },
+});
+
 module.exports = async (flags, callback) => {
   const { data } = await axios.get(
     "https://en.wikipedia.org/wiki/List_of_sovereign_states_by_date_of_current_flag_adoption"
@@ -39,14 +46,14 @@ module.exports = async (flags, callback) => {
       });
 
       if (index !== -1) {
-        result[id] = { adoption };
+        result[id] = adoptionObj(adoption);
       }
     }
     return result;
   }, {});
 
   Object.keys(manualAdoption).forEach(id => {
-    result[id] = { adoption: manualAdoption[id] };
+    result[id] = adoptionObj(manualAdoption[id]);
   });
 
   callback(result);

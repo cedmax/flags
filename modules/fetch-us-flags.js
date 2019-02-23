@@ -31,7 +31,7 @@ module.exports = async (unused, callback) => {
           .trim();
 
         const url = helpers.cleanUrl($link.attr("href"));
-        let adoption = $flagContainer
+        const adoptionText = $flagContainer
           .find(".gallerytext")
           .text()
           .replace(/\[(.)+\]/g, "")
@@ -39,6 +39,11 @@ module.exports = async (unused, callback) => {
           .match(/\([^(]+\){1}$/g)[0]
           .replace(/[()]/g, "")
           .replace("; see notes", "");
+
+        const adoption = {
+          sort: new Date(adoptionText).toJSON(),
+          text: adoptionText,
+        };
 
         const image =
           "https:" +
@@ -57,6 +62,16 @@ module.exports = async (unused, callback) => {
         }
 
         const id = helpers.generateId(country).replace("georgia", "georgia-us");
+        switch (id) {
+          case "mississippi":
+            adoption.sort = new Date("November 1, 1897").toJSON();
+            break;
+          case "rhode-island":
+            adoption.sort = new Date(" February 7, 2001").toJSON();
+            break;
+          default:
+            break;
+        }
 
         return {
           id,

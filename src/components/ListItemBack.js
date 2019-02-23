@@ -69,7 +69,7 @@ export default React.memo(({ svgUrl, flag, dispatch, active }) => (
           </Fragment>
         )}
         <dt>Adopted</dt>
-        <dd>{flag.adoption}</dd>
+        <dd>{flag.adoption.text}</dd>
         <dt>Aspect Ratio</dt>
         <dd>{flag.ratio}</dd>
         {flag.anthem && (

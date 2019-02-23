@@ -42,7 +42,7 @@ const sort = state => {
       );
       break;
     case "adoption":
-      filtered = filtered.sort((a, b) => a.adoption - b.adoption);
+      filtered = filtered.sort((a, b) => (a.adoption.sort > b.adoption.sort)? 1 : -1);
       break;
     case "ratio":
       filtered = filtered.sort((a, b) => {
