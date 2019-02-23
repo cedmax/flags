@@ -9553,26 +9553,38 @@
                 "text": "February 19, 2003"
             },
             "url": "/wiki/flag_of_georgia_(u.s._state)",
-            "ratio": "2:3",
+            "ratio": "5:8",
             "anthem": {
                 "title": "Georgia on My Mind",
                 "videoId": "R2472Dx4FiA"
             },
             "colors": [
                 {
+                    "hex": "#b50027",
+                    "percent": 53,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#002d56",
+                    "percent": 23,
+                    "tag": "cyan"
+                },
+                {
                     "hex": "#ffffff",
-                    "percent": 64,
+                    "percent": 21,
                     "tag": "white"
                 },
                 {
-                    "hex": "#ff0000",
-                    "percent": 35,
-                    "tag": "red"
+                    "hex": "#eed000",
+                    "percent": 2,
+                    "tag": "yellow"
                 }
             ],
             "tags": [
+                "red",
+                "cyan",
                 "white",
-                "red"
+                "yellow"
             ]
         },
         {
