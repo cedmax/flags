@@ -9,25 +9,26 @@ const urlParams = {
   sortBy: "",
 };
 
-export const getInitialState = data => ({
+const getFilters = (data, key) =>
+  data
+    .reduce((acc, flag) => {
+      if (flag[key]) {
+        acc = acc.concat(flag[key]);
+        return [...new Set(acc)];
+      }
+      return acc;
+    }, [])
+    .sort();
+
+export const getInitialState = ({ world: dataSet }) => ({
   ...urlParams,
   active: "",
   playing: "",
-  allFlags: [...data],
-  filtered: [...data],
+  worldFlags: [...dataSet],
+  filtered: [...dataSet],
   sorters: ["name", "adoption", "ratio"],
-  availableFilters: data
-    .reduce((acc, flag) => {
-      acc = acc.concat(flag.tags);
-      return [...new Set(acc)];
-    }, [])
-    .sort(),
-  availableContinents: data
-    .reduce((acc, flag) => {
-      acc = acc.concat(flag.continents);
-      return [...new Set(acc)];
-    }, [])
-    .sort(),
+  availableFilters: getFilters(dataSet, "tags"),
+  availableContinents: getFilters(dataSet, "continents"),
 });
 
 const sort = state => {
@@ -62,32 +63,36 @@ const sort = state => {
 };
 
 const applyFilters = state => {
-  const { filters, continent, allFlags, sortBy, q } = state;
+  const { filters, continent, worldFlags, sortBy, q } = state;
 
-  let filtered = !filters.length
-    ? [...allFlags]
-    : allFlags.filter(({ tags }) => filters.every(tag => tags.includes(tag)));
+  let filtered = [...worldFlags];
 
-  if (filters.length && !sortBy) {
-    filtered = filtered.sort((flagA, flagB) => {
-      const coverageA = filters.reduce((acc, filter) => {
-        const { percent } = flagA.colors.find(({ tag }) => tag === filter);
-        acc += percent;
-        return acc;
-      }, 0);
+  if (filters.length) {
+    filtered = filtered.filter(({ tags }) =>
+      filters.every(tag => tags.includes(tag))
+    );
 
-      const coverageB = filters.reduce((acc, filter) => {
-        const { percent } = flagB.colors.find(({ tag }) => tag === filter);
-        acc += percent;
-        return acc;
-      }, 0);
+    if (!sortBy) {
+      filtered = filtered.sort((flagA, flagB) => {
+        const coverageA = filters.reduce((acc, filter) => {
+          const { percent } = flagA.colors.find(({ tag }) => tag === filter);
+          acc += percent;
+          return acc;
+        }, 0);
 
-      if (coverageA < coverageB) {
-        return 1;
-      } else {
-        return -1;
-      }
-    });
+        const coverageB = filters.reduce((acc, filter) => {
+          const { percent } = flagB.colors.find(({ tag }) => tag === filter);
+          acc += percent;
+          return acc;
+        }, 0);
+
+        if (coverageA < coverageB) {
+          return 1;
+        } else {
+          return -1;
+        }
+      });
+    }
   }
 
   if (continent) {

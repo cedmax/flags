@@ -20,12 +20,19 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
         <ImageLoader
           loading={() => <div className="spinner" />}
           image={props => {
-            delete props.width;
+            let size;
+            if (view === "flag") {
+              delete props.width;
+              size = { height: "100%" };
+            } else {
+              size = { width: "100%" };
+              delete props.height;
+            }
             return (
               <img
                 {...props}
+                {...size}
                 onClick={() => dispatch(action("hideDetails"))}
-                height="100%"
                 alt={`Flag of ${detail.country}`}
               />
             );
@@ -36,7 +43,7 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
               : require(`../data/maps/${detail.id}.png`)
           }
         />
-        {view === "map" && (
+        {view === "map" && detail.map && (
           <Link className="map-credits" to={detail.map.credits} target="_blank">
             map
             <br />

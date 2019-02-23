@@ -72,20 +72,24 @@ export default React.memo(({ svgUrl, flag, dispatch, active }) => (
         <dd>{flag.adoption}</dd>
         <dt>Aspect Ratio</dt>
         <dd>{flag.ratio}</dd>
-        <dt>
-          <a
-            className="play"
-            href={`#${flag.id}`}
-            onClick={e => {
-              e.preventDefault();
-              dispatch(action("play", flag.anthem.videoId));
-            }}
-          >
-            <span>play {flag.anthem.title}</span>
-          </a>{" "}
-          Anthem
-        </dt>
-        <dd>{flag.anthem.title}</dd>
+        {flag.anthem && (
+          <Fragment>
+            <dt>
+              <a
+                className="play"
+                href={`#${flag.id}`}
+                onClick={e => {
+                  e.preventDefault();
+                  dispatch(action("play", flag.anthem.videoId));
+                }}
+              >
+                <span>play {flag.anthem.title}</span>
+              </a>{" "}
+              Anthem
+            </dt>
+            <dd>{flag.anthem.title}</dd>
+          </Fragment>
+        )}
         <dt>Colors</dt>
         <dd className="colors">
           {flag.colors.map(({ hex, percent }) => (
