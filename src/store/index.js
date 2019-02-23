@@ -20,7 +20,7 @@ const getFilters = (data, key) =>
     }, [])
     .sort();
 
-export const getInitialState = ({ US: dataSet }) => ({
+export const getInitialState = ({ world: dataSet }) => ({
   ...urlParams,
   active: "",
   playing: "",
