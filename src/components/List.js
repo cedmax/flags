@@ -10,8 +10,8 @@ export default React.memo(({ isSorted, items, dispatch, active }) => (
 
       return (
         <Fragment key={flag.id}>
-          {flag.id === "abkhazia" ||
-            (flag.id === "american-samoa" && !isSorted && <hr />)}
+          {(flag.id === "abkhazia" || flag.id === "american-samoa") &&
+            !isSorted && <hr />}
 
           <li>
             <div

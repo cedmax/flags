@@ -20,7 +20,7 @@ const getFilters = (data, key) =>
     }, [])
     .sort();
 
-export const getInitialState = ({ world: dataSet }) => ({
+export const getInitialState = ({ US: dataSet }) => ({
   ...urlParams,
   active: "",
   playing: "",
@@ -63,7 +63,8 @@ const sort = state => {
 };
 
 const applyFilters = state => {
-  const { filters, continent, worldFlags, sortBy, q } = state;
+  const { filters, continent, worldFlags, q } = state;
+  let { sortBy } = state;
 
   let filtered = [...worldFlags];
 
@@ -73,6 +74,7 @@ const applyFilters = state => {
     );
 
     if (!sortBy) {
+      sortBy = "colour";
       filtered = filtered.sort((flagA, flagB) => {
         const coverageA = filters.reduce((acc, filter) => {
           const { percent } = flagA.colors.find(({ tag }) => tag === filter);
@@ -93,6 +95,8 @@ const applyFilters = state => {
         }
       });
     }
+  } else if (sortBy ==='colour'){
+    sortBy = ''
   }
 
   if (continent) {
@@ -110,7 +114,7 @@ const applyFilters = state => {
     });
   }
 
-  return sort({ ...state, filtered });
+  return sort({ ...state, filtered, sortBy });
 };
 
 export const reducers = createReducers({
