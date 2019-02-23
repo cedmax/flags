@@ -1,0 +1,21 @@
+{
+    "id": "georgia-us",
+    "colors": [
+        {
+            "hex": "#b50027",
+            "percent": 53
+        },
+        {
+            "hex": "#002d56",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 21
+        },
+        {
+            "hex": "#eed000",
+            "percent": 2
+        }
+    ]
+}

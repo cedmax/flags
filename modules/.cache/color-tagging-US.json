@@ -82,7 +82,7 @@
       { "hex": "#7d4802", "percent": 1, "tag": "yellow" }
     ]
   },
-  "georgia": {
+  "georgia-us": {
     "tags": ["white", "red"],
     "colors": [
       { "hex": "#ffffff", "percent": 64, "tag": "white" },
