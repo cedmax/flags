@@ -20,15 +20,16 @@ const getFilters = (data, key) =>
     }, [])
     .sort();
 
-export const getInitialState = ({ world: dataSet }) => ({
+export const getInitialState = (data, view = "world") => ({
   ...urlParams,
   active: "",
   playing: "",
-  worldFlags: [...dataSet],
-  filtered: [...dataSet],
+  allFlags: { ...data },
+  view,
+  filtered: data[view],
   sorters: ["name", "adoption", "ratio"],
-  availableFilters: getFilters(dataSet, "tags"),
-  availableContinents: getFilters(dataSet, "continents"),
+  availableFilters: getFilters(data[view], "tags"),
+  availableContinents: getFilters(data[view], "continents"),
 });
 
 const sort = state => {
@@ -63,10 +64,10 @@ const sort = state => {
 };
 
 const applyFilters = state => {
-  const { filters, continent, worldFlags, q } = state;
+  const { filters, continent, allFlags, view, q } = state;
   let { sortBy } = state;
 
-  let filtered = [...worldFlags];
+  let filtered = [...allFlags[view]];
 
   if (filters.length) {
     filtered = filtered.filter(({ tags }) =>
@@ -95,8 +96,8 @@ const applyFilters = state => {
         }
       });
     }
-  } else if (sortBy ==='colour'){
-    sortBy = ''
+  } else if (sortBy === "colour") {
+    sortBy = "";
   }
 
   if (continent) {
@@ -232,5 +233,13 @@ export const reducers = createReducers({
       ...payload,
       filters,
     });
+  },
+
+  changeDataSource: (state, payload) => {
+    const { allFlags } = state;
+
+    const newState = getInitialState(allFlags, payload);
+
+    return newState;
   },
 });

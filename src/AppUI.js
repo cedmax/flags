@@ -1,6 +1,7 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Footer from "./components/Footer";
 import List from "./components/List";
+import Header from "./components/Header";
 import Anthem from "./components/Anthem";
 import NavSorter from "./components/NavSorter";
 import NavSearch from "./components/NavSearch";
@@ -12,7 +13,7 @@ import "./App.css";
 
 const AppUI = ({ state, dispatch }) => (
   <main>
-    <h1>Flags of the World</h1>
+    <Header dispatch={dispatch} />
     <nav>
       <NavSorter
         sorters={state.sorters}
@@ -20,12 +21,16 @@ const AppUI = ({ state, dispatch }) => (
         dispatch={dispatch}
       />
       <NavSearch query={state.q} dispatch={dispatch} />
-      <br />
-      <NavContinents
-        dispatch={dispatch}
-        selectedContinent={state.continent}
-        availableContinents={state.availableContinents}
-      />
+      {!!state.availableContinents.length && (
+        <Fragment>
+          <br />
+          <NavContinents
+            dispatch={dispatch}
+            selectedContinent={state.continent}
+            availableContinents={state.availableContinents}
+          />
+        </Fragment>
+      )}
       <br />
       <NavFilters
         availableFilters={state.availableFilters}

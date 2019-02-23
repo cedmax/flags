@@ -173,20 +173,23 @@ nav {
   margin: auto;
 }
 
-button, .filters {
+button, .filters, .select-menu {
   padding: 10px 20px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  text-transform: uppercase;
   border-radius: 3px;
   border: 2px solid #ccc;
-  margin-left: 3px;
-  margin-bottom: 3px;
   cursor: pointer;
   background: rgba(255, 255, 255, .6);
   box-sizing: border-box;
-  height: 40px;
+}
+
+button, .filters {
   font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-left: 3px;
+  margin-bottom: 3px;
+  height: 40px;
   display: inline-flex;
   vertical-align: middle;
 }
@@ -426,4 +429,30 @@ a.play::before {
   position: absolute;
   left: -10px;
   top: 50%;
+}
+
+.select {
+  position: relative;
+  display: inline-block;
+}
+
+.select-button {
+  text-decoration: underline
+}
+
+.select-menu {
+  background: rgba(255,255,255,.9);
+  font-size: 80%;
+  position: absolute;
+  left: 50%;
+  padding: 0;
+  transform: translate3d(-50%, 10px, 0);
+}
+
+.select-item {
+  padding: 30px;
+}
+
+.select-item:hover,.select-item:focus {
+  background:#fff
 }
