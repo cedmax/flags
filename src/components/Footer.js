@@ -20,7 +20,14 @@ export default React.memo(() => (
     <Link to="https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags">
       ratios
     </Link>
-    , <Link to="https://en.wikipedia.org/wiki/List_of_flag_names">names</Link>
+    , <Link to="https://en.wikipedia.org/wiki/List_of_flag_names">names</Link>,{" "}
+    <Link to="https://en.wikipedia.org/wiki/Flags_of_the_U.S._states_and_territories">
+      US flags
+    </Link>
+    ,{" "}
+    <Link to="https://commons.wikimedia.org/wiki/Locator_maps_for_U.S._states">
+      US maps
+    </Link>
     .
     <br />
     Anthems mostly from{" "}
