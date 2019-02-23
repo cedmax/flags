@@ -17,6 +17,7 @@ export default React.memo(({ detail, view, dispatch, isList }) => {
         isOpen={!!detail}
         onRequestClose={() => dispatch(action("hideDetails"))}
         contentLabel={detail && detail.country}
+        shouldReturnFocusAfterClose={false}
       >
         <ImageLoader
           loading={() => <Loader />}
