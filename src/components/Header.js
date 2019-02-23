@@ -7,7 +7,7 @@ const values = {
   US: "United States",
 };
 
-export default ({ dispatch, view }) => {
+export default React.memo(({ dispatch, view }) => {
   const [selected, setSelected] = useState(values[view]);
 
   if (values[view] !== selected) {
@@ -41,4 +41,4 @@ export default ({ dispatch, view }) => {
       </h1>
     </Wrapper>
   );
-};
+});
