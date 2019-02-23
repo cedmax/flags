@@ -38,7 +38,9 @@ const AppUI = ({ state, dispatch }) => (
       />
     </nav>
     {state.loading ? (
-      <Loader />
+      <div className="spinner-container">
+        <Loader />
+      </div>
     ) : (
       <Fragment>
         <NavControls
@@ -56,6 +58,7 @@ const AppUI = ({ state, dispatch }) => (
           items={state.filtered}
           isSorted={!!state.sortBy}
           dispatch={dispatch}
+          isUS={state.view === "US"}
         />
       </Fragment>
     )}

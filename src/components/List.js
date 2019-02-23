@@ -3,7 +3,7 @@ import { action } from "../helpers";
 import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 
-export default React.memo(({ isSorted, items, dispatch, active }) => (
+export default React.memo(({ isUS, isSorted, items, dispatch, active }) => (
   <ul className="list">
     {items.map((flag, i) => {
       const svgUrl = require(`../data/flags/${flag.id}.svg`);
@@ -22,6 +22,7 @@ export default React.memo(({ isSorted, items, dispatch, active }) => (
               <div className="flipper">
                 <ListItemFront svgUrl={svgUrl} country={flag.country} />
                 <ListItemBack
+                  isUS={isUS}
                   active={active === i}
                   svgUrl={svgUrl}
                   flag={flag}

@@ -417,6 +417,11 @@ a.play::before {
   to {transform: rotate(360deg);}
 }
 
+.spinner-container {
+  position: relative;
+  padding: 3rem 0 0;
+}
+
 .spinner {
   transform: translate3d(0,0,0);
   border: 11px solid rgba(180, 220, 240, .6);

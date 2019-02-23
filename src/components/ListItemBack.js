@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import Link from "./Link";
 import { action } from "../helpers";
 
-export default React.memo(({ svgUrl, flag, dispatch, active }) => (
+export default React.memo(({ isUS, svgUrl, flag, dispatch, active }) => (
   <div className="back">
     <div
       style={{
@@ -85,7 +85,7 @@ export default React.memo(({ svgUrl, flag, dispatch, active }) => (
               >
                 <span>play {flag.anthem.title}</span>
               </a>{" "}
-              Anthem
+              {isUS ? "State Song" : "Anthem"}
             </dt>
             <dd>{flag.anthem.title}</dd>
           </Fragment>

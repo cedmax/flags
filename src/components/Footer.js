@@ -20,18 +20,27 @@ export default React.memo(() => (
     <Link to="https://en.wikipedia.org/wiki/List_of_aspect_ratios_of_national_flags">
       ratios
     </Link>
-    , <Link to="https://en.wikipedia.org/wiki/List_of_flag_names">names</Link>,{" "}
+    , <Link to="https://en.wikipedia.org/wiki/List_of_flag_names">names</Link>,
+    and{" "}
     <Link to="https://en.wikipedia.org/wiki/Flags_of_the_U.S._states_and_territories">
-      US flags
+      US flags,
     </Link>
     ,{" "}
     <Link to="https://commons.wikimedia.org/wiki/Locator_maps_for_U.S._states">
-      US maps
+      maps
+    </Link>{" "}
+    and{" "}
+    <Link to="https://en.wikipedia.org/wiki/List_of_U.S._state_songs">
+      state songs
     </Link>
     .
     <br />
     Anthems mostly from{" "}
-    <Link to="https://www.youtube.com/user/DeroVolk">DeroVolk, on YouTube</Link>
+    <Link to="https://www.youtube.com/user/DeroVolk">DeroVolk</Link>, state
+    songs from{" "}
+    <Link to="https://www.youtube.com/watch?v=IUgsJKCzcmc&list=PLMQMoYkBxsBpfwjlzH6FJgIpUCJ5G6fsO">
+      Music is Love Anthems
+    </Link>
     <br />
     <br />
     Made with <span style={{ color: "#C33" }}>❤</span> by{" "}
