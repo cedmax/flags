@@ -4,6 +4,7 @@ import List from "./components/List";
 import Header from "./components/Header";
 import Anthem from "./components/Anthem";
 import NavSorter from "./components/NavSorter";
+import Loader from "./components/Loader";
 import NavSearch from "./components/NavSearch";
 import NavContinents from "./components/NavContinents";
 import NavFilters from "./components/NavFilters";
@@ -21,39 +22,43 @@ const AppUI = ({ state, dispatch }) => (
         dispatch={dispatch}
       />
       <NavSearch query={state.q} dispatch={dispatch} />
-      {!!state.availableContinents.length && (
-        <Fragment>
-          <br />
-          <NavContinents
-            dispatch={dispatch}
-            selectedContinent={state.continent}
-            availableContinents={state.availableContinents}
-          />
-        </Fragment>
-      )}
+      <br />
+      <NavContinents
+        isLoading={state.loading}
+        isUS={state.view === "US"}
+        dispatch={dispatch}
+        selectedContinent={state.continent}
+        availableContinents={state.availableContinents}
+      />
       <br />
       <NavFilters
         availableFilters={state.availableFilters}
         filters={state.filters}
         dispatch={dispatch}
       />
-      <NavControls
-        dispatch={dispatch}
-        total={state.filtered.length}
-        isModified={
-          !!state.filters.length ||
-          !!state.q ||
-          !!state.continent ||
-          !!state.sortBy
-        }
-      />
     </nav>
-    <List
-      active={state.active}
-      items={state.filtered}
-      isSorted={!!state.sortBy}
-      dispatch={dispatch}
-    />
+    {state.loading ? (
+      <Loader />
+    ) : (
+      <Fragment>
+        <NavControls
+          dispatch={dispatch}
+          total={state.filtered.length}
+          isModified={
+            !!state.filters.length ||
+            !!state.q ||
+            !!state.continent ||
+            !!state.sortBy
+          }
+        />
+        <List
+          active={state.active}
+          items={state.filtered}
+          isSorted={!!state.sortBy}
+          dispatch={dispatch}
+        />
+      </Fragment>
+    )}
     <Footer />
     <Anthem dispatch={dispatch} playing={state.playing} />
     <DetailsModal

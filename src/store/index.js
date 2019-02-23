@@ -30,7 +30,7 @@ export const getInitialState = (data, view = "world") => ({
   filtered: data[view],
   sorters: ["name", "adoption", "ratio"],
   availableFilters: getFilters(data[view], "tags"),
-  availableContinents: getFilters(data[view], "continents"),
+  availableContinents: getFilters(data.world, "continents"),
 });
 
 const sort = state => {
@@ -42,7 +42,9 @@ const sort = state => {
       );
       break;
     case "adoption":
-      filtered = filtered.sort((a, b) => (a.adoption.sort > b.adoption.sort)? 1 : -1);
+      filtered = filtered.sort((a, b) =>
+        a.adoption.sort > b.adoption.sort ? 1 : -1
+      );
       break;
     case "ratio":
       filtered = filtered.sort((a, b) => {

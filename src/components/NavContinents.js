@@ -2,10 +2,13 @@ import React from "react";
 import { action } from "../helpers";
 
 export default React.memo(
-  ({ selectedContinent, availableContinents, dispatch }) =>
+  ({ selectedContinent, isUS, isLoading, availableContinents, dispatch }) =>
     availableContinents.map(continent => (
       <button
-        className={`${selectedContinent === continent ? "selected" : ""}`}
+        disabled={isUS || isLoading}
+        className={`${selectedContinent === continent ? "selected" : ""} ${
+          isUS && continent === "North America" ? "selected" : ""
+        }`}
         key={continent}
         onClick={() => dispatch(action("filterByContinent", continent))}
       >
