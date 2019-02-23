@@ -217,6 +217,11 @@ export const reducers = createReducers({
     detailView: "",
   }),
   updateFromUrl: (state, payload) => {
+    let newState = state;
+
+    if (payload.view !== state.view) {
+      newState = getInitialState(state.allFlags, payload.view);
+    }
     let { filters } = payload;
 
     if (!filters) {
@@ -228,7 +233,7 @@ export const reducers = createReducers({
     }
 
     return applyFilters({
-      ...state,
+      ...newState,
       ...urlParams,
       ...payload,
       filters,

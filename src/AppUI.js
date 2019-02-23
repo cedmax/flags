@@ -13,7 +13,7 @@ import "./App.css";
 
 const AppUI = ({ state, dispatch }) => (
   <main>
-    <Header dispatch={dispatch} />
+    <Header view={state.view} dispatch={dispatch} />
     <nav>
       <NavSorter
         sorters={state.sorters}

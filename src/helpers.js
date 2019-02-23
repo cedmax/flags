@@ -14,6 +14,7 @@ export const qs = {
   fromState: state =>
     querystring.stringify(
       clean({
+        view: state.view,
         filters: state.filters,
         sortBy: state.sortBy,
         q: state.q,

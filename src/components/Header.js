@@ -7,8 +7,13 @@ const values = {
   US: "United States",
 };
 
-export default ({ dispatch }) => {
-  const [selected, setSelected] = useState("World");
+export default ({ dispatch, view }) => {
+  const [selected, setSelected] = useState(values[view]);
+
+  if (values[view] !== selected) {
+    setSelected(values[view]);
+    return;
+  }
 
   useEffect(() => {
     document.title = `Flags of the ${selected}`;

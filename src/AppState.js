@@ -34,6 +34,7 @@ const App = props => {
     state.continent,
     state.detail,
     state.detailView,
+    state.view,
   ]);
 
   return <AppUi state={state} dispatch={dispatch} />;
