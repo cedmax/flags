@@ -9171,6 +9171,10 @@
             },
             "url": "/wiki/flag_of_alabama",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Alabama",
+                "videoId": "-BJWTDIoCWk"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9197,6 +9201,10 @@
             },
             "url": "/wiki/flag_of_alaska",
             "ratio": "125:177",
+            "anthem": {
+                "title": "Alaska's Flag",
+                "videoId": "l3e3fotY9RM"
+            },
             "colors": [
                 {
                     "hex": "#0f204b",
@@ -9223,6 +9231,10 @@
             },
             "url": "/wiki/flag_of_arizona",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Arizona March Song",
+                "videoId": "yOqQPJD8iiQ"
+            },
             "colors": [
                 {
                     "hex": "#002868",
@@ -9260,6 +9272,10 @@
             },
             "url": "/wiki/flag_of_arkansas",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Arkansas",
+                "videoId": "MUPDrqAzYU4"
+            },
             "colors": [
                 {
                     "hex": "#bf0a30",
@@ -9292,6 +9308,10 @@
             },
             "url": "/wiki/flag_of_california",
             "ratio": "2:3",
+            "anthem": {
+                "title": "I Love You, California",
+                "videoId": "fFmolNwgZvA"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9335,6 +9355,10 @@
             },
             "url": "/wiki/flag_of_colorado",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Where the Columbines Grow",
+                "videoId": "3vGNBo3YYwc"
+            },
             "colors": [
                 {
                     "hex": "#002868",
@@ -9373,6 +9397,10 @@
             },
             "url": "/wiki/flag_of_connecticut",
             "ratio": "3:4",
+            "anthem": {
+                "title": "Yankee Doodle",
+                "videoId": "Ek3-uGnA_KQ"
+            },
             "colors": [
                 {
                     "hex": "#0c2d83",
@@ -9422,6 +9450,10 @@
             },
             "url": "/wiki/flag_of_delaware",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Our Delaware",
+                "videoId": "TEO7Wpb-Uhg"
+            },
             "colors": [
                 {
                     "hex": "#76a1a0",
@@ -9475,6 +9507,10 @@
             },
             "url": "/wiki/flag_of_florida",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Old Folks At Home (the Suwannee River)",
+                "videoId": "nqE0_lE68Ew"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9518,6 +9554,10 @@
             },
             "url": "/wiki/flag_of_georgia_(u.s._state)",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Georgia on My Mind",
+                "videoId": "R2472Dx4FiA"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9544,6 +9584,10 @@
             },
             "url": "/wiki/flag_of_hawaii",
             "ratio": "1:2",
+            "anthem": {
+                "title": "Hawaiʻi Ponoʻī",
+                "videoId": "3reNkMOiA_4"
+            },
             "colors": [
                 {
                     "hex": "#cf142b",
@@ -9576,6 +9620,10 @@
             },
             "url": "/wiki/flag_of_idaho",
             "ratio": "26:33",
+            "anthem": {
+                "title": "Here we have Idaho",
+                "videoId": "C4jCKnrDYMM"
+            },
             "colors": [
                 {
                     "hex": "#003776",
@@ -9625,6 +9673,10 @@
             },
             "url": "/wiki/flag_of_illinois",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Illinois",
+                "videoId": "roY6dCQ32Ww"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9680,6 +9732,10 @@
             },
             "url": "/wiki/flag_of_indiana",
             "ratio": "2:3",
+            "anthem": {
+                "title": "On the Banks of the Wabash, Far Away",
+                "videoId": "o5xUqzQv3ck"
+            },
             "colors": [
                 {
                     "hex": "#000f5d",
@@ -9706,6 +9762,10 @@
             },
             "url": "/wiki/flag_of_iowa",
             "ratio": "2:3",
+            "anthem": {
+                "title": "The song of Iowa",
+                "videoId": "uXvQN1LLzFs"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9743,6 +9803,10 @@
             },
             "url": "/wiki/flag_of_kansas",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Home on the Range",
+                "videoId": "qh9S7pVlRWE"
+            },
             "colors": [
                 {
                     "hex": "#002569",
@@ -9763,6 +9827,10 @@
             },
             "url": "/wiki/flag_of_kentucky",
             "ratio": "10:19",
+            "anthem": {
+                "title": "My Old Kentucky Home",
+                "videoId": "ahIuPVIsraM"
+            },
             "colors": [
                 {
                     "hex": "#000066",
@@ -9800,6 +9868,10 @@
             },
             "url": "/wiki/flag_of_louisiana",
             "ratio": "7:11",
+            "anthem": {
+                "title": "You are my sunshine",
+                "videoId": "S3sczqk7zJE"
+            },
             "colors": [
                 {
                     "hex": "#00447b",
@@ -9831,6 +9903,10 @@
             },
             "url": "/wiki/flag_of_maine",
             "ratio": "2:3",
+            "anthem": {
+                "title": "State of Maine song",
+                "videoId": "ycg8loGBZzg"
+            },
             "colors": [
                 {
                     "hex": "#002664",
@@ -9874,6 +9950,10 @@
             },
             "url": "/wiki/flag_of_maryland",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Maryland, my Maryland",
+                "videoId": "K8v1MELZ8iU"
+            },
             "colors": [
                 {
                     "hex": "#000000",
@@ -9912,6 +9992,10 @@
             },
             "url": "/wiki/flag_of_massachusetts",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Massachusetts",
+                "videoId": "K1WY-p_JK8c"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -9944,6 +10028,10 @@
             },
             "url": "/wiki/flag_of_michigan",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Michigan, my Michigan",
+                "videoId": "AVHw2Ga4mow"
+            },
             "colors": [
                 {
                     "hex": "#00287e",
@@ -10003,6 +10091,10 @@
             },
             "url": "/wiki/flag_of_minnesota",
             "ratio": "8:5",
+            "anthem": {
+                "title": "Hail! Minnesota",
+                "videoId": "e_TEE5ExBPs"
+            },
             "colors": [
                 {
                     "hex": "#3d68c9",
@@ -10041,6 +10133,10 @@
             },
             "url": "/wiki/flag_of_mississippi",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Go Mississippi",
+                "videoId": "QIE8DC-pD08"
+            },
             "colors": [
                 {
                     "hex": "#bf0a30",
@@ -10073,6 +10169,10 @@
             },
             "url": "/wiki/flag_of_missouri",
             "ratio": "7:12",
+            "anthem": {
+                "title": "Missouri waltz",
+                "videoId": "rvOx33KZ3bc"
+            },
             "colors": [
                 {
                     "hex": "#004b8d",
@@ -10127,6 +10227,10 @@
             },
             "url": "/wiki/flag_of_montana",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Montana",
+                "videoId": "gxqXOBka3-Y"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10175,6 +10279,10 @@
             },
             "url": "/wiki/flag_of_nebraska",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Beautiful Nebraska",
+                "videoId": "6BYDwcHv_Ws"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10207,6 +10315,10 @@
             },
             "url": "/wiki/flag_of_nevada",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Home means Nevada",
+                "videoId": "TkUPlmlQ-7Y"
+            },
             "colors": [
                 {
                     "hex": "#0033a0",
@@ -10239,6 +10351,10 @@
             },
             "url": "/wiki/flag_of_new_hampshire",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Old New Hampshire",
+                "videoId": "Y82lqzpFDyk"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10331,6 +10447,10 @@
             },
             "url": "/wiki/flag_of_new_mexico",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Oh Fair New Mexico",
+                "videoId": "iRxwk0wphK0"
+            },
             "colors": [
                 {
                     "hex": "#ffd700",
@@ -10357,6 +10477,10 @@
             },
             "url": "/wiki/flag_of_new_york_(state)",
             "ratio": "1:2",
+            "anthem": {
+                "title": "I love New York",
+                "videoId": "nlJ5lvCvWos"
+            },
             "colors": [
                 {
                     "hex": "#002d72",
@@ -10427,6 +10551,10 @@
             },
             "url": "/wiki/flag_of_north_carolina",
             "ratio": "2:3",
+            "anthem": {
+                "title": "The Old North State",
+                "videoId": "81GPBJz2EUc"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -10465,6 +10593,10 @@
             },
             "url": "/wiki/flag_of_north_dakota",
             "ratio": "26:33",
+            "anthem": {
+                "title": "North Dakota Hymn",
+                "videoId": "P_05DZX0r-Q"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10514,6 +10646,10 @@
             },
             "url": "/wiki/flag_of_ohio",
             "ratio": "8:13",
+            "anthem": {
+                "title": "Beautiful Ohio",
+                "videoId": "gIHuT2MzgkU"
+            },
             "colors": [
                 {
                     "hex": "#c1133d",
@@ -10552,6 +10688,10 @@
             },
             "url": "/wiki/flag_of_oklahoma",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Oklahoma",
+                "videoId": "EVyQnJ6M4WM"
+            },
             "colors": [
                 {
                     "hex": "#0073cf",
@@ -10595,6 +10735,10 @@
             },
             "url": "/wiki/flag_of_oregon",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Oregon, my Oregon",
+                "videoId": "bO2lFKSNOCE"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10621,6 +10765,10 @@
             },
             "url": "/wiki/flag_of_pennsylvania",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Pennsylvania",
+                "videoId": "P2Pu-vjTZzA"
+            },
             "colors": [
                 {
                     "hex": "#002a86",
@@ -10676,6 +10824,10 @@
             },
             "url": "/wiki/flag_of_rhode_island",
             "ratio": "29:33",
+            "anthem": {
+                "title": "Rhode Island's It for Me",
+                "videoId": "qzz_c_3mQL8"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -10708,6 +10860,10 @@
             },
             "url": "/wiki/flag_of_south_carolina",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Carolina",
+                "videoId": "9DMRwb4Dxtw"
+            },
             "colors": [
                 {
                     "hex": "#003366",
@@ -10734,6 +10890,10 @@
             },
             "url": "/wiki/flag_of_south_dakota",
             "ratio": "5:8",
+            "anthem": {
+                "title": "Hail! South Dakota!",
+                "videoId": "z2v_dC_f-Wo"
+            },
             "colors": [
                 {
                     "hex": "#0074a8",
@@ -10766,6 +10926,10 @@
             },
             "url": "/wiki/flag_of_tennessee",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Tennessee Waltz",
+                "videoId": "7PKR7OP78gw"
+            },
             "colors": [
                 {
                     "hex": "#cc0000",
@@ -10798,6 +10962,10 @@
             },
             "url": "/wiki/flag_of_texas",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Texas, Our Texas",
+                "videoId": "Q16BGWrO2cQ"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -10830,6 +10998,10 @@
             },
             "url": "/wiki/flag_of_utah",
             "ratio": "3:5",
+            "anthem": {
+                "title": "Utah, this is the place",
+                "videoId": "sfYrA9IoehQ"
+            },
             "colors": [
                 {
                     "hex": "#002868",
@@ -10894,6 +11066,10 @@
             },
             "url": "/wiki/flag_of_vermont",
             "ratio": "3:5",
+            "anthem": {
+                "title": "These Green Mountains",
+                "videoId": "rzNSzSNNHiU"
+            },
             "colors": [
                 {
                     "hex": "#003366",
@@ -10926,6 +11102,10 @@
             },
             "url": "/wiki/flag_of_virginia",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Our Great Virginia",
+                "videoId": "gdkMqVLKar8"
+            },
             "colors": [
                 {
                     "hex": "#00297b",
@@ -10980,6 +11160,10 @@
             },
             "url": "/wiki/flag_of_washington",
             "ratio": "5:8",
+            "anthem": {
+                "title": "Washington, My Home",
+                "videoId": "YAzR5mTHig0"
+            },
             "colors": [
                 {
                     "hex": "#008457",
@@ -11029,6 +11213,10 @@
             },
             "url": "/wiki/flag_of_west_virginia",
             "ratio": "10:19",
+            "anthem": {
+                "title": "West Virginia, my home sweet home",
+                "videoId": "gz_NB7WznuQ"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -11079,6 +11267,10 @@
             },
             "url": "/wiki/flag_of_wisconsin",
             "ratio": "2:3",
+            "anthem": {
+                "title": "Oh Wisconsin",
+                "videoId": "2VLGBLiMM3M"
+            },
             "colors": [
                 {
                     "hex": "#002986",
@@ -11117,6 +11309,10 @@
             },
             "url": "/wiki/flag_of_wyoming",
             "ratio": "7:10",
+            "anthem": {
+                "title": "Wyoming",
+                "videoId": "ygnIf-j2XiA"
+            },
             "colors": [
                 {
                     "hex": "#002868",
@@ -11151,6 +11347,10 @@
             "ratio": "1:2",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:American_Samoa_on_the_globe_(Polynesia_centered).svg"
+            },
+            "anthem": {
+                "title": "Amerika Samoa",
+                "videoId": "5NHmITMZYis"
             },
             "colors": [
                 {
@@ -11234,6 +11434,10 @@
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Guam_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
             },
+            "anthem": {
+                "title": "Fanohge Chamoru",
+                "videoId": "JYVNp0ejtBA"
+            },
             "colors": [
                 {
                     "hex": "#00297b",
@@ -11273,6 +11477,10 @@
             "ratio": "1:2",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Northern_Mariana_Islands_on_the_globe_(Southeast_Asia_centered)_(small_islands_magnified).svg"
+            },
+            "anthem": {
+                "title": "Gi Talo Gi Halom Tåsi",
+                "videoId": "12aGHt5A0ck"
             },
             "colors": [
                 {
@@ -11315,6 +11523,10 @@
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Puerto_Rico_on_the_globe_(Americas_centered).svg"
             },
+            "anthem": {
+                "title": "La Borinqueña",
+                "videoId": "lNWx1DNnQIE"
+            },
             "colors": [
                 {
                     "hex": "#ee0000",
@@ -11349,6 +11561,10 @@
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:United_States_Virgin_Islands_on_the_globe_(Americas_centered).svg"
+            },
+            "anthem": {
+                "title": "Virgin Islands March",
+                "videoId": "i0TL9kYAnHQ"
             },
             "colors": [
                 {

@@ -6,6 +6,7 @@ const calculateUsRatio = require("./calculate-us-ratio");
 const fetchRatio = require("./fetch-ratio");
 const fetchName = require("./fetch-name");
 const fetchMaps = require("./fetch-maps");
+const addStateSongs = require("./add-state-songs");
 const analyseColours = require("./analyse-colours");
 const tagColours = require("./tag-colours");
 const tagContinents = require("./fetch-continents");
@@ -44,6 +45,7 @@ const fetchAndAggregate = (fetchFlags, fetchers, group) => {
     {
       ratio: calculateUsRatio,
       maps: fetchUsMaps,
+      "state-songs": addStateSongs,
     },
     "US"
   );
