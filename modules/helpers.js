@@ -132,10 +132,12 @@ module.exports = {
             .get(flag.image)
             .then(({ data: svg }) => {
               fs.writeFileSync(file, svg, "UTF-8");
+              delete flag.image;
               cb(null, flag);
             })
             .catch(() => console.log(flag.country, "failed"));
         } else {
+          delete flag.image;
           cb(null, flag);
         }
       },
