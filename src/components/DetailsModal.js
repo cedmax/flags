@@ -1,97 +1,73 @@
 import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
-import Loader from "./Loader";
+import ImageLoader from "./ImageLoader";
 import { action, getDetailsImageSize } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
-import ImageLoader from "react-loading-image";
+
+const ChangeView = React.memo(({ url, dispatch, children }) => (
+  <Link
+    to={url}
+    onClick={e => {
+      e.preventDefault();
+      dispatch(action("updateDetailsView", "flag"));
+    }}
+  >
+    {children}
+  </Link>
+));
+
+const NavigationButton = React.memo(({ label, value, dispatch }) => (
+  <button onClick={() => dispatch(action("navigate", value))}>
+    <span>{label}</span>
+  </button>
+));
 
 export default React.memo(({ detail, view, dispatch, isList }) => {
   const ratio = view === "flag" ? detail.ratio : "1:1";
   const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
 
+  if (!detail) return;
+  const flagUrl = require(`../data/flags/${detail.id}.svg`);
+  const mapUrl = require(`../data/maps/${detail.id}.png`);
+
   return (
-    detail && (
-      <Modal
-        style={getDetailsStyle(size)}
-        isOpen={!!detail}
-        onRequestClose={() => dispatch(action("hideDetails"))}
-        contentLabel={detail && detail.country}
-        shouldReturnFocusAfterClose={false}
-      >
-        <ImageLoader
-          loading={() => <Loader />}
-          image={props => {
-            let size;
-            if (view === "flag") {
-              delete props.width;
-              size = { height: "100%" };
-            } else {
-              size = { width: "100%" };
-              delete props.height;
-            }
-            return (
-              <img
-                {...props}
-                {...size}
-                onClick={() => dispatch(action("hideDetails"))}
-                alt={`Flag of ${detail.country}`}
-              />
-            );
-          }}
-          src={
-            view === "flag"
-              ? require(`../data/flags/${detail.id}.svg`)
-              : require(`../data/maps/${detail.id}.png`)
-          }
-        />
-        {view === "map" && detail.map && (
-          <Link className="map-credits" to={detail.map.credits} target="_blank">
-            map
-            <br />
-            credits
-          </Link>
+    <Modal
+      style={getDetailsStyle(size)}
+      isOpen={!!detail}
+      onRequestClose={() => dispatch(action("hideDetails"))}
+      contentLabel={detail && detail.country}
+      shouldReturnFocusAfterClose={false}
+    >
+      <ImageLoader
+        imgSrc={view === "flag" ? flagUrl : mapUrl}
+        view={view}
+        dispatch={dispatch}
+        {...detail}
+      />
+      <div className="zoom-controls">
+        {isList && (
+          <NavigationButton dispatch={dispatch} label="prev" value={-1} />
         )}
-        <div className="zoom-controls">
-          {isList && (
-            <button onClick={() => dispatch(action("navigate", -1))}>
-              <span>prev</span>
-            </button>
-          )}
-          <div>
-            <h3>{detail.country}</h3>
-            <small>
-              {view === "map" && (
-                <Link
-                  to={require(`../data/flags/${detail.id}.svg`)}
-                  onClick={e => {
-                    e.preventDefault();
-                    dispatch(action("updateDetailsView", "flag"));
-                  }}
-                >
-                  flag
-                </Link>
-              )}
-              {view === "flag" && (
-                <Link
-                  to={require(`../data/maps/${detail.id}.png`)}
-                  onClick={e => {
-                    e.preventDefault();
-                    dispatch(action("updateDetailsView", "map"));
-                  }}
-                >
-                  map
-                </Link>
-              )}
-            </small>
-          </div>
-          {isList && (
-            <button onClick={() => dispatch(action("navigate", 1))}>
-              <span>next</span>
-            </button>
-          )}
+        <div>
+          <h3>{detail.country}</h3>
+          <small>
+            {view === "map" && (
+              <ChangeView url={flagUrl} dispatch={dispatch}>
+                flag
+              </ChangeView>
+            )}
+            {view === "flag" && (
+              <ChangeView url={mapUrl} dispatch={dispatch}>
+                map
+              </ChangeView>
+            )}
+          </small>
         </div>
-      </Modal>
-    )
+        {isList && (
+          <NavigationButton dispatch={dispatch} label="next" value={1} />
+        )}
+      </div>
+    </Modal>
   );
 });
