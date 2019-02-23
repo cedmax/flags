@@ -1,0 +1,21 @@
+{
+    "id": "ohio",
+    "colors": [
+        {
+            "hex": "#c1133d",
+            "percent": 27
+        },
+        {
+            "hex": "#000000",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        },
+        {
+            "hex": "#001c5a",
+            "percent": 21
+        }
+    ]
+}

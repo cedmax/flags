@@ -1,0 +1,17 @@
+{
+    "id": "wyoming",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 56
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        }
+    ]
+}

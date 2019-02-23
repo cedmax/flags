@@ -1,0 +1,21 @@
+{
+    "id": "arizona",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 47
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 26
+        },
+        {
+            "hex": "#fed700",
+            "percent": 20
+        },
+        {
+            "hex": "#ce5c17",
+            "percent": 6
+        }
+    ]
+}

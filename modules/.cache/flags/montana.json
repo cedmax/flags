@@ -1,0 +1,29 @@
+{
+    "id": "montana",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 84
+        },
+        {
+            "hex": "#ffd90f",
+            "percent": 4
+        },
+        {
+            "hex": "#a2d100",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#e8d9a8",
+            "percent": 1
+        },
+        {
+            "hex": "#a81800",
+            "percent": 1
+        }
+    ]
+}

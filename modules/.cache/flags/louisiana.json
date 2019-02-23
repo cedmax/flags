@@ -1,0 +1,17 @@
+{
+    "id": "louisiana",
+    "colors": [
+        {
+            "hex": "#00447b",
+            "percent": 81
+        },
+        {
+            "hex": "#fefefe",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

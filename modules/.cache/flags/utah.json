@@ -1,0 +1,41 @@
+{
+    "id": "utah",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 81
+        },
+        {
+            "hex": "#fefefe",
+            "percent": 4
+        },
+        {
+            "hex": "#ffc324",
+            "percent": 2
+        },
+        {
+            "hex": "#0a0905",
+            "percent": 2
+        },
+        {
+            "hex": "#012d6a",
+            "percent": 2
+        },
+        {
+            "hex": "#0b0906",
+            "percent": 1
+        },
+        {
+            "hex": "#8f4a2d",
+            "percent": 1
+        },
+        {
+            "hex": "#fbaf40",
+            "percent": 1
+        },
+        {
+            "hex": "#e41837",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "oklahoma",
+    "colors": [
+        {
+            "hex": "#0073cf",
+            "percent": 86
+        },
+        {
+            "hex": "#b3995d",
+            "percent": 4
+        },
+        {
+            "hex": "#1d5c42",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#efe8c7",
+            "percent": 1
+        }
+    ]
+}

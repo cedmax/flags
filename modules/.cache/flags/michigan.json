@@ -1,0 +1,37 @@
+{
+    "id": "michigan",
+    "colors": [
+        {
+            "hex": "#00287e",
+            "percent": 78
+        },
+        {
+            "hex": "#86473f",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#b37535",
+            "percent": 2
+        },
+        {
+            "hex": "#006fff",
+            "percent": 2
+        },
+        {
+            "hex": "#ef1439",
+            "percent": 1
+        },
+        {
+            "hex": "#35b336",
+            "percent": 1
+        },
+        {
+            "hex": "#ffef6f",
+            "percent": 1
+        }
+    ]
+}

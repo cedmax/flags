@@ -1,0 +1,17 @@
+{
+    "id": "south-dakota",
+    "colors": [
+        {
+            "hex": "#0074a8",
+            "percent": 85
+        },
+        {
+            "hex": "#ffc400",
+            "percent": 4
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

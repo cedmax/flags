@@ -1,0 +1,13 @@
+{
+    "id": "district-of-columbiafederal-district",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 58
+        },
+        {
+            "hex": "#e81b39",
+            "percent": 42
+        }
+    ]
+}

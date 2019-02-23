@@ -1,0 +1,13 @@
+{
+    "id": "indiana",
+    "colors": [
+        {
+            "hex": "#000f5d",
+            "percent": 93
+        },
+        {
+            "hex": "#d59f0f",
+            "percent": 5
+        }
+    ]
+}

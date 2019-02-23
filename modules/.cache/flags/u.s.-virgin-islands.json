@@ -1,0 +1,33 @@
+{
+    "id": "u.s.-virgin-islands",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 70
+        },
+        {
+            "hex": "#f4c53d",
+            "percent": 15
+        },
+        {
+            "hex": "#010002",
+            "percent": 3
+        },
+        {
+            "hex": "#162667",
+            "percent": 3
+        },
+        {
+            "hex": "#0081c6",
+            "percent": 3
+        },
+        {
+            "hex": "#a60032",
+            "percent": 2
+        },
+        {
+            "hex": "#369443",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "colorado",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 58
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 21
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 15
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 6
+        }
+    ]
+}

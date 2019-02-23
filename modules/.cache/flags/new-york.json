@@ -1,0 +1,45 @@
+{
+    "id": "new-york",
+    "colors": [
+        {
+            "hex": "#002d72",
+            "percent": 79
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#0077c8",
+            "percent": 3
+        },
+        {
+            "hex": "#f2a900",
+            "percent": 2
+        },
+        {
+            "hex": "#ff3515",
+            "percent": 2
+        },
+        {
+            "hex": "#b3875a",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd9ee",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd100",
+            "percent": 1
+        },
+        {
+            "hex": "#197352",
+            "percent": 1
+        },
+        {
+            "hex": "#2c5234",
+            "percent": 1
+        }
+    ]
+}

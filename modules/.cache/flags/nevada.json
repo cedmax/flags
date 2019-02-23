@@ -1,0 +1,17 @@
+{
+    "id": "nevada",
+    "colors": [
+        {
+            "hex": "#0033a0",
+            "percent": 95
+        },
+        {
+            "hex": "#ffa300",
+            "percent": 1
+        },
+        {
+            "hex": "#00843d",
+            "percent": 1
+        }
+    ]
+}

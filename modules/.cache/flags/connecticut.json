@@ -1,0 +1,29 @@
+{
+    "id": "connecticut",
+    "colors": [
+        {
+            "hex": "#0c2d83",
+            "percent": 72
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        },
+        {
+            "hex": "#ffd300",
+            "percent": 3
+        },
+        {
+            "hex": "#ffd312",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#129612",
+            "percent": 1
+        }
+    ]
+}

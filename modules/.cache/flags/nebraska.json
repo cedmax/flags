@@ -1,0 +1,17 @@
+{
+    "id": "nebraska",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 82
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 7
+        },
+        {
+            "hex": "#c8c8c8",
+            "percent": 2
+        }
+    ]
+}

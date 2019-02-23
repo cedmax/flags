@@ -1,0 +1,13 @@
+{
+    "id": "alaska",
+    "colors": [
+        {
+            "hex": "#0f204b",
+            "percent": 99
+        },
+        {
+            "hex": "#ffb612",
+            "percent": 1
+        }
+    ]
+}

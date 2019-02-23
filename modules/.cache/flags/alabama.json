@@ -1,0 +1,13 @@
+{
+    "id": "alabama",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 63
+        },
+        {
+            "hex": "#b10021",
+            "percent": 36
+        }
+    ]
+}

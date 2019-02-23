@@ -1,0 +1,21 @@
+{
+    "id": "guam",
+    "colors": [
+        {
+            "hex": "#00297b",
+            "percent": 80
+        },
+        {
+            "hex": "#c62139",
+            "percent": 15
+        },
+        {
+            "hex": "#92dbfc",
+            "percent": 3
+        },
+        {
+            "hex": "#008ce7",
+            "percent": 1
+        }
+    ]
+}

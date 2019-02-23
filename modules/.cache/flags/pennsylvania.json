@@ -1,0 +1,33 @@
+{
+    "id": "pennsylvania",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 80
+        },
+        {
+            "hex": "#dca90d",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#414141",
+            "percent": 1
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 1
+        },
+        {
+            "hex": "#076a21",
+            "percent": 1
+        },
+        {
+            "hex": "#d10b10",
+            "percent": 1
+        }
+    ]
+}

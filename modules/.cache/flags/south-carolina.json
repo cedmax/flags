@@ -1,0 +1,13 @@
+{
+    "id": "south-carolina",
+    "colors": [
+        {
+            "hex": "#003366",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        }
+    ]
+}

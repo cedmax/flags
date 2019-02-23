@@ -1,0 +1,25 @@
+{
+    "id": "florida",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 53
+        },
+        {
+            "hex": "#a80534",
+            "percent": 33
+        },
+        {
+            "hex": "#ffb900",
+            "percent": 3
+        },
+        {
+            "hex": "#015941",
+            "percent": 1
+        },
+        {
+            "hex": "#7d4802",
+            "percent": 1
+        }
+    ]
+}

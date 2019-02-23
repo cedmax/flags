@@ -1,0 +1,33 @@
+{
+    "id": "missouri",
+    "colors": [
+        {
+            "hex": "#004b8d",
+            "percent": 36
+        },
+        {
+            "hex": "#ab0635",
+            "percent": 31
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#9a4a23",
+            "percent": 2
+        },
+        {
+            "hex": "#0083a9",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#c3a204",
+            "percent": 1
+        }
+    ]
+}

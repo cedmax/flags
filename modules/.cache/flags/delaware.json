@@ -1,0 +1,33 @@
+{
+    "id": "delaware",
+    "colors": [
+        {
+            "hex": "#76a1a0",
+            "percent": 75
+        },
+        {
+            "hex": "#f0dc82",
+            "percent": 14
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#a8393a",
+            "percent": 1
+        },
+        {
+            "hex": "#3f863f",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd93c",
+            "percent": 1
+        },
+        {
+            "hex": "#4f3636",
+            "percent": 1
+        }
+    ]
+}

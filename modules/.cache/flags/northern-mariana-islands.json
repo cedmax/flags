@@ -1,0 +1,21 @@
+{
+    "id": "northern-mariana-islands",
+    "colors": [
+        {
+            "hex": "#0071bc",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        },
+        {
+            "hex": "#8c8a8c",
+            "percent": 5
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "idaho",
+    "colors": [
+        {
+            "hex": "#003776",
+            "percent": 85
+        },
+        {
+            "hex": "#ffb32b",
+            "percent": 2
+        },
+        {
+            "hex": "#ffe835",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#ef1439",
+            "percent": 1
+        },
+        {
+            "hex": "#86e2ff",
+            "percent": 1
+        }
+    ]
+}

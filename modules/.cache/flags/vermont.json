@@ -1,0 +1,17 @@
+{
+    "id": "vermont",
+    "colors": [
+        {
+            "hex": "#003366",
+            "percent": 86
+        },
+        {
+            "hex": "#ffcc33",
+            "percent": 1
+        },
+        {
+            "hex": "#002a22",
+            "percent": 1
+        }
+    ]
+}

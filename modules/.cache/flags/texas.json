@@ -1,0 +1,17 @@
+{
+    "id": "texas",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 33
+        },
+        {
+            "hex": "#002868",
+            "percent": 31
+        }
+    ]
+}

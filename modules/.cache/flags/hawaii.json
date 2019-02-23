@@ -1,0 +1,17 @@
+{
+    "id": "hawaii",
+    "colors": [
+        {
+            "hex": "#cf142b",
+            "percent": 40
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#00247d",
+            "percent": 25
+        }
+    ]
+}

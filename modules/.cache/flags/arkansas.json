@@ -1,0 +1,17 @@
+{
+    "id": "arkansas",
+    "colors": [
+        {
+            "hex": "#bf0a30",
+            "percent": 65
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        },
+        {
+            "hex": "#002868",
+            "percent": 13
+        }
+    ]
+}

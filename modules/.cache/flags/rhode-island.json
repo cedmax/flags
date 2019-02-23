@@ -1,0 +1,17 @@
+{
+    "id": "rhode-island",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 78
+        },
+        {
+            "hex": "#fec500",
+            "percent": 19
+        },
+        {
+            "hex": "#003271",
+            "percent": 1
+        }
+    ]
+}

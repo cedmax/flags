@@ -1,0 +1,29 @@
+{
+    "id": "west-virginia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 58
+        },
+        {
+            "hex": "#003776",
+            "percent": 30
+        },
+        {
+            "hex": "#ff3516",
+            "percent": 2
+        },
+        {
+            "hex": "#06884f",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#ffb30f",
+            "percent": 1
+        }
+    ]
+}

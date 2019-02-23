@@ -1,0 +1,25 @@
+{
+    "id": "california",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 67
+        },
+        {
+            "hex": "#b71234",
+            "percent": 17
+        },
+        {
+            "hex": "#584528",
+            "percent": 8
+        },
+        {
+            "hex": "#bd8a5e",
+            "percent": 2
+        },
+        {
+            "hex": "#008542",
+            "percent": 2
+        }
+    ]
+}

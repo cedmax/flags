@@ -1,0 +1,33 @@
+{
+    "id": "virginia",
+    "colors": [
+        {
+            "hex": "#00297b",
+            "percent": 72
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        },
+        {
+            "hex": "#3f863f",
+            "percent": 1
+        },
+        {
+            "hex": "#8c0000",
+            "percent": 1
+        },
+        {
+            "hex": "#ff350f",
+            "percent": 1
+        },
+        {
+            "hex": "#97c8f0",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd9c5",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "iowa",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 40
+        },
+        {
+            "hex": "#0a1f62",
+            "percent": 28
+        },
+        {
+            "hex": "#d90026",
+            "percent": 25
+        },
+        {
+            "hex": "#a54a00",
+            "percent": 2
+        }
+    ]
+}

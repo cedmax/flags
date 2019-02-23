@@ -1,0 +1,33 @@
+{
+    "id": "illinois",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 84
+        },
+        {
+            "hex": "#785a3c",
+            "percent": 3
+        },
+        {
+            "hex": "#be0a2f",
+            "percent": 2
+        },
+        {
+            "hex": "#b4b4b4",
+            "percent": 1
+        },
+        {
+            "hex": "#ffe60f",
+            "percent": 1
+        },
+        {
+            "hex": "#002768",
+            "percent": 1
+        },
+        {
+            "hex": "#3f863f",
+            "percent": 1
+        }
+    ]
+}

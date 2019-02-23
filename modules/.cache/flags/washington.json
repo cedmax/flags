@@ -1,0 +1,29 @@
+{
+    "id": "washington",
+    "colors": [
+        {
+            "hex": "#008457",
+            "percent": 79
+        },
+        {
+            "hex": "#ffd520",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 5
+        },
+        {
+            "hex": "#34c2de",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#fdd6c6",
+            "percent": 1
+        }
+    ]
+}

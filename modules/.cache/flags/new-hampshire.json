@@ -1,0 +1,29 @@
+{
+    "id": "new-hampshire",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 81
+        },
+        {
+            "hex": "#efae0e",
+            "percent": 6
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#3f863f",
+            "percent": 1
+        },
+        {
+            "hex": "#9e4d3c",
+            "percent": 1
+        },
+        {
+            "hex": "#4f9eff",
+            "percent": 1
+        }
+    ]
+}

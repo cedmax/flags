@@ -1,0 +1,25 @@
+{
+    "id": "maine",
+    "colors": [
+        {
+            "hex": "#002664",
+            "percent": 89
+        },
+        {
+            "hex": "#ffe84f",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#9ed9ff",
+            "percent": 1
+        },
+        {
+            "hex": "#6f513e",
+            "percent": 1
+        }
+    ]
+}

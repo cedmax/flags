@@ -1,0 +1,21 @@
+{
+    "id": "kentucky",
+    "colors": [
+        {
+            "hex": "#000066",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#e6ad05",
+            "percent": 1
+        },
+        {
+            "hex": "#edb200",
+            "percent": 1
+        }
+    ]
+}

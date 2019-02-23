@@ -1,0 +1,33 @@
+{
+    "id": "american-samoa",
+    "colors": [
+        {
+            "hex": "#000066",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        },
+        {
+            "hex": "#bd1021",
+            "percent": 10
+        },
+        {
+            "hex": "#5a3719",
+            "percent": 2
+        },
+        {
+            "hex": "#aa5323",
+            "percent": 1
+        },
+        {
+            "hex": "#7b3c20",
+            "percent": 1
+        },
+        {
+            "hex": "#ffc221",
+            "percent": 1
+        }
+    ]
+}

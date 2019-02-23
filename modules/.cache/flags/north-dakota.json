@@ -1,0 +1,29 @@
+{
+    "id": "north-dakota",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 80
+        },
+        {
+            "hex": "#ff163c",
+            "percent": 2
+        },
+        {
+            "hex": "#ffd12b",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#663d3d",
+            "percent": 1
+        }
+    ]
+}

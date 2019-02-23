@@ -1,0 +1,17 @@
+{
+    "id": "tennessee",
+    "colors": [
+        {
+            "hex": "#cc0000",
+            "percent": 78
+        },
+        {
+            "hex": "#002d65",
+            "percent": 15
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

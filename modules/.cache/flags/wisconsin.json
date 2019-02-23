@@ -1,0 +1,21 @@
+{
+    "id": "wisconsin",
+    "colors": [
+        {
+            "hex": "#002986",
+            "percent": 84
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#ffcc18",
+            "percent": 1
+        }
+    ]
+}

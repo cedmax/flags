@@ -1,0 +1,13 @@
+{
+    "id": "oregon",
+    "colors": [
+        {
+            "hex": "#002a86",
+            "percent": 87
+        },
+        {
+            "hex": "#ffea0f",
+            "percent": 8
+        }
+    ]
+}

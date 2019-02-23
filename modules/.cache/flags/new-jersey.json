@@ -1,0 +1,25 @@
+{
+    "id": "new-jersey",
+    "colors": [
+        {
+            "hex": "#ffca66",
+            "percent": 87
+        },
+        {
+            "hex": "#2484c6",
+            "percent": 2
+        },
+        {
+            "hex": "#9ba7b9",
+            "percent": 1
+        },
+        {
+            "hex": "#d0202e",
+            "percent": 1
+        },
+        {
+            "hex": "#dc6026",
+            "percent": 1
+        }
+    ]
+}

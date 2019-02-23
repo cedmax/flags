@@ -1,0 +1,17 @@
+{
+    "id": "massachusetts",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 91
+        },
+        {
+            "hex": "#1f2c5c",
+            "percent": 6
+        },
+        {
+            "hex": "#e6a300",
+            "percent": 1
+        }
+    ]
+}

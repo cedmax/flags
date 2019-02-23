@@ -1,0 +1,17 @@
+{
+    "id": "puerto-rico",
+    "colors": [
+        {
+            "hex": "#ee0000",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#0050f0",
+            "percent": 27
+        }
+    ]
+}

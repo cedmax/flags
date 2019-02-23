@@ -1,0 +1,21 @@
+{
+    "id": "minnesota",
+    "colors": [
+        {
+            "hex": "#3d68c9",
+            "percent": 79
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#fcb216",
+            "percent": 3
+        },
+        {
+            "hex": "#ed1a3a",
+            "percent": 1
+        }
+    ]
+}
