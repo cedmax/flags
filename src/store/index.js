@@ -65,7 +65,7 @@ const applyFilters = state => {
 
   if (filters.length) {
     filtered = filter.byColour(filtered, filters);
-    if (!sortBy) {
+    if (!sortBy || sortBy === "colour") {
       filtered = sort.byColour(filtered, filters);
       sortBy = "colour";
     }
