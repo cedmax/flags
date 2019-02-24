@@ -5,6 +5,20 @@ import { getInitialState, reducers } from "./store";
 import AppUi from "./AppUI";
 
 import "./App.css";
+let historySetup = false;
+
+const setupUrlBinding = dispatch => {
+  const updateStore = () =>
+    dispatch(action("updateFromUrl", qs.getParams(window.location.search)));
+  window.onpopstate = e => e.type === "popstate" && updateStore();
+  updateStore();
+  historySetup = true;
+};
+
+const updateUrl = qsFromState => {
+  const url = qsFromState ? `?${qsFromState}` : "/";
+  window.history.pushState(null, "", url);
+};
 
 const App = props => {
   const [state, dispatch] = useReducer(reducers, getInitialState(props.data));
@@ -14,19 +28,14 @@ const App = props => {
   });
 
   useEffect(() => {
-    const updateStore = () =>
-      dispatch(action("updateFromUrl", qs.getParams(window.location.search)));
-
-    window.onpopstate = e => e.type === "popstate" && updateStore();
-    updateStore();
-  }, []);
-
-  useEffect(() => {
-    const qsFromState = qs.fromState(state);
-    const currentSearch = qs.getCurrent();
-    if (qsFromState !== currentSearch) {
-      const url = qsFromState ? `?${qsFromState}` : "/";
-      window.history.pushState(null, "", url);
+    if (!historySetup) {
+      setupUrlBinding(dispatch);
+    } else {
+      const qsFromState = qs.fromState(state);
+      const currentSearch = qs.getCurrent();
+      if (qsFromState !== currentSearch) {
+        updateUrl(qsFromState);
+      }
     }
   }, [
     state.filters,
