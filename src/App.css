@@ -466,6 +466,7 @@ a.play::before {
 }
 
 .select-button {
+  cursor: pointer;
   text-decoration: underline
 }
 
