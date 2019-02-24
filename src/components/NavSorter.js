@@ -1,7 +1,8 @@
 import React from "react";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(({ sorters, sortBy, dispatch }) =>
+const NavSorter = React.memo(({ sorters, sortBy, dispatch }) =>
   sorters.map(sorter => (
     <button
       key={sorter}
@@ -13,3 +14,5 @@ export default React.memo(({ sorters, sortBy, dispatch }) =>
     </button>
   ))
 );
+
+export default withContext(NavSorter);

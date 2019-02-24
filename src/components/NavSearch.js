@@ -1,7 +1,8 @@
 import React from "react";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(({ query, dispatch }) => (
+const NavSearch = React.memo(({ query, dispatch }) => (
   <div className="filters">
     <span>Filter: </span>{" "}
     <input
@@ -11,3 +12,5 @@ export default React.memo(({ query, dispatch }) => (
     />
   </div>
 ));
+
+export default withContext(NavSearch);

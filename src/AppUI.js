@@ -14,19 +14,14 @@ import "./App.css";
 
 const AppUI = ({ state, dispatch }) => (
   <main>
-    <Header view={state.view} dispatch={dispatch} />
+    <Header view={state.view} />
     <nav>
-      <NavSorter
-        sorters={state.sorters}
-        sortBy={state.sortBy}
-        dispatch={dispatch}
-      />
-      <NavSearch query={state.q} dispatch={dispatch} />
+      <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
+      <NavSearch query={state.q} />
       <br />
       <NavContinents
         isLoading={state.loading}
         isUS={state.view === "US"}
-        dispatch={dispatch}
         selectedContinent={state.continent}
         availableContinents={state.availableContinents}
       />
@@ -34,7 +29,6 @@ const AppUI = ({ state, dispatch }) => (
       <NavFilters
         availableFilters={state.availableFilters}
         filters={state.filters}
-        dispatch={dispatch}
       />
     </nav>
     {state.loading ? (
@@ -44,7 +38,6 @@ const AppUI = ({ state, dispatch }) => (
     ) : (
       <Fragment>
         <NavControls
-          dispatch={dispatch}
           total={state.filtered.length}
           isModified={
             !!state.filters.length ||
@@ -57,19 +50,17 @@ const AppUI = ({ state, dispatch }) => (
           active={state.active}
           items={state.filtered}
           isSorted={!!state.sortBy}
-          dispatch={dispatch}
           isUS={state.view === "US"}
         />
       </Fragment>
     )}
     <Footer />
-    <Anthem dispatch={dispatch} playing={state.playing} />
+    <Anthem playing={state.playing} />
     <DetailsModal
       detail={
         !!state.detail && state.filtered.find(flag => flag.id === state.detail)
       }
       view={state.detailView}
-      dispatch={dispatch}
       isList={state.filtered.length > 1}
     />
   </main>

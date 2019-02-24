@@ -1,7 +1,8 @@
 import React from "react";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(({ availableFilters, filters, dispatch }) =>
+const NavFilters = React.memo(({ availableFilters, filters, dispatch }) =>
   availableFilters.map(filter => (
     <button
       className={`square${filters.includes(filter) ? " selected" : ""}`}
@@ -13,3 +14,5 @@ export default React.memo(({ availableFilters, filters, dispatch }) =>
     </button>
   ))
 );
+
+export default withContext(NavFilters);

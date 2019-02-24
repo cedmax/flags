@@ -1,7 +1,8 @@
-import React, { useReducer, useEffect } from "react";
+import React, { useReducer, useEffect, useState } from "react";
 import useKey from "@rooks/use-key";
 import { action, qs } from "./helpers";
 import { getInitialState, reducers } from "./store";
+import DispatchProvider from "./store/context";
 import AppUi from "./AppUI";
 
 import "./App.css";
@@ -22,7 +23,7 @@ const updateUrl = qsFromState => {
 
 const App = props => {
   const [state, dispatch] = useReducer(reducers, getInitialState(props.data));
-
+  const [context] = useState({ dispatch });
   useKey(["ArrowLeft", "ArrowRight"], e => {
     dispatch(action("navigate", e.key === "ArrowLeft" ? -1 : 1));
   });
@@ -47,7 +48,11 @@ const App = props => {
     state.view,
   ]);
 
-  return <AppUi state={state} dispatch={dispatch} />;
+  return (
+    <DispatchProvider value={context}>
+      <AppUi state={state} />
+    </DispatchProvider>
+  );
 };
 
 export default App;

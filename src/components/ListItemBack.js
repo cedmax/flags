@@ -1,8 +1,9 @@
 import React, { Fragment } from "react";
 import Link from "./Link";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(({ isUS, svgUrl, flag, dispatch, active }) => (
+const ListItemBack = React.memo(({ isUS, svgUrl, flag, dispatch, active }) => (
   <div className="back">
     <div
       style={{
@@ -108,3 +109,5 @@ export default React.memo(({ isUS, svgUrl, flag, dispatch, active }) => (
     </div>
   </div>
 ));
+
+export default withContext(ListItemBack);

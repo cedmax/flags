@@ -2,8 +2,9 @@ import React, { Fragment } from "react";
 import { action } from "../helpers";
 import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
+import { withContext } from "../store/context";
 
-export default React.memo(({ isUS, isSorted, items, dispatch, active }) => (
+const List = React.memo(({ isUS, isSorted, items, dispatch, active }) => (
   <ul className="list">
     {items.map((flag, i) => {
       const svgUrl = require(`../data/flags/${flag.id}.svg`);
@@ -26,7 +27,6 @@ export default React.memo(({ isUS, isSorted, items, dispatch, active }) => (
                   active={active === i}
                   svgUrl={svgUrl}
                   flag={flag}
-                  dispatch={dispatch}
                 />
               </div>
             </div>
@@ -36,3 +36,5 @@ export default React.memo(({ isUS, isSorted, items, dispatch, active }) => (
     })}
   </ul>
 ));
+
+export default withContext(List);

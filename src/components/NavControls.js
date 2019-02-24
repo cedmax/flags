@@ -1,7 +1,8 @@
 import React from "react";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(({ total, isModified, dispatch }) => (
+const NavControls = React.memo(({ total, isModified, dispatch }) => (
   <div className="controls">
     <h3 className="count">{total} flags</h3>
     <button
@@ -15,3 +16,5 @@ export default React.memo(({ total, isModified, dispatch }) => (
     </button>
   </div>
 ));
+
+export default withContext(NavControls);

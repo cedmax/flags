@@ -3,8 +3,9 @@ import Loader from "./Loader";
 import ImageLoader from "react-loading-image";
 import { action } from "../helpers";
 import Link from "./Link";
+import { withContext } from "../store/context";
 
-export default React.memo(({ view, dispatch, country, imgSrc, map }) => (
+const ImageLoaderUI = React.memo(({ view, dispatch, country, imgSrc, map }) => (
   <Fragment>
     <ImageLoader
       loading={() => <Loader />}
@@ -37,3 +38,5 @@ export default React.memo(({ view, dispatch, country, imgSrc, map }) => (
     )}
   </Fragment>
 ));
+
+export default withContext(ImageLoaderUI);

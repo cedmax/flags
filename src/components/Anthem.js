@@ -2,8 +2,9 @@ import React from "react";
 import Modal from "react-modal";
 import { action } from "../helpers";
 import { anthemStyle } from "./modalsStyle";
+import { withContext } from "../store/context";
 
-export default React.memo(
+const Anthem = React.memo(
   ({ playing, dispatch }) =>
     playing && (
       <Modal
@@ -28,3 +29,5 @@ export default React.memo(
       </Modal>
     )
 );
+
+export default withContext(Anthem);

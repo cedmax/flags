@@ -1,7 +1,8 @@
 import React from "react";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
-export default React.memo(
+const NavContinents = React.memo(
   ({ selectedContinent, isUS, isLoading, availableContinents, dispatch }) =>
     availableContinents.map(continent => (
       <button
@@ -16,3 +17,5 @@ export default React.memo(
       </button>
     ))
 );
+
+export default withContext(NavContinents);

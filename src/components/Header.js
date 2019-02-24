@@ -1,13 +1,14 @@
 import React, { useState, useEffect } from "react";
 import { Wrapper, Button, Menu, MenuItem } from "react-aria-menubutton";
 import { action } from "../helpers";
+import { withContext } from "../store/context";
 
 const values = {
   world: "World",
   US: "United States",
 };
 
-export default React.memo(({ dispatch, view }) => {
+const Header = React.memo(({ dispatch, view }) => {
   const [selected, setSelected] = useState(values[view]);
 
   if (values[view] !== selected) {
@@ -42,3 +43,5 @@ export default React.memo(({ dispatch, view }) => {
     </Wrapper>
   );
 });
+
+export default withContext(Header);
