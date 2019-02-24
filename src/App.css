@@ -194,7 +194,7 @@ button, .filters {
   vertical-align: middle;
 }
 
-button:disabled {
+button:disabled, button:disabled:hover {
   background: #eee;
 }
 button:disabled span {
@@ -221,7 +221,7 @@ button.selected span {
   color:black;
 }
 
-button:not(:disabled):hover {
+button:hover {
   background:rgba(255, 255, 255, .8);
 }
 
