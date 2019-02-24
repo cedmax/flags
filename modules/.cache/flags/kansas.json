@@ -3,7 +3,23 @@
     "colors": [
         {
             "hex": "#002569",
-            "percent": 100
+            "percent": 86
+        },
+        {
+            "hex": "#f1ad02",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#d15b25",
+            "percent": 1
+        },
+        {
+            "hex": "#ff660f",
+            "percent": 1
         }
     ]
 }

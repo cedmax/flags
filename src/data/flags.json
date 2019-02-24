@@ -9822,12 +9822,35 @@
             "colors": [
                 {
                     "hex": "#002569",
-                    "percent": 100,
+                    "percent": 86,
                     "tag": "blue"
+                },
+                {
+                    "hex": "#f1ad02",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d15b25",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ff660f",
+                    "percent": 1,
+                    "tag": "red"
                 }
             ],
             "tags": [
-                "blue"
+                "blue",
+                "yellow",
+                "white",
+                "red"
             ]
         },
         {
