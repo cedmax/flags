@@ -1,4 +1,6 @@
 import { createReducers } from "../helpers";
+import sort from "./sort";
+import filter from "./filter";
 
 const urlParams = {
   detail: null,
@@ -33,28 +35,17 @@ export const getInitialState = (data, view = "world") => ({
   availableContinents: getFilters(data.world, "continents"),
 });
 
-const sort = state => {
+const sortResults = state => {
   let { filtered, sortBy } = state;
   switch (sortBy) {
     case "name":
-      filtered = filtered.sort((a, b) =>
-        a.country.toLowerCase().localeCompare(b.country.toLowerCase())
-      );
+      filtered = sort.byName(filtered);
       break;
     case "adoption":
-      filtered = filtered.sort((a, b) =>
-        a.adoption.sort > b.adoption.sort ? 1 : -1
-      );
+      filtered = sort.byAdoption(filtered);
       break;
     case "ratio":
-      filtered = filtered.sort((a, b) => {
-        const aParts = a.ratio.split(":");
-        const aRatio = parseFloat(aParts[0]) / parseFloat(aParts[1]);
-        const bParts = b.ratio.split(":");
-        const bRatio = parseFloat(bParts[0]) / parseFloat(bParts[1]);
-
-        return bRatio - aRatio;
-      });
+      filtered = sort.byRatio(filtered);
       break;
     default:
       break;
@@ -73,52 +64,24 @@ const applyFilters = state => {
   let filtered = [...allFlags[view]];
 
   if (filters.length) {
-    filtered = filtered.filter(({ tags }) =>
-      filters.every(tag => tags.includes(tag))
-    );
-
+    filtered = filter.byColour(filtered, filters);
     if (!sortBy) {
+      filtered = sort.byColour(filtered, filters);
       sortBy = "colour";
-      filtered = filtered.sort((flagA, flagB) => {
-        const coverageA = filters.reduce((acc, filter) => {
-          const { percent } = flagA.colors.find(({ tag }) => tag === filter);
-          acc += percent;
-          return acc;
-        }, 0);
-
-        const coverageB = filters.reduce((acc, filter) => {
-          const { percent } = flagB.colors.find(({ tag }) => tag === filter);
-          acc += percent;
-          return acc;
-        }, 0);
-
-        if (coverageA < coverageB) {
-          return 1;
-        } else {
-          return -1;
-        }
-      });
     }
   } else if (sortBy === "colour") {
     sortBy = "";
   }
 
   if (continent) {
-    filtered = filtered.filter(flag => flag.continents.includes(continent));
+    filtered = filter.byContinent(filtered, continent);
   }
 
   if (q) {
-    const qF = q.toLowerCase();
-    const matches = ["(", " "].map(sign => sign + qF);
-    filtered = filtered.filter(flag => {
-      const country = flag.country.toLowerCase();
-      return (
-        country.startsWith(qF) || matches.some(match => country.includes(match))
-      );
-    });
+    filtered = filter.bySearch(filtered, q);
   }
 
-  return sort({ ...state, filtered, sortBy, loading: false });
+  return sortResults({ ...state, filtered, sortBy, loading: false });
 };
 
 export const reducers = createReducers({
