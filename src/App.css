@@ -173,7 +173,7 @@ nav {
   margin: auto;
 }
 
-button, .filters, .select-menu {
+button, .filters, .select-menu, .select-button {
   padding: 10px 20px;
   border-radius: 3px;
   border: 2px solid #ccc;
@@ -467,10 +467,56 @@ a.play::before {
 
 .select-button {
   cursor: pointer;
-  text-decoration: underline
+  padding-right: 70px;
+  border-color: #e6e6e6
 }
 
+.select-button::before {
+  content: '';
+  height: 120%;
+  top: -10%;
+  width: 50px;
+  position: absolute;
+  right: 0;
+  border-left: 2px solid #e6e6e6;
+
+}
+
+
+.select-button::after {
+  content: '▿';
+  display: inline-block;
+  width: 52px;
+  height: 120%;
+  position: absolute;
+  top: -10%;
+  right: 0;
+  color: #ccc;
+  transition: all .2s;
+}
+
+.select-button:hover, .select-button[aria-expanded=true], .select-button:focus {
+  border-color: #ccc
+}
+
+.select-button:hover::before, .select-button[aria-expanded=true]::before, .select-button:focus::after {
+  border-color:#ccc;
+} 
+
+
+.select-button:hover::after, .select-button[aria-expanded=true]::after, .select-button:focus::after {
+  color:#aaa;
+} 
+
+.select-button[aria-expanded=true]::after {
+  transform: rotate(90deg);
+  border-left: 0;
+}
+
+
 .select-menu {
+  width: 100%;
+  text-align: left;
   background: rgba(255,255,255,.9);
   font-size: 80%;
   position: absolute;
