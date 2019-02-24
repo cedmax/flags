@@ -10,10 +10,7 @@ const ChangeView = withContext(
   React.memo(({ url, dispatch, newView }) => (
     <Link
       to={url}
-      onClick={e => {
-        e.preventDefault();
-        dispatch(action("updateDetailsView", newView));
-      }}
+      onClick={() => dispatch(action("updateDetailsView", newView))}
     >
       {newView}
     </Link>

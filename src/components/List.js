@@ -7,7 +7,10 @@ import { withContext } from "../store/context";
 const List = React.memo(({ isUS, isSorted, items, dispatch, active }) => (
   <ul className="list">
     {items.map((flag, i) => {
-      const svgUrl = require(`../data/flags/${flag.id}.svg`);
+      const imgs = {
+        flag: require(`../data/flags/${flag.id}.svg`),
+        map: require(`../data/maps/${flag.id}.png`),
+      };
 
       return (
         <Fragment key={flag.id}>
@@ -21,11 +24,11 @@ const List = React.memo(({ isUS, isSorted, items, dispatch, active }) => (
               onFocusCapture={() => dispatch(action("activate", i))}
             >
               <div className="flipper">
-                <ListItemFront svgUrl={svgUrl} country={flag.country} />
+                <ListItemFront svgUrl={imgs.flag} country={flag.country} />
                 <ListItemBack
                   isUS={isUS}
                   active={active === i}
-                  svgUrl={svgUrl}
+                  imgs={imgs}
                   flag={flag}
                 />
               </div>

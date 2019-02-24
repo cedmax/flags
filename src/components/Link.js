@@ -4,7 +4,14 @@ export default React.memo(({ to, children, onClick, className }) => (
   <a
     href={to}
     className={className}
-    onClick={onClick}
+    onClick={
+      onClick
+        ? e => {
+            e.preventDefault();
+            onClick(e);
+          }
+        : null
+    }
     target="_blank"
     rel="noopener noreferrer"
   >
