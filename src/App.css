@@ -474,8 +474,8 @@ a.play::before {
 
 .select-button::before {
   content: '';
-  height: 120%;
-  top: -10%;
+  height: calc(100% + 2px);
+  top: -2px;
   width: 50px;
   position: absolute;
   right: 0;
@@ -532,4 +532,8 @@ a.play::before {
 
 .select-item:hover,.select-item:focus {
   background:#fff
+}
+
+label {
+  display: flex;
 }
