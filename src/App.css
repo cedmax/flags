@@ -483,7 +483,6 @@ a.play::before {
 
 }
 
-
 .select-button::after {
   content: '▿';
   display: inline-block;
@@ -536,4 +535,10 @@ a.play::before {
 
 label {
   display: flex;
+}
+
+.github-hotcorner {
+  position:absolute;
+  top: 0;
+  right: 0
 }

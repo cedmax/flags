@@ -4,16 +4,21 @@ import List from "./components/List";
 import Header from "./components/Header";
 import Anthem from "./components/Anthem";
 import NavSorter from "./components/NavSorter";
+import Link from "./components/Link";
 import Loader from "./components/Loader";
 import NavSearch from "./components/NavSearch";
 import NavContinents from "./components/NavContinents";
 import NavFilters from "./components/NavFilters";
+import { ReactComponent as Github } from "./data/octocat.svg";
 import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
 
 const AppUI = ({ state, dispatch }) => (
   <main>
+    <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
+      <Github />
+    </Link>
     <Header view={state.view} />
     <nav>
       <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
