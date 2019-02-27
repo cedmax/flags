@@ -4,7 +4,7 @@ import { withContext } from "../store/context";
 
 const NavSearch = React.memo(({ query, dispatch }) => (
   <div className="filters">
-    <label for="search">
+    <label htmlFor="search">
       <span>Filter: </span>{" "}
       <input
         id="search"
