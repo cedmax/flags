@@ -7,6 +7,7 @@ const values = {
   world: "World",
   US: "United States",
   IT: "Italian regions",
+  DE: "German states",
 };
 
 const Header = React.memo(({ dispatch, view }) => {
@@ -31,7 +32,9 @@ const Header = React.memo(({ dispatch, view }) => {
       <h1>
         Flags of the{" "}
         <div className="select">
-          <Button className="select-button">{selected || values.world}</Button>
+          <Button className="select-button">
+            <span>{selected || values.world}</span>
+          </Button>
           <Menu className="select-menu">
             {Object.keys(values).map(key => (
               <MenuItem key={key} value={key} className="select-item">
