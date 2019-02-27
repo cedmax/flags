@@ -8,6 +8,9 @@ const addStateSongs = require("./scripts/add-state-songs");
 const tagContinents = require("./scripts/fetch-continents");
 const fetchYoutubeAnthems = require("./scripts/youtube-anthems");
 
+const mapEndPoints = require("./manual/maps.json");
+const mapITEndPoints = require("./manual/maps-it.json");
+
 module.exports = {
   world: {
     adoption: fetchAdoption,
@@ -15,11 +18,14 @@ module.exports = {
     name: fetchName,
     anthems: fetchYoutubeAnthems,
     continents: tagContinents,
-    maps: fetchMaps,
+    maps: fetchMaps(mapEndPoints),
   },
   US: {
     ratio: calculateUsRatio,
     maps: fetchUsMaps,
     "state-songs": addStateSongs,
+  },
+  IT: {
+    maps: fetchMaps(mapITEndPoints),
   },
 };

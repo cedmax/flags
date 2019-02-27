@@ -1,13 +1,12 @@
 const axios = require("axios");
 const async = require("async");
 const cheerio = require("cheerio");
-const mapEndPoints = require("../manual/maps.json");
 const fs = require("fs");
 const helpers = require("./helpers");
 
 const path = `${process.cwd()}/src/data/maps`;
 
-module.exports = (flags, callback) => {
+module.exports = mapEndPoints => (flags, callback) => {
   async.mapLimit(
     flags,
     3,

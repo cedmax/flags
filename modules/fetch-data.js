@@ -2,7 +2,7 @@ const analyseColours = require("./scripts/analyse-colours");
 const tagColours = require("./scripts/tag-colours");
 const { consolidate, validate, mergeData } = require("./scripts/helpers");
 
-module.exports = (fetchFlags, fetchers, group) => {
+module.exports = (fetchFlags, fetchers = {}, group) => {
   const fetchWorldFlagsCache = mergeData(fetchFlags, "flags", group);
   return fetchWorldFlagsCache()
     .then(async flags => {
