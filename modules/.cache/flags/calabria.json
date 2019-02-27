@@ -1,0 +1,29 @@
+{
+    "id": "calabria",
+    "colors": [
+        {
+            "hex": "#005aab",
+            "percent": 84
+        },
+        {
+            "hex": "#cecece",
+            "percent": 5
+        },
+        {
+            "hex": "#cea518",
+            "percent": 4
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#1fc2ff",
+            "percent": 1
+        }
+    ]
+}

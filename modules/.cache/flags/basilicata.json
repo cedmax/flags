@@ -1,0 +1,21 @@
+{
+    "id": "basilicata",
+    "colors": [
+        {
+            "hex": "#000099",
+            "percent": 80
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        },
+        {
+            "hex": "#0058ff",
+            "percent": 3
+        },
+        {
+            "hex": "#dfdf43",
+            "percent": 1
+        }
+    ]
+}

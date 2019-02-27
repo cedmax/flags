@@ -1,0 +1,17 @@
+{
+    "id": "friuli-venezia-giulia",
+    "colors": [
+        {
+            "hex": "#0063e7",
+            "percent": 86
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 5
+        },
+        {
+            "hex": "#bab8be",
+            "percent": 1
+        }
+    ]
+}

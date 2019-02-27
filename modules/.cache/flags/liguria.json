@@ -1,0 +1,33 @@
+{
+    "id": "liguria",
+    "colors": [
+        {
+            "hex": "#009c31",
+            "percent": 33
+        },
+        {
+            "hex": "#009cce",
+            "percent": 33
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#bdbdbd",
+            "percent": 5
+        },
+        {
+            "hex": "#b5cece",
+            "percent": 1
+        },
+        {
+            "hex": "#6b6b6b",
+            "percent": 1
+        }
+    ]
+}

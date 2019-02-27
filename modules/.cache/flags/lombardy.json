@@ -1,0 +1,13 @@
+{
+    "id": "lombardy",
+    "colors": [
+        {
+            "hex": "#00a040",
+            "percent": 86
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "emilia-romagna",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 89
+        },
+        {
+            "hex": "#008000",
+            "percent": 8
+        },
+        {
+            "hex": "#ff4444",
+            "percent": 2
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        }
+    ]
+}

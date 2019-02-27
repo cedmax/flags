@@ -1,0 +1,25 @@
+{
+    "id": "apulia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 74
+        },
+        {
+            "hex": "#f82920",
+            "percent": 10
+        },
+        {
+            "hex": "#00a05e",
+            "percent": 7
+        },
+        {
+            "hex": "#f2ce26",
+            "percent": 2
+        },
+        {
+            "hex": "#009ee0",
+            "percent": 1
+        }
+    ]
+}

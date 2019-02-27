@@ -1,0 +1,13 @@
+{
+    "id": "tuscany",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 76
+        },
+        {
+            "hex": "#ce1021",
+            "percent": 20
+        }
+    ]
+}

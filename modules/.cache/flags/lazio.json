@@ -1,0 +1,49 @@
+{
+    "id": "lazio",
+    "colors": [
+        {
+            "hex": "#54d6ed",
+            "percent": 75
+        },
+        {
+            "hex": "#fdd212",
+            "percent": 4
+        },
+        {
+            "hex": "#f9a400",
+            "percent": 4
+        },
+        {
+            "hex": "#e70000",
+            "percent": 3
+        },
+        {
+            "hex": "#0075d0",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#055e0a",
+            "percent": 2
+        },
+        {
+            "hex": "#ffc816",
+            "percent": 2
+        },
+        {
+            "hex": "#ffb910",
+            "percent": 1
+        },
+        {
+            "hex": "#8a8e01",
+            "percent": 1
+        },
+        {
+            "hex": "#fca900",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "piedmont",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#0c3c7c",
+            "percent": 24
+        }
+    ]
+}

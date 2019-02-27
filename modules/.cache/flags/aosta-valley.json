@@ -1,0 +1,13 @@
+{
+    "id": "aosta-valley",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 50
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 50
+        }
+    ]
+}

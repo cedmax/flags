@@ -1,0 +1,17 @@
+{
+    "id": "campania",
+    "colors": [
+        {
+            "hex": "#0073b5",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#ce1029",
+            "percent": 6
+        }
+    ]
+}

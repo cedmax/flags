@@ -1,0 +1,17 @@
+{
+    "id": "molise",
+    "colors": [
+        {
+            "hex": "#0000ff",
+            "percent": 86
+        },
+        {
+            "hex": "#ff0042",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

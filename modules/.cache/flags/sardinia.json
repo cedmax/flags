@@ -1,0 +1,17 @@
+{
+    "id": "sardinia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 71
+        },
+        {
+            "hex": "#d81921",
+            "percent": 15
+        },
+        {
+            "hex": "#000000",
+            "percent": 11
+        }
+    ]
+}

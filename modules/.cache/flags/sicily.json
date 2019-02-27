@@ -1,0 +1,25 @@
+{
+    "id": "sicily",
+    "colors": [
+        {
+            "hex": "#fff100",
+            "percent": 44
+        },
+        {
+            "hex": "#ec1b23",
+            "percent": 44
+        },
+        {
+            "hex": "#ffc8a0",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#ebb437",
+            "percent": 1
+        }
+    ]
+}

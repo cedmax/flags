@@ -1,0 +1,25 @@
+{
+    "id": "abruzzo",
+    "colors": [
+        {
+            "hex": "#ec1e3d",
+            "percent": 82
+        },
+        {
+            "hex": "#108541",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        },
+        {
+            "hex": "#4976bb",
+            "percent": 3
+        },
+        {
+            "hex": "#f5dd06",
+            "percent": 1
+        }
+    ]
+}

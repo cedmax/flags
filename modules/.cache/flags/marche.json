@@ -1,0 +1,21 @@
+{
+    "id": "marche",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 86
+        },
+        {
+            "hex": "#019903",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 5
+        },
+        {
+            "hex": "#07814b",
+            "percent": 1
+        }
+    ]
+}

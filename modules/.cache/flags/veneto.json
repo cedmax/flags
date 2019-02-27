@@ -1,0 +1,57 @@
+{
+    "id": "veneto",
+    "colors": [
+        {
+            "hex": "#c1003e",
+            "percent": 33
+        },
+        {
+            "hex": "#ffbd00",
+            "percent": 21
+        },
+        {
+            "hex": "#ff9c00",
+            "percent": 4
+        },
+        {
+            "hex": "#d69c5a",
+            "percent": 3
+        },
+        {
+            "hex": "#001029",
+            "percent": 3
+        },
+        {
+            "hex": "#ded6d6",
+            "percent": 2
+        },
+        {
+            "hex": "#b57300",
+            "percent": 2
+        },
+        {
+            "hex": "#bd9c00",
+            "percent": 2
+        },
+        {
+            "hex": "#5d023f",
+            "percent": 1
+        },
+        {
+            "hex": "#ee8b11",
+            "percent": 1
+        },
+        {
+            "hex": "#d2322d",
+            "percent": 1
+        },
+        {
+            "hex": "#ffbc00",
+            "percent": 1
+        },
+        {
+            "hex": "#fbfdc2",
+            "percent": 1
+        }
+    ]
+}

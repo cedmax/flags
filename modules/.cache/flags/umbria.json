@@ -1,0 +1,25 @@
+{
+    "id": "umbria",
+    "colors": [
+        {
+            "hex": "#00943a",
+            "percent": 83
+        },
+        {
+            "hex": "#b2b2b2",
+            "percent": 7
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#266861",
+            "percent": 1
+        }
+    ]
+}
