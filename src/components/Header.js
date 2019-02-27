@@ -30,7 +30,7 @@ const Header = React.memo(({ dispatch, view }) => {
       <h1>
         Flags of the{" "}
         <div className="select">
-          <Button className="select-button">{selected}</Button>
+          <Button className="select-button">{selected || values.world}</Button>
           <Menu className="select-menu">
             {Object.keys(values).map(key => (
               <MenuItem key={key} value={key} className="select-item">
