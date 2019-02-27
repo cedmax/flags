@@ -1,0 +1,29 @@
+{
+    "id": "cantabria",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#da121a",
+            "percent": 46
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 2
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        }
+    ]
+}

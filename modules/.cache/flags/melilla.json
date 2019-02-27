@@ -1,0 +1,29 @@
+{
+    "id": "melilla",
+    "colors": [
+        {
+            "hex": "#4c86c9",
+            "percent": 88
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 3
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        }
+    ]
+}

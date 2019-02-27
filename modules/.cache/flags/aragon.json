@@ -1,0 +1,33 @@
+{
+    "id": "aragon",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 39
+        },
+        {
+            "hex": "#fbea0e",
+            "percent": 28
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 22
+        },
+        {
+            "hex": "#eac102",
+            "percent": 4
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        }
+    ]
+}

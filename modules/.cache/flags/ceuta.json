@@ -1,0 +1,21 @@
+{
+    "id": "ceuta",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 47
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 47
+        },
+        {
+            "hex": "#e60000",
+            "percent": 2
+        },
+        {
+            "hex": "#eebf00",
+            "percent": 1
+        }
+    ]
+}

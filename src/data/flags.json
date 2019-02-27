@@ -13081,5 +13081,803 @@
                 "red"
             ]
         }
+    ],
+    "ES": [
+        {
+            "id": "andalusia",
+            "country": "Andalusia",
+            "url": "/wiki/andalusia",
+            "adoption": {
+                "sort": 1918,
+                "text": "1918"
+            },
+            "ratio": "2:3",
+            "name": "Arbonaida",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Andalucia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#006633",
+                    "percent": 66,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "aragon",
+            "country": "Aragon",
+            "url": "/wiki/aragon",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Aragon_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 39,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fbea0e",
+                    "percent": 28,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 22,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "principality-of-asturias",
+            "country": "Principality of Asturias",
+            "url": "/wiki/principality_of_asturias",
+            "adoption": {
+                "sort": 1990,
+                "text": "1990"
+            },
+            "ratio": "2:3",
+            "name": "Asturina",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Asturias_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0066ff",
+                    "percent": 95,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f7d417",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "balearic-islands",
+            "country": "Balearic Islands",
+            "url": "/wiki/balearic_islands",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Baleares_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 42,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#40104c",
+                    "percent": 18,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "magenta",
+                "white"
+            ]
+        },
+        {
+            "id": "basque-country",
+            "country": "Basque Country",
+            "url": "/wiki/basque_country_(autonomous_community)",
+            "adoption": {
+                "sort": 1978,
+                "text": "1978"
+            },
+            "ratio": "14:25",
+            "name": "Ikurriña",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Basque_Country_in_Spain_(zoom)_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d52b1e",
+                    "percent": 49,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009b48",
+                    "percent": 27,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "canary-islands",
+            "country": "Canary Islands",
+            "url": "/wiki/canary_islands",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Canarias_in_Spain.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0768a9",
+                    "percent": 26,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#d6a54f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#006abe",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "cantabria",
+            "country": "Cantabria",
+            "url": "/wiki/cantabria",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Cantabria_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 46,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "castile-la-mancha",
+            "country": "Castile-La Mancha",
+            "url": "/wiki/castile-la_mancha",
+            "adoption": {
+                "sort": 1986,
+                "text": "1986"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Castilla-La_Mancha_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b81626",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#cab313",
+                    "percent": 8,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "castile-and-leon",
+            "country": "Castile and León",
+            "url": "/wiki/castile_and_le%c3%b3n",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "10:13",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Castilla_y_Leon_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 43,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 7,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#742c64",
+                    "percent": 5,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "magenta",
+                "blue"
+            ]
+        },
+        {
+            "id": "catalonia",
+            "country": "Catalonia",
+            "url": "/wiki/catalonia",
+            "adoption": {
+                "sort": 1933,
+                "text": "1933"
+            },
+            "ratio": "2:3",
+            "name": "Senyera",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Cataluna_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 56,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 44,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "extremadura",
+            "country": "Extremadura",
+            "url": "/wiki/extremadura",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Extremadura_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00ab39",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 33,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "green",
+                "black",
+                "white",
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "galicia",
+            "country": "Galicia",
+            "url": "/wiki/galicia_(spain)",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Galicia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 69,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0099cc",
+                    "percent": 21,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#005bbf",
+                    "percent": 4,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#bcac0b",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cccccc",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d81126",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "la-rioja",
+            "country": "La Rioja",
+            "url": "/wiki/la_rioja_(autonomous_community)",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:La_Rioja_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dc291e",
+                    "percent": 25,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc82e",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 21,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#66bc29",
+                    "percent": 21,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "green",
+                "cyan"
+            ]
+        },
+        {
+            "id": "madrid",
+            "country": "Madrid",
+            "url": "/wiki/madrid_(autonomous_community)",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "7:11",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Madrid_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#c60b1e",
+                    "percent": 92,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "murcia",
+            "country": "Murcia",
+            "url": "/wiki/region_of_murcia",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Murcia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#9c1f2d",
+                    "percent": 95,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcb714",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "navarre",
+            "country": "Navarre",
+            "url": "/wiki/navarre",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Navarre_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 92,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 4,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "valencia",
+            "country": "Valencia",
+            "url": "/wiki/valencia_(autonomous_community)",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "name": "Reial Senyera",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Valencia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 42,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 36,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0072bc",
+                    "percent": 19,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "ceuta",
+            "country": "Ceuta",
+            "url": "/wiki/ceuta",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Ceuta_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 47,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 47,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e60000",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eebf00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "black",
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "melilla",
+            "country": "Melilla",
+            "url": "/wiki/melilla",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Melilla_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#4c86c9",
+                    "percent": 88,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "yellow",
+                "cyan",
+                "green"
+            ]
+        }
     ]
 }

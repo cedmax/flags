@@ -1,0 +1,13 @@
+{
+    "id": "murcia",
+    "colors": [
+        {
+            "hex": "#9c1f2d",
+            "percent": 95
+        },
+        {
+            "hex": "#fcb714",
+            "percent": 4
+        }
+    ]
+}

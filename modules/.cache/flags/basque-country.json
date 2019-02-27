@@ -1,0 +1,17 @@
+{
+    "id": "basque-country",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 49
+        },
+        {
+            "hex": "#009b48",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        }
+    ]
+}

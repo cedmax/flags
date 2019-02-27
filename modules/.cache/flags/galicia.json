@@ -1,0 +1,29 @@
+{
+    "id": "galicia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 69
+        },
+        {
+            "hex": "#0099cc",
+            "percent": 21
+        },
+        {
+            "hex": "#005bbf",
+            "percent": 4
+        },
+        {
+            "hex": "#bcac0b",
+            "percent": 1
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        },
+        {
+            "hex": "#d81126",
+            "percent": 1
+        }
+    ]
+}

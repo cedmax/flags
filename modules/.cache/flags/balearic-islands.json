@@ -1,0 +1,21 @@
+{
+    "id": "balearic-islands",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 42
+        },
+        {
+            "hex": "#da121a",
+            "percent": 33
+        },
+        {
+            "hex": "#40104c",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

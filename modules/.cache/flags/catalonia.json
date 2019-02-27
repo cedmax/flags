@@ -1,0 +1,13 @@
+{
+    "id": "catalonia",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 56
+        },
+        {
+            "hex": "#da121a",
+            "percent": 44
+        }
+    ]
+}

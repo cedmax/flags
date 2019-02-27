@@ -1,0 +1,33 @@
+{
+    "id": "la-rioja",
+    "colors": [
+        {
+            "hex": "#dc291e",
+            "percent": 25
+        },
+        {
+            "hex": "#ffc82e",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 21
+        },
+        {
+            "hex": "#66bc29",
+            "percent": 21
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 2
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        }
+    ]
+}

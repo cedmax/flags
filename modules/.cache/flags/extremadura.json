@@ -1,0 +1,33 @@
+{
+    "id": "extremadura",
+    "colors": [
+        {
+            "hex": "#00ab39",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        }
+    ]
+}

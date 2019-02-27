@@ -1,0 +1,17 @@
+{
+    "id": "valencia",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 42
+        },
+        {
+            "hex": "#da121a",
+            "percent": 36
+        },
+        {
+            "hex": "#0072bc",
+            "percent": 19
+        }
+    ]
+}

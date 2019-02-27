@@ -1,0 +1,25 @@
+{
+    "id": "canary-islands",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 33
+        },
+        {
+            "hex": "#0768a9",
+            "percent": 26
+        },
+        {
+            "hex": "#d6a54f",
+            "percent": 1
+        },
+        {
+            "hex": "#006abe",
+            "percent": 1
+        }
+    ]
+}

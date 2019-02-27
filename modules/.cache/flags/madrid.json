@@ -1,0 +1,13 @@
+{
+    "id": "madrid",
+    "colors": [
+        {
+            "hex": "#c60b1e",
+            "percent": 92
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

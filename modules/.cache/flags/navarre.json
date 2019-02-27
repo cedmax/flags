@@ -1,0 +1,17 @@
+{
+    "id": "navarre",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 92
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 4
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "andalusia",
+    "colors": [
+        {
+            "hex": "#006633",
+            "percent": 66
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        }
+    ]
+}

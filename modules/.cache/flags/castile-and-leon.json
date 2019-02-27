@@ -1,0 +1,25 @@
+{
+    "id": "castile-and-leon",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#da121a",
+            "percent": 38
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 7
+        },
+        {
+            "hex": "#742c64",
+            "percent": 5
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 1
+        }
+    ]
+}
