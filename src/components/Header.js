@@ -6,6 +6,7 @@ import { withContext } from "../store/context";
 const values = {
   world: "World",
   US: "United States",
+  IT: "Italian regions",
 };
 
 const Header = React.memo(({ dispatch, view }) => {
