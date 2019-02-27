@@ -17,19 +17,25 @@ exports.convertToHex = rgbArray => {
   return `#${rgbArray.map(rgbToHex).join("")}`;
 };
 
-exports.classifyColor = ({ hue, sat, lgt }) => {
-  hue = hue * 360;
+const colors = [
+  { prop: "lgt", match: "min", threshold: 0.1, value: "black" },
+  { prop: "lgt", match: "max", threshold: 0.8, value: "white" },
+  { prop: "sat", match: "min", threshold: 0.2, value: "gray" },
+  { prop: "hue", match: "min", threshold: 29, value: "red" },
+  { prop: "hue", match: "min", threshold: 89, value: "yellow" },
+  { prop: "hue", match: "min", threshold: 179, value: "green" },
+  { prop: "hue", match: "min", threshold: 209, value: "cyan" },
+  { prop: "hue", match: "min", threshold: 269, value: "blue" },
+  { prop: "hue", match: "min", threshold: 329, value: "magenta" },
+  { prop: "hue", match: "min", threshold: 360, value: "red" },
+];
 
-  if (lgt < 0.1) return "black";
-  if (lgt > 0.8) return "white";
-  if (sat < 0.2) return "gray";
-  if (hue < 30) return "red";
-  if (hue < 90) return "yellow";
-  if (hue < 180) return "green";
-  if (hue < 210) return "cyan";
-  if (hue < 270) return "blue";
-  if (hue < 330) return "magenta";
-  return "red";
+exports.classifyColor = hsv => {
+  hsv.hue = Math.round(hsv.hue * 360);
+
+  return colors.find(({ prop, match, threshold }) => {
+    return Math[match](hsv[prop], threshold) === hsv[prop];
+  }).value;
 };
 
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
