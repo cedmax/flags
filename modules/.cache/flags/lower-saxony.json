@@ -1,0 +1,21 @@
+{
+    "id": "lower-saxony",
+    "colors": [
+        {
+            "hex": "#dd0000",
+            "percent": 35
+        },
+        {
+            "hex": "#000000",
+            "percent": 29
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

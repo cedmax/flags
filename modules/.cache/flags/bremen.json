@@ -1,0 +1,13 @@
+{
+    "id": "bremen",
+    "colors": [
+        {
+            "hex": "#dd0000",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

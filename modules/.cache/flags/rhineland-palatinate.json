@@ -1,0 +1,21 @@
+{
+    "id": "rhineland-palatinate",
+    "colors": [
+        {
+            "hex": "#ffce00",
+            "percent": 35
+        },
+        {
+            "hex": "#dd0000",
+            "percent": 32
+        },
+        {
+            "hex": "#000000",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

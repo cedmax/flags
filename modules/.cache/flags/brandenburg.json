@@ -1,0 +1,17 @@
+{
+    "id": "brandenburg",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#e60000",
+            "percent": 45
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

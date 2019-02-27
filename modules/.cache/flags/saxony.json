@@ -1,0 +1,13 @@
+{
+    "id": "saxony",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#166c23",
+            "percent": 50
+        }
+    ]
+}

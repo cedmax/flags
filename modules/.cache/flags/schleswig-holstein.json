@@ -1,0 +1,17 @@
+{
+    "id": "schleswig-holstein",
+    "colors": [
+        {
+            "hex": "#0039ad",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#d61810",
+            "percent": 33
+        }
+    ]
+}

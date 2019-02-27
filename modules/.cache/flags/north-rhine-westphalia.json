@@ -1,0 +1,17 @@
+{
+    "id": "north-rhine-westphalia",
+    "colors": [
+        {
+            "hex": "#009136",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#e3001b",
+            "percent": 33
+        }
+    ]
+}

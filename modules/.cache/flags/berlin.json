@@ -1,0 +1,17 @@
+{
+    "id": "berlin",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 54
+        },
+        {
+            "hex": "#e2382a",
+            "percent": 40
+        },
+        {
+            "hex": "#000000",
+            "percent": 6
+        }
+    ]
+}

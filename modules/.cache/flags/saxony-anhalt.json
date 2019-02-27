@@ -1,0 +1,13 @@
+{
+    "id": "saxony-anhalt",
+    "colors": [
+        {
+            "hex": "#fcd116",
+            "percent": 50
+        },
+        {
+            "hex": "#000000",
+            "percent": 50
+        }
+    ]
+}

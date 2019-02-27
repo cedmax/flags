@@ -12531,5 +12531,555 @@
                 "black"
             ]
         }
+    ],
+    "DE": [
+        {
+            "id": "baden-wurttemberg",
+            "country": "Baden-Württemberg",
+            "url": "/wiki/baden-w%c3%bcrttemberg",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Baden-W%C3%BCrttemberg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 50,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#f9dd16",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "bavaria",
+            "country": "Bavaria",
+            "url": "/wiki/bavaria",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bavaria_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0098d4",
+                    "percent": 50,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 49,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "berlin",
+            "country": "Berlin",
+            "url": "/wiki/berlin",
+            "adoption": {
+                "sort": 1954,
+                "text": "1954"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Berlin_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 54,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e2382a",
+                    "percent": 40,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 6,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "brandenburg",
+            "country": "Brandenburg",
+            "url": "/wiki/brandenburg",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Brandenburg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e60000",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "bremen",
+            "country": "Bremen",
+            "url": "/wiki/bremen_(state)",
+            "adoption": {
+                "sort": 1952,
+                "text": "1952"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bremen_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dd0000",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "hamburg",
+            "country": "Hamburg",
+            "url": "/wiki/hamburg",
+            "adoption": {
+                "sort": 1834,
+                "text": "1834"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hamburg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 81,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 16,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "hesse",
+            "country": "Hesse",
+            "url": "/wiki/hesse",
+            "adoption": {
+                "sort": 1948,
+                "text": "1948"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hesse_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e10000",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "lower-saxony",
+            "country": "Lower Saxony",
+            "url": "/wiki/lower_saxony",
+            "adoption": {
+                "sort": 1951,
+                "text": "1951"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Lower-Saxony_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dd0000",
+                    "percent": 35,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 29,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 29,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "mecklenburg-vorpommern",
+            "country": "Mecklenburg-Vorpommern",
+            "url": "/wiki/mecklenburg-vorpommern",
+            "adoption": {
+                "sort": 1990,
+                "text": "1990"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Mecklenburg-Vorpommern_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#2b58a3",
+                    "percent": 27,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#de0029",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f9f400",
+                    "percent": 7,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "north-rhine-westphalia",
+            "country": "North Rhine-Westphalia",
+            "url": "/wiki/north_rhine-westphalia",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_North_Rhine-Westphalia_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#009136",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e3001b",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "rhineland-palatinate",
+            "country": "Rhineland-Palatinate",
+            "url": "/wiki/rhineland-palatinate",
+            "adoption": {
+                "sort": 1945,
+                "text": "1945"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Rhineland-Palatinate_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffce00",
+                    "percent": 35,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#dd0000",
+                    "percent": 32,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 30,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "saarland",
+            "country": "Saarland",
+            "url": "/wiki/saarland",
+            "adoption": {
+                "sort": 1957,
+                "text": "1957"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saarland_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffce00",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 31,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#dd0000",
+                    "percent": 24,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#176fc1",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "saxony",
+            "country": "Saxony",
+            "url": "/wiki/saxony",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#166c23",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "saxony-anhalt",
+            "country": "Saxony-Anhalt",
+            "url": "/wiki/saxony-anhalt",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony-Anhalt_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcd116",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 50,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "schleswig-holstein",
+            "country": "Schleswig-Holstein",
+            "url": "/wiki/schleswig-holstein",
+            "adoption": {
+                "sort": 1948,
+                "text": "1948"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Schleswig-Holstein_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0039ad",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d61810",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "thuringia",
+            "country": "Thuringia",
+            "url": "/wiki/thuringia",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Thuringia_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e10000",
+                    "percent": 50,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        }
     ]
 }

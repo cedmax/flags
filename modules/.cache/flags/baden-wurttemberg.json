@@ -1,0 +1,13 @@
+{
+    "id": "baden-wurttemberg",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 50
+        },
+        {
+            "hex": "#f9dd16",
+            "percent": 50
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "mecklenburg-vorpommern",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 40
+        },
+        {
+            "hex": "#2b58a3",
+            "percent": 27
+        },
+        {
+            "hex": "#de0029",
+            "percent": 27
+        },
+        {
+            "hex": "#f9f400",
+            "percent": 7
+        }
+    ]
+}

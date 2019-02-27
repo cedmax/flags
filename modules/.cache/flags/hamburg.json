@@ -1,0 +1,17 @@
+{
+    "id": "hamburg",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 81
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

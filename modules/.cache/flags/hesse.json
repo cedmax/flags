@@ -1,0 +1,13 @@
+{
+    "id": "hesse",
+    "colors": [
+        {
+            "hex": "#e10000",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

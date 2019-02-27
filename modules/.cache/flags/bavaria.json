@@ -1,0 +1,13 @@
+{
+    "id": "bavaria",
+    "colors": [
+        {
+            "hex": "#0098d4",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 49
+        }
+    ]
+}

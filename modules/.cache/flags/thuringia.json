@@ -1,0 +1,13 @@
+{
+    "id": "thuringia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#e10000",
+            "percent": 50
+        }
+    ]
+}
