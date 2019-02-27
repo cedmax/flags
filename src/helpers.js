@@ -21,6 +21,7 @@ export const qs = {
         continent: state.continent,
         detail: state.detail,
         detailView: state.detailView,
+        reversed: state.reversed,
       })
     ),
 };

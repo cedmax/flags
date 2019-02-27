@@ -46,6 +46,7 @@ const App = props => {
     state.detail,
     state.detailView,
     state.view,
+    state.reversed,
   ]);
 
   return (

@@ -8,6 +8,7 @@ const urlParams = {
   filters: [],
   continent: "",
   q: "",
+  reversed: "",
   sortBy: "",
 };
 
@@ -135,6 +136,7 @@ export const reducers = createReducers({
   reverse: state => {
     return {
       ...state,
+      reversed: !state.reversed || "",
       filtered: [...state.filtered].reverse(),
     };
   },

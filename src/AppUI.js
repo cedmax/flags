@@ -54,7 +54,7 @@ const AppUI = ({ state, dispatch }) => (
         <List
           active={state.active}
           items={state.filtered}
-          isSorted={!!state.sortBy}
+          isSorted={!!state.sortBy || !!state.reversed}
           isUS={state.view === "US"}
         />
       </Fragment>
