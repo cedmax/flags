@@ -38,7 +38,7 @@ const MapLink = withContext(({ dispatch, url, id, country }) => (
       )
     }
   >
-    <img alt={`${country} on the globe map`} width="60" src={url} />
+    <img alt={`${country} location map`} src={url} />
   </Link>
 ));
 

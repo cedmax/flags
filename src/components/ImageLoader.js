@@ -12,7 +12,7 @@ const ImageLoaderUI = React.memo(
         loading={() => <Loader />}
         image={props => {
           let size;
-          if (view === "US" && type === "map") {
+          if ((view === "US" || view === "ES") && type === "map") {
             size = { width: "100%" };
             delete props.height;
           } else {

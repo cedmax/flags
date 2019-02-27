@@ -290,7 +290,9 @@ button-primary:active, button-primary.active {
 }
 
 .flag-map img {
-  filter: drop-shadow(1px 1px 3px #ccc)
+  filter: drop-shadow(1px 1px 3px #ccc);
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .flag-title {
