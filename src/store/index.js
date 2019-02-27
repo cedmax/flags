@@ -216,6 +216,6 @@ export const reducers = createReducers({
       payload = "";
     }
     const newState = getInitialState(allFlags, payload);
-    return applyFilters(newState);
+    return { ...newState, loading: false };
   },
 });

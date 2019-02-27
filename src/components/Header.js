@@ -8,25 +8,22 @@ const values = {
   US: "United States",
   IT: "Italian regions",
   DE: "German states",
+  ES: "Spanish autonomies",
 };
 
 const Header = React.memo(({ dispatch, view }) => {
   const [selected, setSelected] = useState(values[view]);
 
-  if (values[view] !== selected) {
-    setSelected(values[view]);
-    return;
-  }
-
   useEffect(() => {
-    document.title = `Flags of the ${selected}`;
-  }, [selected]);
+    setSelected(values[view] || values.world);
+    document.title = `Flags of the ${values[view] || values.world}`;
+  }, [view]);
 
   return (
     <Wrapper
       onSelection={item => {
-        dispatch(action("changeDataSource", item));
         setSelected(values[item]);
+        dispatch(action("changeDataSource", item));
       }}
     >
       <h1>

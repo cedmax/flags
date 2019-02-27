@@ -2,9 +2,12 @@ import React from "react";
 import { action } from "../helpers";
 import { withContext } from "../store/context";
 
+const eu = ["IT", "DE", "ES"];
+
 const NavContinents = React.memo(
   ({ selectedContinent, view, isLoading, availableContinents, dispatch }) => {
-    const isEu = view === "IT" || view === "DE";
+    const isEu = eu.includes(view);
+
     return availableContinents.map(continent => (
       <button
         disabled={view === "US" || isLoading || isEu}

@@ -467,29 +467,30 @@ a.play::before {
 }
 
 .select-button {
+  display: inline-block;
   cursor: pointer;
+  padding: 10px 15px;
   padding-right: 70px;
-  border-color: #e6e6e6
+  border-color: #e6e6e6;
+  line-height: 1.2
 }
 
 .select-button::before {
   content: '';
-  height: calc(100% + 2px);
-  top: -2px;
+  height: 100%;
+  top: 0px;
   width: 50px;
   position: absolute;
   right: 0;
   border-left: 2px solid #e6e6e6;
-
 }
 
 .select-button::after {
   content: '▿';
   display: inline-block;
   width: 52px;
-  height: 120%;
   position: absolute;
-  top: -10%;
+  top: calc(100% - 52px);
   right: 0;
   color: #ccc;
   transition: all .2s;
@@ -515,7 +516,7 @@ a.play::before {
 
 
 .select-menu {
-  width: 250px;
+  width: 290px;
   min-width: 100%;
   text-align: left;
   background: rgba(255,255,255,.9);
@@ -524,11 +525,11 @@ a.play::before {
   right: 100%;
   padding: 0;
   transform: translate3d(100%, 10px, 0);
-  z-index: 1500
+  z-index: 1500;
 }
 
 .select-item {
-  padding: 15px 30px;
+  padding: 10px 15px;
 }
 
 .select-item:hover,.select-item:focus {
