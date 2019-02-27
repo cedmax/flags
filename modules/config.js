@@ -10,6 +10,7 @@ const fetchYoutubeAnthems = require("./scripts/youtube-anthems");
 
 const mapEndPoints = require("./manual/maps.json");
 const mapITEndPoints = require("./manual/maps-it.json");
+const mapDEEndPoints = require("./manual/maps-de.json");
 
 module.exports = {
   world: {
@@ -27,5 +28,8 @@ module.exports = {
   },
   IT: {
     maps: fetchMaps(mapITEndPoints),
+  },
+  DE: {
+    maps: fetchMaps(mapDEEndPoints),
   },
 };
