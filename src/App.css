@@ -523,6 +523,7 @@ a.play::before {
   left: 50%;
   padding: 0;
   transform: translate3d(-50%, 10px, 0);
+  z-index: 1500
 }
 
 .select-item {

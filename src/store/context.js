@@ -6,6 +6,8 @@ export default DispatchContext.Provider;
 export const withContext = Component =>
   React.memo(props => (
     <DispatchContext.Consumer>
-      {({ dispatch }) => <Component dispatch={dispatch} {...props} />}
+      {({ dispatch, view }) => (
+        <Component view={view} dispatch={dispatch} {...props} />
+      )}
     </DispatchContext.Consumer>
   ));

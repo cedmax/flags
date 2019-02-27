@@ -3,13 +3,14 @@ import { action } from "../helpers";
 import { withContext } from "../store/context";
 
 const NavContinents = React.memo(
-  ({ selectedContinent, isUS, isLoading, availableContinents, dispatch }) =>
+  ({ selectedContinent, view, isLoading, availableContinents, dispatch }) =>
     availableContinents.map(continent => (
       <button
-        disabled={isUS || isLoading}
-        className={`${selectedContinent === continent ? "selected" : ""} ${
-          isUS && continent === "North America" ? "selected" : ""
-        }`}
+        disabled={view === "US" || isLoading || view === "IT"}
+        className={`${selectedContinent === continent ? "selected" : ""}
+          ${view === "US" && continent === "North America" ? "selected" : ""}
+          ${view === "IT" && continent === "Europe" ? "selected" : ""}
+        `}
         key={continent}
         onClick={() => dispatch(action("filterByContinent", continent))}
       >

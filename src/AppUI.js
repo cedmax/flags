@@ -14,19 +14,18 @@ import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
 
-const AppUI = ({ state, dispatch }) => (
+const AppUI = ({ state }) => (
   <main>
     <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
       <Github />
     </Link>
-    <Header view={state.view} />
+    <Header />
     <nav>
       <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
       <NavSearch query={state.q} />
       <br />
       <NavContinents
         isLoading={state.loading}
-        isUS={state.view === "US"}
         selectedContinent={state.continent}
         availableContinents={state.availableContinents}
       />
@@ -55,7 +54,6 @@ const AppUI = ({ state, dispatch }) => (
           active={state.active}
           items={state.filtered}
           isSorted={!!state.sortBy || !!state.reversed}
-          isUS={state.view === "US"}
         />
       </Fragment>
     )}
@@ -65,7 +63,7 @@ const AppUI = ({ state, dispatch }) => (
       detail={
         !!state.detail && state.filtered.find(flag => flag.id === state.detail)
       }
-      view={state.detailView}
+      type={state.detailView}
       isList={state.filtered.length > 1}
     />
   </main>

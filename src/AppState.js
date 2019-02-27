@@ -23,7 +23,12 @@ const updateUrl = qsFromState => {
 
 const App = props => {
   const [state, dispatch] = useReducer(reducers, getInitialState(props.data));
-  const [context] = useState({ dispatch });
+  const [context, setContext] = useState({ dispatch, view: state.view });
+
+  useEffect(() => {
+    setContext({ view: state.view, dispatch });
+  }, [state.view]);
+
   useKey(["ArrowLeft", "ArrowRight"], e => {
     dispatch(action("navigate", e.key === "ArrowLeft" ? -1 : 1));
   });

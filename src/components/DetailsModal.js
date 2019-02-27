@@ -6,13 +6,13 @@ import { action, getDetailsImageSize } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 import { withContext } from "../store/context";
 
-const ChangeView = withContext(
-  React.memo(({ url, dispatch, newView }) => (
+const ChangeType = withContext(
+  React.memo(({ url, dispatch, newType }) => (
     <Link
       to={url}
-      onClick={() => dispatch(action("updateDetailsView", newView))}
+      onClick={() => dispatch(action("updateDetailsView", newType))}
     >
-      {newView}
+      {newType}
     </Link>
   ))
 );
@@ -25,8 +25,8 @@ const NavigationButton = withContext(
   ))
 );
 
-const DetailsModal = React.memo(({ detail, view, dispatch, isList }) => {
-  const ratio = view === "flag" ? detail.ratio : "1:1";
+const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
+  const ratio = type === "flag" ? detail.ratio : "1:1";
   const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
 
   if (!detail) return;
@@ -42,8 +42,8 @@ const DetailsModal = React.memo(({ detail, view, dispatch, isList }) => {
       shouldReturnFocusAfterClose={false}
     >
       <ImageLoader
-        imgSrc={view === "flag" ? flagUrl : mapUrl}
-        view={view}
+        imgSrc={type === "flag" ? flagUrl : mapUrl}
+        type={type}
         {...detail}
       />
       <div className="zoom-controls">
@@ -51,8 +51,8 @@ const DetailsModal = React.memo(({ detail, view, dispatch, isList }) => {
         <div>
           <h3>{detail.country}</h3>
           <small>
-            {view === "map" && <ChangeView newView="flag" url={flagUrl} />}
-            {view === "flag" && <ChangeView newView="map" url={mapUrl} />}
+            {type === "map" && <ChangeType newType="flag" url={flagUrl} />}
+            {type === "flag" && <ChangeType newType="map" url={mapUrl} />}
           </small>
         </div>
         {isList && <NavigationButton label="next" value={1} />}

@@ -1,8 +1,9 @@
 import React from "react";
 import DetailsList from "./DetailsList";
 import DetailsHeader from "./DetailsHeader";
+import { withContext } from "../store/context";
 
-const ListItemBack = React.memo(({ isUS, imgs, flag, active }) => (
+const ListItemBack = React.memo(({ view, imgs, flag, active }) => (
   <div className="back">
     <div
       style={{
@@ -10,9 +11,12 @@ const ListItemBack = React.memo(({ isUS, imgs, flag, active }) => (
       }}
     >
       <DetailsHeader imgs={imgs} flag={flag} active={active} />
-      <DetailsList anthemTitle={isUS ? "State Song" : "Anthem"} flag={flag} />
+      <DetailsList
+        anthemTitle={view === "US" ? "State Song" : "Anthem"}
+        flag={flag}
+      />
     </div>
   </div>
 ));
 
-export default ListItemBack;
+export default withContext(ListItemBack);
