@@ -468,6 +468,10 @@ a.play::before {
   display: inline-block;
 }
 
+@media (min-width: 615px) {
+  h1 br {display: none}
+}
+
 .select-button {
   display: inline-block;
   cursor: pointer;

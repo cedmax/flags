@@ -27,7 +27,7 @@ const Header = React.memo(({ dispatch, view }) => {
       }}
     >
       <h1>
-        Flags of the{" "}
+        Flags of the <br />
         <div className="select">
           <Button className="select-button">
             <span>{selected || values.world}</span>
