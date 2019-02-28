@@ -32,8 +32,12 @@ const DetailsList = React.memo(({ flag, anthemTitle }) => (
         <dd>{flag.name}</dd>
       </Fragment>
     )}
-    <dt>Adopted</dt>
-    <dd>{flag.adoption.text}</dd>
+    {flag.adoption.text && (
+      <Fragment>
+        <dt>Adopted</dt>
+        <dd>{flag.adoption.text}</dd>
+      </Fragment>
+    )}
     <dt>Aspect Ratio</dt>
     <dd>{flag.ratio}</dd>
 
