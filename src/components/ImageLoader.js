@@ -32,9 +32,7 @@ const ImageLoaderUI = React.memo(
       />
       {type === "map" && map && (
         <Link className="map-credits" to={map.credits} target="_blank">
-          map
-          <br />
-          credits
+          map credits
         </Link>
       )}
     </Fragment>
