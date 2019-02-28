@@ -2,7 +2,7 @@ const parse = require("pixelbank");
 const { createCanvas, loadImage } = require("canvas");
 const slugify = require("slugify");
 
-exports.generateId = string => slugify(string).toLowerCase();
+exports.generateId = string => slugify(string.replace("Ō", "o")).toLowerCase();
 exports.cleanUrl = string => string.replace("_the_", "_").toLowerCase();
 
 const rgbToHex = function(rgb) {
