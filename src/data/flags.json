@@ -14758,13 +14758,13 @@
             ]
         },
         {
-            "id": "itaita",
-            "country": "ŌitaŌita",
+            "id": "ita",
+            "country": "Ōita",
             "adoption": {
                 "sorting": 0,
                 "text": ""
             },
-            "url": "/wiki/ōitaōita_prefecture",
+            "url": "/wiki/ōita_prefecture",
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Oita_in_Japan_(extended).svg"

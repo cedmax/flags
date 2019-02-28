@@ -35,6 +35,10 @@ module.exports = async (unused, callback) => {
           .replace(/\[(.)+\]/g, "")
           .trim();
 
+        if (country === "ŌitaŌita") {
+          country = "Ōita";
+        }
+
         if (
           country.startsWith("The symbol at") ||
           country.startsWith("Karafuto")
@@ -69,6 +73,5 @@ module.exports = async (unused, callback) => {
     }
     return results;
   }, []);
-  //console.log(results);
   helpers.saveFlagFiles(results, callback);
 };
