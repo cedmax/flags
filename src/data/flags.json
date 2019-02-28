@@ -14218,7 +14218,7 @@
             ]
         },
         {
-            "id": "hokkaid",
+            "id": "hokkaido",
             "country": "Hokkaidō",
             "adoption": {
                 "sorting": 0,
@@ -14226,9 +14226,7 @@
             },
             "url": "/wiki/hokkaidō_prefecture",
             "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Hokkaido_in_Japan_(claimed)_(extended).svg"
-            },
+            "map": {},
             "colors": [
                 {
                     "hex": "#2f304e",
@@ -14253,7 +14251,7 @@
             ]
         },
         {
-            "id": "hygo",
+            "id": "hyogo",
             "country": "Hyōgo",
             "adoption": {
                 "sorting": 0,
@@ -14261,9 +14259,7 @@
             },
             "url": "/wiki/hyōgo_prefecture",
             "ratio": "7:10",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Hyogo_in_Japan_(extended).svg"
-            },
+            "map": {},
             "colors": [
                 {
                     "hex": "#6499cd",
@@ -14462,7 +14458,7 @@
             ]
         },
         {
-            "id": "kchi",
+            "id": "kochi",
             "country": "Kōchi",
             "adoption": {
                 "sorting": 0,
@@ -14766,6 +14762,7 @@
             },
             "url": "/wiki/ōita_prefecture",
             "ratio": "2:3",
+            "map": {},
             "colors": [
                 {
                     "hex": "#fdfdfd",
@@ -14850,6 +14847,7 @@
             },
             "url": "/wiki/ōsaka_prefecture",
             "ratio": "2:3",
+            "map": {},
             "colors": [
                 {
                     "hex": "#33419a",
