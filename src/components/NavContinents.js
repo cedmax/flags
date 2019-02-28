@@ -10,10 +10,12 @@ const NavContinents = React.memo(
 
     return availableContinents.map(continent => (
       <button
-        disabled={view === "US" || isLoading || isEu}
+        disabled={view !== "World" || isLoading}
         className={`${selectedContinent === continent ? "selected" : ""}
-          ${view === "US" && continent === "North America" ? "selected" : ""}
-          ${isEu && continent === "Europe" ? "selected" : ""}
+
+        ${view === "JP" && continent === "Asia" ? "selected" : ""}
+        ${view === "US" && continent === "North America" ? "selected" : ""}
+        ${isEu && continent === "Europe" ? "selected" : ""}
         `}
         key={continent}
         onClick={() => dispatch(action("filterByContinent", continent))}
