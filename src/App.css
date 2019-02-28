@@ -447,6 +447,12 @@ a.play::before {
   animation-timing-function: linear;
 }
 
+.spinner-small {
+  width: 35px;
+  padding-top: 35px;
+  border-width: 6px;
+}
+
 .spinner::before {
   content: '';
   display: block;
@@ -457,6 +463,12 @@ a.play::before {
   position: absolute;
   left: -10px;
   top: 50%;
+}
+
+.spinner-small::before {
+  width: 6px;
+  height: 6px;
+  left: -6px;
 }
 
 #root > .spinner {
