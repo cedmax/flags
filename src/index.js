@@ -7,4 +7,4 @@ import Modal from "react-modal";
 const data = JSON.parse(document.getElementById("data").innerText);
 Modal.setAppElement("#root");
 ReactDOM.render(<App data={data} />, document.getElementById("root"));
-serviceWorker.register();
+serviceWorker.unregister();
