@@ -1,0 +1,13 @@
+{
+    "id": "hygo",
+    "colors": [
+        {
+            "hex": "#6499cd",
+            "percent": 58
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 38
+        }
+    ]
+}

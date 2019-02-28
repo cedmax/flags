@@ -1,0 +1,13 @@
+{
+    "id": "miyazaki",
+    "colors": [
+        {
+            "hex": "#159939",
+            "percent": 84
+        },
+        {
+            "hex": "#ffff01",
+            "percent": 16
+        }
+    ]
+}

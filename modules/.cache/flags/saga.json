@@ -1,0 +1,17 @@
+{
+    "id": "saga",
+    "colors": [
+        {
+            "hex": "#006462",
+            "percent": 79
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        },
+        {
+            "hex": "#df4133",
+            "percent": 2
+        }
+    ]
+}

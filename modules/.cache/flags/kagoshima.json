@@ -1,0 +1,17 @@
+{
+    "id": "kagoshima",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 85
+        },
+        {
+            "hex": "#000000",
+            "percent": 12
+        },
+        {
+            "hex": "#bd0227",
+            "percent": 3
+        }
+    ]
+}

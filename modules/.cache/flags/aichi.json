@@ -1,0 +1,13 @@
+{
+    "id": "aichi",
+    "colors": [
+        {
+            "hex": "#a63c47",
+            "percent": 88
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

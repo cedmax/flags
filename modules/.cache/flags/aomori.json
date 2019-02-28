@@ -1,0 +1,13 @@
+{
+    "id": "aomori",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 80
+        },
+        {
+            "hex": "#04773d",
+            "percent": 18
+        }
+    ]
+}

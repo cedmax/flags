@@ -1,0 +1,13 @@
+{
+    "id": "kanagawa",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 80
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 18
+        }
+    ]
+}

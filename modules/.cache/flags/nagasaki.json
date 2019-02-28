@@ -1,0 +1,13 @@
+{
+    "id": "nagasaki",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 84
+        },
+        {
+            "hex": "#0094d0",
+            "percent": 15
+        }
+    ]
+}

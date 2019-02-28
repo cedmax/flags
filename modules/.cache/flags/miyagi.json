@@ -1,0 +1,13 @@
+{
+    "id": "miyagi",
+    "colors": [
+        {
+            "hex": "#00594c",
+            "percent": 85
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        }
+    ]
+}

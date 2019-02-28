@@ -13879,5 +13879,1423 @@
                 "green"
             ]
         }
+    ],
+    "JP": [
+        {
+            "id": "aichi",
+            "country": "Aichi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/aichi_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:aichi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#a63c47",
+                    "percent": 88,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "akita",
+            "country": "Akita",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/akita_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:akita_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#990000",
+                    "percent": 86,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 14,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "aomori",
+            "country": "Aomori",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/aomori_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:aomori_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 80,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#04773d",
+                    "percent": 18,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "chiba",
+            "country": "Chiba",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/chiba_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:chiba_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#1a15a3",
+                    "percent": 92,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffec50",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ehime",
+            "country": "Ehime",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/ehime_prefecture",
+            "ratio": "133:200",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ehime_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#019066",
+                    "percent": 53,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f9f400",
+                    "percent": 40,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#33a452",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "fukui",
+            "country": "Fukui",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/fukui_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:fukui_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00006b",
+                    "percent": 87,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 12,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "fukuoka",
+            "country": "Fukuoka",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/fukuoka_prefecture",
+            "ratio": "128:183",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:fukuoka_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0068b2",
+                    "percent": 88,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 12,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "fukushima",
+            "country": "Fukushima",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/fukushima_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:fukushima_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d84b24",
+                    "percent": 86,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 12,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "gifu",
+            "country": "Gifu",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/gifu_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:gifu_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 88,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00693f",
+                    "percent": 11,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "gunma",
+            "country": "Gunma",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/gunma_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:gunma_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#4c0f7b",
+                    "percent": 91,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "white"
+            ]
+        },
+        {
+            "id": "hiroshima",
+            "country": "Hiroshima",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/hiroshima_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:hiroshima_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ab3748",
+                    "percent": 89,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "hokkaid",
+            "country": "Hokkaidō",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/hokkaidō_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Hokkaido_in_Japan_(claimed)_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#2f304e",
+                    "percent": 82,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d13a43",
+                    "percent": 4,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "hygo",
+            "country": "Hyōgo",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/hyōgo_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Hyogo_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#6499cd",
+                    "percent": 58,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 38,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "ibaraki",
+            "country": "Ibaraki",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/ibaraki_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ibaraki_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#434caf",
+                    "percent": 84,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 16,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "ishikawa",
+            "country": "Ishikawa",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/ishikawa_prefecture",
+            "ratio": "31:44",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ishikawa_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0088bb",
+                    "percent": 80,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 18,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "iwate",
+            "country": "Iwate",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/iwate_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:iwate_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#145e70",
+                    "percent": 93,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "kagawa",
+            "country": "Kagawa",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kagawa_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kagawa_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#005933",
+                    "percent": 85,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "kagoshima",
+            "country": "Kagoshima",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kagoshima_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kagoshima_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 85,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 12,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#bd0227",
+                    "percent": 3,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "kanagawa",
+            "country": "Kanagawa",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kanagawa_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kanagawa_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 80,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 18,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "kchi",
+            "country": "Kōchi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kōchi_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kochi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#950017",
+                    "percent": 85,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "kumamoto",
+            "country": "Kumamoto",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kumamoto_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kumamoto_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#7e0000",
+                    "percent": 77,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "kyoto",
+            "country": "Kyoto",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/kyoto_prefecture",
+            "ratio": "5:7",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kyoto_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#942b9d",
+                    "percent": 85,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 6,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "mie",
+            "country": "Mie",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/mie_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:mie_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#009900",
+                    "percent": 82,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "miyagi",
+            "country": "Miyagi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/miyagi_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:miyagi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00594c",
+                    "percent": 85,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "miyazaki",
+            "country": "Miyazaki",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/miyazaki_prefecture",
+            "ratio": "5:7",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:miyazaki_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#159939",
+                    "percent": 84,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffff01",
+                    "percent": 16,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "nagano",
+            "country": "Nagano",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/nagano_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:nagano_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#f66637",
+                    "percent": 73,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 26,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "nagasaki",
+            "country": "Nagasaki",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/nagasaki_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:nagasaki_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0094d0",
+                    "percent": 15,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "nara",
+            "country": "Nara",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/nara_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:nara_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 85,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#5b1c1f",
+                    "percent": 15,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "niigata",
+            "country": "Niigata",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/niigata_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:niigata_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e20909",
+                    "percent": 93,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffda00",
+                    "percent": 6,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "itaita",
+            "country": "ŌitaŌita",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/ōitaōita_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Oita_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fdfdfd",
+                    "percent": 91,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#be0428",
+                    "percent": 9,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "okayama",
+            "country": "Okayama",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/okayama_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:okayama_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#650065",
+                    "percent": 89,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#fed61c",
+                    "percent": 10,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "yellow"
+            ]
+        },
+        {
+            "id": "okinawa",
+            "country": "Okinawa",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/okinawa_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:okinawa_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 81,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#c8003e",
+                    "percent": 19,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "saka",
+            "country": "Ōsaka",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/ōsaka_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Osaka_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#33419a",
+                    "percent": 83,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "saga",
+            "country": "Saga",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/saga_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:saga_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#006462",
+                    "percent": 79,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 19,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#df4133",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "saitama",
+            "country": "Saitama",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/saitama_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:saitama_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 85,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e1273e",
+                    "percent": 13,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "shiga",
+            "country": "Shiga",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/shiga_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:shiga_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#3e8bc3",
+                    "percent": 84,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 14,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "shimane",
+            "country": "Shimane",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/shimane_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Shimane_in_Japan_(claimed)_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#950017",
+                    "percent": 89,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 10,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "shizuoka",
+            "country": "Shizuoka",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/shizuoka_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:shizuoka_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#004a8f",
+                    "percent": 89,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f98f00",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "tochigi",
+            "country": "Tochigi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/tochigi_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tochigi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#76b138",
+                    "percent": 93,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "tokushima",
+            "country": "Tokushima",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/tokushima_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tokushima_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#234794",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fcd400",
+                    "percent": 19,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "tokyo",
+            "country": "Tokyo",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/tokyo_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tokyo_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#4b0082",
+                    "percent": 93,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "white"
+            ]
+        },
+        {
+            "id": "tottori",
+            "country": "Tottori",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/tottori_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tottori_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#2e328c",
+                    "percent": 87,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "toyama",
+            "country": "Toyama",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/toyama_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:toyama_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 86,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009f41",
+                    "percent": 14,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "wakayama",
+            "country": "Wakayama",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/wakayama_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:wakayama_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 82,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#29437f",
+                    "percent": 18,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "yamagata",
+            "country": "Yamagata",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/yamagata_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:yamagata_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#006bbd",
+                    "percent": 90,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 10,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "yamaguchi",
+            "country": "Yamaguchi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/yamaguchi_prefecture",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:yamaguchi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#683c34",
+                    "percent": 87,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "yamanashi",
+            "country": "Yamanashi",
+            "adoption": {
+                "sorting": 0,
+                "text": ""
+            },
+            "url": "/wiki/yamanashi_prefecture",
+            "ratio": "7:10",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:yamanashi_in_Japan_(extended).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#714d94",
+                    "percent": 87,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f5bf05",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "white",
+                "yellow"
+            ]
+        }
     ]
 }

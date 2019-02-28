@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="600" height="400" version="1.1">
+ <rect fill="#ffffff" x="0" y="0" width="600" height="400"/>
+ <path id="magatama" fill="#e1273e" d="m292 113c-25.2-17.6-18.9-68.4 8.84-71.1 6.74-0.652 12.8 0.991 16.7 4.5 11.7 10.6 5 33.8-10.9 37.7-10.9 2.74-15.5 14.5-9.77 25.4 5.31 10.1 4.99 10.4-4.9 3.44z"/>
+ <use xlink:href="#magatama" x="0" y="0"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(-135 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(45 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(-90 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(90 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(-45 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(135 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(180 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(45 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(-135 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(90 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(-90 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(135 300 200)"/>
+ <use xlink:href="#magatama" x="0" y="0" transform="rotate(-45 300 200)"/>
+ <use xlink:href="#magatama" x="49" y="220" transform="rotate(180 300 200)"/>
+</svg>

@@ -1,0 +1,13 @@
+{
+    "id": "ishikawa",
+    "colors": [
+        {
+            "hex": "#0088bb",
+            "percent": 80
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        }
+    ]
+}

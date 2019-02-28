@@ -1,0 +1,13 @@
+{
+    "id": "shiga",
+    "colors": [
+        {
+            "hex": "#3e8bc3",
+            "percent": 84
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        }
+    ]
+}

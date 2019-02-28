@@ -1,0 +1,13 @@
+{
+    "id": "toyama",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 86
+        },
+        {
+            "hex": "#009f41",
+            "percent": 14
+        }
+    ]
+}

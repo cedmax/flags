@@ -1,0 +1,13 @@
+{
+    "id": "fukuoka",
+    "colors": [
+        {
+            "hex": "#0068b2",
+            "percent": 88
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        }
+    ]
+}

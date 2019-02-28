@@ -1,0 +1,21 @@
+{
+    "id": "ehime",
+    "colors": [
+        {
+            "hex": "#019066",
+            "percent": 53
+        },
+        {
+            "hex": "#f9f400",
+            "percent": 40
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#33a452",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "ibaraki",
+    "colors": [
+        {
+            "hex": "#434caf",
+            "percent": 84
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        }
+    ]
+}

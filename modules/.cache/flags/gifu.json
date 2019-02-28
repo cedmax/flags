@@ -1,0 +1,13 @@
+{
+    "id": "gifu",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 88
+        },
+        {
+            "hex": "#00693f",
+            "percent": 11
+        }
+    ]
+}

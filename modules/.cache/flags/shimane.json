@@ -1,0 +1,13 @@
+{
+    "id": "shimane",
+    "colors": [
+        {
+            "hex": "#950017",
+            "percent": 89
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 10
+        }
+    ]
+}

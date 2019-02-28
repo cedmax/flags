@@ -1,0 +1,13 @@
+{
+    "id": "nara",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 85
+        },
+        {
+            "hex": "#5b1c1f",
+            "percent": 15
+        }
+    ]
+}

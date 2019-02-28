@@ -1,0 +1,13 @@
+{
+    "id": "fukushima",
+    "colors": [
+        {
+            "hex": "#d84b24",
+            "percent": 86
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        }
+    ]
+}

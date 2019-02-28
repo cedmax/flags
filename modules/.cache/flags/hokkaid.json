@@ -1,0 +1,17 @@
+{
+    "id": "hokkaid",
+    "colors": [
+        {
+            "hex": "#2f304e",
+            "percent": 82
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#d13a43",
+            "percent": 4
+        }
+    ]
+}

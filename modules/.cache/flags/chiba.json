@@ -1,0 +1,17 @@
+{
+    "id": "chiba",
+    "colors": [
+        {
+            "hex": "#1a15a3",
+            "percent": 92
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#ffec50",
+            "percent": 1
+        }
+    ]
+}

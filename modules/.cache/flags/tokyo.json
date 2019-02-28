@@ -1,0 +1,13 @@
+{
+    "id": "tokyo",
+    "colors": [
+        {
+            "hex": "#4b0082",
+            "percent": 93
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

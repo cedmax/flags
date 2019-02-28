@@ -1,0 +1,13 @@
+{
+    "id": "saitama",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 85
+        },
+        {
+            "hex": "#e1273e",
+            "percent": 13
+        }
+    ]
+}

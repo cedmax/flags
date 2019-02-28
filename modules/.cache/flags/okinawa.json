@@ -1,0 +1,13 @@
+{
+    "id": "okinawa",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 81
+        },
+        {
+            "hex": "#c8003e",
+            "percent": 19
+        }
+    ]
+}

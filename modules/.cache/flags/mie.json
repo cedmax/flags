@@ -1,0 +1,13 @@
+{
+    "id": "mie",
+    "colors": [
+        {
+            "hex": "#009900",
+            "percent": 82
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        }
+    ]
+}

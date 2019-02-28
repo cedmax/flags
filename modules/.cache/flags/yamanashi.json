@@ -1,0 +1,17 @@
+{
+    "id": "yamanashi",
+    "colors": [
+        {
+            "hex": "#714d94",
+            "percent": 87
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        },
+        {
+            "hex": "#f5bf05",
+            "percent": 1
+        }
+    ]
+}

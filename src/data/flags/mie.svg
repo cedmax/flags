@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   version="1.0"
+   width="600"
+   height="400"
+   id="svg2">
+  <defs
+     id="defs4" />
+  <rect
+     width="647.42645"
+     height="424.63235"
+     x="-13.235293"
+     y="-5.8823519"
+     id="rect2386"
+     style="opacity:1;fill:#009900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+  <g
+     id="layer1">
+    <path
+       d="M 253.54829,223.2233 C 253.54829,272.31778 213.74935,312.11673 164.65486,312.11673 C 115.56038,312.11673 75.761436,272.31778 75.761436,223.2233 C 75.761436,174.12882 115.56038,134.32987 164.65486,134.32987 C 213.74935,134.32987 253.54829,174.12882 253.54829,223.2233 z"
+       transform="matrix(0.9786932,0,0,0.9786932,2.6243876,3.8722946)"
+       id="path2416"
+       style="opacity:1;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       d="M 196.22213,223.72838 C 196.22648,240.88663 182.31819,254.79845 165.15994,254.79845 C 148.00169,254.79845 134.0934,240.88663 134.09775,223.72838 C 134.0934,206.57013 148.00169,192.65831 165.15994,192.65831 C 182.31819,192.65831 196.22648,206.57013 196.22213,223.72838 z"
+       transform="translate(-1.2626907,-1.767767)"
+       id="path3188"
+       style="opacity:1;fill:#009900;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:3;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1" />
+    <path
+       d="M 241.93153,259.08372 L 250.01276,266.15479 C 240.83057,284.57493 224.034,297.20813 206.5762,309.33881 L 263.14474,309.33881 L 275.51911,292.16622 L 292.6917,309.33881 L 326.27927,261.10402 L 309.35922,244.18397 L 429.12543,71.384749 L 378.17586,82.559562 L 283.85287,218.93016 L 276.9712,211.98536 L 365.17015,86.600172 L 185.36299,127.89016 C 204.02648,135.27896 221.85603,139.60303 242.56288,168.48566 L 232.46135,168.48566 L 241.93153,259.08372 z"
+       id="path3190"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+  </g>
+</svg>

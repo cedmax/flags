@@ -1,0 +1,13 @@
+{
+    "id": "nagano",
+    "colors": [
+        {
+            "hex": "#f66637",
+            "percent": 73
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 26
+        }
+    ]
+}

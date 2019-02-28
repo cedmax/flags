@@ -1,0 +1,13 @@
+{
+    "id": "niigata",
+    "colors": [
+        {
+            "hex": "#e20909",
+            "percent": 93
+        },
+        {
+            "hex": "#ffda00",
+            "percent": 6
+        }
+    ]
+}

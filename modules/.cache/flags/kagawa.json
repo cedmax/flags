@@ -1,0 +1,13 @@
+{
+    "id": "kagawa",
+    "colors": [
+        {
+            "hex": "#005933",
+            "percent": 85
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        }
+    ]
+}

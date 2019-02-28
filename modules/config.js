@@ -1,6 +1,6 @@
 const fetchUsMaps = require("./scripts/fetch-us-maps");
 const fetchAdoption = require("./scripts/fetch-adoption");
-const calculateUsRatio = require("./scripts/calculate-us-ratio");
+const calculateRatio = require("./scripts/calculate-ratio");
 const fetchRatio = require("./scripts/fetch-ratio");
 const fetchName = require("./scripts/fetch-name");
 const fetchMaps = require("./scripts/fetch-maps");
@@ -12,6 +12,7 @@ const mapEndPoints = require("./manual/maps.json");
 const mapITEndPoints = require("./manual/maps-it.json");
 const mapDEEndPoints = require("./manual/maps-de.json");
 const mapESEndPoints = require("./manual/maps-es.json");
+const mapJPEndPoints = require("./manual/maps-jp.json");
 
 module.exports = {
   world: {
@@ -23,7 +24,7 @@ module.exports = {
     maps: fetchMaps(mapEndPoints),
   },
   US: {
-    ratio: calculateUsRatio,
+    ratio: calculateRatio,
     maps: fetchUsMaps,
     "state-songs": addStateSongs,
   },
@@ -35,5 +36,9 @@ module.exports = {
   },
   ES: {
     maps: fetchMaps(mapESEndPoints),
+  },
+  JP: {
+    ratio: calculateRatio,
+    maps: fetchMaps(mapJPEndPoints),
   },
 };

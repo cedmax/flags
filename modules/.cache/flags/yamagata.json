@@ -1,0 +1,13 @@
+{
+    "id": "yamagata",
+    "colors": [
+        {
+            "hex": "#006bbd",
+            "percent": 90
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        }
+    ]
+}

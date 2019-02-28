@@ -1,0 +1,13 @@
+{
+    "id": "akita",
+    "colors": [
+        {
+            "hex": "#990000",
+            "percent": 86
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        }
+    ]
+}

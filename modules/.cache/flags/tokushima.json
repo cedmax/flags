@@ -1,0 +1,13 @@
+{
+    "id": "tokushima",
+    "colors": [
+        {
+            "hex": "#234794",
+            "percent": 80
+        },
+        {
+            "hex": "#fcd400",
+            "percent": 19
+        }
+    ]
+}

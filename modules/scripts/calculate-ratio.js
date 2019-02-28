@@ -1,6 +1,6 @@
 const async = require("async");
 const { loadImage } = require("canvas");
-const manualRatio = require("../manual/ratio-us.json");
+const manualRatio = require("../manual/ratio-calculation.json");
 const helpers = require("./helpers");
 const { gcd } = require("./utilities");
 

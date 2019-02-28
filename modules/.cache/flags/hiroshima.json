@@ -1,0 +1,13 @@
+{
+    "id": "hiroshima",
+    "colors": [
+        {
+            "hex": "#ab3748",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "iwate",
+    "colors": [
+        {
+            "hex": "#145e70",
+            "percent": 93
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

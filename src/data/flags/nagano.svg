@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" 
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="900" height="600" xmlns="http://www.w3.org/2000/svg" version="1.1">
+  <desc>Flag of Nagano</desc>
+  <rect width="900" height="600" fill="#f66637"/>
+  <circle cx="300" cy="300" r="250" fill="white" />
+  <circle cx="150" cy="300" r="275" fill="none" stroke="#f66637" stroke-width="50" />
+  <line x1="0" y1="300" x2="600" y2="300" style="stroke:#f66637;stroke-width:50" />
+</svg>

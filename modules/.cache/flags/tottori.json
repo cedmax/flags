@@ -1,0 +1,13 @@
+{
+    "id": "tottori",
+    "colors": [
+        {
+            "hex": "#2e328c",
+            "percent": 87
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        }
+    ]
+}

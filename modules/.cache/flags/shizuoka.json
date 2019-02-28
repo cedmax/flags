@@ -1,0 +1,17 @@
+{
+    "id": "shizuoka",
+    "colors": [
+        {
+            "hex": "#004a8f",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#f98f00",
+            "percent": 4
+        }
+    ]
+}

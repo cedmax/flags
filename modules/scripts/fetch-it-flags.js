@@ -11,7 +11,7 @@ module.exports = async (unused, callback) => {
 
   const $ = cheerio.load(data);
   const rows = $(".wikitable tr").toArray();
-  console.log(rows.length);
+  
   const results = rows.reduce((results, row) => {
     const tds = $(row)
       .find("td")

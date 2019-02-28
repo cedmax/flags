@@ -1,0 +1,13 @@
+{
+    "id": "kumamoto",
+    "colors": [
+        {
+            "hex": "#7e0000",
+            "percent": 77
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        }
+    ]
+}

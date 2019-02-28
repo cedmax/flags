@@ -1,0 +1,17 @@
+{
+    "id": "kyoto",
+    "colors": [
+        {
+            "hex": "#942b9d",
+            "percent": 85
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 6
+        }
+    ]
+}

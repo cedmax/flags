@@ -1,0 +1,13 @@
+{
+    "id": "gunma",
+    "colors": [
+        {
+            "hex": "#4c0f7b",
+            "percent": 91
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}
