@@ -10,6 +10,7 @@ const List = React.memo(({ isSorted, items, dispatch, active }) => (
       const imgs = {
         flag: require(`../data/flags/${flag.id}.svg`),
         map: require(`../data/maps/${flag.id}.png`),
+        mapThumb: require(`../data/maps/_thumbs/${flag.id}.png`),
       };
 
       return (
