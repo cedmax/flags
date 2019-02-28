@@ -1,0 +1,190 @@
+{
+  "aichi": {
+    "country": "愛知県",
+    "adoption": { "sort": 1950, "text": "1950" }
+  },
+  "akita": {
+    "country": "秋田県",
+    "adoption": { "sort": 1959, "text": "1959" }
+  },
+  "aomori": {
+    "country": "青森県",
+    "adoption": { "sort": 1961, "text": "1961" }
+  },
+  "chiba": {
+    "country": "千葉県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "ehime": {
+    "country": "愛媛県",
+    "adoption": { "sort": 1952, "text": "1952" }
+  },
+  "fukui": {
+    "country": "福井県",
+    "adoption": { "sort": 1952, "text": "1952" }
+  },
+  "fukuoka": {
+    "country": "福岡県",
+    "adoption": { "sort": 1908, "text": "1908" }
+  },
+  "fukushima": {
+    "country": "福島県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "gifu": {
+    "country": "岐阜県",
+    "adoption": { "sort": 1932, "text": "1932" }
+  },
+  "gunma": {
+    "country": "群馬県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "hiroshima": {
+    "country": "広島県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "hokkaido": {
+    "country": "北海道",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "hyogo": {
+    "country": "兵庫県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "ibaraki": {
+    "country": "茨城県",
+    "adoption": { "sort": 1991, "text": "1991" }
+  },
+  "ishikawa": {
+    "country": "石川県",
+    "adoption": { "sort": 1972, "text": "1972" }
+  },
+  "oita": {
+    "country": "大分県",
+    "adoption": { "sort": 1956, "text": "1956" }
+  },
+  "iwate": {
+    "country": "岩手県",
+    "adoption": { "sort": 1965, "text": "1965" }
+  },
+  "kagawa": {
+    "country": "香川県",
+    "adoption": { "sort": 1977, "text": "1977" }
+  },
+  "kagoshima": {
+    "country": "鹿児島県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "kanagawa": {
+    "country": "神奈川県",
+    "adoption": { "sort": 1948, "text": "1948" }
+  },
+  "kochi": {
+    "country": "高知県",
+    "adoption": { "sort": 1953, "text": "1953" }
+  },
+  "kumamoto": {
+    "country": "熊本県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "kyoto": {
+    "country": "京都府",
+    "adoption": { "sort": 1976, "text": "1976" }
+  },
+  "mie": {
+    "country": "三重県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "miyagi": {
+    "country": "宮城県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "miyazaki": {
+    "country": "宮崎県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "nagano": {
+    "country": "長野県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "nagasaki": {
+    "country": "長崎県",
+    "adoption": { "sort": 1991, "text": "1991" }
+  },
+  "nara": {
+    "country": "奈良県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "niigata": {
+    "country": "新潟県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "okayama": {
+    "country": "岡山県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "okinawa": {
+    "country": "沖縄県",
+    "adoption": { "sort": 1972, "text": "1972" }
+  },
+  "saga": {
+    "country": "佐賀県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "saitama": {
+    "country": "埼玉県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "osaka": {
+    "country": "大阪府",
+    "adoption": { "sort": 1984, "text": "1984" }
+  },
+  "shiga": {
+    "country": "滋賀県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "shimane": {
+    "country": "島根県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "shizuoka": {
+    "country": "静岡県",
+    "adoption": { "sort": 1950, "text": "1950" }
+  },
+  "tochigi": {
+    "country": "栃木県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "tokushima": {
+    "country": "徳島県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "tokyo": {
+    "country": "東京都",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "tottori": {
+    "country": "鳥取県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "toyama": {
+    "country": "富山県",
+    "adoption": { "sort": 1989, "text": "1989" }
+  },
+  "wakayama": {
+    "country": "和歌山県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "yamagata": {
+    "country": "山形県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "yamaguchi": {
+    "country": "山口県",
+    "adoption": { "sort": 1962, "text": "1962" }
+  },
+  "yamanashi": {
+    "country": "山梨県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  }
+}

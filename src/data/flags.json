@@ -13883,12 +13883,12 @@
     "JP": [
         {
             "id": "aichi",
-            "country": "Aichi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Aichi (愛知県)",
             "url": "/wiki/aichi_prefecture",
+            "adoption": {
+                "sort": 1950,
+                "text": "1950"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:aichi_in_Japan_(extended).svg"
@@ -13912,12 +13912,12 @@
         },
         {
             "id": "akita",
-            "country": "Akita",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Akita (秋田県)",
             "url": "/wiki/akita_prefecture",
+            "adoption": {
+                "sort": 1959,
+                "text": "1959"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:akita_in_Japan_(extended).svg"
@@ -13941,12 +13941,12 @@
         },
         {
             "id": "aomori",
-            "country": "Aomori",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Aomori (青森県)",
             "url": "/wiki/aomori_prefecture",
+            "adoption": {
+                "sort": 1961,
+                "text": "1961"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:aomori_in_Japan_(extended).svg"
@@ -13970,12 +13970,12 @@
         },
         {
             "id": "chiba",
-            "country": "Chiba",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Chiba (千葉県)",
             "url": "/wiki/chiba_prefecture",
+            "adoption": {
+                "sort": 1963,
+                "text": "1963"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:chiba_in_Japan_(extended).svg"
@@ -14005,12 +14005,12 @@
         },
         {
             "id": "ehime",
-            "country": "Ehime",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Ehime (愛媛県)",
             "url": "/wiki/ehime_prefecture",
+            "adoption": {
+                "sort": 1952,
+                "text": "1952"
+            },
             "ratio": "133:200",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:ehime_in_Japan_(extended).svg"
@@ -14045,12 +14045,12 @@
         },
         {
             "id": "fukui",
-            "country": "Fukui",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Fukui (福井県)",
             "url": "/wiki/fukui_prefecture",
+            "adoption": {
+                "sort": 1952,
+                "text": "1952"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:fukui_in_Japan_(extended).svg"
@@ -14074,12 +14074,12 @@
         },
         {
             "id": "fukuoka",
-            "country": "Fukuoka",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Fukuoka (福岡県)",
             "url": "/wiki/fukuoka_prefecture",
+            "adoption": {
+                "sort": 1908,
+                "text": "1908"
+            },
             "ratio": "128:183",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:fukuoka_in_Japan_(extended).svg"
@@ -14103,12 +14103,12 @@
         },
         {
             "id": "fukushima",
-            "country": "Fukushima",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Fukushima (福島県)",
             "url": "/wiki/fukushima_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:fukushima_in_Japan_(extended).svg"
@@ -14132,12 +14132,12 @@
         },
         {
             "id": "gifu",
-            "country": "Gifu",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Gifu (岐阜県)",
             "url": "/wiki/gifu_prefecture",
+            "adoption": {
+                "sort": 1932,
+                "text": "1932"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:gifu_in_Japan_(extended).svg"
@@ -14161,12 +14161,12 @@
         },
         {
             "id": "gunma",
-            "country": "Gunma",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Gunma (群馬県)",
             "url": "/wiki/gunma_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:gunma_in_Japan_(extended).svg"
@@ -14190,12 +14190,12 @@
         },
         {
             "id": "hiroshima",
-            "country": "Hiroshima",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Hiroshima (広島県)",
             "url": "/wiki/hiroshima_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:hiroshima_in_Japan_(extended).svg"
@@ -14219,12 +14219,12 @@
         },
         {
             "id": "hokkaido",
-            "country": "Hokkaidō",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Hokkaidō (北海道)",
             "url": "/wiki/hokkaidō_prefecture",
+            "adoption": {
+                "sort": 1967,
+                "text": "1967"
+            },
             "ratio": "2:3",
             "map": {},
             "colors": [
@@ -14252,12 +14252,12 @@
         },
         {
             "id": "hyogo",
-            "country": "Hyōgo",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Hyōgo (兵庫県)",
             "url": "/wiki/hyōgo_prefecture",
+            "adoption": {
+                "sort": 1964,
+                "text": "1964"
+            },
             "ratio": "7:10",
             "map": {},
             "colors": [
@@ -14279,12 +14279,12 @@
         },
         {
             "id": "ibaraki",
-            "country": "Ibaraki",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Ibaraki (茨城県)",
             "url": "/wiki/ibaraki_prefecture",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:ibaraki_in_Japan_(extended).svg"
@@ -14308,12 +14308,12 @@
         },
         {
             "id": "ishikawa",
-            "country": "Ishikawa",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Ishikawa (石川県)",
             "url": "/wiki/ishikawa_prefecture",
+            "adoption": {
+                "sort": 1972,
+                "text": "1972"
+            },
             "ratio": "31:44",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:ishikawa_in_Japan_(extended).svg"
@@ -14337,12 +14337,12 @@
         },
         {
             "id": "iwate",
-            "country": "Iwate",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Iwate (岩手県)",
             "url": "/wiki/iwate_prefecture",
+            "adoption": {
+                "sort": 1965,
+                "text": "1965"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:iwate_in_Japan_(extended).svg"
@@ -14366,12 +14366,12 @@
         },
         {
             "id": "kagawa",
-            "country": "Kagawa",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kagawa (香川県)",
             "url": "/wiki/kagawa_prefecture",
+            "adoption": {
+                "sort": 1977,
+                "text": "1977"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:kagawa_in_Japan_(extended).svg"
@@ -14395,12 +14395,12 @@
         },
         {
             "id": "kagoshima",
-            "country": "Kagoshima",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kagoshima (鹿児島県)",
             "url": "/wiki/kagoshima_prefecture",
+            "adoption": {
+                "sort": 1967,
+                "text": "1967"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:kagoshima_in_Japan_(extended).svg"
@@ -14430,13 +14430,13 @@
         },
         {
             "id": "kanagawa",
-            "country": "Kanagawa",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kanagawa (神奈川県)",
             "url": "/wiki/kanagawa_prefecture",
-            "ratio": "2:3",
+            "adoption": {
+                "sort": 1948,
+                "text": "1948"
+            },
+            "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:kanagawa_in_Japan_(extended).svg"
             },
@@ -14459,12 +14459,12 @@
         },
         {
             "id": "kochi",
-            "country": "Kōchi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kōchi (高知県)",
             "url": "/wiki/kōchi_prefecture",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Kochi_in_Japan_(extended).svg"
@@ -14488,12 +14488,12 @@
         },
         {
             "id": "kumamoto",
-            "country": "Kumamoto",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kumamoto (熊本県)",
             "url": "/wiki/kumamoto_prefecture",
+            "adoption": {
+                "sort": 1966,
+                "text": "1966"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:kumamoto_in_Japan_(extended).svg"
@@ -14517,12 +14517,12 @@
         },
         {
             "id": "kyoto",
-            "country": "Kyoto",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Kyoto (京都府)",
             "url": "/wiki/kyoto_prefecture",
+            "adoption": {
+                "sort": 1976,
+                "text": "1976"
+            },
             "ratio": "5:7",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:kyoto_in_Japan_(extended).svg"
@@ -14552,13 +14552,13 @@
         },
         {
             "id": "mie",
-            "country": "Mie",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Mie (三重県)",
             "url": "/wiki/mie_prefecture",
-            "ratio": "2:3",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
+            "ratio": "515:728",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:mie_in_Japan_(extended).svg"
             },
@@ -14581,12 +14581,12 @@
         },
         {
             "id": "miyagi",
-            "country": "Miyagi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Miyagi (宮城県)",
             "url": "/wiki/miyagi_prefecture",
+            "adoption": {
+                "sort": 1966,
+                "text": "1966"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:miyagi_in_Japan_(extended).svg"
@@ -14610,12 +14610,12 @@
         },
         {
             "id": "miyazaki",
-            "country": "Miyazaki",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Miyazaki (宮崎県)",
             "url": "/wiki/miyazaki_prefecture",
+            "adoption": {
+                "sort": 1964,
+                "text": "1964"
+            },
             "ratio": "5:7",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:miyazaki_in_Japan_(extended).svg"
@@ -14639,12 +14639,12 @@
         },
         {
             "id": "nagano",
-            "country": "Nagano",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Nagano (長野県)",
             "url": "/wiki/nagano_prefecture",
+            "adoption": {
+                "sort": 1967,
+                "text": "1967"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:nagano_in_Japan_(extended).svg"
@@ -14668,12 +14668,12 @@
         },
         {
             "id": "nagasaki",
-            "country": "Nagasaki",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Nagasaki (長崎県)",
             "url": "/wiki/nagasaki_prefecture",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:nagasaki_in_Japan_(extended).svg"
@@ -14697,12 +14697,12 @@
         },
         {
             "id": "nara",
-            "country": "Nara",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Nara (奈良県)",
             "url": "/wiki/nara_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:nara_in_Japan_(extended).svg"
@@ -14726,12 +14726,12 @@
         },
         {
             "id": "niigata",
-            "country": "Niigata",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Niigata (新潟県)",
             "url": "/wiki/niigata_prefecture",
+            "adoption": {
+                "sort": 1963,
+                "text": "1963"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:niigata_in_Japan_(extended).svg"
@@ -14755,12 +14755,12 @@
         },
         {
             "id": "oita",
-            "country": "Ōita",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Ōita (大分県)",
             "url": "/wiki/ōita_prefecture",
+            "adoption": {
+                "sort": 1956,
+                "text": "1956"
+            },
             "ratio": "2:3",
             "map": {},
             "colors": [
@@ -14782,12 +14782,12 @@
         },
         {
             "id": "okayama",
-            "country": "Okayama",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Okayama (岡山県)",
             "url": "/wiki/okayama_prefecture",
+            "adoption": {
+                "sort": 1967,
+                "text": "1967"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:okayama_in_Japan_(extended).svg"
@@ -14811,12 +14811,12 @@
         },
         {
             "id": "okinawa",
-            "country": "Okinawa",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Okinawa (沖縄県)",
             "url": "/wiki/okinawa_prefecture",
+            "adoption": {
+                "sort": 1972,
+                "text": "1972"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:okinawa_in_Japan_(extended).svg"
@@ -14840,12 +14840,12 @@
         },
         {
             "id": "osaka",
-            "country": "Ōsaka",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Ōsaka (大阪府)",
             "url": "/wiki/ōsaka_prefecture",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
             "ratio": "2:3",
             "map": {},
             "colors": [
@@ -14867,12 +14867,12 @@
         },
         {
             "id": "saga",
-            "country": "Saga",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Saga (佐賀県)",
             "url": "/wiki/saga_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:saga_in_Japan_(extended).svg"
@@ -14902,12 +14902,12 @@
         },
         {
             "id": "saitama",
-            "country": "Saitama",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Saitama (埼玉県)",
             "url": "/wiki/saitama_prefecture",
+            "adoption": {
+                "sort": 1964,
+                "text": "1964"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:saitama_in_Japan_(extended).svg"
@@ -14931,12 +14931,12 @@
         },
         {
             "id": "shiga",
-            "country": "Shiga",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Shiga (滋賀県)",
             "url": "/wiki/shiga_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:shiga_in_Japan_(extended).svg"
@@ -14960,12 +14960,12 @@
         },
         {
             "id": "shimane",
-            "country": "Shimane",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Shimane (島根県)",
             "url": "/wiki/shimane_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:Shimane_in_Japan_(claimed)_(extended).svg"
@@ -14989,12 +14989,12 @@
         },
         {
             "id": "shizuoka",
-            "country": "Shizuoka",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Shizuoka (静岡県)",
             "url": "/wiki/shizuoka_prefecture",
+            "adoption": {
+                "sort": 1950,
+                "text": "1950"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:shizuoka_in_Japan_(extended).svg"
@@ -15024,12 +15024,12 @@
         },
         {
             "id": "tochigi",
-            "country": "Tochigi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Tochigi (栃木県)",
             "url": "/wiki/tochigi_prefecture",
+            "adoption": {
+                "sort": 1964,
+                "text": "1964"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:tochigi_in_Japan_(extended).svg"
@@ -15053,12 +15053,12 @@
         },
         {
             "id": "tokushima",
-            "country": "Tokushima",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Tokushima (徳島県)",
             "url": "/wiki/tokushima_prefecture",
+            "adoption": {
+                "sort": 1966,
+                "text": "1966"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:tokushima_in_Japan_(extended).svg"
@@ -15082,12 +15082,12 @@
         },
         {
             "id": "tokyo",
-            "country": "Tokyo",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Tokyo (東京都)",
             "url": "/wiki/tokyo_prefecture",
+            "adoption": {
+                "sort": 1964,
+                "text": "1964"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:tokyo_in_Japan_(extended).svg"
@@ -15111,12 +15111,12 @@
         },
         {
             "id": "tottori",
-            "country": "Tottori",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Tottori (鳥取県)",
             "url": "/wiki/tottori_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:tottori_in_Japan_(extended).svg"
@@ -15140,12 +15140,12 @@
         },
         {
             "id": "toyama",
-            "country": "Toyama",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Toyama (富山県)",
             "url": "/wiki/toyama_prefecture",
+            "adoption": {
+                "sort": 1989,
+                "text": "1989"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:toyama_in_Japan_(extended).svg"
@@ -15169,12 +15169,12 @@
         },
         {
             "id": "wakayama",
-            "country": "Wakayama",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Wakayama (和歌山県)",
             "url": "/wiki/wakayama_prefecture",
+            "adoption": {
+                "sort": 1968,
+                "text": "1968"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:wakayama_in_Japan_(extended).svg"
@@ -15198,12 +15198,12 @@
         },
         {
             "id": "yamagata",
-            "country": "Yamagata",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Yamagata (山形県)",
             "url": "/wiki/yamagata_prefecture",
+            "adoption": {
+                "sort": 1963,
+                "text": "1963"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:yamagata_in_Japan_(extended).svg"
@@ -15227,12 +15227,12 @@
         },
         {
             "id": "yamaguchi",
-            "country": "Yamaguchi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Yamaguchi (山口県)",
             "url": "/wiki/yamaguchi_prefecture",
+            "adoption": {
+                "sort": 1962,
+                "text": "1962"
+            },
             "ratio": "2:3",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:yamaguchi_in_Japan_(extended).svg"
@@ -15256,12 +15256,12 @@
         },
         {
             "id": "yamanashi",
-            "country": "Yamanashi",
-            "adoption": {
-                "sorting": 0,
-                "text": ""
-            },
+            "country": "Yamanashi (山梨県)",
             "url": "/wiki/yamanashi_prefecture",
+            "adoption": {
+                "sort": 1966,
+                "text": "1966"
+            },
             "ratio": "7:10",
             "map": {
                 "credits": "https://commons.wikimedia.org/wiki/File:yamanashi_in_Japan_(extended).svg"

@@ -2,6 +2,7 @@ const cheerio = require("cheerio");
 const helpers = require("./helpers");
 const axios = require("axios");
 const { cleanUrl, generateId } = require("./utilities");
+const manualData = require("../manual/adoption-country-jp.json");
 
 const validSections = ["Prefectural flags"];
 
@@ -58,15 +59,14 @@ module.exports = async (unused, callback) => {
             .replace(/\/([0-9]+)px-(.)+/gi, "")
             .trim();
 
+        const { country: countryInJapanese, adoption } = manualData[id];
+
         return {
           id,
-          country,
+          country: `${country} (${countryInJapanese})`,
           image,
-          adoption: {
-            sorting: 0,
-            text: "",
-          },
           url,
+          adoption,
         };
       });
       results = results.concat(flags).filter(item => item);
