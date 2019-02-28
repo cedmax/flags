@@ -35,11 +35,7 @@ const AppUI = ({ state }) => (
         filters={state.filters}
       />
     </nav>
-    {state.loading ? (
-      <div className="spinner-container">
-        <Loader />
-      </div>
-    ) : (
+    {!state.loading && (
       <Fragment>
         <NavControls
           total={state.filtered.length}
