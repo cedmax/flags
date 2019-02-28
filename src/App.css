@@ -280,7 +280,7 @@ button-primary:active, button-primary.active {
   justify-content: left;
   align-items: center;
   background: rgba(255,255,255, .4);
-  margin-bottom: 1rem;
+  margin-bottom: auto;
 }
 
 .flag-map {
@@ -411,7 +411,7 @@ a.play::before {
 
 .back dl {
   width: 85%;
-  margin: 0 auto
+  margin: 1rem auto auto;
 }
 
 .back dt {
