@@ -42,11 +42,15 @@ const MapLink = withContext(({ dispatch, url, id, country }) => (
   </Link>
 ));
 
-const DetailsHeader = React.memo(({ imgs, flag, active }) => (
+const DetailsHeader = React.memo(({ flag, active }) => (
   <div className="flag-header">
     <div className="flag-map">
       {active && (
-        <MapLink url={imgs.mapThumb} id={flag.id} country={flag.country} />
+        <MapLink
+          url={require(`../data/maps/_thumbs/${flag.id}.png`)}
+          id={flag.id}
+          country={flag.country}
+        />
       )}
     </div>
     <div className="flag-title">

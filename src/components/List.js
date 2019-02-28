@@ -7,12 +7,7 @@ import { withContext } from "../store/context";
 const List = React.memo(({ isSorted, items, dispatch, active }) => (
   <ul className="list">
     {items.map((flag, i) => {
-      const imgs = {
-        flag: require(`../data/flags/${flag.id}.svg`),
-        map: require(`../data/maps/${flag.id}.png`),
-        mapThumb: require(`../data/maps/_thumbs/${flag.id}.png`),
-      };
-
+      const flagUrl = require(`../data/flags/${flag.id}.svg`);
       return (
         <Fragment key={flag.id}>
           {(flag.id === "abkhazia" || flag.id === "american-samoa") &&
@@ -25,8 +20,12 @@ const List = React.memo(({ isSorted, items, dispatch, active }) => (
               onFocusCapture={() => dispatch(action("activate", i))}
             >
               <div className="flipper">
-                <ListItemFront svgUrl={imgs.flag} country={flag.country} />
-                <ListItemBack active={active === i} imgs={imgs} flag={flag} />
+                <ListItemFront svgUrl={flagUrl} country={flag.country} />
+                <ListItemBack
+                  active={active === i}
+                  svgUrl={flagUrl}
+                  flag={flag}
+                />
               </div>
             </div>
           </li>

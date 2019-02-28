@@ -3,14 +3,14 @@ import DetailsList from "./DetailsList";
 import DetailsHeader from "./DetailsHeader";
 import { withContext } from "../store/context";
 
-const ListItemBack = React.memo(({ view, imgs, flag, active }) => (
+const ListItemBack = React.memo(({ view, svgUrl, flag, active }) => (
   <div className="back">
     <div
       style={{
-        backgroundImage: `url(${imgs.flag})`,
+        backgroundImage: `url(${svgUrl})`,
       }}
     >
-      <DetailsHeader imgs={imgs} flag={flag} active={active} />
+      <DetailsHeader flag={flag} active={active} />
       <DetailsList
         anthemTitle={view === "US" ? "State Song" : "Anthem"}
         flag={flag}
