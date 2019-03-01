@@ -30,7 +30,7 @@ export const getInitialState = (data, view) => ({
   playing: "",
   allFlags: { ...data },
   view,
-  size: "medium",
+  size: "small",
   filtered: data[view || "world"],
   sorters: ["name", "adoption", "ratio"],
   availableFilters: getFilters(data[view || "world"], "tags"),
