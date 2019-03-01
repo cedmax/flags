@@ -6,7 +6,6 @@ export default React.memo(({ svgUrl, country }) => (
     <figure>
       <LazyLoadImage
         placeholder={<div className="spinner spinner-small" />}
-        width={180}
         src={svgUrl}
         alt={`Flag of ${country}`}
       />

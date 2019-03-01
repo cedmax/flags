@@ -4,8 +4,8 @@ import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 import { withContext } from "../store/context";
 
-const List = React.memo(({ isSorted, items, dispatch, active }) => (
-  <ul className="list">
+const List = React.memo(({ isSorted, size, items, dispatch, active }) => (
+  <ul className={`list ${size}`}>
     {items.map((flag, i) => {
       const flagUrl = require(`../data/flags/${flag.id}.svg`);
       return (

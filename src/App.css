@@ -32,12 +32,27 @@ body{
 }
 
 .list {
+  --card-size: 240px;
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  grid-template-columns: repeat(auto-fill, 240px);
+  grid-template-columns: repeat(auto-fill, var(--card-size));
   justify-content: space-around;
+}
+
+.list.small {
+  --card-size: 200px;
+}
+
+.list.large {
+  --card-size: 290px;
+}
+
+@media (min-width: 640px) {
+  .list.large {
+    --card-size: 350px;
+  }  
 }
 
 .list li:focus-within, .list li:hover {
@@ -62,8 +77,8 @@ body{
 	}
 
 .flip-container, .front, .back {
-	width: 240px;
-	height: 240px;
+	width: var(--card-size);
+	height: var(--card-size);
 }
 
 .front figure {
@@ -73,7 +88,15 @@ body{
   justify-content: center;
   text-align: center;
   margin: auto;
-  line-height: 2
+}
+
+figcaption {
+  line-height: 1;
+  padding-top: .3rem;
+}
+
+.front img {
+  width: calc(100% - 20px);
 }
 
 /* flip speed goes here */
@@ -121,7 +144,7 @@ body{
   background-blend-mode: color;
   padding-bottom: 1rem;
   background-position: 50% 50%;
-  min-height: 240px;
+  min-height: var(--card-size);
   display: flex;
   flex-direction: column;
   justify-content: center;

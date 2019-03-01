@@ -5,8 +5,8 @@ import Header from "./components/Header";
 import Anthem from "./components/Anthem";
 import NavSorter from "./components/NavSorter";
 import Link from "./components/Link";
-import Loader from "./components/Loader";
 import NavSearch from "./components/NavSearch";
+import NavSize from "./components/NavSize";
 import NavContinents from "./components/NavContinents";
 import NavFilters from "./components/NavFilters";
 import { ReactComponent as Github } from "./data/octocat.svg";
@@ -23,6 +23,7 @@ const AppUI = ({ state }) => (
     <nav>
       <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
       <NavSearch query={state.q} />
+      <NavSize size={state.size} />
       <br />
       <NavContinents
         isLoading={state.loading}
@@ -47,6 +48,7 @@ const AppUI = ({ state }) => (
           }
         />
         <List
+          size={state.size}
           active={state.active}
           items={state.filtered}
           isSorted={!!state.sortBy || !!state.reversed}

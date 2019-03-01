@@ -30,6 +30,7 @@ export const getInitialState = (data, view) => ({
   playing: "",
   allFlags: { ...data },
   view,
+  size: "medium",
   filtered: data[view || "world"],
   sorters: ["name", "adoption", "ratio"],
   availableFilters: getFilters(data[view || "world"], "tags"),
@@ -185,6 +186,10 @@ export const reducers = createReducers({
     detail: null,
     detailView: "",
   }),
+  updateSize: (state, payload) => ({
+    ...state,
+    size: payload,
+  }),
   updateFromUrl: (state, payload) => {
     let newState = state;
 
@@ -216,6 +221,6 @@ export const reducers = createReducers({
       payload = "";
     }
     const newState = getInitialState(allFlags, payload);
-    return { ...newState, loading: false };
+    return { ...newState, size: state.size, loading: false };
   },
 });
