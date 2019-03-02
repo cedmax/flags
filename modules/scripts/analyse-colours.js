@@ -35,7 +35,7 @@ module.exports = (flags, callback) =>
 
         bar.stop();
         let totalPx = pixels.length;
-        if (id === "nepal") {
+        if (id === "nepal" || id === "ohio") {
           totalPx = totalPx - imageData[`r0g0b0`];
           delete imageData[`r0g0b0`];
         }
