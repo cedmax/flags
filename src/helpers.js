@@ -2,7 +2,12 @@ import querystring from "query-string";
 const slugify = require("slugify");
 
 export const getId = (string = "") =>
-  slugify(string.replace("Ō", "o").replace("ō", "o")).toLowerCase();
+  slugify(
+    string
+      .replace("'", "-")
+      .replace("Ō", "o")
+      .replace("ō", "o")
+  ).toLowerCase();
 
 const clean = obj =>
   Object.keys(obj)

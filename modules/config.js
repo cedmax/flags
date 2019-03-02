@@ -41,4 +41,7 @@ module.exports = {
     ratio: calculateRatio,
     maps: fetchMaps(mapJPEndPoints),
   },
+  all: {
+    ratio: calculateRatio,
+  },
 };

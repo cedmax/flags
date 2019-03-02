@@ -2,7 +2,7 @@ const async = require("async");
 const fs = require("fs");
 const helpers = require("./helpers");
 const { convertToHex, getPixels } = require("./utilities");
-
+const cliProgress = require("cli-progress");
 const path = `${process.cwd()}/modules/.cache/flags`;
 
 module.exports = (flags, callback) =>
@@ -10,18 +10,30 @@ module.exports = (flags, callback) =>
     flags,
     3,
     async flag => {
-      const { id } = flag;
+      const { id, belongsTo } = flag;
       const cacheFile = `${path}/${id}.json`;
       if (fs.existsSync(cacheFile)) {
         return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));
       } else {
-        const pixels = await getPixels(id);
-        const imageData = pixels.reduce((acc, p) => {
+        const bar = new cliProgress.Bar(
+          {
+            format: `[{bar}]  {percentage}% | ${flag.country}${
+              flag.belongsTo ? ` | ${flag.belongsTo}` : ""
+            }`,
+          },
+          cliProgress.Presets.shades_classic
+        );
+        bar.start(1, 0);
+        const pixels = await getPixels(id, belongsTo);
+        bar.setTotal(pixels.length);
+        const imageData = pixels.reduce((acc, p, i) => {
           const key = `r${p.color.r}g${p.color.g}b${p.color.b}`;
           acc[key] = (acc[key] || 0) + 1;
+          bar.update(i);
           return acc;
         }, {});
 
+        bar.stop();
         let totalPx = pixels.length;
         if (id === "nepal") {
           totalPx = totalPx - imageData[`r0g0b0`];

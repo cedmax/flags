@@ -2,9 +2,7 @@ const async = require("async");
 const { loadImage } = require("canvas");
 const manualRatio = require("../manual/ratio-calculation.json");
 const helpers = require("./helpers");
-const { gcd } = require("./utilities");
-
-const path = `${process.cwd()}/src/data/flags`;
+const { gcd, getPath } = require("./utilities");
 
 module.exports = (flags, callback) =>
   async.mapLimit(
@@ -18,7 +16,7 @@ module.exports = (flags, callback) =>
         };
       }
 
-      const file = `${path}/${flag.id}.svg`;
+      const file = `${getPath(process.cwd(), flag.belongsTo)}/${flag.id}.svg`;
       const { width, height } = await loadImage(file);
       const d = gcd(width, height);
       return {

@@ -46,6 +46,9 @@ const generateHTML = (html, data) => {
 
 const consolidate = group => flags =>
   new Promise(resolve => {
+    if (group === "ALL") {
+      return resolve();
+    }
     const dataKey = group || "world";
     let data = { [dataKey]: flags };
     const html = fs.readFileSync(`${path}/public/index.html`);

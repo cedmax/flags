@@ -4,7 +4,37 @@ const axios = require("axios");
 const { cleanUrl, generateId } = require("./utilities");
 const manualData = require("../manual/ratio-adoption-name-es.json");
 
-const skip = ["See also", "Footnotes"];
+const skip = [
+  "Austria",
+  "Belgium",
+  "Bosnia and Herzegovina",
+  "Brunei",
+  "Comoros",
+  "Georgia",
+  "Germany",
+  "India",
+  "Iraq",
+  "Italy",
+  "Japan",
+  "Mexico",
+  "New Zealand",
+  "Palestine",
+  "People's Republic of China",
+  "Portugal",
+  "Russia",
+  "Saint Kitts and Nevis",
+  "Saudi Arabia",
+  "Serbia",
+  "Singapore",
+  "Slovakia",
+  "South Africa",
+  "Spain",
+  "Tanzania",
+  "Thailand",
+  "Uzbekistan",
+  "See also",
+  "Footnotes",
+];
 
 module.exports = async (unused, callback) => {
   const { data } = await axios.get(
@@ -15,7 +45,11 @@ module.exports = async (unused, callback) => {
   const sectionTitles = $("h2").toArray();
   const results = sectionTitles.reduce((results, title) => {
     const $title = $(title);
-    const titleContent = $title.find(".mw-headline").text();
+    const titleContent = $title
+      .find(".mw-headline")
+      .text()
+      .trim();
+
     if (!skip.includes(titleContent)) {
       let $container = $($title.nextAll("ul, .columns").get(0));
       const flagContainers = $container.find("li").toArray();
@@ -33,7 +67,7 @@ module.exports = async (unused, callback) => {
           .replace(/\[(.)+\]/g, "")
           .trim();
 
-        let id = generateId(country);
+        let id = generateId(country).replace("valle-d-aosta", "aosta-valley");
 
         let url = cleanUrl($country.attr("href") || "");
 

@@ -3,14 +3,19 @@ const { createCanvas, loadImage } = require("canvas");
 const slugify = require("slugify");
 
 const generateId = string =>
-  slugify(string.replace("Ō", "o").replace("ō", "o")).toLowerCase();
+  slugify(
+    string
+      .replace("'", "-")
+      .replace("Ō", "o")
+      .replace("ō", "o")
+  ).toLowerCase();
 
 exports.generateId = generateId;
-exports.getPath = (path, subfolder) =>
+const getPath = (path, subfolder) =>
   subfolder
     ? `${path}/src/data/flags/${generateId(subfolder)}`
     : `${path}/src/data/flags`;
-
+exports.getPath = getPath;
 exports.cleanUrl = string => string.replace("_the_", "_").toLowerCase();
 
 const rgbToHex = function(rgb) {
@@ -49,13 +54,23 @@ exports.classifyColor = hsv => {
 const gcd = (a, b) => (b === 0 ? a : gcd(b, a % b));
 exports.gcd = gcd;
 
-const path = `${process.cwd()}/src/data/flags`;
-exports.getPixels = async id => {
-  const file = `${path}/${id}.svg`;
-  const image = await loadImage(file);
-  const canvas = createCanvas(image.width, image.height);
+exports.getPixels = async (id, subfolder) => {
+  try {
+    const file = `${getPath(process.cwd(), subfolder)}/${id}.svg`;
+    const image = await loadImage(file);
+    let { width, height } = image;
+    if (width > 2500 || height > 2500) {
+      height = height / 2;
+      width = width / 2;
+    }
+    const canvas = createCanvas(width, height);
 
-  const ctx = canvas.getContext("2d");
-  ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
-  return parse(ctx.getImageData(0, 0, canvas.width, canvas.height));
+    const ctx = canvas.getContext("2d");
+    ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
+    const data = ctx.getImageData(0, 0, canvas.width, canvas.height);
+    return parse(data);
+  } catch (e) {
+    console.log("PROBLEM WITH", id, subfolder);
+    throw e;
+  }
 };
