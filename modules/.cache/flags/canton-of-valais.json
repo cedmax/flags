@@ -1,0 +1,17 @@
+{
+    "id": "canton-of-valais",
+    "colors": [
+        {
+            "hex": "#e8423f",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#010202",
+            "percent": 6
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "falcon",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 76
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 14
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        }
+    ]
+}

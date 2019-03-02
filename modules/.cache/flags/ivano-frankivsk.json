@@ -1,0 +1,29 @@
+{
+    "id": "ivano-frankivsk",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 45
+        },
+        {
+            "hex": "#373535",
+            "percent": 19
+        },
+        {
+            "hex": "#cc0000",
+            "percent": 8
+        },
+        {
+            "hex": "#000000",
+            "percent": 8
+        },
+        {
+            "hex": "#006699",
+            "percent": 8
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 8
+        }
+    ]
+}

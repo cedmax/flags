@@ -1,0 +1,17 @@
+{
+    "id": "canton-of-neuchatel",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 35
+        },
+        {
+            "hex": "#16a74e",
+            "percent": 33
+        },
+        {
+            "hex": "#e8423f",
+            "percent": 31
+        }
+    ]
+}

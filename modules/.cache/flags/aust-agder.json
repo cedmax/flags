@@ -1,0 +1,13 @@
+{
+    "id": "aust-agder",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 60
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 40
+        }
+    ]
+}

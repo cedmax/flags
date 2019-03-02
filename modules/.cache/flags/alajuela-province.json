@@ -1,0 +1,29 @@
+{
+    "id": "alajuela-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 90
+        },
+        {
+            "hex": "#eac102",
+            "percent": 2
+        },
+        {
+            "hex": "#87cdff",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        },
+        {
+            "hex": "#e7e7e7",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        }
+    ]
+}

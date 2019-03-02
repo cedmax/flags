@@ -1,0 +1,29 @@
+{
+    "id": "lofa-county",
+    "colors": [
+        {
+            "hex": "#006633",
+            "percent": 82
+        },
+        {
+            "hex": "#4186b1",
+            "percent": 8
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#996600",
+            "percent": 2
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

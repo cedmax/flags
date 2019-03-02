@@ -1,0 +1,25 @@
+{
+    "id": "karlovy-vary-region",
+    "colors": [
+        {
+            "hex": "#162ad6",
+            "percent": 42
+        },
+        {
+            "hex": "#ba2b1a",
+            "percent": 35
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#ffc800",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "leinster",
+    "colors": [
+        {
+            "hex": "#003d07",
+            "percent": 88
+        },
+        {
+            "hex": "#f3ae00",
+            "percent": 6
+        },
+        {
+            "hex": "#c37b24",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

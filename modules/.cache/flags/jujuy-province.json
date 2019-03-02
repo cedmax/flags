@@ -1,0 +1,29 @@
+{
+    "id": "jujuy-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 82
+        },
+        {
+            "hex": "#75aadb",
+            "percent": 6
+        },
+        {
+            "hex": "#00923f",
+            "percent": 3
+        },
+        {
+            "hex": "#fcbf49",
+            "percent": 2
+        },
+        {
+            "hex": "#ef9ba0",
+            "percent": 2
+        },
+        {
+            "hex": "#da251d",
+            "percent": 1
+        }
+    ]
+}

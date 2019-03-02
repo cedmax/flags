@@ -1,0 +1,17 @@
+{
+    "id": "azad-kashmir",
+    "colors": [
+        {
+            "hex": "#01411c",
+            "percent": 51
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        },
+        {
+            "hex": "#ff9900",
+            "percent": 19
+        }
+    ]
+}

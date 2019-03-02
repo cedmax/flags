@@ -1,0 +1,21 @@
+{
+    "id": "fejer",
+    "colors": [
+        {
+            "hex": "#fcef3c",
+            "percent": 40
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 40
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 5
+        }
+    ]
+}

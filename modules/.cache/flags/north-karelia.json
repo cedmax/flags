@@ -1,0 +1,17 @@
+{
+    "id": "north-karelia",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 52
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#ffe700",
+            "percent": 4
+        }
+    ]
+}

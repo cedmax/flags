@@ -1,0 +1,25 @@
+{
+    "id": "mykolaiv",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 26
+        },
+        {
+            "hex": "#005bbb",
+            "percent": 23
+        },
+        {
+            "hex": "#e1b000",
+            "percent": 1
+        },
+        {
+            "hex": "#d7b73b",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-ticino",
+    "colors": [
+        {
+            "hex": "#e8423f",
+            "percent": 50
+        },
+        {
+            "hex": "#268bcc",
+            "percent": 50
+        }
+    ]
+}

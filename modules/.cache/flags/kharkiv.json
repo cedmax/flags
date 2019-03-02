@@ -1,0 +1,17 @@
+{
+    "id": "kharkiv",
+    "colors": [
+        {
+            "hex": "#cf1163",
+            "percent": 89
+        },
+        {
+            "hex": "#ffdd00",
+            "percent": 3
+        },
+        {
+            "hex": "#009640",
+            "percent": 3
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "guaviare",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 34
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        }
+    ]
+}

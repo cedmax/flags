@@ -1,0 +1,13 @@
+{
+    "id": "abu-dhabi",
+    "colors": [
+        {
+            "hex": "#bf0000",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

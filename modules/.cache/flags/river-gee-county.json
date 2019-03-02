@@ -1,0 +1,45 @@
+{
+    "id": "river-gee-county",
+    "colors": [
+        {
+            "hex": "#006600",
+            "percent": 59
+        },
+        {
+            "hex": "#000099",
+            "percent": 22
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#004d00",
+            "percent": 2
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#003300",
+            "percent": 1
+        },
+        {
+            "hex": "#330000",
+            "percent": 1
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 1
+        }
+    ]
+}

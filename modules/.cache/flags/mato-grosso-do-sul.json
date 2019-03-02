@@ -1,0 +1,21 @@
+{
+    "id": "mato-grosso-do-sul",
+    "colors": [
+        {
+            "hex": "#6699fe",
+            "percent": 63
+        },
+        {
+            "hex": "#00923f",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 2
+        }
+    ]
+}

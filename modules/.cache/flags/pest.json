@@ -1,0 +1,21 @@
+{
+    "id": "pest",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 47
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 45
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 1
+        }
+    ]
+}

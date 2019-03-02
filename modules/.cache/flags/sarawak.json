@@ -1,0 +1,17 @@
+{
+    "id": "sarawak",
+    "colors": [
+        {
+            "hex": "#fcd116",
+            "percent": 48
+        },
+        {
+            "hex": "#000000",
+            "percent": 25
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 25
+        }
+    ]
+}

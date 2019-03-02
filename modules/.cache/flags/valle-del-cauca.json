@@ -1,0 +1,17 @@
+{
+    "id": "valle-del-cauca",
+    "colors": [
+        {
+            "hex": "#89c5e3",
+            "percent": 40
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 40
+        },
+        {
+            "hex": "#e7e7e7",
+            "percent": 20
+        }
+    ]
+}

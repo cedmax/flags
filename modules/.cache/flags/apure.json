@@ -1,0 +1,29 @@
+{
+    "id": "apure",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 29
+        },
+        {
+            "hex": "#008033",
+            "percent": 29
+        },
+        {
+            "hex": "#00247d",
+            "percent": 22
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        },
+        {
+            "hex": "#fefefe",
+            "percent": 1
+        },
+        {
+            "hex": "#ffed00",
+            "percent": 1
+        }
+    ]
+}

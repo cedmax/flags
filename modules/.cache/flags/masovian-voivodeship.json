@@ -1,0 +1,21 @@
+{
+    "id": "masovian-voivodeship",
+    "colors": [
+        {
+            "hex": "#e60d2e",
+            "percent": 81
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#e6b012",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "brittany",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#000000",
+            "percent": 49
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "vaupes",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 48
+        },
+        {
+            "hex": "#034418",
+            "percent": 2
+        }
+    ]
+}

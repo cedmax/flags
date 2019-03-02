@@ -1,0 +1,13 @@
+{
+    "id": "nord-trondelag",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 83
+        },
+        {
+            "hex": "#fbdf40",
+            "percent": 17
+        }
+    ]
+}

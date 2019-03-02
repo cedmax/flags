@@ -1,0 +1,25 @@
+{
+    "id": "podkarpackie-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#48a5f7",
+            "percent": 43
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 5
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd300",
+            "percent": 1
+        }
+    ]
+}

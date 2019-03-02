@@ -1,0 +1,13 @@
+{
+    "id": "volyn",
+    "colors": [
+        {
+            "hex": "#f01414",
+            "percent": 72
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        }
+    ]
+}

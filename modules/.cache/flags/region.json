@@ -1,0 +1,17 @@
+{
+    "id": "region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 58
+        },
+        {
+            "hex": "#07adeb",
+            "percent": 38
+        },
+        {
+            "hex": "#990000",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "talas-region",
+    "colors": [
+        {
+            "hex": "#da2724",
+            "percent": 80
+        },
+        {
+            "hex": "#1f63a5",
+            "percent": 8
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

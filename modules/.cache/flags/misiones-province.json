@@ -1,0 +1,17 @@
+{
+    "id": "misiones-province",
+    "colors": [
+        {
+            "hex": "#dd0000",
+            "percent": 33
+        },
+        {
+            "hex": "#003893",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

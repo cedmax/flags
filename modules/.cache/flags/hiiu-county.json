@@ -1,0 +1,21 @@
+{
+    "id": "hiiu-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#d9d9d9",
+            "percent": 5
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 1
+        }
+    ]
+}

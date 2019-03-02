@@ -1,0 +1,25 @@
+{
+    "id": "rivne",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 47
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 22
+        },
+        {
+            "hex": "#005bbb",
+            "percent": 10
+        },
+        {
+            "hex": "#ffd300",
+            "percent": 9
+        },
+        {
+            "hex": "#d20000",
+            "percent": 8
+        }
+    ]
+}

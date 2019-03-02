@@ -1,0 +1,25 @@
+{
+    "id": "la-pampa-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 64
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#74aada",
+            "percent": 1
+        },
+        {
+            "hex": "#80b3ff",
+            "percent": 1
+        },
+        {
+            "hex": "#b8c59a",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "lodz-voivodeship",
+    "colors": [
+        {
+            "hex": "#bd2910",
+            "percent": 59
+        },
+        {
+            "hex": "#ffe701",
+            "percent": 40
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "piaui",
+    "colors": [
+        {
+            "hex": "#56a134",
+            "percent": 45
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 40
+        },
+        {
+            "hex": "#0b1097",
+            "percent": 13
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

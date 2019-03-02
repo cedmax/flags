@@ -1,0 +1,17 @@
+{
+    "id": "curacao",
+    "colors": [
+        {
+            "hex": "#002b7f",
+            "percent": 86
+        },
+        {
+            "hex": "#f9e814",
+            "percent": 13
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

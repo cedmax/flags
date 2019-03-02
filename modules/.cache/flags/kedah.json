@@ -1,0 +1,17 @@
+{
+    "id": "kedah",
+    "colors": [
+        {
+            "hex": "#d7111b",
+            "percent": 96
+        },
+        {
+            "hex": "#ffec00",
+            "percent": 2
+        },
+        {
+            "hex": "#369d27",
+            "percent": 1
+        }
+    ]
+}

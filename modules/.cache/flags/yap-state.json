@@ -1,0 +1,13 @@
+{
+    "id": "yap-state",
+    "colors": [
+        {
+            "hex": "#006aa9",
+            "percent": 92
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

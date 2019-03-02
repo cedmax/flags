@@ -1,0 +1,21 @@
+{
+    "id": "metropolitan-(of-santiago)",
+    "colors": [
+        {
+            "hex": "#585867",
+            "percent": 87
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 3
+        },
+        {
+            "hex": "#0035ad",
+            "percent": 3
+        }
+    ]
+}

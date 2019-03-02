@@ -1,0 +1,13 @@
+{
+    "id": "tolima",
+    "colors": [
+        {
+            "hex": "#6d090d",
+            "percent": 50
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 50
+        }
+    ]
+}

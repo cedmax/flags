@@ -1,0 +1,13 @@
+{
+    "id": "pirkanmaa",
+    "colors": [
+        {
+            "hex": "#ffff00",
+            "percent": 75
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 25
+        }
+    ]
+}

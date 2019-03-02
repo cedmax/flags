@@ -1,0 +1,25 @@
+{
+    "id": "somogy",
+    "colors": [
+        {
+            "hex": "#fcef3c",
+            "percent": 42
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 39
+        },
+        {
+            "hex": "#e20909",
+            "percent": 2
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

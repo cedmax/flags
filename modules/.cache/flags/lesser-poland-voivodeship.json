@@ -1,0 +1,17 @@
+{
+    "id": "lesser-poland-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 40
+        },
+        {
+            "hex": "#ff0033",
+            "percent": 40
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 20
+        }
+    ]
+}

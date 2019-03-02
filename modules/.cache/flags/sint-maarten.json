@@ -1,0 +1,25 @@
+{
+    "id": "sint-maarten",
+    "colors": [
+        {
+            "hex": "#dc171d",
+            "percent": 40
+        },
+        {
+            "hex": "#012a87",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        },
+        {
+            "hex": "#f9d90f",
+            "percent": 1
+        },
+        {
+            "hex": "#62afe1",
+            "percent": 1
+        }
+    ]
+}

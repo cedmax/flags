@@ -1,0 +1,21 @@
+{
+    "id": "baranya",
+    "colors": [
+        {
+            "hex": "#5ab532",
+            "percent": 81
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 8
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

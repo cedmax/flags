@@ -1,0 +1,17 @@
+{
+    "id": "canton-of-geneva",
+    "colors": [
+        {
+            "hex": "#ffd730",
+            "percent": 37
+        },
+        {
+            "hex": "#e8423f",
+            "percent": 34
+        },
+        {
+            "hex": "#010202",
+            "percent": 22
+        }
+    ]
+}

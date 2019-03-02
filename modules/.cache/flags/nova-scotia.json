@@ -1,0 +1,21 @@
+{
+    "id": "nova-scotia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 58
+        },
+        {
+            "hex": "#0047b6",
+            "percent": 35
+        },
+        {
+            "hex": "#fdd44f",
+            "percent": 3
+        },
+        {
+            "hex": "#d21034",
+            "percent": 1
+        }
+    ]
+}

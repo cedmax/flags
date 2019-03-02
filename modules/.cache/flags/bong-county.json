@@ -1,0 +1,25 @@
+{
+    "id": "bong-county",
+    "colors": [
+        {
+            "hex": "#ff9900",
+            "percent": 48
+        },
+        {
+            "hex": "#ff3366",
+            "percent": 43
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

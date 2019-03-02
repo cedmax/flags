@@ -1,0 +1,13 @@
+{
+    "id": "bishkek-city",
+    "colors": [
+        {
+            "hex": "#0068ac",
+            "percent": 75
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        }
+    ]
+}

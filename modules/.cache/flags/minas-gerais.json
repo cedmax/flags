@@ -1,0 +1,17 @@
+{
+    "id": "minas-gerais",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 88
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 10
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

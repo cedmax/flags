@@ -1,0 +1,29 @@
+{
+    "id": "kingdom-of-buganda",
+    "colors": [
+        {
+            "hex": "#003cc8",
+            "percent": 66
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#f7da4e",
+            "percent": 2
+        },
+        {
+            "hex": "#f7da4d",
+            "percent": 1
+        },
+        {
+            "hex": "#eba12b",
+            "percent": 1
+        },
+        {
+            "hex": "#84088c",
+            "percent": 1
+        }
+    ]
+}

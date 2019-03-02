@@ -1,0 +1,17 @@
+{
+    "id": "kingdom-of-busoga",
+    "colors": [
+        {
+            "hex": "#0000ff",
+            "percent": 33
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 33
+        },
+        {
+            "hex": "#800000",
+            "percent": 33
+        }
+    ]
+}

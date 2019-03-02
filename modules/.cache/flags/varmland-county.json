@@ -1,0 +1,21 @@
+{
+    "id": "varmland-county",
+    "colors": [
+        {
+            "hex": "#eeeeee",
+            "percent": 62
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 30
+        },
+        {
+            "hex": "#d40000",
+            "percent": 2
+        },
+        {
+            "hex": "#ededed",
+            "percent": 1
+        }
+    ]
+}

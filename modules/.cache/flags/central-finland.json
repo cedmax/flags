@@ -1,0 +1,13 @@
+{
+    "id": "central-finland",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 75
+        },
+        {
+            "hex": "#000000",
+            "percent": 21
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "lublin-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 31
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 31
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

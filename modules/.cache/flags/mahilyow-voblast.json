@@ -1,0 +1,25 @@
+{
+    "id": "mahilyow-voblast",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 69
+        },
+        {
+            "hex": "#ffcb00",
+            "percent": 15
+        },
+        {
+            "hex": "#50add7",
+            "percent": 3
+        },
+        {
+            "hex": "#1b1918",
+            "percent": 2
+        },
+        {
+            "hex": "#00923f",
+            "percent": 2
+        }
+    ]
+}

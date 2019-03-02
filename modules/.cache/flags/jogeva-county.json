@@ -1,0 +1,21 @@
+{
+    "id": "jogeva-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 2
+        },
+        {
+            "hex": "#009731",
+            "percent": 2
+        }
+    ]
+}

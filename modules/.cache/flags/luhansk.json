@@ -1,0 +1,21 @@
+{
+    "id": "luhansk",
+    "colors": [
+        {
+            "hex": "#2f2f92",
+            "percent": 95
+        },
+        {
+            "hex": "#c09f60",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#da231d",
+            "percent": 1
+        }
+    ]
+}

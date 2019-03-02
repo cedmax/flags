@@ -1,0 +1,21 @@
+{
+    "id": "merida",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 45
+        },
+        {
+            "hex": "#008033",
+            "percent": 25
+        },
+        {
+            "hex": "#74acdf",
+            "percent": 25
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 5
+        }
+    ]
+}

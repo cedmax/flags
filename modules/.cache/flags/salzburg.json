@@ -1,0 +1,13 @@
+{
+    "id": "salzburg",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

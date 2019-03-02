@@ -1,0 +1,13 @@
+{
+    "id": "oppland",
+    "colors": [
+        {
+            "hex": "#00cd0d",
+            "percent": 79
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        }
+    ]
+}

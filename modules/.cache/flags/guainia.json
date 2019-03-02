@@ -1,0 +1,17 @@
+{
+    "id": "guainia",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 33
+        },
+        {
+            "hex": "#078930",
+            "percent": 33
+        }
+    ]
+}

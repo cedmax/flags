@@ -1,0 +1,21 @@
+{
+    "id": "lviv",
+    "colors": [
+        {
+            "hex": "#00a0e3",
+            "percent": 85
+        },
+        {
+            "hex": "#ffcb00",
+            "percent": 8
+        },
+        {
+            "hex": "#8a7258",
+            "percent": 1
+        },
+        {
+            "hex": "#d3a839",
+            "percent": 1
+        }
+    ]
+}

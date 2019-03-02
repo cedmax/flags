@@ -1,0 +1,21 @@
+{
+    "id": "chernihiv",
+    "colors": [
+        {
+            "hex": "#009933",
+            "percent": 64
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#1059d3",
+            "percent": 1
+        }
+    ]
+}

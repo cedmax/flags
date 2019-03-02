@@ -1,0 +1,13 @@
+{
+    "id": "atacama",
+    "colors": [
+        {
+            "hex": "#0035ad",
+            "percent": 91
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 9
+        }
+    ]
+}

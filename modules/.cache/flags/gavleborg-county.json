@@ -1,0 +1,25 @@
+{
+    "id": "gavleborg-county",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 43
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 32
+        },
+        {
+            "hex": "#d40000",
+            "percent": 9
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 6
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "tarija-department",
+    "colors": [
+        {
+            "hex": "#d81e05",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

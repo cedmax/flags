@@ -1,0 +1,21 @@
+{
+    "id": "canton-of-uri",
+    "colors": [
+        {
+            "hex": "#ffd730",
+            "percent": 65
+        },
+        {
+            "hex": "#010202",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#e8423f",
+            "percent": 2
+        }
+    ]
+}

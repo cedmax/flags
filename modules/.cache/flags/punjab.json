@@ -1,0 +1,13 @@
+{
+    "id": "punjab",
+    "colors": [
+        {
+            "hex": "#004614",
+            "percent": 88
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        }
+    ]
+}

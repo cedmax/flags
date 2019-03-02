@@ -1,0 +1,21 @@
+{
+    "id": "warmian-masurian-voivodeship",
+    "colors": [
+        {
+            "hex": "#d12421",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#000000",
+            "percent": 19
+        },
+        {
+            "hex": "#f7d417",
+            "percent": 3
+        }
+    ]
+}

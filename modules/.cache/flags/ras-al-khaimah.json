@@ -1,0 +1,13 @@
+{
+    "id": "ras-al-khaimah",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 63
+        },
+        {
+            "hex": "#bf0000",
+            "percent": 38
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "pernambuco",
+    "colors": [
+        {
+            "hex": "#101070",
+            "percent": 43
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#fcf10c",
+            "percent": 6
+        },
+        {
+            "hex": "#e6060a",
+            "percent": 5
+        },
+        {
+            "hex": "#1d7721",
+            "percent": 3
+        }
+    ]
+}

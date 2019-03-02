@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-schaffhausen",
+    "colors": [
+        {
+            "hex": "#ffd730",
+            "percent": 73
+        },
+        {
+            "hex": "#010202",
+            "percent": 23
+        }
+    ]
+}

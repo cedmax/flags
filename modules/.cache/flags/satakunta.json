@@ -1,0 +1,21 @@
+{
+    "id": "satakunta",
+    "colors": [
+        {
+            "hex": "#ffcb05",
+            "percent": 39
+        },
+        {
+            "hex": "#0044aa",
+            "percent": 37
+        },
+        {
+            "hex": "#000000",
+            "percent": 21
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

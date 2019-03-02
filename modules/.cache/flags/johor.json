@@ -1,0 +1,17 @@
+{
+    "id": "johor",
+    "colors": [
+        {
+            "hex": "#002b7f",
+            "percent": 66
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "olomouc-region",
+    "colors": [
+        {
+            "hex": "#0064ff",
+            "percent": 47
+        },
+        {
+            "hex": "#e9cc0c",
+            "percent": 38
+        },
+        {
+            "hex": "#000000",
+            "percent": 7
+        },
+        {
+            "hex": "#ba2b1a",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

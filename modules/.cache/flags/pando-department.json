@@ -1,0 +1,13 @@
+{
+    "id": "pando-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 50
+        }
+    ]
+}

@@ -1,0 +1,33 @@
+{
+    "id": "moravian-silesian-region",
+    "colors": [
+        {
+            "hex": "#0c5391",
+            "percent": 43
+        },
+        {
+            "hex": "#e9cc0c",
+            "percent": 21
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        },
+        {
+            "hex": "#ba2b1a",
+            "percent": 9
+        },
+        {
+            "hex": "#56876c",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 5
+        },
+        {
+            "hex": "#fff500",
+            "percent": 1
+        }
+    ]
+}

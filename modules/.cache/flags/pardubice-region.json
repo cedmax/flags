@@ -1,0 +1,25 @@
+{
+    "id": "pardubice-region",
+    "colors": [
+        {
+            "hex": "#e1192f",
+            "percent": 37
+        },
+        {
+            "hex": "#fcfcfc",
+            "percent": 26
+        },
+        {
+            "hex": "#0068ae",
+            "percent": 19
+        },
+        {
+            "hex": "#f6d705",
+            "percent": 3
+        },
+        {
+            "hex": "#0e0d0c",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "tucuman-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 67
+        },
+        {
+            "hex": "#65a9d6",
+            "percent": 33
+        }
+    ]
+}

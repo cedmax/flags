@@ -1,0 +1,13 @@
+{
+    "id": "finnmark",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 90
+        },
+        {
+            "hex": "#c8aa3c",
+            "percent": 10
+        }
+    ]
+}

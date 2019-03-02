@@ -1,0 +1,17 @@
+{
+    "id": "choco",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 50
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 25
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 25
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "sor-trondelag",
+    "colors": [
+        {
+            "hex": "#ffd02f",
+            "percent": 95
+        },
+        {
+            "hex": "#ff3517",
+            "percent": 5
+        }
+    ]
+}

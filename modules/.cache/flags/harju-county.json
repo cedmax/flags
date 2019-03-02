@@ -1,0 +1,17 @@
+{
+    "id": "harju-county",
+    "colors": [
+        {
+            "hex": "#009e49",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 6
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "skane-county",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 74
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 20
+        },
+        {
+            "hex": "#d30000",
+            "percent": 1
+        }
+    ]
+}

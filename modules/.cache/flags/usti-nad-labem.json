@@ -1,0 +1,25 @@
+{
+    "id": "usti-nad-labem",
+    "colors": [
+        {
+            "hex": "#ba2b1a",
+            "percent": 40
+        },
+        {
+            "hex": "#003296",
+            "percent": 23
+        },
+        {
+            "hex": "#009600",
+            "percent": 19
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        }
+    ]
+}

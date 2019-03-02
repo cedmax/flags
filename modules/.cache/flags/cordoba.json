@@ -1,0 +1,17 @@
+{
+    "id": "cordoba",
+    "colors": [
+        {
+            "hex": "#0f47af",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#078930",
+            "percent": 33
+        }
+    ]
+}

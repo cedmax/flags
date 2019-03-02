@@ -1,0 +1,17 @@
+{
+    "id": "ida-viru-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#0099ff",
+            "percent": 4
+        }
+    ]
+}

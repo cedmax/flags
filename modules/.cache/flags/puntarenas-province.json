@@ -1,0 +1,25 @@
+{
+    "id": "puntarenas-province",
+    "colors": [
+        {
+            "hex": "#01319d",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 25
+        },
+        {
+            "hex": "#fe0000",
+            "percent": 21
+        },
+        {
+            "hex": "#009c31",
+            "percent": 19
+        },
+        {
+            "hex": "#ff9b31",
+            "percent": 8
+        }
+    ]
+}

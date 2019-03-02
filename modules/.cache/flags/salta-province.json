@@ -1,0 +1,25 @@
+{
+    "id": "salta-province",
+    "colors": [
+        {
+            "hex": "#9c2941",
+            "percent": 73
+        },
+        {
+            "hex": "#000000",
+            "percent": 20
+        },
+        {
+            "hex": "#73c6f1",
+            "percent": 3
+        },
+        {
+            "hex": "#fecd00",
+            "percent": 1
+        },
+        {
+            "hex": "#ececec",
+            "percent": 1
+        }
+    ]
+}

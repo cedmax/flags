@@ -1,0 +1,29 @@
+{
+    "id": "o-higgins",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 86
+        },
+        {
+            "hex": "#ffaaaa",
+            "percent": 4
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 3
+        },
+        {
+            "hex": "#da121a",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#078930",
+            "percent": 1
+        }
+    ]
+}

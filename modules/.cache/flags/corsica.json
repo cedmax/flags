@@ -1,0 +1,13 @@
+{
+    "id": "corsica",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 76
+        },
+        {
+            "hex": "#000000",
+            "percent": 21
+        }
+    ]
+}

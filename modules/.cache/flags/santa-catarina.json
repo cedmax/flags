@@ -1,0 +1,25 @@
+{
+    "id": "santa-catarina",
+    "colors": [
+        {
+            "hex": "#ee3333",
+            "percent": 57
+        },
+        {
+            "hex": "#a9d046",
+            "percent": 19
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#ee1c23",
+            "percent": 1
+        },
+        {
+            "hex": "#37b549",
+            "percent": 1
+        }
+    ]
+}

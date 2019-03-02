@@ -1,0 +1,33 @@
+{
+    "id": "zlin-region",
+    "colors": [
+        {
+            "hex": "#0a0a64",
+            "percent": 48
+        },
+        {
+            "hex": "#ffc800",
+            "percent": 39
+        },
+        {
+            "hex": "#fdc601",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#ba2b1a",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#e9cc0c",
+            "percent": 1
+        }
+    ]
+}

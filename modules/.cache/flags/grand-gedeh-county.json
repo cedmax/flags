@@ -1,0 +1,29 @@
+{
+    "id": "grand-gedeh-county",
+    "colors": [
+        {
+            "hex": "#006633",
+            "percent": 48
+        },
+        {
+            "hex": "#0099ff",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 21
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        },
+        {
+            "hex": "#ef7300",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "sagaing-region",
+    "colors": [
+        {
+            "hex": "#007b42",
+            "percent": 87
+        },
+        {
+            "hex": "#efd600",
+            "percent": 7
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#10844a",
+            "percent": 1
+        }
+    ]
+}

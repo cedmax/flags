@@ -1,0 +1,21 @@
+{
+    "id": "podlaskie-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 25
+        },
+        {
+            "hex": "#dc2b19",
+            "percent": 25
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 25
+        },
+        {
+            "hex": "#008ee0",
+            "percent": 25
+        }
+    ]
+}

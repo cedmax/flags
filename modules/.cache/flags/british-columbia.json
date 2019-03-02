@@ -1,0 +1,25 @@
+{
+    "id": "british-columbia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#0047bb",
+            "percent": 23
+        },
+        {
+            "hex": "#ffcd00",
+            "percent": 18
+        },
+        {
+            "hex": "#d22630",
+            "percent": 16
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

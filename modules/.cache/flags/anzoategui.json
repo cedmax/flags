@@ -1,0 +1,21 @@
+{
+    "id": "anzoategui",
+    "colors": [
+        {
+            "hex": "#008033",
+            "percent": 33
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 32
+        },
+        {
+            "hex": "#00247d",
+            "percent": 30
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

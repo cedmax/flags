@@ -1,0 +1,25 @@
+{
+    "id": "connacht",
+    "colors": [
+        {
+            "hex": "#0c1c8d",
+            "percent": 42
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 35
+        },
+        {
+            "hex": "#000000",
+            "percent": 12
+        },
+        {
+            "hex": "#f5f5f5",
+            "percent": 4
+        },
+        {
+            "hex": "#c3c7c8",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "queensland",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 74
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        },
+        {
+            "hex": "#3d7de1",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "kosrae-state",
+    "colors": [
+        {
+            "hex": "#4d87ca",
+            "percent": 92
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

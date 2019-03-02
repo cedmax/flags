@@ -1,0 +1,17 @@
+{
+    "id": "formosa-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        },
+        {
+            "hex": "#077937",
+            "percent": 3
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "dnipropetrovsk",
+    "colors": [
+        {
+            "hex": "#1059d3",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 11
+        },
+        {
+            "hex": "#cb3085",
+            "percent": 4
+        },
+        {
+            "hex": "#333333",
+            "percent": 1
+        },
+        {
+            "hex": "#996600",
+            "percent": 1
+        }
+    ]
+}

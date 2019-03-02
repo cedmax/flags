@@ -1,0 +1,13 @@
+{
+    "id": "scotland",
+    "colors": [
+        {
+            "hex": "#0065bd",
+            "percent": 58
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 41
+        }
+    ]
+}

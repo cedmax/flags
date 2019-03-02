@@ -1,0 +1,21 @@
+{
+    "id": "carabobo",
+    "colors": [
+        {
+            "hex": "#cf142b",
+            "percent": 72
+        },
+        {
+            "hex": "#00247d",
+            "percent": 20
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 5
+        },
+        {
+            "hex": "#008033",
+            "percent": 1
+        }
+    ]
+}

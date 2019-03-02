@@ -1,0 +1,17 @@
+{
+    "id": "northern-savonia",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 70
+        },
+        {
+            "hex": "#ffd52b",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

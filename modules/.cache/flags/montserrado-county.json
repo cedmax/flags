@@ -1,0 +1,29 @@
+{
+    "id": "montserrado-county",
+    "colors": [
+        {
+            "hex": "#bf0a30",
+            "percent": 48
+        },
+        {
+            "hex": "#002868",
+            "percent": 39
+        },
+        {
+            "hex": "#7fc6f2",
+            "percent": 7
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#009900",
+            "percent": 2
+        },
+        {
+            "hex": "#663300",
+            "percent": 1
+        }
+    ]
+}

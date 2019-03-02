@@ -1,0 +1,17 @@
+{
+    "id": "casanare",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 48
+        },
+        {
+            "hex": "#078930",
+            "percent": 48
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 4
+        }
+    ]
+}

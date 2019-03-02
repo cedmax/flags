@@ -1,0 +1,29 @@
+{
+    "id": "catamarca-province",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 42
+        },
+        {
+            "hex": "#80b3ff",
+            "percent": 20
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        },
+        {
+            "hex": "#ffd42a",
+            "percent": 11
+        },
+        {
+            "hex": "#594a27",
+            "percent": 3
+        },
+        {
+            "hex": "#fcbf49",
+            "percent": 1
+        }
+    ]
+}

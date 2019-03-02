@@ -1,0 +1,25 @@
+{
+    "id": "lima-province",
+    "colors": [
+        {
+            "hex": "#f8b109",
+            "percent": 84
+        },
+        {
+            "hex": "#101213",
+            "percent": 6
+        },
+        {
+            "hex": "#eac102",
+            "percent": 2
+        },
+        {
+            "hex": "#d43316",
+            "percent": 2
+        },
+        {
+            "hex": "#05408f",
+            "percent": 2
+        }
+    ]
+}

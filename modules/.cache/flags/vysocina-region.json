@@ -1,0 +1,33 @@
+{
+    "id": "vysocina-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 48
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 25
+        },
+        {
+            "hex": "#0032ff",
+            "percent": 18
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#ff0202",
+            "percent": 2
+        },
+        {
+            "hex": "#e9cc0c",
+            "percent": 1
+        },
+        {
+            "hex": "#009600",
+            "percent": 1
+        }
+    ]
+}

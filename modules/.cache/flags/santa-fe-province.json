@@ -1,0 +1,21 @@
+{
+    "id": "santa-fe-province",
+    "colors": [
+        {
+            "hex": "#b43232",
+            "percent": 33
+        },
+        {
+            "hex": "#96beff",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#fcc600",
+            "percent": 7
+        }
+    ]
+}

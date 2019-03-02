@@ -1,0 +1,17 @@
+{
+    "id": "boyaca",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#078930",
+            "percent": 33
+        },
+        {
+            "hex": "#da121a",
+            "percent": 29
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "los-lagos",
+    "colors": [
+        {
+            "hex": "#0070c0",
+            "percent": 50
+        },
+        {
+            "hex": "#00b050",
+            "percent": 48
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

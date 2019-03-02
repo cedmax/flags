@@ -1,0 +1,17 @@
+{
+    "id": "panama-oeste",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 57
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#078930",
+            "percent": 20
+        }
+    ]
+}

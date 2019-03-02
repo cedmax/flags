@@ -1,0 +1,17 @@
+{
+    "id": "brest-voblast",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 55
+        },
+        {
+            "hex": "#e20909",
+            "percent": 35
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 7
+        }
+    ]
+}

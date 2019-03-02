@@ -1,0 +1,33 @@
+{
+    "id": "nimba-county",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 32
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#adbdde",
+            "percent": 5
+        },
+        {
+            "hex": "#428c10",
+            "percent": 4
+        },
+        {
+            "hex": "#7b5208",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

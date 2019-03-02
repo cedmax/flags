@@ -1,0 +1,25 @@
+{
+    "id": "amapa",
+    "colors": [
+        {
+            "hex": "#00994c",
+            "percent": 36
+        },
+        {
+            "hex": "#002580",
+            "percent": 24
+        },
+        {
+            "hex": "#f3e718",
+            "percent": 24
+        },
+        {
+            "hex": "#000000",
+            "percent": 11
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

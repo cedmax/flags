@@ -1,0 +1,21 @@
+{
+    "id": "greater-poland-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#e3001b",
+            "percent": 28
+        },
+        {
+            "hex": "#000000",
+            "percent": 20
+        },
+        {
+            "hex": "#ffee00",
+            "percent": 1
+        }
+    ]
+}

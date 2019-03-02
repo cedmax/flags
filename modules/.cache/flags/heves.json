@@ -1,0 +1,21 @@
+{
+    "id": "heves",
+    "colors": [
+        {
+            "hex": "#5ab532",
+            "percent": 82
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 12
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

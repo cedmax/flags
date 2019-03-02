@@ -1,0 +1,13 @@
+{
+    "id": "prague",
+    "colors": [
+        {
+            "hex": "#f7d417",
+            "percent": 50
+        },
+        {
+            "hex": "#d42e12",
+            "percent": 50
+        }
+    ]
+}

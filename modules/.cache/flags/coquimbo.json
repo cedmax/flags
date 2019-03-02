@@ -1,0 +1,85 @@
+{
+    "id": "coquimbo",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 26
+        },
+        {
+            "hex": "#5baf00",
+            "percent": 5
+        },
+        {
+            "hex": "#0a44a8",
+            "percent": 3
+        },
+        {
+            "hex": "#0b49b4",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4bb9",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4bba",
+            "percent": 1
+        },
+        {
+            "hex": "#ccf307",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4ab7",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4dbe",
+            "percent": 1
+        },
+        {
+            "hex": "#0c4ec1",
+            "percent": 1
+        },
+        {
+            "hex": "#0c4fc3",
+            "percent": 1
+        },
+        {
+            "hex": "#0c50c5",
+            "percent": 1
+        },
+        {
+            "hex": "#0c50c6",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4ab6",
+            "percent": 1
+        },
+        {
+            "hex": "#0c51c8",
+            "percent": 1
+        },
+        {
+            "hex": "#0b49b5",
+            "percent": 1
+        },
+        {
+            "hex": "#0c52ca",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4cbc",
+            "percent": 1
+        },
+        {
+            "hex": "#0c52cb",
+            "percent": 1
+        },
+        {
+            "hex": "#0b4cbb",
+            "percent": 1
+        }
+    ]
+}

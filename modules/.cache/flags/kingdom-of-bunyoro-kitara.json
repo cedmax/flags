@@ -1,0 +1,21 @@
+{
+    "id": "kingdom-of-bunyoro-kitara",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#000080",
+            "percent": 40
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 16
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

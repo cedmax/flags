@@ -1,0 +1,13 @@
+{
+    "id": "meta",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 53
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 47
+        }
+    ]
+}

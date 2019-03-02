@@ -1,0 +1,25 @@
+{
+    "id": "new-brunswick",
+    "colors": [
+        {
+            "hex": "#f4c600",
+            "percent": 50
+        },
+        {
+            "hex": "#d32927",
+            "percent": 22
+        },
+        {
+            "hex": "#1f1a17",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#1a3c86",
+            "percent": 7
+        }
+    ]
+}

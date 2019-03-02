@@ -1,0 +1,25 @@
+{
+    "id": "chubut-province",
+    "colors": [
+        {
+            "hex": "#60b2d5",
+            "percent": 75
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        },
+        {
+            "hex": "#e5d21f",
+            "percent": 6
+        },
+        {
+            "hex": "#19639b",
+            "percent": 5
+        },
+        {
+            "hex": "#19649b",
+            "percent": 2
+        }
+    ]
+}

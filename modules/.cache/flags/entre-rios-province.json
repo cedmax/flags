@@ -1,0 +1,17 @@
+{
+    "id": "entre-rios-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 44
+        },
+        {
+            "hex": "#b43232",
+            "percent": 37
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        }
+    ]
+}

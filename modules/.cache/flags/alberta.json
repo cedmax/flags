@@ -1,0 +1,41 @@
+{
+    "id": "alberta",
+    "colors": [
+        {
+            "hex": "#0d3692",
+            "percent": 86
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#fc1921",
+            "percent": 2
+        },
+        {
+            "hex": "#bdbdbd",
+            "percent": 2
+        },
+        {
+            "hex": "#0d6826",
+            "percent": 2
+        },
+        {
+            "hex": "#0b0b0b",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#feba35",
+            "percent": 1
+        },
+        {
+            "hex": "#ffeb43",
+            "percent": 1
+        }
+    ]
+}

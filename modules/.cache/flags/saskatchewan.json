@@ -1,0 +1,29 @@
+{
+    "id": "saskatchewan",
+    "colors": [
+        {
+            "hex": "#fdd401",
+            "percent": 49
+        },
+        {
+            "hex": "#076a21",
+            "percent": 44
+        },
+        {
+            "hex": "#feffff",
+            "percent": 1
+        },
+        {
+            "hex": "#d4170f",
+            "percent": 1
+        },
+        {
+            "hex": "#dd1810",
+            "percent": 1
+        },
+        {
+            "hex": "#016b29",
+            "percent": 1
+        }
+    ]
+}

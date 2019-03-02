@@ -1,0 +1,25 @@
+{
+    "id": "jamtland-county",
+    "colors": [
+        {
+            "hex": "#eeeeee",
+            "percent": 42
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 40
+        },
+        {
+            "hex": "#000000",
+            "percent": 9
+        },
+        {
+            "hex": "#d40000",
+            "percent": 2
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 1
+        }
+    ]
+}

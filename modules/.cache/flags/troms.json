@@ -1,0 +1,13 @@
+{
+    "id": "troms",
+    "colors": [
+        {
+            "hex": "#fe0c24",
+            "percent": 91
+        },
+        {
+            "hex": "#faf700",
+            "percent": 8
+        }
+    ]
+}

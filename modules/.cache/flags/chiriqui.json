@@ -1,0 +1,17 @@
+{
+    "id": "chiriqui",
+    "colors": [
+        {
+            "hex": "#ed1c24",
+            "percent": 47
+        },
+        {
+            "hex": "#018b44",
+            "percent": 47
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

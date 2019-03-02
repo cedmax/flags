@@ -1,0 +1,17 @@
+{
+    "id": "central-ostrobothnia",
+    "colors": [
+        {
+            "hex": "#0057f0",
+            "percent": 73
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        },
+        {
+            "hex": "#ffbb0f",
+            "percent": 1
+        }
+    ]
+}

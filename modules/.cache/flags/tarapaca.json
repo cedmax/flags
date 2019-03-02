@@ -1,0 +1,25 @@
+{
+    "id": "tarapaca",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 91
+        },
+        {
+            "hex": "#0000ad",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        },
+        {
+            "hex": "#7bd6ff",
+            "percent": 1
+        },
+        {
+            "hex": "#ffa521",
+            "percent": 1
+        }
+    ]
+}

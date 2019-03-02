@@ -1,0 +1,37 @@
+{
+    "id": "santa-cruz-province",
+    "colors": [
+        {
+            "hex": "#73c5ee",
+            "percent": 51
+        },
+        {
+            "hex": "#291873",
+            "percent": 20
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#f5f100",
+            "percent": 5
+        },
+        {
+            "hex": "#1d97df",
+            "percent": 3
+        },
+        {
+            "hex": "#883a28",
+            "percent": 2
+        },
+        {
+            "hex": "#f4ca00",
+            "percent": 1
+        },
+        {
+            "hex": "#a95e37",
+            "percent": 1
+        }
+    ]
+}

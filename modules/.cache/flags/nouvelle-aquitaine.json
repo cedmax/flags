@@ -1,0 +1,25 @@
+{
+    "id": "nouvelle-aquitaine",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 70
+        },
+        {
+            "hex": "#1353b4",
+            "percent": 17
+        },
+        {
+            "hex": "#cd0707",
+            "percent": 4
+        },
+        {
+            "hex": "#e94545",
+            "percent": 4
+        },
+        {
+            "hex": "#ee6c6c",
+            "percent": 1
+        }
+    ]
+}

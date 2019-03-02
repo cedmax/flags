@@ -1,0 +1,25 @@
+{
+    "id": "lapland",
+    "colors": [
+        {
+            "hex": "#fd1812",
+            "percent": 78
+        },
+        {
+            "hex": "#fdd9a6",
+            "percent": 13
+        },
+        {
+            "hex": "#008837",
+            "percent": 3
+        },
+        {
+            "hex": "#f2aa00",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

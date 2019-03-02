@@ -1,0 +1,29 @@
+{
+    "id": "san-luis-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 83
+        },
+        {
+            "hex": "#dce284",
+            "percent": 5
+        },
+        {
+            "hex": "#9fdcf5",
+            "percent": 4
+        },
+        {
+            "hex": "#009240",
+            "percent": 3
+        },
+        {
+            "hex": "#d29464",
+            "percent": 1
+        },
+        {
+            "hex": "#cc6f40",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "tasmania",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 74
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "jasz-nagykun-szolnok",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 42
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 6
+        },
+        {
+            "hex": "#e20909",
+            "percent": 2
+        }
+    ]
+}

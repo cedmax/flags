@@ -1,0 +1,17 @@
+{
+    "id": "huila",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#078930",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "limon-province",
+    "colors": [
+        {
+            "hex": "#009400",
+            "percent": 33
+        },
+        {
+            "hex": "#009ce7",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

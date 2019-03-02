@@ -1,0 +1,33 @@
+{
+    "id": "south-bohemian-region",
+    "colors": [
+        {
+            "hex": "#ba2b1a",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        },
+        {
+            "hex": "#006400",
+            "percent": 19
+        },
+        {
+            "hex": "#0032ff",
+            "percent": 9
+        },
+        {
+            "hex": "#ffc800",
+            "percent": 5
+        },
+        {
+            "hex": "#000000",
+            "percent": 4
+        },
+        {
+            "hex": "#e20909",
+            "percent": 2
+        }
+    ]
+}

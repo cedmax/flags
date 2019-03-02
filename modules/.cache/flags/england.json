@@ -1,0 +1,13 @@
+{
+    "id": "england",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 70
+        },
+        {
+            "hex": "#ce1124",
+            "percent": 30
+        }
+    ]
+}

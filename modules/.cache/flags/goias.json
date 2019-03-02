@@ -1,0 +1,21 @@
+{
+    "id": "goias",
+    "colors": [
+        {
+            "hex": "#f3e718",
+            "percent": 45
+        },
+        {
+            "hex": "#00994c",
+            "percent": 41
+        },
+        {
+            "hex": "#002580",
+            "percent": 11
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

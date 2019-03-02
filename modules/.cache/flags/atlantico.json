@@ -1,0 +1,13 @@
+{
+    "id": "atlantico",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 67
+        },
+        {
+            "hex": "#da121a",
+            "percent": 33
+        }
+    ]
+}

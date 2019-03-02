@@ -1,0 +1,17 @@
+{
+    "id": "dalarna-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 85
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 10
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 2
+        }
+    ]
+}

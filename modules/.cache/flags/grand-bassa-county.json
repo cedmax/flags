@@ -1,0 +1,17 @@
+{
+    "id": "grand-bassa-county",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 78
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 11
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

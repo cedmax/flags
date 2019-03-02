@@ -1,0 +1,21 @@
+{
+    "id": "yangon-region",
+    "colors": [
+        {
+            "hex": "#004a94",
+            "percent": 90
+        },
+        {
+            "hex": "#007b42",
+            "percent": 1
+        },
+        {
+            "hex": "#a52921",
+            "percent": 1
+        },
+        {
+            "hex": "#dedede",
+            "percent": 1
+        }
+    ]
+}

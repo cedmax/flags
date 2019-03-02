@@ -1,0 +1,21 @@
+{
+    "id": "kingdom-of-toro",
+    "colors": [
+        {
+            "hex": "#ffff00",
+            "percent": 36
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#000000",
+            "percent": 4
+        }
+    ]
+}

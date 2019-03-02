@@ -1,0 +1,13 @@
+{
+    "id": "la-guajira",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

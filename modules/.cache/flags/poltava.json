@@ -1,0 +1,13 @@
+{
+    "id": "poltava",
+    "colors": [
+        {
+            "hex": "#005bbb",
+            "percent": 92
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 8
+        }
+    ]
+}

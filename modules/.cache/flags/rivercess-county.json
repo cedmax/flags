@@ -1,0 +1,29 @@
+{
+    "id": "rivercess-county",
+    "colors": [
+        {
+            "hex": "#002868",
+            "percent": 44
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#fdbe08",
+            "percent": 7
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#009900",
+            "percent": 2
+        },
+        {
+            "hex": "#996600",
+            "percent": 1
+        }
+    ]
+}

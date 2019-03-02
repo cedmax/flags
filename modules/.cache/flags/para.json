@@ -1,0 +1,17 @@
+{
+    "id": "para",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#0074d8",
+            "percent": 1
+        }
+    ]
+}

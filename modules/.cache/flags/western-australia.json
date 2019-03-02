@@ -1,0 +1,25 @@
+{
+    "id": "western-australia",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 74
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#ffe400",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

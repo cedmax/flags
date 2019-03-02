@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-zug",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 67
+        },
+        {
+            "hex": "#0073e5",
+            "percent": 33
+        }
+    ]
+}

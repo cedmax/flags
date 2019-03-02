@@ -1,0 +1,21 @@
+{
+    "id": "miranda",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 38
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 32
+        },
+        {
+            "hex": "#000000",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

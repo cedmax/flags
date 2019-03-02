@@ -1,0 +1,29 @@
+{
+    "id": "rio-grande-do-sul",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 38
+        },
+        {
+            "hex": "#00923f",
+            "percent": 25
+        },
+        {
+            "hex": "#fff500",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#009a50",
+            "percent": 1
+        },
+        {
+            "hex": "#fcdb00",
+            "percent": 1
+        }
+    ]
+}

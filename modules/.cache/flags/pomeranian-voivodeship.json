@@ -1,0 +1,17 @@
+{
+    "id": "pomeranian-voivodeship",
+    "colors": [
+        {
+            "hex": "#fed517",
+            "percent": 82
+        },
+        {
+            "hex": "#040404",
+            "percent": 12
+        },
+        {
+            "hex": "#010100",
+            "percent": 2
+        }
+    ]
+}

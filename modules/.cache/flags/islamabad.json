@@ -1,0 +1,17 @@
+{
+    "id": "islamabad",
+    "colors": [
+        {
+            "hex": "#01411c",
+            "percent": 46
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#000000",
+            "percent": 26
+        }
+    ]
+}

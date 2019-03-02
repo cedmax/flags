@@ -1,0 +1,13 @@
+{
+    "id": "mandalay-region",
+    "colors": [
+        {
+            "hex": "#ef943a",
+            "percent": 89
+        },
+        {
+            "hex": "#ce2921",
+            "percent": 6
+        }
+    ]
+}

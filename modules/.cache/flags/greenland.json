@@ -1,0 +1,13 @@
+{
+    "id": "greenland",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#d00c33",
+            "percent": 50
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "kingdom-of-ankole",
+    "colors": [
+        {
+            "hex": "#0c6600",
+            "percent": 91
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

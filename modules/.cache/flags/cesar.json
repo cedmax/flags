@@ -1,0 +1,13 @@
+{
+    "id": "cesar",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "santander",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 47
+        },
+        {
+            "hex": "#dc121a",
+            "percent": 23
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 19
+        },
+        {
+            "hex": "#000000",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

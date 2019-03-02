@@ -1,0 +1,17 @@
+{
+    "id": "aland",
+    "colors": [
+        {
+            "hex": "#0053a5",
+            "percent": 57
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 24
+        },
+        {
+            "hex": "#d21034",
+            "percent": 19
+        }
+    ]
+}

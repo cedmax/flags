@@ -1,0 +1,13 @@
+{
+    "id": "telemark",
+    "colors": [
+        {
+            "hex": "#f7d617",
+            "percent": 80
+        },
+        {
+            "hex": "#000000",
+            "percent": 20
+        }
+    ]
+}

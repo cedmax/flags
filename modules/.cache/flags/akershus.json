@@ -1,0 +1,13 @@
+{
+    "id": "akershus",
+    "colors": [
+        {
+            "hex": "#d5d5d5",
+            "percent": 58
+        },
+        {
+            "hex": "#067fdf",
+            "percent": 42
+        }
+    ]
+}

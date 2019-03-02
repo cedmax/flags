@@ -1,0 +1,21 @@
+{
+    "id": "los-rios",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 84
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 6
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 5
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 4
+        }
+    ]
+}

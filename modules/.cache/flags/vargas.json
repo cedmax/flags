@@ -1,0 +1,21 @@
+{
+    "id": "vargas",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 52
+        },
+        {
+            "hex": "#00247d",
+            "percent": 24
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 13
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        }
+    ]
+}

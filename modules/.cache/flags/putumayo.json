@@ -1,0 +1,17 @@
+{
+    "id": "putumayo",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        }
+    ]
+}

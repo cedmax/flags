@@ -1,0 +1,17 @@
+{
+    "id": "canton-of-nidwalden",
+    "colors": [
+        {
+            "hex": "#e8423f",
+            "percent": 60
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#010202",
+            "percent": 5
+        }
+    ]
+}

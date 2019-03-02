@@ -1,0 +1,21 @@
+{
+    "id": "gotland-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 72
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 17
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 4
+        },
+        {
+            "hex": "#d40000",
+            "percent": 3
+        }
+    ]
+}

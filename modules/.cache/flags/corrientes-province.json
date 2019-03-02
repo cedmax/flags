@@ -1,0 +1,13 @@
+{
+    "id": "corrientes-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 69
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        }
+    ]
+}

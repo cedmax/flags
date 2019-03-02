@@ -1,0 +1,17 @@
+{
+    "id": "vasternorrland-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 55
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 28
+        },
+        {
+            "hex": "#d40000",
+            "percent": 13
+        }
+    ]
+}

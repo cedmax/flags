@@ -1,0 +1,17 @@
+{
+    "id": "parana",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 53
+        },
+        {
+            "hex": "#008d43",
+            "percent": 38
+        },
+        {
+            "hex": "#2549a5",
+            "percent": 8
+        }
+    ]
+}

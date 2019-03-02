@@ -1,0 +1,21 @@
+{
+    "id": "santiago-del-estero-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 40
+        },
+        {
+            "hex": "#da251d",
+            "percent": 37
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        },
+        {
+            "hex": "#fcbf49",
+            "percent": 2
+        }
+    ]
+}

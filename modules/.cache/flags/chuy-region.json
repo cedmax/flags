@@ -1,0 +1,21 @@
+{
+    "id": "chuy-region",
+    "colors": [
+        {
+            "hex": "#fccc00",
+            "percent": 34
+        },
+        {
+            "hex": "#10693d",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#0038a6",
+            "percent": 1
+        }
+    ]
+}

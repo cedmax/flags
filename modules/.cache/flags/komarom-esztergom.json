@@ -1,0 +1,29 @@
+{
+    "id": "komarom-esztergom",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 80
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 7
+        },
+        {
+            "hex": "#d576ad",
+            "percent": 1
+        },
+        {
+            "hex": "#a04d4d",
+            "percent": 1
+        },
+        {
+            "hex": "#e20909",
+            "percent": 1
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 1
+        }
+    ]
+}

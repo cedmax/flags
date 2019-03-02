@@ -1,0 +1,25 @@
+{
+    "id": "ostergotland-county",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 68
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 19
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 2
+        },
+        {
+            "hex": "#d30000",
+            "percent": 1
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 1
+        }
+    ]
+}

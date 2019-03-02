@@ -1,0 +1,21 @@
+{
+    "id": "rondonia",
+    "colors": [
+        {
+            "hex": "#002580",
+            "percent": 46
+        },
+        {
+            "hex": "#00994c",
+            "percent": 25
+        },
+        {
+            "hex": "#f3e718",
+            "percent": 24
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

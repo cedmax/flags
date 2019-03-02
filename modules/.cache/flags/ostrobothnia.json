@@ -1,0 +1,13 @@
+{
+    "id": "ostrobothnia",
+    "colors": [
+        {
+            "hex": "#e2004a",
+            "percent": 64
+        },
+        {
+            "hex": "#f9f500",
+            "percent": 33
+        }
+    ]
+}

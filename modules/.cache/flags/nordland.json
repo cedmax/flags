@@ -1,0 +1,17 @@
+{
+    "id": "nordland",
+    "colors": [
+        {
+            "hex": "#ffd90f",
+            "percent": 68
+        },
+        {
+            "hex": "#000000",
+            "percent": 27
+        },
+        {
+            "hex": "#fed90f",
+            "percent": 2
+        }
+    ]
+}

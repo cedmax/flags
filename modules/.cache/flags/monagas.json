@@ -1,0 +1,29 @@
+{
+    "id": "monagas",
+    "colors": [
+        {
+            "hex": "#72c3f0",
+            "percent": 68
+        },
+        {
+            "hex": "#000000",
+            "percent": 10
+        },
+        {
+            "hex": "#2b75b6",
+            "percent": 9
+        },
+        {
+            "hex": "#008e42",
+            "percent": 8
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

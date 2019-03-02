@@ -1,0 +1,29 @@
+{
+    "id": "rio-grande-do-norte",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 41
+        },
+        {
+            "hex": "#009b3a",
+            "percent": 39
+        },
+        {
+            "hex": "#fedf00",
+            "percent": 10
+        },
+        {
+            "hex": "#229845",
+            "percent": 2
+        },
+        {
+            "hex": "#231f20",
+            "percent": 1
+        },
+        {
+            "hex": "#2498dc",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "mato-grosso",
+    "colors": [
+        {
+            "hex": "#28166f",
+            "percent": 68
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        },
+        {
+            "hex": "#00923f",
+            "percent": 9
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 5
+        }
+    ]
+}

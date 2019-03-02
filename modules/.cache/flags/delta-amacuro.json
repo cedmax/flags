@@ -1,0 +1,33 @@
+{
+    "id": "delta-amacuro",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 42
+        },
+        {
+            "hex": "#74acdf",
+            "percent": 30
+        },
+        {
+            "hex": "#008033",
+            "percent": 18
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#784421",
+            "percent": 2
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

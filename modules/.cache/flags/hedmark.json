@@ -1,0 +1,13 @@
+{
+    "id": "hedmark",
+    "colors": [
+        {
+            "hex": "#1e9943",
+            "percent": 62
+        },
+        {
+            "hex": "#e4e4e4",
+            "percent": 37
+        }
+    ]
+}

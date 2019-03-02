@@ -1,0 +1,25 @@
+{
+    "id": "south-australia",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 74
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        },
+        {
+            "hex": "#ffa300",
+            "percent": 4
+        },
+        {
+            "hex": "#231f20",
+            "percent": 3
+        }
+    ]
+}

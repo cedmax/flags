@@ -1,0 +1,25 @@
+{
+    "id": "nueva-esparta",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 43
+        },
+        {
+            "hex": "#00247d",
+            "percent": 25
+        },
+        {
+            "hex": "#008033",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#fdfdfd",
+            "percent": 2
+        }
+    ]
+}

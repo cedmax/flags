@@ -1,0 +1,13 @@
+{
+    "id": "vestfold",
+    "colors": [
+        {
+            "hex": "#f1011a",
+            "percent": 92
+        },
+        {
+            "hex": "#ffe91a",
+            "percent": 8
+        }
+    ]
+}

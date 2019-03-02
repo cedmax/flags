@@ -1,0 +1,13 @@
+{
+    "id": "la-paz-department",
+    "colors": [
+        {
+            "hex": "#d81e05",
+            "percent": 50
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 50
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "cherkasy",
+    "colors": [
+        {
+            "hex": "#005bbb",
+            "percent": 84
+        },
+        {
+            "hex": "#c7ad56",
+            "percent": 5
+        },
+        {
+            "hex": "#ffd300",
+            "percent": 2
+        },
+        {
+            "hex": "#d40000",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "canton-of-vaud",
+    "colors": [
+        {
+            "hex": "#16a74e",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 39
+        },
+        {
+            "hex": "#ffd730",
+            "percent": 5
+        },
+        {
+            "hex": "#010202",
+            "percent": 3
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "southern-savonia",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 84
+        },
+        {
+            "hex": "#ffe700",
+            "percent": 9
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        }
+    ]
+}

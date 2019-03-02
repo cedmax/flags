@@ -1,0 +1,21 @@
+{
+    "id": "grand-cape-mount-county",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 62
+        },
+        {
+            "hex": "#006633",
+            "percent": 34
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

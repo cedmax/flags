@@ -1,0 +1,13 @@
+{
+    "id": "rogaland",
+    "colors": [
+        {
+            "hex": "#2162fa",
+            "percent": 92
+        },
+        {
+            "hex": "#d9d9d9",
+            "percent": 8
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-fribourg",
+    "colors": [
+        {
+            "hex": "#010202",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

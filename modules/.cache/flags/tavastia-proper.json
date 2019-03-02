@@ -1,0 +1,17 @@
+{
+    "id": "tavastia-proper",
+    "colors": [
+        {
+            "hex": "#f00000",
+            "percent": 77
+        },
+        {
+            "hex": "#ffd90f",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

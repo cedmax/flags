@@ -1,0 +1,25 @@
+{
+    "id": "swietokrzyskie-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#facf00",
+            "percent": 25
+        },
+        {
+            "hex": "#0093dd",
+            "percent": 18
+        },
+        {
+            "hex": "#db261b",
+            "percent": 16
+        },
+        {
+            "hex": "#0a0b0c",
+            "percent": 1
+        }
+    ]
+}

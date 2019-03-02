@@ -1,0 +1,17 @@
+{
+    "id": "san-jose-province",
+    "colors": [
+        {
+            "hex": "#0f47af",
+            "percent": 63
+        },
+        {
+            "hex": "#da121a",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

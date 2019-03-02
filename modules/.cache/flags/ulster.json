@@ -1,0 +1,21 @@
+{
+    "id": "ulster",
+    "colors": [
+        {
+            "hex": "#ffcf19",
+            "percent": 60
+        },
+        {
+            "hex": "#d30214",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

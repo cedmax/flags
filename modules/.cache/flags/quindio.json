@@ -1,0 +1,17 @@
+{
+    "id": "quindio",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        },
+        {
+            "hex": "#742c64",
+            "percent": 33
+        }
+    ]
+}

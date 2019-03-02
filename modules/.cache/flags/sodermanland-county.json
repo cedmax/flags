@@ -1,0 +1,21 @@
+{
+    "id": "sodermanland-county",
+    "colors": [
+        {
+            "hex": "#ffcd50",
+            "percent": 71
+        },
+        {
+            "hex": "#000000",
+            "percent": 19
+        },
+        {
+            "hex": "#ffcd4f",
+            "percent": 1
+        },
+        {
+            "hex": "#d40000",
+            "percent": 1
+        }
+    ]
+}

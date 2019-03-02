@@ -1,0 +1,29 @@
+{
+    "id": "ontario",
+    "colors": [
+        {
+            "hex": "#cf142b",
+            "percent": 76
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        },
+        {
+            "hex": "#00247d",
+            "percent": 7
+        },
+        {
+            "hex": "#007934",
+            "percent": 4
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        },
+        {
+            "hex": "#f3cc00",
+            "percent": 1
+        }
+    ]
+}

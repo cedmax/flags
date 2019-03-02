@@ -1,0 +1,25 @@
+{
+    "id": "norrbotten-county",
+    "colors": [
+        {
+            "hex": "#eeeeee",
+            "percent": 41
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 39
+        },
+        {
+            "hex": "#d40000",
+            "percent": 7
+        },
+        {
+            "hex": "#225500",
+            "percent": 2
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "tanintharyi-region",
+    "colors": [
+        {
+            "hex": "#213a84",
+            "percent": 95
+        },
+        {
+            "hex": "#ef943a",
+            "percent": 3
+        }
+    ]
+}

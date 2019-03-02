@@ -1,0 +1,33 @@
+{
+    "id": "bomi-county",
+    "colors": [
+        {
+            "hex": "#7f017f",
+            "percent": 74
+        },
+        {
+            "hex": "#33ccff",
+            "percent": 12
+        },
+        {
+            "hex": "#996800",
+            "percent": 4
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#006633",
+            "percent": 3
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

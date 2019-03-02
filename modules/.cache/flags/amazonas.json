@@ -1,0 +1,17 @@
+{
+    "id": "amazonas",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 53
+        },
+        {
+            "hex": "#d20000",
+            "percent": 33
+        },
+        {
+            "hex": "#001e78",
+            "percent": 13
+        }
+    ]
+}

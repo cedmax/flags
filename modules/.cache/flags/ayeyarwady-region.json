@@ -1,0 +1,17 @@
+{
+    "id": "ayeyarwady-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 51
+        },
+        {
+            "hex": "#213a84",
+            "percent": 40
+        },
+        {
+            "hex": "#e66331",
+            "percent": 4
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "cordoba-province",
+    "colors": [
+        {
+            "hex": "#e41b23",
+            "percent": 33
+        },
+        {
+            "hex": "#6caee0",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#cfa55b",
+            "percent": 4
+        }
+    ]
+}

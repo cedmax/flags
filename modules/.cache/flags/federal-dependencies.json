@@ -1,0 +1,21 @@
+{
+    "id": "federal-dependencies",
+    "colors": [
+        {
+            "hex": "#008033",
+            "percent": 33
+        },
+        {
+            "hex": "#00247d",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 5
+        }
+    ]
+}

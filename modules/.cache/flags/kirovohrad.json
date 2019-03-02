@@ -1,0 +1,17 @@
+{
+    "id": "kirovohrad",
+    "colors": [
+        {
+            "hex": "#ffec00",
+            "percent": 64
+        },
+        {
+            "hex": "#dc143c",
+            "percent": 29
+        },
+        {
+            "hex": "#2c2c2b",
+            "percent": 2
+        }
+    ]
+}

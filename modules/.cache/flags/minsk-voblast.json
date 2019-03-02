@@ -1,0 +1,17 @@
+{
+    "id": "minsk-voblast",
+    "colors": [
+        {
+            "hex": "#e81c25",
+            "percent": 80
+        },
+        {
+            "hex": "#048ccc",
+            "percent": 2
+        },
+        {
+            "hex": "#fcec2c",
+            "percent": 1
+        }
+    ]
+}

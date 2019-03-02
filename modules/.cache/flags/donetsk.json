@@ -1,0 +1,17 @@
+{
+    "id": "donetsk",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 47
+        },
+        {
+            "hex": "#ffdf00",
+            "percent": 32
+        },
+        {
+            "hex": "#3399ff",
+            "percent": 20
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "kiev",
+    "colors": [
+        {
+            "hex": "#1059d3",
+            "percent": 66
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#cc3399",
+            "percent": 1
+        },
+        {
+            "hex": "#996600",
+            "percent": 1
+        }
+    ]
+}

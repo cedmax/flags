@@ -1,0 +1,25 @@
+{
+    "id": "penang",
+    "colors": [
+        {
+            "hex": "#3771c8",
+            "percent": 33
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#161413",
+            "percent": 1
+        },
+        {
+            "hex": "#008f33",
+            "percent": 1
+        }
+    ]
+}

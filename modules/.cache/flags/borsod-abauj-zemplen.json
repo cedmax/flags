@@ -1,0 +1,25 @@
+{
+    "id": "borsod-abauj-zemplen",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 46
+        },
+        {
+            "hex": "#e20909",
+            "percent": 41
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

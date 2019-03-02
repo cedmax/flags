@@ -1,0 +1,17 @@
+{
+    "id": "jarva-county",
+    "colors": [
+        {
+            "hex": "#009e49",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#2c80b6",
+            "percent": 4
+        }
+    ]
+}

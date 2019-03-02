@@ -1,0 +1,25 @@
+{
+    "id": "bekes",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 40
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 5
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 3
+        },
+        {
+            "hex": "#e20909",
+            "percent": 2
+        }
+    ]
+}

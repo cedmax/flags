@@ -1,0 +1,29 @@
+{
+    "id": "grand-kru-county",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 56
+        },
+        {
+            "hex": "#006633",
+            "percent": 21
+        },
+        {
+            "hex": "#fad115",
+            "percent": 18
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#996800",
+            "percent": 2
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

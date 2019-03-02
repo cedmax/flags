@@ -1,0 +1,25 @@
+{
+    "id": "la-rioja-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 37
+        },
+        {
+            "hex": "#007bc4",
+            "percent": 37
+        },
+        {
+            "hex": "#b52921",
+            "percent": 20
+        },
+        {
+            "hex": "#009442",
+            "percent": 2
+        },
+        {
+            "hex": "#df2118",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "tartu-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 2
+        },
+        {
+            "hex": "#009731",
+            "percent": 2
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 1
+        }
+    ]
+}

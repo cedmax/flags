@@ -1,0 +1,21 @@
+{
+    "id": "zaporizhia",
+    "colors": [
+        {
+            "hex": "#e51662",
+            "percent": 79
+        },
+        {
+            "hex": "#ffcb00",
+            "percent": 6
+        },
+        {
+            "hex": "#009ee0",
+            "percent": 3
+        },
+        {
+            "hex": "#1b1918",
+            "percent": 3
+        }
+    ]
+}

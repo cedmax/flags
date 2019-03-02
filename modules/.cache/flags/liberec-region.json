@@ -1,0 +1,21 @@
+{
+    "id": "liberec-region",
+    "colors": [
+        {
+            "hex": "#0032ff",
+            "percent": 40
+        },
+        {
+            "hex": "#ba2b1a",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        }
+    ]
+}

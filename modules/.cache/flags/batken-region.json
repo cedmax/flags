@@ -1,0 +1,25 @@
+{
+    "id": "batken-region",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 82
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        },
+        {
+            "hex": "#ff6600",
+            "percent": 2
+        },
+        {
+            "hex": "#008033",
+            "percent": 1
+        }
+    ]
+}

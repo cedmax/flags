@@ -1,0 +1,13 @@
+{
+    "id": "fujairah",
+    "colors": [
+        {
+            "hex": "#bf0000",
+            "percent": 96
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

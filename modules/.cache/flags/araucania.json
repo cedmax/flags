@@ -1,0 +1,33 @@
+{
+    "id": "araucania",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 33
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 32
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

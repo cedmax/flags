@@ -1,0 +1,13 @@
+{
+    "id": "chuquisaca-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 61
+        },
+        {
+            "hex": "#d81d04",
+            "percent": 38
+        }
+    ]
+}

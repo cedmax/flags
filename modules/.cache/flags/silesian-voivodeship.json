@@ -1,0 +1,13 @@
+{
+    "id": "silesian-voivodeship",
+    "colors": [
+        {
+            "hex": "#3044b5",
+            "percent": 80
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 20
+        }
+    ]
+}

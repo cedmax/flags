@@ -1,0 +1,17 @@
+{
+    "id": "victoria",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 80
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#e60d2e",
+            "percent": 9
+        }
+    ]
+}

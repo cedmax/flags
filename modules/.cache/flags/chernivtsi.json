@@ -1,0 +1,25 @@
+{
+    "id": "chernivtsi",
+    "colors": [
+        {
+            "hex": "#008000",
+            "percent": 63
+        },
+        {
+            "hex": "#005bbb",
+            "percent": 20
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 7
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#559429",
+            "percent": 1
+        }
+    ]
+}

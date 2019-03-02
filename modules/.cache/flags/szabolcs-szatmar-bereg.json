@@ -1,0 +1,21 @@
+{
+    "id": "szabolcs-szatmar-bereg",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 71
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 9
+        },
+        {
+            "hex": "#e20909",
+            "percent": 8
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 2
+        }
+    ]
+}

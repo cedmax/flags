@@ -1,0 +1,29 @@
+{
+    "id": "gbarpolu-county",
+    "colors": [
+        {
+            "hex": "#fcbe04",
+            "percent": 88
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#1b611f",
+            "percent": 3
+        },
+        {
+            "hex": "#fcfdfa",
+            "percent": 2
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "viljandi-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#003c87",
+            "percent": 2
+        },
+        {
+            "hex": "#fafbfd",
+            "percent": 1
+        }
+    ]
+}

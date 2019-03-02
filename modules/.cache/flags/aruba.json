@@ -1,0 +1,21 @@
+{
+    "id": "aruba",
+    "colors": [
+        {
+            "hex": "#418fde",
+            "percent": 87
+        },
+        {
+            "hex": "#ffd100",
+            "percent": 11
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#ef3340",
+            "percent": 1
+        }
+    ]
+}

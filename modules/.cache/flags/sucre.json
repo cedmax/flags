@@ -1,0 +1,33 @@
+{
+    "id": "sucre",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 46
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 2
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        },
+        {
+            "hex": "#87ceff",
+            "percent": 1
+        }
+    ]
+}

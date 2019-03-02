@@ -1,0 +1,17 @@
+{
+    "id": "saare-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#0097fd",
+            "percent": 4
+        }
+    ]
+}

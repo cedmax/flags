@@ -1,0 +1,17 @@
+{
+    "id": "voru-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#0099ff",
+            "percent": 6
+        }
+    ]
+}

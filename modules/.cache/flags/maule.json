@@ -1,0 +1,29 @@
+{
+    "id": "maule",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 88
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 3
+        },
+        {
+            "hex": "#eac102",
+            "percent": 3
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 2
+        },
+        {
+            "hex": "#009036",
+            "percent": 1
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 1
+        }
+    ]
+}

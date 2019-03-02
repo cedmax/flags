@@ -1,0 +1,13 @@
+{
+    "id": "opolskie-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffc900",
+            "percent": 67
+        },
+        {
+            "hex": "#0f6eb2",
+            "percent": 33
+        }
+    ]
+}

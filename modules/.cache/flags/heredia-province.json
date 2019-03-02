@@ -1,0 +1,21 @@
+{
+    "id": "heredia-province",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 27
+        },
+        {
+            "hex": "#ffe700",
+            "percent": 25
+        },
+        {
+            "hex": "#0094bd",
+            "percent": 3
+        }
+    ]
+}

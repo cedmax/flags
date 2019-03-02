@@ -1,0 +1,17 @@
+{
+    "id": "southwest-finland",
+    "colors": [
+        {
+            "hex": "#ed1b2d",
+            "percent": 66
+        },
+        {
+            "hex": "#ffd51f",
+            "percent": 20
+        },
+        {
+            "hex": "#006bb6",
+            "percent": 10
+        }
+    ]
+}

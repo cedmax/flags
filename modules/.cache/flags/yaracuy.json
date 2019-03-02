@@ -1,0 +1,29 @@
+{
+    "id": "yaracuy",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 26
+        },
+        {
+            "hex": "#00247d",
+            "percent": 25
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 7
+        },
+        {
+            "hex": "#87aade",
+            "percent": 3
+        },
+        {
+            "hex": "#008033",
+            "percent": 3
+        }
+    ]
+}

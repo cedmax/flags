@@ -1,0 +1,17 @@
+{
+    "id": "laane-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#f31313",
+            "percent": 3
+        }
+    ]
+}

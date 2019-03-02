@@ -1,0 +1,13 @@
+{
+    "id": "blekinge-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 81
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 14
+        }
+    ]
+}

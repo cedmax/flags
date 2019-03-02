@@ -1,0 +1,13 @@
+{
+    "id": "cartago-province",
+    "colors": [
+        {
+            "hex": "#cd1226",
+            "percent": 50
+        },
+        {
+            "hex": "#102f7a",
+            "percent": 50
+        }
+    ]
+}

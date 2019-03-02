@@ -1,0 +1,25 @@
+{
+    "id": "gyor-moson-sopron",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 45
+        },
+        {
+            "hex": "#e20909",
+            "percent": 43
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

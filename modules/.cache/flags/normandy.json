@@ -1,0 +1,21 @@
+{
+    "id": "normandy",
+    "colors": [
+        {
+            "hex": "#c80a0f",
+            "percent": 72
+        },
+        {
+            "hex": "#ffc103",
+            "percent": 17
+        },
+        {
+            "hex": "#0d0a00",
+            "percent": 2
+        },
+        {
+            "hex": "#0a0101",
+            "percent": 1
+        }
+    ]
+}

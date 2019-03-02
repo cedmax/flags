@@ -1,0 +1,17 @@
+{
+    "id": "lower-silesian-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffd200",
+            "percent": 82
+        },
+        {
+            "hex": "#000000",
+            "percent": 15
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

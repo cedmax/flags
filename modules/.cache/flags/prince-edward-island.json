@@ -1,0 +1,25 @@
+{
+    "id": "prince-edward-island",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 49
+        },
+        {
+            "hex": "#d54040",
+            "percent": 22
+        },
+        {
+            "hex": "#f3db61",
+            "percent": 9
+        },
+        {
+            "hex": "#8b4635",
+            "percent": 4
+        },
+        {
+            "hex": "#37685c",
+            "percent": 2
+        }
+    ]
+}

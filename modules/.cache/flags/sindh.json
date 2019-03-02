@@ -1,0 +1,13 @@
+{
+    "id": "sindh",
+    "colors": [
+        {
+            "hex": "#004226",
+            "percent": 94
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

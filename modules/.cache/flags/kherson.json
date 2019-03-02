@@ -1,0 +1,17 @@
+{
+    "id": "kherson",
+    "colors": [
+        {
+            "hex": "#005bbb",
+            "percent": 54
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 2
+        }
+    ]
+}

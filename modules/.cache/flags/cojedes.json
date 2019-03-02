@@ -1,0 +1,21 @@
+{
+    "id": "cojedes",
+    "colors": [
+        {
+            "hex": "#ff9933",
+            "percent": 61
+        },
+        {
+            "hex": "#00247d",
+            "percent": 19
+        },
+        {
+            "hex": "#000000",
+            "percent": 17
+        },
+        {
+            "hex": "#fedf00",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "canton-of-st.-gallen",
+    "colors": [
+        {
+            "hex": "#16a74e",
+            "percent": 84
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 9
+        },
+        {
+            "hex": "#010202",
+            "percent": 4
+        }
+    ]
+}

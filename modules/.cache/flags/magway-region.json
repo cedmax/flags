@@ -1,0 +1,13 @@
+{
+    "id": "magway-region",
+    "colors": [
+        {
+            "hex": "#ef943a",
+            "percent": 95
+        },
+        {
+            "hex": "#de2919",
+            "percent": 3
+        }
+    ]
+}

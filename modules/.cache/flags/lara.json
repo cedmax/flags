@@ -1,0 +1,21 @@
+{
+    "id": "lara",
+    "colors": [
+        {
+            "hex": "#008033",
+            "percent": 33
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 27
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 19
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        }
+    ]
+}

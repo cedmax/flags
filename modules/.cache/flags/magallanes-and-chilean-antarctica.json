@@ -1,0 +1,17 @@
+{
+    "id": "magallanes-and-chilean-antarctica",
+    "colors": [
+        {
+            "hex": "#0000cc",
+            "percent": 68
+        },
+        {
+            "hex": "#fdcb00",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

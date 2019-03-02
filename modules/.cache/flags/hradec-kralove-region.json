@@ -1,0 +1,25 @@
+{
+    "id": "hradec-kralove-region",
+    "colors": [
+        {
+            "hex": "#0055ff",
+            "percent": 42
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#ffc800",
+            "percent": 7
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

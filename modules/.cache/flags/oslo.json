@@ -1,0 +1,29 @@
+{
+    "id": "oslo",
+    "colors": [
+        {
+            "hex": "#233974",
+            "percent": 82
+        },
+        {
+            "hex": "#b9a453",
+            "percent": 2
+        },
+        {
+            "hex": "#c9c6b3",
+            "percent": 2
+        },
+        {
+            "hex": "#233a74",
+            "percent": 2
+        },
+        {
+            "hex": "#fee8b5",
+            "percent": 1
+        },
+        {
+            "hex": "#db373a",
+            "percent": 1
+        }
+    ]
+}

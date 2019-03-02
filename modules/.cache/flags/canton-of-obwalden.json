@@ -1,0 +1,25 @@
+{
+    "id": "canton-of-obwalden",
+    "colors": [
+        {
+            "hex": "#e8423f",
+            "percent": 46
+        },
+        {
+            "hex": "#feffff",
+            "percent": 38
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#010202",
+            "percent": 4
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

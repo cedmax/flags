@@ -1,0 +1,21 @@
+{
+    "id": "tachira",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 33
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 29
+        },
+        {
+            "hex": "#008033",
+            "percent": 2
+        }
+    ]
+}

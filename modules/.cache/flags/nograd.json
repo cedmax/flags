@@ -1,0 +1,25 @@
+{
+    "id": "nograd",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 85
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#e20909",
+            "percent": 1
+        },
+        {
+            "hex": "#5ab532",
+            "percent": 1
+        }
+    ]
+}

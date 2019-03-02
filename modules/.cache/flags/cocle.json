@@ -1,0 +1,17 @@
+{
+    "id": "cocle",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 33
+        },
+        {
+            "hex": "#939598",
+            "percent": 33
+        }
+    ]
+}

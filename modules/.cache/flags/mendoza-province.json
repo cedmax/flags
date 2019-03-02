@@ -1,0 +1,29 @@
+{
+    "id": "mendoza-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 46
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#00923f",
+            "percent": 3
+        },
+        {
+            "hex": "#fcbf49",
+            "percent": 2
+        },
+        {
+            "hex": "#ef9ba0",
+            "percent": 1
+        },
+        {
+            "hex": "#e6bc7f",
+            "percent": 1
+        }
+    ]
+}

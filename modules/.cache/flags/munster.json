@@ -1,0 +1,21 @@
+{
+    "id": "munster",
+    "colors": [
+        {
+            "hex": "#212c59",
+            "percent": 84
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 11
+        },
+        {
+            "hex": "#efb508",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

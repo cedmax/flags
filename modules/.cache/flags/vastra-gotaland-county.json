@@ -1,0 +1,25 @@
+{
+    "id": "vastra-gotaland-county",
+    "colors": [
+        {
+            "hex": "#eeeeee",
+            "percent": 39
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 16
+        },
+        {
+            "hex": "#d40000",
+            "percent": 11
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 10
+        },
+        {
+            "hex": "#000000",
+            "percent": 10
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-solothurn",
+    "colors": [
+        {
+            "hex": "#e8423f",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        }
+    ]
+}

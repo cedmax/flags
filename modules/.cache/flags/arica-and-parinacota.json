@@ -1,0 +1,25 @@
+{
+    "id": "arica-and-parinacota",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 93
+        },
+        {
+            "hex": "#ff6600",
+            "percent": 2
+        },
+        {
+            "hex": "#fede3c",
+            "percent": 1
+        },
+        {
+            "hex": "#4093f5",
+            "percent": 1
+        },
+        {
+            "hex": "#a5ff42",
+            "percent": 1
+        }
+    ]
+}

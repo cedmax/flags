@@ -1,0 +1,25 @@
+{
+    "id": "sabah",
+    "colors": [
+        {
+            "hex": "#f5362f",
+            "percent": 33
+        },
+        {
+            "hex": "#77ccff",
+            "percent": 22
+        },
+        {
+            "hex": "#0484d6",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#002b7f",
+            "percent": 11
+        }
+    ]
+}

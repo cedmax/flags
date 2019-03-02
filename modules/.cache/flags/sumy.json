@@ -1,0 +1,13 @@
+{
+    "id": "sumy",
+    "colors": [
+        {
+            "hex": "#32b3ea",
+            "percent": 96
+        },
+        {
+            "hex": "#fff215",
+            "percent": 2
+        }
+    ]
+}

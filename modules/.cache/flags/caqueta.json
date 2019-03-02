@@ -1,0 +1,17 @@
+{
+    "id": "caqueta",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 51
+        },
+        {
+            "hex": "#078930",
+            "percent": 46
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 2
+        }
+    ]
+}

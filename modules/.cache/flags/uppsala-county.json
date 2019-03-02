@@ -1,0 +1,25 @@
+{
+    "id": "uppsala-county",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 75
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 17
+        },
+        {
+            "hex": "#d30000",
+            "percent": 1
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 1
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 1
+        }
+    ]
+}

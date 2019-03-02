@@ -1,0 +1,21 @@
+{
+    "id": "orebro-county",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 34
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 34
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 23
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 1
+        }
+    ]
+}

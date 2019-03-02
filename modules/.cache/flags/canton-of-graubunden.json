@@ -1,0 +1,21 @@
+{
+    "id": "canton-of-graubunden",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 51
+        },
+        {
+            "hex": "#010202",
+            "percent": 25
+        },
+        {
+            "hex": "#268bcc",
+            "percent": 10
+        },
+        {
+            "hex": "#ffd730",
+            "percent": 10
+        }
+    ]
+}

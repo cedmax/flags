@@ -1,0 +1,17 @@
+{
+    "id": "vastmanland-county",
+    "colors": [
+        {
+            "hex": "#eeeeee",
+            "percent": 47
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 30
+        },
+        {
+            "hex": "#d40000",
+            "percent": 20
+        }
+    ]
+}

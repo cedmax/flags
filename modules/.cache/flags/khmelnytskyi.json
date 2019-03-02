@@ -1,0 +1,21 @@
+{
+    "id": "khmelnytskyi",
+    "colors": [
+        {
+            "hex": "#0067ac",
+            "percent": 47
+        },
+        {
+            "hex": "#d40000",
+            "percent": 47
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

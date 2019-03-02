@@ -1,0 +1,25 @@
+{
+    "id": "hajdu-bihar",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 71
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 7
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 6
+        },
+        {
+            "hex": "#e20909",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

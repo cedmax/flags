@@ -1,0 +1,13 @@
+{
+    "id": "cauca",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 67
+        },
+        {
+            "hex": "#e4c90e",
+            "percent": 33
+        }
+    ]
+}

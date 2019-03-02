@@ -1,0 +1,25 @@
+{
+    "id": "bourgogne-franche-comte",
+    "colors": [
+        {
+            "hex": "#0066cc",
+            "percent": 47
+        },
+        {
+            "hex": "#ffd203",
+            "percent": 24
+        },
+        {
+            "hex": "#ed2939",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

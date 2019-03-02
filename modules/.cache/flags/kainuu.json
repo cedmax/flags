@@ -1,0 +1,13 @@
+{
+    "id": "kainuu",
+    "colors": [
+        {
+            "hex": "#fff210",
+            "percent": 63
+        },
+        {
+            "hex": "#00a650",
+            "percent": 35
+        }
+    ]
+}

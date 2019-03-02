@@ -1,0 +1,17 @@
+{
+    "id": "faroe-islands",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 61
+        },
+        {
+            "hex": "#ed2939",
+            "percent": 20
+        },
+        {
+            "hex": "#0065bd",
+            "percent": 18
+        }
+    ]
+}

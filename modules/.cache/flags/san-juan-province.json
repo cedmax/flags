@@ -1,0 +1,13 @@
+{
+    "id": "san-juan-province",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 56
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        }
+    ]
+}

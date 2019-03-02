@@ -1,0 +1,13 @@
+{
+    "id": "kelantan",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 92
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

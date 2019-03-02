@@ -1,0 +1,21 @@
+{
+    "id": "odessa",
+    "colors": [
+        {
+            "hex": "#ffd500",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 34
+        },
+        {
+            "hex": "#005bbb",
+            "percent": 25
+        },
+        {
+            "hex": "#d40000",
+            "percent": 4
+        }
+    ]
+}

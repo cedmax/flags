@@ -1,0 +1,25 @@
+{
+    "id": "margibi-county",
+    "colors": [
+        {
+            "hex": "#bf0a30",
+            "percent": 47
+        },
+        {
+            "hex": "#006633",
+            "percent": 41
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#002868",
+            "percent": 4
+        },
+        {
+            "hex": "#9e6218",
+            "percent": 2
+        }
+    ]
+}

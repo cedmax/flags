@@ -1,0 +1,21 @@
+{
+    "id": "newfoundland-and-labrador",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 65
+        },
+        {
+            "hex": "#002373",
+            "percent": 20
+        },
+        {
+            "hex": "#cd0019",
+            "percent": 10
+        },
+        {
+            "hex": "#f8d80e",
+            "percent": 4
+        }
+    ]
+}

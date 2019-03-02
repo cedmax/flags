@@ -1,0 +1,25 @@
+{
+    "id": "chaco-province",
+    "colors": [
+        {
+            "hex": "#1db062",
+            "percent": 33
+        },
+        {
+            "hex": "#94c9e9",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#fcbf49",
+            "percent": 1
+        },
+        {
+            "hex": "#c24900",
+            "percent": 1
+        }
+    ]
+}

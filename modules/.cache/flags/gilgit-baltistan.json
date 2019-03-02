@@ -1,0 +1,13 @@
+{
+    "id": "gilgit-baltistan",
+    "colors": [
+        {
+            "hex": "#003300",
+            "percent": 90
+        },
+        {
+            "hex": "#b8b6ae",
+            "percent": 5
+        }
+    ]
+}

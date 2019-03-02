@@ -1,0 +1,17 @@
+{
+    "id": "pasco-region",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 50
+        },
+        {
+            "hex": "#0f8930",
+            "percent": 37
+        },
+        {
+            "hex": "#da121a",
+            "percent": 12
+        }
+    ]
+}

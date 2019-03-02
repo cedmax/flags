@@ -1,0 +1,17 @@
+{
+    "id": "espirito-santo",
+    "colors": [
+        {
+            "hex": "#0096e1",
+            "percent": 35
+        },
+        {
+            "hex": "#f09bbe",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        }
+    ]
+}

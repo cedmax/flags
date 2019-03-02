@@ -1,0 +1,33 @@
+{
+    "id": "south-moravian-region",
+    "colors": [
+        {
+            "hex": "#ba2b1a",
+            "percent": 41
+        },
+        {
+            "hex": "#0c5391",
+            "percent": 36
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#ddbd45",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#ddbf45",
+            "percent": 2
+        },
+        {
+            "hex": "#e9cc0c",
+            "percent": 1
+        }
+    ]
+}

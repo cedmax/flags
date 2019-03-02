@@ -1,0 +1,21 @@
+{
+    "id": "canton-of-thurgau",
+    "colors": [
+        {
+            "hex": "#ffd730",
+            "percent": 29
+        },
+        {
+            "hex": "#16a74e",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 26
+        },
+        {
+            "hex": "#010202",
+            "percent": 9
+        }
+    ]
+}

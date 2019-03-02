@@ -1,0 +1,13 @@
+{
+    "id": "arauca",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 50
+        },
+        {
+            "hex": "#078930",
+            "percent": 50
+        }
+    ]
+}

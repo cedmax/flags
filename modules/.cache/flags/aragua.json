@@ -1,0 +1,21 @@
+{
+    "id": "aragua",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 46
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 44
+        },
+        {
+            "hex": "#ffd600",
+            "percent": 2
+        },
+        {
+            "hex": "#eb002a",
+            "percent": 1
+        }
+    ]
+}

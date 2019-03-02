@@ -1,0 +1,25 @@
+{
+    "id": "vasterbotten-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 59
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 26
+        },
+        {
+            "hex": "#d40000",
+            "percent": 5
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 2
+        },
+        {
+            "hex": "#225500",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "guarico",
+    "colors": [
+        {
+            "hex": "#008033",
+            "percent": 28
+        },
+        {
+            "hex": "#00237d",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 21
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 21
+        }
+    ]
+}

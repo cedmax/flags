@@ -1,0 +1,21 @@
+{
+    "id": "malacca",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#c30000",
+            "percent": 25
+        },
+        {
+            "hex": "#002b7f",
+            "percent": 22
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 2
+        }
+    ]
+}

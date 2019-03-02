@@ -1,0 +1,21 @@
+{
+    "id": "vinnytsia",
+    "colors": [
+        {
+            "hex": "#1059d3",
+            "percent": 67
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 20
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

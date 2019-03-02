@@ -1,0 +1,21 @@
+{
+    "id": "portuguesa",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 54
+        },
+        {
+            "hex": "#008033",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 2
+        }
+    ]
+}

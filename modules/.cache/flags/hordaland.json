@@ -1,0 +1,13 @@
+{
+    "id": "hordaland",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 89
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 10
+        }
+    ]
+}

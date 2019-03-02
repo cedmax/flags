@@ -1,0 +1,25 @@
+{
+    "id": "manitoba",
+    "colors": [
+        {
+            "hex": "#cc0000",
+            "percent": 77
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        },
+        {
+            "hex": "#000066",
+            "percent": 7
+        },
+        {
+            "hex": "#165016",
+            "percent": 2
+        },
+        {
+            "hex": "#bd0000",
+            "percent": 1
+        }
+    ]
+}

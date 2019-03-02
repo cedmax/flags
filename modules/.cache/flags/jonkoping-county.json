@@ -1,0 +1,25 @@
+{
+    "id": "jonkoping-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 48
+        },
+        {
+            "hex": "#d40000",
+            "percent": 23
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 13
+        },
+        {
+            "hex": "#ffcd50",
+            "percent": 8
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

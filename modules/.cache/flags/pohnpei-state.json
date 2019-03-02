@@ -1,0 +1,21 @@
+{
+    "id": "pohnpei-state",
+    "colors": [
+        {
+            "hex": "#0039ad",
+            "percent": 88
+        },
+        {
+            "hex": "#046e24",
+            "percent": 6
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#a54a00",
+            "percent": 1
+        }
+    ]
+}

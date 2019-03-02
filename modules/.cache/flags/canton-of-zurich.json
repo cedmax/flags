@@ -1,0 +1,13 @@
+{
+    "id": "canton-of-zurich",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#268bcc",
+            "percent": 50
+        }
+    ]
+}

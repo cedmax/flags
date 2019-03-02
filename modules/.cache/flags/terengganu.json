@@ -1,0 +1,13 @@
+{
+    "id": "terengganu",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 51
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 48
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "biobio",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 91
+        },
+        {
+            "hex": "#eac102",
+            "percent": 2
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        }
+    ]
+}

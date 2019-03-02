@@ -1,0 +1,17 @@
+{
+    "id": "tocantins",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 53
+        },
+        {
+            "hex": "#ff9600",
+            "percent": 26
+        },
+        {
+            "hex": "#1946b4",
+            "percent": 21
+        }
+    ]
+}

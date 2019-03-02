@@ -1,0 +1,13 @@
+{
+    "id": "northern-ostrobothnia",
+    "colors": [
+        {
+            "hex": "#0046b8",
+            "percent": 88
+        },
+        {
+            "hex": "#f5f5f5",
+            "percent": 10
+        }
+    ]
+}

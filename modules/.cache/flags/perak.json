@@ -1,0 +1,17 @@
+{
+    "id": "perak",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        }
+    ]
+}

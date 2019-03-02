@@ -1,0 +1,29 @@
+{
+    "id": "nuble",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 85
+        },
+        {
+            "hex": "#eac102",
+            "percent": 3
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 3
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 3
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

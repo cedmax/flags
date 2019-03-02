@@ -1,0 +1,13 @@
+{
+    "id": "bago-region",
+    "colors": [
+        {
+            "hex": "#0051ba",
+            "percent": 93
+        },
+        {
+            "hex": "#f9dd16",
+            "percent": 3
+        }
+    ]
+}

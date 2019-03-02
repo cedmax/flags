@@ -1,0 +1,21 @@
+{
+    "id": "zhytomyr",
+    "colors": [
+        {
+            "hex": "#ee161f",
+            "percent": 81
+        },
+        {
+            "hex": "#fff215",
+            "percent": 9
+        },
+        {
+            "hex": "#00aef5",
+            "percent": 4
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

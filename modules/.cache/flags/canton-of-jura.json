@@ -1,0 +1,21 @@
+{
+    "id": "canton-of-jura",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 51
+        },
+        {
+            "hex": "#e8423f",
+            "percent": 41
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#010202",
+            "percent": 2
+        }
+    ]
+}

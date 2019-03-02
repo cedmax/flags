@@ -1,0 +1,17 @@
+{
+    "id": "halland-county",
+    "colors": [
+        {
+            "hex": "#003d8f",
+            "percent": 74
+        },
+        {
+            "hex": "#eeeeee",
+            "percent": 20
+        },
+        {
+            "hex": "#d40000",
+            "percent": 1
+        }
+    ]
+}

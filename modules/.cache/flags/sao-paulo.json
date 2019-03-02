@@ -1,0 +1,25 @@
+{
+    "id": "sao-paulo",
+    "colors": [
+        {
+            "hex": "#212125",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#c40008",
+            "percent": 9
+        },
+        {
+            "hex": "#294292",
+            "percent": 2
+        },
+        {
+            "hex": "#ffec00",
+            "percent": 1
+        }
+    ]
+}

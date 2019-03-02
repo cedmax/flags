@@ -1,0 +1,21 @@
+{
+    "id": "zakarpattia",
+    "colors": [
+        {
+            "hex": "#fdcc00",
+            "percent": 52
+        },
+        {
+            "hex": "#2475b1",
+            "percent": 43
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#d90000",
+            "percent": 2
+        }
+    ]
+}

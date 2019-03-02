@@ -1,0 +1,13 @@
+{
+    "id": "northern-ireland",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 74
+        },
+        {
+            "hex": "#cc0000",
+            "percent": 23
+        }
+    ]
+}

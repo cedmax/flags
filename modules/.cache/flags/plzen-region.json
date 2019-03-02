@@ -1,0 +1,29 @@
+{
+    "id": "plzen-region",
+    "colors": [
+        {
+            "hex": "#ba2b1a",
+            "percent": 39
+        },
+        {
+            "hex": "#009600",
+            "percent": 36
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 5
+        },
+        {
+            "hex": "#ffc800",
+            "percent": 3
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        }
+    ]
+}

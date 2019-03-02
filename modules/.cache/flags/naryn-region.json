@@ -1,0 +1,21 @@
+{
+    "id": "naryn-region",
+    "colors": [
+        {
+            "hex": "#4582c3",
+            "percent": 70
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        },
+        {
+            "hex": "#3a53a6",
+            "percent": 9
+        },
+        {
+            "hex": "#f00000",
+            "percent": 4
+        }
+    ]
+}

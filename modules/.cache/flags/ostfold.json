@@ -1,0 +1,13 @@
+{
+    "id": "ostfold",
+    "colors": [
+        {
+            "hex": "#fb501e",
+            "percent": 70
+        },
+        {
+            "hex": "#f8da07",
+            "percent": 29
+        }
+    ]
+}

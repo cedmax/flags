@@ -1,0 +1,17 @@
+{
+    "id": "uusimaa",
+    "colors": [
+        {
+            "hex": "#0a5fa9",
+            "percent": 62
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#f2df06",
+            "percent": 8
+        }
+    ]
+}

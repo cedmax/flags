@@ -1,0 +1,29 @@
+{
+    "id": "rapla-county",
+    "colors": [
+        {
+            "hex": "#009645",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        },
+        {
+            "hex": "#f3f3f3",
+            "percent": 3
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 2
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 1
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 1
+        }
+    ]
+}

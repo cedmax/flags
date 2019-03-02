@@ -1,0 +1,17 @@
+{
+    "id": "bahia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#c8140a",
+            "percent": 42
+        },
+        {
+            "hex": "#0a14c8",
+            "percent": 12
+        }
+    ]
+}

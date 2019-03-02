@@ -1,0 +1,17 @@
+{
+    "id": "kalmar-county",
+    "colors": [
+        {
+            "hex": "#ffcd50",
+            "percent": 43
+        },
+        {
+            "hex": "#003d8f",
+            "percent": 34
+        },
+        {
+            "hex": "#d40000",
+            "percent": 11
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "zala",
+    "colors": [
+        {
+            "hex": "#2b5df2",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 47
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

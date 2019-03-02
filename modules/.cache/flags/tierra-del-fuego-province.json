@@ -1,0 +1,17 @@
+{
+    "id": "tierra-del-fuego-province",
+    "colors": [
+        {
+            "hex": "#fd9730",
+            "percent": 49
+        },
+        {
+            "hex": "#1983dd",
+            "percent": 38
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        }
+    ]
+}

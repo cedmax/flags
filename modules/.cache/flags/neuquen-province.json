@@ -1,0 +1,17 @@
+{
+    "id": "neuquen-province",
+    "colors": [
+        {
+            "hex": "#73c6ef",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#008c42",
+            "percent": 2
+        }
+    ]
+}

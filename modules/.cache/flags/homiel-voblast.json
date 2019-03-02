@@ -1,0 +1,21 @@
+{
+    "id": "homiel-voblast",
+    "colors": [
+        {
+            "hex": "#4ca669",
+            "percent": 82
+        },
+        {
+            "hex": "#d92136",
+            "percent": 2
+        },
+        {
+            "hex": "#f4ec22",
+            "percent": 1
+        },
+        {
+            "hex": "#408fd4",
+            "percent": 1
+        }
+    ]
+}

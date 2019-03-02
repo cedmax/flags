@@ -1,0 +1,29 @@
+{
+    "id": "csongrad",
+    "colors": [
+        {
+            "hex": "#5ab532",
+            "percent": 77
+        },
+        {
+            "hex": "#fcef3c",
+            "percent": 6
+        },
+        {
+            "hex": "#000000",
+            "percent": 5
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#e20909",
+            "percent": 1
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 1
+        }
+    ]
+}

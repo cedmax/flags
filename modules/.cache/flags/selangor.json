@@ -1,0 +1,17 @@
+{
+    "id": "selangor",
+    "colors": [
+        {
+            "hex": "#fcd116",
+            "percent": 50
+        },
+        {
+            "hex": "#da251d",
+            "percent": 47
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

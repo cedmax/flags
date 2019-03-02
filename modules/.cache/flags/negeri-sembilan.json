@@ -1,0 +1,17 @@
+{
+    "id": "negeri-sembilan",
+    "colors": [
+        {
+            "hex": "#ffd100",
+            "percent": 75
+        },
+        {
+            "hex": "#dc241f",
+            "percent": 12
+        },
+        {
+            "hex": "#000000",
+            "percent": 12
+        }
+    ]
+}

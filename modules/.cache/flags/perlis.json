@@ -1,0 +1,13 @@
+{
+    "id": "perlis",
+    "colors": [
+        {
+            "hex": "#fbd015",
+            "percent": 50
+        },
+        {
+            "hex": "#002879",
+            "percent": 50
+        }
+    ]
+}

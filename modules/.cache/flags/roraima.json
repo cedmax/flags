@@ -1,0 +1,25 @@
+{
+    "id": "roraima",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 32
+        },
+        {
+            "hex": "#00a5ff",
+            "percent": 27
+        },
+        {
+            "hex": "#008200",
+            "percent": 24
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 10
+        },
+        {
+            "hex": "#dc0000",
+            "percent": 5
+        }
+    ]
+}

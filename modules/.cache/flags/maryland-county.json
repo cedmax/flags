@@ -1,0 +1,29 @@
+{
+    "id": "maryland-county",
+    "colors": [
+        {
+            "hex": "#fad115",
+            "percent": 60
+        },
+        {
+            "hex": "#66aaee",
+            "percent": 21
+        },
+        {
+            "hex": "#009900",
+            "percent": 10
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#002868",
+            "percent": 1
+        }
+    ]
+}

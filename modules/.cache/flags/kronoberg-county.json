@@ -1,0 +1,17 @@
+{
+    "id": "kronoberg-county",
+    "colors": [
+        {
+            "hex": "#ffcd50",
+            "percent": 52
+        },
+        {
+            "hex": "#225500",
+            "percent": 28
+        },
+        {
+            "hex": "#d40000",
+            "percent": 13
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "cundinamarca",
+    "colors": [
+        {
+            "hex": "#89c5e3",
+            "percent": 33
+        },
+        {
+            "hex": "#da121a",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 24
+        },
+        {
+            "hex": "#e6e6e5",
+            "percent": 4
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#010101",
+            "percent": 1
+        }
+    ]
+}

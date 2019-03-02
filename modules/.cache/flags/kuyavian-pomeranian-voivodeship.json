@@ -1,0 +1,17 @@
+{
+    "id": "kuyavian-pomeranian-voivodeship",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#da251d",
+            "percent": 25
+        },
+        {
+            "hex": "#0a0b0c",
+            "percent": 25
+        }
+    ]
+}

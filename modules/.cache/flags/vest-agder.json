@@ -1,0 +1,13 @@
+{
+    "id": "vest-agder",
+    "colors": [
+        {
+            "hex": "#198909",
+            "percent": 84
+        },
+        {
+            "hex": "#ffe600",
+            "percent": 15
+        }
+    ]
+}

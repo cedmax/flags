@@ -1,0 +1,17 @@
+{
+    "id": "paraiba",
+    "colors": [
+        {
+            "hex": "#f00000",
+            "percent": 65
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

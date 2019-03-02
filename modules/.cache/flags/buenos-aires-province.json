@@ -1,0 +1,21 @@
+{
+    "id": "buenos-aires-province",
+    "colors": [
+        {
+            "hex": "#0061b6",
+            "percent": 47
+        },
+        {
+            "hex": "#009260",
+            "percent": 38
+        },
+        {
+            "hex": "#fffb00",
+            "percent": 9
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 2
+        }
+    ]
+}

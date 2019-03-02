@@ -1,0 +1,25 @@
+{
+    "id": "alagoas",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 34
+        },
+        {
+            "hex": "#0077b9",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#00923f",
+            "percent": 2
+        },
+        {
+            "hex": "#0067ab",
+            "percent": 1
+        }
+    ]
+}
