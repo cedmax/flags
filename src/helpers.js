@@ -10,9 +10,12 @@ export const getId = (string = "") =>
   ).toLowerCase();
 
 export const getMapUrl = id => {
+  let mapUrl;
   try {
-    return require(`../data/maps/_thumbs/${id}.png`);
+    mapUrl = require(`./data/maps/_thumbs/${id}.png`);
   } catch (e) {}
+
+  return mapUrl;
 };
 
 const clean = obj =>

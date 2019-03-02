@@ -26,29 +26,35 @@ const FlagActions = withContext(
   ))
 );
 
-const MapLink = withContext(({ dispatch, url, id, country }) => (
-  <Link
-    to={url}
-    onClick={() =>
-      dispatch(
-        action("showDetails", {
-          id,
-          detailView: "map",
-        })
-      )
-    }
-  >
-    <img alt={`${country} location map`} src={url} />
-  </Link>
-));
+const MapLink = withContext(
+  ({ dispatch, url, id, country }) =>
+    !!url && (
+      <Link
+        to={url}
+        onClick={() =>
+          dispatch(
+            action("showDetails", {
+              id,
+              detailView: "map",
+            })
+          )
+        }
+      >
+        <img alt={`${country} location map`} src={url} />
+      </Link>
+    )
+);
 
 const DetailsHeader = React.memo(({ flag, active }) => {
-  const mapLink = getMapUrl(flag.id);
   return (
     <div className="flag-header">
       <div className="flag-map">
-        {active && mapLink && (
-          <MapLink url={mapLink} id={flag.id} country={flag.country} />
+        {active && (
+          <MapLink
+            url={getMapUrl(flag.id)}
+            id={flag.id}
+            country={flag.country}
+          />
         )}
       </div>
       <div className="flag-title">
