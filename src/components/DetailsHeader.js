@@ -51,7 +51,7 @@ const DetailsHeader = React.memo(({ flag, active }) => {
       <div className="flag-map">
         {active && (
           <MapLink
-            url={getMapUrl(flag.id)}
+            url={getMapUrl(flag.id, true)}
             id={flag.id}
             country={flag.country}
           />
