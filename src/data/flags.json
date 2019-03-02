@@ -11699,2292 +11699,6 @@
             ]
         }
     ],
-    "IT": [
-        {
-            "id": "abruzzo",
-            "belongsTo": "Italy",
-            "country": "Abruzzo",
-            "adoption": {
-                "sort": 1999,
-                "text": "1999"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/abruzzo",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Abruzzo_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ec1e3d",
-                    "percent": 82,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#108541",
-                    "percent": 9,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 4,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#4976bb",
-                    "percent": 3,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#f5dd06",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "red",
-                "green",
-                "white",
-                "blue",
-                "yellow"
-            ]
-        },
-        {
-            "id": "apulia",
-            "belongsTo": "Italy",
-            "country": "Apulia",
-            "adoption": {
-                "sort": 2001,
-                "text": "2001"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/apulia",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Apulia_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 74,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#f82920",
-                    "percent": 10,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#00a05e",
-                    "percent": 7,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#f2ce26",
-                    "percent": 2,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#009ee0",
-                    "percent": 1,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "green",
-                "yellow",
-                "cyan"
-            ]
-        },
-        {
-            "id": "basilicata",
-            "belongsTo": "Italy",
-            "country": "Basilicata",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/basilicata",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Basilicata_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#000099",
-                    "percent": 80,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 15,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#0058ff",
-                    "percent": 3,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#dfdf43",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "blue",
-                "white",
-                "yellow"
-            ]
-        },
-        {
-            "id": "calabria",
-            "belongsTo": "Italy",
-            "country": "Calabria",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/calabria",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Calabria_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#005aab",
-                    "percent": 84,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#cecece",
-                    "percent": 5,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#cea518",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 3,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 1,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#1fc2ff",
-                    "percent": 1,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "cyan",
-                "white",
-                "yellow",
-                "black"
-            ]
-        },
-        {
-            "id": "campania",
-            "belongsTo": "Italy",
-            "country": "Campania",
-            "adoption": {
-                "sort": 1971,
-                "text": "1971"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/campania",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Campania_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0073b5",
-                    "percent": 76,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 17,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#ce1029",
-                    "percent": 6,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "cyan",
-                "white",
-                "red"
-            ]
-        },
-        {
-            "id": "emilia-romagna",
-            "belongsTo": "Italy",
-            "country": "Emilia-Romagna",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/emilia-romagna",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Emilia-Romagna_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 89,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#008000",
-                    "percent": 8,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ff4444",
-                    "percent": 2,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#cccccc",
-                    "percent": 1,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "white",
-                "green",
-                "red"
-            ]
-        },
-        {
-            "id": "lazio",
-            "belongsTo": "Italy",
-            "country": "Lazio",
-            "adoption": {
-                "sort": 1984,
-                "text": "1984"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/lazio",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Lazio_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#54d6ed",
-                    "percent": 75,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#fdd212",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#f9a400",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#e70000",
-                    "percent": 3,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#0075d0",
-                    "percent": 3,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 2,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#055e0a",
-                    "percent": 2,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffc816",
-                    "percent": 2,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ffb910",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#8a8e01",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#fca900",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "cyan",
-                "yellow",
-                "red",
-                "white",
-                "green"
-            ]
-        },
-        {
-            "id": "liguria",
-            "belongsTo": "Italy",
-            "country": "Liguria",
-            "adoption": {
-                "sort": 1997,
-                "text": "1997"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/liguria",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Liguria_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#009c31",
-                    "percent": 33,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#009cce",
-                    "percent": 33,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#ff0000",
-                    "percent": 17,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 9,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#bdbdbd",
-                    "percent": 5,
-                    "tag": "gray"
-                },
-                {
-                    "hex": "#b5cece",
-                    "percent": 1,
-                    "tag": "gray"
-                },
-                {
-                    "hex": "#6b6b6b",
-                    "percent": 1,
-                    "tag": "gray"
-                }
-            ],
-            "tags": [
-                "green",
-                "cyan",
-                "red",
-                "white",
-                "gray"
-            ]
-        },
-        {
-            "id": "lombardy",
-            "belongsTo": "Italy",
-            "country": "Lombardy",
-            "adoption": {
-                "sort": 1975,
-                "text": "1975"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/lombardy",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Lombardy_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#00a040",
-                    "percent": 86,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 13,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "green",
-                "white"
-            ]
-        },
-        {
-            "id": "marche",
-            "belongsTo": "Italy",
-            "country": "Marche",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/marche",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Marches_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 86,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#019903",
-                    "percent": 6,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 5,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#07814b",
-                    "percent": 1,
-                    "tag": "green"
-                }
-            ],
-            "tags": [
-                "white",
-                "green",
-                "black"
-            ]
-        },
-        {
-            "id": "molise",
-            "belongsTo": "Italy",
-            "country": "Molise",
-            "adoption": {
-                "sort": 1963,
-                "text": "1963"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/molise",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Molise_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0000ff",
-                    "percent": 86,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ff0042",
-                    "percent": 9,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 4,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "blue",
-                "red",
-                "white"
-            ]
-        },
-        {
-            "id": "piedmont",
-            "belongsTo": "Italy",
-            "country": "Piedmont",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/piedmont",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Piedmont_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ff0000",
-                    "percent": 49,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 27,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#0c3c7c",
-                    "percent": 24,
-                    "tag": "blue"
-                }
-            ],
-            "tags": [
-                "red",
-                "white",
-                "blue"
-            ]
-        },
-        {
-            "id": "tuscany",
-            "belongsTo": "Italy",
-            "country": "Tuscany",
-            "adoption": {
-                "sort": null,
-                "text": ""
-            },
-            "ratio": "2:3",
-            "url": "/wiki/tuscany",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Tuscany_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 76,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#ce1021",
-                    "percent": 20,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "white",
-                "red"
-            ]
-        },
-        {
-            "id": "umbria",
-            "belongsTo": "Italy",
-            "country": "Umbria",
-            "adoption": {
-                "sort": 2004,
-                "text": "2004"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/umbria",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Umbria_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#00943a",
-                    "percent": 83,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#b2b2b2",
-                    "percent": 7,
-                    "tag": "gray"
-                },
-                {
-                    "hex": "#ff0000",
-                    "percent": 5,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 3,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#266861",
-                    "percent": 1,
-                    "tag": "green"
-                }
-            ],
-            "tags": [
-                "green",
-                "gray",
-                "red",
-                "white"
-            ]
-        },
-        {
-            "id": "veneto",
-            "belongsTo": "Italy",
-            "country": "Veneto",
-            "adoption": {
-                "sort": 1975,
-                "text": "1975"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/veneto",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Veneto_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#c1003e",
-                    "percent": 33,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffbd00",
-                    "percent": 21,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ff9c00",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#d69c5a",
-                    "percent": 3,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#001029",
-                    "percent": 3,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ded6d6",
-                    "percent": 2,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#b57300",
-                    "percent": 2,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#bd9c00",
-                    "percent": 2,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#5d023f",
-                    "percent": 1,
-                    "tag": "magenta"
-                },
-                {
-                    "hex": "#ee8b11",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#d2322d",
-                    "percent": 1,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffbc00",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#fbfdc2",
-                    "percent": 1,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow",
-                "black",
-                "white",
-                "magenta"
-            ]
-        },
-        {
-            "id": "aosta-valley",
-            "belongsTo": "Italy",
-            "country": "Aosta Valley",
-            "adoption": {
-                "sort": 2006,
-                "text": "2006"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/aosta_valley",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Aosta_Valley_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#000000",
-                    "percent": 50,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ff0000",
-                    "percent": 50,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "black",
-                "red"
-            ]
-        },
-        {
-            "id": "friuli-venezia-giulia",
-            "belongsTo": "Italy",
-            "country": "Friuli-Venezia Giulia",
-            "adoption": {
-                "sort": 2001,
-                "text": "2001"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/friuli-venezia_giulia",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Friuli-Venezia_Giulia_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0063e7",
-                    "percent": 86,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffce00",
-                    "percent": 5,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#bab8be",
-                    "percent": 1,
-                    "tag": "gray"
-                }
-            ],
-            "tags": [
-                "blue",
-                "yellow",
-                "gray"
-            ]
-        },
-        {
-            "id": "sardinia",
-            "belongsTo": "Italy",
-            "country": "Sardinia",
-            "adoption": {
-                "sort": 1950,
-                "text": "1950"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/sardinia",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Sardinia_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 71,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#d81921",
-                    "percent": 15,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 11,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "black"
-            ]
-        },
-        {
-            "id": "sicily",
-            "belongsTo": "Italy",
-            "country": "Sicily",
-            "adoption": {
-                "sort": 2000,
-                "text": "2000"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/sicily",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Sicily_in_Italy.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#fff100",
-                    "percent": 44,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ec1b23",
-                    "percent": 44,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffc8a0",
-                    "percent": 6,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 2,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ebb437",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red",
-                "white",
-                "black"
-            ]
-        },
-        {
-            "id": "trentino-alto-adigesudtirol",
-            "belongsTo": "Italy",
-            "country": "Trentino-Alto Adige/Südtirol",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "url": "/wiki/trentino-alto_adige/s%c3%bcdtirol",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Trentino-Alto_Adige_in_Italy_(%2Bprovinces).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 47,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#0f47af",
-                    "percent": 42,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 3,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 2,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "white",
-                "blue",
-                "red",
-                "black"
-            ]
-        }
-    ],
-    "DE": [
-        {
-            "id": "baden-wurttemberg",
-            "belongsTo": "Germany",
-            "country": "Baden-Württemberg",
-            "url": "/wiki/baden-w%c3%bcrttemberg",
-            "adoption": {
-                "sort": 1953,
-                "text": "1953"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Baden-W%C3%BCrttemberg_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#000000",
-                    "percent": 50,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#f9dd16",
-                    "percent": 50,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "black",
-                "yellow"
-            ]
-        },
-        {
-            "id": "bavaria",
-            "belongsTo": "Germany",
-            "country": "Bavaria",
-            "url": "/wiki/bavaria",
-            "adoption": {
-                "sort": 1953,
-                "text": "1953"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bavaria_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0098d4",
-                    "percent": 50,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 49,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "cyan",
-                "white"
-            ]
-        },
-        {
-            "id": "berlin",
-            "belongsTo": "Germany",
-            "country": "Berlin",
-            "url": "/wiki/berlin",
-            "adoption": {
-                "sort": 1954,
-                "text": "1954"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Berlin_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 54,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#e2382a",
-                    "percent": 40,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 6,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "black"
-            ]
-        },
-        {
-            "id": "brandenburg",
-            "belongsTo": "Germany",
-            "country": "Brandenburg",
-            "url": "/wiki/brandenburg",
-            "adoption": {
-                "sort": 1991,
-                "text": "1991"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Brandenburg_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#e60000",
-                    "percent": 45,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 1,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "black"
-            ]
-        },
-        {
-            "id": "bremen",
-            "belongsTo": "Germany",
-            "country": "Bremen",
-            "url": "/wiki/bremen_(state)",
-            "adoption": {
-                "sort": 1952,
-                "text": "1952"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bremen_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#dd0000",
-                    "percent": 50,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "white"
-            ]
-        },
-        {
-            "id": "hamburg",
-            "belongsTo": "Germany",
-            "country": "Hamburg",
-            "url": "/wiki/hamburg",
-            "adoption": {
-                "sort": 1834,
-                "text": "1834"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hamburg_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#da121a",
-                    "percent": 81,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 16,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 1,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "red",
-                "white",
-                "black"
-            ]
-        },
-        {
-            "id": "hesse",
-            "belongsTo": "Germany",
-            "country": "Hesse",
-            "url": "/wiki/hesse",
-            "adoption": {
-                "sort": 1948,
-                "text": "1948"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hesse_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#e10000",
-                    "percent": 50,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "white"
-            ]
-        },
-        {
-            "id": "lower-saxony",
-            "belongsTo": "Germany",
-            "country": "Lower Saxony",
-            "url": "/wiki/lower_saxony",
-            "adoption": {
-                "sort": 1951,
-                "text": "1951"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Lower-Saxony_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#dd0000",
-                    "percent": 35,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 29,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ffce00",
-                    "percent": 29,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 4,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "black",
-                "yellow",
-                "white"
-            ]
-        },
-        {
-            "id": "mecklenburg-vorpommern",
-            "belongsTo": "Germany",
-            "country": "Mecklenburg-Vorpommern",
-            "url": "/wiki/mecklenburg-vorpommern",
-            "adoption": {
-                "sort": 1990,
-                "text": "1990"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Mecklenburg-Vorpommern_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 40,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#2b58a3",
-                    "percent": 27,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#de0029",
-                    "percent": 27,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#f9f400",
-                    "percent": 7,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "white",
-                "blue",
-                "red",
-                "yellow"
-            ]
-        },
-        {
-            "id": "north-rhine-westphalia",
-            "belongsTo": "Germany",
-            "country": "North Rhine-Westphalia",
-            "url": "/wiki/north_rhine-westphalia",
-            "adoption": {
-                "sort": 1953,
-                "text": "1953"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_North_Rhine-Westphalia_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#009136",
-                    "percent": 33,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 33,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#e3001b",
-                    "percent": 33,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "green",
-                "white",
-                "red"
-            ]
-        },
-        {
-            "id": "rhineland-palatinate",
-            "belongsTo": "Germany",
-            "country": "Rhineland-Palatinate",
-            "url": "/wiki/rhineland-palatinate",
-            "adoption": {
-                "sort": 1945,
-                "text": "1945"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Rhineland-Palatinate_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffce00",
-                    "percent": 35,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#dd0000",
-                    "percent": 32,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 30,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 1,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red",
-                "black",
-                "white"
-            ]
-        },
-        {
-            "id": "saarland",
-            "belongsTo": "Germany",
-            "country": "Saarland",
-            "url": "/wiki/saarland",
-            "adoption": {
-                "sort": 1957,
-                "text": "1957"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saarland_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffce00",
-                    "percent": 33,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 31,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#dd0000",
-                    "percent": 24,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 3,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#176fc1",
-                    "percent": 1,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "black",
-                "red",
-                "white",
-                "cyan"
-            ]
-        },
-        {
-            "id": "saxony",
-            "belongsTo": "Germany",
-            "country": "Saxony",
-            "url": "/wiki/saxony",
-            "adoption": {
-                "sort": 1991,
-                "text": "1991"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#166c23",
-                    "percent": 50,
-                    "tag": "green"
-                }
-            ],
-            "tags": [
-                "white",
-                "green"
-            ]
-        },
-        {
-            "id": "saxony-anhalt",
-            "belongsTo": "Germany",
-            "country": "Saxony-Anhalt",
-            "url": "/wiki/saxony-anhalt",
-            "adoption": {
-                "sort": 1991,
-                "text": "1991"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony-Anhalt_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#fcd116",
-                    "percent": 50,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 50,
-                    "tag": "black"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "black"
-            ]
-        },
-        {
-            "id": "schleswig-holstein",
-            "belongsTo": "Germany",
-            "country": "Schleswig-Holstein",
-            "url": "/wiki/schleswig-holstein",
-            "adoption": {
-                "sort": 1948,
-                "text": "1948"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Schleswig-Holstein_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0039ad",
-                    "percent": 33,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 33,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#d61810",
-                    "percent": 33,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "blue",
-                "white",
-                "red"
-            ]
-        },
-        {
-            "id": "thuringia",
-            "belongsTo": "Germany",
-            "country": "Thuringia",
-            "url": "/wiki/thuringia",
-            "adoption": {
-                "sort": 1991,
-                "text": "1991"
-            },
-            "ratio": "3:5",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Thuringia_in_Germany.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#e10000",
-                    "percent": 50,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "white",
-                "red"
-            ]
-        }
-    ],
-    "ES": [
-        {
-            "id": "andalusia",
-            "belongsTo": "Spain",
-            "country": "Andalusia",
-            "url": "/wiki/andalusia",
-            "adoption": {
-                "sort": 1918,
-                "text": "1918"
-            },
-            "ratio": "2:3",
-            "name": "Arbonaida",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Andalucia_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#006633",
-                    "percent": 66,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 29,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "green",
-                "white"
-            ]
-        },
-        {
-            "id": "aragon",
-            "belongsTo": "Spain",
-            "country": "Aragon",
-            "url": "/wiki/aragon",
-            "adoption": {
-                "sort": 1984,
-                "text": "1984"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Aragon_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#da121a",
-                    "percent": 39,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#fbea0e",
-                    "percent": 28,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#fcdd09",
-                    "percent": 22,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 1,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#0071bc",
-                    "percent": 1,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#e3e4e5",
-                    "percent": 1,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow",
-                "cyan",
-                "white"
-            ]
-        },
-        {
-            "id": "principality-of-asturias",
-            "belongsTo": "Spain",
-            "country": "Principality of Asturias",
-            "url": "/wiki/principality_of_asturias",
-            "adoption": {
-                "sort": 1990,
-                "text": "1990"
-            },
-            "ratio": "2:3",
-            "name": "Asturina",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Asturias_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#0066ff",
-                    "percent": 95,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#f7d417",
-                    "percent": 5,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "blue",
-                "yellow"
-            ]
-        },
-        {
-            "id": "balearic-islands",
-            "belongsTo": "Spain",
-            "country": "Balearic Islands",
-            "url": "/wiki/balearic_islands",
-            "adoption": {
-                "sort": 1983,
-                "text": "1983"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Baleares_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#fcdd09",
-                    "percent": 42,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 33,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#40104c",
-                    "percent": 18,
-                    "tag": "magenta"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 5,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red",
-                "magenta",
-                "white"
-            ]
-        },
-        {
-            "id": "basque-country",
-            "belongsTo": "Spain",
-            "country": "Basque Country",
-            "url": "/wiki/basque_country_(autonomous_community)",
-            "adoption": {
-                "sort": 1978,
-                "text": "1978"
-            },
-            "ratio": "14:25",
-            "name": "Ikurriña",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Basque_Country_in_Spain_(zoom)_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#d52b1e",
-                    "percent": 49,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#009b48",
-                    "percent": 27,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 23,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "green",
-                "white"
-            ]
-        },
-        {
-            "id": "canary-islands",
-            "belongsTo": "Spain",
-            "country": "Canary Islands",
-            "url": "/wiki/canary_islands",
-            "adoption": {
-                "sort": 1982,
-                "text": "1982"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Canarias_in_Spain.svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 34,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#ffcc00",
-                    "percent": 33,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#0768a9",
-                    "percent": 26,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#d6a54f",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#006abe",
-                    "percent": 1,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "white",
-                "yellow",
-                "cyan"
-            ]
-        },
-        {
-            "id": "cantabria",
-            "belongsTo": "Spain",
-            "country": "Cantabria",
-            "url": "/wiki/cantabria",
-            "adoption": {
-                "sort": 1984,
-                "text": "1984"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Cantabria_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 46,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 46,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 2,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#0071bc",
-                    "percent": 1,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#e3e4e5",
-                    "percent": 1,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "cyan",
-                "yellow"
-            ]
-        },
-        {
-            "id": "castile-la-mancha",
-            "belongsTo": "Spain",
-            "country": "Castile-La Mancha",
-            "url": "/wiki/castile-la_mancha",
-            "adoption": {
-                "sort": 1986,
-                "text": "1986"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Castilla-La_Mancha_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 50,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#b81626",
-                    "percent": 38,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#cab313",
-                    "percent": 8,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#0f47af",
-                    "percent": 1,
-                    "tag": "blue"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "yellow",
-                "blue"
-            ]
-        },
-        {
-            "id": "castile-and-leon",
-            "belongsTo": "Spain",
-            "country": "Castile and León",
-            "url": "/wiki/castile_and_le%c3%b3n",
-            "adoption": {
-                "sort": 1983,
-                "text": "1983"
-            },
-            "ratio": "10:13",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Castilla_y_Leon_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 43,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 38,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#fcdd09",
-                    "percent": 7,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#742c64",
-                    "percent": 5,
-                    "tag": "magenta"
-                },
-                {
-                    "hex": "#0f47af",
-                    "percent": 1,
-                    "tag": "blue"
-                }
-            ],
-            "tags": [
-                "white",
-                "red",
-                "yellow",
-                "magenta",
-                "blue"
-            ]
-        },
-        {
-            "id": "catalonia",
-            "belongsTo": "Spain",
-            "country": "Catalonia",
-            "url": "/wiki/catalonia",
-            "adoption": {
-                "sort": 1933,
-                "text": "1933"
-            },
-            "ratio": "2:3",
-            "name": "Senyera",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Cataluna_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#fcdd09",
-                    "percent": 56,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 44,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red"
-            ]
-        },
-        {
-            "id": "extremadura",
-            "belongsTo": "Spain",
-            "country": "Extremadura",
-            "url": "/wiki/extremadura",
-            "adoption": {
-                "sort": 1983,
-                "text": "1983"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Extremadura_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#00ab39",
-                    "percent": 33,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 33,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 29,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 1,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#e3e4e5",
-                    "percent": 1,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#0071bc",
-                    "percent": 1,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "green",
-                "black",
-                "white",
-                "yellow",
-                "red",
-                "cyan"
-            ]
-        },
-        {
-            "id": "galicia",
-            "belongsTo": "Spain",
-            "country": "Galicia",
-            "url": "/wiki/galicia_(spain)",
-            "adoption": {
-                "sort": 1984,
-                "text": "1984"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Galicia_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 69,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#0099cc",
-                    "percent": 21,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#005bbf",
-                    "percent": 4,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#bcac0b",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#cccccc",
-                    "percent": 1,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#d81126",
-                    "percent": 1,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "white",
-                "cyan",
-                "blue",
-                "yellow",
-                "red"
-            ]
-        },
-        {
-            "id": "la-rioja",
-            "belongsTo": "Spain",
-            "country": "La Rioja",
-            "url": "/wiki/la_rioja_(autonomous_community)",
-            "adoption": {
-                "sort": 1982,
-                "text": "1982"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:La_Rioja_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#dc291e",
-                    "percent": 25,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffc82e",
-                    "percent": 25,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 21,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#66bc29",
-                    "percent": 21,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#0071bc",
-                    "percent": 2,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 1,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow",
-                "white",
-                "green",
-                "cyan"
-            ]
-        },
-        {
-            "id": "madrid",
-            "belongsTo": "Spain",
-            "country": "Madrid",
-            "url": "/wiki/madrid_(autonomous_community)",
-            "adoption": {
-                "sort": 1983,
-                "text": "1983"
-            },
-            "ratio": "7:11",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Madrid_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#c60b1e",
-                    "percent": 92,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 7,
-                    "tag": "white"
-                }
-            ],
-            "tags": [
-                "red",
-                "white"
-            ]
-        },
-        {
-            "id": "murcia",
-            "belongsTo": "Spain",
-            "country": "Murcia",
-            "url": "/wiki/region_of_murcia",
-            "adoption": {
-                "sort": 1982,
-                "text": "1982"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Murcia_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#9c1f2d",
-                    "percent": 95,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#fcb714",
-                    "percent": 4,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow"
-            ]
-        },
-        {
-            "id": "navarre",
-            "belongsTo": "Spain",
-            "country": "Navarre",
-            "url": "/wiki/navarre",
-            "adoption": {
-                "sort": 1982,
-                "text": "1982"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Navarre_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#da121a",
-                    "percent": 92,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 4,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow"
-            ]
-        },
-        {
-            "id": "valencia",
-            "belongsTo": "Spain",
-            "country": "Valencia",
-            "url": "/wiki/valencia_(autonomous_community)",
-            "adoption": {
-                "sort": 1982,
-                "text": "1982"
-            },
-            "ratio": "2:3",
-            "name": "Reial Senyera",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Valencia_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#fcdd09",
-                    "percent": 42,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#da121a",
-                    "percent": 36,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#0072bc",
-                    "percent": 19,
-                    "tag": "cyan"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red",
-                "cyan"
-            ]
-        },
-        {
-            "id": "ceuta",
-            "belongsTo": "Spain",
-            "country": "Ceuta",
-            "url": "/wiki/ceuta",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Ceuta_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#000000",
-                    "percent": 47,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ffffff",
-                    "percent": 47,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#e60000",
-                    "percent": 2,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#eebf00",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "black",
-                "white",
-                "red",
-                "yellow"
-            ]
-        },
-        {
-            "id": "melilla",
-            "belongsTo": "Spain",
-            "country": "Melilla",
-            "url": "/wiki/melilla",
-            "adoption": {
-                "sort": 1995,
-                "text": "1995"
-            },
-            "ratio": "2:3",
-            "map": {
-                "credits": "https://commons.wikimedia.org/wiki/File:Melilla_in_Spain_(plus_Canarias).svg"
-            },
-            "colors": [
-                {
-                    "hex": "#4c86c9",
-                    "percent": 88,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#e3e4e5",
-                    "percent": 3,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#ed1c24",
-                    "percent": 1,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#eac102",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#0071bc",
-                    "percent": 1,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#008f4c",
-                    "percent": 1,
-                    "tag": "green"
-                }
-            ],
-            "tags": [
-                "blue",
-                "white",
-                "red",
-                "yellow",
-                "cyan",
-                "green"
-            ]
-        }
-    ],
     "JP": [
         {
             "id": "aichi",
@@ -15455,7 +13169,7 @@
             "id": "faroe-islands",
             "belongsTo": "Denmark",
             "country": "Faroe Islands",
-            "url": "/wiki/file:flag_of_faroe_islands.svg",
+            "url": "/wiki/faroe_islands",
             "ratio": "8:11",
             "colors": [
                 {
@@ -15484,7 +13198,7 @@
             "id": "greenland",
             "belongsTo": "Denmark",
             "country": "Greenland",
-            "url": "/wiki/file:flag_of_greenland.svg",
+            "url": "/wiki/greenland",
             "ratio": "2:3",
             "colors": [
                 {
@@ -15504,39 +13218,10 @@
             ]
         },
         {
-            "id": "aland",
-            "belongsTo": "Finland",
-            "country": "Åland",
-            "url": "/wiki/file:flag_of_%c3%85land.svg",
-            "ratio": "17:26",
-            "colors": [
-                {
-                    "hex": "#0053a5",
-                    "percent": 57,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffce00",
-                    "percent": 24,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#d21034",
-                    "percent": 19,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "blue",
-                "yellow",
-                "red"
-            ]
-        },
-        {
             "id": "central-finland",
             "belongsTo": "Finland",
             "country": "Central Finland",
-            "url": "/wiki/file:keski-suomi_lippu.svg",
+            "url": "/wiki/central_finland",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15559,7 +13244,7 @@
             "id": "central-ostrobothnia",
             "belongsTo": "Finland",
             "country": "Central Ostrobothnia",
-            "url": "/wiki/file:keski-pohjanmaa.lippu.svg",
+            "url": "/wiki/central_ostrobothnia",
             "ratio": "693:502",
             "colors": [
                 {
@@ -15588,7 +13273,7 @@
             "id": "kainuu",
             "belongsTo": "Finland",
             "country": "Kainuu",
-            "url": "/wiki/file:flag_of_kainuu.svg",
+            "url": "/wiki/kainuu",
             "ratio": "2:3",
             "colors": [
                 {
@@ -15611,7 +13296,7 @@
             "id": "kymenlaakso",
             "belongsTo": "Finland",
             "country": "Kymenlaakso",
-            "url": "/wiki/file:flag_of_kymenlaakso.svg",
+            "url": "/wiki/kymenlaakso",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15640,7 +13325,7 @@
             "id": "lapland",
             "belongsTo": "Finland",
             "country": "Lapland",
-            "url": "/wiki/file:flag_of_lapland.svg",
+            "url": "/wiki/lapland_(finland)",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15681,7 +13366,7 @@
             "id": "north-karelia",
             "belongsTo": "Finland",
             "country": "North Karelia",
-            "url": "/wiki/file:north_karelia_flag.svg",
+            "url": "/wiki/north_karelia",
             "ratio": "3:5",
             "colors": [
                 {
@@ -15710,7 +13395,7 @@
             "id": "northern-ostrobothnia",
             "belongsTo": "Finland",
             "country": "Northern Ostrobothnia",
-            "url": "/wiki/file:flag_of_northern_ostrobothnia.svg",
+            "url": "/wiki/northern_ostrobothnia",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15733,7 +13418,7 @@
             "id": "northern-savonia",
             "belongsTo": "Finland",
             "country": "Northern Savonia",
-            "url": "/wiki/file:flag_of_northern_savonia.svg",
+            "url": "/wiki/northern_savonia",
             "ratio": "2:3",
             "colors": [
                 {
@@ -15759,56 +13444,10 @@
             ]
         },
         {
-            "id": "paijat-hame",
-            "belongsTo": "Finland",
-            "country": "Päijät-Häme",
-            "url": "/wiki/file:p%c3%a4ij%c3%a4t-h%c3%a4me.lippu.svg",
-            "ratio": "285:214",
-            "colors": [
-                {
-                    "hex": "#006bb6",
-                    "percent": 71,
-                    "tag": "cyan"
-                },
-                {
-                    "hex": "#fff200",
-                    "percent": 22,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "cyan",
-                "yellow"
-            ]
-        },
-        {
-            "id": "pirkanmaa",
-            "belongsTo": "Finland",
-            "country": "Pirkanmaa",
-            "url": "/wiki/file:flag_of_pirkanmaa.svg",
-            "ratio": "1:1",
-            "colors": [
-                {
-                    "hex": "#ffff00",
-                    "percent": 75,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#ff0000",
-                    "percent": 25,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "red"
-            ]
-        },
-        {
             "id": "ostrobothnia",
             "belongsTo": "Finland",
             "country": "Ostrobothnia",
-            "url": "/wiki/file:flag_of_ostrobothnia.svg",
+            "url": "/wiki/ostrobothnia_(region)",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15828,10 +13467,56 @@
             ]
         },
         {
+            "id": "pirkanmaa",
+            "belongsTo": "Finland",
+            "country": "Pirkanmaa",
+            "url": "/wiki/pirkanmaa",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffff00",
+                    "percent": 75,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 25,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "paijat-hame",
+            "belongsTo": "Finland",
+            "country": "Päijät-Häme",
+            "url": "/wiki/p%c3%a4ij%c3%a4t-h%c3%a4me",
+            "ratio": "285:214",
+            "colors": [
+                {
+                    "hex": "#006bb6",
+                    "percent": 71,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fff200",
+                    "percent": 22,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
             "id": "satakunta",
             "belongsTo": "Finland",
             "country": "Satakunta",
-            "url": "/wiki/file:satakunta-flag.svg",
+            "url": "/wiki/satakunta",
             "ratio": "389:676",
             "colors": [
                 {
@@ -15866,7 +13551,7 @@
             "id": "south-karelia",
             "belongsTo": "Finland",
             "country": "South Karelia",
-            "url": "/wiki/file:flag_of_south_karelia.svg",
+            "url": "/wiki/south_karelia",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15901,7 +13586,7 @@
             "id": "south-ostrobothnia",
             "belongsTo": "Finland",
             "country": "South Ostrobothnia",
-            "url": "/wiki/file:flag_of_southern_ostrobothnia.svg",
+            "url": "/wiki/south_ostrobothnia",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15924,7 +13609,7 @@
             "id": "southern-savonia",
             "belongsTo": "Finland",
             "country": "Southern Savonia",
-            "url": "/wiki/file:flag_of_southern_savonia.svg",
+            "url": "/wiki/southern_savonia",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15953,7 +13638,7 @@
             "id": "southwest-finland",
             "belongsTo": "Finland",
             "country": "Southwest Finland",
-            "url": "/wiki/file:flag_of_southwest_finland.svg",
+            "url": "/wiki/southwest_finland",
             "ratio": "1:1",
             "colors": [
                 {
@@ -15982,7 +13667,7 @@
             "id": "tavastia-proper",
             "belongsTo": "Finland",
             "country": "Tavastia Proper",
-            "url": "/wiki/file:flag_of_tavastia_proper.svg",
+            "url": "/wiki/tavastia_proper",
             "ratio": "2:3",
             "colors": [
                 {
@@ -16011,7 +13696,7 @@
             "id": "uusimaa",
             "belongsTo": "Finland",
             "country": "Uusimaa",
-            "url": "/wiki/file:flag_of_uusimaa.svg",
+            "url": "/wiki/uusimaa",
             "ratio": "2:3",
             "colors": [
                 {
@@ -16037,10 +13722,39 @@
             ]
         },
         {
+            "id": "aland",
+            "belongsTo": "Finland",
+            "country": "Åland",
+            "url": "/wiki/%c3%85land_islands",
+            "ratio": "17:26",
+            "colors": [
+                {
+                    "hex": "#0053a5",
+                    "percent": 57,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d21034",
+                    "percent": 19,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
             "id": "akershus",
             "belongsTo": "Norway",
             "country": "Akershus",
-            "url": "/wiki/file:flag_of_akershus.svg",
+            "url": "/wiki/akershus",
             "ratio": "117:100",
             "colors": [
                 {
@@ -16063,7 +13777,7 @@
             "id": "aust-agder",
             "belongsTo": "Norway",
             "country": "Aust-Agder",
-            "url": "/wiki/file:flag_of_aust-agder.svg",
+            "url": "/wiki/aust-agder",
             "ratio": "4:5",
             "colors": [
                 {
@@ -16086,7 +13800,7 @@
             "id": "buskerud",
             "belongsTo": "Norway",
             "country": "Buskerud",
-            "url": "/wiki/file:flag_of_buskerud.svg",
+            "url": "/wiki/buskerud",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16109,7 +13823,7 @@
             "id": "finnmark",
             "belongsTo": "Norway",
             "country": "Finnmark",
-            "url": "/wiki/file:flag_of_finnmark.svg",
+            "url": "/wiki/finnmark",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16132,7 +13846,7 @@
             "id": "hedmark",
             "belongsTo": "Norway",
             "country": "Hedmark",
-            "url": "/wiki/file:flag_of_hedmark.svg",
+            "url": "/wiki/hedmark",
             "ratio": "197:160",
             "colors": [
                 {
@@ -16155,7 +13869,7 @@
             "id": "hordaland",
             "belongsTo": "Norway",
             "country": "Hordaland",
-            "url": "/wiki/file:flag_of_hordaland.svg",
+            "url": "/wiki/hordaland",
             "ratio": "7:9",
             "colors": [
                 {
@@ -16178,7 +13892,7 @@
             "id": "more-og-romsdal",
             "belongsTo": "Norway",
             "country": "Møre og Romsdal",
-            "url": "/wiki/file:flag_of_m%c3%b8re_og_romsdal.svg",
+            "url": "/wiki/m%c3%b8re_og_romsdal",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16198,10 +13912,33 @@
             ]
         },
         {
+            "id": "nord-trondelag",
+            "belongsTo": "Norway",
+            "country": "Nord-Trøndelag",
+            "url": "/wiki/nord-tr%c3%b8ndelag",
+            "ratio": "197:160",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 83,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fbdf40",
+                    "percent": 17,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow"
+            ]
+        },
+        {
             "id": "nordland",
             "belongsTo": "Norway",
             "country": "Nordland",
-            "url": "/wiki/file:flag_of_nordland.svg",
+            "url": "/wiki/nordland",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16226,33 +13963,10 @@
             ]
         },
         {
-            "id": "nord-trondelag",
-            "belongsTo": "Norway",
-            "country": "Nord-Trøndelag",
-            "url": "/wiki/file:flag_of_nord-tr%c3%b8ndelag.svg",
-            "ratio": "197:160",
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 83,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#fbdf40",
-                    "percent": 17,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "white",
-                "yellow"
-            ]
-        },
-        {
             "id": "oppland",
             "belongsTo": "Norway",
             "country": "Oppland",
-            "url": "/wiki/file:flag_of_oppland.svg",
+            "url": "/wiki/oppland",
             "ratio": "3:4",
             "colors": [
                 {
@@ -16275,7 +13989,7 @@
             "id": "oslo",
             "belongsTo": "Norway",
             "country": "Oslo",
-            "url": "/wiki/file:flag_of_oslo.svg",
+            "url": "/wiki/oslo",
             "ratio": "3:5",
             "colors": [
                 {
@@ -16321,7 +14035,7 @@
             "id": "rogaland",
             "belongsTo": "Norway",
             "country": "Rogaland",
-            "url": "/wiki/file:flag_of_rogaland.svg",
+            "url": "/wiki/rogaland",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16344,7 +14058,7 @@
             "id": "sogn-og-fjordane",
             "belongsTo": "Norway",
             "country": "Sogn og Fjordane",
-            "url": "/wiki/file:flag_of_sogn_og_fjordane.svg",
+            "url": "/wiki/sogn_og_fjordane",
             "ratio": "216:305",
             "colors": [
                 {
@@ -16367,7 +14081,7 @@
             "id": "sor-trondelag",
             "belongsTo": "Norway",
             "country": "Sør-Trøndelag",
-            "url": "/wiki/file:flag_of_s%c3%b8r-tr%c3%b8ndelag.svg",
+            "url": "/wiki/s%c3%b8r-tr%c3%b8ndelag",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16390,7 +14104,7 @@
             "id": "telemark",
             "belongsTo": "Norway",
             "country": "Telemark",
-            "url": "/wiki/file:flag_of_telemark.svg",
+            "url": "/wiki/telemark",
             "ratio": "241:200",
             "colors": [
                 {
@@ -16413,7 +14127,7 @@
             "id": "troms",
             "belongsTo": "Norway",
             "country": "Troms",
-            "url": "/wiki/file:flag_of_troms.svg",
+            "url": "/wiki/troms",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16436,7 +14150,7 @@
             "id": "vest-agder",
             "belongsTo": "Norway",
             "country": "Vest-Agder",
-            "url": "/wiki/file:flag_of_vest-agder.svg",
+            "url": "/wiki/vest-agder",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16459,7 +14173,7 @@
             "id": "vestfold",
             "belongsTo": "Norway",
             "country": "Vestfold",
-            "url": "/wiki/file:flag_of_vestfold.svg",
+            "url": "/wiki/vestfold",
             "ratio": "5:8",
             "colors": [
                 {
@@ -16482,7 +14196,7 @@
             "id": "ostfold",
             "belongsTo": "Norway",
             "country": "Østfold",
-            "url": "/wiki/file:flag_of_%c3%98stfold.svg",
+            "url": "/wiki/%c3%98stfold",
             "ratio": "21:20",
             "colors": [
                 {
@@ -16505,7 +14219,7 @@
             "id": "blekinge-county",
             "belongsTo": "Sweden",
             "country": "Blekinge County",
-            "url": "/wiki/file:blekinge_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/blekinge_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16528,7 +14242,7 @@
             "id": "dalarna-county",
             "belongsTo": "Sweden",
             "country": "Dalarna County",
-            "url": "/wiki/file:dalarnas_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/dalarna_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16554,10 +14268,45 @@
             ]
         },
         {
+            "id": "gotland-county",
+            "belongsTo": "Sweden",
+            "country": "Gotland County",
+            "url": "/wiki/gotland_county",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 72,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 17,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 3,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
             "id": "gavleborg-county",
             "belongsTo": "Sweden",
             "country": "Gävleborg County",
-            "url": "/wiki/file:g%c3%a4vleborgs_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/g%c3%a4vleborg_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16595,45 +14344,10 @@
             ]
         },
         {
-            "id": "gotland-county",
-            "belongsTo": "Sweden",
-            "country": "Gotland County",
-            "url": "/wiki/file:gotlands_l%c3%a4n_vapenflagga.svg",
-            "ratio": "1:1",
-            "colors": [
-                {
-                    "hex": "#003d8f",
-                    "percent": 72,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#eeeeee",
-                    "percent": 17,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#ffcd50",
-                    "percent": 4,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#d40000",
-                    "percent": 3,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "blue",
-                "white",
-                "yellow",
-                "red"
-            ]
-        },
-        {
             "id": "halland-county",
             "belongsTo": "Sweden",
             "country": "Halland County",
-            "url": "/wiki/file:hallands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/halland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16662,7 +14376,7 @@
             "id": "jamtland-county",
             "belongsTo": "Sweden",
             "country": "Jämtland County",
-            "url": "/wiki/file:j%c3%a4mtlands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/j%c3%a4mtland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16703,7 +14417,7 @@
             "id": "jonkoping-county",
             "belongsTo": "Sweden",
             "country": "Jönköping County",
-            "url": "/wiki/file:j%c3%b6nk%c3%b6pings_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/j%c3%b6nk%c3%b6ping_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16744,7 +14458,7 @@
             "id": "kalmar-county",
             "belongsTo": "Sweden",
             "country": "Kalmar County",
-            "url": "/wiki/file:kalmar_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/kalmar_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16773,7 +14487,7 @@
             "id": "kronoberg-county",
             "belongsTo": "Sweden",
             "country": "Kronoberg County",
-            "url": "/wiki/file:kronobergs_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/kronoberg_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16802,7 +14516,7 @@
             "id": "norrbotten-county",
             "belongsTo": "Sweden",
             "country": "Norrbotten County",
-            "url": "/wiki/file:norrbottens_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/norrbotten_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16840,85 +14554,10 @@
             ]
         },
         {
-            "id": "orebro-county",
-            "belongsTo": "Sweden",
-            "country": "Örebro County",
-            "url": "/wiki/file:%c3%96rebro_l%c3%a4n_vapenflagga.svg",
-            "ratio": "1:1",
-            "colors": [
-                {
-                    "hex": "#d40000",
-                    "percent": 34,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#eeeeee",
-                    "percent": 34,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#003d8f",
-                    "percent": 23,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffcd50",
-                    "percent": 1,
-                    "tag": "yellow"
-                }
-            ],
-            "tags": [
-                "red",
-                "white",
-                "blue",
-                "yellow"
-            ]
-        },
-        {
-            "id": "ostergotland-county",
-            "belongsTo": "Sweden",
-            "country": "Östergötland County",
-            "url": "/wiki/file:%c3%96sterg%c3%b6tlands_l%c3%a4n_vapenflagga.svg",
-            "ratio": "1:1",
-            "colors": [
-                {
-                    "hex": "#d40000",
-                    "percent": 68,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#ffcd50",
-                    "percent": 19,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#eeeeee",
-                    "percent": 2,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#d30000",
-                    "percent": 1,
-                    "tag": "red"
-                },
-                {
-                    "hex": "#003d8f",
-                    "percent": 1,
-                    "tag": "blue"
-                }
-            ],
-            "tags": [
-                "red",
-                "yellow",
-                "white",
-                "blue"
-            ]
-        },
-        {
             "id": "skane-county",
             "belongsTo": "Sweden",
             "country": "Skåne County",
-            "url": "/wiki/file:sk%c3%a5ne_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/sk%c3%a5ne_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -16943,44 +14582,10 @@
             ]
         },
         {
-            "id": "sodermanland-county",
-            "belongsTo": "Sweden",
-            "country": "Södermanland County",
-            "url": "/wiki/file:s%c3%b6dermanlands_l%c3%a4n_vapenflagga.svg",
-            "ratio": "1:1",
-            "colors": [
-                {
-                    "hex": "#ffcd50",
-                    "percent": 71,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#000000",
-                    "percent": 19,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#ffcd4f",
-                    "percent": 1,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#d40000",
-                    "percent": 1,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "yellow",
-                "black",
-                "red"
-            ]
-        },
-        {
             "id": "stockholm-county",
             "belongsTo": "Sweden",
             "country": "Stockholm County",
-            "url": "/wiki/file:stockholms_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/stockholm_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17012,10 +14617,44 @@
             ]
         },
         {
+            "id": "sodermanland-county",
+            "belongsTo": "Sweden",
+            "country": "Södermanland County",
+            "url": "/wiki/s%c3%b6dermanland_county",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffcd50",
+                    "percent": 71,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 19,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffcd4f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red"
+            ]
+        },
+        {
             "id": "uppsala-county",
             "belongsTo": "Sweden",
             "country": "Uppsala County",
-            "url": "/wiki/file:uppsala_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/uppsala_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17055,7 +14694,7 @@
             "id": "varmland-county",
             "belongsTo": "Sweden",
             "country": "Värmland County",
-            "url": "/wiki/file:v%c3%a4rmlands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/v%c3%a4rmland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17089,7 +14728,7 @@
             "id": "vasterbotten-county",
             "belongsTo": "Sweden",
             "country": "Västerbotten County",
-            "url": "/wiki/file:v%c3%a4sterbottens_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/v%c3%a4sterbotten_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17130,7 +14769,7 @@
             "id": "vasternorrland-county",
             "belongsTo": "Sweden",
             "country": "Västernorrland County",
-            "url": "/wiki/file:v%c3%a4sternorrlands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/v%c3%a4sternorrland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17159,7 +14798,7 @@
             "id": "vastmanland-county",
             "belongsTo": "Sweden",
             "country": "Västmanland County",
-            "url": "/wiki/file:v%c3%a4stmanlands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/v%c3%a4stmanland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17188,7 +14827,7 @@
             "id": "vastra-gotaland-county",
             "belongsTo": "Sweden",
             "country": "Västra Götaland County",
-            "url": "/wiki/file:v%c3%a4stra_g%c3%b6talands_l%c3%a4n_vapenflagga.svg",
+            "url": "/wiki/v%c3%a4stra_g%c3%b6taland_county",
             "ratio": "1:1",
             "colors": [
                 {
@@ -17223,6 +14862,2365 @@
                 "red",
                 "blue",
                 "black"
+            ]
+        },
+        {
+            "id": "orebro-county",
+            "belongsTo": "Sweden",
+            "country": "Örebro County",
+            "url": "/wiki/%c3%96rebro_county",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 23,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ostergotland-county",
+            "belongsTo": "Sweden",
+            "country": "Östergötland County",
+            "url": "/wiki/%c3%96sterg%c3%b6tland_county",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 68,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d30000",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "blue"
+            ]
+        }
+    ],
+    "DE": [
+        {
+            "id": "baden-wurttemberg",
+            "belongsTo": "Germany",
+            "country": "Baden-Württemberg",
+            "url": "/wiki/baden-w%c3%bcrttemberg",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Baden-W%C3%BCrttemberg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 50,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#f9dd16",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "bavaria",
+            "belongsTo": "Germany",
+            "country": "Bavaria",
+            "url": "/wiki/bavaria",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bavaria_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0098d4",
+                    "percent": 50,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 49,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "berlin",
+            "belongsTo": "Germany",
+            "country": "Berlin",
+            "url": "/wiki/berlin",
+            "adoption": {
+                "sort": 1954,
+                "text": "1954"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Berlin_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 54,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e2382a",
+                    "percent": 40,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 6,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "brandenburg",
+            "belongsTo": "Germany",
+            "country": "Brandenburg",
+            "url": "/wiki/brandenburg",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Brandenburg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e60000",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "bremen",
+            "belongsTo": "Germany",
+            "country": "Bremen",
+            "url": "/wiki/bremen_(state)",
+            "adoption": {
+                "sort": 1952,
+                "text": "1952"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Bremen_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dd0000",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "hamburg",
+            "belongsTo": "Germany",
+            "country": "Hamburg",
+            "url": "/wiki/hamburg",
+            "adoption": {
+                "sort": 1834,
+                "text": "1834"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hamburg_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 81,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 16,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "hesse",
+            "belongsTo": "Germany",
+            "country": "Hesse",
+            "url": "/wiki/hesse",
+            "adoption": {
+                "sort": 1948,
+                "text": "1948"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Hesse_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e10000",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "lower-saxony",
+            "belongsTo": "Germany",
+            "country": "Lower Saxony",
+            "url": "/wiki/lower_saxony",
+            "adoption": {
+                "sort": 1951,
+                "text": "1951"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Lower-Saxony_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dd0000",
+                    "percent": 35,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 29,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 29,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "mecklenburg-vorpommern",
+            "belongsTo": "Germany",
+            "country": "Mecklenburg-Vorpommern",
+            "url": "/wiki/mecklenburg-vorpommern",
+            "adoption": {
+                "sort": 1990,
+                "text": "1990"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Mecklenburg-Vorpommern_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#2b58a3",
+                    "percent": 27,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#de0029",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f9f400",
+                    "percent": 7,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "north-rhine-westphalia",
+            "belongsTo": "Germany",
+            "country": "North Rhine-Westphalia",
+            "url": "/wiki/north_rhine-westphalia",
+            "adoption": {
+                "sort": 1953,
+                "text": "1953"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_North_Rhine-Westphalia_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#009136",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e3001b",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "rhineland-palatinate",
+            "belongsTo": "Germany",
+            "country": "Rhineland-Palatinate",
+            "url": "/wiki/rhineland-palatinate",
+            "adoption": {
+                "sort": 1945,
+                "text": "1945"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Rhineland-Palatinate_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffce00",
+                    "percent": 35,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#dd0000",
+                    "percent": 32,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 30,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "saarland",
+            "belongsTo": "Germany",
+            "country": "Saarland",
+            "url": "/wiki/saarland",
+            "adoption": {
+                "sort": 1957,
+                "text": "1957"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saarland_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffce00",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 31,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#dd0000",
+                    "percent": 24,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#176fc1",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "saxony",
+            "belongsTo": "Germany",
+            "country": "Saxony",
+            "url": "/wiki/saxony",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#166c23",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "saxony-anhalt",
+            "belongsTo": "Germany",
+            "country": "Saxony-Anhalt",
+            "url": "/wiki/saxony-anhalt",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Saxony-Anhalt_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcd116",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 50,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "schleswig-holstein",
+            "belongsTo": "Germany",
+            "country": "Schleswig-Holstein",
+            "url": "/wiki/schleswig-holstein",
+            "adoption": {
+                "sort": 1948,
+                "text": "1948"
+            },
+            "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Schleswig-Holstein_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0039ad",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d61810",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "thuringia",
+            "belongsTo": "Germany",
+            "country": "Thuringia",
+            "url": "/wiki/thuringia",
+            "adoption": {
+                "sort": 1991,
+                "text": "1991"
+            },
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Locator_map_Thuringia_in_Germany.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e10000",
+                    "percent": 50,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        }
+    ],
+    "ES": [
+        {
+            "id": "andalusia",
+            "belongsTo": "Spain",
+            "country": "Andalusia",
+            "url": "/wiki/andalusia",
+            "adoption": {
+                "sort": 1918,
+                "text": "1918"
+            },
+            "ratio": "2:3",
+            "name": "Arbonaida",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Andalucia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#006633",
+                    "percent": 66,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "aragon",
+            "belongsTo": "Spain",
+            "country": "Aragon",
+            "url": "/wiki/aragon",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "667:1000",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Aragon_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 39,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fbea0e",
+                    "percent": 28,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 22,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "asturias",
+            "belongsTo": "Spain",
+            "country": "Asturias",
+            "url": "/wiki/asturias",
+            "adoption": {
+                "sort": 1990,
+                "text": "1990"
+            },
+            "ratio": "2:3",
+            "name": "Asturina",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0066ff",
+                    "percent": 95,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f7d417",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "balearic-islands",
+            "belongsTo": "Spain",
+            "country": "Balearic Islands",
+            "url": "/wiki/balearic_islands",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Baleares_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 42,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#40104c",
+                    "percent": 18,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "magenta",
+                "white"
+            ]
+        },
+        {
+            "id": "basque-country",
+            "belongsTo": "Spain",
+            "country": "Basque Country",
+            "url": "/wiki/basque_country_(autonomous_community)",
+            "adoption": {
+                "sort": 1978,
+                "text": "1978"
+            },
+            "ratio": "14:25",
+            "name": "Ikurriña",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Basque_Country_in_Spain_(zoom)_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d52b1e",
+                    "percent": 49,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009b48",
+                    "percent": 27,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "canary-islands",
+            "belongsTo": "Spain",
+            "country": "Canary Islands",
+            "url": "/wiki/canary_islands",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Islas_Canarias_in_Spain.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0768a9",
+                    "percent": 26,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#d6a54f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#006abe",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "cantabria",
+            "belongsTo": "Spain",
+            "country": "Cantabria",
+            "url": "/wiki/cantabria",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Cantabria_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 46,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "castile-and-leon",
+            "belongsTo": "Spain",
+            "country": "Castile and León",
+            "url": "/wiki/castile_and_le%c3%b3n",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "10:13",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Castilla_y_Leon_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 43,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 7,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#742c64",
+                    "percent": 5,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "magenta",
+                "blue"
+            ]
+        },
+        {
+            "id": "castile-la-mancha",
+            "belongsTo": "Spain",
+            "country": "Castile-La Mancha",
+            "url": "/wiki/castilla%e2%80%93la_mancha",
+            "adoption": {
+                "sort": 1986,
+                "text": "1986"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Castilla-La_Mancha_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b81626",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#cab313",
+                    "percent": 8,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "catalonia",
+            "belongsTo": "Spain",
+            "country": "Catalonia",
+            "url": "/wiki/catalonia",
+            "adoption": {
+                "sort": 1933,
+                "text": "1933"
+            },
+            "ratio": "2:3",
+            "name": "Senyera",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Cataluna_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 56,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 44,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "ceuta",
+            "belongsTo": "Spain",
+            "country": "Ceuta",
+            "url": "/wiki/Ceuta",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Ceuta_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 47,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 47,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e60000",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eebf00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "black",
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "extremadura",
+            "belongsTo": "Spain",
+            "country": "Extremadura",
+            "url": "/wiki/extremadura",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Extremadura_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00ab39",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 33,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "green",
+                "black",
+                "white",
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "galicia",
+            "belongsTo": "Spain",
+            "country": "Galicia",
+            "url": "/wiki/galicia_(spain)",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Galicia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 69,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0099cc",
+                    "percent": 21,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#005bbf",
+                    "percent": 4,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#bcac0b",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cccccc",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d81126",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "la-rioja",
+            "belongsTo": "Spain",
+            "country": "La Rioja",
+            "url": "/wiki/la_rioja_(spain)",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:La_Rioja_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dc291e",
+                    "percent": 25,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc82e",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 21,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#66bc29",
+                    "percent": 21,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "green",
+                "cyan"
+            ]
+        },
+        {
+            "id": "madrid",
+            "belongsTo": "Spain",
+            "country": "Madrid",
+            "url": "/wiki/community_of_madrid",
+            "adoption": {
+                "sort": 1983,
+                "text": "1983"
+            },
+            "ratio": "7:11",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Madrid_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#c60b1e",
+                    "percent": 92,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "melilla",
+            "belongsTo": "Spain",
+            "country": "Melilla",
+            "url": "/wiki/Melilla",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Melilla_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#4c86c9",
+                    "percent": 88,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "yellow",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "murcia",
+            "belongsTo": "Spain",
+            "country": "Murcia",
+            "url": "/wiki/region_of_murcia",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Murcia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#9c1f2d",
+                    "percent": 95,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcb714",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "navarre",
+            "belongsTo": "Spain",
+            "country": "Navarre",
+            "url": "/wiki/navarre",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Navarre_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 92,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 4,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "valencia",
+            "belongsTo": "Spain",
+            "country": "Valencia",
+            "url": "/wiki/valencian_community",
+            "adoption": {
+                "sort": 1982,
+                "text": "1982"
+            },
+            "ratio": "77:116",
+            "name": "Reial Senyera",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Valencia_in_Spain_(plus_Canarias).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 42,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 36,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0072bc",
+                    "percent": 19,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        }
+    ],
+    "IT": [
+        {
+            "id": "abruzzo",
+            "belongsTo": "Italy",
+            "country": "Abruzzo",
+            "url": "/wiki/abruzzo",
+            "adoption": {
+                "sort": 1999,
+                "text": "1999"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Abruzzo_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ec1e3d",
+                    "percent": 82,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#108541",
+                    "percent": 9,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#4976bb",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f5dd06",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "apulia",
+            "belongsTo": "Italy",
+            "country": "Apulia",
+            "url": "/wiki/apulia",
+            "adoption": {
+                "sort": 2001,
+                "text": "2001"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Apulia_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 74,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f82920",
+                    "percent": 10,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00a05e",
+                    "percent": 7,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f2ce26",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#009ee0",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "green",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "basilicata",
+            "belongsTo": "Italy",
+            "country": "Basilicata",
+            "url": "/wiki/basilicata",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Basilicata_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000099",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0058ff",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#dfdf43",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "calabria",
+            "belongsTo": "Italy",
+            "country": "Calabria",
+            "url": "/wiki/calabria",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Calabria_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#005aab",
+                    "percent": 84,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#cecece",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cea518",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#1fc2ff",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "campania",
+            "belongsTo": "Italy",
+            "country": "Campania",
+            "url": "/wiki/campania",
+            "adoption": {
+                "sort": 1971,
+                "text": "1971"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Campania_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0073b5",
+                    "percent": 76,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ce1029",
+                    "percent": 6,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "emilia-romagna",
+            "belongsTo": "Italy",
+            "country": "Emilia-Romagna",
+            "url": "/wiki/emilia-romagna",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Emilia-Romagna_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 89,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008000",
+                    "percent": 8,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ff4444",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#cccccc",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "friuli-venezia-giulia",
+            "belongsTo": "Italy",
+            "country": "Friuli-Venezia Giulia",
+            "url": "/wiki/friuli-venezia_giulia",
+            "adoption": {
+                "sort": 2001,
+                "text": "2001"
+            },
+            "ratio": "143:213",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Friuli-Venezia_Giulia_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0063e7",
+                    "percent": 86,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#bab8be",
+                    "percent": 1,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "gray"
+            ]
+        },
+        {
+            "id": "lazio",
+            "belongsTo": "Italy",
+            "country": "Lazio",
+            "url": "/wiki/lazio",
+            "adoption": {
+                "sort": 1984,
+                "text": "1984"
+            },
+            "ratio": "1101:1649",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Lazio_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#54d6ed",
+                    "percent": 75,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fdd212",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#f9a400",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e70000",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0075d0",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#055e0a",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffc816",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffb910",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#8a8e01",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fca900",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "red",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "liguria",
+            "belongsTo": "Italy",
+            "country": "Liguria",
+            "url": "/wiki/liguria",
+            "adoption": {
+                "sort": 1997,
+                "text": "1997"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Liguria_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#009c31",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#009cce",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 17,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 9,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#bdbdbd",
+                    "percent": 5,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#b5cece",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#6b6b6b",
+                    "percent": 1,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "green",
+                "cyan",
+                "red",
+                "white",
+                "gray"
+            ]
+        },
+        {
+            "id": "lombardy",
+            "belongsTo": "Italy",
+            "country": "Lombardy",
+            "url": "/wiki/lombardy",
+            "adoption": {
+                "sort": 1975,
+                "text": "1975"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Lombardy_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00a040",
+                    "percent": 86,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "marche",
+            "belongsTo": "Italy",
+            "country": "Marche",
+            "url": "/wiki/marche",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Marches_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 86,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#019903",
+                    "percent": 6,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 5,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#07814b",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "black"
+            ]
+        },
+        {
+            "id": "molise",
+            "belongsTo": "Italy",
+            "country": "Molise",
+            "url": "/wiki/molise",
+            "adoption": {
+                "sort": 1963,
+                "text": "1963"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Molise_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0000ff",
+                    "percent": 86,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ff0042",
+                    "percent": 9,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "piedmont",
+            "belongsTo": "Italy",
+            "country": "Piedmont",
+            "url": "/wiki/piedmont",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Piedmont_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 49,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0c3c7c",
+                    "percent": 24,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "sardinia",
+            "belongsTo": "Italy",
+            "country": "Sardinia",
+            "url": "/wiki/sardinia",
+            "adoption": {
+                "sort": 1950,
+                "text": "1950"
+            },
+            "ratio": "120:179",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sardinia_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 71,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d81921",
+                    "percent": 15,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 11,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "sicily",
+            "belongsTo": "Italy",
+            "country": "Sicily",
+            "url": "/wiki/sicily",
+            "adoption": {
+                "sort": 2000,
+                "text": "2000"
+            },
+            "ratio": "53:80",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sicily_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fff100",
+                    "percent": 44,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ec1b23",
+                    "percent": 44,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc8a0",
+                    "percent": 6,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ebb437",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "trentino-alto-adigesudtirol",
+            "belongsTo": "Italy",
+            "country": "Trentino-Alto Adige/Südtirol",
+            "url": "/wiki/trentino-alto_adige/s%c3%bcdtirol",
+            "adoption": {
+                "sort": 1995,
+                "text": "1995"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Trentino-Alto_Adige_in_Italy_(%2Bprovinces).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 47,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 42,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "tuscany",
+            "belongsTo": "Italy",
+            "country": "Tuscany",
+            "url": "/wiki/tuscany",
+            "adoption": {
+                "sort": null,
+                "text": ""
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Tuscany_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 76,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ce1021",
+                    "percent": 20,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "umbria",
+            "belongsTo": "Italy",
+            "country": "Umbria",
+            "url": "/wiki/umbria",
+            "adoption": {
+                "sort": 2004,
+                "text": "2004"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Umbria_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00943a",
+                    "percent": 83,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#b2b2b2",
+                    "percent": 7,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#266861",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green",
+                "gray",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "valle-d-aosta",
+            "belongsTo": "Italy",
+            "country": "Valle d'Aosta",
+            "url": "/wiki/aosta_valley",
+            "adoption": {
+                "sort": 2006,
+                "text": "2006"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Aosta_Valley_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 50,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 50,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "veneto",
+            "belongsTo": "Italy",
+            "country": "Veneto",
+            "url": "/wiki/veneto",
+            "adoption": {
+                "sort": 1975,
+                "text": "1975"
+            },
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Veneto_in_Italy.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#c1003e",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffbd00",
+                    "percent": 21,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff9c00",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d69c5a",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#001029",
+                    "percent": 3,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ded6d6",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b57300",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#bd9c00",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#5d023f",
+                    "percent": 1,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#ee8b11",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d2322d",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffbc00",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fbfdc2",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "black",
+                "white",
+                "magenta"
             ]
         }
     ]

@@ -1,0 +1,13 @@
+{
+    "id": "ile-de-france",
+    "colors": [
+        {
+            "hex": "#000099",
+            "percent": 86
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 9
+        }
+    ]
+}
