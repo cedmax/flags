@@ -39,7 +39,7 @@ module.exports = async (flags, callback) => {
           });
           fs.writeFileSync(file, png);
         } catch (e) {
-          console.log(id, "failed");
+          console.log(id, "fetching map failed");
         }
       }
 

@@ -9,10 +9,7 @@ const tagContinents = require("./scripts/fetch-continents");
 const fetchYoutubeAnthems = require("./scripts/youtube-anthems");
 
 const mapEndPoints = require("./manual/maps.json");
-const mapITEndPoints = require("./manual/maps-it.json");
-const mapDEEndPoints = require("./manual/maps-de.json");
-const mapESEndPoints = require("./manual/maps-es.json");
-const mapJPEndPoints = require("./manual/maps-jp.json");
+const extraMaps = require("./manual/extra-maps.json");
 
 module.exports = {
   world: {
@@ -28,18 +25,18 @@ module.exports = {
     maps: fetchUsMaps,
     "state-songs": addStateSongs,
   },
-  IT: {
-    maps: fetchMaps(mapITEndPoints),
-  },
-  DE: {
-    maps: fetchMaps(mapDEEndPoints),
-  },
-  ES: {
-    maps: fetchMaps(mapESEndPoints),
-  },
   JP: {
     ratio: calculateRatio,
-    maps: fetchMaps(mapJPEndPoints),
+    maps: fetchMaps(extraMaps),
+  },
+  IT: {
+    maps: fetchMaps(extraMaps),
+  },
+  DE: {
+    maps: fetchMaps(extraMaps),
+  },
+  ES: {
+    maps: fetchMaps(extraMaps),
   },
   all: {
     ratio: calculateRatio,

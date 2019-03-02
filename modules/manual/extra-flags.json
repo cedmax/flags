@@ -1,0 +1,20 @@
+[
+  {
+    "belongsTo": "France",
+    "country": "Île de France",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/7/78/Flag_of_%C3%8Ele-de-France.svg",
+    "url": "/wiki/Île-de-France"
+  },
+  {
+    "belongsTo": "Spain",
+    "country": "Ceuta",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_Ceuta.svg",
+    "url": "/wiki/Ceuta"
+  },
+  {
+    "belongsTo": "Spain",
+    "country": "Melilla",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8e/Flag_Melilla.svg",
+    "url": "/wiki/Melilla"
+  }
+]

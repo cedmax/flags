@@ -66,7 +66,8 @@ const consolidate = group => flags =>
 const required = reject => (obj, properties) => {
   properties.forEach(prop => {
     if (!obj[prop]) {
-      reject(`${obj.id} doesn't have ${prop}`);
+      console.log(JSON.stringify(obj));
+      reject(`${obj.country} doesn't have ${prop}`);
     }
   });
 };
@@ -139,7 +140,7 @@ module.exports = {
               delete flag.image;
               cb(null, flag);
             })
-            .catch(() => console.log(flag.country, "failed"));
+            .catch(() => console.log(flag.country, "saving image failed"));
         } else {
           delete flag.image;
           cb(null, flag);

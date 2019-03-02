@@ -2,7 +2,7 @@ const cheerio = require("cheerio");
 const helpers = require("./helpers");
 const axios = require("axios");
 const { cleanUrl, generateId } = require("./utilities");
-const manualData = require("../manual/adoption-country-jp.json");
+const manualData = require("../manual/extra-data.json");
 
 const validSections = ["Prefectural flags"];
 

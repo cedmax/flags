@@ -2,7 +2,8 @@ const cheerio = require("cheerio");
 const helpers = require("./helpers");
 const axios = require("axios");
 const { cleanUrl, generateId } = require("./utilities");
-const manualData = require("../manual/ratio-adoption-name-es.json");
+const manualData = require("../manual/extra-data.json");
+const extraFlags = require("../manual/extra-flags.json");
 
 const skip = [
   "Austria",
@@ -11,10 +12,8 @@ const skip = [
   "Brunei",
   "Comoros",
   "Georgia",
-  "Germany",
   "India",
   "Iraq",
-  "Italy",
   "Japan",
   "Mexico",
   "New Zealand",
@@ -28,7 +27,6 @@ const skip = [
   "Singapore",
   "Slovakia",
   "South Africa",
-  "Spain",
   "Tanzania",
   "Thailand",
   "United States",
@@ -44,56 +42,74 @@ module.exports = async (unused, callback) => {
 
   const $ = cheerio.load(data);
   const sectionTitles = $("h2").toArray();
-  const results = sectionTitles.reduce((results, title) => {
-    const $title = $(title);
-    const titleContent = $title
-      .find(".mw-headline")
-      .text()
-      .trim();
+  const results = sectionTitles
+    .reduce((results, title) => {
+      const $title = $(title);
+      const titleContent = $title
+        .find(".mw-headline")
+        .text()
+        .trim();
 
-    if (!skip.includes(titleContent)) {
-      let $container = $($title.nextAll("ul, .columns").get(0));
-      const flagContainers = $container.find("li").toArray();
-      const flagItems = $container.find('li a[href$=".svg"]').toArray();
+      if (!skip.includes(titleContent)) {
+        let $container = $($title.nextAll("ul, .columns").get(0));
+        const flagContainers = $container.find("li").toArray();
+        const flagItems = $container.find('li a[href$=".svg"]').toArray();
 
-      if (flagContainers.length !== flagItems.length) {
-        return results;
-      }
+        if (flagContainers.length !== flagItems.length) {
+          return results;
+        }
 
-      const flags = flagContainers.map(flagContainer => {
-        const $flagContainer = $(flagContainer);
-        const $country = $flagContainer.find("a:last-of-type");
-        let country = $country
-          .text()
-          .replace(/\[(.)+\]/g, "")
-          .trim();
-
-        let id = generateId(country).replace("valle-d-aosta", "aosta-valley");
-
-        let url = cleanUrl($country.attr("href") || "");
-
-        const image =
-          "https:" +
-          $flagContainer
-            .find("img")
-            .attr("src")
-            .replace("thumb/", "")
-            .replace(/\/([0-9]+)px-(.)+/gi, "")
+        const flags = flagContainers.map(flagContainer => {
+          const $flagContainer = $(flagContainer);
+          const $country = $flagContainer.find("a").last();
+          let country = $country
+            .text()
+            .replace(/\[(.)+\]/g, "")
             .trim();
 
+          let id = generateId(country);
+
+          let url = cleanUrl($country.attr("href") || "");
+
+          const image =
+            "https:" +
+            $flagContainer
+              .find("img")
+              .attr("src")
+              .replace("thumb/", "")
+              .replace(/\/([0-9]+)px-(.)+/gi, "")
+              .trim();
+
+          return {
+            id,
+            belongsTo: titleContent,
+            country,
+            image,
+            url,
+            ...(manualData[id] || {}),
+          };
+        });
+        results = results.concat(flags).filter(item => item);
+      }
+      return results;
+    }, [])
+    .concat(
+      extraFlags.map(flag => {
+        const id = generateId(flag.country);
         return {
           id,
-          belongsTo: titleContent,
-          country,
-          image,
-          url,
-          ...manualData[id],
+          ...flag,
+          ...(manualData[id] || {}),
         };
-      });
-      results = results.concat(flags).filter(item => item);
-    }
-    return results;
-  }, []);
+      })
+    )
+    .sort((flagA, flagB) => {
+      if (flagA.belongsTo === flagB.belongsTo) {
+        return flagA.country > flagB.country ? 1 : -1;
+      }
+      return flagA.belongsTo > flagB.belongsTo ? 1 : -1;
+    })
+    .filter(flag => !!flag.id);
 
   helpers.saveFlagFiles(results, callback);
 };

@@ -1,0 +1,358 @@
+{
+  "andalusia": {
+    "adoption": { "sort": 1918, "text": "1918" },
+    "ratio": "2:3",
+    "name": "Arbonaida"
+  },
+  "aragon": {
+    "adoption": { "sort": 1984, "text": "1984" },
+    "ratio": "2:3"
+  },
+  "asturias": {
+    "adoption": { "sort": 1990, "text": "1990" },
+    "ratio": "2:3",
+    "name": "Asturina"
+  },
+  "balearic-islands": {
+    "adoption": { "sort": 1983, "text": "1983" },
+    "ratio": "2:3"
+  },
+  "basque-country": {
+    "adoption": { "sort": 1978, "text": "1978" },
+    "ratio": "14:25",
+    "name": "Ikurriña"
+  },
+  "canary-islands": {
+    "adoption": { "sort": 1982, "text": "1982" },
+    "ratio": "2:3"
+  },
+  "cantabria": {
+    "adoption": { "sort": 1984, "text": "1984" },
+    "ratio": "2:3"
+  },
+  "castile-la-mancha": {
+    "adoption": { "sort": 1986, "text": "1986" },
+    "ratio": "2:3"
+  },
+  "castile-and-leon": {
+    "adoption": { "sort": 1983, "text": "1983" },
+    "ratio": "10:13"
+  },
+  "catalonia": {
+    "adoption": { "sort": 1933, "text": "1933" },
+    "ratio": "2:3",
+    "name": "Senyera"
+  },
+  "extremadura": {
+    "adoption": { "sort": 1983, "text": "1983" },
+    "ratio": "2:3"
+  },
+  "galicia": {
+    "adoption": { "sort": 1984, "text": "1984" },
+    "ratio": "2:3"
+  },
+  "la-rioja": {
+    "adoption": { "sort": 1982, "text": "1982" },
+    "ratio": "2:3"
+  },
+  "madrid": {
+    "adoption": { "sort": 1983, "text": "1983" },
+    "ratio": "7:11"
+  },
+  "murcia": {
+    "adoption": { "sort": 1982, "text": "1982" },
+    "ratio": "2:3"
+  },
+  "navarre": {
+    "adoption": { "sort": 1982, "text": "1982" },
+    "ratio": "2:3"
+  },
+  "valencia": {
+    "adoption": { "sort": 1982, "text": "1982" },
+    "ratio": "2:3",
+    "name": "Reial Senyera"
+  },
+  "ceuta": {
+    "adoption": { "sort": 1995, "text": "1995" },
+    "ratio": "2:3"
+  },
+  "melilla": {
+    "adoption": { "sort": 1995, "text": "1995" },
+    "ratio": "2:3"
+  },
+  "baden-wurttemberg": {
+    "adoption": { "sort": 1953, "text": "1953" },
+    "ratio": "3:5"
+  },
+  "bavaria": {
+    "adoption": { "sort": 1953, "text": "1953" },
+    "ratio": "3:5"
+  },
+  "berlin": {
+    "adoption": { "sort": 1954, "text": "1954" },
+    "ratio": "3:5"
+  },
+  "brandenburg": {
+    "adoption": { "sort": 1991, "text": "1991" },
+    "ratio": "3:5"
+  },
+  "bremen": {
+    "adoption": { "sort": 1952, "text": "1952" },
+    "ratio": "2:3"
+  },
+  "hamburg": {
+    "adoption": { "sort": 1834, "text": "1834" },
+    "ratio": "3:5"
+  },
+  "hesse": {
+    "adoption": { "sort": 1948, "text": "1948" },
+    "ratio": "3:5"
+  },
+  "lower-saxony": {
+    "adoption": { "sort": 1951, "text": "1951" },
+    "ratio": "2:3"
+  },
+  "mecklenburg-vorpommern": {
+    "adoption": { "sort": 1990, "text": "1990" },
+    "ratio": "3:5"
+  },
+  "north-rhine-westphalia": {
+    "adoption": { "sort": 1953, "text": "1953" },
+    "ratio": "3:5"
+  },
+  "rhineland-palatinate": {
+    "adoption": { "sort": 1945, "text": "1945" },
+    "ratio": "2:3"
+  },
+  "saarland": {
+    "adoption": { "sort": 1957, "text": "1957" },
+    "ratio": "3:5"
+  },
+  "saxony": {
+    "adoption": { "sort": 1991, "text": "1991" },
+    "ratio": "3:5"
+  },
+  "saxony-anhalt": {
+    "adoption": { "sort": 1991, "text": "1991" },
+    "ratio": "3:5"
+  },
+  "schleswig-holstein": {
+    "adoption": { "sort": 1948, "text": "1948" },
+    "ratio": "3:5"
+  },
+  "thuringia": {
+    "adoption": { "sort": 1991, "text": "1991" },
+    "ratio": "3:5"
+  },
+  "abruzzo": { "adoption": { "sort": 1999, "text": "1999" } },
+  "valle-d-aosta": { "adoption": { "sort": 2006, "text": "2006" } },
+  "apulia": { "adoption": { "sort": 2001, "text": "2001" } },
+  "basilicata": { "adoption": { "sort": 1995, "text": "1995" } },
+  "calabria": { "adoption": { "sort": 1995, "text": "1995" } },
+  "campania": { "adoption": { "sort": 1971, "text": "1971" } },
+  "emilia-romagna": { "adoption": { "sort": 1995, "text": "1995" } },
+  "friuli-venezia-giulia": { "adoption": { "sort": 2001, "text": "2001" } },
+  "lazio": { "adoption": { "sort": 1984, "text": "1984" } },
+  "liguria": { "adoption": { "sort": 1997, "text": "1997" } },
+  "lombardy": { "adoption": { "sort": 1975, "text": "1975" } },
+  "marche": { "adoption": { "sort": 1995, "text": "1995" } },
+  "molise": { "adoption": { "sort": 1963, "text": "1963" } },
+  "piedmont": { "adoption": { "sort": 1995, "text": "1995" } },
+  "sardinia": { "adoption": { "sort": 1950, "text": "1950" } },
+  "sicily": { "adoption": { "sort": 2000, "text": "2000" } },
+  "toscana": { "adoption": { "sort": 1975, "text": "1975" } },
+  "trentino-alto-adigesudtirol": {
+    "adoption": { "sort": 1995, "text": "1995" }
+  },
+  "tuscany": { "adoption": { "sort": null, "text": "" } },
+  "umbria": { "adoption": { "sort": 2004, "text": "2004" } },
+  "veneto": { "adoption": { "sort": 1975, "text": "1975" } },
+  "aichi": {
+    "country": "愛知県",
+    "adoption": { "sort": 1950, "text": "1950" }
+  },
+  "akita": {
+    "country": "秋田県",
+    "adoption": { "sort": 1959, "text": "1959" }
+  },
+  "aomori": {
+    "country": "青森県",
+    "adoption": { "sort": 1961, "text": "1961" }
+  },
+  "chiba": {
+    "country": "千葉県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "ehime": {
+    "country": "愛媛県",
+    "adoption": { "sort": 1952, "text": "1952" }
+  },
+  "fukui": {
+    "country": "福井県",
+    "adoption": { "sort": 1952, "text": "1952" }
+  },
+  "fukuoka": {
+    "country": "福岡県",
+    "adoption": { "sort": 1908, "text": "1908" }
+  },
+  "fukushima": {
+    "country": "福島県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "gifu": {
+    "country": "岐阜県",
+    "adoption": { "sort": 1932, "text": "1932" }
+  },
+  "gunma": {
+    "country": "群馬県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "hiroshima": {
+    "country": "広島県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "hokkaido": {
+    "country": "北海道",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "hyogo": {
+    "country": "兵庫県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "ibaraki": {
+    "country": "茨城県",
+    "adoption": { "sort": 1991, "text": "1991" }
+  },
+  "ishikawa": {
+    "country": "石川県",
+    "adoption": { "sort": 1972, "text": "1972" }
+  },
+  "oita": {
+    "country": "大分県",
+    "adoption": { "sort": 1956, "text": "1956" }
+  },
+  "iwate": {
+    "country": "岩手県",
+    "adoption": { "sort": 1965, "text": "1965" }
+  },
+  "kagawa": {
+    "country": "香川県",
+    "adoption": { "sort": 1977, "text": "1977" }
+  },
+  "kagoshima": {
+    "country": "鹿児島県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "kanagawa": {
+    "country": "神奈川県",
+    "adoption": { "sort": 1948, "text": "1948" }
+  },
+  "kochi": {
+    "country": "高知県",
+    "adoption": { "sort": 1953, "text": "1953" }
+  },
+  "kumamoto": {
+    "country": "熊本県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "kyoto": {
+    "country": "京都府",
+    "adoption": { "sort": 1976, "text": "1976" }
+  },
+  "mie": {
+    "country": "三重県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "miyagi": {
+    "country": "宮城県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "miyazaki": {
+    "country": "宮崎県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "nagano": {
+    "country": "長野県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "nagasaki": {
+    "country": "長崎県",
+    "adoption": { "sort": 1991, "text": "1991" }
+  },
+  "nara": {
+    "country": "奈良県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "niigata": {
+    "country": "新潟県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "okayama": {
+    "country": "岡山県",
+    "adoption": { "sort": 1967, "text": "1967" }
+  },
+  "okinawa": {
+    "country": "沖縄県",
+    "adoption": { "sort": 1972, "text": "1972" }
+  },
+  "saga": {
+    "country": "佐賀県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "saitama": {
+    "country": "埼玉県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "osaka": {
+    "country": "大阪府",
+    "adoption": { "sort": 1984, "text": "1984" }
+  },
+  "shiga": {
+    "country": "滋賀県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "shimane": {
+    "country": "島根県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "shizuoka": {
+    "country": "静岡県",
+    "adoption": { "sort": 1950, "text": "1950" }
+  },
+  "tochigi": {
+    "country": "栃木県",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "tokushima": {
+    "country": "徳島県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  },
+  "tokyo": {
+    "country": "東京都",
+    "adoption": { "sort": 1964, "text": "1964" }
+  },
+  "tottori": {
+    "country": "鳥取県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "toyama": {
+    "country": "富山県",
+    "adoption": { "sort": 1989, "text": "1989" }
+  },
+  "wakayama": {
+    "country": "和歌山県",
+    "adoption": { "sort": 1968, "text": "1968" }
+  },
+  "yamagata": {
+    "country": "山形県",
+    "adoption": { "sort": 1963, "text": "1963" }
+  },
+  "yamaguchi": {
+    "country": "山口県",
+    "adoption": { "sort": 1962, "text": "1962" }
+  },
+  "yamanashi": {
+    "country": "山梨県",
+    "adoption": { "sort": 1966, "text": "1966" }
+  }
+}

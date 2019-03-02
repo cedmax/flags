@@ -28,7 +28,7 @@ module.exports = mapEndPoints => (flags, callback) => {
           });
           fs.writeFileSync(file, png);
         } catch (e) {
-          console.log(flag.country, "failed");
+          console.log(flag.country, "fetching map failed");
         }
       }
 
