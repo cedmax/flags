@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
 import ImageLoader from "./ImageLoader";
-import { action, getDetailsImageSize, getId } from "../helpers";
+import { action, getDetailsImageSize, getId, getMapUrl } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 import { withContext } from "../store/context";
 
@@ -34,7 +34,7 @@ const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
   const flagUrl = require(`../data/flags/${
     detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
   }.svg`);
-  const mapUrl = require(`../data/maps/${detail.id}.png`);
+  const mapUrl = getMapUrl(detail.id);
 
   return (
     <Modal
@@ -55,7 +55,9 @@ const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
           <h3>{detail.country}</h3>
           <small>
             {type === "map" && <ChangeType newType="flag" url={flagUrl} />}
-            {type === "flag" && <ChangeType newType="map" url={mapUrl} />}
+            {mapUrl && type === "flag" && (
+              <ChangeType newType="map" url={mapUrl} />
+            )}
           </small>
         </div>
         {isList && <NavigationButton label="next" value={1} />}

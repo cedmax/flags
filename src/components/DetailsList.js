@@ -26,13 +26,19 @@ const AnthemBlock = withContext(
 
 const DetailsList = React.memo(({ flag, anthemTitle }) => (
   <dl>
+    {flag.belongsTo && (
+      <Fragment>
+        <dt>Part of</dt>
+        <dd>{flag.belongsTo}</dd>
+      </Fragment>
+    )}
     {flag.name && (
       <Fragment>
         <dt>Flag Name</dt>
         <dd>{flag.name}</dd>
       </Fragment>
     )}
-    {flag.adoption.text && (
+    {flag.adoption && flag.adoption.text && (
       <Fragment>
         <dt>Adopted</dt>
         <dd>{flag.adoption.text}</dd>

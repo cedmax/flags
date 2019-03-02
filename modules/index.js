@@ -5,6 +5,7 @@ const fetchDeFlags = require("./scripts/fetch-de-flags");
 const fetchEsFlags = require("./scripts/fetch-es-flags");
 const fetchJPFlags = require("./scripts/fetch-jp-flags");
 const fetchAllMissingFlags = require("./scripts/fetch-all-missing-flags");
+const aggregateScanMaps = require("./scripts/aggregate-scand");
 const fetchData = require("./fetch-data");
 const config = require("./config");
 
@@ -16,4 +17,5 @@ const config = require("./config");
   await fetchData(fetchEsFlags, config.ES, "ES");
   await fetchData(fetchJPFlags, config.JP, "JP");
   await fetchData(fetchAllMissingFlags, config.all, "ALL");
+  await fetchData(aggregateScanMaps, config.scand, "SCAND");
 })();

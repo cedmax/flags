@@ -10723,28 +10723,22 @@
             "colors": [
                 {
                     "hex": "#c1133d",
-                    "percent": 27,
+                    "percent": 36,
                     "tag": "red"
                 },
                 {
-                    "hex": "#000000",
-                    "percent": 26,
-                    "tag": "black"
-                },
-                {
                     "hex": "#ffffff",
-                    "percent": 23,
+                    "percent": 32,
                     "tag": "white"
                 },
                 {
                     "hex": "#001c5a",
-                    "percent": 21,
+                    "percent": 29,
                     "tag": "blue"
                 }
             ],
             "tags": [
                 "red",
-                "black",
                 "white",
                 "blue"
             ]
@@ -10943,7 +10937,7 @@
                 {
                     "hex": "#003366",
                     "percent": 89,
-                    "tag": "cyan"
+                    "tag": "blue"
                 },
                 {
                     "hex": "#ffffff",
@@ -10952,7 +10946,7 @@
                 }
             ],
             "tags": [
-                "cyan",
+                "blue",
                 "white"
             ]
         },
@@ -11154,7 +11148,7 @@
                 {
                     "hex": "#003366",
                     "percent": 86,
-                    "tag": "cyan"
+                    "tag": "blue"
                 },
                 {
                     "hex": "#ffcc33",
@@ -11168,7 +11162,7 @@
                 }
             ],
             "tags": [
-                "cyan",
+                "blue",
                 "yellow",
                 "black"
             ]
@@ -15453,6 +15447,1782 @@
                 "magenta",
                 "white",
                 "yellow"
+            ]
+        }
+    ],
+    "SCAND": [
+        {
+            "id": "faroe-islands",
+            "belongsTo": "Denmark",
+            "country": "Faroe Islands",
+            "url": "/wiki/file:flag_of_faroe_islands.svg",
+            "ratio": "8:11",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 61,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ed2939",
+                    "percent": 20,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0065bd",
+                    "percent": 18,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "greenland",
+            "belongsTo": "Denmark",
+            "country": "Greenland",
+            "url": "/wiki/file:flag_of_greenland.svg",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d00c33",
+                    "percent": 50,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "aland",
+            "belongsTo": "Finland",
+            "country": "Åland",
+            "url": "/wiki/file:flag_of_%c3%85land.svg",
+            "ratio": "17:26",
+            "colors": [
+                {
+                    "hex": "#0053a5",
+                    "percent": 57,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d21034",
+                    "percent": 19,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "central-finland",
+            "belongsTo": "Finland",
+            "country": "Central Finland",
+            "url": "/wiki/file:keski-suomi_lippu.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 75,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 21,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "central-ostrobothnia",
+            "belongsTo": "Finland",
+            "country": "Central Ostrobothnia",
+            "url": "/wiki/file:keski-pohjanmaa.lippu.svg",
+            "ratio": "693:502",
+            "colors": [
+                {
+                    "hex": "#0057f0",
+                    "percent": 73,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffbb0f",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "kainuu",
+            "belongsTo": "Finland",
+            "country": "Kainuu",
+            "url": "/wiki/file:flag_of_kainuu.svg",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#fff210",
+                    "percent": 63,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00a650",
+                    "percent": 35,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "kymenlaakso",
+            "belongsTo": "Finland",
+            "country": "Kymenlaakso",
+            "url": "/wiki/file:flag_of_kymenlaakso.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 48,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0000cc",
+                    "percent": 46,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#cccd33",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "lapland",
+            "belongsTo": "Finland",
+            "country": "Lapland",
+            "url": "/wiki/file:flag_of_lapland.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#fd1812",
+                    "percent": 78,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fdd9a6",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008837",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f2aa00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "green",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "north-karelia",
+            "belongsTo": "Finland",
+            "country": "North Karelia",
+            "url": "/wiki/file:north_karelia_flag.svg",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 52,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffe700",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "northern-ostrobothnia",
+            "belongsTo": "Finland",
+            "country": "Northern Ostrobothnia",
+            "url": "/wiki/file:flag_of_northern_ostrobothnia.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#0046b8",
+                    "percent": 88,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f5f5f5",
+                    "percent": 10,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "northern-savonia",
+            "belongsTo": "Finland",
+            "country": "Northern Savonia",
+            "url": "/wiki/file:flag_of_northern_savonia.svg",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 70,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffd52b",
+                    "percent": 26,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "paijat-hame",
+            "belongsTo": "Finland",
+            "country": "Päijät-Häme",
+            "url": "/wiki/file:p%c3%a4ij%c3%a4t-h%c3%a4me.lippu.svg",
+            "ratio": "285:214",
+            "colors": [
+                {
+                    "hex": "#006bb6",
+                    "percent": 71,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fff200",
+                    "percent": 22,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "pirkanmaa",
+            "belongsTo": "Finland",
+            "country": "Pirkanmaa",
+            "url": "/wiki/file:flag_of_pirkanmaa.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffff00",
+                    "percent": 75,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 25,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "ostrobothnia",
+            "belongsTo": "Finland",
+            "country": "Ostrobothnia",
+            "url": "/wiki/file:flag_of_ostrobothnia.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e2004a",
+                    "percent": 64,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f9f500",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "satakunta",
+            "belongsTo": "Finland",
+            "country": "Satakunta",
+            "url": "/wiki/file:satakunta-flag.svg",
+            "ratio": "389:676",
+            "colors": [
+                {
+                    "hex": "#ffcb05",
+                    "percent": 39,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0044aa",
+                    "percent": 37,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 21,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "blue",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "south-karelia",
+            "belongsTo": "Finland",
+            "country": "South Karelia",
+            "url": "/wiki/file:flag_of_south_karelia.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#f00000",
+                    "percent": 48,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 27,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 21,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd90f",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "south-ostrobothnia",
+            "belongsTo": "Finland",
+            "country": "South Ostrobothnia",
+            "url": "/wiki/file:flag_of_southern_ostrobothnia.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#0046b8",
+                    "percent": 86,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f5f5f5",
+                    "percent": 12,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "southern-savonia",
+            "belongsTo": "Finland",
+            "country": "Southern Savonia",
+            "url": "/wiki/file:flag_of_southern_savonia.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 84,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffe700",
+                    "percent": 9,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "southwest-finland",
+            "belongsTo": "Finland",
+            "country": "Southwest Finland",
+            "url": "/wiki/file:flag_of_southwest_finland.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ed1b2d",
+                    "percent": 66,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd51f",
+                    "percent": 20,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#006bb6",
+                    "percent": 10,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "tavastia-proper",
+            "belongsTo": "Finland",
+            "country": "Tavastia Proper",
+            "url": "/wiki/file:flag_of_tavastia_proper.svg",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#f00000",
+                    "percent": 77,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd90f",
+                    "percent": 17,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "uusimaa",
+            "belongsTo": "Finland",
+            "country": "Uusimaa",
+            "url": "/wiki/file:flag_of_uusimaa.svg",
+            "ratio": "2:3",
+            "colors": [
+                {
+                    "hex": "#0a5fa9",
+                    "percent": 62,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f2df06",
+                    "percent": 8,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "akershus",
+            "belongsTo": "Norway",
+            "country": "Akershus",
+            "url": "/wiki/file:flag_of_akershus.svg",
+            "ratio": "117:100",
+            "colors": [
+                {
+                    "hex": "#d5d5d5",
+                    "percent": 58,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#067fdf",
+                    "percent": 42,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "aust-agder",
+            "belongsTo": "Norway",
+            "country": "Aust-Agder",
+            "url": "/wiki/file:flag_of_aust-agder.svg",
+            "ratio": "4:5",
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 60,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 40,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "buskerud",
+            "belongsTo": "Norway",
+            "country": "Buskerud",
+            "url": "/wiki/file:flag_of_buskerud.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 93,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0060a9",
+                    "percent": 6,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "finnmark",
+            "belongsTo": "Norway",
+            "country": "Finnmark",
+            "url": "/wiki/file:flag_of_finnmark.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 90,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#c8aa3c",
+                    "percent": 10,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "hedmark",
+            "belongsTo": "Norway",
+            "country": "Hedmark",
+            "url": "/wiki/file:flag_of_hedmark.svg",
+            "ratio": "197:160",
+            "colors": [
+                {
+                    "hex": "#1e9943",
+                    "percent": 62,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#e4e4e4",
+                    "percent": 37,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "hordaland",
+            "belongsTo": "Norway",
+            "country": "Hordaland",
+            "url": "/wiki/file:flag_of_hordaland.svg",
+            "ratio": "7:9",
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 89,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 10,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "more-og-romsdal",
+            "belongsTo": "Norway",
+            "country": "Møre og Romsdal",
+            "url": "/wiki/file:flag_of_m%c3%b8re_og_romsdal.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#3859f5",
+                    "percent": 93,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#b7a227",
+                    "percent": 6,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "nordland",
+            "belongsTo": "Norway",
+            "country": "Nordland",
+            "url": "/wiki/file:flag_of_nordland.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd90f",
+                    "percent": 68,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 27,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#fed90f",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "nord-trondelag",
+            "belongsTo": "Norway",
+            "country": "Nord-Trøndelag",
+            "url": "/wiki/file:flag_of_nord-tr%c3%b8ndelag.svg",
+            "ratio": "197:160",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 83,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fbdf40",
+                    "percent": 17,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "oppland",
+            "belongsTo": "Norway",
+            "country": "Oppland",
+            "url": "/wiki/file:flag_of_oppland.svg",
+            "ratio": "3:4",
+            "colors": [
+                {
+                    "hex": "#00cd0d",
+                    "percent": 79,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 19,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "oslo",
+            "belongsTo": "Norway",
+            "country": "Oslo",
+            "url": "/wiki/file:flag_of_oslo.svg",
+            "ratio": "3:5",
+            "colors": [
+                {
+                    "hex": "#233974",
+                    "percent": 82,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#b9a453",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#c9c6b3",
+                    "percent": 2,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#233a74",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fee8b5",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#db373a",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "gray",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "rogaland",
+            "belongsTo": "Norway",
+            "country": "Rogaland",
+            "url": "/wiki/file:flag_of_rogaland.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#2162fa",
+                    "percent": 92,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d9d9d9",
+                    "percent": 8,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "sogn-og-fjordane",
+            "belongsTo": "Norway",
+            "country": "Sogn og Fjordane",
+            "url": "/wiki/file:flag_of_sogn_og_fjordane.svg",
+            "ratio": "216:305",
+            "colors": [
+                {
+                    "hex": "#3399ff",
+                    "percent": 49,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 48,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "sor-trondelag",
+            "belongsTo": "Norway",
+            "country": "Sør-Trøndelag",
+            "url": "/wiki/file:flag_of_s%c3%b8r-tr%c3%b8ndelag.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#ffd02f",
+                    "percent": 95,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff3517",
+                    "percent": 5,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "telemark",
+            "belongsTo": "Norway",
+            "country": "Telemark",
+            "url": "/wiki/file:flag_of_telemark.svg",
+            "ratio": "241:200",
+            "colors": [
+                {
+                    "hex": "#f7d617",
+                    "percent": 80,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 20,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "troms",
+            "belongsTo": "Norway",
+            "country": "Troms",
+            "url": "/wiki/file:flag_of_troms.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#fe0c24",
+                    "percent": 91,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#faf700",
+                    "percent": 8,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "vest-agder",
+            "belongsTo": "Norway",
+            "country": "Vest-Agder",
+            "url": "/wiki/file:flag_of_vest-agder.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#198909",
+                    "percent": 84,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffe600",
+                    "percent": 15,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "vestfold",
+            "belongsTo": "Norway",
+            "country": "Vestfold",
+            "url": "/wiki/file:flag_of_vestfold.svg",
+            "ratio": "5:8",
+            "colors": [
+                {
+                    "hex": "#f1011a",
+                    "percent": 92,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffe91a",
+                    "percent": 8,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ostfold",
+            "belongsTo": "Norway",
+            "country": "Østfold",
+            "url": "/wiki/file:flag_of_%c3%98stfold.svg",
+            "ratio": "21:20",
+            "colors": [
+                {
+                    "hex": "#fb501e",
+                    "percent": 70,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f8da07",
+                    "percent": 29,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "blekinge-county",
+            "belongsTo": "Sweden",
+            "country": "Blekinge County",
+            "url": "/wiki/file:blekinge_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 81,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 14,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "dalarna-county",
+            "belongsTo": "Sweden",
+            "country": "Dalarna County",
+            "url": "/wiki/file:dalarnas_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 85,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "gavleborg-county",
+            "belongsTo": "Sweden",
+            "country": "Gävleborg County",
+            "url": "/wiki/file:g%c3%a4vleborgs_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 43,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 32,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 9,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 2,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "black",
+                "white",
+                "red",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "gotland-county",
+            "belongsTo": "Sweden",
+            "country": "Gotland County",
+            "url": "/wiki/file:gotlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 72,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 17,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 3,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "halland-county",
+            "belongsTo": "Sweden",
+            "country": "Halland County",
+            "url": "/wiki/file:hallands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 74,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 20,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "jamtland-county",
+            "belongsTo": "Sweden",
+            "country": "Jämtland County",
+            "url": "/wiki/file:j%c3%a4mtlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#eeeeee",
+                    "percent": 42,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 40,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 9,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "black",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "jonkoping-county",
+            "belongsTo": "Sweden",
+            "country": "Jönköping County",
+            "url": "/wiki/file:j%c3%b6nk%c3%b6pings_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 48,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 23,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 8,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "kalmar-county",
+            "belongsTo": "Sweden",
+            "country": "Kalmar County",
+            "url": "/wiki/file:kalmar_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffcd50",
+                    "percent": 43,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 34,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 11,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "kronoberg-county",
+            "belongsTo": "Sweden",
+            "country": "Kronoberg County",
+            "url": "/wiki/file:kronobergs_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffcd50",
+                    "percent": 52,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#225500",
+                    "percent": 28,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 13,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "norrbotten-county",
+            "belongsTo": "Sweden",
+            "country": "Norrbotten County",
+            "url": "/wiki/file:norrbottens_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#eeeeee",
+                    "percent": 41,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 39,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 7,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#225500",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "orebro-county",
+            "belongsTo": "Sweden",
+            "country": "Örebro County",
+            "url": "/wiki/file:%c3%96rebro_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 23,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ostergotland-county",
+            "belongsTo": "Sweden",
+            "country": "Östergötland County",
+            "url": "/wiki/file:%c3%96sterg%c3%b6tlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 68,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d30000",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "skane-county",
+            "belongsTo": "Sweden",
+            "country": "Skåne County",
+            "url": "/wiki/file:sk%c3%a5ne_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 74,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 20,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d30000",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "sodermanland-county",
+            "belongsTo": "Sweden",
+            "country": "Södermanland County",
+            "url": "/wiki/file:s%c3%b6dermanlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffcd50",
+                    "percent": 71,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 19,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffcd4f",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "stockholm-county",
+            "belongsTo": "Sweden",
+            "country": "Stockholm County",
+            "url": "/wiki/file:stockholms_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffcd50",
+                    "percent": 35,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 5,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "blue",
+                "black"
+            ]
+        },
+        {
+            "id": "uppsala-county",
+            "belongsTo": "Sweden",
+            "country": "Uppsala County",
+            "url": "/wiki/file:uppsala_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 75,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 17,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d30000",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "varmland-county",
+            "belongsTo": "Sweden",
+            "country": "Värmland County",
+            "url": "/wiki/file:v%c3%a4rmlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#eeeeee",
+                    "percent": 62,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 30,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ededed",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "vasterbotten-county",
+            "belongsTo": "Sweden",
+            "country": "Västerbotten County",
+            "url": "/wiki/file:v%c3%a4sterbottens_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 59,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 26,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#225500",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "vasternorrland-county",
+            "belongsTo": "Sweden",
+            "country": "Västernorrland County",
+            "url": "/wiki/file:v%c3%a4sternorrlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#003d8f",
+                    "percent": 55,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eeeeee",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 13,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "vastmanland-county",
+            "belongsTo": "Sweden",
+            "country": "Västmanland County",
+            "url": "/wiki/file:v%c3%a4stmanlands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#eeeeee",
+                    "percent": 47,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 30,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 20,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "vastra-gotaland-county",
+            "belongsTo": "Sweden",
+            "country": "Västra Götaland County",
+            "url": "/wiki/file:v%c3%a4stra_g%c3%b6talands_l%c3%a4n_vapenflagga.svg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#eeeeee",
+                    "percent": 39,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcd50",
+                    "percent": 16,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 11,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003d8f",
+                    "percent": 10,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 10,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "red",
+                "blue",
+                "black"
             ]
         }
     ]

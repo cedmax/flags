@@ -10,6 +10,7 @@ const values = {
   DE: "German states",
   ES: "Spanish autonomies",
   JP: "Japanese prefects",
+  SCAND: "Scandinavian regions",
 };
 
 const Header = React.memo(({ dispatch, view }) => {

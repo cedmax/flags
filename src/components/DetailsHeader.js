@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "./Link";
-import { action } from "../helpers";
+import { action, getMapUrl } from "../helpers";
 import { withContext } from "../store/context";
 
 const FlagActions = withContext(
@@ -42,22 +42,21 @@ const MapLink = withContext(({ dispatch, url, id, country }) => (
   </Link>
 ));
 
-const DetailsHeader = React.memo(({ flag, active }) => (
-  <div className="flag-header">
-    <div className="flag-map">
-      {active && (
-        <MapLink
-          url={require(`../data/maps/_thumbs/${flag.id}.png`)}
-          id={flag.id}
-          country={flag.country}
-        />
-      )}
+const DetailsHeader = React.memo(({ flag, active }) => {
+  const mapLink = getMapUrl(flag.id);
+  return (
+    <div className="flag-header">
+      <div className="flag-map">
+        {active && mapLink && (
+          <MapLink url={mapLink} id={flag.id} country={flag.country} />
+        )}
+      </div>
+      <div className="flag-title">
+        <h3>{flag.country}</h3>
+        <FlagActions country={flag.country} id={flag.id} />
+      </div>
     </div>
-    <div className="flag-title">
-      <h3>{flag.country}</h3>
-      <FlagActions country={flag.country} id={flag.id} />
-    </div>
-  </div>
-));
+  );
+});
 
 export default DetailsHeader;

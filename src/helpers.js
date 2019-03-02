@@ -9,6 +9,12 @@ export const getId = (string = "") =>
       .replace("ō", "o")
   ).toLowerCase();
 
+export const getMapUrl = id => {
+  try {
+    return require(`../data/maps/_thumbs/${id}.png`);
+  } catch (e) {}
+};
+
 const clean = obj =>
   Object.keys(obj)
     .filter(key => !!obj[key])

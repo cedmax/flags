@@ -96,7 +96,9 @@ figcaption {
 }
 
 .front img {
-  width: calc(100% - 20px);
+  max-width: calc(100% - 40px);
+  max-height: calc(var(--card-size) - 50px);
+  width: 100%;
 }
 
 /* flip speed goes here */
