@@ -31,6 +31,7 @@ const skip = [
   "Spain",
   "Tanzania",
   "Thailand",
+  "United States",
   "Uzbekistan",
   "See also",
   "Footnotes",
