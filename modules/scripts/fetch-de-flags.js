@@ -52,6 +52,7 @@ module.exports = async (unused, callback) => {
 
         return {
           id,
+          belongsTo: "Germany",
           country,
           image,
           url,

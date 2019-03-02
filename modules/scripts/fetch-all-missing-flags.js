@@ -4,11 +4,11 @@ const axios = require("axios");
 const { cleanUrl, generateId } = require("./utilities");
 const manualData = require("../manual/ratio-adoption-name-es.json");
 
-const validSections = ["Autonomies"];
-let bavariaUrl;
+const skip = ["See also", "Footnotes"];
+
 module.exports = async (unused, callback) => {
   const { data } = await axios.get(
-    "https://en.wikipedia.org/wiki/Flags_of_the_autonomous_communities_of_Spain"
+    "https://en.wikipedia.org/wiki/Flags_of_country_subdivisions"
   );
 
   const $ = cheerio.load(data);
@@ -16,31 +16,27 @@ module.exports = async (unused, callback) => {
   const results = sectionTitles.reduce((results, title) => {
     const $title = $(title);
     const titleContent = $title.find(".mw-headline").text();
+    if (!skip.includes(titleContent)) {
+      let $container = $($title.nextAll("ul, .columns").get(0));
+      const flagContainers = $container.find("li").toArray();
+      const flagItems = $container.find('li a[href$=".svg"]').toArray();
 
-    if (validSections.includes(titleContent)) {
-      const $container = $($title.nextAll(".gallery").get(0));
-      const flagContainers = $container.find("li.gallerybox").toArray();
+      if (flagContainers.length !== flagItems.length) {
+        return results;
+      }
 
       const flags = flagContainers.map(flagContainer => {
         const $flagContainer = $(flagContainer);
-        const $link = $flagContainer.find(".gallerytext a:last-of-type");
-        let country = $link
+        const $country = $flagContainer.find("a:last-of-type");
+        let country = $country
           .text()
           .replace(/\[(.)+\]/g, "")
           .trim();
 
         let id = generateId(country);
 
-        let url = cleanUrl($link.attr("href") || "");
-        if (id === "bavaria") {
-          bavariaUrl = url;
-          return;
-        }
-        if (!id) {
-          id = "bavaria";
-          country = "Bavaria";
-          url = bavariaUrl;
-        }
+        let url = cleanUrl($country.attr("href") || "");
+
         const image =
           "https:" +
           $flagContainer
@@ -52,7 +48,7 @@ module.exports = async (unused, callback) => {
 
         return {
           id,
-          belongsTo: "Spain",
+          belongsTo: titleContent,
           country,
           image,
           url,

@@ -11,7 +11,7 @@ module.exports = async (unused, callback) => {
 
   const $ = cheerio.load(data);
   const rows = $(".wikitable tr").toArray();
-  
+
   const results = rows.reduce((results, row) => {
     const tds = $(row)
       .find("td")
@@ -49,6 +49,7 @@ module.exports = async (unused, callback) => {
 
     results.push({
       id,
+      belongsTo: "Italy",
       country,
       adoption,
       image,

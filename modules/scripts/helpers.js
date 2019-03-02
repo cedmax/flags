@@ -2,6 +2,8 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const axios = require("axios");
 const async = require("async");
+const utilities = require("./utilities");
+
 const path = process.cwd();
 
 const getTempFile = key => `${path}/modules/.cache/${key}.json`;
@@ -120,9 +122,13 @@ module.exports = {
       flags,
       2,
       (flag, cb) => {
-        const { id } = flag;
-        const file = `${path}/src/data/flags/${id}.svg`;
+        const { id, belongsTo } = flag;
+        const fullPath = utilities.getPath(path, belongsTo);
+        const file = `${fullPath}/${id}.svg`;
         if (!fs.existsSync(file)) {
+          if (!fs.existsSync(`${fullPath}`)) {
+            fs.mkdirSync(`${fullPath}`);
+          }
           axios
             .get(flag.image)
             .then(({ data: svg }) => {

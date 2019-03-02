@@ -79,6 +79,7 @@ module.exports = async (unused, callback) => {
 
         return {
           id,
+          belongsTo: "United States",
           country,
           adoption,
           image,

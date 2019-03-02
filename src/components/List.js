@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { action } from "../helpers";
+import { action, getId } from "../helpers";
 import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 import { withContext } from "../store/context";
@@ -7,7 +7,11 @@ import { withContext } from "../store/context";
 const List = React.memo(({ isSorted, size, items, dispatch, active }) => (
   <ul className={`list ${size}`}>
     {items.map((flag, i) => {
-      const flagUrl = require(`../data/flags/${flag.id}.svg`);
+      const flagPath = getId(flag.belongsTo);
+      const flagUrl = require(`../data/flags/${
+        flagPath ? `${flagPath}/${flag.id}` : flag.id
+      }.svg`);
+
       return (
         <Fragment key={flag.id}>
           {(flag.id === "abkhazia" || flag.id === "american-samoa") &&

@@ -2,7 +2,7 @@ import React, { useMemo } from "react";
 import Modal from "react-modal";
 import Link from "./Link";
 import ImageLoader from "./ImageLoader";
-import { action, getDetailsImageSize } from "../helpers";
+import { action, getDetailsImageSize, getId } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 import { withContext } from "../store/context";
 
@@ -30,7 +30,10 @@ const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
   const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
 
   if (!detail) return;
-  const flagUrl = require(`../data/flags/${detail.id}.svg`);
+  const flagPath = getId(detail.belongsTo);
+  const flagUrl = require(`../data/flags/${
+    detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
+  }.svg`);
   const mapUrl = require(`../data/maps/${detail.id}.png`);
 
   return (
