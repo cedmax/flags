@@ -1,0 +1,25 @@
+{
+    "id": "south-caribbean-coast-autonomous-region",
+    "colors": [
+        {
+            "hex": "#0000ff",
+            "percent": 30
+        },
+        {
+            "hex": "#507000",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 17
+        },
+        {
+            "hex": "#d2ab67",
+            "percent": 2
+        }
+    ]
+}

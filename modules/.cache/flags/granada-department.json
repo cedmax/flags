@@ -1,0 +1,25 @@
+{
+    "id": "granada-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 30
+        },
+        {
+            "hex": "#002b7f",
+            "percent": 17
+        },
+        {
+            "hex": "#fe0000",
+            "percent": 16
+        },
+        {
+            "hex": "#f5f5f5",
+            "percent": 1
+        }
+    ]
+}

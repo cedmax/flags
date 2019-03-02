@@ -1,0 +1,17 @@
+{
+    "id": "madriz-department",
+    "colors": [
+        {
+            "hex": "#000080",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#d40000",
+            "percent": 33
+        }
+    ]
+}

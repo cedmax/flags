@@ -1,0 +1,21 @@
+{
+    "id": "nueva-segovia-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 95
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        },
+        {
+            "hex": "#003380",
+            "percent": 1
+        },
+        {
+            "hex": "#e3e4e5",
+            "percent": 1
+        }
+    ]
+}

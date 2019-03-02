@@ -1,0 +1,29 @@
+{
+    "id": "matagalpa-department",
+    "colors": [
+        {
+            "hex": "#0067c6",
+            "percent": 31
+        },
+        {
+            "hex": "#008000",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 11
+        },
+        {
+            "hex": "#ffaacc",
+            "percent": 2
+        },
+        {
+            "hex": "#cd2c4d",
+            "percent": 1
+        }
+    ]
+}

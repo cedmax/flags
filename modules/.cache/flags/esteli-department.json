@@ -1,0 +1,17 @@
+{
+    "id": "esteli-department",
+    "colors": [
+        {
+            "hex": "#d53a36",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#52845e",
+            "percent": 33
+        }
+    ]
+}

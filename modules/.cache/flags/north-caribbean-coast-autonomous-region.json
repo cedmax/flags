@@ -1,0 +1,21 @@
+{
+    "id": "north-caribbean-coast-autonomous-region",
+    "colors": [
+        {
+            "hex": "#89731d",
+            "percent": 33
+        },
+        {
+            "hex": "#6699ff",
+            "percent": 33
+        },
+        {
+            "hex": "#339966",
+            "percent": 29
+        },
+        {
+            "hex": "#f4f4f4",
+            "percent": 3
+        }
+    ]
+}

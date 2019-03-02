@@ -1,0 +1,13 @@
+{
+    "id": "masaya-department",
+    "colors": [
+        {
+            "hex": "#52845e",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "leon-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 98
+        },
+        {
+            "hex": "#002255",
+            "percent": 2
+        }
+    ]
+}

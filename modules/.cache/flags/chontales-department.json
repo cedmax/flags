@@ -1,0 +1,17 @@
+{
+    "id": "chontales-department",
+    "colors": [
+        {
+            "hex": "#319431",
+            "percent": 93
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#fffefb",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "chinandega-department",
+    "colors": [
+        {
+            "hex": "#06dd48",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#eaf877",
+            "percent": 33
+        }
+    ]
+}

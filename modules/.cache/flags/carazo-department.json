@@ -1,0 +1,17 @@
+{
+    "id": "carazo-department",
+    "colors": [
+        {
+            "hex": "#9622be",
+            "percent": 33
+        },
+        {
+            "hex": "#fefe32",
+            "percent": 33
+        },
+        {
+            "hex": "#0276b6",
+            "percent": 33
+        }
+    ]
+}

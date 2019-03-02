@@ -1,0 +1,13 @@
+{
+    "id": "rio-san-juan-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 97
+        },
+        {
+            "hex": "#ffff6a",
+            "percent": 1
+        }
+    ]
+}

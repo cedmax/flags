@@ -1,0 +1,29 @@
+{
+    "id": "managua-department",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 79
+        },
+        {
+            "hex": "#cab313",
+            "percent": 5
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 2
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 1
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        }
+    ]
+}

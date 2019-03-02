@@ -1,0 +1,21 @@
+{
+    "id": "boaco-department",
+    "colors": [
+        {
+            "hex": "#006600",
+            "percent": 58
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 21
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 14
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

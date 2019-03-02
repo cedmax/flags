@@ -1,0 +1,17 @@
+{
+    "id": "jinotega-department",
+    "colors": [
+        {
+            "hex": "#ff0b0b",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#0b8b0b",
+            "percent": 33
+        }
+    ]
+}
