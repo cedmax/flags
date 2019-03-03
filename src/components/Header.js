@@ -10,6 +10,7 @@ const values = {
   DE: "German states",
   ES: "Spanish autonomies",
   JP: "Japanese prefects",
+  CH: "Swiss cantons",
   SCAND: "Scandinavian regions",
 };
 

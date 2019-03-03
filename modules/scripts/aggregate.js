@@ -2,7 +2,8 @@ const groups = {
   SCAND: ["Denmark", "Finland", "Norway", "Sweden"],
   IT: ["Italy"],
   DE: ["Germany"],
-  ES: ["Spain"]
+  ES: ["Spain"],
+  CH: ["Switzerland"]
 }
 
 module.exports = (group) => (unused, callback) => {

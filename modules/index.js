@@ -16,4 +16,5 @@ const config = require("./config");
   await fetchData(aggregate("DE"), config.DE, "DE");
   await fetchData(aggregate("ES"), config.ES, "ES");
   await fetchData(aggregate("IT"), config.IT, "IT");
+  await fetchData(aggregate("CH"), config.CH, "CH");
 })();

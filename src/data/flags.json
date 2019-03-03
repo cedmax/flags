@@ -17404,5 +17404,752 @@
                 "magenta"
             ]
         }
+    ],
+    "CH": [
+        {
+            "id": "canton-of-aargau",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Aargau",
+            "url": "/wiki/aargau",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#268bcc",
+                    "percent": 44,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 40,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "canton-of-appenzell-ausserrhoden",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Appenzell Ausserrhoden",
+            "url": "/wiki/appenzell_ausserrhoden",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 71,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 25,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "canton-of-appenzell-innerrhoden",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Appenzell Innerrhoden",
+            "url": "/wiki/appenzell_innerrhoden",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 74,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 23,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "canton-of-basel-landschaft",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Basel-Landschaft",
+            "url": "/wiki/basel-landschaft",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 77,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 17,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 3,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-basel-stadt",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Basel-Stadt",
+            "url": "/wiki/basel-stadt",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 75,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 24,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-bern",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Bern",
+            "url": "/wiki/canton_of_bern",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd730",
+                    "percent": 36,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 32,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 28,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red"
+            ]
+        },
+        {
+            "id": "canton-of-fribourg",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Fribourg",
+            "url": "/wiki/canton_of_fribourg",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#010202",
+                    "percent": 50,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "canton-of-geneva",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Geneva",
+            "url": "/wiki/canton_of_geneva",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd730",
+                    "percent": 37,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 22,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-glarus",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Glarus",
+            "url": "/wiki/canton_of_glarus",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 71,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 20,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffd730",
+                    "percent": 4,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "canton-of-graubunden",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Graubünden",
+            "url": "/wiki/canton_of_grisons",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 51,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 25,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#268bcc",
+                    "percent": 10,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffd730",
+                    "percent": 10,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "black",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "canton-of-jura",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Jura",
+            "url": "/wiki/canton_of_jura",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 51,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 41,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-lucerne",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Lucerne",
+            "url": "/wiki/canton_of_lucerne",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#268bcc",
+                    "percent": 50,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "canton-of-neuchatel",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Neuchâtel",
+            "url": "/wiki/canton_of_neuch%c3%a2tel",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 35,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#16a74e",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 31,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "canton-of-nidwalden",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Nidwalden",
+            "url": "/wiki/nidwalden",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 60,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 5,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-obwalden",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Obwalden",
+            "url": "/wiki/obwalden",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 46,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#feffff",
+                    "percent": 38,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 4,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-schaffhausen",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Schaffhausen",
+            "url": "/wiki/canton_of_schaffhausen",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd730",
+                    "percent": 73,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 23,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-schwyz",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Schwyz",
+            "url": "/wiki/canton_of_schwyz",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 97,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "canton-of-solothurn",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Solothurn",
+            "url": "/wiki/canton_of_solothurn",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "canton-of-st.-gallen",
+            "belongsTo": "Switzerland",
+            "country": "Canton of St. Gallen",
+            "url": "/wiki/canton_of_st._gallen",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#16a74e",
+                    "percent": 84,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 9,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 4,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-thurgau",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Thurgau",
+            "url": "/wiki/thurgau",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd730",
+                    "percent": 29,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#16a74e",
+                    "percent": 28,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 26,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 9,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-ticino",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Ticino",
+            "url": "/wiki/ticino",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#268bcc",
+                    "percent": 50,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "canton-of-uri",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Uri",
+            "url": "/wiki/canton_of_uri",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffd730",
+                    "percent": 65,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 28,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e8423f",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "canton-of-valais",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Valais",
+            "url": "/wiki/valais",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#e8423f",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 44,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 6,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-vaud",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Vaud",
+            "url": "/wiki/vaud",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#16a74e",
+                    "percent": 49,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 39,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd730",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#010202",
+                    "percent": 3,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "canton-of-zug",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Zug",
+            "url": "/wiki/canton_of_zug",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 67,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0073e5",
+                    "percent": 33,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "canton-of-zurich",
+            "belongsTo": "Switzerland",
+            "country": "Canton of Zürich",
+            "url": "/wiki/canton_of_z%c3%bcrich",
+            "ratio": "1:1",
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#268bcc",
+                    "percent": 50,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        }
     ]
 }
