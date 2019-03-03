@@ -17412,6 +17412,9 @@
             "country": "Canton of Aargau",
             "url": "/wiki/aargau",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Aargau_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#268bcc",
@@ -17441,6 +17444,9 @@
             "country": "Canton of Appenzell Ausserrhoden",
             "url": "/wiki/appenzell_ausserrhoden",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Appenzell_Ausserrhoden_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17470,6 +17476,9 @@
             "country": "Canton of Appenzell Innerrhoden",
             "url": "/wiki/appenzell_innerrhoden",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Appenzell_Innerrhoden_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17499,6 +17508,9 @@
             "country": "Canton of Basel-Landschaft",
             "url": "/wiki/basel-landschaft",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Basel-Landschaft_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17528,6 +17540,9 @@
             "country": "Canton of Basel-Stadt",
             "url": "/wiki/basel-stadt",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Basel-Stadt_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17551,6 +17566,9 @@
             "country": "Canton of Bern",
             "url": "/wiki/canton_of_bern",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Bern_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd730",
@@ -17580,6 +17598,9 @@
             "country": "Canton of Fribourg",
             "url": "/wiki/canton_of_fribourg",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Freiburg_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#010202",
@@ -17603,6 +17624,9 @@
             "country": "Canton of Geneva",
             "url": "/wiki/canton_of_geneva",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Genf_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd730",
@@ -17632,6 +17656,9 @@
             "country": "Canton of Glarus",
             "url": "/wiki/canton_of_glarus",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Glarus_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -17667,6 +17694,9 @@
             "country": "Canton of Graubünden",
             "url": "/wiki/canton_of_grisons",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Graub%C3%BCnden_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17702,6 +17732,9 @@
             "country": "Canton of Jura",
             "url": "/wiki/canton_of_jura",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Jura_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17736,6 +17769,9 @@
             "country": "Canton of Lucerne",
             "url": "/wiki/canton_of_lucerne",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Luzern_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17759,6 +17795,9 @@
             "country": "Canton of Neuchâtel",
             "url": "/wiki/canton_of_neuch%c3%a2tel",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Neuenburg_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -17788,6 +17827,9 @@
             "country": "Canton of Nidwalden",
             "url": "/wiki/nidwalden",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Nidwalden_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -17817,6 +17859,9 @@
             "country": "Canton of Obwalden",
             "url": "/wiki/obwalden",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Obwalden_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -17856,6 +17901,9 @@
             "country": "Canton of Schaffhausen",
             "url": "/wiki/canton_of_schaffhausen",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Schaffhausen_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd730",
@@ -17879,6 +17927,9 @@
             "country": "Canton of Schwyz",
             "url": "/wiki/canton_of_schwyz",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Schwyz_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -17902,6 +17953,9 @@
             "country": "Canton of Solothurn",
             "url": "/wiki/canton_of_solothurn",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Solothurn_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -17925,6 +17979,9 @@
             "country": "Canton of St. Gallen",
             "url": "/wiki/canton_of_st._gallen",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_St._Gallen_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#16a74e",
@@ -17954,6 +18011,9 @@
             "country": "Canton of Thurgau",
             "url": "/wiki/thurgau",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Thurgau_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd730",
@@ -17989,6 +18049,9 @@
             "country": "Canton of Ticino",
             "url": "/wiki/ticino",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Tessin_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -18012,6 +18075,9 @@
             "country": "Canton of Uri",
             "url": "/wiki/canton_of_uri",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Uri_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd730",
@@ -18047,6 +18113,9 @@
             "country": "Canton of Valais",
             "url": "/wiki/valais",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Wallis_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e8423f",
@@ -18076,6 +18145,9 @@
             "country": "Canton of Vaud",
             "url": "/wiki/vaud",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Waadt_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#16a74e",
@@ -18111,6 +18183,9 @@
             "country": "Canton of Zug",
             "url": "/wiki/canton_of_zug",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Zug_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -18134,6 +18209,9 @@
             "country": "Canton of Zürich",
             "url": "/wiki/canton_of_z%c3%bcrich",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanton_Z%C3%BCrich_in_Switzerland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",

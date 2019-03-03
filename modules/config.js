@@ -41,6 +41,9 @@ module.exports = {
   SCAND: {
     maps: fetchMaps(extraMaps),
   },
+  CH: {
+    maps: fetchMaps(extraMaps),
+  },
   all: {
     ratio: calculateRatio,
   },
