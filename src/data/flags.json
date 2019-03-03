@@ -13817,7 +13817,9 @@
             "country": "Akershus",
             "url": "/wiki/akershus",
             "ratio": "117:100",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Akershus_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#d5d5d5",
@@ -13841,7 +13843,9 @@
             "country": "Aust-Agder",
             "url": "/wiki/aust-agder",
             "ratio": "4:5",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Aust-Agder_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ff0000",
@@ -13865,7 +13869,9 @@
             "country": "Buskerud",
             "url": "/wiki/buskerud",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Buskerud_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13889,7 +13895,9 @@
             "country": "Finnmark",
             "url": "/wiki/finnmark",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Finnmark_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#000000",
@@ -13913,7 +13921,9 @@
             "country": "Hedmark",
             "url": "/wiki/hedmark",
             "ratio": "197:160",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Hedmark_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#1e9943",
@@ -13937,7 +13947,9 @@
             "country": "Hordaland",
             "url": "/wiki/hordaland",
             "ratio": "7:9",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Hordaland_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ff0000",
@@ -13961,7 +13973,9 @@
             "country": "Møre og Romsdal",
             "url": "/wiki/m%c3%b8re_og_romsdal",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:M%C3%B8re_og_Romsdal_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#3859f5",
@@ -13985,7 +13999,9 @@
             "country": "Nord-Trøndelag",
             "url": "/wiki/nord-tr%c3%b8ndelag",
             "ratio": "197:160",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Nord-Trondelag_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -14009,7 +14025,9 @@
             "country": "Nordland",
             "url": "/wiki/nordland",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Nordland_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd90f",
@@ -14038,7 +14056,9 @@
             "country": "Oppland",
             "url": "/wiki/oppland",
             "ratio": "3:4",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Oppland_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#00cd0d",
@@ -14062,7 +14082,9 @@
             "country": "Oslo",
             "url": "/wiki/oslo",
             "ratio": "3:5",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Oslo_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#233974",
@@ -14109,7 +14131,9 @@
             "country": "Rogaland",
             "url": "/wiki/rogaland",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Rogaland_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#2162fa",
@@ -14133,7 +14157,9 @@
             "country": "Sogn og Fjordane",
             "url": "/wiki/sogn_og_fjordane",
             "ratio": "216:305",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sogn_og_Fjordane_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#3399ff",
@@ -14157,7 +14183,9 @@
             "country": "Sør-Trøndelag",
             "url": "/wiki/s%c3%b8r-tr%c3%b8ndelag",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sor-Trondelag_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#ffd02f",
@@ -14181,7 +14209,9 @@
             "country": "Telemark",
             "url": "/wiki/telemark",
             "ratio": "241:200",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Telemark_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#f7d617",
@@ -14205,7 +14235,9 @@
             "country": "Troms",
             "url": "/wiki/troms",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Troms_in_Norway.svg"
+            },
             "colors": [
                 {
                     "hex": "#fe0c24",
@@ -14229,7 +14261,9 @@
             "country": "Vest-Agder",
             "url": "/wiki/vest-agder",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Vest-Agder_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#198909",
@@ -14253,7 +14287,9 @@
             "country": "Vestfold",
             "url": "/wiki/vestfold",
             "ratio": "5:8",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Vestfold_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#f1011a",
@@ -14277,7 +14313,9 @@
             "country": "Østfold",
             "url": "/wiki/%c3%98stfold",
             "ratio": "21:20",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Ostfold_in_Norway_(plus).svg"
+            },
             "colors": [
                 {
                     "hex": "#fb501e",
@@ -14301,7 +14339,9 @@
             "country": "Blekinge County",
             "url": "/wiki/blekinge_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Blekinge_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14325,7 +14365,9 @@
             "country": "Dalarna County",
             "url": "/wiki/dalarna_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Dalarnas_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14355,7 +14397,9 @@
             "country": "Gotland County",
             "url": "/wiki/gotland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Gotlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14391,7 +14435,9 @@
             "country": "Gävleborg County",
             "url": "/wiki/g%c3%a4vleborg_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:G%C3%A4vleborgs_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#000000",
@@ -14433,7 +14479,9 @@
             "country": "Halland County",
             "url": "/wiki/halland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Hallands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14463,7 +14511,9 @@
             "country": "Jämtland County",
             "url": "/wiki/j%c3%a4mtland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:J%C3%A4mtlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14505,7 +14555,9 @@
             "country": "Jönköping County",
             "url": "/wiki/j%c3%b6nk%c3%b6ping_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:J%C3%B6nk%C3%B6pings_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14547,7 +14599,9 @@
             "country": "Kalmar County",
             "url": "/wiki/kalmar_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kalmar_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14577,7 +14631,9 @@
             "country": "Kronoberg County",
             "url": "/wiki/kronoberg_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kronobergs_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14607,7 +14663,9 @@
             "country": "Norrbotten County",
             "url": "/wiki/norrbotten_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Norrbottens_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14649,7 +14707,9 @@
             "country": "Skåne County",
             "url": "/wiki/sk%c3%a5ne_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sk%C3%A5ne_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#d40000",
@@ -14678,7 +14738,9 @@
             "country": "Stockholm County",
             "url": "/wiki/stockholm_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Stockholms_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14714,7 +14776,9 @@
             "country": "Södermanland County",
             "url": "/wiki/s%c3%b6dermanland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:S%C3%B6dermanlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14749,7 +14813,9 @@
             "country": "Uppsala County",
             "url": "/wiki/uppsala_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Uppsala_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#d40000",
@@ -14790,7 +14856,9 @@
             "country": "Värmland County",
             "url": "/wiki/v%c3%a4rmland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:V%C3%A4rmlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14825,7 +14893,9 @@
             "country": "Västerbotten County",
             "url": "/wiki/v%c3%a4sterbotten_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:V%C3%A4sterbottens_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14867,7 +14937,9 @@
             "country": "Västernorrland County",
             "url": "/wiki/v%c3%a4sternorrland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:V%C3%A4sternorrlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14897,7 +14969,9 @@
             "country": "Västmanland County",
             "url": "/wiki/v%c3%a4stmanland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:V%C3%A4stmanlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14927,7 +15001,9 @@
             "country": "Västra Götaland County",
             "url": "/wiki/v%c3%a4stra_g%c3%b6taland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:V%C3%A4stra_G%C3%B6talands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14969,7 +15045,9 @@
             "country": "Örebro County",
             "url": "/wiki/%c3%96rebro_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:%C3%96rebro_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#d40000",
@@ -15005,7 +15083,9 @@
             "country": "Östergötland County",
             "url": "/wiki/%c3%96sterg%c3%b6tland_county",
             "ratio": "1:1",
-            "map": {},
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:%C3%96sterg%C3%B6tlands_l%C3%A4n_in_Sweden.svg"
+            },
             "colors": [
                 {
                     "hex": "#d40000",
