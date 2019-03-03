@@ -45,7 +45,7 @@ const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
       shouldReturnFocusAfterClose={false}
     >
       <ImageLoader
-        imgSrc={type === "flag" ? flagUrl : mapUrl}
+        imgSrc={type !== "flag" && mapUrl ? mapUrl : flagUrl}
         type={type}
         {...detail}
       />
@@ -54,8 +54,10 @@ const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
         <div>
           <h3>{detail.country}</h3>
           <small>
-            {type === "map" && <ChangeType newType="flag" url={flagUrl} />}
-            {mapUrl && type === "flag" && (
+            {!!mapUrl && type === "map" && (
+              <ChangeType newType="flag" url={flagUrl} />
+            )}
+            {!!mapUrl && type === "flag" && (
               <ChangeType newType="map" url={mapUrl} />
             )}
           </small>

@@ -38,6 +38,9 @@ module.exports = {
   ES: {
     maps: fetchMaps(extraMaps),
   },
+  SCAND: {
+    maps: fetchMaps(extraMaps),
+  },
   all: {
     ratio: calculateRatio,
   },

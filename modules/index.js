@@ -12,7 +12,7 @@ const config = require("./config");
   await fetchData(fetchUsFlags, config.US, "US");
   await fetchData(fetchJPFlags, config.JP, "JP");
   await fetchData(fetchAllMissingFlags, config.all, "ALL");
-  await fetchData(aggregate("SCAND"), config.scand, "SCAND");
+  await fetchData(aggregate("SCAND"), config.SCAND, "SCAND");
   await fetchData(aggregate("DE"), config.DE, "DE");
   await fetchData(aggregate("ES"), config.ES, "ES");
   await fetchData(aggregate("IT"), config.IT, "IT");

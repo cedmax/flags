@@ -12,13 +12,8 @@ const ImageLoaderUI = React.memo(
         loading={() => <Loader />}
         image={props => {
           let size;
-          if ((view === "US" || view === "ES") && type === "map") {
-            size = { width: "100%" };
-            delete props.height;
-          } else {
-            delete props.width;
-            size = { height: "100%" };
-          }
+          delete props.height;
+          delete props.width;
           return (
             <img
               {...props}

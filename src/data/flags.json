@@ -13171,6 +13171,9 @@
             "country": "Faroe Islands",
             "url": "/wiki/faroe_islands",
             "ratio": "8:11",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Faroer_Islands_in_the_Kingdom_of_Denmark.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13200,6 +13203,9 @@
             "country": "Greenland",
             "url": "/wiki/greenland",
             "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Greenland_in_the_Kingdom_of_Denmark.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13223,6 +13229,9 @@
             "country": "Central Finland",
             "url": "/wiki/central_finland",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Keski-Suomi_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13246,6 +13255,9 @@
             "country": "Central Ostrobothnia",
             "url": "/wiki/central_ostrobothnia",
             "ratio": "693:502",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Keski-Pohjanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#0057f0",
@@ -13275,6 +13287,9 @@
             "country": "Kainuu",
             "url": "/wiki/kainuu",
             "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kainuu_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#fff210",
@@ -13298,6 +13313,9 @@
             "country": "Kymenlaakso",
             "url": "/wiki/kymenlaakso",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kymenlaakso_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13327,6 +13345,9 @@
             "country": "Lapland",
             "url": "/wiki/lapland_(finland)",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Lappi_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#fd1812",
@@ -13368,6 +13389,9 @@
             "country": "North Karelia",
             "url": "/wiki/north_karelia",
             "ratio": "3:5",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Pohjois-Karjala_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ff0000",
@@ -13397,6 +13421,9 @@
             "country": "Northern Ostrobothnia",
             "url": "/wiki/northern_ostrobothnia",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Pohjois-Pohjanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#0046b8",
@@ -13420,6 +13447,7 @@
             "country": "Northern Savonia",
             "url": "/wiki/northern_savonia",
             "ratio": "2:3",
+            "map": {},
             "colors": [
                 {
                     "hex": "#000000",
@@ -13449,6 +13477,9 @@
             "country": "Ostrobothnia",
             "url": "/wiki/ostrobothnia_(region)",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Pohjanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#e2004a",
@@ -13472,6 +13503,9 @@
             "country": "Pirkanmaa",
             "url": "/wiki/pirkanmaa",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Pirkanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffff00",
@@ -13495,6 +13529,9 @@
             "country": "Päijät-Häme",
             "url": "/wiki/p%c3%a4ij%c3%a4t-h%c3%a4me",
             "ratio": "285:214",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:P%C3%A4ij%C3%A4t-H%C3%A4me_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#006bb6",
@@ -13518,6 +13555,9 @@
             "country": "Satakunta",
             "url": "/wiki/satakunta",
             "ratio": "389:676",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Satakunta_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ffcb05",
@@ -13553,6 +13593,9 @@
             "country": "South Karelia",
             "url": "/wiki/south_karelia",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Etel%C3%A4-Karjala_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#f00000",
@@ -13588,6 +13631,9 @@
             "country": "South Ostrobothnia",
             "url": "/wiki/south_ostrobothnia",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Etel%C3%A4-Pohjanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#0046b8",
@@ -13611,6 +13657,9 @@
             "country": "Southern Savonia",
             "url": "/wiki/southern_savonia",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Pohjois-Savo_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#000000",
@@ -13640,6 +13689,9 @@
             "country": "Southwest Finland",
             "url": "/wiki/southwest_finland",
             "ratio": "1:1",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Varsinais-Suomi_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#ed1b2d",
@@ -13669,6 +13721,9 @@
             "country": "Tavastia Proper",
             "url": "/wiki/tavastia_proper",
             "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kanta-H%C3%A4me_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#f00000",
@@ -13698,6 +13753,9 @@
             "country": "Uusimaa",
             "url": "/wiki/uusimaa",
             "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Uusimaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#0a5fa9",
@@ -13727,6 +13785,9 @@
             "country": "Åland",
             "url": "/wiki/%c3%85land_islands",
             "ratio": "17:26",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Ahvenanmaa_in_Finland.svg"
+            },
             "colors": [
                 {
                     "hex": "#0053a5",
@@ -13756,6 +13817,7 @@
             "country": "Akershus",
             "url": "/wiki/akershus",
             "ratio": "117:100",
+            "map": {},
             "colors": [
                 {
                     "hex": "#d5d5d5",
@@ -13779,6 +13841,7 @@
             "country": "Aust-Agder",
             "url": "/wiki/aust-agder",
             "ratio": "4:5",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ff0000",
@@ -13802,6 +13865,7 @@
             "country": "Buskerud",
             "url": "/wiki/buskerud",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13825,6 +13889,7 @@
             "country": "Finnmark",
             "url": "/wiki/finnmark",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#000000",
@@ -13848,6 +13913,7 @@
             "country": "Hedmark",
             "url": "/wiki/hedmark",
             "ratio": "197:160",
+            "map": {},
             "colors": [
                 {
                     "hex": "#1e9943",
@@ -13871,6 +13937,7 @@
             "country": "Hordaland",
             "url": "/wiki/hordaland",
             "ratio": "7:9",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ff0000",
@@ -13894,6 +13961,7 @@
             "country": "Møre og Romsdal",
             "url": "/wiki/m%c3%b8re_og_romsdal",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#3859f5",
@@ -13917,6 +13985,7 @@
             "country": "Nord-Trøndelag",
             "url": "/wiki/nord-tr%c3%b8ndelag",
             "ratio": "197:160",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffffff",
@@ -13940,6 +14009,7 @@
             "country": "Nordland",
             "url": "/wiki/nordland",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffd90f",
@@ -13968,6 +14038,7 @@
             "country": "Oppland",
             "url": "/wiki/oppland",
             "ratio": "3:4",
+            "map": {},
             "colors": [
                 {
                     "hex": "#00cd0d",
@@ -13991,6 +14062,7 @@
             "country": "Oslo",
             "url": "/wiki/oslo",
             "ratio": "3:5",
+            "map": {},
             "colors": [
                 {
                     "hex": "#233974",
@@ -14037,6 +14109,7 @@
             "country": "Rogaland",
             "url": "/wiki/rogaland",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#2162fa",
@@ -14060,6 +14133,7 @@
             "country": "Sogn og Fjordane",
             "url": "/wiki/sogn_og_fjordane",
             "ratio": "216:305",
+            "map": {},
             "colors": [
                 {
                     "hex": "#3399ff",
@@ -14083,6 +14157,7 @@
             "country": "Sør-Trøndelag",
             "url": "/wiki/s%c3%b8r-tr%c3%b8ndelag",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffd02f",
@@ -14106,6 +14181,7 @@
             "country": "Telemark",
             "url": "/wiki/telemark",
             "ratio": "241:200",
+            "map": {},
             "colors": [
                 {
                     "hex": "#f7d617",
@@ -14129,6 +14205,7 @@
             "country": "Troms",
             "url": "/wiki/troms",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#fe0c24",
@@ -14152,6 +14229,7 @@
             "country": "Vest-Agder",
             "url": "/wiki/vest-agder",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#198909",
@@ -14175,6 +14253,7 @@
             "country": "Vestfold",
             "url": "/wiki/vestfold",
             "ratio": "5:8",
+            "map": {},
             "colors": [
                 {
                     "hex": "#f1011a",
@@ -14198,6 +14277,7 @@
             "country": "Østfold",
             "url": "/wiki/%c3%98stfold",
             "ratio": "21:20",
+            "map": {},
             "colors": [
                 {
                     "hex": "#fb501e",
@@ -14221,6 +14301,7 @@
             "country": "Blekinge County",
             "url": "/wiki/blekinge_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14244,6 +14325,7 @@
             "country": "Dalarna County",
             "url": "/wiki/dalarna_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14273,6 +14355,7 @@
             "country": "Gotland County",
             "url": "/wiki/gotland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14308,6 +14391,7 @@
             "country": "Gävleborg County",
             "url": "/wiki/g%c3%a4vleborg_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#000000",
@@ -14349,6 +14433,7 @@
             "country": "Halland County",
             "url": "/wiki/halland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14378,6 +14463,7 @@
             "country": "Jämtland County",
             "url": "/wiki/j%c3%a4mtland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14419,6 +14505,7 @@
             "country": "Jönköping County",
             "url": "/wiki/j%c3%b6nk%c3%b6ping_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14460,6 +14547,7 @@
             "country": "Kalmar County",
             "url": "/wiki/kalmar_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14489,6 +14577,7 @@
             "country": "Kronoberg County",
             "url": "/wiki/kronoberg_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14518,6 +14607,7 @@
             "country": "Norrbotten County",
             "url": "/wiki/norrbotten_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14559,6 +14649,7 @@
             "country": "Skåne County",
             "url": "/wiki/sk%c3%a5ne_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#d40000",
@@ -14587,6 +14678,7 @@
             "country": "Stockholm County",
             "url": "/wiki/stockholm_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14622,6 +14714,7 @@
             "country": "Södermanland County",
             "url": "/wiki/s%c3%b6dermanland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#ffcd50",
@@ -14656,6 +14749,7 @@
             "country": "Uppsala County",
             "url": "/wiki/uppsala_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#d40000",
@@ -14696,6 +14790,7 @@
             "country": "Värmland County",
             "url": "/wiki/v%c3%a4rmland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14730,6 +14825,7 @@
             "country": "Västerbotten County",
             "url": "/wiki/v%c3%a4sterbotten_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14771,6 +14867,7 @@
             "country": "Västernorrland County",
             "url": "/wiki/v%c3%a4sternorrland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#003d8f",
@@ -14800,6 +14897,7 @@
             "country": "Västmanland County",
             "url": "/wiki/v%c3%a4stmanland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14829,6 +14927,7 @@
             "country": "Västra Götaland County",
             "url": "/wiki/v%c3%a4stra_g%c3%b6taland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#eeeeee",
@@ -14870,6 +14969,7 @@
             "country": "Örebro County",
             "url": "/wiki/%c3%96rebro_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#d40000",
@@ -14905,6 +15005,7 @@
             "country": "Östergötland County",
             "url": "/wiki/%c3%96sterg%c3%b6tland_county",
             "ratio": "1:1",
+            "map": {},
             "colors": [
                 {
                     "hex": "#d40000",
