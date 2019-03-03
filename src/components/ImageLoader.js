@@ -25,7 +25,7 @@ const ImageLoaderUI = React.memo(
         }}
         src={imgSrc}
       />
-      {type === "map" && map && (
+      {type === "map" && map && map.credits && (
         <Link className="map-credits" to={map.credits} target="_blank">
           map credits
         </Link>
