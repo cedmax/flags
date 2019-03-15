@@ -3,11 +3,11 @@
     "colors": [
         {
             "hex": "#000000",
-            "percent": 70
+            "percent": 66
         },
         {
             "hex": "#ffd52b",
-            "percent": 26
+            "percent": 30
         },
         {
             "hex": "#ffffff",

@@ -35,9 +35,10 @@ module.exports = (flags, callback) =>
 
         bar.stop();
         let totalPx = pixels.length;
-        if (id === "nepal" || id === "ohio") {
-          totalPx = totalPx - imageData[`r0g0b0`];
-          delete imageData[`r0g0b0`];
+
+        if (["nepal", "ohio", "northern-savonia", "satakunta"].includes(id)) {
+          totalPx = totalPx - imageData[`r241g241b241`];
+          delete imageData[`r241g241b241`];
         }
 
         const colors = Object.keys(imageData)
@@ -50,6 +51,7 @@ module.exports = (flags, callback) =>
           .sort((a, b) => (a.percent < b.percent ? 1 : -1));
 
         const result = { id, colors };
+
         fs.writeFileSync(cacheFile, JSON.stringify(result, null, 4), "UTF-8");
         return result;
       }

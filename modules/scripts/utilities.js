@@ -64,10 +64,13 @@ exports.getPixels = async (id, subfolder) => {
       width = width / 2;
     }
     const canvas = createCanvas(width, height);
-
     const ctx = canvas.getContext("2d");
+
+    ctx.fillStyle = "#f1f1f1";
+    ctx.fillRect(0, 0, ctx.canvas.width, ctx.canvas.height);
     ctx.drawImage(image, 0, 0, canvas.width, canvas.height);
     const data = ctx.getImageData(0, 0, canvas.width, canvas.height);
+
     return parse(data);
   } catch (e) {
     console.log("PROBLEM WITH", id, subfolder);
