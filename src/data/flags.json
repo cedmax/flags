@@ -18229,5 +18229,4674 @@
                 "cyan"
             ]
         }
+    ],
+    "SAM": [
+        {
+            "id": "buenos-aires-province",
+            "belongsTo": "Argentina",
+            "country": "Buenos Aires Province",
+            "url": "/wiki/buenos_aires_province",
+            "ratio": "377:569",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0061b6",
+                    "percent": 47,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#009260",
+                    "percent": 38,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fffb00",
+                    "percent": 9,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "catamarca-province",
+            "belongsTo": "Argentina",
+            "country": "Catamarca Province",
+            "url": "/wiki/catamarca_province",
+            "ratio": "373:683",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 42,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#80b3ff",
+                    "percent": 20,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 20,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd42a",
+                    "percent": 11,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#594a27",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fcbf49",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "chaco-province",
+            "belongsTo": "Argentina",
+            "country": "Chaco Province",
+            "url": "/wiki/chaco_province",
+            "ratio": "485:728",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#1db062",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#94c9e9",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcbf49",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#c24900",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "cyan",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "chubut-province",
+            "belongsTo": "Argentina",
+            "country": "Chubut Province",
+            "url": "/wiki/chubut_province",
+            "ratio": "1:2",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#60b2d5",
+                    "percent": 75,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 10,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e5d21f",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#19639b",
+                    "percent": 5,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#19649b",
+                    "percent": 2,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "corrientes-province",
+            "belongsTo": "Argentina",
+            "country": "Corrientes Province",
+            "url": "/wiki/corrientes_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 69,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "cordoba-province",
+            "belongsTo": "Argentina",
+            "country": "Córdoba Province",
+            "url": "/wiki/c%c3%b3rdoba_province,_argentina",
+            "ratio": "53:82",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#e41b23",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#6caee0",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cfa55b",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "entre-rios-province",
+            "belongsTo": "Argentina",
+            "country": "Entre Rios Province",
+            "url": "/wiki/entre_r%c3%ados_province",
+            "ratio": "1:2",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 44,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#b43232",
+                    "percent": 37,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 18,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "formosa-province",
+            "belongsTo": "Argentina",
+            "country": "Formosa Province",
+            "url": "/wiki/formosa_province",
+            "ratio": "6:11",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 76,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 19,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#077937",
+                    "percent": 3,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "jujuy-province",
+            "belongsTo": "Argentina",
+            "country": "Jujuy Province",
+            "url": "/wiki/jujuy_province",
+            "ratio": "56:45",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 82,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#75aadb",
+                    "percent": 6,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcbf49",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ef9ba0",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "la-pampa-province",
+            "belongsTo": "Argentina",
+            "country": "La Pampa Province",
+            "url": "/wiki/la_pampa_province",
+            "ratio": "260:391",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 64,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 31,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#74aada",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#80b3ff",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#b8c59a",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "la-rioja-province",
+            "belongsTo": "Argentina",
+            "country": "La Rioja Province",
+            "url": "/wiki/la_rioja_province,_argentina",
+            "ratio": "9:14",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 37,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#007bc4",
+                    "percent": 37,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#b52921",
+                    "percent": 20,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009442",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#df2118",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "mendoza-province",
+            "belongsTo": "Argentina",
+            "country": "Mendoza Province",
+            "url": "/wiki/mendoza_province",
+            "ratio": "5:4",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 46,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcbf49",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ef9ba0",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#e6bc7f",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "misiones-province",
+            "belongsTo": "Argentina",
+            "country": "Misiones Province",
+            "url": "/wiki/misiones_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#dd0000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003893",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "neuquen-province",
+            "belongsTo": "Argentina",
+            "country": "Neuquén Province",
+            "url": "/wiki/neuqu%c3%a9n_province",
+            "ratio": "265:332",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#73c6ef",
+                    "percent": 67,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008c42",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "rio-negro-province",
+            "belongsTo": "Argentina",
+            "country": "Rio Negro Province",
+            "url": "/wiki/r%c3%ado_negro_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009a3b",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0063be",
+                    "percent": 22,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 10,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "cyan",
+                "black"
+            ]
+        },
+        {
+            "id": "salta-province",
+            "belongsTo": "Argentina",
+            "country": "Salta Province",
+            "url": "/wiki/salta_province",
+            "ratio": "100:141",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#9c2941",
+                    "percent": 73,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 20,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#73c6f1",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fecd00",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ececec",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "cyan",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "san-juan-province",
+            "belongsTo": "Argentina",
+            "country": "San Juan Province",
+            "url": "/wiki/san_juan_province,_argentina",
+            "ratio": "9:14",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 56,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "san-luis-province",
+            "belongsTo": "Argentina",
+            "country": "San Luis Province",
+            "url": "/wiki/san_luis_province",
+            "ratio": "802:1173",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 83,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#dce284",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#9fdcf5",
+                    "percent": 4,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#009240",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#d29464",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#cc6f40",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "santa-cruz-province",
+            "belongsTo": "Argentina",
+            "country": "Santa Cruz Province",
+            "url": "/wiki/santa_cruz_province,_argentina",
+            "ratio": "56:85",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#73c5ee",
+                    "percent": 51,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#291873",
+                    "percent": 20,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f5f100",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1d97df",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#883a28",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f4ca00",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#a95e37",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "blue",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "santa-fe-province",
+            "belongsTo": "Argentina",
+            "country": "Santa Fe Province",
+            "url": "/wiki/santa_fe_province",
+            "ratio": "217:435",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#b43232",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#96beff",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 22,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcc600",
+                    "percent": 7,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "santiago-del-estero-province",
+            "belongsTo": "Argentina",
+            "country": "Santiago del Estero Province",
+            "url": "/wiki/santiago_del_estero_province",
+            "ratio": "2:5",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#75aadb",
+                    "percent": 40,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 37,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 20,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcbf49",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "tierra-del-fuego-province",
+            "belongsTo": "Argentina",
+            "country": "Tierra del Fuego Province",
+            "url": "/wiki/tierra_del_fuego_province,_argentina",
+            "ratio": "27:40",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fd9730",
+                    "percent": 49,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1983dd",
+                    "percent": 38,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "tucuman-province",
+            "belongsTo": "Argentina",
+            "country": "Tucumán Province",
+            "url": "/wiki/tucum%c3%a1n_province",
+            "ratio": "9:14",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 67,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#65a9d6",
+                    "percent": 33,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "beni-department",
+            "belongsTo": "Bolivia",
+            "country": "Beni Department",
+            "url": "/wiki/beni_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#007a3d",
+                    "percent": 100,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green"
+            ]
+        },
+        {
+            "id": "chuquisaca-department",
+            "belongsTo": "Bolivia",
+            "country": "Chuquisaca Department",
+            "url": "/wiki/chuquisaca_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 61,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d81d04",
+                    "percent": 38,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "cochabamba-department",
+            "belongsTo": "Bolivia",
+            "country": "Cochabamba Department",
+            "url": "/wiki/cochabamba_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#84c5f0",
+                    "percent": 100,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "cyan"
+            ]
+        },
+        {
+            "id": "la-paz-department",
+            "belongsTo": "Bolivia",
+            "country": "La Paz Department",
+            "url": "/wiki/la_paz_department_(bolivia)",
+            "ratio": "113:165",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d81e05",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#007a3d",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "oruro-department",
+            "belongsTo": "Bolivia",
+            "country": "Oruro Department",
+            "url": "/wiki/oruro_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d81e05",
+                    "percent": 100,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red"
+            ]
+        },
+        {
+            "id": "pando-department",
+            "belongsTo": "Bolivia",
+            "country": "Pando Department",
+            "url": "/wiki/pando_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#007a3d",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "potosi-department",
+            "belongsTo": "Bolivia",
+            "country": "Potosí Department",
+            "url": "/wiki/potos%c3%ad_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d81e05",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "santa-cruz-department",
+            "belongsTo": "Bolivia",
+            "country": "Santa Cruz Department",
+            "url": "/wiki/santa_cruz_department_(bolivia)",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#007a3d",
+                    "percent": 67,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "tarija-department",
+            "belongsTo": "Bolivia",
+            "country": "Tarija Department",
+            "url": "/wiki/tarija_department",
+            "ratio": "15:22",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d81e05",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "acre",
+            "belongsTo": "Brazil",
+            "country": "Acre",
+            "url": "/wiki/acre_(state)",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00994c",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f3e718",
+                    "percent": 48,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cc0000",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "alagoas",
+            "belongsTo": "Brazil",
+            "country": "Alagoas",
+            "url": "/wiki/alagoas",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0077b9",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0067ab",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "amapa",
+            "belongsTo": "Brazil",
+            "country": "Amapá",
+            "url": "/wiki/amap%c3%a1",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00994c",
+                    "percent": 36,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#002580",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f3e718",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 11,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "yellow",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "amazonas",
+            "belongsTo": "Brazil",
+            "country": "Amazonas",
+            "url": "/wiki/amazonas_(brazilian_state)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d20000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#001e78",
+                    "percent": 13,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "bahia",
+            "belongsTo": "Brazil",
+            "country": "Bahia",
+            "url": "/wiki/bahia",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#c8140a",
+                    "percent": 42,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0a14c8",
+                    "percent": 12,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "ceara",
+            "belongsTo": "Brazil",
+            "country": "Ceará",
+            "url": "/wiki/cear%c3%a1",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#009b3a",
+                    "percent": 68,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fedf00",
+                    "percent": 17,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923e",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "espirito-santo",
+            "belongsTo": "Brazil",
+            "country": "Espírito Santo",
+            "url": "/wiki/esp%c3%adrito_santo",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0096e1",
+                    "percent": 35,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#f09bbe",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 31,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "goias",
+            "belongsTo": "Brazil",
+            "country": "Goiás",
+            "url": "/wiki/goi%c3%a1s",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#f3e718",
+                    "percent": 45,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00994c",
+                    "percent": 41,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#002580",
+                    "percent": 11,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "maranhao",
+            "belongsTo": "Brazil",
+            "country": "Maranhão",
+            "url": "/wiki/maranh%c3%a3o",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 28,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 19,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#190096",
+                    "percent": 14,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black",
+                "blue"
+            ]
+        },
+        {
+            "id": "mato-grosso",
+            "belongsTo": "Brazil",
+            "country": "Mato Grosso",
+            "url": "/wiki/mato_grosso",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#28166f",
+                    "percent": 68,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 18,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 9,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "mato-grosso-do-sul",
+            "belongsTo": "Brazil",
+            "country": "Mato Grosso do Sul",
+            "url": "/wiki/mato_grosso_do_sul",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#6699fe",
+                    "percent": 63,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 18,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "minas-gerais",
+            "belongsTo": "Brazil",
+            "country": "Minas Gerais",
+            "url": "/wiki/minas_gerais",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 88,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 10,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "parana",
+            "belongsTo": "Brazil",
+            "country": "Paraná",
+            "url": "/wiki/paran%c3%a1_(state)",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008d43",
+                    "percent": 38,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#2549a5",
+                    "percent": 8,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "blue"
+            ]
+        },
+        {
+            "id": "paraiba",
+            "belongsTo": "Brazil",
+            "country": "Paraíba",
+            "url": "/wiki/para%c3%adba",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#f00000",
+                    "percent": 65,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 33,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "para",
+            "belongsTo": "Brazil",
+            "country": "Pará",
+            "url": "/wiki/par%c3%a1",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 67,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 31,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0074d8",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "pernambuco",
+            "belongsTo": "Brazil",
+            "country": "Pernambuco",
+            "url": "/wiki/pernambuco",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#101070",
+                    "percent": 43,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcf10c",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e6060a",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#1d7721",
+                    "percent": 3,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "piaui",
+            "belongsTo": "Brazil",
+            "country": "Piauí",
+            "url": "/wiki/piau%c3%ad",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#56a134",
+                    "percent": 45,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffd500",
+                    "percent": 40,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0b1097",
+                    "percent": 13,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "rio-grande-do-norte",
+            "belongsTo": "Brazil",
+            "country": "Rio Grande do Norte",
+            "url": "/wiki/rio_grande_do_norte",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 41,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009b3a",
+                    "percent": 39,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fedf00",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#229845",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#231f20",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#2498dc",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow",
+                "gray",
+                "cyan"
+            ]
+        },
+        {
+            "id": "rio-grande-do-sul",
+            "belongsTo": "Brazil",
+            "country": "Rio Grande do Sul",
+            "url": "/wiki/rio_grande_do_sul",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 25,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fff500",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009a50",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdb00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "rio-de-janeiro",
+            "belongsTo": "Brazil",
+            "country": "Rio de Janeiro",
+            "url": "/wiki/rio_de_janeiro_(state)",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00afef",
+                    "percent": 45,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 44,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#c0c2c8",
+                    "percent": 2,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#373435",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#a93c40",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00a859",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "gray",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "rondonia",
+            "belongsTo": "Brazil",
+            "country": "Rondônia",
+            "url": "/wiki/rond%c3%b4nia",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#002580",
+                    "percent": 46,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#00994c",
+                    "percent": 25,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f3e718",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "roraima",
+            "belongsTo": "Brazil",
+            "country": "Roraima",
+            "url": "/wiki/roraima",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 32,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00a5ff",
+                    "percent": 27,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008200",
+                    "percent": 24,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#dc0000",
+                    "percent": 5,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "santa-catarina",
+            "belongsTo": "Brazil",
+            "country": "Santa Catarina",
+            "url": "/wiki/santa_catarina_(state)",
+            "ratio": "432:595",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ee3333",
+                    "percent": 57,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#a9d046",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ee1c23",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#37b549",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "sergipe",
+            "belongsTo": "Brazil",
+            "country": "Sergipe",
+            "url": "/wiki/sergipe",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00923f",
+                    "percent": 41,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 41,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#28166f",
+                    "percent": 15,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "sao-paulo",
+            "belongsTo": "Brazil",
+            "country": "São Paulo",
+            "url": "/wiki/s%c3%a3o_paulo_(state)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#212125",
+                    "percent": 45,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 43,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#c40008",
+                    "percent": 9,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#294292",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffec00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "gray",
+                "white",
+                "red",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "tocantins",
+            "belongsTo": "Brazil",
+            "country": "Tocantins",
+            "url": "/wiki/tocantins",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff9600",
+                    "percent": 26,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1946b4",
+                    "percent": 21,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "antofagasta",
+            "belongsTo": "Chile",
+            "country": "Antofagasta",
+            "url": "/wiki/antofagasta_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0033aa",
+                    "percent": 93,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "araucania",
+            "belongsTo": "Chile",
+            "country": "Araucania",
+            "url": "/wiki/araucan%c3%ada_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d52b1e",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0039a6",
+                    "percent": 32,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white",
+                "green",
+                "black"
+            ]
+        },
+        {
+            "id": "arica-and-parinacota",
+            "belongsTo": "Chile",
+            "country": "Arica and Parinacota",
+            "url": "/wiki/arica_y_parinacota_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 93,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff6600",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fede3c",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#4093f5",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#a5ff42",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "atacama",
+            "belongsTo": "Chile",
+            "country": "Atacama",
+            "url": "/wiki/atacama_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0035ad",
+                    "percent": 91,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 9,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "aysen",
+            "belongsTo": "Chile",
+            "country": "Aysén",
+            "url": "/wiki/ays%c3%a9n_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#0062ad",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#00aad4",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008400",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "black",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "biobio",
+            "belongsTo": "Chile",
+            "country": "Biobío",
+            "url": "/wiki/biob%c3%ado_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 91,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "coquimbo",
+            "belongsTo": "Chile",
+            "country": "Coquimbo",
+            "url": "/wiki/coquimbo_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 26,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#5baf00",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0a44a8",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b49b4",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4bb9",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4bba",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ccf307",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0b4ab7",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4dbe",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c4ec1",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c4fc3",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c50c5",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c50c6",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4ab6",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c51c8",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b49b5",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c52ca",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4cbc",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0c52cb",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b4cbb",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "los-lagos",
+            "belongsTo": "Chile",
+            "country": "Los Lagos",
+            "url": "/wiki/los_lagos_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0070c0",
+                    "percent": 50,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#00b050",
+                    "percent": 48,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "los-rios",
+            "belongsTo": "Chile",
+            "country": "Los Ríos",
+            "url": "/wiki/los_r%c3%ados_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 5,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 4,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "magallanes-and-chilean-antarctica",
+            "belongsTo": "Chile",
+            "country": "Magallanes & Chilean Antarctica",
+            "url": "/wiki/magallanes_y_la_ant%c3%a1rtica_chilena_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0000cc",
+                    "percent": 68,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fdcb00",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "maule",
+            "belongsTo": "Chile",
+            "country": "Maule",
+            "url": "/wiki/maule_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 88,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009036",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "yellow",
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "metropolitan-(of-santiago)",
+            "belongsTo": "Chile",
+            "country": "Metropolitan (of Santiago)",
+            "url": "/wiki/santiago_metropolitan_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#585867",
+                    "percent": 87,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0035ad",
+                    "percent": 3,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "gray",
+                "white",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "o-higgins",
+            "belongsTo": "Chile",
+            "country": "O'Higgins",
+            "url": "/wiki/o%27higgins_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 86,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffaaaa",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "red",
+                "black",
+                "green"
+            ]
+        },
+        {
+            "id": "tarapaca",
+            "belongsTo": "Chile",
+            "country": "Tarapacá",
+            "url": "/wiki/tarapac%c3%a1_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 91,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0000ad",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#7bd6ff",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffa521",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "green",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "valparaiso",
+            "belongsTo": "Chile",
+            "country": "Valparaíso",
+            "url": "/wiki/valpara%c3%adso_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0035ad",
+                    "percent": 88,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "nuble",
+            "belongsTo": "Chile",
+            "country": "Ñuble",
+            "url": "/wiki/%c3%91uble_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 85,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#e3e4e5",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "red",
+                "cyan",
+                "black"
+            ]
+        },
+        {
+            "id": "amazonas",
+            "belongsTo": "Colombia",
+            "country": "Amazonas",
+            "url": "/wiki/amazonas_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d20000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#001e78",
+                    "percent": 13,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "antioquia",
+            "belongsTo": "Colombia",
+            "country": "Antioquia",
+            "url": "/wiki/antioquia_department",
+            "ratio": "1:2",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "arauca",
+            "belongsTo": "Colombia",
+            "country": "Arauca",
+            "url": "/wiki/arauca_department",
+            "ratio": "3:4",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "atlantico",
+            "belongsTo": "Colombia",
+            "country": "Atlántico",
+            "url": "/wiki/atl%c3%a1ntico_department",
+            "ratio": "3:5",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 67,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "bolivar",
+            "belongsTo": "Colombia",
+            "country": "Bolívar",
+            "url": "/wiki/bol%c3%advar_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "boyaca",
+            "belongsTo": "Colombia",
+            "country": "Boyacá",
+            "url": "/wiki/boyac%c3%a1_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 36,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 29,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "caldas",
+            "belongsTo": "Colombia",
+            "country": "Caldas",
+            "url": "/wiki/caldas_department",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "caqueta",
+            "belongsTo": "Colombia",
+            "country": "Caquetá",
+            "url": "/wiki/caquet%c3%a1_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 51,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 46,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "casanare",
+            "belongsTo": "Colombia",
+            "country": "Casanare",
+            "url": "/wiki/casanare_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 48,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 48,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "cauca",
+            "belongsTo": "Colombia",
+            "country": "Cauca",
+            "url": "/wiki/cauca_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 67,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#e4c90e",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "cesar",
+            "belongsTo": "Colombia",
+            "country": "Cesar",
+            "url": "/wiki/cesar_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 67,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "choco",
+            "belongsTo": "Colombia",
+            "country": "Chocó",
+            "url": "/wiki/choc%c3%b3_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 25,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 25,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "cundinamarca",
+            "belongsTo": "Colombia",
+            "country": "Cundinamarca",
+            "url": "/wiki/cundinamarca_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e6e6e5",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#010101",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "yellow",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "cordoba",
+            "belongsTo": "Colombia",
+            "country": "Córdoba",
+            "url": "/wiki/c%c3%b3rdoba_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0f47af",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "guainia",
+            "belongsTo": "Colombia",
+            "country": "Guainía",
+            "url": "/wiki/guain%c3%ada_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": "guaviare",
+            "belongsTo": "Colombia",
+            "country": "Guaviare",
+            "url": "/wiki/guaviare_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 34,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 30,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "huila",
+            "belongsTo": "Colombia",
+            "country": "Huila",
+            "url": "/wiki/huila_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "la-guajira",
+            "belongsTo": "Colombia",
+            "country": "La Guajira",
+            "url": "/wiki/la_guajira_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "magdalena",
+            "belongsTo": "Colombia",
+            "country": "Magdalena",
+            "url": "/wiki/magdalena_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#1144aa",
+                    "percent": 48,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#dd1122",
+                    "percent": 46,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "meta",
+            "belongsTo": "Colombia",
+            "country": "Meta",
+            "url": "/wiki/meta_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 53,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 47,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "narino",
+            "belongsTo": "Colombia",
+            "country": "Nariño",
+            "url": "/wiki/nari%c3%b1o",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "norte-de-santander",
+            "belongsTo": "Colombia",
+            "country": "Norte de Santander",
+            "url": "/wiki/norte_de_santander_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 49,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 49,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "putumayo",
+            "belongsTo": "Colombia",
+            "country": "Putumayo",
+            "url": "/wiki/putumayo_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 33,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "quindio",
+            "belongsTo": "Colombia",
+            "country": "Quindío",
+            "url": "/wiki/quind%c3%ado_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#742c64",
+                    "percent": 33,
+                    "tag": "magenta"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "magenta"
+            ]
+        },
+        {
+            "id": "risaralda",
+            "belongsTo": "Colombia",
+            "country": "Risaralda",
+            "url": "/wiki/risaralda_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 94,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "san-andres-and-providencia",
+            "belongsTo": "Colombia",
+            "country": "San Andrés and Providencia",
+            "url": "/wiki/san_andr%c3%a9s_and_providencia",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 73,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 26,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "santander",
+            "belongsTo": "Colombia",
+            "country": "Santander",
+            "url": "/wiki/flag_of_department_of_santander",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 47,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#dc121a",
+                    "percent": 23,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 9,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "yellow",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "sucre",
+            "belongsTo": "Colombia",
+            "country": "Sucre",
+            "url": "/wiki/sucre_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 46,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#87ceff",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "cyan",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "tolima",
+            "belongsTo": "Colombia",
+            "country": "Tolima",
+            "url": "/wiki/tolima_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#6d090d",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "valle-del-cauca",
+            "belongsTo": "Colombia",
+            "country": "Valle del Cauca",
+            "url": "/wiki/valle_del_cauca_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 40,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e7e7e7",
+                    "percent": 20,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "vaupes",
+            "belongsTo": "Colombia",
+            "country": "Vaupés",
+            "url": "/wiki/vaup%c3%a9s_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 49,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 48,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#034418",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "vichada",
+            "belongsTo": "Colombia",
+            "country": "Vichada",
+            "url": "/wiki/vichada_department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "lambayeque-region",
+            "belongsTo": "Peru",
+            "country": "Lambayeque Region",
+            "url": "/wiki/lambayeque_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fbbb00",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 50,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "lima-province",
+            "belongsTo": "Peru",
+            "country": "Lima Province",
+            "url": "/wiki/lima_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#f8b109",
+                    "percent": 84,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#101213",
+                    "percent": 6,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d43316",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#05408f",
+                    "percent": 2,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "black",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "madre-de-dios-region",
+            "belongsTo": "Peru",
+            "country": "Madre de Dios Region",
+            "url": "/wiki/madre_de_dios_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 62,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 37,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "pasco-region",
+            "belongsTo": "Peru",
+            "country": "Pasco Region",
+            "url": "/wiki/pasco_region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f8930",
+                    "percent": 37,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 12,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "amazonas",
+            "belongsTo": "Venezuela",
+            "country": "Amazonas",
+            "url": "/wiki/amazonas,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 53,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d20000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#001e78",
+                    "percent": 13,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "anzoategui",
+            "belongsTo": "Venezuela",
+            "country": "Anzoátegui",
+            "url": "/wiki/anzo%c3%a1tegui",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008033",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 32,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 30,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "blue",
+                "black"
+            ]
+        },
+        {
+            "id": "apure",
+            "belongsTo": "Venezuela",
+            "country": "Apure",
+            "url": "/wiki/apure",
+            "ratio": "563:847",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 29,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 29,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 22,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 12,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fefefe",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffed00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "aragua",
+            "belongsTo": "Venezuela",
+            "country": "Aragua",
+            "url": "/wiki/aragua",
+            "ratio": "649:973",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 46,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 44,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd600",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eb002a",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "barinas",
+            "belongsTo": "Venezuela",
+            "country": "Barinas",
+            "url": "/wiki/barinas,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00247d",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "bolivar",
+            "belongsTo": "Venezuela",
+            "country": "Bolívar",
+            "url": "/wiki/bol%c3%advar_(state)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "carabobo",
+            "belongsTo": "Venezuela",
+            "country": "Carabobo",
+            "url": "/wiki/carabobo",
+            "ratio": "599:900",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#cf142b",
+                    "percent": 72,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 20,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "cojedes",
+            "belongsTo": "Venezuela",
+            "country": "Cojedes",
+            "url": "/wiki/cojedes,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ff9933",
+                    "percent": 61,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 19,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 17,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#fedf00",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "blue",
+                "black"
+            ]
+        },
+        {
+            "id": "delta-amacuro",
+            "belongsTo": "Venezuela",
+            "country": "Delta Amacuro",
+            "url": "/wiki/delta_amacuro",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00247d",
+                    "percent": 42,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#74acdf",
+                    "percent": 30,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 18,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#784421",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "cyan",
+                "green",
+                "black",
+                "red",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "falcon",
+            "belongsTo": "Venezuela",
+            "country": "Falcón",
+            "url": "/wiki/falc%c3%b3n",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00247d",
+                    "percent": 76,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 14,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "federal-dependencies",
+            "belongsTo": "Venezuela",
+            "country": "Federal Dependencies",
+            "url": "/wiki/federal_dependencies_of_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008033",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 5,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "guarico",
+            "belongsTo": "Venezuela",
+            "country": "Guárico",
+            "url": "/wiki/gu%c3%a1rico",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008033",
+                    "percent": 28,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#00237d",
+                    "percent": 26,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 21,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 21,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "lara",
+            "belongsTo": "Venezuela",
+            "country": "Lara",
+            "url": "/wiki/lara,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008033",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 19,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "miranda",
+            "belongsTo": "Venezuela",
+            "country": "Miranda",
+            "url": "/wiki/miranda_(state)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 38,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 32,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 27,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "monagas",
+            "belongsTo": "Venezuela",
+            "country": "Monagas",
+            "url": "/wiki/monagas",
+            "ratio": "508:765",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#72c3f0",
+                    "percent": 68,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 10,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#2b75b6",
+                    "percent": 9,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008e42",
+                    "percent": 8,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "black",
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "merida",
+            "belongsTo": "Venezuela",
+            "country": "Mérida",
+            "url": "/wiki/m%c3%a9rida_(state)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 45,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 25,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#74acdf",
+                    "percent": 25,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 5,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "cyan",
+                "red"
+            ]
+        },
+        {
+            "id": "nueva-esparta",
+            "belongsTo": "Venezuela",
+            "country": "Nueva Esparta",
+            "url": "/wiki/nueva_esparta",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 43,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 25,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 23,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fdfdfd",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "blue",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "portuguesa",
+            "belongsTo": "Venezuela",
+            "country": "Portuguesa",
+            "url": "/wiki/portuguesa_(venezuela)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00247d",
+                    "percent": 54,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 10,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "sucre",
+            "belongsTo": "Venezuela",
+            "country": "Sucre",
+            "url": "/wiki/sucre,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 46,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#87ceff",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "cyan",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "trujillo",
+            "belongsTo": "Venezuela",
+            "country": "Trujillo",
+            "url": "/wiki/trujillo_(state)",
+            "ratio": "601:901",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#cf142b",
+                    "percent": 39,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 39,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 19,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f0f8f0",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "tachira",
+            "belongsTo": "Venezuela",
+            "country": "Táchira",
+            "url": "/wiki/t%c3%a1chira",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 29,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black",
+                "green"
+            ]
+        },
+        {
+            "id": "vargas",
+            "belongsTo": "Venezuela",
+            "country": "Vargas",
+            "url": "/wiki/vargas,_venezuela",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 52,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 13,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 9,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "yaracuy",
+            "belongsTo": "Venezuela",
+            "country": "Yaracuy",
+            "url": "/wiki/yaracuy",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 26,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 25,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 7,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#87aade",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008033",
+                    "percent": 3,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "zulia",
+            "belongsTo": "Venezuela",
+            "country": "Zulia",
+            "url": "/wiki/zulia",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#000000",
+                    "percent": 43,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 42,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "black",
+                "blue",
+                "yellow",
+                "white"
+            ]
+        }
     ]
 }

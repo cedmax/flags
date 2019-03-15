@@ -11,6 +11,7 @@ const NavSorter = React.memo(({ sorters, sortBy, view, dispatch }) =>
       disabled={
         view === "CH" ||
         (sorter === "ratio" && view === "IT") ||
+        (sorter === "adoption" && view === "SAM") ||
         (sorter === "adoption" && view === "SCAND")
       }
       onClick={() => dispatch(action("sortBy", sorter))}

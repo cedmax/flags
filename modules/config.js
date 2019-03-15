@@ -44,6 +44,9 @@ module.exports = {
   CH: {
     maps: fetchMaps(extraMaps),
   },
+  SAM: {
+    maps: fetchMaps(extraMaps),
+  },
   all: {
     ratio: calculateRatio,
   },
