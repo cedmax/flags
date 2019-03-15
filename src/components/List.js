@@ -13,7 +13,7 @@ const List = React.memo(({ isSorted, size, items, dispatch, active }) => (
       }.svg`);
 
       return (
-        <Fragment key={flag.id}>
+        <Fragment key={`${flag.id}-${flag.belongsTo}`}>
           {(flag.id === "abkhazia" || flag.id === "american-samoa") &&
             !isSorted && <hr />}
 
