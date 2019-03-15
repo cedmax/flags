@@ -568,11 +568,11 @@ h1 + small {
 
 
 .select-menu {
-  width: 335px;
+  width: 300px;
   min-width: 100%;
   text-align: left;
   background: rgba(255,255,255,.9);
-  font-size: 80%;
+  font-size: 70%;
   position: absolute;
   right: 100%;
   padding: 0;
@@ -581,7 +581,11 @@ h1 + small {
 }
 
 .select-item {
-  padding: 10px 15px;
+  padding: 10px 15px 0;
+}
+
+.select-item:last-child {
+  padding-bottom: 10px;
 }
 
 .select-item:hover,.select-item:focus {
