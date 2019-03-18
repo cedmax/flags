@@ -11,7 +11,7 @@ const values = {
   ES: "Spanish autonomies",
   JP: "Japanese prefects",
   CH: "Swiss cantons",
-  SCAND: "Scandinavian regions",
+  SCAND: "Scandinavian regions*",
   SAM: "South American regions*",
 };
 
@@ -47,6 +47,9 @@ const Header = React.memo(({ dispatch, view }) => {
       </h1>
       {view === "SAM" && (
         <small>* most of them – Ecuador, Paraguay and Uruguay missing</small>
+      )}
+      {view === "SCAND" && (
+        <small>* and Finland</small>
       )}
     </Wrapper>
   );
