@@ -20,6 +20,9 @@ module.exports = {
     continents: tagContinents,
     maps: fetchMaps(mapEndPoints),
   },
+  autonomist: {
+    ratio: calculateRatio,
+  },
   US: {
     ratio: calculateRatio,
     maps: fetchUsMaps,
@@ -29,16 +32,10 @@ module.exports = {
     ratio: calculateRatio,
     maps: fetchMaps(extraMaps),
   },
-  IT: {
+  FIGS: {
     maps: fetchMaps(extraMaps),
   },
-  DE: {
-    maps: fetchMaps(extraMaps),
-  },
-  ES: {
-    maps: fetchMaps(extraMaps),
-  },
-  SCAND: {
+  NORDIC: {
     maps: fetchMaps(extraMaps),
   },
   CH: {
