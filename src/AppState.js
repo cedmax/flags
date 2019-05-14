@@ -8,6 +8,18 @@ import AppUi from "./AppUI";
 import "./App.css";
 let historySetup = false;
 
+const supportOldUrls = () => {
+  const params = qs.getParams(window.location.search);
+  if (["IT", "DE", "ES"].includes(params.view)) {
+    params.view = "FIGS";
+    window.history.replaceState(null, "", `?${qs.fromState(params)}`);
+  }
+  if (["SCAND"].includes(params.view)) {
+    params.view = "NORDIC";
+    window.history.replaceState(null, "", `?${qs.fromState(params)}`);
+  }
+};
+
 const setupUrlBinding = dispatch => {
   const updateStore = () =>
     dispatch(action("updateFromUrl", qs.getParams(window.location.search)));
@@ -35,6 +47,7 @@ const App = props => {
 
   useEffect(() => {
     if (!historySetup) {
+      supportOldUrls();
       setupUrlBinding(dispatch);
     } else {
       const qsFromState = qs.fromState(state);
