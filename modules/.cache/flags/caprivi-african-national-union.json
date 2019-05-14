@@ -1,0 +1,25 @@
+{
+    "id": "caprivi-african-national-union",
+    "colors": [
+        {
+            "hex": "#3399ff",
+            "percent": 29
+        },
+        {
+            "hex": "#00cc00",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 14
+        },
+        {
+            "hex": "#666666",
+            "percent": 11
+        }
+    ]
+}

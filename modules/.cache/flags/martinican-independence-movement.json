@@ -1,0 +1,25 @@
+{
+    "id": "martinican-independence-movement",
+    "colors": [
+        {
+            "hex": "#ea0e14",
+            "percent": 40
+        },
+        {
+            "hex": "#020809",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        },
+        {
+            "hex": "#fbfd02",
+            "percent": 1
+        },
+        {
+            "hex": "#fbfb09",
+            "percent": 1
+        }
+    ]
+}

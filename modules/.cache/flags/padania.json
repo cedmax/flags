@@ -1,0 +1,13 @@
+{
+    "id": "padania",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 85
+        },
+        {
+            "hex": "#008000",
+            "percent": 13
+        }
+    ]
+}

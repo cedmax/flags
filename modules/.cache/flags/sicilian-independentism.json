@@ -1,0 +1,21 @@
+{
+    "id": "sicilian-independentism",
+    "colors": [
+        {
+            "hex": "#fff100",
+            "percent": 48
+        },
+        {
+            "hex": "#ec1b23",
+            "percent": 37
+        },
+        {
+            "hex": "#00009e",
+            "percent": 9
+        },
+        {
+            "hex": "#ffe82f",
+            "percent": 3
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "league-of-the-south",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 48
+        },
+        {
+            "hex": "#bf0a30",
+            "percent": 42
+        },
+        {
+            "hex": "#002868",
+            "percent": 9
+        }
+    ]
+}

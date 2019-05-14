@@ -1,0 +1,21 @@
+{
+    "id": "american-indian-movement",
+    "colors": [
+        {
+            "hex": "#880000",
+            "percent": 39
+        },
+        {
+            "hex": "#000000",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 17
+        }
+    ]
+}

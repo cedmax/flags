@@ -1,0 +1,21 @@
+{
+    "id": "kurdistan-independence-movement",
+    "colors": [
+        {
+            "hex": "#ed2024",
+            "percent": 33
+        },
+        {
+            "hex": "#278e43",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#febd11",
+            "percent": 6
+        }
+    ]
+}

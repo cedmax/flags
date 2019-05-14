@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="450">
+<rect height="450" width="900" fill="#0080c1"/>
+<rect height="300" width="900" fill="#cc9866"/>
+<rect height="150" width="900" fill="#1ee183"/>
+<g fill="#cc6566" stroke="#fff">
+<g stroke-width="6">
+<path id="p1" d="m297.15,253.4,34.808-119.46,35.022-0.21486,44.047,32.659z" stroke-miterlimit="3"/>
+<use xlink:href="#p1" transform="matrix(-1,0,0,1,900,0)"/>
+<path d="m413.82,318.93,36.312,39.535,36.741-39.749-0.21486-85.73-74.987-2.1486z"/>
+<path d="m392.44,130.34,115.47-0.15193-28.715,116.07-29.171,19.143-25.22-16.712z"/>
+<path id="p2" d="m450.13,263.93-25.998-95.613-59.517-0.64458-22.131,70.26,10.958,96.258,45.551-27.287,38.245-90.027"/>
+<use xlink:href="#p2" transform="matrix(-1,0,0,1,900,0)"/>
+</g>
+<g stroke-width="2">
+<path d="m415.664,106.942v60"/>
+<path d="m435,150v60"/>
+<path d="m450,92.965V171.754"/>
+<path d="m465,150v60"/>
+<path d="m484.636,106.942v60"/>
+</g>
+<g fill="#fff" stroke="none">
+<ellipse cx="415.664" cy="106.942" rx="8.204" ry="10.635"/>
+<ellipse cx="435" cy="150" rx="8.204" ry="10.635"/>
+<ellipse cx="450" cy="92.965" rx="8.204" ry="10.635"/>
+<ellipse cx="465" cy="150" rx="8.204" ry="10.635"/>
+<ellipse cx="484.636" cy="106.942" rx="8.204" ry="10.635"/>
+</g>
+</g>
+</svg>

@@ -1,0 +1,17 @@
+{
+    "id": "free-papua-movement",
+    "colors": [
+        {
+            "hex": "#006699",
+            "percent": 39
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 36
+        },
+        {
+            "hex": "#dd0000",
+            "percent": 24
+        }
+    ]
+}

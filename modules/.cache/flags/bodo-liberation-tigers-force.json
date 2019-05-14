@@ -1,0 +1,17 @@
+{
+    "id": "bodo-liberation-tigers-force",
+    "colors": [
+        {
+            "hex": "#f4db33",
+            "percent": 48
+        },
+        {
+            "hex": "#dc2424",
+            "percent": 47
+        },
+        {
+            "hex": "#f9ebea",
+            "percent": 1
+        }
+    ]
+}

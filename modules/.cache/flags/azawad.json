@@ -1,0 +1,21 @@
+{
+    "id": "azawad",
+    "colors": [
+        {
+            "hex": "#009748",
+            "percent": 30
+        },
+        {
+            "hex": "#000000",
+            "percent": 30
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 25
+        },
+        {
+            "hex": "#ffe800",
+            "percent": 15
+        }
+    ]
+}

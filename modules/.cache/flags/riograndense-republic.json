@@ -1,0 +1,17 @@
+{
+    "id": "riograndense-republic",
+    "colors": [
+        {
+            "hex": "#de2910",
+            "percent": 50
+        },
+        {
+            "hex": "#319400",
+            "percent": 25
+        },
+        {
+            "hex": "#ffde00",
+            "percent": 25
+        }
+    ]
+}

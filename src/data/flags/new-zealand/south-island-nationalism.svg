@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   version="1.0"
+   width="1200"
+   height="600"
+   id="svg2">
+  <defs
+     id="defs4">
+    <clipPath
+       id="Canton">
+      <path
+         d="M 0,0 L 600,0 L 600,300 L 0,300 L 0,0 z"
+         id="path7" />
+    </clipPath>
+    <clipPath
+       id="Diagonals">
+      <path
+         d="M 0,0 L 300,150 L 0,150 L 0,0 z M 300,0 L 600,0 L 300,150 L 300,0 z M 300,150 L 600,150 L 600,300 L 300,150 z M 300,150 L 300,300 L 0,300 L 300,150 z"
+         id="path10" />
+    </clipPath>
+    <g
+       id="Pentagram">
+      <g
+         transform="translate(0,-0.324925)"
+         id="Arm">
+        <path
+           d="M 0,0 L 0,0.5 L 1,0 L 0,0 z"
+           id="path14" />
+        <path
+           d="M 0,0 L 0,-0.5 L 1,0 L 0,0 z"
+           transform="matrix(0.809017,-0.5877853,0.5877853,0.809017,0.190983,0.5877853)"
+           id="path16" />
+      </g>
+      <use
+         transform="scale(-1,1)"
+         id="use18"
+         x="0"
+         y="0"
+         width="1200"
+         height="600"
+         xlink:href="#Arm" />
+      <use
+         transform="matrix(0.309017,0.9510565,-0.9510565,0.309017,0,0)"
+         id="use20"
+         x="0"
+         y="0"
+         width="1200"
+         height="600"
+         xlink:href="#Arm" />
+      <use
+         transform="matrix(0.309017,-0.9510565,0.9510565,0.309017,0,0)"
+         id="use22"
+         x="0"
+         y="0"
+         width="1200"
+         height="600"
+         xlink:href="#Arm" />
+      <use
+         transform="matrix(-0.309017,0.9510565,0.9510565,0.309017,0,0)"
+         id="use24"
+         x="0"
+         y="0"
+         width="1200"
+         height="600"
+         xlink:href="#Arm" />
+    </g>
+  </defs>
+  <rect
+     width="1200"
+     height="600"
+     x="5.8823537e-07"
+     y="4.6999999e-06"
+     id="rect26"
+     style="fill:#00247d" />
+  <path
+     d="M 0,455 L 600.00003,255 L 1200,455 L 1200,600 L 0,600 L 0,455 z M 0,-2.3235043e-14 L 0,-2.3235043e-14 z"
+     id="path2662"
+     style="fill:#ffffff;fill-opacity:1" />
+  <path
+     d="M 5.8823537e-07,500 L 600,300 L 1200,500 L 1200,600 L 5.8823537e-07,600 L 5.8823537e-07,500 z M 5.8823537e-07,4.7e-06 L 5.8823537e-07,4.7e-06 z"
+     id="path2658"
+     style="fill:#00a100;fill-opacity:1" />
+  <g
+     transform="matrix(0.75,0,0,0.75,361.95694,-9.1213343)"
+     id="g3470">
+    <use
+       transform="matrix(40,0,0,40,900,120)"
+       id="use3472"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+    <use
+       transform="matrix(30,0,0,30,900,120)"
+       id="use3474"
+       style="fill:#cc142b"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+  </g>
+  <g
+     transform="matrix(0.1033857,0.7356277,-0.7356277,0.1033857,1101.1825,-531.80371)"
+     id="g3478">
+    <use
+       transform="matrix(4.8710585,-34.659382,34.659382,4.8710585,900,120)"
+       id="use3480"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+    <use
+       transform="matrix(3.4793275,-24.756702,24.756702,3.4793275,900,120)"
+       id="use3482"
+       style="fill:#cc142b"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+  </g>
+  <g
+     transform="matrix(0.1043798,0.742701,-0.742701,0.1043798,1143.5166,-544.99255)"
+     id="g3484">
+    <use
+       transform="matrix(5.566924,-39.610723,39.610723,5.566924,900,380)"
+       id="use3486"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+    <use
+       transform="matrix(4.175193,-29.708042,29.708042,4.175193,900,380)"
+       id="use3488"
+       style="fill:#cc142b"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+  </g>
+  <g
+     transform="matrix(0.7222222,0,0,0.7222222,386.50954,-53.192344)"
+     id="g3490">
+    <use
+       transform="matrix(45,0,0,45,900,480)"
+       id="use3492"
+       style="fill:#ffffff"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+    <use
+       transform="matrix(35,0,0,35,900,480)"
+       id="use3494"
+       style="fill:#cc142b"
+       x="0"
+       y="0"
+       width="1200"
+       height="600"
+       xlink:href="#Pentagram" />
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+{
+    "id": "castilian-nationalism",
+    "colors": [
+        {
+            "hex": "#630b57",
+            "percent": 72
+        },
+        {
+            "hex": "#eac102",
+            "percent": 17
+        },
+        {
+            "hex": "#aa8800",
+            "percent": 3
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 2
+        },
+        {
+            "hex": "#976717",
+            "percent": 1
+        }
+    ]
+}

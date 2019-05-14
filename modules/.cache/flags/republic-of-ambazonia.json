@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-ambazonia",
+    "colors": [
+        {
+            "hex": "#0097fe",
+            "percent": 60
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 37
+        },
+        {
+            "hex": "#cbc534",
+            "percent": 1
+        }
+    ]
+}

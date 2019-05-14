@@ -1,0 +1,17 @@
+{
+    "id": "ichkeria",
+    "colors": [
+        {
+            "hex": "#2b7338",
+            "percent": 70
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        },
+        {
+            "hex": "#da251d",
+            "percent": 10
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "riau-independentist-movement",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 72
+        },
+        {
+            "hex": "#000080",
+            "percent": 24
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 1
+        },
+        {
+            "hex": "#000093",
+            "percent": 1
+        }
+    ]
+}

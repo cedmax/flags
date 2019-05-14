@@ -1,0 +1,13 @@
+{
+    "id": "cornwall",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 69
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        }
+    ]
+}

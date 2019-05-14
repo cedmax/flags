@@ -1,0 +1,33 @@
+{
+    "id": "mapuche-consejo-de-todas-las-tierras",
+    "colors": [
+        {
+            "hex": "#75aadb",
+            "percent": 26
+        },
+        {
+            "hex": "#cc0000",
+            "percent": 26
+        },
+        {
+            "hex": "#008000",
+            "percent": 20
+        },
+        {
+            "hex": "#000000",
+            "percent": 11
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 8
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#b22222",
+            "percent": 2
+        }
+    ]
+}

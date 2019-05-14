@@ -1,0 +1,21 @@
+{
+    "id": "bamileke-national-movement",
+    "colors": [
+        {
+            "hex": "#00aa00",
+            "percent": 25
+        },
+        {
+            "hex": "#ffe900",
+            "percent": 25
+        },
+        {
+            "hex": "#e30013",
+            "percent": 25
+        },
+        {
+            "hex": "#000000",
+            "percent": 25
+        }
+    ]
+}

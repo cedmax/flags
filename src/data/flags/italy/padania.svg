@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="-280 -140 560 280" width="560" height="280">
+<rect fill="#fff" height="280" width="560" x="-280" y="-140"/>
+<g stroke="green">
+<circle stroke-width="20" fill="none" r="100"/>
+<path stroke-width="0" fill="green" d="M0,-1 a92,92 0 0,0 0,92 a92,92 0 0,0 0,-92 z" id="sunRay"/>
+</g>
+<use transform="rotate(60)" xlink:href="#sunRay"/>
+<use transform="rotate(120)" xlink:href="#sunRay"/>
+<use transform="rotate(180)" xlink:href="#sunRay"/>
+<use transform="rotate(240)" xlink:href="#sunRay"/>
+<use transform="rotate(300)" xlink:href="#sunRay"/>
+</svg>

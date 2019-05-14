@@ -1,0 +1,21 @@
+{
+    "id": "valencian-nationalism",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 39
+        },
+        {
+            "hex": "#da121a",
+            "percent": 35
+        },
+        {
+            "hex": "#0072bc",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

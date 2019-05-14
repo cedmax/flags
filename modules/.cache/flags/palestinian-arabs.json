@@ -1,0 +1,21 @@
+{
+    "id": "palestinian-arabs",
+    "colors": [
+        {
+            "hex": "#000000",
+            "percent": 30
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 24
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 17
+        }
+    ]
+}

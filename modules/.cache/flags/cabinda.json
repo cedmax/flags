@@ -1,0 +1,29 @@
+{
+    "id": "cabinda",
+    "colors": [
+        {
+            "hex": "#ff6600",
+            "percent": 32
+        },
+        {
+            "hex": "#00ccff",
+            "percent": 32
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 30
+        },
+        {
+            "hex": "#007800",
+            "percent": 4
+        },
+        {
+            "hex": "#993300",
+            "percent": 2
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

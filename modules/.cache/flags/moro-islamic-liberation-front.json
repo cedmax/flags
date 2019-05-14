@@ -1,0 +1,21 @@
+{
+    "id": "moro-islamic-liberation-front",
+    "colors": [
+        {
+            "hex": "#007a3d",
+            "percent": 64
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 6
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 2
+        }
+    ]
+}

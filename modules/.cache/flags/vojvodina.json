@@ -1,0 +1,17 @@
+{
+    "id": "vojvodina",
+    "colors": [
+        {
+            "hex": "#003893",
+            "percent": 33
+        },
+        {
+            "hex": "#ffe60c",
+            "percent": 33
+        },
+        {
+            "hex": "#166c28",
+            "percent": 33
+        }
+    ]
+}

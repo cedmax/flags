@@ -1,0 +1,21 @@
+{
+    "id": "afrikaner-volksfront",
+    "colors": [
+        {
+            "hex": "#ff8400",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#003399",
+            "percent": 27
+        },
+        {
+            "hex": "#007a4d",
+            "percent": 20
+        }
+    ]
+}

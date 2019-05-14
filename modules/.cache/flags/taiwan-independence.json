@@ -1,0 +1,17 @@
+{
+    "id": "taiwan-independence",
+    "colors": [
+        {
+            "hex": "#008000",
+            "percent": 44
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 39
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 16
+        }
+    ]
+}

@@ -1,0 +1,25 @@
+{
+    "id": "canarian-nationalism",
+    "colors": [
+        {
+            "hex": "#f1ed3b",
+            "percent": 48
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        },
+        {
+            "hex": "#65bfe3",
+            "percent": 14
+        },
+        {
+            "hex": "#f5c864",
+            "percent": 12
+        },
+        {
+            "hex": "#9a6920",
+            "percent": 10
+        }
+    ]
+}

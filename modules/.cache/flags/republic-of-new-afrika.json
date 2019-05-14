@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-new-afrika",
+    "colors": [
+        {
+            "hex": "#008000",
+            "percent": 40
+        },
+        {
+            "hex": "#000000",
+            "percent": 40
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 20
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "south-island-nationalism",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 58
+        },
+        {
+            "hex": "#00a100",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        }
+    ]
+}

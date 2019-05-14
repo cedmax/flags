@@ -1,0 +1,17 @@
+{
+    "id": "barisan-revolusi-nasional-melayu-patani",
+    "colors": [
+        {
+            "hex": "#000080",
+            "percent": 55
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 39
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "szekely-land",
+    "colors": [
+        {
+            "hex": "#005ba1",
+            "percent": 77
+        },
+        {
+            "hex": "#c1a162",
+            "percent": 22
+        },
+        {
+            "hex": "#c3c3c3",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "chin-national-front",
+    "colors": [
+        {
+            "hex": "#dd2119",
+            "percent": 33
+        },
+        {
+            "hex": "#4a5a73",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#ffc500",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "ogadenia-national-liberation-front",
+    "colors": [
+        {
+            "hex": "#008100",
+            "percent": 33
+        },
+        {
+            "hex": "#fe0000",
+            "percent": 33
+        },
+        {
+            "hex": "#004080",
+            "percent": 31
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

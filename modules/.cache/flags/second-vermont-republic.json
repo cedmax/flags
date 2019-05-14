@@ -1,0 +1,17 @@
+{
+    "id": "second-vermont-republic",
+    "colors": [
+        {
+            "hex": "#074c07",
+            "percent": 81
+        },
+        {
+            "hex": "#314779",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

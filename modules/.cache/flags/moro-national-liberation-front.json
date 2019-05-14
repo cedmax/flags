@@ -1,0 +1,21 @@
+{
+    "id": "moro-national-liberation-front",
+    "colors": [
+        {
+            "hex": "#db161b",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#fbed06",
+            "percent": 1
+        },
+        {
+            "hex": "#fff200",
+            "percent": 1
+        }
+    ]
+}

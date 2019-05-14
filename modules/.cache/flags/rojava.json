@@ -1,0 +1,17 @@
+{
+    "id": "rojava",
+    "colors": [
+        {
+            "hex": "#ee1b24",
+            "percent": 37
+        },
+        {
+            "hex": "#fff300",
+            "percent": 31
+        },
+        {
+            "hex": "#00a650",
+            "percent": 31
+        }
+    ]
+}

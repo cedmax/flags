@@ -1,0 +1,21 @@
+{
+    "id": "tibetan-government-in-exile",
+    "colors": [
+        {
+            "hex": "#da251c",
+            "percent": 30
+        },
+        {
+            "hex": "#29166f",
+            "percent": 30
+        },
+        {
+            "hex": "#f4e109",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        }
+    ]
+}

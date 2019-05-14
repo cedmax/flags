@@ -1,0 +1,21 @@
+{
+    "id": "cascadian-independence-movement",
+    "colors": [
+        {
+            "hex": "#085d05",
+            "percent": 31
+        },
+        {
+            "hex": "#121cc0",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#002200",
+            "percent": 10
+        }
+    ]
+}

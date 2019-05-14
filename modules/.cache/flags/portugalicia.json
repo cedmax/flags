@@ -1,0 +1,17 @@
+{
+    "id": "portugalicia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 56
+        },
+        {
+            "hex": "#2b5df2",
+            "percent": 37
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 2
+        }
+    ]
+}

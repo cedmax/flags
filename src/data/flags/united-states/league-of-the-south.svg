@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="900" height="600" viewBox="0 0 150 100">
+<rect fill="#bf0a30" width="150" height="100"/>
+<path stroke="#fff" stroke-width="12" d="M0,0L70,60M0,60L70,0"/>
+<path stroke="#002868" stroke-width="9" d="M0,0L70,60M0,60L70,0"/>
+<path id="s" transform="translate(35,30)scale(3)" fill="#fff" d="M0,-1 L0.58779,0.80902 L-0.95106,-0.30902 L0.95106,-0.30902 L-0.58779,0.80902z"/>
+<g id="s6">
+	<use xlink:href="#s" x="-9.333" y="-8"/>
+	<use xlink:href="#s" x="-18.667" y="-16"/>
+	<use xlink:href="#s" x="-28" y="-24"/>
+	<use xlink:href="#s" x="-9.333" y="8"/>
+	<use xlink:href="#s" x="-18.667" y="16"/>
+	<use xlink:href="#s" x="-28" y="24"/>
+</g>
+<use xlink:href="#s6" transform="scale(-1,1)" x="-70"/>
+<path fill="#fff" d="M70,0H110V100H0V60H70z"/>
+</svg>

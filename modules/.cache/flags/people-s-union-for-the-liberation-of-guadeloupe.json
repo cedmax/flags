@@ -1,0 +1,21 @@
+{
+    "id": "people-s-union-for-the-liberation-of-guadeloupe",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 63
+        },
+        {
+            "hex": "#078930",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 10
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 2
+        }
+    ]
+}

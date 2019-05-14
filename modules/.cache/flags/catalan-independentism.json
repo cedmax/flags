@@ -1,0 +1,21 @@
+{
+    "id": "catalan-independentism",
+    "colors": [
+        {
+            "hex": "#ffd700",
+            "percent": 45
+        },
+        {
+            "hex": "#cc0000",
+            "percent": 34
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

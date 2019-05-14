@@ -1,0 +1,17 @@
+{
+    "id": "murrawarri-republic",
+    "colors": [
+        {
+            "hex": "#b35e25",
+            "percent": 50
+        },
+        {
+            "hex": "#b5e6f6",
+            "percent": 47
+        },
+        {
+            "hex": "#fcfefe",
+            "percent": 2
+        }
+    ]
+}

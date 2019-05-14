@@ -1,0 +1,17 @@
+{
+    "id": "jammu-kashmir-liberation-front",
+    "colors": [
+        {
+            "hex": "#0c5700",
+            "percent": 37
+        },
+        {
+            "hex": "#e80000",
+            "percent": 37
+        },
+        {
+            "hex": "#feffff",
+            "percent": 25
+        }
+    ]
+}

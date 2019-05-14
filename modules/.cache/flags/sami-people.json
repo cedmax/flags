@@ -1,0 +1,21 @@
+{
+    "id": "sami-people",
+    "colors": [
+        {
+            "hex": "#0038a8",
+            "percent": 55
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 33
+        },
+        {
+            "hex": "#007a3d",
+            "percent": 6
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 6
+        }
+    ]
+}

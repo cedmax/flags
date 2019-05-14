@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Sodipodi ("http://www.sodipodi.com/") -->
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://web.resource.org/cc/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://inkscape.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   height="708.661"
+   id="svg378"
+   sodipodi:docbase="D:\Mis documentos\Comptabilitat\Tercer Examen\Wikipedia anglesa\Bèlgica"
+   sodipodi:docname="Front Bodoland.svg"
+   sodipodi:version="0.32"
+   version="1"
+   width="1062.99"
+   x="0"
+   y="0"
+   inkscape:version="0.43">
+  <metadata
+     id="metadata3">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title> somalia</dc:title>
+        <dc:description />
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li />
+            <rdf:li>united_nations_member</rdf:li>
+            <rdf:li>flag</rdf:li>
+            <rdf:li>africa</rdf:li>
+            <rdf:li>sign</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://www.openclipart.org">
+            <dc:title> Craig Kacinko</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>Craig Kacinko</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:rights>
+          <cc:Agent>
+            <dc:title> Craig Kacinko</dc:title>
+          </cc:Agent>
+        </dc:rights>
+        <dc:date />
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://web.resource.org/cc/PublicDomain" />
+        <dc:language>en</dc:language>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://web.resource.org/cc/PublicDomain">
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Reproduction" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/Distribution" />
+        <cc:permits
+           rdf:resource="http://web.resource.org/cc/DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     id="base"
+     inkscape:zoom="0.52634475"
+     inkscape:cx="531.495"
+     inkscape:cy="390.45929"
+     inkscape:window-width="808"
+     inkscape:window-height="540"
+     inkscape:window-x="44"
+     inkscape:window-y="58"
+     inkscape:current-layer="svg378" />
+  <defs
+     id="defs380" />
+  <rect
+     height="708.66107"
+     id="rect149"
+     style="font-size:12px;fill:#20a639;fill-opacity:1;fill-rule:evenodd;stroke-width:1pt"
+     width="1062.99"
+     x="-1.2502594e-005"
+     y="1.8998971" />
+  <path
+     sodipodi:type="arc"
+     style="opacity:1;fill:#dd0c1c;fill-opacity:1;stroke:none;stroke-width:0.60236222;stroke-miterlimit:3.9000001;stroke-dasharray:none;stroke-opacity:1"
+     id="path2189"
+     sodipodi:cx="145.34201"
+     sodipodi:cy="331.53177"
+     sodipodi:rx="33.248169"
+     sodipodi:ry="16.149111"
+     d="M 112.10974,332.03105 A 33.248169,16.149111 0 1 1 112.13256,332.31089"
+     sodipodi:start="3.1106709"
+     sodipodi:end="9.3765135"
+     transform="matrix(3.885817,0,0,7.64679,-370.9881,-2356.564)"
+     sodipodi:open="true" />
+  <path
+     d="M 302.7093,231.10068 L 216.18465,218.54477 L 165.54789,289.7206 L 161.99725,210.43903 L 75.69992,197.13099 L 160.04028,160.68749 L 157.33828,81.2913 L 213.00954,138.0508 L 297.63788,102.28675 L 247.70818,173.80543 L 302.7093,231.10068 z "
+     id="path205"
+     style="font-size:12px;fill:#f7f913;fill-opacity:1;fill-rule:evenodd;stroke-width:0.112872" />
+</svg>

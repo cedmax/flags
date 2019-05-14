@@ -1,0 +1,17 @@
+{
+    "id": "hong-kong-independence-movement",
+    "colors": [
+        {
+            "hex": "#00247d",
+            "percent": 72
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#cf142b",
+            "percent": 9
+        }
+    ]
+}

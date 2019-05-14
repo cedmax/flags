@@ -1,0 +1,25 @@
+{
+    "id": "ryukyu-islands",
+    "colors": [
+        {
+            "hex": "#29add3",
+            "percent": 47
+        },
+        {
+            "hex": "#1f298a",
+            "percent": 43
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#ead509",
+            "percent": 2
+        },
+        {
+            "hex": "#fe2a15",
+            "percent": 2
+        }
+    ]
+}

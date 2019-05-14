@@ -1,0 +1,29 @@
+{
+    "id": "republic-of-rio-de-janeiro",
+    "colors": [
+        {
+            "hex": "#00afef",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 44
+        },
+        {
+            "hex": "#c0c2c8",
+            "percent": 2
+        },
+        {
+            "hex": "#373435",
+            "percent": 1
+        },
+        {
+            "hex": "#a93c40",
+            "percent": 1
+        },
+        {
+            "hex": "#00a859",
+            "percent": 1
+        }
+    ]
+}

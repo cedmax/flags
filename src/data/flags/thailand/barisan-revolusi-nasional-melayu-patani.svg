@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2985"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   width="436"
+   height="217"
+   sodipodi:docname="Flag of the Barisan Revolusi Nasional Melayu Pattani (BRN).svg">
+  <title
+     id="title3186">BRN Flag</title>
+  <metadata
+     id="metadata2991">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>BRN Flag</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs2989" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1024"
+     inkscape:window-height="538"
+     id="namedview2987"
+     showgrid="false"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="269.48624"
+     inkscape:cy="122.92286"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2985" />
+  <g
+     id="g3034">
+    <rect
+       y="0.0082363486"
+       x="0.0036974251"
+       height="216.99188"
+       width="435.99866"
+       id="rect3079-1"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:none" />
+    <rect
+       y="42.887787"
+       x="0.0041961679"
+       height="129.65834"
+       width="436"
+       id="rect3079"
+       style="fill:#000080;fill-rule:evenodd;stroke:none" />
+    <path
+       transform="matrix(0.0741918,-0.12322322,0.11817728,0.07735966,-2.7229487,46.864549)"
+       inkscape:transform-center-y="1.0860311"
+       inkscape:transform-center-x="0.55768449"
+       d="M 144,122 233.36992,95.355103 243.76927,2.6793918 296.72689,79.44151 388.08031,60.693502 331.44,134.78 l 46.06017,81.0888 -87.96326,-30.97414 -62.88666,68.86364 2.27602,-93.22957 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="-2.4451977"
+       sodipodi:arg1="-3.0735162"
+       sodipodi:r2="55.568714"
+       sodipodi:r1="132.30646"
+       sodipodi:cy="131"
+       sodipodi:cx="276"
+       sodipodi:sides="5"
+       id="path3099"
+       style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="star" />
+    <path
+       transform="matrix(-0.05476521,-0.14912429,0.15608002,-0.05232458,248.69122,152.51062)"
+       inkscape:transform-center-y="-2.6577887"
+       inkscape:transform-center-x="-0.046010972"
+       d="M 209.72788,99.280866 80.232528,121.15513 197.81635,62.660911 70.619401,29.973538 201.82931,24.362064 98.924266,-57.234999 221.07288,-8.9934565 160.25295,-125.39134 252.21966,-31.638178 244.00118,-162.71062 289.8841,-39.656623 335.68811,-162.74002 327.55367,-31.662329 419.46025,-125.47444 358.71497,-9.0375816 480.83262,-57.357435 377.97991,24.305594 509.1934,29.832936 382.01743,62.60186 499.63874,121.02067 370.12938,99.229444 453.82073,200.43858 344.37134,127.8551 379.66172,254.35458 309.19708,143.5292 289.98448,273.44612 270.68857,143.54155 200.29501,254.41209 235.50428,127.89001 126.10145,200.54364 z"
+       inkscape:randomized="0"
+       inkscape:rounded="0"
+       inkscape:flatsided="false"
+       sodipodi:arg2="2.8271128"
+       sodipodi:arg1="2.6176733"
+       sodipodi:r2="220.4949"
+       sodipodi:r1="92.607857"
+       sodipodi:cy="52.951229"
+       sodipodi:cx="289.91379"
+       sodipodi:sides="15"
+       id="path3101"
+       style="fill:#ffcc00;fill-opacity:1;fill-rule:evenodd;stroke:none"
+       sodipodi:type="star" />
+    <path
+       sodipodi:nodetypes="ssscssscs"
+       style="fill:#ffcc00"
+       id="path4945"
+       d="m 188.56549,58.576788 c -28.26313,0 -51.20345,21.442411 -51.20345,47.860582 0,26.41812 22.94032,47.86058 51.20345,47.86058 10.21171,0 19.72526,-2.80215 27.71578,-7.62307 -4.65322,1.50586 -9.6668,2.78726 -14.84548,2.32955 -24.00155,-2.12132 -40.99202,-17.79103 -40.99202,-41.21691 0,-23.425688 15.92981,-41.537677 40.99202,-43.658997 5.5184,-0.467089 10.84369,0.92766 15.75249,2.627111 -8.17248,-5.162037 -18.02401,-8.178846 -28.62279,-8.178846 z"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

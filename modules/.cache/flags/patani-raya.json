@@ -1,0 +1,21 @@
+{
+    "id": "patani-raya",
+    "colors": [
+        {
+            "hex": "#333333",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 25
+        },
+        {
+            "hex": "#cc3333",
+            "percent": 20
+        },
+        {
+            "hex": "#408040",
+            "percent": 20
+        }
+    ]
+}

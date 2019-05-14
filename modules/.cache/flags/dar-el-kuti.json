@@ -1,0 +1,21 @@
+{
+    "id": "dar-el-kuti",
+    "colors": [
+        {
+            "hex": "#ffff00",
+            "percent": 33
+        },
+        {
+            "hex": "#008000",
+            "percent": 33
+        },
+        {
+            "hex": "#000000",
+            "percent": 32
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

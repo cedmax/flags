@@ -1,0 +1,21 @@
+{
+    "id": "bosnian-croats",
+    "colors": [
+        {
+            "hex": "#de1818",
+            "percent": 35
+        },
+        {
+            "hex": "#0038a8",
+            "percent": 32
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 1
+        }
+    ]
+}

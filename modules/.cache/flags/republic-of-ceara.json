@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-ceara",
+    "colors": [
+        {
+            "hex": "#043404",
+            "percent": 92
+        },
+        {
+            "hex": "#f7972a",
+            "percent": 2
+        },
+        {
+            "hex": "#fbfbfb",
+            "percent": 2
+        }
+    ]
+}
