@@ -1,5 +1,5 @@
 const groups = {
-  SCAND: ["Denmark", "Finland", "Norway", "Sweden"],
+  NORDIC: ["Denmark", "Finland", "Norway", "Sweden"],
   SAM: [
     "Argentina",
     "Bolivia",
@@ -9,9 +9,7 @@ const groups = {
     "Peru",
     "Venezuela",
   ],
-  IT: ["Italy"],
-  DE: ["Germany"],
-  ES: ["Spain"],
+  FIGS: ["Germany", "Italy", "Spain", "France"],
   CH: ["Switzerland"],
 };
 

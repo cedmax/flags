@@ -164,9 +164,19 @@
   "trentino-alto-adigesudtirol": {
     "adoption": { "sort": 1995, "text": "1995" }
   },
-  "tuscany": { "adoption": { "sort": null, "text": "" } },
+  "tuscany": { "adoption": { "sort": 1975, "text": "1975" } },
   "umbria": { "adoption": { "sort": 2004, "text": "2004" } },
   "veneto": { "adoption": { "sort": 1975, "text": "1975" } },
+  "auvergne-rhone-alpes": { "adoption": { "sort": 2016, "text": "2016" } },
+  "bourgogne-franche-comte": { "adoption": { "sort": 2016, "text": "2016" } },
+  "brittany": { "adoption": { "sort": 1997, "text": "1997" } },
+  "corsica": { "adoption": { "sort": 1736, "text": "1736" } },
+  "normandy": { "adoption": { "sort": 1154, "text": "1154" } },
+  "nouvelle-aquitaine": { "adoption": { "sort": 2016, "text": "2016" } },
+  "provence-alpes-cote-d-azur": {
+    "adoption": { "sort": 1999, "text": "1999" }
+  },
+  "ile-de-france": { "adoption": { "sort": 1376, "text": "1376" } },
   "aichi": {
     "country": "愛知県",
     "adoption": { "sort": 1950, "text": "1950" }
