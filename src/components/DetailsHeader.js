@@ -45,11 +45,11 @@ const MapLink = withContext(
     )
 );
 
-const DetailsHeader = React.memo(({ flag, active }) => {
+const DetailsHeader = React.memo(({ flag, active, disableMap }) => {
   return (
     <div className="flag-header">
       <div className="flag-map">
-        {active && (
+        {active && !disableMap && (
           <MapLink
             url={getMapUrl(flag.id, true)}
             id={flag.id}

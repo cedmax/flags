@@ -10,7 +10,11 @@ const ListItemBack = React.memo(({ view, svgUrl, flag, active }) => (
         backgroundImage: `url(${svgUrl})`,
       }}
     >
-      <DetailsHeader flag={flag} active={active} />
+      <DetailsHeader
+        flag={flag}
+        active={active}
+        disableMap={view === "AUTONOMIST"}
+      />
       <DetailsList
         anthemTitle={view === "US" ? "State Song" : "Anthem"}
         partOfTitle={view === "AUTONOMIST" ? "Secession from" : "Part of"}
