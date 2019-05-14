@@ -4,7 +4,7 @@ const cheerio = require("cheerio");
 const fs = require("fs");
 const helpers = require("./helpers");
 
-const path = `${process.cwd()}/src/data/maps`;
+const path = `${process.cwd()}/public/maps`;
 
 module.exports = mapEndPoints => (flags, callback) => {
   async.mapLimit(
