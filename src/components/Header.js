@@ -5,6 +5,7 @@ import { withContext } from "../store/context";
 
 const values = {
   world: "World",
+  AUTONOMIST: "Secessionists groups",
   US: "United States",
   IT: "Italian regions",
   DE: "German states",

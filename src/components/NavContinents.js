@@ -10,7 +10,7 @@ const NavContinents = React.memo(
 
     return availableContinents.map(continent => (
       <button
-        disabled={!!view || isLoading}
+        disabled={(!!view && view !== "AUTONOMIST") || isLoading}
         className={`${selectedContinent === continent ? "selected" : ""}
         ${view === "JP" && continent === "Asia" ? "selected" : ""}
         ${view === "US" && continent === "North America" ? "selected" : ""}
