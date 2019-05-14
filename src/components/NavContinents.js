@@ -2,7 +2,7 @@ import React from "react";
 import { action } from "../helpers";
 import { withContext } from "../store/context";
 
-const eu = ["IT", "DE", "ES", "SCAND"];
+const eu = ["FIGS", "NORDIC", 'CH'];
 
 const NavContinents = React.memo(
   ({ selectedContinent, view, isLoading, availableContinents, dispatch }) => {

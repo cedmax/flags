@@ -7,13 +7,11 @@ const values = {
   world: "World",
   AUTONOMIST: "Secessionists groups",
   US: "United States",
-  IT: "Italian regions",
-  DE: "German states",
-  ES: "Spanish autonomies",
+  FIGS: "FIGS* regions",
+  SAM: "South American regions*",
+  NORDIC: "Nordic countries regions",
   JP: "Japanese prefects",
   CH: "Swiss cantons",
-  SCAND: "Nordics regions",
-  SAM: "South American regions*",
 };
 
 const Header = React.memo(({ dispatch, view }) => {
@@ -47,6 +45,7 @@ const Header = React.memo(({ dispatch, view }) => {
         </div>
       </h1>
       {view === "SAM" && <small>* Ecuador, Paraguay and Uruguay missing</small>}
+      {view === "FIGS" && <small>* France / Italy / Germany / Spain</small>}
     </Wrapper>
   );
 });
