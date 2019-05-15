@@ -14678,13 +14678,13 @@
             ]
         },
         {
-            "id": "rapanui-of-easter-island.",
+            "id": "rapanui-of-easter-island",
             "belongsTo": "Chile",
-            "country": "Rapanui of Easter Island.",
+            "country": "Rapanui of Easter Island",
             "continents": [
                 "Oceania"
             ],
-            "url": "/wiki/rapanui of easter island.",
+            "url": "/wiki/rapanui of easter island",
             "ratio": "5:8",
             "colors": [
                 {
@@ -15874,7 +15874,7 @@
             "belongsTo": "Chile",
             "country": "Magallanes Regionalism",
             "continents": [
-                "North America"
+                "South America"
             ],
             "url": "/wiki/magallanes regionalism",
             "ratio": "2:3",
@@ -16532,12 +16532,12 @@
             "colors": [
                 {
                     "hex": "#000000",
-                    "percent": 70,
+                    "percent": 66,
                     "tag": "black"
                 },
                 {
                     "hex": "#ffd52b",
-                    "percent": 26,
+                    "percent": 30,
                     "tag": "yellow"
                 },
                 {
@@ -16642,17 +16642,17 @@
             "colors": [
                 {
                     "hex": "#ffcb05",
-                    "percent": 39,
+                    "percent": 44,
                     "tag": "yellow"
                 },
                 {
                     "hex": "#0044aa",
-                    "percent": 37,
+                    "percent": 42,
                     "tag": "blue"
                 },
                 {
                     "hex": "#000000",
-                    "percent": 21,
+                    "percent": 10,
                     "tag": "black"
                 },
                 {

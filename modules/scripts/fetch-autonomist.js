@@ -54,6 +54,11 @@ module.exports = async (unused, callback) => {
           belongsTo = "People's Republic of China";
         }
 
+        if (id === "rapanui-of-easter-island.") {
+          id = "rapanui-of-easter-island";
+          country = "Rapanui of Easter Island";
+        }
+
         if (
           id === "unofficial-flag-of-cantonia" ||
           id === "karen-national-union" ||
@@ -108,6 +113,7 @@ module.exports = async (unused, callback) => {
         if (continents[0] === "The Americas") {
           if (
             [
+              "magallanes-regionalism",
               "mapuche-consejo-de-todas-las-tierras",
               "magallanes-and-chilean-antarctica",
               "southern-independence-movement",
