@@ -99,7 +99,6 @@ figcaption {
 .front img {
   max-width: calc(100% - 40px);
   max-height: calc(var(--card-size) - 50px);
-  width: 100%;
 }
 
 /* flip speed goes here */
