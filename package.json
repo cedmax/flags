@@ -41,7 +41,7 @@
   "scripts": {
     "fetch-data": "node modules/index",
     "start": "react-scripts start",
-    "build": "PUBLIC_URL=https://flags.dsgn.it react-scripts build",
+    "build": "PUBLIC_URL=https://flags.dsgn.it react-scripts build && node ./modules/set-redirects",
     "test": "react-scripts test --testMatch=\"**/*.spec.js\"",
     "eject": "react-scripts eject"
   },
