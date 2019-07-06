@@ -904,24 +904,24 @@
             "colors": [
                 {
                     "hex": "#d52b1e",
-                    "percent": 33,
+                    "percent": 34,
                     "tag": "red"
                 },
                 {
-                    "hex": "#f9e300",
-                    "percent": 33,
-                    "tag": "yellow"
+                    "hex": "#007934",
+                    "percent": 34,
+                    "tag": "green"
                 },
                 {
-                    "hex": "#007934",
-                    "percent": 33,
-                    "tag": "green"
+                    "hex": "#f9e300",
+                    "percent": 29,
+                    "tag": "yellow"
                 }
             ],
             "tags": [
                 "red",
-                "yellow",
-                "green"
+                "green",
+                "yellow"
             ]
         },
         {
@@ -2975,7 +2975,7 @@
                 {
                     "hex": "#0d5eaf",
                     "percent": 56,
-                    "tag": "cyan"
+                    "tag": "blue"
                 },
                 {
                     "hex": "#ffffff",
@@ -2984,7 +2984,7 @@
                 }
             ],
             "tags": [
-                "cyan",
+                "blue",
                 "white"
             ]
         },
@@ -4807,13 +4807,12 @@
                 {
                     "hex": "#cccccc",
                     "percent": 1,
-                    "tag": "gray"
+                    "tag": "white"
                 }
             ],
             "tags": [
                 "red",
-                "white",
-                "gray"
+                "white"
             ]
         },
         {
@@ -7289,13 +7288,13 @@
                 {
                     "hex": "#cccccc",
                     "percent": 1,
-                    "tag": "gray"
+                    "tag": "white"
                 }
             ],
             "tags": [
                 "red",
                 "yellow",
-                "gray"
+                "white"
             ]
         },
         {
@@ -7336,7 +7335,7 @@
                 {
                     "hex": "#eb7400",
                     "percent": 11,
-                    "tag": "red"
+                    "tag": "yellow"
                 },
                 {
                     "hex": "#000000",
@@ -8420,13 +8419,12 @@
                 {
                     "hex": "#cccccc",
                     "percent": 1,
-                    "tag": "gray"
+                    "tag": "white"
                 }
             ],
             "tags": [
                 "yellow",
-                "white",
-                "gray"
+                "white"
             ]
         },
         {
