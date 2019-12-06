@@ -9,13 +9,13 @@ const AnthemBlock = withContext(
       anthem && (
         <Fragment>
           <dt>
-            <Link
+            {/* <Link
               className="play"
               href={`https://youtube.com/watch?v=${anthem.videoId}`}
               onClick={() => dispatch(action("play", anthem.videoId))}
             >
               <span>play {anthem.title}</span>
-            </Link>{" "}
+            </Link>{" "} */}
             {title}
           </dt>
           <dd>{anthem.title}</dd>
