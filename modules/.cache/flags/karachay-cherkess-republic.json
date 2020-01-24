@@ -1,0 +1,25 @@
+{
+    "id": "karachay-cherkess-republic",
+    "colors": [
+        {
+            "hex": "#0090d0",
+            "percent": 33
+        },
+        {
+            "hex": "#e02010",
+            "percent": 33
+        },
+        {
+            "hex": "#007030",
+            "percent": 31
+        },
+        {
+            "hex": "#ffb000",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

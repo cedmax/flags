@@ -1,0 +1,17 @@
+{
+    "id": "komi-republic",
+    "colors": [
+        {
+            "hex": "#0039a6",
+            "percent": 33
+        },
+        {
+            "hex": "#009b3a",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        }
+    ]
+}

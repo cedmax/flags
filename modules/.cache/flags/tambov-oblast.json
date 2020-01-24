@@ -1,0 +1,29 @@
+{
+    "id": "tambov-oblast",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 44
+        },
+        {
+            "hex": "#398fca",
+            "percent": 40
+        },
+        {
+            "hex": "#0093dd",
+            "percent": 7
+        },
+        {
+            "hex": "#fff500",
+            "percent": 1
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

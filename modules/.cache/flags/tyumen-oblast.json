@@ -1,0 +1,25 @@
+{
+    "id": "tyumen-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        },
+        {
+            "hex": "#00923f",
+            "percent": 30
+        },
+        {
+            "hex": "#0051ba",
+            "percent": 24
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 12
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 2
+        }
+    ]
+}

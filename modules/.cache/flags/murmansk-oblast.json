@@ -1,0 +1,17 @@
+{
+    "id": "murmansk-oblast",
+    "colors": [
+        {
+            "hex": "#395c98",
+            "percent": 71
+        },
+        {
+            "hex": "#d5312b",
+            "percent": 20
+        },
+        {
+            "hex": "#edbb32",
+            "percent": 5
+        }
+    ]
+}

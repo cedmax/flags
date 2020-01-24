@@ -1,0 +1,21 @@
+{
+    "id": "leningrad-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 64
+        },
+        {
+            "hex": "#d52b1e",
+            "percent": 15
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 15
+        },
+        {
+            "hex": "#149adb",
+            "percent": 4
+        }
+    ]
+}

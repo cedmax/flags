@@ -1,0 +1,17 @@
+{
+    "id": "omsk-oblast",
+    "colors": [
+        {
+            "hex": "#e00000",
+            "percent": 67
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 11
+        }
+    ]
+}

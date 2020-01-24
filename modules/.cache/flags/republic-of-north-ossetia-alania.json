@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-north-ossetia-alania",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 33
+        },
+        {
+            "hex": "#ffff00",
+            "percent": 33
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "udmurt-republic",
+    "colors": [
+        {
+            "hex": "#dd2211",
+            "percent": 40
+        },
+        {
+            "hex": "#000000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 26
+        }
+    ]
+}

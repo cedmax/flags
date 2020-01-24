@@ -1,0 +1,21 @@
+{
+    "id": "kamchatka-krai",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 63
+        },
+        {
+            "hex": "#0051ba",
+            "percent": 34
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

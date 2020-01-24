@@ -1,0 +1,25 @@
+{
+    "id": "republic-of-khakassia",
+    "colors": [
+        {
+            "hex": "#0051ba",
+            "percent": 28
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 28
+        },
+        {
+            "hex": "#009847",
+            "percent": 14
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 2
+        }
+    ]
+}

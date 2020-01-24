@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-kalmykia",
+    "colors": [
+        {
+            "hex": "#ffd000",
+            "percent": 82
+        },
+        {
+            "hex": "#00b0e0",
+            "percent": 13
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "sevastopol",
+    "colors": [
+        {
+            "hex": "#d40000",
+            "percent": 83
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#007ccc",
+            "percent": 6
+        },
+        {
+            "hex": "#ffd500",
+            "percent": 1
+        }
+    ]
+}

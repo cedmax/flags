@@ -1,0 +1,37 @@
+{
+    "id": "samara-oblast",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 30
+        },
+        {
+            "hex": "#0093dd",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#75c5f0",
+            "percent": 7
+        },
+        {
+            "hex": "#8f5444",
+            "percent": 2
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 2
+        },
+        {
+            "hex": "#007cc3",
+            "percent": 1
+        },
+        {
+            "hex": "#605d5c",
+            "percent": 1
+        }
+    ]
+}

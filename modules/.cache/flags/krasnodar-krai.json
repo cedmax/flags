@@ -1,0 +1,21 @@
+{
+    "id": "krasnodar-krai",
+    "colors": [
+        {
+            "hex": "#ec008c",
+            "percent": 37
+        },
+        {
+            "hex": "#2a3f9d",
+            "percent": 24
+        },
+        {
+            "hex": "#26b255",
+            "percent": 23
+        },
+        {
+            "hex": "#fbc707",
+            "percent": 5
+        }
+    ]
+}

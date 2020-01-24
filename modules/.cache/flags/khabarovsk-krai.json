@@ -1,0 +1,17 @@
+{
+    "id": "khabarovsk-krai",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 42
+        },
+        {
+            "hex": "#0099ff",
+            "percent": 42
+        },
+        {
+            "hex": "#008000",
+            "percent": 17
+        }
+    ]
+}

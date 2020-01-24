@@ -1,0 +1,25 @@
+{
+    "id": "irkutsk-oblast",
+    "colors": [
+        {
+            "hex": "#0099ff",
+            "percent": 49
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 41
+        },
+        {
+            "hex": "#110a0b",
+            "percent": 3
+        },
+        {
+            "hex": "#359336",
+            "percent": 1
+        },
+        {
+            "hex": "#359435",
+            "percent": 1
+        }
+    ]
+}

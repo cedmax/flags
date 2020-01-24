@@ -1,0 +1,17 @@
+{
+    "id": "sverdlovsk-oblast",
+    "colors": [
+        {
+            "hex": "#187bbf",
+            "percent": 45
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 40
+        },
+        {
+            "hex": "#15913d",
+            "percent": 15
+        }
+    ]
+}

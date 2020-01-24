@@ -1,0 +1,17 @@
+{
+    "id": "khanty-mansi-autonomous-okrug",
+    "colors": [
+        {
+            "hex": "#00971c",
+            "percent": 48
+        },
+        {
+            "hex": "#2e96ff",
+            "percent": 44
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        }
+    ]
+}

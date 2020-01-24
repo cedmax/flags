@@ -1,0 +1,21 @@
+{
+    "id": "primorsky-krai",
+    "colors": [
+        {
+            "hex": "#0093dd",
+            "percent": 35
+        },
+        {
+            "hex": "#da251d",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 28
+        },
+        {
+            "hex": "#fff500",
+            "percent": 1
+        }
+    ]
+}

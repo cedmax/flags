@@ -1,0 +1,21 @@
+{
+    "id": "chukotka-autonomous-okrug",
+    "colors": [
+        {
+            "hex": "#0039a6",
+            "percent": 72
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 20
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 6
+        },
+        {
+            "hex": "#d52b1e",
+            "percent": 1
+        }
+    ]
+}

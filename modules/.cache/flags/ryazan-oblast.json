@@ -1,0 +1,25 @@
+{
+    "id": "ryazan-oblast",
+    "colors": [
+        {
+            "hex": "#f8c300",
+            "percent": 46
+        },
+        {
+            "hex": "#da251d",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 25
+        },
+        {
+            "hex": "#00923f",
+            "percent": 1
+        },
+        {
+            "hex": "#4c4840",
+            "percent": 1
+        }
+    ]
+}

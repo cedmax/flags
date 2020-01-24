@@ -12,6 +12,7 @@ const values = {
   NORDIC: "Nordic countries regions",
   JP: "Japanese prefects",
   CH: "Swiss cantons",
+  RU: "Russian subjects",
 };
 
 const Header = React.memo(({ dispatch, view }) => {

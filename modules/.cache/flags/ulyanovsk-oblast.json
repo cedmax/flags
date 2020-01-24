@@ -1,0 +1,13 @@
+{
+    "id": "ulyanovsk-oblast",
+    "colors": [
+        {
+            "hex": "#009bde",
+            "percent": 89
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        }
+    ]
+}

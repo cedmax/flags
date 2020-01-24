@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-ingushetia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 60
+        },
+        {
+            "hex": "#00923f",
+            "percent": 33
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 6
+        }
+    ]
+}

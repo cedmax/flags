@@ -1,0 +1,21 @@
+{
+    "id": "chechen-republic",
+    "colors": [
+        {
+            "hex": "#2b7338",
+            "percent": 53
+        },
+        {
+            "hex": "#da251d",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 15
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 1
+        }
+    ]
+}

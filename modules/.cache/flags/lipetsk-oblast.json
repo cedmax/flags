@@ -1,0 +1,21 @@
+{
+    "id": "lipetsk-oblast",
+    "colors": [
+        {
+            "hex": "#d20000",
+            "percent": 60
+        },
+        {
+            "hex": "#008e1f",
+            "percent": 18
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 12
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

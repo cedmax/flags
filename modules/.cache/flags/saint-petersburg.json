@@ -1,0 +1,17 @@
+{
+    "id": "saint-petersburg",
+    "colors": [
+        {
+            "hex": "#dc1b00",
+            "percent": 93
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        },
+        {
+            "hex": "#e7a425",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "moscow-oblast",
+    "colors": [
+        {
+            "hex": "#e21c2a",
+            "percent": 97
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

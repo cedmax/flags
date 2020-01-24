@@ -1,0 +1,17 @@
+{
+    "id": "yamalo-nenets-autonomous-okrug",
+    "colors": [
+        {
+            "hex": "#0080ff",
+            "percent": 88
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 7
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 2
+        }
+    ]
+}

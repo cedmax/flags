@@ -1,0 +1,13 @@
+{
+    "id": "sakhalin-oblast",
+    "colors": [
+        {
+            "hex": "#47a5ae",
+            "percent": 96
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

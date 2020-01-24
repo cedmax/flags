@@ -1,0 +1,17 @@
+{
+    "id": "tver-oblast",
+    "colors": [
+        {
+            "hex": "#ffd700",
+            "percent": 59
+        },
+        {
+            "hex": "#d20000",
+            "percent": 34
+        },
+        {
+            "hex": "#000000",
+            "percent": 4
+        }
+    ]
+}

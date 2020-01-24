@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-karelia",
+    "colors": [
+        {
+            "hex": "#d50000",
+            "percent": 33
+        },
+        {
+            "hex": "#00aaff",
+            "percent": 33
+        },
+        {
+            "hex": "#008000",
+            "percent": 33
+        }
+    ]
+}

@@ -1,0 +1,41 @@
+{
+    "id": "altai-krai",
+    "colors": [
+        {
+            "hex": "#cc0000",
+            "percent": 70
+        },
+        {
+            "hex": "#0080ff",
+            "percent": 13
+        },
+        {
+            "hex": "#007cc3",
+            "percent": 3
+        },
+        {
+            "hex": "#f8d407",
+            "percent": 3
+        },
+        {
+            "hex": "#de411a",
+            "percent": 2
+        },
+        {
+            "hex": "#5b4431",
+            "percent": 1
+        },
+        {
+            "hex": "#fbdd73",
+            "percent": 1
+        },
+        {
+            "hex": "#1f1a17",
+            "percent": 1
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

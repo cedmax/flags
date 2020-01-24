@@ -1,0 +1,25 @@
+{
+    "id": "astrakhan-oblast",
+    "colors": [
+        {
+            "hex": "#1d82b3",
+            "percent": 85
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 4
+        },
+        {
+            "hex": "#fff500",
+            "percent": 3
+        },
+        {
+            "hex": "#eb8a1b",
+            "percent": 3
+        },
+        {
+            "hex": "#00a13a",
+            "percent": 1
+        }
+    ]
+}

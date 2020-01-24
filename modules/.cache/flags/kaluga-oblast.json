@@ -1,0 +1,25 @@
+{
+    "id": "kaluga-oblast",
+    "colors": [
+        {
+            "hex": "#00a652",
+            "percent": 41
+        },
+        {
+            "hex": "#e40102",
+            "percent": 36
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 18
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 2
+        },
+        {
+            "hex": "#1f1a17",
+            "percent": 1
+        }
+    ]
+}

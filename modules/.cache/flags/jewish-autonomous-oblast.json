@@ -1,0 +1,37 @@
+{
+    "id": "jewish-autonomous-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 83
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 3
+        },
+        {
+            "hex": "#ff9900",
+            "percent": 3
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 3
+        },
+        {
+            "hex": "#66cc33",
+            "percent": 3
+        },
+        {
+            "hex": "#3399ff",
+            "percent": 3
+        },
+        {
+            "hex": "#0000cc",
+            "percent": 3
+        },
+        {
+            "hex": "#660099",
+            "percent": 3
+        }
+    ]
+}

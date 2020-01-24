@@ -1,0 +1,13 @@
+{
+    "id": "tula-oblast",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 90
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 3
+        }
+    ]
+}

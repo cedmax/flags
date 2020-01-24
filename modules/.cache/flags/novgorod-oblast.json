@@ -1,0 +1,33 @@
+{
+    "id": "novgorod-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 39
+        },
+        {
+            "hex": "#d03528",
+            "percent": 26
+        },
+        {
+            "hex": "#2f418c",
+            "percent": 25
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 4
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#ddb523",
+            "percent": 1
+        },
+        {
+            "hex": "#056a9e",
+            "percent": 1
+        }
+    ]
+}

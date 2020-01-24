@@ -1,0 +1,17 @@
+{
+    "id": "perm-krai",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 34
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#0071b4",
+            "percent": 31
+        }
+    ]
+}

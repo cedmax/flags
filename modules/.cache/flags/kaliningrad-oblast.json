@@ -1,0 +1,21 @@
+{
+    "id": "kaliningrad-oblast",
+    "colors": [
+        {
+            "hex": "#283595",
+            "percent": 42
+        },
+        {
+            "hex": "#ec1a23",
+            "percent": 38
+        },
+        {
+            "hex": "#fdf100",
+            "percent": 15
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        }
+    ]
+}

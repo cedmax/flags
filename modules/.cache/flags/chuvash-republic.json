@@ -1,0 +1,13 @@
+{
+    "id": "chuvash-republic",
+    "colors": [
+        {
+            "hex": "#fce304",
+            "percent": 68
+        },
+        {
+            "hex": "#a42404",
+            "percent": 28
+        }
+    ]
+}

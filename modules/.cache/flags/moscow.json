@@ -1,0 +1,17 @@
+{
+    "id": "moscow",
+    "colors": [
+        {
+            "hex": "#a8002c",
+            "percent": 77
+        },
+        {
+            "hex": "#161413",
+            "percent": 7
+        },
+        {
+            "hex": "#fffefc",
+            "percent": 5
+        }
+    ]
+}

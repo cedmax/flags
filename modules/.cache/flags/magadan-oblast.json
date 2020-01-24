@@ -1,0 +1,25 @@
+{
+    "id": "magadan-oblast",
+    "colors": [
+        {
+            "hex": "#c42730",
+            "percent": 70
+        },
+        {
+            "hex": "#2e418a",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 6
+        },
+        {
+            "hex": "#183883",
+            "percent": 3
+        },
+        {
+            "hex": "#0093dd",
+            "percent": 2
+        }
+    ]
+}
