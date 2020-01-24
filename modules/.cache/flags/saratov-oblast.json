@@ -1,0 +1,21 @@
+{
+    "id": "saratov-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 60
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 33
+        },
+        {
+            "hex": "#1694dc",
+            "percent": 2
+        },
+        {
+            "hex": "#feeb6e",
+            "percent": 1
+        }
+    ]
+}

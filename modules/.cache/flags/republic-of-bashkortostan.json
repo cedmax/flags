@@ -1,0 +1,21 @@
+{
+    "id": "republic-of-bashkortostan",
+    "colors": [
+        {
+            "hex": "#0070ff",
+            "percent": 33
+        },
+        {
+            "hex": "#007000",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 31
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "kurgan-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 70
+        },
+        {
+            "hex": "#008040",
+            "percent": 30
+        }
+    ]
+}

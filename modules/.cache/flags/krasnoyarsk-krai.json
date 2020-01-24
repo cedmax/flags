@@ -1,0 +1,21 @@
+{
+    "id": "krasnoyarsk-krai",
+    "colors": [
+        {
+            "hex": "#f91301",
+            "percent": 89
+        },
+        {
+            "hex": "#ee062c",
+            "percent": 2
+        },
+        {
+            "hex": "#ffc33c",
+            "percent": 1
+        },
+        {
+            "hex": "#00daee",
+            "percent": 1
+        }
+    ]
+}

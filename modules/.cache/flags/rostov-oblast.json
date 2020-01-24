@@ -1,0 +1,21 @@
+{
+    "id": "rostov-oblast",
+    "colors": [
+        {
+            "hex": "#004e9b",
+            "percent": 29
+        },
+        {
+            "hex": "#f7c500",
+            "percent": 29
+        },
+        {
+            "hex": "#b52315",
+            "percent": 29
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        }
+    ]
+}

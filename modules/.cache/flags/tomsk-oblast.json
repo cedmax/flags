@@ -1,0 +1,25 @@
+{
+    "id": "tomsk-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 72
+        },
+        {
+            "hex": "#00980a",
+            "percent": 8
+        },
+        {
+            "hex": "#333333",
+            "percent": 3
+        },
+        {
+            "hex": "#ffb10d",
+            "percent": 2
+        },
+        {
+            "hex": "#fb240a",
+            "percent": 1
+        }
+    ]
+}

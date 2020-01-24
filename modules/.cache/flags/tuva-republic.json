@@ -1,0 +1,17 @@
+{
+    "id": "tuva-republic",
+    "colors": [
+        {
+            "hex": "#63b1e5",
+            "percent": 67
+        },
+        {
+            "hex": "#fecb00",
+            "percent": 17
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 16
+        }
+    ]
+}

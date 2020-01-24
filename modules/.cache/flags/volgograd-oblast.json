@@ -1,0 +1,29 @@
+{
+    "id": "volgograd-oblast",
+    "colors": [
+        {
+            "hex": "#fe0000",
+            "percent": 80
+        },
+        {
+            "hex": "#000184",
+            "percent": 11
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 5
+        },
+        {
+            "hex": "#ececec",
+            "percent": 2
+        },
+        {
+            "hex": "#32016a",
+            "percent": 1
+        },
+        {
+            "hex": "#980035",
+            "percent": 1
+        }
+    ]
+}

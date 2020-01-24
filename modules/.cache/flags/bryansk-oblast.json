@@ -1,0 +1,29 @@
+{
+    "id": "bryansk-oblast",
+    "colors": [
+        {
+            "hex": "#a32638",
+            "percent": 80
+        },
+        {
+            "hex": "#f2d300",
+            "percent": 5
+        },
+        {
+            "hex": "#40187a",
+            "percent": 5
+        },
+        {
+            "hex": "#9b7d23",
+            "percent": 3
+        },
+        {
+            "hex": "#d82819",
+            "percent": 1
+        },
+        {
+            "hex": "#008d21",
+            "percent": 1
+        }
+    ]
+}

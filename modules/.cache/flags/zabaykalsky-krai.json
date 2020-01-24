@@ -1,0 +1,17 @@
+{
+    "id": "zabaykalsky-krai",
+    "colors": [
+        {
+            "hex": "#00923f",
+            "percent": 37
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 37
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 25
+        }
+    ]
+}

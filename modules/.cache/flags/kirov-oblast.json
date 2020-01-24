@@ -1,0 +1,25 @@
+{
+    "id": "kirov-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 59
+        },
+        {
+            "hex": "#007cc3",
+            "percent": 13
+        },
+        {
+            "hex": "#00923f",
+            "percent": 12
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 9
+        },
+        {
+            "hex": "#da251d",
+            "percent": 1
+        }
+    ]
+}

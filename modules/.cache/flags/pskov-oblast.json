@@ -1,0 +1,33 @@
+{
+    "id": "pskov-oblast",
+    "colors": [
+        {
+            "hex": "#038cd4",
+            "percent": 66
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        },
+        {
+            "hex": "#ffcc01",
+            "percent": 10
+        },
+        {
+            "hex": "#000000",
+            "percent": 2
+        },
+        {
+            "hex": "#d79500",
+            "percent": 2
+        },
+        {
+            "hex": "#adc7d6",
+            "percent": 1
+        },
+        {
+            "hex": "#fed6a5",
+            "percent": 1
+        }
+    ]
+}

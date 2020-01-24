@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-dagestan",
+    "colors": [
+        {
+            "hex": "#00923f",
+            "percent": 33
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 33
+        },
+        {
+            "hex": "#d81e05",
+            "percent": 33
+        }
+    ]
+}

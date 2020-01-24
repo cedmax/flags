@@ -1,0 +1,13 @@
+{
+    "id": "yaroslavl-oblast",
+    "colors": [
+        {
+            "hex": "#f8c301",
+            "percent": 90
+        },
+        {
+            "hex": "#2c2c2b",
+            "percent": 7
+        }
+    ]
+}

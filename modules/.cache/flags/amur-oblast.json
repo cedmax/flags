@@ -1,0 +1,17 @@
+{
+    "id": "amur-oblast",
+    "colors": [
+        {
+            "hex": "#e00000",
+            "percent": 66
+        },
+        {
+            "hex": "#0064c8",
+            "percent": 25
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        }
+    ]
+}

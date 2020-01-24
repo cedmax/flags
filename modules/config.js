@@ -9,6 +9,7 @@ const tagContinents = require("./scripts/fetch-continents");
 const fetchYoutubeAnthems = require("./scripts/youtube-anthems");
 
 const mapEndPoints = require("./manual/maps.json");
+const russianMaps = require("./manual/maps-ru.json");
 const extraMaps = require("./manual/extra-maps.json");
 
 module.exports = {
@@ -22,6 +23,10 @@ module.exports = {
   },
   autonomist: {
     ratio: calculateRatio,
+  },
+  RU: {
+    ratio: calculateRatio,
+    maps: fetchMaps(russianMaps),
   },
   US: {
     ratio: calculateRatio,

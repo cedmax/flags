@@ -1,0 +1,25 @@
+{
+    "id": "mari-el-republic",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 82
+        },
+        {
+            "hex": "#a92211",
+            "percent": 11
+        },
+        {
+            "hex": "#405a9f",
+            "percent": 2
+        },
+        {
+            "hex": "#d1a345",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

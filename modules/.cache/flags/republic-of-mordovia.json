@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-mordovia",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 46
+        },
+        {
+            "hex": "#d20000",
+            "percent": 29
+        },
+        {
+            "hex": "#0000ff",
+            "percent": 25
+        }
+    ]
+}

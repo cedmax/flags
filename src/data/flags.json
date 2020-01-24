@@ -26294,5 +26294,3200 @@
                 "cyan"
             ]
         }
+    ],
+    "RU": [
+        {
+            "id": "republic-of-adygea",
+            "belongsTo": "Russia",
+            "country": "Republic of Adygea",
+            "url": "/wiki/flag_of_republic_of_adygea",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Adygea_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#2a6b11",
+                    "percent": 95,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 3,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "altai-republic",
+            "belongsTo": "Russia",
+            "country": "Altai Republic",
+            "url": "/wiki/flag_of_altai_republic",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Altai_Republic.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 71,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#3399ff",
+                    "percent": 29,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "republic-of-bashkortostan",
+            "belongsTo": "Russia",
+            "country": "Republic of Bashkortostan",
+            "url": "/wiki/flag_of_bashkortostan",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Bashkortostan.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0070ff",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#007000",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 31,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "republic-of-buryatia",
+            "belongsTo": "Russia",
+            "country": "Republic of Buryatia",
+            "url": "/wiki/flag_of_republic_of_buryatia",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Buryatia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0039a6",
+                    "percent": 47,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffd900",
+                    "percent": 27,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 25,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "chechen-republic",
+            "belongsTo": "Russia",
+            "country": "Chechen Republic",
+            "url": "/wiki/flag_of_chechnya",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Chechen_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#2b7338",
+                    "percent": 53,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 29,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 15,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "chuvash-republic",
+            "belongsTo": "Russia",
+            "country": "Chuvash Republic",
+            "url": "/wiki/flag_of_chuvash_republic",
+            "ratio": "5:8",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Chuvash_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fce304",
+                    "percent": 68,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#a42404",
+                    "percent": 28,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "republic-of-crimea",
+            "belongsTo": "Russia",
+            "country": "Republic of Crimea",
+            "url": "/wiki/flag_of_crimea",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Crimea_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 67,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#006fb0",
+                    "percent": 17,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 17,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "red"
+            ]
+        },
+        {
+            "id": "republic-of-dagestan",
+            "belongsTo": "Russia",
+            "country": "Republic of Dagestan",
+            "url": "/wiki/flag_of_dagestan",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Dagestan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00923f",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0039a6",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "republic-of-ingushetia",
+            "belongsTo": "Russia",
+            "country": "Republic of Ingushetia",
+            "url": "/wiki/flag_of_ingushetia",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Ingushetia_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 60,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 6,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "kabardino-balkar-republic",
+            "belongsTo": "Russia",
+            "country": "Kabardino-Balkar Republic",
+            "url": "/wiki/flag_of_kabardino-balkaria",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kabardino-Balkar_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00923f",
+                    "percent": 36,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#3399ff",
+                    "percent": 35,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 29,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "republic-of-kalmykia",
+            "belongsTo": "Russia",
+            "country": "Republic of Kalmykia",
+            "url": "/wiki/flag_of_kalmykia",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kalmykia_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffd000",
+                    "percent": 82,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00b0e0",
+                    "percent": 13,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "karachay-cherkess-republic",
+            "belongsTo": "Russia",
+            "country": "Karachay-Cherkess Republic",
+            "url": "/wiki/flag_of_karachay-cherkess_republic",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Karachay-Cherkess_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0090d0",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#e02010",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#007030",
+                    "percent": 31,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffb000",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "republic-of-karelia",
+            "belongsTo": "Russia",
+            "country": "Republic of Karelia",
+            "url": "/wiki/flag_of_republic_of_karelia",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Karelia_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d50000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00aaff",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008000",
+                    "percent": 33,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "republic-of-khakassia",
+            "belongsTo": "Russia",
+            "country": "Republic of Khakassia",
+            "url": "/wiki/flag_of_khakassia",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Khakassia_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0051ba",
+                    "percent": 28,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 28,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009847",
+                    "percent": 14,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "komi-republic",
+            "belongsTo": "Russia",
+            "country": "Komi Republic",
+            "url": "/wiki/flag_of_komi_republic",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Komi_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0039a6",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#009b3a",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "mari-el-republic",
+            "belongsTo": "Russia",
+            "country": "Mari El Republic",
+            "url": "/wiki/flag_of_mari_el_republic",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Mari_El.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 82,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#a92211",
+                    "percent": 11,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#405a9f",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d1a345",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "republic-of-mordovia",
+            "belongsTo": "Russia",
+            "country": "Republic of Mordovia",
+            "url": "/wiki/flag_of_mordovia",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Mordovia_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d20000",
+                    "percent": 29,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0000ff",
+                    "percent": 25,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "republic-of-north-ossetia-alania",
+            "belongsTo": "Russia",
+            "country": "Republic of North Ossetia-Alania",
+            "url": "/wiki/flag_of_ossetia",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_North_Ossetia_(Alania).svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "sakha-republic",
+            "belongsTo": "Russia",
+            "country": "Sakha Republic",
+            "url": "/wiki/flag_of_sakha_republic",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sakha_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#1199ff",
+                    "percent": 69,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#009900",
+                    "percent": 13,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 12,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff2400",
+                    "percent": 6,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "green",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "republic-of-tatarstan",
+            "belongsTo": "Russia",
+            "country": "Republic of Tatarstan",
+            "url": "/wiki/flag_of_republic_of_tatarstan",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Tatarstan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#008000",
+                    "percent": 47,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 47,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "tuva-republic",
+            "belongsTo": "Russia",
+            "country": "Tuva Republic",
+            "url": "/wiki/flag_of_tuva",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Tuva_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#63b1e5",
+                    "percent": 67,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fecb00",
+                    "percent": 17,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 16,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "udmurt-republic",
+            "belongsTo": "Russia",
+            "country": "Udmurt Republic",
+            "url": "/wiki/flag_of_udmurt_republic",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Udmurt_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dd2211",
+                    "percent": 40,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 33,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 26,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "altai-krai",
+            "belongsTo": "Russia",
+            "country": "Altai Krai",
+            "url": "/wiki/flag_of_altai_krai",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Altai_Republic.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#cc0000",
+                    "percent": 70,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0080ff",
+                    "percent": 13,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#007cc3",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#f8d407",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#de411a",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#5b4431",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fbdd73",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1f1a17",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "cyan",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "kamchatka-krai",
+            "belongsTo": "Russia",
+            "country": "Kamchatka Krai",
+            "url": "/wiki/flag_of_kamchatka_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Kamchatka_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 63,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0051ba",
+                    "percent": 34,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "khabarovsk-krai",
+            "belongsTo": "Russia",
+            "country": "Khabarovsk Krai",
+            "url": "/wiki/flag_of_khabarovsk_krai",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Khabarovsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0099ff",
+                    "percent": 42,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008000",
+                    "percent": 17,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "krasnodar-krai",
+            "belongsTo": "Russia",
+            "country": "Krasnodar Krai",
+            "url": "/wiki/flag_of_krasnodar_krai",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Krasnodar_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ec008c",
+                    "percent": 37,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#2a3f9d",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#26b255",
+                    "percent": 23,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fbc707",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "blue",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "krasnoyarsk-krai",
+            "belongsTo": "Russia",
+            "country": "Krasnoyarsk Krai",
+            "url": "/wiki/flag_of_krasnoyarsk_krai",
+            "ratio": "341:509",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Krasnoyarsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#f91301",
+                    "percent": 89,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ee062c",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc33c",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00daee",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "perm-krai",
+            "belongsTo": "Russia",
+            "country": "Perm Krai",
+            "url": "/wiki/flag_of_perm_krai",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Perm_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071b4",
+                    "percent": 31,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "primorsky-krai",
+            "belongsTo": "Russia",
+            "country": "Primorsky Krai",
+            "url": "/wiki/flag_of_primorsky_krai",
+            "ratio": "377:564",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Primorsky_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0093dd",
+                    "percent": 35,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 28,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fff500",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "stavropol-krai",
+            "belongsTo": "Russia",
+            "country": "Stavropol Krai",
+            "url": "/wiki/flag_of_stavropol_krai",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffcc00",
+                    "percent": 60,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 37,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "zabaykalsky-krai",
+            "belongsTo": "Russia",
+            "country": "Zabaykalsky Krai",
+            "url": "/wiki/flag_of_zabaykalsky_krai",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:zabaykalsky_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00923f",
+                    "percent": 37,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 37,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 25,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "amur-oblast",
+            "belongsTo": "Russia",
+            "country": "Amur Oblast",
+            "url": "/wiki/flag_of_amur_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:amur_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e00000",
+                    "percent": 66,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0064c8",
+                    "percent": 25,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "arkhangelsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Arkhangelsk Oblast",
+            "url": "/wiki/flag_of_arkhangelsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:arkhangelsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fefefe",
+                    "percent": 65,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#029ad2",
+                    "percent": 27,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#d4b26b",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#f9f0d4",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "astrakhan-oblast",
+            "belongsTo": "Russia",
+            "country": "Astrakhan Oblast",
+            "url": "/wiki/flag_of_astrakhan_oblast",
+            "ratio": "527:774",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:astrakhan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#1d82b3",
+                    "percent": 85,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fff500",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eb8a1b",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00a13a",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "belgorod-oblast",
+            "belongsTo": "Russia",
+            "country": "Belgorod Oblast",
+            "url": "/wiki/flag_of_belgorod_oblast",
+            "ratio": "305:453",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:belgorod_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0064b1",
+                    "percent": 22,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#00a54d",
+                    "percent": 20,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 19,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ed1b21",
+                    "percent": 19,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#34b7eb",
+                    "percent": 3,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "green",
+                "black",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "bryansk-oblast",
+            "belongsTo": "Russia",
+            "country": "Bryansk Oblast",
+            "url": "/wiki/flag_of_bryansk_oblast",
+            "ratio": "683:1024",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:bryansk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#a32638",
+                    "percent": 80,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f2d300",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#40187a",
+                    "percent": 5,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#9b7d23",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d82819",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008d21",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": "chelyabinsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Chelyabinsk Oblast",
+            "url": "/wiki/flag_of_chelyabinsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:chelyabinsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d61a0c",
+                    "percent": 70,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fecc00",
+                    "percent": 17,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#c1c1c1",
+                    "percent": 2,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "gray"
+            ]
+        },
+        {
+            "id": "irkutsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Irkutsk Oblast",
+            "url": "/wiki/flag_of_irkutsk_oblast",
+            "ratio": "329:500",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:irkutsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0099ff",
+                    "percent": 49,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 41,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#110a0b",
+                    "percent": 3,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#359336",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#359435",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "black",
+                "green"
+            ]
+        },
+        {
+            "id": "ivanovo-oblast",
+            "belongsTo": "Russia",
+            "country": "Ivanovo Oblast",
+            "url": "/wiki/ivanovo_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ivanovo_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e21c2a",
+                    "percent": 37,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#009fe0",
+                    "percent": 36,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 11,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "kaliningrad-oblast",
+            "belongsTo": "Russia",
+            "country": "Kaliningrad Oblast",
+            "url": "/wiki/flag_of_kaliningrad_oblast",
+            "ratio": "230:343",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kaliningrad_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#283595",
+                    "percent": 42,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ec1a23",
+                    "percent": 38,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fdf100",
+                    "percent": 15,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "kaluga-oblast",
+            "belongsTo": "Russia",
+            "country": "Kaluga Oblast",
+            "url": "/wiki/flag_of_kaluga_oblast",
+            "ratio": "505:762",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kaluga_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00a652",
+                    "percent": 41,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#e40102",
+                    "percent": 36,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 18,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1f1a17",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "kemerovo-oblast",
+            "belongsTo": "Russia",
+            "country": "Kemerovo Oblast",
+            "url": "/wiki/flag_of_kemerovo_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kemerovo_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d81e05",
+                    "percent": 68,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0051ba",
+                    "percent": 27,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d9251d",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#1f1a17",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "kirov-oblast",
+            "belongsTo": "Russia",
+            "country": "Kirov Oblast",
+            "url": "/wiki/kirov_oblast",
+            "ratio": "220:347",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kirov_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 59,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#007cc3",
+                    "percent": 13,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 12,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 9,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "kostroma-oblast",
+            "belongsTo": "Russia",
+            "country": "Kostroma Oblast",
+            "url": "/wiki/kostroma_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kostroma_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d20000",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0039a6",
+                    "percent": 42,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#faeb00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "kurgan-oblast",
+            "belongsTo": "Russia",
+            "country": "Kurgan Oblast",
+            "url": "/wiki/kurgan_oblast",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kurgan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 70,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008040",
+                    "percent": 30,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "kursk-oblast",
+            "belongsTo": "Russia",
+            "country": "Kursk Oblast",
+            "url": "/wiki/kursk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:kursk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e51919",
+                    "percent": 57,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 14,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 12,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#f5c501",
+                    "percent": 11,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#354990",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "black",
+                "yellow",
+                "blue"
+            ]
+        },
+        {
+            "id": "leningrad-oblast",
+            "belongsTo": "Russia",
+            "country": "Leningrad Oblast",
+            "url": "/wiki/leningrad_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:leningrad_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 64,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d52b1e",
+                    "percent": 15,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0039a6",
+                    "percent": 15,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#149adb",
+                    "percent": 4,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue",
+                "cyan"
+            ]
+        },
+        {
+            "id": "lipetsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Lipetsk Oblast",
+            "url": "/wiki/lipetsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:lipetsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d20000",
+                    "percent": 60,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008e1f",
+                    "percent": 18,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 12,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "magadan-oblast",
+            "belongsTo": "Russia",
+            "country": "Magadan Oblast",
+            "url": "/wiki/flag_of_magadan_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:magadan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#c42730",
+                    "percent": 70,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#2e418a",
+                    "percent": 17,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#183883",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0093dd",
+                    "percent": 2,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "moscow-oblast",
+            "belongsTo": "Russia",
+            "country": "Moscow Oblast",
+            "url": "/wiki/moscow_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Moscow_Oblast_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e21c2a",
+                    "percent": 97,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "murmansk-oblast",
+            "belongsTo": "Russia",
+            "country": "Murmansk Oblast",
+            "url": "/wiki/flag_of_murmansk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:murmansk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#395c98",
+                    "percent": 71,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d5312b",
+                    "percent": 20,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#edbb32",
+                    "percent": 5,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "nizhny-novgorod-oblast",
+            "belongsTo": "Russia",
+            "country": "Nizhny Novgorod Oblast",
+            "url": "/wiki/nizhny_novgorod_oblast",
+            "ratio": "1173:1757",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Nizhny_Novgorod_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 86,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#dededd",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#007cc3",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#70614e",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d52e26",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan",
+                "red"
+            ]
+        },
+        {
+            "id": "novgorod-oblast",
+            "belongsTo": "Russia",
+            "country": "Novgorod Oblast",
+            "url": "/wiki/flag_of_novgorod_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:novgorod_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 39,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d03528",
+                    "percent": 26,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#2f418c",
+                    "percent": 25,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#cccccc",
+                    "percent": 4,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 3,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ddb523",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#056a9e",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "blue",
+                "black",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "novosibirsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Novosibirsk Oblast",
+            "url": "/wiki/flag_of_novosibirsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:novosibirsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d20000",
+                    "percent": 28,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008e1f",
+                    "percent": 27,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0039a6",
+                    "percent": 10,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 6,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white",
+                "blue",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "omsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Omsk Oblast",
+            "url": "/wiki/flag_of_omsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:omsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e00000",
+                    "percent": 67,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 22,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0000ff",
+                    "percent": 11,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "orenburg-oblast",
+            "belongsTo": "Russia",
+            "country": "Orenburg Oblast",
+            "url": "/wiki/orenburg_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:orenburg_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e21c2a",
+                    "percent": 87,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffec00",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00569f",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "oryol-oblast",
+            "belongsTo": "Russia",
+            "country": "Oryol Oblast",
+            "url": "/wiki/oryol_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:oryol_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#e21c2a",
+                    "percent": 64,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#008ed1",
+                    "percent": 26,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#dedede",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009240",
+                    "percent": 2,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "penza-oblast",
+            "belongsTo": "Russia",
+            "country": "Penza Oblast",
+            "url": "/wiki/penza_oblast",
+            "ratio": "5:8",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:penza_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffdc00",
+                    "percent": 70,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#008a3e",
+                    "percent": 16,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#48433e",
+                    "percent": 2,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#796c57",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "gray"
+            ]
+        },
+        {
+            "id": "pskov-oblast",
+            "belongsTo": "Russia",
+            "country": "Pskov Oblast",
+            "url": "/wiki/pskov_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:pskov_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#038cd4",
+                    "percent": 66,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 14,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc01",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#d79500",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#adc7d6",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#fed6a5",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow",
+                "black",
+                "gray"
+            ]
+        },
+        {
+            "id": "rostov-oblast",
+            "belongsTo": "Russia",
+            "country": "Rostov Oblast",
+            "url": "/wiki/rostov_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:rostov_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#004e9b",
+                    "percent": 29,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f7c500",
+                    "percent": 29,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#b52315",
+                    "percent": 29,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 13,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "ryazan-oblast",
+            "belongsTo": "Russia",
+            "country": "Ryazan Oblast",
+            "url": "/wiki/ryazan_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ryazan_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#f8c300",
+                    "percent": 46,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da251d",
+                    "percent": 26,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 25,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#4c4840",
+                    "percent": 1,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "white",
+                "green",
+                "gray"
+            ]
+        },
+        {
+            "id": "sakhalin-oblast",
+            "belongsTo": "Russia",
+            "country": "Sakhalin Oblast",
+            "url": "/wiki/flag_of_sakhalin_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Sakhalin_Oblast.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#47a5ae",
+                    "percent": 96,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "samara-oblast",
+            "belongsTo": "Russia",
+            "country": "Samara Oblast",
+            "url": "/wiki/samara_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:samara_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 30,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0093dd",
+                    "percent": 29,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 22,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#75c5f0",
+                    "percent": 7,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#8f5444",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#007cc3",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#605d5c",
+                    "percent": 1,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "white",
+                "yellow",
+                "gray"
+            ]
+        },
+        {
+            "id": "saratov-oblast",
+            "belongsTo": "Russia",
+            "country": "Saratov Oblast",
+            "url": "/wiki/flag_of_saratov_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:saratov_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 60,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#1694dc",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#feeb6e",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "smolensk-oblast",
+            "belongsTo": "Russia",
+            "country": "Smolensk Oblast",
+            "url": "/wiki/smolensk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:smolensk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 84,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffff00",
+                    "percent": 10,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#c0c0c0",
+                    "percent": 3,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "gray"
+            ]
+        },
+        {
+            "id": "sverdlovsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Sverdlovsk Oblast",
+            "url": "/wiki/sverdlovsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:sverdlovsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#187bbf",
+                    "percent": 45,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 40,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#15913d",
+                    "percent": 15,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "tambov-oblast",
+            "belongsTo": "Russia",
+            "country": "Tambov Oblast",
+            "url": "/wiki/tambov_oblast",
+            "ratio": "599:902",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tambov_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 44,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#398fca",
+                    "percent": 40,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#0093dd",
+                    "percent": 7,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fff500",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#f8c300",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "tomsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Tomsk Oblast",
+            "url": "/wiki/tomsk_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tomsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 72,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00980a",
+                    "percent": 8,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#333333",
+                    "percent": 3,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffb10d",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fb240a",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "gray",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "tula-oblast",
+            "belongsTo": "Russia",
+            "country": "Tula Oblast",
+            "url": "/wiki/tula_oblast",
+            "ratio": "1298:1949",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tula_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 90,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "white"
+            ]
+        },
+        {
+            "id": "tver-oblast",
+            "belongsTo": "Russia",
+            "country": "Tver Oblast",
+            "url": "/wiki/tver_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tver_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffd700",
+                    "percent": 59,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d20000",
+                    "percent": 34,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 4,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "tyumen-oblast",
+            "belongsTo": "Russia",
+            "country": "Tyumen Oblast",
+            "url": "/wiki/tyumen_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:tyumen_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 30,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00923f",
+                    "percent": 30,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#0051ba",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#d81e05",
+                    "percent": 12,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "blue",
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ulyanovsk-oblast",
+            "belongsTo": "Russia",
+            "country": "Ulyanovsk Oblast",
+            "url": "/wiki/ulyanovsk_oblast",
+            "ratio": "267:400",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:ulyanovsk_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#009bde",
+                    "percent": 89,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "vladimir-oblast",
+            "belongsTo": "Russia",
+            "country": "Vladimir Oblast",
+            "url": "/wiki/flag_of_vladimir_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:vladimir_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d52b1e",
+                    "percent": 77,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#2aa6fe",
+                    "percent": 12,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fff500",
+                    "percent": 7,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "volgograd-oblast",
+            "belongsTo": "Russia",
+            "country": "Volgograd Oblast",
+            "url": "/wiki/flag_of_volgograd_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:volgograd_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#fe0000",
+                    "percent": 80,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#000184",
+                    "percent": 11,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 5,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ececec",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#32016a",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#980035",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "vologda-oblast",
+            "belongsTo": "Russia",
+            "country": "Vologda Oblast",
+            "url": "/wiki/flag_of_vologda_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:vologda_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 72,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 25,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#c0c0c0",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "gray",
+                "yellow"
+            ]
+        },
+        {
+            "id": "voronezh-oblast",
+            "belongsTo": "Russia",
+            "country": "Voronezh Oblast",
+            "url": "/wiki/flag_of_voronezh_oblast",
+            "ratio": "533:800",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:voronezh_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#da251d",
+                    "percent": 68,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffd400",
+                    "percent": 16,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 3,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#f19e29",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cccccc",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "white",
+                "black"
+            ]
+        },
+        {
+            "id": "yaroslavl-oblast",
+            "belongsTo": "Russia",
+            "country": "Yaroslavl Oblast",
+            "url": "/wiki/flag_of_yaroslavl_oblast",
+            "ratio": "531:797",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:yaroslavl_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#f8c301",
+                    "percent": 90,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#2c2c2b",
+                    "percent": 7,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "gray"
+            ]
+        },
+        {
+            "id": "moscow",
+            "belongsTo": "Russia",
+            "country": "Moscow",
+            "url": "/wiki/flag_of_moscow",
+            "ratio": "356:533",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:moscow_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#a8002c",
+                    "percent": 77,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#161413",
+                    "percent": 7,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#fffefc",
+                    "percent": 5,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "saint-petersburg",
+            "belongsTo": "Russia",
+            "country": "Saint Petersburg",
+            "url": "/wiki/flag_of_saint_petersburg",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Saint_Petersburg_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#dc1b00",
+                    "percent": 93,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e7a425",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "sevastopol",
+            "belongsTo": "Russia",
+            "country": "Sevastopol",
+            "url": "/wiki/sevastopol",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Sevastopol_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#d40000",
+                    "percent": 83,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 6,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#007ccc",
+                    "percent": 6,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffd500",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "jewish-autonomous-oblast",
+            "belongsTo": "Russia",
+            "country": "Jewish Autonomous Oblast",
+            "url": "/wiki/flag_of_jewish_autonomous_oblast",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Jewish_Autonomous_Oblast.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 83,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ff9900",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#66cc33",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#3399ff",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0000cc",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#660099",
+                    "percent": 3,
+                    "tag": "magenta"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "yellow",
+                "green",
+                "blue",
+                "magenta"
+            ]
+        },
+        {
+            "id": "chukotka-autonomous-okrug",
+            "belongsTo": "Russia",
+            "country": "Chukotka Autonomous Okrug",
+            "url": "/wiki/flag_of_chukotka_autonomous_okrug",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://en.wikipedia.org/wiki/Chukotka_Autonomous_Okrug#/media/File:Map_of_Russia_-_Chukotka_Autonomous_Okrug.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0039a6",
+                    "percent": 72,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 20,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffd700",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d52b1e",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "khanty-mansi-autonomous-okrug",
+            "belongsTo": "Russia",
+            "country": "Khanty-Mansi Autonomous Okrug",
+            "url": "/wiki/flag_of_khanty%e2%80%93mansi_autonomous_okrug",
+            "ratio": "1:2",
+            "map": {
+                "credits": "https://en.wikipedia.org/wiki/Khanty-Mansi_Autonomous_Okrug#/media/File:Khanty-Mansi_in_Russia.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#00971c",
+                    "percent": 48,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#2e96ff",
+                    "percent": 44,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "nenets-autonomous-okrug",
+            "belongsTo": "Russia",
+            "country": "Nenets Autonomous Okrug",
+            "url": "/wiki/flag_of_nenets_autonomous_okrug",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://en.wikipedia.org/wiki/Nenets_Autonomous_Okrug#/media/File:Map_of_Russia_-_Nenets_Autonomous_Okrug.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 63,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0038a8",
+                    "percent": 25,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#008000",
+                    "percent": 12,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "green"
+            ]
+        },
+        {
+            "id": "yamalo-nenets-autonomous-okrug",
+            "belongsTo": "Russia",
+            "country": "Yamalo-Nenets Autonomous Okrug",
+            "url": "/wiki/flag_of_yamalo-nenets_autonomous_okrug",
+            "ratio": "2:3",
+            "map": {
+                "credits": "https://commons.wikimedia.org/wiki/File:Map_of_Russia_-_Yamalo-Nenets_Autonomous_Okrug.svg"
+            },
+            "colors": [
+                {
+                    "hex": "#0080ff",
+                    "percent": 88,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 7,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ff0000",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red"
+            ]
+        }
     ]
 }

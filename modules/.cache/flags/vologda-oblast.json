@@ -1,0 +1,21 @@
+{
+    "id": "vologda-oblast",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 72
+        },
+        {
+            "hex": "#ff0000",
+            "percent": 25
+        },
+        {
+            "hex": "#c0c0c0",
+            "percent": 1
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-buryatia",
+    "colors": [
+        {
+            "hex": "#0039a6",
+            "percent": 47
+        },
+        {
+            "hex": "#ffd900",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 25
+        }
+    ]
+}

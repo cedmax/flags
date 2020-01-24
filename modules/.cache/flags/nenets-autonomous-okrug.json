@@ -1,0 +1,17 @@
+{
+    "id": "nenets-autonomous-okrug",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 63
+        },
+        {
+            "hex": "#0038a8",
+            "percent": 25
+        },
+        {
+            "hex": "#008000",
+            "percent": 12
+        }
+    ]
+}

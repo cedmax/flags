@@ -1,0 +1,21 @@
+{
+    "id": "arkhangelsk-oblast",
+    "colors": [
+        {
+            "hex": "#fefefe",
+            "percent": 65
+        },
+        {
+            "hex": "#029ad2",
+            "percent": 27
+        },
+        {
+            "hex": "#d4b26b",
+            "percent": 1
+        },
+        {
+            "hex": "#f9f0d4",
+            "percent": 1
+        }
+    ]
+}

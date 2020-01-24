@@ -1,0 +1,17 @@
+{
+    "id": "republic-of-crimea",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 67
+        },
+        {
+            "hex": "#006fb0",
+            "percent": 17
+        },
+        {
+            "hex": "#da251d",
+            "percent": 17
+        }
+    ]
+}

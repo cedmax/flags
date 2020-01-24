@@ -1,0 +1,13 @@
+{
+    "id": "stavropol-krai",
+    "colors": [
+        {
+            "hex": "#ffcc00",
+            "percent": 60
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 37
+        }
+    ]
+}

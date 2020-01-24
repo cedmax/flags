@@ -1,0 +1,21 @@
+{
+    "id": "penza-oblast",
+    "colors": [
+        {
+            "hex": "#ffdc00",
+            "percent": 70
+        },
+        {
+            "hex": "#008a3e",
+            "percent": 16
+        },
+        {
+            "hex": "#48433e",
+            "percent": 2
+        },
+        {
+            "hex": "#796c57",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+{
+    "id": "sakha-republic",
+    "colors": [
+        {
+            "hex": "#1199ff",
+            "percent": 69
+        },
+        {
+            "hex": "#009900",
+            "percent": 13
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 12
+        },
+        {
+            "hex": "#ff2400",
+            "percent": 6
+        }
+    ]
+}

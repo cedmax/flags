@@ -1,0 +1,21 @@
+{
+    "id": "vladimir-oblast",
+    "colors": [
+        {
+            "hex": "#d52b1e",
+            "percent": 77
+        },
+        {
+            "hex": "#2aa6fe",
+            "percent": 12
+        },
+        {
+            "hex": "#fff500",
+            "percent": 7
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

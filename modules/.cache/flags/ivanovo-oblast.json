@@ -1,0 +1,21 @@
+{
+    "id": "ivanovo-oblast",
+    "colors": [
+        {
+            "hex": "#e21c2a",
+            "percent": 37
+        },
+        {
+            "hex": "#009fe0",
+            "percent": 36
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 11
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 4
+        }
+    ]
+}

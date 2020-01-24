@@ -1,0 +1,29 @@
+{
+    "id": "novosibirsk-oblast",
+    "colors": [
+        {
+            "hex": "#d20000",
+            "percent": 28
+        },
+        {
+            "hex": "#008e1f",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 27
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 10
+        },
+        {
+            "hex": "#000000",
+            "percent": 6
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 1
+        }
+    ]
+}

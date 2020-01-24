@@ -1,0 +1,21 @@
+{
+    "id": "kostroma-oblast",
+    "colors": [
+        {
+            "hex": "#d20000",
+            "percent": 50
+        },
+        {
+            "hex": "#0039a6",
+            "percent": 42
+        },
+        {
+            "hex": "#faeb00",
+            "percent": 3
+        },
+        {
+            "hex": "#f8c300",
+            "percent": 1
+        }
+    ]
+}

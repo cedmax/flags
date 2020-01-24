@@ -1,0 +1,25 @@
+{
+    "id": "kursk-oblast",
+    "colors": [
+        {
+            "hex": "#e51919",
+            "percent": 57
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 14
+        },
+        {
+            "hex": "#000000",
+            "percent": 12
+        },
+        {
+            "hex": "#f5c501",
+            "percent": 11
+        },
+        {
+            "hex": "#354990",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,29 @@
+{
+    "id": "voronezh-oblast",
+    "colors": [
+        {
+            "hex": "#da251d",
+            "percent": 68
+        },
+        {
+            "hex": "#ffd400",
+            "percent": 16
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#000000",
+            "percent": 3
+        },
+        {
+            "hex": "#f19e29",
+            "percent": 2
+        },
+        {
+            "hex": "#cccccc",
+            "percent": 1
+        }
+    ]
+}

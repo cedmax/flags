@@ -1,0 +1,21 @@
+{
+    "id": "oryol-oblast",
+    "colors": [
+        {
+            "hex": "#e21c2a",
+            "percent": 64
+        },
+        {
+            "hex": "#008ed1",
+            "percent": 26
+        },
+        {
+            "hex": "#dedede",
+            "percent": 3
+        },
+        {
+            "hex": "#009240",
+            "percent": 2
+        }
+    ]
+}

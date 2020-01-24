@@ -1,0 +1,29 @@
+{
+    "id": "belgorod-oblast",
+    "colors": [
+        {
+            "hex": "#0064b1",
+            "percent": 22
+        },
+        {
+            "hex": "#00a54d",
+            "percent": 20
+        },
+        {
+            "hex": "#000000",
+            "percent": 19
+        },
+        {
+            "hex": "#ed1b21",
+            "percent": 19
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 13
+        },
+        {
+            "hex": "#34b7eb",
+            "percent": 3
+        }
+    ]
+}

@@ -1,6 +1,4 @@
 import React, { Fragment } from "react";
-import Link from "./Link";
-import { action } from "../helpers";
 import { withContext } from "../store/context";
 
 const AnthemBlock = withContext(
@@ -8,16 +6,7 @@ const AnthemBlock = withContext(
     ({ anthem, dispatch, title }) =>
       anthem && (
         <Fragment>
-          <dt>
-            {/* <Link
-              className="play"
-              href={`https://youtube.com/watch?v=${anthem.videoId}`}
-              onClick={() => dispatch(action("play", anthem.videoId))}
-            >
-              <span>play {anthem.title}</span>
-            </Link>{" "} */}
-            {title}
-          </dt>
+          <dt>{title}</dt>
           <dd>{anthem.title}</dd>
         </Fragment>
       )

@@ -1,0 +1,25 @@
+{
+    "id": "kemerovo-oblast",
+    "colors": [
+        {
+            "hex": "#d81e05",
+            "percent": 68
+        },
+        {
+            "hex": "#0051ba",
+            "percent": 27
+        },
+        {
+            "hex": "#ffd700",
+            "percent": 2
+        },
+        {
+            "hex": "#d9251d",
+            "percent": 1
+        },
+        {
+            "hex": "#1f1a17",
+            "percent": 1
+        }
+    ]
+}
