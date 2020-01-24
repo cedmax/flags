@@ -1,7 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 9 6">
-<rect width="9" height="6" fill="#b52315"/>
-<rect width="9" height="4" fill="#f7c500"/>
-<rect width="9" height="2" fill="#004e9b"/>
-<rect width="1.2" height="6" fill="white"/>
-</svg>
+<svg height="800" viewBox="0 0 9 6" width="1200" xmlns="http://www.w3.org/2000/svg"><path d="m0 0h9v6h-9z" fill="#b52315"/><path d="m0 0h9v4h-9z" fill="#f7c500"/><path d="m0 0h9v2h-9z" fill="#004e9b"/><path d="m0 0h1.2v6h-1.2z" fill="#fff"/></svg>
