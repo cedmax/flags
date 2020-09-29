@@ -9,7 +9,7 @@ const NavSorter = React.memo(({ sorters, sortBy, view, dispatch }) =>
       className={`sorter${sortBy === sorter ? " selected" : ""}`}
       type="button"
       disabled={
-        (sorter === "ratio" && view === "CH") ||
+        (view === "CH") ||
         (sorter === "adoption" && view === "SAM") ||
         (sorter === "adoption" && view === "RU") ||
         (sorter === "adoption" && view === "NORDIC")
