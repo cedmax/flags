@@ -27,7 +27,6 @@ export const getInitialState = (data, view) => ({
   ...urlParams,
   loading: true,
   active: "",
-  playing: "",
   allFlags: { ...data },
   view,
   size: "medium",
@@ -163,11 +162,6 @@ export const reducers = createReducers({
       detail: filtered[newIndex].id,
     };
   },
-
-  play: (state, videoId) => {
-    return { ...state, playing: videoId };
-  },
-
   activate: (state, active) => ({
     ...state,
     active,

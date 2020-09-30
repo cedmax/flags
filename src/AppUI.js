@@ -2,7 +2,6 @@ import React, { Fragment } from "react";
 import Footer from "./components/Footer";
 import List from "./components/List";
 import Header from "./components/Header";
-import Anthem from "./components/Anthem";
 import NavSorter from "./components/NavSorter";
 import Link from "./components/Link";
 import NavSearch from "./components/NavSearch";
@@ -19,23 +18,41 @@ const AppUI = ({ state }) => (
     <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
       <Github />
     </Link>
-    <Header />
-    <nav>
-      <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
-      <NavSearch query={state.q} />
-      <NavSize size={state.size} />
-      <br />
-      <NavContinents
-        isLoading={state.loading}
-        selectedContinent={state.continent}
-        availableContinents={state.availableContinents}
-      />
-      <br />
-      <NavFilters
-        availableFilters={state.availableFilters}
-        filters={state.filters}
-      />
-    </nav>
+    <Header>
+      <nav>
+        <div>
+          <strong>Sort by</strong>
+          <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
+        </div>
+
+        <div>
+          <strong>Size</strong>
+          <NavSize size={state.size} />
+        </div>
+        <div>
+          <strong>Continents</strong>
+          <NavContinents
+            isLoading={state.loading}
+            selectedContinent={state.continent}
+            availableContinents={state.availableContinents}
+          />
+        </div>
+        <div>
+          <strong>Colors</strong>
+          <NavFilters
+            availableFilters={state.availableFilters}
+            filters={state.filters}
+          />
+        </div>
+        <div>
+          <strong>
+            <label htmlFor="search">Filter</label>
+          </strong>
+          <NavSearch query={state.q} />
+        </div>
+      </nav>
+    </Header>
+
     {!state.loading && (
       <Fragment>
         <NavControls
@@ -56,7 +73,6 @@ const AppUI = ({ state }) => (
       </Fragment>
     )}
     <Footer />
-    <Anthem playing={state.playing} />
     <DetailsModal
       detail={
         !!state.detail && state.filtered.find(flag => flag.id === state.detail)

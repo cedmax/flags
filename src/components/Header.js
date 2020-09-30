@@ -15,7 +15,7 @@ const values = {
   RU: "Russian subjects",
 };
 
-const Header = React.memo(({ dispatch, view }) => {
+const Header = React.memo(({ dispatch, view, children }) => {
   const [selected, setSelected] = useState(values[view]);
 
   useEffect(() => {
@@ -25,6 +25,7 @@ const Header = React.memo(({ dispatch, view }) => {
 
   return (
     <Wrapper
+      tag="header"
       onSelection={item => {
         setSelected(values[item]);
         dispatch(action("changeDataSource", item));
@@ -47,6 +48,8 @@ const Header = React.memo(({ dispatch, view }) => {
       </h1>
       {view === "SAM" && <small>* Ecuador, Paraguay and Uruguay missing</small>}
       {view === "FIGS" && <small>* France / Italy / Germany / Spain</small>}
+
+      {children}
     </Wrapper>
   );
 });
