@@ -16,7 +16,7 @@ const ListItemBack = React.memo(({ view, svgUrl, flag, active }) => (
         disableMap={view === "AUTONOMIST"}
       />
       <DetailsList
-        disableAnthem={view === ""}
+        disableAnthem={view === "" || !view}
         anthemTitle={view === "US" ? "State Song" : "Anthem"}
         partOfTitle={view === "AUTONOMIST" ? "Secession from" : "Part of"}
         flag={flag}
