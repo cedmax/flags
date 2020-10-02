@@ -13,4 +13,6 @@ countryIds.forEach(id => {
   ].toLowerCase()}.svg ${asset} 200`;
 });
 
+redirects += "\n/* /index.html 200";
+
 fs.appendFileSync("./build/_redirects", redirects, "utf-8");
