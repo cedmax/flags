@@ -231,7 +231,9 @@ nav {
   margin: auto;
 }
 
-nav strong {
+nav strong,
+nav label {
+  font-weight: bold;
   display: inline-block;
   min-width: 6em;
 }
@@ -247,6 +249,14 @@ button,
   cursor: pointer;
   background: rgba(255, 255, 255, 0.6);
   box-sizing: border-box;
+}
+
+.select-button {
+  text-align: left;
+}
+
+.select-button::after {
+  text-align: center;
 }
 
 button,
@@ -444,6 +454,7 @@ a.play {
   color: white;
   line-height: 2;
   box-shadow: 1px 1px 3px #999;
+  cursor: pointer;
 }
 
 a.play {
@@ -597,7 +608,8 @@ h1 + small {
   display: inline-block;
   width: 52px;
   position: absolute;
-  top: calc(100% - 52px);
+  transform: translateY(-50%);
+  top: 50%;
   right: 0;
   color: #ccc;
   transition: all 0.2s;
@@ -622,7 +634,7 @@ h1 + small {
 }
 
 .select-button[aria-expanded="true"]::after {
-  transform: rotate(90deg);
+  transform: translateY(-50%) rotate(90deg);
   border-left: 0;
 }
 

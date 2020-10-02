@@ -10,10 +10,10 @@ const fetchData = require("./fetch-data");
 const config = require("./config");
 
 (async () => {
-  // await fetchData(fetchWorldFlags, config.world);
+  await fetchData(fetchWorldFlags, config.world);
   // await fetchData(fetchUsFlags, config.US, "US");
   // await fetchData(fetchJPFlags, config.JP, "JP");
-  await fetchData(fetchRUFlags, config.RU, "RU");
+  // await fetchData(fetchRUFlags, config.RU, "RU");
   // await fetchData(fetchAllMissingFlags, config.all, "ALL");
   // await fetchData(fetchAutonomist, config.autonomist, "AUTONOMIST");
   // await fetchData(aggregate("NORDIC"), config.NORDIC, "NORDIC");

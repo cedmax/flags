@@ -4,7 +4,7 @@ import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 import { withContext } from "../store/context";
 
-const List = React.memo(({ isSorted, size, items, dispatch, active }) => (
+const List = React.memo(({ isSorted, size, items, dispatch, active, view }) => (
   <ul className={`list ${size}`}>
     {items.map((flag, i) => {
       const flagPath = getId(flag.belongsTo);
@@ -26,6 +26,7 @@ const List = React.memo(({ isSorted, size, items, dispatch, active }) => (
               <div className="flipper">
                 <ListItemFront svgUrl={flagUrl} country={flag.country} />
                 <ListItemBack
+                  view={view}
                   active={active === i}
                   svgUrl={flagUrl}
                   flag={flag}

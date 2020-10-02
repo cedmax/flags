@@ -22,7 +22,12 @@ const clean = obj =>
 
 export const qs = {
   getParams: qs => querystring.parse(qs),
-  getCurrent: () => window.location.search.replace("?", ""),
+  getCurrent: () =>
+    `${
+      window.location.pathname.replace("/", "")
+        ? `view=${window.location.pathname.replace("/", "").toUpperCase()}&`
+        : ""
+    }${window.location.search.replace("?", "")}`,
   fromState: state =>
     querystring.stringify(
       clean({
