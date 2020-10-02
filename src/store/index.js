@@ -28,8 +28,9 @@ export const getInitialState = (data, view) => ({
   loading: true,
   active: "",
   allFlags: { ...data },
+  playing: "",
   view,
-  size: "medium",
+  size: "large",
   filtered: data[view || "world"],
   sorters: ["name", "adoption", "ratio"],
   availableFilters: getFilters(data[view || "world"], "tags"),
@@ -110,6 +111,10 @@ export const reducers = createReducers({
       ...state,
       filters,
     });
+  },
+
+  play: (state, videoId) => {
+    return { ...state, playing: videoId };
   },
 
   filterByContinent: (state, continent) => {
@@ -214,6 +219,7 @@ export const reducers = createReducers({
     if (payload === "world") {
       payload = "";
     }
+
     const newState = getInitialState(allFlags, payload);
     return { ...newState, size: state.size, loading: false };
   },

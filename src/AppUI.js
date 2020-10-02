@@ -1,6 +1,7 @@
 import React, { Fragment } from "react";
 import Footer from "./components/Footer";
 import List from "./components/List";
+import Anthem from "./components/Anthem";
 import Header from "./components/Header";
 import NavSorter from "./components/NavSorter";
 import Link from "./components/Link";
@@ -13,6 +14,13 @@ import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
 
+const FilterBlock = React.memo(({ title, children }) => (
+  <div>
+    {title && <strong>{title}</strong>}
+    {children}
+  </div>
+));
+
 const AppUI = ({ state }) => (
   <main>
     <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
@@ -20,36 +28,29 @@ const AppUI = ({ state }) => (
     </Link>
     <Header>
       <nav>
-        <div>
-          <strong>Sort by</strong>
+        <FilterBlock title="Sort by">
           <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
-        </div>
-
-        <div>
-          <strong>Size</strong>
+        </FilterBlock>
+        <FilterBlock title="Size">
           <NavSize size={state.size} />
-        </div>
-        <div>
-          <strong>Continents</strong>
+        </FilterBlock>
+        <FilterBlock title="Continents">
           <NavContinents
             isLoading={state.loading}
             selectedContinent={state.continent}
             availableContinents={state.availableContinents}
           />
-        </div>
-        <div>
-          <strong>Colors</strong>
+        </FilterBlock>
+        <FilterBlock title="Colors">
           <NavFilters
             availableFilters={state.availableFilters}
             filters={state.filters}
           />
-        </div>
-        <div>
-          <strong>
-            <label htmlFor="search">Filter</label>
-          </strong>
+        </FilterBlock>
+        <FilterBlock>
+          <label htmlFor="search">Filter</label>
           <NavSearch query={state.q} />
-        </div>
+        </FilterBlock>
       </nav>
     </Header>
 
@@ -65,6 +66,7 @@ const AppUI = ({ state }) => (
           }
         />
         <List
+          view={state.view}
           size={state.size}
           active={state.active}
           items={state.filtered}
@@ -73,6 +75,7 @@ const AppUI = ({ state }) => (
       </Fragment>
     )}
     <Footer />
+    <Anthem playing={state.playing} />
     <DetailsModal
       detail={
         !!state.detail && state.filtered.find(flag => flag.id === state.detail)

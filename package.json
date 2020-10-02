@@ -13,18 +13,18 @@
     "lint-staged": "^8.1.6",
     "pixelbank": "^0.0.2",
     "prettier": "^1.17.1",
-    "slugify": "^1.3.4"
+    "slugify": "^1.4.5"
   },
   "dependencies": {
     "@rooks/use-key": "^1.1.0",
-    "query-string": "^6.2.0",
-    "react": "^16.8.2",
-    "react-aria-menubutton": "^6.1.0",
-    "react-dom": "^16.8.2",
-    "react-lazy-load-image-component": "^1.3.2",
+    "query-string": "^6.13.4",
+    "react": "^16.13.1",
+    "react-aria-menubutton": "^6.3.0",
+    "react-dom": "^16.13.1",
+    "react-lazy-load-image-component": "^1.5.0",
     "react-loading-image": "^0.5.0",
-    "react-modal": "^3.8.1",
-    "react-scripts": "2.1.5"
+    "react-modal": "^3.11.2",
+    "react-scripts": "3.4.3"
   },
   "husky": {
     "hooks": {

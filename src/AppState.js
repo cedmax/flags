@@ -8,28 +8,56 @@ import AppUi from "./AppUI";
 import "./App.css";
 let historySetup = false;
 
+const mapping = {
+  IT: "figs",
+  DE: "figs",
+  ES: "figs",
+  SCAND: "nordic",
+};
+
 const supportOldUrls = () => {
   const params = qs.getParams(window.location.search);
-  if (["IT", "DE", "ES"].includes(params.view)) {
-    params.view = "FIGS";
-    window.history.replaceState(null, "", `?${qs.fromState(params)}`);
-  }
-  if (["SCAND"].includes(params.view)) {
-    params.view = "NORDIC";
-    window.history.replaceState(null, "", `?${qs.fromState(params)}`);
+  if (params.view) {
+    const { view, ...otherParams } = params;
+    const stringOfParams = qs.fromState(otherParams);
+    window.history.replaceState(
+      null,
+      "",
+      `${mapping[view] || view.toLowerCase()}${stringOfParams &&
+        `?${stringOfParams}`}`
+    );
   }
 };
 
 const setupUrlBinding = dispatch => {
-  const updateStore = () =>
-    dispatch(action("updateFromUrl", qs.getParams(window.location.search)));
+  const updateStore = () => {
+    const params = qs.getParams(window.location.search) || {};
+
+    if (window.location.pathname !== "/") {
+      params.view = window.location.pathname.replace("/", "").toUpperCase();
+    }
+
+    dispatch(action("updateFromUrl", params));
+  };
   window.onpopstate = e => e.type === "popstate" && updateStore();
   updateStore();
   historySetup = true;
 };
 
+const viewRe = new RegExp(/view=([^&])+/g);
 const updateUrl = qsFromState => {
-  const url = qsFromState ? `?${qsFromState}` : "/";
+  const viewParam =
+    (qsFromState &&
+      qsFromState.match(viewRe) &&
+      qsFromState.match(viewRe)[0]) ||
+    "";
+  let otherParams = qsFromState.replace(viewRe, "");
+  if (otherParams.endsWith("&")) {
+    otherParams = otherParams.slice(0, -1);
+  }
+  const url = `/${viewParam &&
+    viewParam.split("=")[1].toLowerCase()}${otherParams && `?${otherParams}`}`;
+
   window.history.pushState(null, "", url);
 };
 
@@ -56,6 +84,7 @@ const App = props => {
         updateUrl(qsFromState);
       }
     }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [
     state.filters,
     state.sortBy,

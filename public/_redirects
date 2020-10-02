@@ -3,3 +3,5 @@ http://flags.dsgn.it/* https://flags.dsgn.it/:splat 301!
 
 # Optional: Redirect default Netlify subdomain to primary domain
 https://alltheflags.netlify.com/* https://flags.dsgn.it/:splat 301!
+
+/* /index.html 200
