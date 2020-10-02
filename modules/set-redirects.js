@@ -1,9 +1,10 @@
-const assets = require("../build/asset-manifest.json");
+const assets = require("../build/asset-manifest.json").files;
 const isocodes = require("./iso.json");
 const fs = require("fs");
 
 let redirects = "";
 const countryIds = Object.keys(isocodes);
+
 countryIds.forEach(id => {
   const assetKey = `static/media/${id}.svg`;
   const asset = assets[assetKey];
