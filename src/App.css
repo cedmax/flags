@@ -44,7 +44,7 @@ header {
   position: relative;
   text-align: left;
   background: white;
-  margin: -3% -3% 0;
+  margin: 0 calc(-3% - 2px);
   padding: 5% 3% 3%;
   border-bottom: 2px solid #ccc;
   box-shadow: 2px 2px 21px #ccc;
@@ -672,10 +672,28 @@ label {
   position: absolute;
   top: 0;
   right: 0;
+  z-index: 10;
 }
 
 .ReactModal__Content img {
   max-height: 100%;
   object-fit: contain;
   width: 100%;
+}
+
+.banner {
+  background: #ffd700;
+  padding: 20px;
+  margin: 0 calc(-3% - 2px);
+  padding: 25px 15px;
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid #daa520;
+  box-shadow: inset 2px 2px 21px #daa520;
+  display: block;
+  text-align: center;
+}
+
+.banner:hover {
+  text-decoration: underline;
 }

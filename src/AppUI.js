@@ -13,6 +13,7 @@ import { ReactComponent as Github } from "./data/octocat.svg";
 import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
+import Banner from "./components/Banner";
 
 const FilterBlock = React.memo(({ title, children }) => (
   <div>
@@ -23,10 +24,11 @@ const FilterBlock = React.memo(({ title, children }) => (
 
 const AppUI = ({ state }) => (
   <main>
-    <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
-      <Github />
-    </Link>
+    <Banner />
     <Header>
+      <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
+        <Github />
+      </Link>
       <nav>
         <FilterBlock title="Sort by">
           <NavSorter sorters={state.sorters} sortBy={state.sortBy} />
