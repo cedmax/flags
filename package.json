@@ -3,28 +3,28 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
-    "async": "^2.6.2",
-    "axios": "^0.18.0",
-    "canvas": "^2.3.1",
+    "async": "^2.6.3",
+    "axios": "^0.18.1",
+    "canvas": "^2.9.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-progress": "^2.1.1",
     "color-converter": "^1.4.1",
-    "husky": "^2.3.0",
-    "lint-staged": "^8.1.6",
+    "husky": "^2.7.0",
+    "lint-staged": "^8.2.1",
     "pixelbank": "^0.0.2",
-    "prettier": "^1.17.1",
+    "prettier": "^2.5.1",
     "slugify": "^1.4.5"
   },
   "dependencies": {
     "@rooks/use-key": "^1.1.0",
-    "query-string": "^6.13.4",
-    "react": "^16.13.1",
+    "query-string": "^6.14.1",
+    "react": "^17.0.2",
     "react-aria-menubutton": "^6.3.0",
-    "react-dom": "^16.13.1",
+    "react-dom": "^16.14.0",
     "react-lazy-load-image-component": "^1.5.0",
     "react-loading-image": "^0.5.0",
-    "react-modal": "^3.11.2",
-    "react-scripts": "3.4.3"
+    "react-modal": "^3.14.4",
+    "react-scripts": "^3.4.4"
   },
   "husky": {
     "hooks": {
