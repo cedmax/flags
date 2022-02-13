@@ -2,20 +2,12 @@
     "id": "afghanistan",
     "colors": [
         {
-            "hex": "#000000",
-            "percent": 33
-        },
-        {
-            "hex": "#009900",
-            "percent": 33
-        },
-        {
-            "hex": "#bf0000",
-            "percent": 26
-        },
-        {
             "hex": "#ffffff",
-            "percent": 2
+            "percent": 83
+        },
+        {
+            "hex": "#000000",
+            "percent": 14
         }
     ]
 }

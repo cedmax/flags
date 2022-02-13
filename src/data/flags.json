@@ -5,12 +5,12 @@
             "country": "Afghanistan",
             "url": "/wiki/flag_of_afghanistan",
             "adoption": {
-                "sort": 2002,
-                "text": "2002"
+                "sort": 2021,
+                "text": "2021"
             },
-            "ratio": "2:3",
+            "ratio": "1:2",
             "anthem": {
-                "title": "سرود ملی‎",
+                "title": "دا د باتورانو کور",
                 "videoId": "gPAz_zyqkaA"
             },
             "continents": [
@@ -21,31 +21,19 @@
             },
             "colors": [
                 {
-                    "hex": "#000000",
-                    "percent": 33,
-                    "tag": "black"
-                },
-                {
-                    "hex": "#009900",
-                    "percent": 33,
-                    "tag": "green"
-                },
-                {
-                    "hex": "#bf0000",
-                    "percent": 26,
-                    "tag": "red"
-                },
-                {
                     "hex": "#ffffff",
-                    "percent": 2,
+                    "percent": 83,
                     "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 14,
+                    "tag": "black"
                 }
             ],
             "tags": [
-                "black",
-                "green",
-                "red",
-                "white"
+                "white",
+                "black"
             ]
         },
         {
