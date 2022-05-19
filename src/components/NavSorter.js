@@ -3,13 +3,14 @@ import { action } from "../helpers";
 import { withContext } from "../store/context";
 
 const NavSorter = React.memo(({ sorters, sortBy, view, dispatch }) =>
-  sorters.map(sorter => (
+  sorters.map((sorter) => (
     <button
       key={sorter}
       className={`sorter${sortBy === sorter ? " selected" : ""}`}
       type="button"
       disabled={
         view === "CH" ||
+        (sorter === "adoption" && view === "AUTONOMIST") ||
         (sorter === "adoption" && view === "SAM") ||
         (sorter === "adoption" && view === "RU") ||
         (sorter === "adoption" && view === "NORDIC")
