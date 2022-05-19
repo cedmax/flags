@@ -4,7 +4,7 @@
   "private": true,
   "devDependencies": {
     "async": "^2.6.4",
-    "axios": "^0.18.1",
+    "axios": "^0.21.2",
     "canvas": "^2.9.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-progress": "^2.1.1",
