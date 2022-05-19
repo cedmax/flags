@@ -25,47 +25,49 @@ const NavigationButton = withContext(
   ))
 );
 
-const DetailsModal = React.memo(({ detail, type, dispatch, isList }) => {
-  const ratio = type === "flag" ? detail.ratio : "1:1";
-  const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
+const DetailsModal = React.memo(
+  ({ detail, type, dispatch, isList, disableMap }) => {
+    const ratio = type === "flag" ? detail.ratio : "1:1";
+    const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
 
-  if (!detail) return;
-  const flagPath = getId(detail.belongsTo);
-  const flagUrl = require(`../data/flags/${
-    detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
-  }.svg`);
-  const mapUrl = getMapUrl(detail.id);
+    if (!detail) return;
+    const flagPath = getId(detail.belongsTo);
+    const flagUrl = require(`../data/flags/${
+      detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
+    }.svg`);
+    const mapUrl = getMapUrl(detail.id);
 
-  return (
-    <Modal
-      style={getDetailsStyle(size)}
-      isOpen={!!detail}
-      onRequestClose={() => dispatch(action("hideDetails"))}
-      contentLabel={detail && detail.country}
-      shouldReturnFocusAfterClose={false}
-    >
-      <ImageLoader
-        imgSrc={type !== "flag" && mapUrl ? mapUrl : flagUrl}
-        type={type}
-        {...detail}
-      />
-      <div className="zoom-controls">
-        {isList && <NavigationButton label="prev" value={-1} />}
-        <div>
-          <h3>{detail.country}</h3>
-          <small>
-            {!!mapUrl && type === "map" && (
-              <ChangeType newType="flag" url={flagUrl} />
-            )}
-            {!!mapUrl && type === "flag" && (
-              <ChangeType newType="map" url={mapUrl} />
-            )}
-          </small>
+    return (
+      <Modal
+        style={getDetailsStyle(size)}
+        isOpen={!!detail}
+        onRequestClose={() => dispatch(action("hideDetails"))}
+        contentLabel={detail && detail.country}
+        shouldReturnFocusAfterClose={false}
+      >
+        <ImageLoader
+          imgSrc={type !== "flag" && mapUrl ? mapUrl : flagUrl}
+          type={type}
+          {...detail}
+        />
+        <div className="zoom-controls">
+          {isList && <NavigationButton label="prev" value={-1} />}
+          <div>
+            <h3>{detail.country}</h3>
+            <small>
+              {!!mapUrl && type === "map" && (
+                <ChangeType newType="flag" url={flagUrl} />
+              )}
+              {!!mapUrl && type === "flag" && !disableMap && (
+                <ChangeType newType="map" url={mapUrl} />
+              )}
+            </small>
+          </div>
+          {isList && <NavigationButton label="next" value={1} />}
         </div>
-        {isList && <NavigationButton label="next" value={1} />}
-      </div>
-    </Modal>
-  );
-});
+      </Modal>
+    );
+  }
+);
 
 export default withContext(DetailsModal);

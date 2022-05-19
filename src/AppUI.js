@@ -79,8 +79,10 @@ const AppUI = ({ state }) => (
     <Footer />
     <Anthem playing={state.playing} />
     <DetailsModal
+      disableMap={state.view === "AUTONOMIST"}
       detail={
-        !!state.detail && state.filtered.find(flag => flag.id === state.detail)
+        !!state.detail &&
+        state.filtered.find((flag) => flag.id === state.detail)
       }
       type={state.detailView}
       isList={state.filtered.length > 1}
