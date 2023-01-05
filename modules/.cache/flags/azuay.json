@@ -1,0 +1,13 @@
+{
+    "id": "azuay",
+    "colors": [
+        {
+            "hex": "#c60b1d",
+            "percent": 50
+        },
+        {
+            "hex": "#ffc400",
+            "percent": 50
+        }
+    ]
+}

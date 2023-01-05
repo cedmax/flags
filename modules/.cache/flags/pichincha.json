@@ -1,0 +1,21 @@
+{
+    "id": "pichincha",
+    "colors": [
+        {
+            "hex": "#fcd116",
+            "percent": 47
+        },
+        {
+            "hex": "#ce0f25",
+            "percent": 47
+        },
+        {
+            "hex": "#0080c4",
+            "percent": 1
+        },
+        {
+            "hex": "#0080c5",
+            "percent": 1
+        }
+    ]
+}

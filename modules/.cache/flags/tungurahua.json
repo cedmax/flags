@@ -1,0 +1,13 @@
+{
+    "id": "tungurahua",
+    "colors": [
+        {
+            "hex": "#ce0f25",
+            "percent": 66
+        },
+        {
+            "hex": "#00803d",
+            "percent": 33
+        }
+    ]
+}

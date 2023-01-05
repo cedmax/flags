@@ -1,0 +1,17 @@
+{
+    "id": "galapagos",
+    "colors": [
+        {
+            "hex": "#008f4c",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#003893",
+            "percent": 33
+        }
+    ]
+}

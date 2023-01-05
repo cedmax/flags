@@ -1,0 +1,25 @@
+{
+    "id": "santo-domingo-de-los-tsachilas",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 30
+        },
+        {
+            "hex": "#da121a",
+            "percent": 27
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#000000",
+            "percent": 9
+        },
+        {
+            "hex": "#fcd116",
+            "percent": 4
+        }
+    ]
+}

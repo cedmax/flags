@@ -1,0 +1,17 @@
+{
+    "id": "santa-elena",
+    "colors": [
+        {
+            "hex": "#048240",
+            "percent": 33
+        },
+        {
+            "hex": "#64abdb",
+            "percent": 33
+        },
+        {
+            "hex": "#043b95",
+            "percent": 27
+        }
+    ]
+}

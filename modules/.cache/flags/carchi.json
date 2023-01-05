@@ -1,0 +1,17 @@
+{
+    "id": "carchi",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        },
+        {
+            "hex": "#da121a",
+            "percent": 33
+        }
+    ]
+}

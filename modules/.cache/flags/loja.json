@@ -1,0 +1,21 @@
+{
+    "id": "loja",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 50
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 24
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 23
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

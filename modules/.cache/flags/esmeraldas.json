@@ -1,0 +1,13 @@
+{
+    "id": "esmeraldas",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 50
+        },
+        {
+            "hex": "#078930",
+            "percent": 50
+        }
+    ]
+}

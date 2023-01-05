@@ -1,0 +1,17 @@
+{
+    "id": "zamora-chinchipe",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#07892d",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        }
+    ]
+}

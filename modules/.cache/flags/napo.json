@@ -1,0 +1,21 @@
+{
+    "id": "napo",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 50
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 17
+        },
+        {
+            "hex": "#da121a",
+            "percent": 17
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 16
+        }
+    ]
+}

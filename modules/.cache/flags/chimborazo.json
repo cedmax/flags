@@ -1,0 +1,17 @@
+{
+    "id": "chimborazo",
+    "colors": [
+        {
+            "hex": "#ce0f25",
+            "percent": 48
+        },
+        {
+            "hex": "#003893",
+            "percent": 47
+        },
+        {
+            "hex": "#e7e7e7",
+            "percent": 1
+        }
+    ]
+}

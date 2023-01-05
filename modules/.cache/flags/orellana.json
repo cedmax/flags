@@ -1,0 +1,25 @@
+{
+    "id": "orellana",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        },
+        {
+            "hex": "#078930",
+            "percent": 27
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 27
+        },
+        {
+            "hex": "#0e0d02",
+            "percent": 15
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

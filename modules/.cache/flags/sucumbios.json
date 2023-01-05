@@ -1,0 +1,17 @@
+{
+    "id": "sucumbios",
+    "colors": [
+        {
+            "hex": "#108d38",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        }
+    ]
+}

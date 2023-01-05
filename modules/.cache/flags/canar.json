@@ -1,0 +1,17 @@
+{
+    "id": "canar",
+    "colors": [
+        {
+            "hex": "#0f47af",
+            "percent": 33
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 33
+        },
+        {
+            "hex": "#da121a",
+            "percent": 33
+        }
+    ]
+}

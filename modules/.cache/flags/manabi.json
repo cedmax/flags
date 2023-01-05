@@ -1,0 +1,17 @@
+{
+    "id": "manabi",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 51
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 30
+        },
+        {
+            "hex": "#da121a",
+            "percent": 18
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "pastaza",
+    "colors": [
+        {
+            "hex": "#078930",
+            "percent": 50
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 50
+        }
+    ]
+}

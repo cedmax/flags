@@ -1,0 +1,13 @@
+{
+    "id": "cotopaxi",
+    "colors": [
+        {
+            "hex": "#da121a",
+            "percent": 50
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 50
+        }
+    ]
+}
