@@ -6,8 +6,8 @@ const utilities = require("./utilities");
 
 const path = process.cwd();
 
-const getTempFile = key => `${path}/modules/.cache/${key}.json`;
-const resolveCache = key => {
+const getTempFile = (key) => `${path}/modules/.cache/${key}.json`;
+const resolveCache = (key) => {
   const tempFile = getTempFile(key);
   if (fs.existsSync(tempFile)) {
     return JSON.parse(fs.readFileSync(tempFile, "UTF-8"));
@@ -21,10 +21,21 @@ const saveCache = (key, result) => {
 const merge = (flags, newInfo) =>
   !flags
     ? newInfo
-    : flags.map(flag => ({
-        ...flag,
-        ...newInfo[flag.id],
-      }));
+    : flags
+        .map((flag) => ({
+          ...flag,
+          ...newInfo[flag.id],
+        }))
+        .sort((flagA, flagB) => {
+          if (flagA.belongsTo && flag.belongsTo) {
+            if (flagA.belongsTo === flagB.belongsTo) {
+              return flagA.country > flagB.country ? 1 : -1;
+            }
+            return flagA.belongsTo > flagB.belongsTo ? 1 : -1;
+          } else {
+            return flagA.country > flagB.country ? 1 : -1;
+          }
+        });
 
 const generateHTML = (html, data) => {
   const $ = cheerio.load(html);
@@ -44,9 +55,9 @@ const generateHTML = (html, data) => {
   };
 };
 
-const consolidate = group => flags =>
-  new Promise(resolve => {
-    if (group === "ALL") {
+const consolidate = (group) => (flags) =>
+  new Promise((resolve) => {
+    if (group === "ALL" || group === "EC") {
       return resolve();
     }
     const dataKey = group || "world";
@@ -63,23 +74,23 @@ const consolidate = group => flags =>
     resolve();
   });
 
-const required = reject => (obj, properties) => {
-  properties.forEach(prop => {
+const required = (reject, group) => (obj, properties) => {
+  properties.forEach((prop) => {
     if (!obj[prop]) {
       console.log(JSON.stringify(obj));
-      reject(`${obj.country} doesn't have ${prop}`);
+      reject(`${obj.country} in ${group} doesn't have ${prop}`);
     }
   });
 };
 
-const validate = group => flags =>
+const validate = (group) => (flags) =>
   new Promise((resolve, reject) => {
-    const validatePresent = required(reject);
+    const validatePresent = required(reject, group);
 
-    flags.forEach(flag => {
+    flags.forEach((flag) => {
       validatePresent(flag, ["ratio", "colors", "tags"]);
 
-      flag.colors.forEach(color => {
+      flag.colors.forEach((color) => {
         validatePresent(color, ["tag"]);
       });
 
@@ -99,19 +110,24 @@ module.exports = {
   resolveCache,
   saveCache,
   consolidate,
-  mergeData: (dataFetcher, cacheKey, group) => flags =>
-    new Promise(resolve => {
+  mergeData: (dataFetcher, cacheKey, group) => (flags) =>
+    new Promise((resolve) => {
       cacheKey = cacheKey && group ? `${cacheKey}-${group}` : cacheKey;
 
       if (cacheKey) {
-        const content = resolveCache(cacheKey);
+        let content = resolveCache(cacheKey);
+        if (cacheKey === "color-tagging-SAM") {
+          // shameful
+          content = { ...content, ...(resolveCache("color-tagging-EC") || {}) };
+        }
         if (content) {
           console.log(cacheKey, "from cache");
+
           return resolve(merge(flags, content));
         }
       }
 
-      dataFetcher(flags, results => {
+      dataFetcher(flags, (results) => {
         if (cacheKey) {
           saveCache(cacheKey, results);
           console.log(cacheKey, "done");
@@ -151,6 +167,7 @@ module.exports = {
       }
     ),
   normaliseData: (arrayOfData, key, manualData) =>
+    console.log(arrayOfData) ||
     arrayOfData.reduce((acc, dataItem) => {
       const { id } = dataItem;
       delete dataItem.id;

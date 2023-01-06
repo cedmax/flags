@@ -24414,6 +24414,730 @@
             ]
         },
         {
+            "id": "azuay",
+            "belongsTo": "Ecuador",
+            "country": "Azuay",
+            "url": "/wiki/azuay_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#c60b1d",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffc400",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow"
+            ]
+        },
+        {
+            "id": "bolivar",
+            "belongsTo": "Ecuador",
+            "country": "Bolívar",
+            "url": "/wiki/bol%c3%advar_province_(ecuador)",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green",
+                "red"
+            ]
+        },
+        {
+            "id": "carchi",
+            "belongsTo": "Ecuador",
+            "country": "Carchi",
+            "url": "/wiki/carchi_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "canar",
+            "belongsTo": "Ecuador",
+            "country": "Cañar",
+            "url": "/wiki/ca%c3%b1ar_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0f47af",
+                    "percent": 33,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 33,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "red"
+            ]
+        },
+        {
+            "id": "chimborazo",
+            "belongsTo": "Ecuador",
+            "country": "Chimborazo",
+            "url": "/wiki/chimborazo_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ce0f25",
+                    "percent": 48,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#003893",
+                    "percent": 47,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#e7e7e7",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "cotopaxi",
+            "belongsTo": "Ecuador",
+            "country": "Cotopaxi",
+            "url": "/wiki/cotopaxi_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 50,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "el-oro",
+            "belongsTo": "Ecuador",
+            "country": "El Oro",
+            "url": "/wiki/el_oro_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "esmeraldas",
+            "belongsTo": "Ecuador",
+            "country": "Esmeraldas",
+            "url": "/wiki/esmeraldas_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 50,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "green"
+            ]
+        },
+        {
+            "id": "galapagos",
+            "belongsTo": "Ecuador",
+            "country": "Galápagos",
+            "url": "/wiki/gal%c3%a1pagos_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008f4c",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003893",
+                    "percent": 33,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "guayas",
+            "belongsTo": "Ecuador",
+            "country": "Guayas",
+            "url": "/wiki/guayas_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 57,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 42,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white"
+            ]
+        },
+        {
+            "id": "imbabura",
+            "belongsTo": "Ecuador",
+            "country": "Imbabura",
+            "url": "/wiki/imbabura_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 30,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 30,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 24,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 17,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white",
+                "blue"
+            ]
+        },
+        {
+            "id": "loja",
+            "belongsTo": "Ecuador",
+            "country": "Loja",
+            "url": "/wiki/loja_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#da121a",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 24,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 23,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "yellow",
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "los-rios",
+            "belongsTo": "Ecuador",
+            "country": "Los Ríos",
+            "url": "/wiki/los_r%c3%ados_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 6,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 5,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 4,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "yellow",
+                "cyan",
+                "green"
+            ]
+        },
+        {
+            "id": "manabi",
+            "belongsTo": "Ecuador",
+            "country": "Manabí",
+            "url": "/wiki/manab%c3%ad_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 51,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 30,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 18,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "morona-santiago",
+            "belongsTo": "Ecuador",
+            "country": "Morona-Santiago",
+            "url": "/wiki/morona-santiago_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdc16",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#00803d",
+                    "percent": 50,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "napo",
+            "belongsTo": "Ecuador",
+            "country": "Napo",
+            "url": "/wiki/napo_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 17,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 17,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 16,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "white",
+                "red",
+                "blue"
+            ]
+        },
+        {
+            "id": "orellana",
+            "belongsTo": "Ecuador",
+            "country": "Orellana",
+            "url": "/wiki/orellana_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 30,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 27,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 27,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0e0d02",
+                    "percent": 15,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "pastaza",
+            "belongsTo": "Ecuador",
+            "country": "Pastaza",
+            "url": "/wiki/pastaza_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 50,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "pichincha",
+            "belongsTo": "Ecuador",
+            "country": "Pichincha",
+            "url": "/wiki/pichincha_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcd116",
+                    "percent": 47,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ce0f25",
+                    "percent": 47,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0080c4",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#0080c5",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "cyan"
+            ]
+        },
+        {
+            "id": "santa-elena",
+            "belongsTo": "Ecuador",
+            "country": "Santa Elena",
+            "url": "/wiki/santa_elena_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#048240",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#64abdb",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#043b95",
+                    "percent": 27,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "green",
+                "cyan",
+                "blue"
+            ]
+        },
+        {
+            "id": "santo-domingo-de-los-tsachilas",
+            "belongsTo": "Ecuador",
+            "country": "Santo Domingo de los Tsáchilas",
+            "url": "/wiki/santo_domingo_de_los_ts%c3%a1chilas",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#078930",
+                    "percent": 30,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 27,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 22,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 9,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#fcd116",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "white",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "sucumbios",
+            "belongsTo": "Ecuador",
+            "country": "Sucumbíos",
+            "url": "/wiki/sucumb%c3%ados_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#108d38",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "tungurahua",
+            "belongsTo": "Ecuador",
+            "country": "Tungurahua",
+            "url": "/wiki/tungurahua_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ce0f25",
+                    "percent": 66,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#00803d",
+                    "percent": 33,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "red",
+                "green"
+            ]
+        },
+        {
+            "id": "zamora-chinchipe",
+            "belongsTo": "Ecuador",
+            "country": "Zamora-Chinchipe",
+            "url": "/wiki/zamora-chinchipe_province",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#07892d",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 33,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
             "id": "lambayeque-region",
             "belongsTo": "Peru",
             "country": "Lambayeque Region",

@@ -5,11 +5,13 @@ const { consolidate, validate, mergeData } = require("./scripts/helpers");
 module.exports = (fetchFlags, fetchers = {}, group) => {
   const fetchWorldFlagsCache = mergeData(fetchFlags, "flags", group);
   return fetchWorldFlagsCache()
-    .then(async flags => {
+    .then(async (flags) => {
       for (const fetcherKey in fetchers) {
-        const result = await mergeData(fetchers[fetcherKey], fetcherKey, group)(
-          flags
-        );
+        const result = await mergeData(
+          fetchers[fetcherKey],
+          fetcherKey,
+          group
+        )(flags);
         flags = result;
       }
       return flags;

@@ -45,10 +45,7 @@ module.exports = async (unused, callback) => {
   const results = sectionTitles
     .reduce((results, title) => {
       const $title = $(title);
-      const titleContent = $title
-        .find(".mw-headline")
-        .text()
-        .trim();
+      const titleContent = $title.find(".mw-headline").text().trim();
 
       if (!skip.includes(titleContent)) {
         let $container = $($title.nextAll("ul, .columns").get(0));
@@ -59,7 +56,7 @@ module.exports = async (unused, callback) => {
           return results;
         }
 
-        const flags = flagContainers.map(flagContainer => {
+        const flags = flagContainers.map((flagContainer) => {
           const $flagContainer = $(flagContainer);
           const $country = $flagContainer.find("a").last();
           let country = $country
@@ -89,12 +86,12 @@ module.exports = async (unused, callback) => {
             ...(manualData[id] || {}),
           };
         });
-        results = results.concat(flags).filter(item => item);
+        results = results.concat(flags).filter((item) => item);
       }
       return results;
     }, [])
     .concat(
-      extraFlags.map(flag => {
+      extraFlags.map((flag) => {
         const id = generateId(flag.country);
         return {
           id,
@@ -103,13 +100,8 @@ module.exports = async (unused, callback) => {
         };
       })
     )
-    .sort((flagA, flagB) => {
-      if (flagA.belongsTo === flagB.belongsTo) {
-        return flagA.country > flagB.country ? 1 : -1;
-      }
-      return flagA.belongsTo > flagB.belongsTo ? 1 : -1;
-    })
-    .filter(flag => !!flag.id);
+
+    .filter((flag) => !!flag.id);
 
   helpers.saveFlagFiles(results, callback);
 };

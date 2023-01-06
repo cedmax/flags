@@ -26,7 +26,7 @@ const Header = React.memo(({ dispatch, view, children }) => {
   return (
     <Wrapper
       tag="header"
-      onSelection={item => {
+      onSelection={(item) => {
         setSelected(values[item]);
         dispatch(action("changeDataSource", item));
       }}
@@ -38,7 +38,7 @@ const Header = React.memo(({ dispatch, view, children }) => {
             <span>{selected || values.world}</span>
           </Button>
           <Menu className="select-menu">
-            {Object.keys(values).map(key => (
+            {Object.keys(values).map((key) => (
               <MenuItem key={key} value={key} className="select-item">
                 {values[key]}
               </MenuItem>
@@ -46,7 +46,7 @@ const Header = React.memo(({ dispatch, view, children }) => {
           </Menu>
         </div>
       </h1>
-      {view === "SAM" && <small>* Ecuador, Paraguay and Uruguay missing</small>}
+      {view === "SAM" && <small>* Paraguay and Uruguay missing</small>}
       {view === "FIGS" && <small>* France / Italy / Germany / Spain</small>}
 
       {children}
