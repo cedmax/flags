@@ -3,32 +3,29 @@ const slugify = require("slugify");
 
 export const getId = (string = "") =>
   slugify(
-    string
-      .replace("'", "-")
-      .replace("Ō", "o")
-      .replace("ō", "o")
+    string.replace("'", "-").replace("Ō", "o").replace("ō", "o")
   ).toLowerCase();
 
 export const getMapUrl = (id, thumb = false) =>
   `/maps/${thumb ? "_thumbs/" : ""}${id}.png`;
 
-const clean = obj =>
+const clean = (obj) =>
   Object.keys(obj)
-    .filter(key => !!obj[key])
+    .filter((key) => !!obj[key])
     .reduce((acc, key) => {
       acc[key] = obj[key];
       return acc;
     }, {});
 
 export const qs = {
-  getParams: qs => querystring.parse(qs),
+  getParams: (qs) => querystring.parse(qs),
   getCurrent: () =>
     `${
       window.location.pathname.replace("/", "")
         ? `view=${window.location.pathname.replace("/", "").toUpperCase()}&`
         : ""
     }${window.location.search.replace("?", "")}`,
-  fromState: state =>
+  fromState: (state) =>
     querystring.stringify(
       clean({
         view: state.view,
@@ -43,14 +40,14 @@ export const qs = {
     ),
 };
 
-export const createReducers = (reducers = {}) => (
-  state,
-  { type, payload } = {}
-) => (reducers[type] ? reducers[type](state, payload) : state);
+export const createReducers =
+  (reducers = {}) =>
+  (state, { type, payload } = {}) =>
+    reducers[type] ? reducers[type](state, payload) : state;
 
 export const action = (type, payload) => ({ type, payload });
 
-export const getDetailsImageSize = ratioString => {
+export const getDetailsImageSize = (ratioString) => {
   const ratioParts = ratioString.split(":");
   const ratio = parseFloat(ratioParts[0]) / parseFloat(ratioParts[1]);
 
@@ -70,3 +67,5 @@ export const getDetailsImageSize = ratioString => {
     height: flagHeight,
   };
 };
+
+export const disableMap = (view) => view === "AUTONOMIST" || view === "SAM";

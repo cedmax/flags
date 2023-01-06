@@ -14,6 +14,7 @@ import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
 import Banner from "./components/Banner";
+import { disableMap } from "./helpers";
 
 const FilterBlock = React.memo(({ title, children }) => (
   <div>
@@ -79,7 +80,7 @@ const AppUI = ({ state }) => (
     <Footer />
     <Anthem playing={state.playing} />
     <DetailsModal
-      disableMap={state.view === "AUTONOMIST"}
+      disableMap={disableMap(state.view)}
       detail={
         !!state.detail &&
         state.filtered.find((flag) => flag.id === state.detail)

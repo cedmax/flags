@@ -2,6 +2,7 @@ import React from "react";
 import DetailsList from "./DetailsList";
 import DetailsHeader from "./DetailsHeader";
 import { withContext } from "../store/context";
+import { disableMap } from "../helpers";
 
 const ListItemBack = React.memo(({ view, svgUrl, flag, active }) => (
   <div className="back">
@@ -13,7 +14,7 @@ const ListItemBack = React.memo(({ view, svgUrl, flag, active }) => (
       <DetailsHeader
         flag={flag}
         active={active}
-        disableMap={view === "AUTONOMIST"}
+        disableMap={disableMap(view)}
       />
       <DetailsList
         disableAnthem={view === "" || !view}
