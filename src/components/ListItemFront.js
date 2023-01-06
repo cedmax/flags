@@ -1,7 +1,7 @@
 import React from "react";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
-export default React.memo(({ svgUrl, country }) => (
+export default React.memo(({ svgUrl, country, belongsTo }) => (
   <div className="front">
     <figure>
       <LazyLoadImage
@@ -9,7 +9,10 @@ export default React.memo(({ svgUrl, country }) => (
         src={svgUrl}
         alt={`Flag of ${country}`}
       />
-      <figcaption>{country}</figcaption>
+      <figcaption>
+        {country}
+        {belongsTo && <span> ({belongsTo})</span>}
+      </figcaption>
     </figure>
   </div>
 ));

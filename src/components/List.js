@@ -3,6 +3,7 @@ import { action, getId } from "../helpers";
 import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 import { withContext } from "../store/context";
+import { showBelongsTo } from "../helpers";
 
 const List = React.memo(({ isSorted, size, items, dispatch, active, view }) => (
   <ul className={`list ${size}`}>
@@ -24,7 +25,11 @@ const List = React.memo(({ isSorted, size, items, dispatch, active, view }) => (
               onFocusCapture={() => dispatch(action("activate", i))}
             >
               <div className="flipper">
-                <ListItemFront svgUrl={flagUrl} country={flag.country} />
+                <ListItemFront
+                  svgUrl={flagUrl}
+                  country={flag.country}
+                  belongsTo={showBelongsTo(view, flag.belongsTo)}
+                />
                 <ListItemBack
                   view={view}
                   active={active === i}

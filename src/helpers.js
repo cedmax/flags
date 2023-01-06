@@ -69,3 +69,5 @@ export const getDetailsImageSize = (ratioString) => {
 };
 
 export const disableMap = (view) => view === "AUTONOMIST" || view === "SAM";
+export const showBelongsTo = (view, belongsTo) =>
+  ["AUTONOMIST", "FIGS", "SAM", "NORDIC"].includes(view) && belongsTo;

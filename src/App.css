@@ -124,6 +124,10 @@ figcaption {
   padding-top: 0.3rem;
 }
 
+figcaption span {
+  font-size: 84%
+}
+
 .front img {
   max-width: calc(100% - 40px);
   max-height: calc(var(--card-size) - 50px);
