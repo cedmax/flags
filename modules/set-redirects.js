@@ -5,7 +5,7 @@ const fs = require("fs");
 let redirects = "";
 const countryIds = Object.keys(isocodes);
 
-countryIds.forEach(id => {
+countryIds.forEach((id) => {
   const assetKey = `static/media/${id}.svg`;
   const asset = assets[assetKey];
   redirects += `\nhttps://flags.dsgn.it/assets/${isocodes[

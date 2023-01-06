@@ -37,7 +37,7 @@ export const getInitialState = (data, view) => ({
   availableContinents: getFilters(data.world, "continents"),
 });
 
-const sortResults = state => {
+const sortResults = (state) => {
   let { filtered, sortBy } = state;
   switch (sortBy) {
     case "name":
@@ -59,7 +59,7 @@ const sortResults = state => {
   };
 };
 
-const applyFilters = state => {
+const applyFilters = (state) => {
   const { filters, continent, allFlags, view, q } = state;
   let { sortBy } = state;
 
@@ -87,7 +87,7 @@ const applyFilters = state => {
 };
 
 export const reducers = createReducers({
-  resetFilters: state =>
+  resetFilters: (state) =>
     applyFilters({
       ...state,
       q: "",
@@ -101,7 +101,7 @@ export const reducers = createReducers({
     filters = [...filters];
     if (tag) {
       if (filters.includes(tag)) {
-        filters = filters.filter(filter => filter !== tag);
+        filters = filters.filter((filter) => filter !== tag);
       } else {
         filters.push(tag);
       }
@@ -138,7 +138,7 @@ export const reducers = createReducers({
     });
   },
 
-  reverse: state => {
+  reverse: (state) => {
     return {
       ...state,
       reversed: !state.reversed || "",
@@ -153,7 +153,7 @@ export const reducers = createReducers({
       return state;
     }
 
-    const index = filtered.findIndex(flag => flag.id === detail);
+    const index = filtered.findIndex((flag) => flag.id === detail);
     let newIndex = index + increment;
 
     if (newIndex < 0) {
@@ -180,7 +180,7 @@ export const reducers = createReducers({
     ...state,
     detailView,
   }),
-  hideDetails: state => ({
+  hideDetails: (state) => ({
     ...state,
     detail: null,
     detailView: "",

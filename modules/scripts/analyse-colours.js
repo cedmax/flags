@@ -9,7 +9,7 @@ module.exports = (flags, callback) =>
   async.mapLimit(
     flags,
     3,
-    async flag => {
+    async (flag) => {
       const { id, belongsTo } = flag;
       const cacheFile = `${path}/${id}.json`;
       if (fs.existsSync(cacheFile)) {
@@ -42,12 +42,12 @@ module.exports = (flags, callback) =>
         }
 
         const colors = Object.keys(imageData)
-          .map(key => {
+          .map((key) => {
             const percent = Math.round((imageData[key] * 100) / totalPx);
             const hex = convertToHex(key.match(/([0-9]+)+/g));
             return !!percent && { hex, percent };
           })
-          .filter(color => !!color)
+          .filter((color) => !!color)
           .sort((a, b) => (a.percent < b.percent ? 1 : -1));
 
         const result = { id, colors };

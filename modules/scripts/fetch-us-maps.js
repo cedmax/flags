@@ -17,11 +17,8 @@ module.exports = async (flags, callback) => {
   async.mapLimit(
     mapContainers,
     3,
-    async mapContainer => {
-      const text = $(mapContainer)
-        .find(".gallerytext a")
-        .text()
-        .trim();
+    async (mapContainer) => {
+      const text = $(mapContainer).find(".gallerytext a").text().trim();
 
       const id = generateId(text).replace("georgia", "georgia-us");
       const file = `${path}/${id}.png`;

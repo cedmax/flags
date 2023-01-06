@@ -10,10 +10,8 @@ module.exports = async (flags, callback) => {
 
   const results = flags.reduce((results, flag) => {
     const items = $(`a i`).toArray();
-    const match = items.find(item => {
-      const url = $(item)
-        .parent()
-        .attr("href");
+    const match = items.find((item) => {
+      const url = $(item).parent().attr("href");
 
       return cleanUrl(url) === flag.url;
     });

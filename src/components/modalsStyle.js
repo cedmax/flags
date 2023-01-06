@@ -1,4 +1,4 @@
-export const getDetailsStyle = val => ({
+export const getDetailsStyle = (val) => ({
   overlay: {
     zIndex: 1500,
     background: "rgba(255,255,255,.9)",

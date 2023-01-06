@@ -11,19 +11,15 @@ module.exports = async (flags, callback) => {
   const rows = $(".wikitable tr[id]").toArray();
 
   const results = rows.reduce((results, row) => {
-    const tds = $(row)
-      .find("td")
-      .toArray();
+    const tds = $(row).find("td").toArray();
 
     const [ignore, tdLink, tdRatio] = tds;
     const link = $(tdLink).find("a:first-of-type");
     const linkUrl = cleanUrl(link.attr("href"));
-    const linkText = $(tdLink)
-      .text()
-      .trim();
+    const linkText = $(tdLink).text().trim();
 
     if (!linkText.includes("(")) {
-      const found = flags.find(flag => flag.url === linkUrl);
+      const found = flags.find((flag) => flag.url === linkUrl);
       if (found) {
         const ratio = $(tdRatio)
           .html()
@@ -37,7 +33,7 @@ module.exports = async (flags, callback) => {
     return results;
   }, {});
 
-  Object.keys(manualRatio).forEach(key => {
+  Object.keys(manualRatio).forEach((key) => {
     results[key] = { ratio: manualRatio[key] };
   });
 

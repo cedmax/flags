@@ -8,7 +8,7 @@ module.exports = (flags, callback) =>
   async.mapLimit(
     flags,
     3,
-    async flag => {
+    async (flag) => {
       if (manualRatio[flag.id]) {
         return {
           ...flag,

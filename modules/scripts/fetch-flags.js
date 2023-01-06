@@ -10,7 +10,7 @@ module.exports = async (unused, callback) => {
 
   const $ = cheerio.load(data);
   const flagContainers = $("li.gallerybox").toArray();
-  const flags = flagContainers.map(flagContainer => {
+  const flags = flagContainers.map((flagContainer) => {
     const $flagContainer = $(flagContainer);
     const $link = $flagContainer.find(".gallerytext a");
     const country = $link

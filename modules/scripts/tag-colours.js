@@ -5,7 +5,7 @@ module.exports = (flags, callback) => {
   const results = flags.reduce((results, flag) => {
     const tags = [];
 
-    const colors = flag.colors.map(color => {
+    const colors = flag.colors.map((color) => {
       const { hue, saturation, lightness } = Color.fromCSS(color.hex);
       const tag = classifyColor({ hue, sat: saturation, lgt: lightness });
       tags.push(tag);

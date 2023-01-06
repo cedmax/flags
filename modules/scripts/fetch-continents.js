@@ -11,7 +11,7 @@ const validSections = [
   "South America",
 ];
 
-const normaliseCountry = country =>
+const normaliseCountry = (country) =>
   country
     .replace("North Macedonia", "Macedonia")
     .replace(
@@ -41,20 +41,16 @@ module.exports = async (flags, callback) => {
       const $table = $($title.nextAll(".wikitable").get(0));
       const $tableRows = $table.find("tbody tr").toArray();
 
-      $tableRows.forEach(row => {
-        const data = $(row)
-          .find("td")
-          .toArray();
+      $tableRows.forEach((row) => {
+        const data = $(row).find("td").toArray();
 
         const [tdCountry] = data;
         const country = normaliseCountry(
-          $(tdCountry)
-            .find("a[href*='/wiki/']")
-            .text()
+          $(tdCountry).find("a[href*='/wiki/']").text()
         );
 
         const id = generateId(country);
-        const index = flags.findIndex(flag => flag.id === id);
+        const index = flags.findIndex((flag) => flag.id === id);
 
         if (index !== -1) {
           results[id] = {

@@ -17,22 +17,22 @@ exports.byColour = (filtered, filters) =>
     }
   });
 
-exports.byName = filtered =>
+exports.byName = (filtered) =>
   filtered.sort((a, b) =>
     a.country.toLowerCase().localeCompare(b.country.toLowerCase())
   );
 
-exports.byAdoption = filtered =>
+exports.byAdoption = (filtered) =>
   (filtered = filtered.sort((a, b) =>
     a.adoption.sort > b.adoption.sort ? 1 : -1
   ));
 
-const ratio = ratio => {
+const ratio = (ratio) => {
   const parts = ratio.split(":");
   return parseFloat(parts[0]) / parseFloat(parts[1]);
 };
 
-exports.byRatio = filtered =>
+exports.byRatio = (filtered) =>
   filtered.sort((a, b) => {
     const aRatio = ratio(a.ratio);
     const bRatio = ratio(b.ratio);

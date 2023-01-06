@@ -23,13 +23,14 @@ const supportOldUrls = () => {
     window.history.replaceState(
       null,
       "",
-      `${mapping[view] || view.toLowerCase()}${stringOfParams &&
-        `?${stringOfParams}`}`
+      `${mapping[view] || view.toLowerCase()}${
+        stringOfParams && `?${stringOfParams}`
+      }`
     );
   }
 };
 
-const setupUrlBinding = dispatch => {
+const setupUrlBinding = (dispatch) => {
   const updateStore = () => {
     const params = qs.getParams(window.location.search) || {};
 
@@ -39,13 +40,13 @@ const setupUrlBinding = dispatch => {
 
     dispatch(action("updateFromUrl", params));
   };
-  window.onpopstate = e => e.type === "popstate" && updateStore();
+  window.onpopstate = (e) => e.type === "popstate" && updateStore();
   updateStore();
   historySetup = true;
 };
 
 const viewRe = new RegExp(/view=([^&])+/g);
-const updateUrl = qsFromState => {
+const updateUrl = (qsFromState) => {
   const viewParam =
     (qsFromState &&
       qsFromState.match(viewRe) &&
@@ -55,13 +56,14 @@ const updateUrl = qsFromState => {
   if (otherParams.endsWith("&")) {
     otherParams = otherParams.slice(0, -1);
   }
-  const url = `/${viewParam &&
-    viewParam.split("=")[1].toLowerCase()}${otherParams && `?${otherParams}`}`;
+  const url = `/${viewParam && viewParam.split("=")[1].toLowerCase()}${
+    otherParams && `?${otherParams}`
+  }`;
 
   window.history.pushState(null, "", url);
 };
 
-const App = props => {
+const App = (props) => {
   const [state, dispatch] = useReducer(reducers, getInitialState(props.data));
   const [context, setContext] = useState({ dispatch, view: state.view });
 
@@ -69,7 +71,7 @@ const App = props => {
     setContext({ view: state.view, dispatch });
   }, [state.view]);
 
-  useKey(["ArrowLeft", "ArrowRight"], e => {
+  useKey(["ArrowLeft", "ArrowRight"], (e) => {
     dispatch(action("navigate", e.key === "ArrowLeft" ? -1 : 1));
   });
 

@@ -28,7 +28,7 @@ module.exports = async (unused, callback) => {
 
       const flagContainers = $container.find("li.gallerybox").toArray();
 
-      const flags = flagContainers.map(flagContainer => {
+      const flags = flagContainers.map((flagContainer) => {
         const $flagContainer = $(flagContainer);
         const $link = $flagContainer.find(".gallerytext a");
         let country = $link
@@ -58,7 +58,7 @@ module.exports = async (unused, callback) => {
           url,
         };
       });
-      results = results.concat(flags).filter(item => item);
+      results = results.concat(flags).filter((item) => item);
     }
     return results;
   }, []);

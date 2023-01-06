@@ -6,11 +6,11 @@ const helpers = require("./helpers");
 
 const path = `${process.cwd()}/public/maps`;
 
-module.exports = mapEndPoints => (flags, callback) => {
+module.exports = (mapEndPoints) => (flags, callback) => {
   async.mapLimit(
     flags,
     3,
-    async flag => {
+    async (flag) => {
       const { id } = flag;
 
       const file = `${path}/${id}.png`;

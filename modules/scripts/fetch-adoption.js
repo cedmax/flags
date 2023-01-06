@@ -3,14 +3,14 @@ const cheerio = require("cheerio");
 const manualAdoption = require("../manual/adoption.json");
 const { generateId } = require("./utilities");
 
-const adoptionObj = adoption => ({
+const adoptionObj = (adoption) => ({
   adoption: {
     sort: parseInt(adoption, 10),
     text: adoption,
   },
 });
 
-const cleanId = id =>
+const cleanId = (id) =>
   id
     .replace("people's-republic-of-china", "china")
     .replace("republic-of-china-(taiwan)", "taiwan")
@@ -23,27 +23,20 @@ module.exports = async (flags, callback) => {
   );
 
   const $ = cheerio.load(data);
-  const $tableRows = $(".wikitable")
-    .find("tbody tr")
-    .toArray();
+  const $tableRows = $(".wikitable").find("tbody tr").toArray();
 
   const result = $tableRows.reduce((result, row) => {
-    const data = $(row)
-      .find("td")
-      .toArray();
+    const data = $(row).find("td").toArray();
 
     const [tdCountry, tdAdoption] = data;
     const country = $(tdCountry).text();
 
     if (country) {
-      const adoption = $(tdAdoption)
-        .text()
-        .trim()
-        .substr(0, 4);
+      const adoption = $(tdAdoption).text().trim().substr(0, 4);
 
       const id = cleanId(generateId(country));
 
-      const index = flags.findIndex(flag => {
+      const index = flags.findIndex((flag) => {
         return flag.id === id;
       });
 
@@ -54,7 +47,7 @@ module.exports = async (flags, callback) => {
     return result;
   }, {});
 
-  Object.keys(manualAdoption).forEach(id => {
+  Object.keys(manualAdoption).forEach((id) => {
     result[id] = adoptionObj(manualAdoption[id]);
   });
 

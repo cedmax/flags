@@ -6,7 +6,7 @@ export default React.memo(({ to, children, onClick, className }) => (
     className={className}
     onClick={
       onClick
-        ? e => {
+        ? (e) => {
             e.preventDefault();
             onClick(e);
           }

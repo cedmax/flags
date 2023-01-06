@@ -2,12 +2,9 @@ const parse = require("pixelbank");
 const { createCanvas, loadImage } = require("canvas");
 const slugify = require("slugify");
 
-const generateId = string =>
+const generateId = (string) =>
   slugify(
-    string
-      .replace("'", "-")
-      .replace("Ō", "o")
-      .replace("ō", "o")
+    string.replace("'", "-").replace("Ō", "o").replace("ō", "o")
   ).toLowerCase();
 
 exports.generateId = generateId;
@@ -16,9 +13,9 @@ const getPath = (path, subfolder) =>
     ? `${path}/src/data/flags/${generateId(subfolder)}`
     : `${path}/src/data/flags`;
 exports.getPath = getPath;
-exports.cleanUrl = string => string.replace("_the_", "_").toLowerCase();
+exports.cleanUrl = (string) => string.replace("_the_", "_").toLowerCase();
 
-const rgbToHex = function(rgb) {
+const rgbToHex = function (rgb) {
   let hex = Number(rgb).toString(16);
   if (hex.length < 2) {
     hex = "0" + hex;
@@ -26,7 +23,7 @@ const rgbToHex = function(rgb) {
   return hex;
 };
 
-exports.convertToHex = rgbArray => {
+exports.convertToHex = (rgbArray) => {
   return `#${rgbArray.map(rgbToHex).join("")}`;
 };
 
@@ -43,7 +40,7 @@ const colors = [
   { prop: "hue", match: "min", threshold: 360, value: "red" },
 ];
 
-exports.classifyColor = hsv => {
+exports.classifyColor = (hsv) => {
   hsv.hue = Math.round(hsv.hue * 360);
 
   return colors.find(({ prop, match, threshold }) => {

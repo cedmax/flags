@@ -18,11 +18,9 @@ module.exports = async (unused, callback) => {
     const titleContent = $title.find(".mw-headline").text();
     if (validSections.includes(titleContent)) {
       const table = $title.nextAll("table").toArray();
-      const rows = $(table[0])
-        .find(".image")
-        .toArray();
+      const rows = $(table[0]).find(".image").toArray();
 
-      const list = rows.map(image => {
+      const list = rows.map((image) => {
         let countryRgx = /(.+) \((.+)\)/i;
         let matches = $(image)
           .attr("title")
@@ -135,7 +133,7 @@ module.exports = async (unused, callback) => {
           url,
         };
       });
-      results = results.concat(list).filter(item => item);
+      results = results.concat(list).filter((item) => item);
     }
     return results;
   }, []);

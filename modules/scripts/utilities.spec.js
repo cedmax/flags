@@ -1,6 +1,6 @@
 import { classifyColor } from "./utilities";
 
-const fixHue = hue => hue / 360;
+const fixHue = (hue) => hue / 360;
 
 const testCases = [
   { lgt: 0.09, sat: 1, hue: fixHue(30), result: "black" },
@@ -22,9 +22,9 @@ const testCases = [
 
 describe("classify colors", () => {
   testCases.forEach(({ result, ...color }, i) => {
-    test(`case #${i} - { sat: ${color.sat}, lgt: ${
-      color.lgt
-    }, hue: ${color.hue * 360} }`, () => {
+    test(`case #${i} - { sat: ${color.sat}, lgt: ${color.lgt}, hue: ${
+      color.hue * 360
+    } }`, () => {
       expect(classifyColor(color)).toBe(result);
     });
   });

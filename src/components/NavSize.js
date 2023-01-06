@@ -5,7 +5,7 @@ import { withContext } from "../store/context";
 const sizes = ["small", "medium", "large"];
 
 const NavSearch = React.memo(({ size: selectedSize, dispatch }) =>
-  sizes.map(size => (
+  sizes.map((size) => (
     <button
       className={`${size === selectedSize ? "selected" : ""}`}
       key={size}

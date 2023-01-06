@@ -8,7 +8,7 @@ const NavSearch = React.memo(({ query, dispatch }) => (
     className="filters"
     type="text"
     value={query}
-    onChange={e => dispatch(action("filterString", e.target.value))}
+    onChange={(e) => dispatch(action("filterString", e.target.value))}
   />
 ));
 

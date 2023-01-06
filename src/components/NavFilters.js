@@ -3,7 +3,7 @@ import { action } from "../helpers";
 import { withContext } from "../store/context";
 
 const NavFilters = React.memo(({ availableFilters, filters, dispatch }) =>
-  availableFilters.map(filter => (
+  availableFilters.map((filter) => (
     <button
       className={`square${filters.includes(filter) ? " selected" : ""}`}
       style={{ color: filter }}

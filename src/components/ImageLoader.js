@@ -10,7 +10,7 @@ const ImageLoaderUI = React.memo(
     <Fragment>
       <ImageLoader
         loading={() => <Loader />}
-        image={props => {
+        image={(props) => {
           let size;
           delete props.height;
           delete props.width;

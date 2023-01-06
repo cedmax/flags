@@ -11,7 +11,7 @@ module.exports = (flags, callback) => {
   async.mapLimit(
     flags,
     2,
-    async flag => {
+    async (flag) => {
       const cacheFile = `${path}/${flag.id}.json`;
       // if (fs.existsSync(cacheFile)) {
       //   return JSON.parse(fs.readFileSync(cacheFile, "UTF-8"));

@@ -19,14 +19,10 @@ module.exports = async (unused, callback) => {
 
     if (validSections.includes(titleContent)) {
       const table = $title.nextAll(".wikitable").toArray();
-      const rows = $(table[0])
-        .find("tr")
-        .toArray();
+      const rows = $(table[0]).find("tr").toArray();
 
-      const flags = rows.map(row => {
-        const tds = $(row)
-          .find("td")
-          .toArray();
+      const flags = rows.map((row) => {
+        const tds = $(row).find("td").toArray();
 
         if (tds.length === 0) return;
         const [flagContainer, countryContainer] = tds;
@@ -70,7 +66,7 @@ module.exports = async (unused, callback) => {
           adoption,
         };
       });
-      results = results.concat(flags).filter(item => item);
+      results = results.concat(flags).filter((item) => item);
     }
     return results;
   }, []);
