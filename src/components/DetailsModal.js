@@ -27,10 +27,9 @@ const NavigationButton = withContext(
 
 const DetailsModal = React.memo(
   ({ detail, type, dispatch, isList, disableMap }) => {
+    if (!detail) return;
     const ratio = type === "flag" ? detail.ratio : "1:1";
     const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
-
-    if (!detail) return;
     const flagPath = getId(detail.belongsTo);
     const flagUrl = require(`../data/flags/${
       detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
