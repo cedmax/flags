@@ -13,7 +13,6 @@ import { ReactComponent as Github } from "./data/octocat.svg";
 import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";
-import Banner from "./components/Banner";
 import { disableMap } from "./helpers";
 
 const FilterBlock = React.memo(({ title, children }) => (
@@ -25,7 +24,6 @@ const FilterBlock = React.memo(({ title, children }) => (
 
 const AppUI = ({ state }) => (
   <main>
-    <Banner />
     <Header>
       <Link to="https://github.com/cedmax/flags" className="github-hotcorner">
         <Github />
