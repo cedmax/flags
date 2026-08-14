@@ -1,5 +1,5 @@
 import querystring from "query-string";
-const slugify = require("slugify");
+import slugify from "slugify";
 
 export const getId = (string = "") =>
   slugify(

@@ -4,14 +4,15 @@ import ListItemFront from "./ListItemFront";
 import ListItemBack from "./ListItemBack";
 import { withContext } from "../store/context";
 import { showBelongsTo } from "../helpers";
+import { getFlagUrl } from "../data/flagAssets";
 
 const List = React.memo(({ isSorted, size, items, dispatch, active, view }) => (
   <ul className={`list ${size}`}>
     {items.map((flag, i) => {
       const flagPath = getId(flag.belongsTo);
-      const flagUrl = require(`../data/flags/${
+      const flagUrl = getFlagUrl(
         flagPath ? `${flagPath}/${flag.id}` : flag.id
-      }.svg`);
+      );
 
       return (
         <Fragment key={`${flag.id}-${flag.belongsTo}`}>

@@ -3,28 +3,44 @@
   "version": "0.1.0",
   "private": true,
   "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
     "async": "^2.6.4",
     "axios": "^0.21.2",
-    "canvas": "^2.9.0",
     "cheerio": "^1.0.0-rc.2",
     "cli-progress": "^2.1.1",
     "color-converter": "^1.4.1",
     "husky": "^2.7.0",
     "lint-staged": "^8.2.1",
-    "pixelbank": "^0.0.2",
     "prettier": "^2.5.1",
-    "slugify": "^1.4.5"
+    "vite": "^6.0.7",
+    "vite-plugin-svgr": "^4.3.0",
+    "vitest": "^2.1.8",
+    "canvas": "^3.2.3",
+    "pixelbank": "^0.0.2"
   },
   "dependencies": {
     "@rooks/use-key": "^1.1.0",
     "query-string": "^6.14.1",
-    "react": "^17.0.2",
+    "react": "^18.3.1",
     "react-aria-menubutton": "^6.3.0",
-    "react-dom": "^16.14.0",
+    "react-dom": "^18.3.1",
     "react-lazy-load-image-component": "^1.5.0",
     "react-loading-image": "^0.5.0",
     "react-modal": "^3.14.4",
-    "react-scripts": "^3.4.4"
+    "slugify": "^1.4.5"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "overrides": {
+    "react-aria-menubutton": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    },
+    "react-loading-image": {
+      "react": "$react",
+      "react-dom": "$react-dom"
+    }
   },
   "husky": {
     "hooks": {
@@ -39,13 +55,11 @@
   },
   "scripts": {
     "fetch-data": "node modules/index",
-    "start": "react-scripts start",
-    "build": "PUBLIC_URL=https://flags.dsgn.it react-scripts build && node ./modules/set-redirects",
-    "test": "react-scripts test --testMatch=\"**/*.spec.js\"",
-    "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build && node ./modules/set-redirects.js",
+    "preview": "vite preview",
+    "test": "vitest run"
   },
   "browserslist": [
     ">0.2%",

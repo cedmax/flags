@@ -1,10 +1,10 @@
-exports.byColour = (filtered, filters) =>
+export const byColour = (filtered, filters) =>
   filtered.filter(({ tags }) => filters.every((tag) => tags.includes(tag)));
 
-exports.byContinent = (filtered, continent) =>
+export const byContinent = (filtered, continent) =>
   filtered.filter((flag) => flag.continents.includes(continent));
 
-exports.bySearch = (filtered, q) => {
+export const bySearch = (filtered, q) => {
   const qF = q.toLowerCase();
   const matches = ["(", " "].map((sign) => sign + qF);
 
@@ -20,3 +20,5 @@ exports.bySearch = (filtered, q) => {
     );
   });
 };
+
+export default { byColour, byContinent, bySearch };

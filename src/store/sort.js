@@ -5,7 +5,7 @@ const coverage = (filters, flag) =>
     return acc;
   }, 0);
 
-exports.byColour = (filtered, filters) =>
+export const byColour = (filtered, filters) =>
   filtered.sort((flagA, flagB) => {
     const coverageA = coverage(filters, flagA);
     const coverageB = coverage(filters, flagB);
@@ -17,12 +17,12 @@ exports.byColour = (filtered, filters) =>
     }
   });
 
-exports.byName = (filtered) =>
+export const byName = (filtered) =>
   filtered.sort((a, b) =>
     a.country.toLowerCase().localeCompare(b.country.toLowerCase())
   );
 
-exports.byAdoption = (filtered) =>
+export const byAdoption = (filtered) =>
   (filtered = filtered.sort((a, b) =>
     a.adoption.sort > b.adoption.sort ? 1 : -1
   ));
@@ -32,10 +32,12 @@ const ratio = (ratio) => {
   return parseFloat(parts[0]) / parseFloat(parts[1]);
 };
 
-exports.byRatio = (filtered) =>
+export const byRatio = (filtered) =>
   filtered.sort((a, b) => {
     const aRatio = ratio(a.ratio);
     const bRatio = ratio(b.ratio);
 
     return bRatio - aRatio;
   });
+
+export default { byColour, byName, byAdoption, byRatio };

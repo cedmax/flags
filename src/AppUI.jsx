@@ -9,7 +9,7 @@ import NavSearch from "./components/NavSearch";
 import NavSize from "./components/NavSize";
 import NavContinents from "./components/NavContinents";
 import NavFilters from "./components/NavFilters";
-import { ReactComponent as Github } from "./data/octocat.svg";
+import Github from "./data/octocat.svg?react";
 import NavControls from "./components/NavControls";
 import DetailsModal from "./components/DetailsModal";
 import "./App.css";

@@ -5,6 +5,7 @@ import ImageLoader from "./ImageLoader";
 import { action, getDetailsImageSize, getId, getMapUrl } from "../helpers";
 import { getDetailsStyle } from "./modalsStyle";
 import { withContext } from "../store/context";
+import { getFlagUrl } from "../data/flagAssets";
 
 const ChangeType = withContext(
   React.memo(({ url, dispatch, newType }) => (
@@ -31,9 +32,9 @@ const DetailsModal = React.memo(
     const ratio = type === "flag" ? detail.ratio : "1:1";
     const size = useMemo(() => getDetailsImageSize(ratio), [ratio]);
     const flagPath = getId(detail.belongsTo);
-    const flagUrl = require(`../data/flags/${
+    const flagUrl = getFlagUrl(
       detail.belongsTo ? `${flagPath}/${detail.id}` : detail.id
-    }.svg`);
+    );
     const mapUrl = getMapUrl(detail.id);
 
     return (
