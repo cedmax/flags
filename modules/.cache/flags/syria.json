@@ -2,20 +2,20 @@
     "id": "syria",
     "colors": [
         {
-            "hex": "#ce1126",
-            "percent": 33
-        },
-        {
             "hex": "#000000",
             "percent": 33
         },
         {
-            "hex": "#ffffff",
-            "percent": 31
+            "hex": "#007a3d",
+            "percent": 33
         },
         {
-            "hex": "#007a3d",
-            "percent": 2
+            "hex": "#ffffff",
+            "percent": 29
+        },
+        {
+            "hex": "#ce1126",
+            "percent": 4
         }
     ]
 }

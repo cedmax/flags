@@ -62,7 +62,8 @@ const consolidate = (group) => (flags) =>
     }
     const dataKey = group || "world";
     let data = { [dataKey]: flags };
-    const html = fs.readFileSync(`${path}/public/index.html`);
+
+    const html = fs.readFileSync(`${path}/index.html`);
     const { data: newData, html: newHTML } = generateHTML(html, data);
 
     fs.writeFileSync(
@@ -70,7 +71,7 @@ const consolidate = (group) => (flags) =>
       JSON.stringify(newData, null, 4),
       "UTF-8"
     );
-    fs.writeFileSync(`${path}/public/index.html`, newHTML, "UTF-8");
+    fs.writeFileSync(`${path}/index.html`, newHTML, "UTF-8");
     resolve();
   });
 
@@ -122,7 +123,6 @@ module.exports = {
         }
         if (content) {
           console.log(cacheKey, "from cache");
-
           return resolve(merge(flags, content));
         }
       }
@@ -167,7 +167,6 @@ module.exports = {
       }
     ),
   normaliseData: (arrayOfData, key, manualData) =>
-    console.log(arrayOfData) ||
     arrayOfData.reduce((acc, dataItem) => {
       const { id } = dataItem;
       delete dataItem.id;

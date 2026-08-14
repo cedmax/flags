@@ -12,6 +12,7 @@ const fetchData = require("./fetch-data");
 const config = require("./config");
 
 (async () => {
+  // remove sort to in helpers when uncomment the next line
   // await fetchData(fetchWorldFlags, config.world);
   // await fetchData(fetchUsFlags, config.US, "US");
   // await fetchData(fetchJPFlags, config.JP, "JP");
