@@ -1,16 +1,1 @@
-<?xml version="1.0" standalone="no"?>
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 780 520" width="1200" height="800">
-<rect width="780" height="520" fill="#069"/>
-<path stroke="white" stroke-width="40" d="M0,60H780M0,140H780M0,220H780M0,300H780M0,380H780M0,460H780"/>
-<rect width="208" height="520" fill="#d00"/>
-<g fill="white" transform="translate(104,260)scale(91)">
-  <g id="cone">
-    <polygon id="triang" points="0,0 0,1 .5,1" transform="translate(0,-1)rotate(18)"/>
-    <use xlink:href="#triang" transform="scale(-1,1)"/>
-  </g>
-  <use xlink:href="#cone" transform="rotate(72)"/>
-  <use xlink:href="#cone" transform="rotate(-72)"/>
-  <use xlink:href="#cone" transform="rotate(144)"/>
-  <use xlink:href="#cone" transform="rotate(-144)"/>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1200" height="800" viewBox="0 0 780 520"><path fill="#069" d="M0 0h780v520H0z"/><path stroke="#fff" stroke-width="40" d="M0 60h780M0 140h780M0 220h780M0 300h780M0 380h780M0 460h780"/><path fill="#d00" d="M0 0h208v520H0z"/><g fill="#fff" transform="matrix(91 0 0 91 104 260)"><g id="b"><path id="a" d="M0 0v1h.5z" transform="rotate(18 3.157 -.5)"/><use xlink:href="#a" transform="scale(-1 1)"/></g><use xlink:href="#b" transform="rotate(72)"/><use xlink:href="#b" transform="rotate(-72)"/><use xlink:href="#b" transform="rotate(144)"/><use xlink:href="#b" transform="rotate(-144)"/></g></svg>
