@@ -20793,7 +20793,7 @@
             "id": "buenos-aires-city",
             "belongsTo": "Argentina",
             "country": "Buenos Aires City",
-            "url": "/wiki/buenos_aires",
+            "url": "/wiki/Buenos_Aires",
             "ratio": "9:14",
             "map": {},
             "colors": [
@@ -22080,7 +22080,7 @@
             "id": "distrito-federal",
             "belongsTo": "Brazil",
             "country": "Distrito Federal",
-            "url": "/wiki/federal_district_(brazil)",
+            "url": "/wiki/Federal_District_(Brazil)",
             "ratio": "13:18",
             "map": {},
             "colors": [
@@ -23646,7 +23646,7 @@
             "id": "bogota",
             "belongsTo": "Colombia",
             "country": "Bogotá",
-            "url": "/wiki/bogotá",
+            "url": "/wiki/Bogot%C3%A1",
             "ratio": "2:3",
             "map": {},
             "colors": [
@@ -25608,7 +25608,7 @@
             "id": "caracas",
             "belongsTo": "Venezuela",
             "country": "Caracas",
-            "url": "/wiki/caracas",
+            "url": "/wiki/Caracas",
             "ratio": "2:3",
             "map": {},
             "colors": [
@@ -25835,7 +25835,7 @@
             "id": "la-guaira",
             "belongsTo": "Venezuela",
             "country": "La Guaira",
-            "url": "/wiki/la_guaira_state",
+            "url": "/wiki/La_Guaira_State",
             "ratio": "2:3",
             "map": {},
             "colors": [
