@@ -1,0 +1,29 @@
+{
+    "id": "lavalleja",
+    "colors": [
+        {
+            "hex": "#00609e",
+            "percent": 33
+        },
+        {
+            "hex": "#db2926",
+            "percent": 33
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 22
+        },
+        {
+            "hex": "#007834",
+            "percent": 8
+        },
+        {
+            "hex": "#201b18",
+            "percent": 1
+        },
+        {
+            "hex": "#fdbe02",
+            "percent": 1
+        }
+    ]
+}

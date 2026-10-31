@@ -1,0 +1,25 @@
+{
+    "id": "treinta-y-tres",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 60
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 24
+        },
+        {
+            "hex": "#e4bc00",
+            "percent": 12
+        },
+        {
+            "hex": "#078930",
+            "percent": 1
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

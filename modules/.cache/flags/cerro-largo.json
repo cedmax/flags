@@ -1,0 +1,13 @@
+{
+    "id": "cerro-largo",
+    "colors": [
+        {
+            "hex": "#003685",
+            "percent": 57
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 43
+        }
+    ]
+}

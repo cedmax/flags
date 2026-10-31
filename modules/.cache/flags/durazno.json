@@ -1,0 +1,17 @@
+{
+    "id": "durazno",
+    "colors": [
+        {
+            "hex": "#003685",
+            "percent": 89
+        },
+        {
+            "hex": "#ffcc00",
+            "percent": 5
+        },
+        {
+            "hex": "#009dd9",
+            "percent": 4
+        }
+    ]
+}

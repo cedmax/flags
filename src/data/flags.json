@@ -20790,6 +20790,486 @@
     ],
     "SAM": [
         {
+            "id": "artigas",
+            "belongsTo": "Uruguay",
+            "country": "Artigas",
+            "url": "/wiki/Artigas_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 59,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#333399",
+                    "percent": 26,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#cc3333",
+                    "percent": 14,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "canelones",
+            "belongsTo": "Uruguay",
+            "country": "Canelones",
+            "url": "/wiki/Canelones_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#db241c",
+                    "percent": 37,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#015198",
+                    "percent": 29,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "red",
+                "white",
+                "cyan"
+            ]
+        },
+        {
+            "id": "cerro-largo",
+            "belongsTo": "Uruguay",
+            "country": "Cerro Largo",
+            "url": "/wiki/Cerro_Largo_Department",
+            "ratio": "7:10",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#003685",
+                    "percent": 57,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 43,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white"
+            ]
+        },
+        {
+            "id": "colonia",
+            "belongsTo": "Uruguay",
+            "country": "Colonia",
+            "url": "/wiki/Colonia_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 90,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 6,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 2,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "cyan",
+                "red"
+            ]
+        },
+        {
+            "id": "durazno",
+            "belongsTo": "Uruguay",
+            "country": "Durazno",
+            "url": "/wiki/Durazno_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#003685",
+                    "percent": 89,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#009dd9",
+                    "percent": 4,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "cyan"
+            ]
+        },
+        {
+            "id": "lavalleja",
+            "belongsTo": "Uruguay",
+            "country": "Lavalleja",
+            "url": "/wiki/Lavalleja_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00609e",
+                    "percent": 33,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#db2926",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 22,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#007834",
+                    "percent": 8,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#201b18",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fdbe02",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "paysandu",
+            "belongsTo": "Uruguay",
+            "country": "Paysandú",
+            "url": "/wiki/Paysand%C3%BA_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 46,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#023886",
+                    "percent": 32,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#cd071c",
+                    "percent": 15,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#4e416c",
+                    "percent": 2,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "rocha",
+            "belongsTo": "Uruguay",
+            "country": "Rocha",
+            "url": "/wiki/Rocha_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 34,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#003984",
+                    "percent": 32,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#dc1f16",
+                    "percent": 26,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#f2f2f2",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#7f9e6a",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "red",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "rio-negro",
+            "belongsTo": "Uruguay",
+            "country": "Río Negro",
+            "url": "/wiki/R%C3%ADo_Negro_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#003984",
+                    "percent": 60,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 33,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#009cd8",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "cyan",
+                "black",
+                "yellow"
+            ]
+        },
+        {
+            "id": "salto",
+            "belongsTo": "Uruguay",
+            "country": "Salto",
+            "url": "/wiki/Salto_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#003685",
+                    "percent": 80,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fafdff",
+                    "percent": 9,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cde7fe",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#e3b600",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#25256b",
+                    "percent": 1,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "san-jose",
+            "belongsTo": "Uruguay",
+            "country": "San José",
+            "url": "/wiki/San_Jos%C3%A9_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#5274b3",
+                    "percent": 45,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#b43232",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#776600",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "blue",
+                "red",
+                "yellow",
+                "black",
+                "white"
+            ]
+        },
+        {
+            "id": "soriano",
+            "belongsTo": "Uruguay",
+            "country": "Soriano",
+            "url": "/wiki/Soriano_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#5274b3",
+                    "percent": 47,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 27,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#b43232",
+                    "percent": 23,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#010101",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "red",
+                "black"
+            ]
+        },
+        {
+            "id": "treinta-y-tres",
+            "belongsTo": "Uruguay",
+            "country": "Treinta y Tres",
+            "url": "/wiki/Treinta_y_Tres_Department",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 60,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#e4bc00",
+                    "percent": 12,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "yellow",
+                "green",
+                "black"
+            ]
+        },
+        {
             "id": "buenos-aires-city",
             "belongsTo": "Argentina",
             "country": "Buenos Aires City",

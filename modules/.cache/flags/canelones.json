@@ -1,0 +1,17 @@
+{
+    "id": "canelones",
+    "colors": [
+        {
+            "hex": "#db241c",
+            "percent": 37
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 33
+        },
+        {
+            "hex": "#015198",
+            "percent": 29
+        }
+    ]
+}
