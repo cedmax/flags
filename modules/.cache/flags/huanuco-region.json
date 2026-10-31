@@ -1,0 +1,13 @@
+{
+    "id": "huanuco-region",
+    "colors": [
+        {
+            "hex": "#047c4c",
+            "percent": 50
+        },
+        {
+            "hex": "#fbfbcb",
+            "percent": 50
+        }
+    ]
+}

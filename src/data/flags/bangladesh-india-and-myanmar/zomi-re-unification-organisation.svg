@@ -1,6 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360">
-  <path fill="#da2921" d="M0,0h540v360H0z" />
-  <path stroke="#fff300" stroke-width="120" d="M0,180h540M270,0v360" />
-  <path stroke="#009942" stroke-width="60" d="M0,180h540M270,0v360" />
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="360"><path fill="#da2921" d="M0 0h540v360H0z"/><path stroke="#fff300" stroke-width="120" d="M0 180h540M270 0v360"/><path stroke="#009942" stroke-width="60" d="M0 180h540M270 0v360"/></svg>

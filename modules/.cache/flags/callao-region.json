@@ -1,0 +1,17 @@
+{
+    "id": "callao-region",
+    "colors": [
+        {
+            "hex": "#89c5e3",
+            "percent": 93
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 2
+        }
+    ]
+}

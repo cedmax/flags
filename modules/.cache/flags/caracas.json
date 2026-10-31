@@ -1,0 +1,17 @@
+{
+    "id": "caracas",
+    "colors": [
+        {
+            "hex": "#d62628",
+            "percent": 50
+        },
+        {
+            "hex": "#148c44",
+            "percent": 26
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        }
+    ]
+}

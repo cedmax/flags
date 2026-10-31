@@ -1,0 +1,33 @@
+{
+    "id": "ucayali-region",
+    "colors": [
+        {
+            "hex": "#008000",
+            "percent": 33
+        },
+        {
+            "hex": "#ff2a2a",
+            "percent": 30
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 23
+        },
+        {
+            "hex": "#001aff",
+            "percent": 3
+        },
+        {
+            "hex": "#caeeee",
+            "percent": 3
+        },
+        {
+            "hex": "#2c89a0",
+            "percent": 1
+        },
+        {
+            "hex": "#96ddb8",
+            "percent": 1
+        }
+    ]
+}

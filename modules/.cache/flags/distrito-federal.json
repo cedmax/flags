@@ -1,0 +1,17 @@
+{
+    "id": "distrito-federal",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 84
+        },
+        {
+            "hex": "#00b241",
+            "percent": 12
+        },
+        {
+            "hex": "#feb81c",
+            "percent": 4
+        }
+    ]
+}

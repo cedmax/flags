@@ -1,0 +1,25 @@
+{
+    "id": "puno-region",
+    "colors": [
+        {
+            "hex": "#0917d3",
+            "percent": 89
+        },
+        {
+            "hex": "#000156",
+            "percent": 3
+        },
+        {
+            "hex": "#0b8b1b",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#ffdd00",
+            "percent": 1
+        }
+    ]
+}
