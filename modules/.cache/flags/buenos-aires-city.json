@@ -1,0 +1,17 @@
+{
+    "id": "buenos-aires-city",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 90
+        },
+        {
+            "hex": "#454545",
+            "percent": 1
+        },
+        {
+            "hex": "#3c3c3c",
+            "percent": 1
+        }
+    ]
+}

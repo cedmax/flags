@@ -20790,6 +20790,35 @@
     ],
     "SAM": [
         {
+            "id": "buenos-aires-city",
+            "belongsTo": "Argentina",
+            "country": "Buenos Aires City",
+            "url": "/wiki/buenos_aires",
+            "ratio": "9:14",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 90,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#454545",
+                    "percent": 1,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#3c3c3c",
+                    "percent": 1,
+                    "tag": "gray"
+                }
+            ],
+            "tags": [
+                "white",
+                "gray"
+            ]
+        },
+        {
             "id": "buenos-aires-province",
             "belongsTo": "Argentina",
             "country": "Buenos Aires Province",
@@ -22045,6 +22074,36 @@
                 "green",
                 "yellow",
                 "white"
+            ]
+        },
+        {
+            "id": "distrito-federal",
+            "belongsTo": "Brazil",
+            "country": "Distrito Federal",
+            "url": "/wiki/federal_district_(brazil)",
+            "ratio": "13:18",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 84,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00b241",
+                    "percent": 12,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#feb81c",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow"
             ]
         },
         {
@@ -23581,6 +23640,42 @@
             "tags": [
                 "white",
                 "red"
+            ]
+        },
+        {
+            "id": "bogota",
+            "belongsTo": "Colombia",
+            "country": "Bogotá",
+            "url": "/wiki/bogotá",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 47,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 45,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 5,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 2,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "red",
+                "blue",
+                "black"
             ]
         },
         {
@@ -25510,6 +25605,36 @@
             ]
         },
         {
+            "id": "caracas",
+            "belongsTo": "Venezuela",
+            "country": "Caracas",
+            "url": "/wiki/caracas",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#d62628",
+                    "percent": 50,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#148c44",
+                    "percent": 26,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "white"
+            ]
+        },
+        {
             "id": "cojedes",
             "belongsTo": "Venezuela",
             "country": "Cojedes",
@@ -25704,6 +25829,42 @@
                 "blue",
                 "white",
                 "yellow"
+            ]
+        },
+        {
+            "id": "la-guaira",
+            "belongsTo": "Venezuela",
+            "country": "La Guaira",
+            "url": "/wiki/la_guaira_state",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 52,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#00247d",
+                    "percent": 24,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc00",
+                    "percent": 13,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#cf142b",
+                    "percent": 9,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "white",
+                "blue",
+                "yellow",
+                "red"
             ]
         },
         {
@@ -26059,42 +26220,6 @@
                 "red",
                 "black",
                 "green"
-            ]
-        },
-        {
-            "id": "vargas",
-            "belongsTo": "Venezuela",
-            "country": "Vargas",
-            "url": "/wiki/vargas,_venezuela",
-            "ratio": "2:3",
-            "map": {},
-            "colors": [
-                {
-                    "hex": "#ffffff",
-                    "percent": 52,
-                    "tag": "white"
-                },
-                {
-                    "hex": "#00247d",
-                    "percent": 24,
-                    "tag": "blue"
-                },
-                {
-                    "hex": "#ffcc00",
-                    "percent": 13,
-                    "tag": "yellow"
-                },
-                {
-                    "hex": "#cf142b",
-                    "percent": 9,
-                    "tag": "red"
-                }
-            ],
-            "tags": [
-                "white",
-                "blue",
-                "yellow",
-                "red"
             ]
         },
         {
