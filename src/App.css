@@ -381,7 +381,11 @@ button-primary.active {
 }
 
 .flag-title {
-  margin: auto 0 1.2rem;
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin: auto 10px auto 0;
   text-align: left;
 }
 

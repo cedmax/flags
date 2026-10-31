@@ -4,7 +4,7 @@ import { action, getMapUrl } from "../helpers";
 import { withContext } from "../store/context";
 
 const FlagActions = withContext(
-  React.memo(({ id, country, dispatch }) => (
+  React.memo(({ id, dispatch }) => (
     <small>
       <Link
         to={`/?detail=${id}&detailView=flag`}
@@ -18,9 +18,6 @@ const FlagActions = withContext(
         }
       >
         zoom
-      </Link>{" "}
-      <Link to={`https://en.wikipedia.org/wiki/${country.replace(/\s/g, "_")}`}>
-        wiki
       </Link>
     </small>
   ))
@@ -59,7 +56,7 @@ const DetailsHeader = React.memo(({ flag, active, disableMap }) => {
       </div>
       <div className="flag-title">
         <h3>{flag.country}</h3>
-        <FlagActions country={flag.country} id={flag.id} />
+        <FlagActions id={flag.id} />
       </div>
     </div>
   );
