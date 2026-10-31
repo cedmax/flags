@@ -1,0 +1,21 @@
+{
+    "id": "junin-region",
+    "colors": [
+        {
+            "hex": "#0d48af",
+            "percent": 59
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 19
+        },
+        {
+            "hex": "#256f20",
+            "percent": 17
+        },
+        {
+            "hex": "#f5dc16",
+            "percent": 4
+        }
+    ]
+}

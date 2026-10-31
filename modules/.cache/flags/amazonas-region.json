@@ -1,0 +1,29 @@
+{
+    "id": "amazonas-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 55
+        },
+        {
+            "hex": "#078930",
+            "percent": 17
+        },
+        {
+            "hex": "#da121a",
+            "percent": 17
+        },
+        {
+            "hex": "#85c226",
+            "percent": 3
+        },
+        {
+            "hex": "#c1c1c1",
+            "percent": 2
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

@@ -25232,6 +25232,555 @@
             ]
         },
         {
+            "id": "amazonas-region",
+            "belongsTo": "Peru",
+            "country": "Amazonas Region",
+            "url": "/wiki/Amazonas_Region",
+            "ratio": "3:5",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 55,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#078930",
+                    "percent": 17,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 17,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#85c226",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#c1c1c1",
+                    "percent": 2,
+                    "tag": "gray"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "red",
+                "yellow",
+                "gray",
+                "black"
+            ]
+        },
+        {
+            "id": "ancash-region",
+            "belongsTo": "Peru",
+            "country": "Ancash Region",
+            "url": "/wiki/Ancash_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#1f4eae",
+                    "percent": 90,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffcc29",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#9dcbec",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ed3237",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "blue",
+                "yellow",
+                "cyan",
+                "red"
+            ]
+        },
+        {
+            "id": "apurimac-region",
+            "belongsTo": "Peru",
+            "country": "Apurímac Region",
+            "url": "/wiki/Apur%C3%ADmac_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 56,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#01a95e",
+                    "percent": 5,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcc32b",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e4252d",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#6d5da8",
+                    "percent": 5,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#3b4092",
+                    "percent": 5,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f18733",
+                    "percent": 5,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fff112",
+                    "percent": 5,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#f60100",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#94d521",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#d2d2d2",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#8bd9ff",
+                    "percent": 1,
+                    "tag": "cyan"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow",
+                "red",
+                "blue",
+                "cyan"
+            ]
+        },
+        {
+            "id": "arequipa-region",
+            "belongsTo": "Peru",
+            "country": "Arequipa Region",
+            "url": "/wiki/Arequipa_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#a40d13",
+                    "percent": 88,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 3,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#e5b758",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ec1b24",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "red",
+                "cyan",
+                "yellow"
+            ]
+        },
+        {
+            "id": "ayacucho-region",
+            "belongsTo": "Peru",
+            "country": "Ayacucho Region",
+            "url": "/wiki/Ayacucho_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 87,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#07830c",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "yellow",
+                "blue",
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "cajamarca-region",
+            "belongsTo": "Peru",
+            "country": "Cajamarca Region",
+            "url": "/wiki/Cajamarca_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 89,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 3,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "red",
+                "blue",
+                "yellow"
+            ]
+        },
+        {
+            "id": "callao-region",
+            "belongsTo": "Peru",
+            "country": "Callao Region",
+            "url": "/wiki/Callao_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 93,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "cusco-region",
+            "belongsTo": "Peru",
+            "country": "Cusco Region",
+            "url": "/wiki/Cusco_Region",
+            "ratio": "4:7",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#7e2467",
+                    "percent": 14,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#0045b6",
+                    "percent": 14,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#fc7000",
+                    "percent": 14,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ee0000",
+                    "percent": 14,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#77c6e6",
+                    "percent": 12,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ffdd00",
+                    "percent": 12,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#008c1d",
+                    "percent": 11,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffde00",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#fad100",
+                    "percent": 2,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "magenta",
+                "blue",
+                "red",
+                "cyan",
+                "yellow",
+                "green"
+            ]
+        },
+        {
+            "id": "huancavelica-region",
+            "belongsTo": "Peru",
+            "country": "Huancavelica Region",
+            "url": "/wiki/Huancavelica_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#89c5e3",
+                    "percent": 88,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 3,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#0f47af",
+                    "percent": 2,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#a05a2c",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "yellow",
+                "white",
+                "blue",
+                "red"
+            ]
+        },
+        {
+            "id": "huanuco-region",
+            "belongsTo": "Peru",
+            "country": "Huánuco Region",
+            "url": "/wiki/Hu%C3%A1nuco_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#047c4c",
+                    "percent": 50,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fbfbcb",
+                    "percent": 50,
+                    "tag": "white"
+                }
+            ],
+            "tags": [
+                "green",
+                "white"
+            ]
+        },
+        {
+            "id": "junin-region",
+            "belongsTo": "Peru",
+            "country": "Junín Region",
+            "url": "/wiki/Jun%C3%ADn_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0d48af",
+                    "percent": 59,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 19,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#256f20",
+                    "percent": 17,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f5dc16",
+                    "percent": 4,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "white",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "la-libertad-region",
+            "belongsTo": "Peru",
+            "country": "La Libertad Region",
+            "url": "/wiki/La_Libertad_Region",
+            "ratio": "23:40",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 80,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#008f4c",
+                    "percent": 2,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fcdd09",
+                    "percent": 2,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#eb7711",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#d40000",
+                    "percent": 2,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#39a7db",
+                    "percent": 2,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#722a63",
+                    "percent": 2,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#0071bc",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#ed1c24",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#eac102",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "green",
+                "yellow",
+                "red",
+                "cyan",
+                "magenta"
+            ]
+        },
+        {
             "id": "lambayeque-region",
             "belongsTo": "Peru",
             "country": "Lambayeque Region",
@@ -25297,6 +25846,104 @@
             ]
         },
         {
+            "id": "lima-region",
+            "belongsTo": "Peru",
+            "country": "Lima Region",
+            "url": "/wiki/Lima_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ffffff",
+                    "percent": 90,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#d66b31",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#973f25",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#a82980",
+                    "percent": 1,
+                    "tag": "magenta"
+                },
+                {
+                    "hex": "#0a8b3f",
+                    "percent": 1,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#b3c829",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#1895d3",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#c61320",
+                    "percent": 1,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#13248f",
+                    "percent": 1,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#f3d620",
+                    "percent": 1,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#e8c018",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "magenta",
+                "green",
+                "yellow",
+                "cyan",
+                "blue"
+            ]
+        },
+        {
+            "id": "loreto-region",
+            "belongsTo": "Peru",
+            "country": "Loreto Region",
+            "url": "/wiki/Loreto_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#005b00",
+                    "percent": 94,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffff01",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "green",
+                "yellow"
+            ]
+        },
+        {
             "id": "madre-de-dios-region",
             "belongsTo": "Peru",
             "country": "Madre de Dios Region",
@@ -25318,6 +25965,36 @@
             "tags": [
                 "green",
                 "yellow"
+            ]
+        },
+        {
+            "id": "moquegua-region",
+            "belongsTo": "Peru",
+            "country": "Moquegua Region",
+            "url": "/wiki/Moquegua_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#ff0000",
+                    "percent": 33,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#097209",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#1616b7",
+                    "percent": 33,
+                    "tag": "blue"
+                }
+            ],
+            "tags": [
+                "red",
+                "green",
+                "blue"
             ]
         },
         {
@@ -25348,6 +26025,242 @@
                 "yellow",
                 "green",
                 "red"
+            ]
+        },
+        {
+            "id": "piura-region",
+            "belongsTo": "Peru",
+            "country": "Piura Region",
+            "url": "/wiki/Piura_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fefffe",
+                    "percent": 58,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#cb0000",
+                    "percent": 35,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#007c2f",
+                    "percent": 6,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#fed700",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "white",
+                "red",
+                "green",
+                "yellow"
+            ]
+        },
+        {
+            "id": "puno-region",
+            "belongsTo": "Peru",
+            "country": "Puno Region",
+            "url": "/wiki/Puno_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#0917d3",
+                    "percent": 89,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#000156",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#0b8b1b",
+                    "percent": 3,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 2,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#ffdd00",
+                    "percent": 1,
+                    "tag": "yellow"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "white",
+                "yellow"
+            ]
+        },
+        {
+            "id": "san-martin-region",
+            "belongsTo": "Peru",
+            "country": "San Martín Region",
+            "url": "/wiki/San_Mart%C3%ADn_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#2db8ef",
+                    "percent": 48,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#28a736",
+                    "percent": 21,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#f07d00",
+                    "percent": 18,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 8,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#114d29",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "cyan",
+                "green",
+                "yellow",
+                "white"
+            ]
+        },
+        {
+            "id": "tacna-region",
+            "belongsTo": "Peru",
+            "country": "Tacna Region",
+            "url": "/wiki/Tacna_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#fcdd09",
+                    "percent": 94,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 1,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#da121a",
+                    "percent": 1,
+                    "tag": "red"
+                }
+            ],
+            "tags": [
+                "yellow",
+                "white",
+                "red"
+            ]
+        },
+        {
+            "id": "tumbes-region",
+            "belongsTo": "Peru",
+            "country": "Tumbes Region",
+            "url": "/wiki/Tumbes_Region",
+            "ratio": "2:3",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#00319c",
+                    "percent": 52,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#009c31",
+                    "percent": 23,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ffce00",
+                    "percent": 23,
+                    "tag": "yellow"
+                },
+                {
+                    "hex": "#000000",
+                    "percent": 1,
+                    "tag": "black"
+                }
+            ],
+            "tags": [
+                "blue",
+                "green",
+                "yellow",
+                "black"
+            ]
+        },
+        {
+            "id": "ucayali-region",
+            "belongsTo": "Peru",
+            "country": "Ucayali Region",
+            "url": "/wiki/Ucayali_Region",
+            "ratio": "1:2",
+            "map": {},
+            "colors": [
+                {
+                    "hex": "#008000",
+                    "percent": 33,
+                    "tag": "green"
+                },
+                {
+                    "hex": "#ff2a2a",
+                    "percent": 30,
+                    "tag": "red"
+                },
+                {
+                    "hex": "#ffffff",
+                    "percent": 23,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#001aff",
+                    "percent": 3,
+                    "tag": "blue"
+                },
+                {
+                    "hex": "#caeeee",
+                    "percent": 3,
+                    "tag": "white"
+                },
+                {
+                    "hex": "#2c89a0",
+                    "percent": 1,
+                    "tag": "cyan"
+                },
+                {
+                    "hex": "#96ddb8",
+                    "percent": 1,
+                    "tag": "green"
+                }
+            ],
+            "tags": [
+                "green",
+                "red",
+                "white",
+                "blue",
+                "cyan"
             ]
         },
         {

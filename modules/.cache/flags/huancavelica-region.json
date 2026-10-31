@@ -1,0 +1,29 @@
+{
+    "id": "huancavelica-region",
+    "colors": [
+        {
+            "hex": "#89c5e3",
+            "percent": 88
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 3
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 2
+        },
+        {
+            "hex": "#0f47af",
+            "percent": 2
+        },
+        {
+            "hex": "#a05a2c",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        }
+    ]
+}

@@ -1,0 +1,49 @@
+{
+    "id": "lima-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 90
+        },
+        {
+            "hex": "#d66b31",
+            "percent": 1
+        },
+        {
+            "hex": "#973f25",
+            "percent": 1
+        },
+        {
+            "hex": "#a82980",
+            "percent": 1
+        },
+        {
+            "hex": "#0a8b3f",
+            "percent": 1
+        },
+        {
+            "hex": "#b3c829",
+            "percent": 1
+        },
+        {
+            "hex": "#1895d3",
+            "percent": 1
+        },
+        {
+            "hex": "#c61320",
+            "percent": 1
+        },
+        {
+            "hex": "#13248f",
+            "percent": 1
+        },
+        {
+            "hex": "#f3d620",
+            "percent": 1
+        },
+        {
+            "hex": "#e8c018",
+            "percent": 1
+        }
+    ]
+}

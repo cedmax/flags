@@ -1,0 +1,41 @@
+{
+    "id": "cusco-region",
+    "colors": [
+        {
+            "hex": "#7e2467",
+            "percent": 14
+        },
+        {
+            "hex": "#0045b6",
+            "percent": 14
+        },
+        {
+            "hex": "#fc7000",
+            "percent": 14
+        },
+        {
+            "hex": "#ee0000",
+            "percent": 14
+        },
+        {
+            "hex": "#77c6e6",
+            "percent": 12
+        },
+        {
+            "hex": "#ffdd00",
+            "percent": 12
+        },
+        {
+            "hex": "#008c1d",
+            "percent": 11
+        },
+        {
+            "hex": "#ffde00",
+            "percent": 3
+        },
+        {
+            "hex": "#fad100",
+            "percent": 2
+        }
+    ]
+}

@@ -1,0 +1,13 @@
+{
+    "id": "loreto-region",
+    "colors": [
+        {
+            "hex": "#005b00",
+            "percent": 94
+        },
+        {
+            "hex": "#ffff01",
+            "percent": 1
+        }
+    ]
+}

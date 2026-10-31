@@ -1,0 +1,17 @@
+{
+    "id": "moquegua-region",
+    "colors": [
+        {
+            "hex": "#ff0000",
+            "percent": 33
+        },
+        {
+            "hex": "#097209",
+            "percent": 33
+        },
+        {
+            "hex": "#1616b7",
+            "percent": 33
+        }
+    ]
+}

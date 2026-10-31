@@ -1,0 +1,21 @@
+{
+    "id": "tumbes-region",
+    "colors": [
+        {
+            "hex": "#00319c",
+            "percent": 52
+        },
+        {
+            "hex": "#009c31",
+            "percent": 23
+        },
+        {
+            "hex": "#ffce00",
+            "percent": 23
+        },
+        {
+            "hex": "#000000",
+            "percent": 1
+        }
+    ]
+}

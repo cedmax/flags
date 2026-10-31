@@ -1,0 +1,25 @@
+{
+    "id": "san-martin-region",
+    "colors": [
+        {
+            "hex": "#2db8ef",
+            "percent": 48
+        },
+        {
+            "hex": "#28a736",
+            "percent": 21
+        },
+        {
+            "hex": "#f07d00",
+            "percent": 18
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 8
+        },
+        {
+            "hex": "#114d29",
+            "percent": 1
+        }
+    ]
+}

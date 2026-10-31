@@ -1,0 +1,17 @@
+{
+    "id": "tacna-region",
+    "colors": [
+        {
+            "hex": "#fcdd09",
+            "percent": 94
+        },
+        {
+            "hex": "#ffffff",
+            "percent": 1
+        },
+        {
+            "hex": "#da121a",
+            "percent": 1
+        }
+    ]
+}

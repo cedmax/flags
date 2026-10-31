@@ -1,0 +1,21 @@
+{
+    "id": "piura-region",
+    "colors": [
+        {
+            "hex": "#fefffe",
+            "percent": 58
+        },
+        {
+            "hex": "#cb0000",
+            "percent": 35
+        },
+        {
+            "hex": "#007c2f",
+            "percent": 6
+        },
+        {
+            "hex": "#fed700",
+            "percent": 1
+        }
+    ]
+}

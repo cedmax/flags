@@ -1,0 +1,21 @@
+{
+    "id": "ancash-region",
+    "colors": [
+        {
+            "hex": "#1f4eae",
+            "percent": 90
+        },
+        {
+            "hex": "#ffcc29",
+            "percent": 3
+        },
+        {
+            "hex": "#9dcbec",
+            "percent": 2
+        },
+        {
+            "hex": "#ed3237",
+            "percent": 1
+        }
+    ]
+}

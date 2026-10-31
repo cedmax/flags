@@ -1,0 +1,45 @@
+{
+    "id": "la-libertad-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 80
+        },
+        {
+            "hex": "#008f4c",
+            "percent": 2
+        },
+        {
+            "hex": "#fcdd09",
+            "percent": 2
+        },
+        {
+            "hex": "#eb7711",
+            "percent": 2
+        },
+        {
+            "hex": "#d40000",
+            "percent": 2
+        },
+        {
+            "hex": "#39a7db",
+            "percent": 2
+        },
+        {
+            "hex": "#722a63",
+            "percent": 2
+        },
+        {
+            "hex": "#0071bc",
+            "percent": 1
+        },
+        {
+            "hex": "#ed1c24",
+            "percent": 1
+        },
+        {
+            "hex": "#eac102",
+            "percent": 1
+        }
+    ]
+}

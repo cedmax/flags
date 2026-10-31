@@ -1,0 +1,53 @@
+{
+    "id": "apurimac-region",
+    "colors": [
+        {
+            "hex": "#ffffff",
+            "percent": 56
+        },
+        {
+            "hex": "#01a95e",
+            "percent": 5
+        },
+        {
+            "hex": "#fcc32b",
+            "percent": 5
+        },
+        {
+            "hex": "#e4252d",
+            "percent": 5
+        },
+        {
+            "hex": "#6d5da8",
+            "percent": 5
+        },
+        {
+            "hex": "#3b4092",
+            "percent": 5
+        },
+        {
+            "hex": "#f18733",
+            "percent": 5
+        },
+        {
+            "hex": "#fff112",
+            "percent": 5
+        },
+        {
+            "hex": "#f60100",
+            "percent": 1
+        },
+        {
+            "hex": "#94d521",
+            "percent": 1
+        },
+        {
+            "hex": "#d2d2d2",
+            "percent": 1
+        },
+        {
+            "hex": "#8bd9ff",
+            "percent": 1
+        }
+    ]
+}
