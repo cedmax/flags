@@ -9,7 +9,6 @@ const groups = {
     "Peru",
     "Venezuela",
     "Ecuador",
-    "Uruguay",
   ],
   FIGS: ["Germany", "Italy", "Spain", "France"],
   CH: ["Switzerland"],
